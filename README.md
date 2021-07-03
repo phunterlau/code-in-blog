@@ -1,2 +1,2 @@
 # code-in-blog
-all code examples in the blog posts
+all code examples in the blog posts <https://toooold.com/>
