@@ -78,6 +78,7 @@ class GhostHeatmap:
         
         return activities
     
+    # most credit to Chip Huyen's code https://github.com/chiphuyen/aie-book/blob/main/scripts/ai-heatmap.ipynb
     def create_heatmap(self, data, output_file="ghost_heatmap.png"):
         """Create calendar heatmap visualization"""
         # Calculate date range
