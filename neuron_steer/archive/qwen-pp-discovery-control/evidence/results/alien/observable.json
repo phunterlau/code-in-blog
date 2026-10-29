@@ -1,0 +1,18 @@
+{
+  "target_ids": [
+    18995,
+    53461
+  ],
+  "control_ids": [
+    14791,
+    15015
+  ],
+  "target_text": [
+    " alien",
+    "alien"
+  ],
+  "control_text": [
+    " AI",
+    "AI"
+  ]
+}

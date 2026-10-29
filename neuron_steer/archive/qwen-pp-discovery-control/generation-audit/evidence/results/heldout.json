@@ -1,0 +1,4130 @@
+{
+  "baseline": {
+    "recipe": null,
+    "target": [
+      {
+        "id": "genaudit-2",
+        "text": "the brass key lay beneath the cushion.",
+        "tokens": [
+          1719,
+          34844,
+          1328,
+          10641,
+          23221,
+          279,
+          43158,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "genaudit-3",
+        "text": "four bright shells lined the window.",
+        "tokens": [
+          32897,
+          9613,
+          41535,
+          30265,
+          279,
+          3136,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "genaudit-4",
+        "text": "a gentle wind shook the apple tree.",
+        "tokens": [
+          64,
+          21030,
+          9662,
+          33757,
+          279,
+          22544,
+          4757,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "genaudit-5",
+        "text": "the baker placed bread near the oven.",
+        "tokens": [
+          1719,
+          73237,
+          8826,
+          15530,
+          3043,
+          279,
+          22660,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "genaudit-6",
+        "text": "blue ribbons hung from the small basket.",
+        "tokens": [
+          11855,
+          19518,
+          44966,
+          17750,
+          494,
+          279,
+          2526,
+          13621,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 10,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "genaudit-7",
+        "text": "a calm pony stood beside the barn.",
+        "tokens": [
+          64,
+          18717,
+          50864,
+          14217,
+          28428,
+          279,
+          31253,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "genaudit-8",
+        "text": "warm light entered through the doorway.",
+        "tokens": [
+          79750,
+          3000,
+          10321,
+          1472,
+          279,
+          67011,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "genaudit-9",
+        "text": "the tall grass waved along the trail.",
+        "tokens": [
+          1719,
+          15740,
+          15879,
+          62400,
+          3055,
+          279,
+          8582,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      }
+    ],
+    "protection": [
+      {
+        "id": "gh0",
+        "text": "42",
+        "tokens": [
+          19,
+          17,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": []
+      },
+      {
+        "id": "gh1",
+        "text": "23",
+        "tokens": [
+          17,
+          18,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": []
+      },
+      {
+        "id": "gh2",
+        "text": "saveModelKey",
+        "tokens": [
+          6419,
+          1652,
+          1536,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": []
+      },
+      {
+        "id": "gh3",
+        "text": "row_offset",
+        "tokens": [
+          633,
+          6701,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": []
+      }
+    ]
+  },
+  "public": {
+    "qualified": false,
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": -0.2,
+      "dose": -0.2
+    },
+    "target": [
+      {
+        "id": "genaudit-2",
+        "text": "The BRASS KEY LAY BEHIND THE CUSHION.",
+        "tokens": [
+          760,
+          18235,
+          4780,
+          11671,
+          436,
+          2926,
+          6980,
+          39,
+          5078,
+          3067,
+          351,
+          18924,
+          1226,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 15,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false,
+          "uppercase_fraction": 0.9333333333333333,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260660886764526
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626058042049408
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260659098625183
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260764002799988
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260426640510559
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260573863983154
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260586977005005
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260485053062439
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260689496994019
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260527968406677
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260374188423157
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260601282119751
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260539889335632
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260683536529541
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259828209877014
+          }
+        ]
+      },
+      {
+        "id": "genaudit-3",
+        "text": "four bright shells lined the window.",
+        "tokens": [
+          32897,
+          9613,
+          41535,
+          30265,
+          279,
+          3136,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626058042049408
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626044750213623
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260493993759155
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260578632354736
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260554790496826
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260574460029602
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260490417480469
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259872913360596
+          }
+        ]
+      },
+      {
+        "id": "genaudit-4",
+        "text": "A gentle WIND SHOOK THE APPLE TREE.",
+        "tokens": [
+          32,
+          21030,
+          457,
+          5078,
+          6232,
+          27108,
+          3067,
+          87229,
+          69323,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 11,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.7857142857142857,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260446906089783
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626051127910614
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260510087013245
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260462403297424
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260517835617065
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260502338409424
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260471940040588
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260474920272827
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626060426235199
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260537505149841
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259874105453491
+          }
+        ]
+      },
+      {
+        "id": "genaudit-5",
+        "text": "The BAKER PLACED BREAD NEAR THE OVEN.",
+        "tokens": [
+          760,
+          417,
+          73870,
+          10009,
+          1646,
+          1425,
+          417,
+          9277,
+          7608,
+          905,
+          3067,
+          496,
+          39668,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 15,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true,
+          "uppercase_fraction": 0.9333333333333333,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260536909103394
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260564923286438
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260557770729065
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260554790496826
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260402798652649
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260526776313782
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260512471199036
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260443329811096
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626061737537384
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626042366027832
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260560154914856
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260561943054199
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260563731193542
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260485053062439
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259876489639282
+          }
+        ]
+      },
+      {
+        "id": "genaudit-6",
+        "text": "blue ribbons hung FROM THE SMALL BASKET.",
+        "tokens": [
+          11855,
+          19518,
+          44966,
+          17750,
+          4154,
+          3067,
+          47543,
+          417,
+          7150,
+          1300,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 12,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.5454545454545454,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 29,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260468363761902
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626070499420166
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260629892349243
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260530352592468
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260346174240112
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260693669319153
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260436773300171
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260547041893005
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260505318641663
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260462999343872
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260533332824707
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260011792182922
+          }
+        ]
+      },
+      {
+        "id": "genaudit-7",
+        "text": "A CALM PONY STOOD BESIDE THE BARN.",
+        "tokens": [
+          32,
+          31815,
+          44,
+          387,
+          50520,
+          3796,
+          53395,
+          241728,
+          11799,
+          3067,
+          417,
+          8778,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 14,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true,
+          "uppercase_fraction": 1.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260470747947693
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260528564453125
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260492205619812
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626061201095581
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260517239570618
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626032829284668
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260462999343872
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260703206062317
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260581612586975
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260436177253723
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626055121421814
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260511875152588
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260725855827332
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259907484054565
+          }
+        ]
+      },
+      {
+        "id": "genaudit-8",
+        "text": "warm light entered THROUGH THE DOORWAY.",
+        "tokens": [
+          79750,
+          3000,
+          10321,
+          89899,
+          3067,
+          9043,
+          842,
+          40424,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 10,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.5151515151515151,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260591745376587
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260368824005127
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260656118392944
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260513067245483
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260536909103394
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260460615158081
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260539889335632
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260455846786499
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260582208633423
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259821057319641
+          }
+        ]
+      },
+      {
+        "id": "genaudit-9",
+        "text": "The TALL GRASS WAVED ALONG THE TRAIL.",
+        "tokens": [
+          760,
+          345,
+          3787,
+          14345,
+          4780,
+          85288,
+          1425,
+          8488,
+          7301,
+          3067,
+          4823,
+          5778,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 14,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true,
+          "uppercase_fraction": 0.9333333333333333,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260556578636169
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260545253753662
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260434985160828
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260570883750916
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260520219802856
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260371804237366
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260618567466736
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260563135147095
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260535717010498
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260520815849304
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260577440261841
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260478496551514
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260517239570618
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259974241256714
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "gh0",
+        "text": "42",
+        "tokens": [
+          19,
+          17,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626057505607605
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260700821876526
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260390281677246
+          }
+        ]
+      },
+      {
+        "id": "gh1",
+        "text": "23",
+        "tokens": [
+          17,
+          18,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260598301887512
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260570287704468
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260555386543274
+          }
+        ]
+      },
+      {
+        "id": "gh2",
+        "text": "saveModelKey",
+        "tokens": [
+          6419,
+          1652,
+          1536,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260628700256348
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260491013526917
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260731816291809
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626046359539032
+          }
+        ]
+      },
+      {
+        "id": "gh3",
+        "text": "row_offset",
+        "tokens": [
+          633,
+          6701,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 20,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260530948638916
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260672807693481
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260549426078796
+          }
+        ]
+      }
+    ]
+  },
+  "signed_and_rms_winner": {
+    "qualified": false,
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": 1.5,
+      "dose": 1.5
+    },
+    "target": [
+      {
+        "id": "genaudit-2",
+        "text": "the brass key lay beneath the cushion.",
+        "tokens": [
+          1719,
+          34844,
+          1328,
+          10641,
+          23221,
+          279,
+          43158,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 28,
+            "activation_delta_last": 0.34326171875,
+            "requested_write_norm": 0.12373213388491422
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.4130859375,
+            "requested_write_norm": 0.14890097477473319
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.3779296875,
+            "requested_write_norm": 0.1362285513896495
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.39794921875,
+            "requested_write_norm": 0.14344479248393327
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.36181640625,
+            "requested_write_norm": 0.13042035733815283
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.35009765625,
+            "requested_write_norm": 0.1261962162097916
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.38330078125,
+            "requested_write_norm": 0.13816461607348174
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.160888671875,
+            "requested_write_norm": 0.05799393757479265
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.146484375,
+            "requested_write_norm": 0.052801764104515314
+          }
+        ]
+      },
+      {
+        "id": "genaudit-3",
+        "text": "four bright shells lined the window.",
+        "tokens": [
+          32897,
+          9613,
+          41535,
+          30265,
+          279,
+          3136,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 27,
+            "activation_delta_last": 0.120849609375,
+            "requested_write_norm": 0.043561455386225134
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.40869140625,
+            "requested_write_norm": 0.14731692185159773
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.39453125,
+            "requested_write_norm": 0.14221275132149458
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.33154296875,
+            "requested_write_norm": 0.119507992756553
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.30810546875,
+            "requested_write_norm": 0.11105971049983054
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.3388671875,
+            "requested_write_norm": 0.12214808096177876
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.183837890625,
+            "requested_write_norm": 0.06626621395116672
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.126708984375,
+            "requested_write_norm": 0.04567352595040575
+          }
+        ]
+      },
+      {
+        "id": "genaudit-4",
+        "text": "a gentle wind shook the apple tree.",
+        "tokens": [
+          64,
+          21030,
+          9662,
+          33757,
+          279,
+          22544,
+          4757,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 28,
+            "activation_delta_last": 0.23974609375,
+            "requested_write_norm": 0.08641888725105673
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.3974609375,
+            "requested_write_norm": 0.14326878660358489
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.3544921875,
+            "requested_write_norm": 0.12778026913292706
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.37109375,
+            "requested_write_norm": 0.13376446906477213
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.204345703125,
+            "requested_write_norm": 0.07365846092579886
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.33154296875,
+            "requested_write_norm": 0.119507992756553
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.361328125,
+            "requested_write_norm": 0.13024435145780444
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.1170654296875,
+            "requested_write_norm": 0.042197409813525155
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.018218994140625,
+            "requested_write_norm": 0.006567219410499092
+          }
+        ]
+      },
+      {
+        "id": "genaudit-5",
+        "text": "the baker placed bread near the oven.",
+        "tokens": [
+          1719,
+          73237,
+          8826,
+          15530,
+          3043,
+          279,
+          22660,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 28,
+            "activation_delta_last": 0.31396484375,
+            "requested_write_norm": 0.11317178106401116
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.35400390625,
+            "requested_write_norm": 0.12760426325257868
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.39794921875,
+            "requested_write_norm": 0.14344479248393327
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.35498046875,
+            "requested_write_norm": 0.12795627501327544
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.35888671875,
+            "requested_write_norm": 0.12936432205606252
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.25634765625,
+            "requested_write_norm": 0.0924030871829018
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.33251953125,
+            "requested_write_norm": 0.11986000451724976
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.05816650390625,
+            "requested_write_norm": 0.02096670049650129
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.016204833984375,
+            "requested_write_norm": 0.005841195154062007
+          }
+        ]
+      },
+      {
+        "id": "genaudit-6",
+        "text": "blue ribbons hung from the small basket.",
+        "tokens": [
+          11855,
+          19518,
+          44966,
+          17750,
+          494,
+          279,
+          2526,
+          13621,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 10,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 29,
+            "activation_delta_last": 0.112548828125,
+            "requested_write_norm": 0.0405693554203026
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.4736328125,
+            "requested_write_norm": 0.17072570393793285
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.3828125,
+            "requested_write_norm": 0.13798861019313335
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.4150390625,
+            "requested_write_norm": 0.14960499829612672
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.33935546875,
+            "requested_write_norm": 0.12232408684212714
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.326171875,
+            "requested_write_norm": 0.11757192807272077
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.3818359375,
+            "requested_write_norm": 0.13763659843243659
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.35595703125,
+            "requested_write_norm": 0.1283082867739722
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.1669921875,
+            "requested_write_norm": 0.06019401107914746
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.0919189453125,
+            "requested_write_norm": 0.03313310697558336
+          }
+        ]
+      },
+      {
+        "id": "genaudit-7",
+        "text": "a calm pony stood beside the barn.",
+        "tokens": [
+          64,
+          18717,
+          50864,
+          14217,
+          28428,
+          279,
+          31253,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 28,
+            "activation_delta_last": 0.27099609375,
+            "requested_write_norm": 0.09768326359335333
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.396484375,
+            "requested_write_norm": 0.14291677484288812
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.35498046875,
+            "requested_write_norm": 0.12795627501327544
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.4111328125,
+            "requested_write_norm": 0.14819695125333965
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.39208984375,
+            "requested_write_norm": 0.14133272191975266
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.3896484375,
+            "requested_write_norm": 0.14045269251801074
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.39794921875,
+            "requested_write_norm": 0.14344479248393327
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.093017578125,
+            "requested_write_norm": 0.033529120206367224
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.04425048828125,
+            "requested_write_norm": 0.015950532906572334
+          }
+        ]
+      },
+      {
+        "id": "genaudit-8",
+        "text": "warm light entered through the doorway.",
+        "tokens": [
+          79750,
+          3000,
+          10321,
+          1472,
+          279,
+          67011,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 27,
+            "activation_delta_last": 0.3330078125,
+            "requested_write_norm": 0.12003601039759815
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.3447265625,
+            "requested_write_norm": 0.12426015152595937
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.32275390625,
+            "requested_write_norm": 0.11633988691028208
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.30810546875,
+            "requested_write_norm": 0.11105971049983054
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.28662109375,
+            "requested_write_norm": 0.10331545176450163
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.36181640625,
+            "requested_write_norm": 0.13042035733815283
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.158935546875,
+            "requested_write_norm": 0.057289914053399116
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.039794921875,
+            "requested_write_norm": 0.014344479248393327
+          }
+        ]
+      },
+      {
+        "id": "genaudit-9",
+        "text": "the tall grass waved along the trail.",
+        "tokens": [
+          1719,
+          15740,
+          15879,
+          62400,
+          3055,
+          279,
+          8582,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 28,
+            "activation_delta_last": 0.32080078125,
+            "requested_write_norm": 0.11563586338888854
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.41845703125,
+            "requested_write_norm": 0.15083703945856541
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.41796875,
+            "requested_write_norm": 0.15066103357821703
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.37158203125,
+            "requested_write_norm": 0.1339404749451205
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.37353515625,
+            "requested_write_norm": 0.13464449846651405
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.35498046875,
+            "requested_write_norm": 0.12795627501327544
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.3720703125,
+            "requested_write_norm": 0.1341164808254689
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.093505859375,
+            "requested_write_norm": 0.03370512608671561
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.0640869140625,
+            "requested_write_norm": 0.02310077179572545
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "gh0",
+        "text": "42",
+        "tokens": [
+          19,
+          17,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 0.27978515625,
+            "requested_write_norm": 0.10085136943962425
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.35791015625,
+            "requested_write_norm": 0.12901231029536575
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.0006961822509765625,
+            "requested_write_norm": 0.0002509458840904699
+          }
+        ]
+      },
+      {
+        "id": "gh1",
+        "text": "23",
+        "tokens": [
+          17,
+          18,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 27,
+            "activation_delta_last": 0.24365234375,
+            "requested_write_norm": 0.0878269342938438
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.25830078125,
+            "requested_write_norm": 0.09310711070429534
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.165771484375,
+            "requested_write_norm": 0.0597539963782765
+          }
+        ]
+      },
+      {
+        "id": "gh2",
+        "text": "saveModelKey",
+        "tokens": [
+          6419,
+          1652,
+          1536,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": 0.3037109375,
+            "requested_write_norm": 0.10947565757669508
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.24951171875,
+            "requested_write_norm": 0.08993900485802442
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.237060546875,
+            "requested_write_norm": 0.08545085490914062
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.24755859375,
+            "requested_write_norm": 0.08923498133663088
+          }
+        ]
+      },
+      {
+        "id": "gh3",
+        "text": "row_offset",
+        "tokens": [
+          633,
+          6701,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 20,
+            "activation_delta_last": 0.2470703125,
+            "requested_write_norm": 0.0890589754562825
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.18505859375,
+            "requested_write_norm": 0.06670622865203768
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.144287109375,
+            "requested_write_norm": 0.052009737642947584
+          }
+        ]
+      }
+    ]
+  },
+  "random_signed_winner": {
+    "qualified": false,
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "scale",
+      "value": 0.5,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "genaudit-2",
+        "text": "the brass key lay beneath the cushion.",
+        "tokens": [
+          1719,
+          34844,
+          1328,
+          10641,
+          23221,
+          279,
+          43158,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "activation_delta_last": -1.1328125,
+            "requested_write_norm": 0.44769963598810136
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.66748046875,
+            "requested_write_norm": 0.26379543206712697
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.251220703125,
+            "requested_write_norm": 0.09928511323960265
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.8720703125,
+            "requested_write_norm": 0.7398622432665434
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.423828125,
+            "requested_write_norm": 0.1675014155334793
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.6865234375,
+            "requested_write_norm": 0.6665321304753888
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.35595703125,
+            "requested_write_norm": 0.1406780321703991
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.84912109375,
+            "requested_write_norm": 0.33558175301004667
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.25146484375,
+            "requested_write_norm": 0.09938160023011733
+          }
+        ]
+      },
+      {
+        "id": "genaudit-3",
+        "text": "four bright shells lined the window.",
+        "tokens": [
+          32897,
+          9613,
+          41535,
+          30265,
+          279,
+          3136,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "activation_delta_last": -0.60595703125,
+            "requested_write_norm": 0.23948071045742836
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.1732177734375,
+            "requested_write_norm": 0.06845751977016334
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.295166015625,
+            "requested_write_norm": 0.11665277153224451
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.201171875,
+            "requested_write_norm": 0.47471599333221093
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.03515625,
+            "requested_write_norm": 1.1995262660784647
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.452392578125,
+            "requested_write_norm": 0.17879039342369651
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.2275390625,
+            "requested_write_norm": 0.48513658830779605
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.0130615234375,
+            "requested_write_norm": 0.0051620539925352205
+          }
+        ]
+      },
+      {
+        "id": "genaudit-4",
+        "text": "a gentle wind shook the apple tree.",
+        "tokens": [
+          64,
+          21030,
+          9662,
+          33757,
+          279,
+          22544,
+          4757,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "activation_delta_last": -0.8212890625,
+            "requested_write_norm": 0.3245822360913735
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.55859375,
+            "requested_write_norm": 0.22076223429758102
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.130126953125,
+            "requested_write_norm": 0.05142756594432285
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.451171875,
+            "requested_write_norm": 0.5735186716192402
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.7861328125,
+            "requested_write_norm": 0.7058988226053771
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.92333984375,
+            "requested_write_norm": 0.3649137981265085
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.036041259765625,
+            "requested_write_norm": 0.014243891974729195
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.2822265625,
+            "requested_write_norm": 0.5067496741830837
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.25927734375,
+            "requested_write_norm": 0.10246918392658699
+          }
+        ]
+      },
+      {
+        "id": "genaudit-5",
+        "text": "the baker placed bread near the oven.",
+        "tokens": [
+          1719,
+          73237,
+          8826,
+          15530,
+          3043,
+          279,
+          22660,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "activation_delta_last": -1.0302734375,
+            "requested_write_norm": 0.407175099971937
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.191162109375,
+            "requested_write_norm": 0.0755493135729921
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.39990234375,
+            "requested_write_norm": 0.15804569046304096
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.6875,
+            "requested_write_norm": 0.2717073652893305
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.0309600830078125,
+            "requested_write_norm": 0.01223575648464248
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.720703125,
+            "requested_write_norm": 0.6800403091474436
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.371826171875,
+            "requested_write_norm": 0.1469496865538531
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.1474609375,
+            "requested_write_norm": 0.453488855418982
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.1978759765625,
+            "requested_write_norm": 0.07820270581214572
+          }
+        ]
+      },
+      {
+        "id": "genaudit-6",
+        "text": "blue ribbons hung from the small basket.",
+        "tokens": [
+          11855,
+          19518,
+          44966,
+          17750,
+          494,
+          279,
+          2526,
+          13621,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 10,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 29,
+            "activation_delta_last": -0.85888671875,
+            "requested_write_norm": 0.33944123263063375
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.7470703125,
+            "requested_write_norm": 0.6904609041230287
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.345703125,
+            "requested_write_norm": 0.5318362917168997
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.451171875,
+            "requested_write_norm": 0.17830795847112313
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.59375,
+            "requested_write_norm": 0.6298670740798116
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.87890625,
+            "requested_write_norm": 0.7425638790009543
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.189453125,
+            "requested_write_norm": 0.47008461778750643
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.05987548828125,
+            "requested_write_norm": 0.02366343442372454
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.0498046875,
+            "requested_write_norm": 0.4148940592131112
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.3447265625,
+            "requested_write_norm": 0.13623963060672395
+          }
+        ]
+      },
+      {
+        "id": "genaudit-7",
+        "text": "a calm pony stood beside the barn.",
+        "tokens": [
+          64,
+          18717,
+          50864,
+          14217,
+          28428,
+          279,
+          31253,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "activation_delta_last": -0.51953125,
+            "requested_write_norm": 0.2053243158152327
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.296630859375,
+            "requested_write_norm": 0.11723169347533258
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.306640625,
+            "requested_write_norm": 0.5163983732345514
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.71875,
+            "requested_write_norm": 0.28405770007520914
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.6279296875,
+            "requested_write_norm": 0.2481645396037493
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -2.896484375,
+            "requested_write_norm": 1.1447216554661281
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.2060546875,
+            "requested_write_norm": 0.47664573314250447
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.162109375,
+            "requested_write_norm": 0.4592780748498626
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.009002685546875,
+            "requested_write_norm": 0.003557957775228715
+          }
+        ]
+      },
+      {
+        "id": "genaudit-8",
+        "text": "warm light entered through the doorway.",
+        "tokens": [
+          79750,
+          3000,
+          10321,
+          1472,
+          279,
+          67011,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "activation_delta_last": -1.232421875,
+            "requested_write_norm": 0.4870663281180896
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.023101806640625,
+            "requested_write_norm": 0.009130081477451313
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 1.3720703125,
+            "requested_write_norm": 0.5422568866924848
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.51708984375,
+            "requested_write_norm": 0.20435944591008592
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.611328125,
+            "requested_write_norm": 0.6368141373968683
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.0316162109375,
+            "requested_write_norm": 0.012495065271650674
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.1328125,
+            "requested_write_norm": 0.44769963598810136
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.457763671875,
+            "requested_write_norm": 0.1809131072150194
+          }
+        ]
+      },
+      {
+        "id": "genaudit-9",
+        "text": "the tall grass waved along the trail.",
+        "tokens": [
+          1719,
+          15740,
+          15879,
+          62400,
+          3055,
+          279,
+          8582,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "activation_delta_last": -1.1396484375,
+            "requested_write_norm": 0.4504012717225123
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.456298828125,
+            "requested_write_norm": 0.18033418527193135
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.50244140625,
+            "requested_write_norm": 0.1985702264792053
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.67041015625,
+            "requested_write_norm": 0.2649532759533031
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.84814453125,
+            "requested_write_norm": 0.33519580504798796
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.7890625,
+            "requested_write_norm": 0.7070566664915532
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.484619140625,
+            "requested_write_norm": 0.19152667617163388
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.228515625,
+            "requested_write_norm": 0.48552253626985475
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.0469970703125,
+            "requested_write_norm": 0.018573745674075326
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "gh0",
+        "text": "42",
+        "tokens": [
+          19,
+          17,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.71826171875,
+            "requested_write_norm": 0.2838647260941798
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.58154296875,
+            "requested_write_norm": 0.22983201140596066
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.234130859375,
+            "requested_write_norm": 0.09253102390357526
+          }
+        ]
+      },
+      {
+        "id": "gh1",
+        "text": "23",
+        "tokens": [
+          17,
+          18,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "activation_delta_last": 1.0107421875,
+            "requested_write_norm": 0.39945614073076285
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.461181640625,
+            "requested_write_norm": 0.1822639250822249
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.7431640625,
+            "requested_write_norm": 0.29370639912667684
+          }
+        ]
+      },
+      {
+        "id": "gh2",
+        "text": "saveModelKey",
+        "tokens": [
+          6419,
+          1652,
+          1536,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -1.1787109375,
+            "requested_write_norm": 0.46583919020486064
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.63330078125,
+            "requested_write_norm": 0.2502872533950722
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.1265869140625,
+            "requested_write_norm": 0.050028504581860034
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.294677734375,
+            "requested_write_norm": 0.11645979755121516
+          }
+        ]
+      },
+      {
+        "id": "gh3",
+        "text": "row_offset",
+        "tokens": [
+          633,
+          6701,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 20,
+            "activation_delta_last": -0.90185546875,
+            "requested_write_norm": 0.3564229429612169
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 1.5791015625,
+            "requested_write_norm": 0.624077854648931
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.286376953125,
+            "requested_write_norm": 0.11317923987371614
+          }
+        ]
+      }
+    ]
+  },
+  "public_fixed_-0.2": {
+    "alias": "public"
+  },
+  "public_fixed_+0.2": {
+    "qualified": false,
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "target": [
+      {
+        "id": "genaudit-2",
+        "text": "the brass key lay beneath THE CUSHION.",
+        "tokens": [
+          1719,
+          34844,
+          1328,
+          10641,
+          23221,
+          3067,
+          351,
+          18924,
+          1226,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 11,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.3225806451612903,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260590553283691
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260504126548767
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626075267791748
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260538697242737
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260474920272827
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626050591468811
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260697245597839
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260471343994141
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626032829284668
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260327100753784
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259876489639282
+          }
+        ]
+      },
+      {
+        "id": "genaudit-3",
+        "text": "four bright shells lined the WINDOW..",
+        "tokens": [
+          32897,
+          9613,
+          41535,
+          30265,
+          279,
+          37961,
+          13,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.2,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260567903518677
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260499358177185
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260479092597961
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260583400726318
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260542273521423
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260503530502319
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260591149330139
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259832382202148
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626010537147522
+          }
+        ]
+      },
+      {
+        "id": "genaudit-4",
+        "text": "a gentle wind shook the APPLELE TREE..",
+        "tokens": [
+          64,
+          21030,
+          9662,
+          33757,
+          279,
+          87229,
+          841,
+          69323,
+          13,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 11,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.36666666666666664,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260594129562378
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260485649108887
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260538101196289
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260594725608826
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260411739349365
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260448098182678
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260360479354858
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259880065917969
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260460615158081
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259884834289551
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259982585906982
+          }
+        ]
+      },
+      {
+        "id": "genaudit-5",
+        "text": "the baker placed bread near THE oven.",
+        "tokens": [
+          1719,
+          73237,
+          8826,
+          15530,
+          3043,
+          3067,
+          22660,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.1,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260543465614319
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260556578636169
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260503530502319
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260544657707214
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260425448417664
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260373592376709
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260632276535034
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260687708854675
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259840130805969
+          }
+        ]
+      },
+      {
+        "id": "genaudit-6",
+        "text": "blue ribBONS HUNG FROM THE THE THE THE THE THE THE THE THE THE THE THE THE THE THE THE THE",
+        "tokens": [
+          11855,
+          19518,
+          33,
+          28563,
+          462,
+          57976,
+          4154,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067,
+          3067
+        ],
+        "capped": true,
+        "calls": 24,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.9,
+          "repetitive": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 29,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260552406311035
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260305643081665
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260531544685364
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260395646095276
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259884834289551
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260404586791992
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260511875152588
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260503530502319
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260542273521423
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260553002357483
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260444521903992
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260599493980408
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260511875152588
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626046895980835
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260557174682617
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260389685630798
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260366439819336
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260603666305542
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260324716567993
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260315179824829
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260597109794617
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260471343994141
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260454654693604
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626049816608429
+          }
+        ]
+      },
+      {
+        "id": "genaudit-7",
+        "text": "a calm pony stood beside the barn.",
+        "tokens": [
+          64,
+          18717,
+          50864,
+          14217,
+          28428,
+          279,
+          31253,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260533332824707
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260539293289185
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260508298873901
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260566711425781
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626042366027832
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260602474212646
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260537505149841
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260669231414795
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259975433349609
+          }
+        ]
+      },
+      {
+        "id": "genaudit-8",
+        "text": "warm light entered THROUGH THE DOORWAY..",
+        "tokens": [
+          79750,
+          3000,
+          10321,
+          89899,
+          3067,
+          9043,
+          842,
+          40424,
+          13,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 11,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.5151515151515151,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260555386543274
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260621547698975
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260544657707214
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260321140289307
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260284781455994
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260517239570618
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260532140731812
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260643601417542
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260498762130737
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260025501251221
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260059475898743
+          }
+        ]
+      },
+      {
+        "id": "genaudit-9",
+        "text": "the tall grass waved along the TRAIL..",
+        "tokens": [
+          1719,
+          15740,
+          15879,
+          62400,
+          3055,
+          279,
+          4823,
+          5778,
+          13,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 11,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.16666666666666666,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260557174682617
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260488629341125
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260425448417664
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260609030723572
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626064658164978
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260557770729065
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260491609573364
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260563731193542
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260700821876526
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259865760803223
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260043978691101
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "gh0",
+        "text": "42",
+        "tokens": [
+          19,
+          17,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260514259338379
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260584592819214
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260627508163452
+          }
+        ]
+      },
+      {
+        "id": "gh1",
+        "text": "23",
+        "tokens": [
+          17,
+          18,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260519027709961
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626046359539032
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260412335395813
+          }
+        ]
+      },
+      {
+        "id": "gh2",
+        "text": "saveModelKey",
+        "tokens": [
+          6419,
+          1652,
+          1536,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259953379631042
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260523796081543
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260376572608948
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260506510734558
+          }
+        ]
+      },
+      {
+        "id": "gh3",
+        "text": "row_offset",
+        "tokens": [
+          633,
+          6701,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 20,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259996294975281
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260617971420288
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260460615158081
+          }
+        ]
+      }
+    ]
+  },
+  "public_fixed_-1.0": {
+    "qualified": false,
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": -1.0,
+      "dose": -1.0
+    },
+    "target": [
+      {
+        "id": "genaudit-2",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.129573106765747
+          }
+        ]
+      },
+      {
+        "id": "genaudit-3",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.12953782081604
+          }
+        ]
+      },
+      {
+        "id": "genaudit-4",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.129565954208374
+          }
+        ]
+      },
+      {
+        "id": "genaudit-5",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.129535675048828
+          }
+        ]
+      },
+      {
+        "id": "genaudit-6",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 29,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.12957501411438
+          }
+        ]
+      },
+      {
+        "id": "genaudit-7",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295692920684814
+          }
+        ]
+      },
+      {
+        "id": "genaudit-8",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.129558563232422
+          }
+        ]
+      },
+      {
+        "id": "genaudit-9",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.129549980163574
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "gh0",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295711994171143
+          }
+        ]
+      },
+      {
+        "id": "gh1",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295502185821533
+          }
+        ]
+      },
+      {
+        "id": "gh2",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295695304870605
+          }
+        ]
+      },
+      {
+        "id": "gh3",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 20,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295697689056396
+          }
+        ]
+      }
+    ]
+  }
+}

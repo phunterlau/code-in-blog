@@ -1,0 +1,2174 @@
+{
+  "choices": {
+    "storyteller": {
+      "candidate": {
+        "condition": "candidate-12",
+        "recipe": {
+          "coordinate": [
+            26,
+            2167
+          ],
+          "dose": 0.1,
+          "schedule": "pulse4"
+        },
+        "metrics": {
+          "joint": 0,
+          "n": 2,
+          "style_gain": 0,
+          "style_sum": 0,
+          "quality_sum": 4,
+          "style2": 0,
+          "quality2": 2,
+          "capped": 0,
+          "protection_correct": 4,
+          "protection_n": 4,
+          "baseline_protection_correct": 4,
+          "joint_by_item": {
+            "cal-umbrella": false,
+            "cal-kettle": false
+          }
+        },
+        "qualified": false
+      },
+      "random": {
+        "condition": "random-12",
+        "recipe": {
+          "coordinate": [
+            26,
+            5844
+          ],
+          "dose": 0.1,
+          "schedule": "pulse4"
+        },
+        "metrics": {
+          "joint": 0,
+          "n": 2,
+          "style_gain": 0,
+          "style_sum": 0,
+          "quality_sum": 4,
+          "style2": 0,
+          "quality2": 2,
+          "capped": 0,
+          "protection_correct": 4,
+          "protection_n": 4,
+          "baseline_protection_correct": 4,
+          "joint_by_item": {
+            "cal-umbrella": false,
+            "cal-kettle": false
+          }
+        },
+        "qualified": false
+      }
+    },
+    "nostalgic": {
+      "candidate": {
+        "condition": "candidate-09",
+        "recipe": {
+          "coordinate": [
+            22,
+            8168
+          ],
+          "dose": -0.4,
+          "schedule": "pulse4"
+        },
+        "metrics": {
+          "joint": 1,
+          "n": 2,
+          "style_gain": 1,
+          "style_sum": 2,
+          "quality_sum": 4,
+          "style2": 1,
+          "quality2": 2,
+          "capped": 0,
+          "protection_correct": 4,
+          "protection_n": 4,
+          "baseline_protection_correct": 4,
+          "joint_by_item": {
+            "cal-umbrella": true,
+            "cal-kettle": false
+          }
+        },
+        "qualified": false
+      },
+      "random": {
+        "condition": "random-01",
+        "recipe": {
+          "coordinate": [
+            22,
+            4596
+          ],
+          "dose": -0.4,
+          "schedule": "continuous"
+        },
+        "metrics": {
+          "joint": 0,
+          "n": 2,
+          "style_gain": 1,
+          "style_sum": 1,
+          "quality_sum": 4,
+          "style2": 0,
+          "quality2": 2,
+          "capped": 0,
+          "protection_correct": 4,
+          "protection_n": 4,
+          "baseline_protection_correct": 4,
+          "joint_by_item": {
+            "cal-umbrella": false,
+            "cal-kettle": false
+          }
+        },
+        "qualified": false
+      }
+    }
+  },
+  "trials": [
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-00",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": -0.8,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 0
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-01",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": -0.4,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 1
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-02",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": -0.2,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 2
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-03",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": -0.1,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 3
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-04",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": 0.1,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 4
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-05",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": 0.2,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 5
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-06",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": 0.4,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 0,
+        "style2": 0,
+        "quality2": 0,
+        "capped": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 6
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-07",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": 0.8,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 0,
+        "style2": 0,
+        "quality2": 0,
+        "capped": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 7
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-08",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": -0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 8
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-09",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": -0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 9
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-10",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": -0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 10
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-11",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": -0.1,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 11
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-12",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": 0.1,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 12
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-13",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 13
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-14",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": 0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 0,
+        "style2": 0,
+        "quality2": 0,
+        "capped": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 14
+    },
+    {
+      "category": "storyteller",
+      "arm": "candidate",
+      "condition": "candidate-15",
+      "recipe": {
+        "coordinate": [
+          26,
+          2167
+        ],
+        "dose": 0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 0,
+        "style2": 0,
+        "quality2": 0,
+        "capped": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 15
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-00",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": -0.8,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 0
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-01",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": -0.4,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 1
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-02",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": -0.2,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 2
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-03",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": -0.1,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 3
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-04",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": 0.1,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 4
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-05",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": 0.2,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 5
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-06",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": 0.4,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 6
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-07",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": 0.8,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 7
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-08",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": -0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 8
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-09",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": -0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 9
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-10",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": -0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 10
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-11",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": -0.1,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 11
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-12",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": 0.1,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 12
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-13",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 13
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-14",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": 0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 14
+    },
+    {
+      "category": "storyteller",
+      "arm": "random",
+      "condition": "random-15",
+      "recipe": {
+        "coordinate": [
+          26,
+          5844
+        ],
+        "dose": 0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 15
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-00",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": -0.8,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 1,
+        "style_sum": 1,
+        "quality_sum": 1,
+        "style2": 0,
+        "quality2": 0,
+        "capped": 0,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 0
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-01",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": -0.4,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 2,
+        "style_sum": 2,
+        "quality_sum": 2,
+        "style2": 0,
+        "quality2": 0,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 1
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-02",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": -0.2,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 2,
+        "style_sum": 2,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 2
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-03",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": -0.1,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 1,
+        "style_sum": 1,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 3
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-04",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": 0.1,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 4
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-05",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": 0.2,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 5
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-06",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": 0.4,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 6
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-07",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": 0.8,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 1,
+        "style_sum": 1,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 7
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-08",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": -0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 2,
+        "style_sum": 2,
+        "quality_sum": 3,
+        "style2": 0,
+        "quality2": 1,
+        "capped": 0,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 8
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-09",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": -0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 1,
+        "n": 2,
+        "style_gain": 1,
+        "style_sum": 2,
+        "quality_sum": 4,
+        "style2": 1,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": true,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 9
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-10",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": -0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 10
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-11",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": -0.1,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 11
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-12",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": 0.1,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 12
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-13",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 13
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-14",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": 0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 14
+    },
+    {
+      "category": "nostalgic",
+      "arm": "candidate",
+      "condition": "candidate-15",
+      "recipe": {
+        "coordinate": [
+          22,
+          8168
+        ],
+        "dose": 0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 15
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-00",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": -0.8,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 0
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-01",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": -0.4,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 1,
+        "style_sum": 1,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 1
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-02",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": -0.2,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 2
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-03",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": -0.1,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 3
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-04",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": 0.1,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 4
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-05",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": 0.2,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 5
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-06",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": 0.4,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 6
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-07",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": 0.8,
+        "schedule": "continuous"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 7
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-08",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": -0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 3,
+        "style2": 0,
+        "quality2": 1,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 8
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-09",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": -0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 9
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-10",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": -0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 10
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-11",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": -0.1,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 11
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-12",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": 0.1,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 12
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-13",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 13
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-14",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": 0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 14
+    },
+    {
+      "category": "nostalgic",
+      "arm": "random",
+      "condition": "random-15",
+      "recipe": {
+        "coordinate": [
+          22,
+          4596
+        ],
+        "dose": 0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "n": 2,
+        "style_gain": 0,
+        "style_sum": 0,
+        "quality_sum": 4,
+        "style2": 0,
+        "quality2": 2,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_protection_correct": 4,
+        "joint_by_item": {
+          "cal-umbrella": false,
+          "cal-kettle": false
+        }
+      },
+      "qualified": false,
+      "order": 15
+    }
+  ]
+}

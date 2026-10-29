@@ -1,0 +1,2052 @@
+{
+  "passed": true,
+  "checks": {
+    "seal:completion.json": true,
+    "seal:protocol.json": true,
+    "seal:records.jsonl": true,
+    "seal:reference-scales.json": true,
+    "seal:rows.json": true,
+    "seal:runtime.json": true,
+    "seal:smoke.json": true,
+    "seal:source-hashes.json": true,
+    "seal:start.json": true,
+    "protocol": true,
+    "source:job.sh": true,
+    "source:make_protocol.py": true,
+    "source:metrics.py": true,
+    "source:model_runtime.py": true,
+    "source:preflight.py": true,
+    "source:protocol.json": true,
+    "source:review.py": true,
+    "source:run_portable.py": true,
+    "journal_equals_rows": true,
+    "unique_ids": true,
+    "neutral_baseline_repeatability": true,
+    "call_accounting": true,
+    "completion": true,
+    "exit_zero": true,
+    "gpu_evidence": true,
+    "write_and_output_checks": true
+  },
+  "completion": {
+    "status": "completed",
+    "phase": "calibration",
+    "pid": 1333444,
+    "calls": 4974,
+    "backwards": 0,
+    "seconds": 618.0631263251416,
+    "finished": 1793293283.3268783,
+    "cuda_peak_allocated": 7343422976,
+    "generations": 400
+  },
+  "gpu_samples": 61,
+  "write_norm_relative_error": {
+    "median": 0.0002748446028765794,
+    "max": 0.0008810892030825786,
+    "writes": 3035,
+    "zero_writes": 0
+  },
+  "active_counts": [
+    {
+      "record_id": "storyteller:baseline:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:protection:cal-add",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:protection:cal-list",
+      "calls": 2,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:target:cal-umbrella",
+      "calls": 39,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:target:cal-kettle",
+      "calls": 30,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:candidate-00:target:cal-umbrella",
+      "calls": 23,
+      "active_calls": 23
+    },
+    {
+      "record_id": "storyteller:candidate-00:target:cal-kettle",
+      "calls": 29,
+      "active_calls": 29
+    },
+    {
+      "record_id": "storyteller:candidate-00:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-00:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-00:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:candidate-00:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-01:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 25
+    },
+    {
+      "record_id": "storyteller:candidate-01:target:cal-kettle",
+      "calls": 30,
+      "active_calls": 30
+    },
+    {
+      "record_id": "storyteller:candidate-01:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-01:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-01:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:candidate-01:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-02:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 25
+    },
+    {
+      "record_id": "storyteller:candidate-02:target:cal-kettle",
+      "calls": 30,
+      "active_calls": 30
+    },
+    {
+      "record_id": "storyteller:candidate-02:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-02:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-02:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:candidate-02:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-03:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 25
+    },
+    {
+      "record_id": "storyteller:candidate-03:target:cal-kettle",
+      "calls": 30,
+      "active_calls": 30
+    },
+    {
+      "record_id": "storyteller:candidate-03:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-03:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-03:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:candidate-03:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-04:target:cal-umbrella",
+      "calls": 22,
+      "active_calls": 22
+    },
+    {
+      "record_id": "storyteller:candidate-04:target:cal-kettle",
+      "calls": 33,
+      "active_calls": 33
+    },
+    {
+      "record_id": "storyteller:candidate-04:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-04:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-04:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:candidate-04:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-05:target:cal-umbrella",
+      "calls": 26,
+      "active_calls": 26
+    },
+    {
+      "record_id": "storyteller:candidate-05:target:cal-kettle",
+      "calls": 33,
+      "active_calls": 33
+    },
+    {
+      "record_id": "storyteller:candidate-05:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-05:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-05:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:candidate-05:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-06:target:cal-umbrella",
+      "calls": 72,
+      "active_calls": 72
+    },
+    {
+      "record_id": "storyteller:candidate-06:target:cal-kettle",
+      "calls": 72,
+      "active_calls": 72
+    },
+    {
+      "record_id": "storyteller:candidate-06:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-06:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-06:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:candidate-06:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-07:target:cal-umbrella",
+      "calls": 72,
+      "active_calls": 72
+    },
+    {
+      "record_id": "storyteller:candidate-07:target:cal-kettle",
+      "calls": 72,
+      "active_calls": 72
+    },
+    {
+      "record_id": "storyteller:candidate-07:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-07:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-07:protection:cal-echo",
+      "calls": 12,
+      "active_calls": 12
+    },
+    {
+      "record_id": "storyteller:candidate-07:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-08:target:cal-umbrella",
+      "calls": 23,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-08:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-08:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-08:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-08:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-08:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-09:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-09:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-09:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-09:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-09:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-09:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-10:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-10:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-10:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-10:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-10:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-10:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-11:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-11:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-11:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-11:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-11:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-11:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-12:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-12:target:cal-kettle",
+      "calls": 31,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-12:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-12:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-12:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-12:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-13:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-13:target:cal-kettle",
+      "calls": 31,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-13:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-13:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-13:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-13:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-14:target:cal-umbrella",
+      "calls": 72,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-14:target:cal-kettle",
+      "calls": 72,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-14:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-14:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-14:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-14:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate-15:target:cal-umbrella",
+      "calls": 72,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-15:target:cal-kettle",
+      "calls": 72,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-15:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-15:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate-15:protection:cal-echo",
+      "calls": 8,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate-15:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-00:target:cal-umbrella",
+      "calls": 26,
+      "active_calls": 26
+    },
+    {
+      "record_id": "storyteller:random-00:target:cal-kettle",
+      "calls": 30,
+      "active_calls": 30
+    },
+    {
+      "record_id": "storyteller:random-00:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-00:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-00:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:random-00:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-01:target:cal-umbrella",
+      "calls": 24,
+      "active_calls": 24
+    },
+    {
+      "record_id": "storyteller:random-01:target:cal-kettle",
+      "calls": 31,
+      "active_calls": 31
+    },
+    {
+      "record_id": "storyteller:random-01:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-01:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-01:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:random-01:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-02:target:cal-umbrella",
+      "calls": 26,
+      "active_calls": 26
+    },
+    {
+      "record_id": "storyteller:random-02:target:cal-kettle",
+      "calls": 35,
+      "active_calls": 35
+    },
+    {
+      "record_id": "storyteller:random-02:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-02:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-02:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:random-02:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-03:target:cal-umbrella",
+      "calls": 26,
+      "active_calls": 26
+    },
+    {
+      "record_id": "storyteller:random-03:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 24
+    },
+    {
+      "record_id": "storyteller:random-03:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-03:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-03:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:random-03:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-04:target:cal-umbrella",
+      "calls": 22,
+      "active_calls": 22
+    },
+    {
+      "record_id": "storyteller:random-04:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 24
+    },
+    {
+      "record_id": "storyteller:random-04:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-04:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-04:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:random-04:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-05:target:cal-umbrella",
+      "calls": 22,
+      "active_calls": 22
+    },
+    {
+      "record_id": "storyteller:random-05:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 24
+    },
+    {
+      "record_id": "storyteller:random-05:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-05:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-05:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:random-05:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-06:target:cal-umbrella",
+      "calls": 23,
+      "active_calls": 23
+    },
+    {
+      "record_id": "storyteller:random-06:target:cal-kettle",
+      "calls": 27,
+      "active_calls": 27
+    },
+    {
+      "record_id": "storyteller:random-06:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-06:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-06:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:random-06:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-07:target:cal-umbrella",
+      "calls": 22,
+      "active_calls": 22
+    },
+    {
+      "record_id": "storyteller:random-07:target:cal-kettle",
+      "calls": 33,
+      "active_calls": 33
+    },
+    {
+      "record_id": "storyteller:random-07:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-07:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-07:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "storyteller:random-07:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-08:target:cal-umbrella",
+      "calls": 22,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-08:target:cal-kettle",
+      "calls": 30,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-08:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-08:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-08:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-08:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-09:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-09:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-09:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-09:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-09:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-09:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-10:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-10:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-10:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-10:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-10:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-10:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-11:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-11:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-11:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-11:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-11:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-11:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-12:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-12:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-12:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-12:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-12:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-12:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-13:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-13:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-13:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-13:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-13:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-13:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-14:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-14:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-14:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-14:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-14:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-14:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random-15:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-15:target:cal-kettle",
+      "calls": 33,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-15:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-15:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random-15:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random-15:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:baseline:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:protection:cal-add",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:protection:cal-list",
+      "calls": 2,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:target:cal-umbrella",
+      "calls": 39,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:target:cal-kettle",
+      "calls": 38,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:candidate-00:target:cal-umbrella",
+      "calls": 15,
+      "active_calls": 15
+    },
+    {
+      "record_id": "nostalgic:candidate-00:target:cal-kettle",
+      "calls": 32,
+      "active_calls": 32
+    },
+    {
+      "record_id": "nostalgic:candidate-00:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-00:protection:cal-multiply",
+      "calls": 4,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-00:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:candidate-00:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-01:target:cal-umbrella",
+      "calls": 35,
+      "active_calls": 35
+    },
+    {
+      "record_id": "nostalgic:candidate-01:target:cal-kettle",
+      "calls": 30,
+      "active_calls": 30
+    },
+    {
+      "record_id": "nostalgic:candidate-01:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-01:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-01:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:candidate-01:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-02:target:cal-umbrella",
+      "calls": 28,
+      "active_calls": 28
+    },
+    {
+      "record_id": "nostalgic:candidate-02:target:cal-kettle",
+      "calls": 25,
+      "active_calls": 25
+    },
+    {
+      "record_id": "nostalgic:candidate-02:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-02:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-02:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:candidate-02:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-03:target:cal-umbrella",
+      "calls": 26,
+      "active_calls": 26
+    },
+    {
+      "record_id": "nostalgic:candidate-03:target:cal-kettle",
+      "calls": 25,
+      "active_calls": 25
+    },
+    {
+      "record_id": "nostalgic:candidate-03:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-03:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-03:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:candidate-03:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-04:target:cal-umbrella",
+      "calls": 26,
+      "active_calls": 26
+    },
+    {
+      "record_id": "nostalgic:candidate-04:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 24
+    },
+    {
+      "record_id": "nostalgic:candidate-04:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-04:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-04:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:candidate-04:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-05:target:cal-umbrella",
+      "calls": 29,
+      "active_calls": 29
+    },
+    {
+      "record_id": "nostalgic:candidate-05:target:cal-kettle",
+      "calls": 27,
+      "active_calls": 27
+    },
+    {
+      "record_id": "nostalgic:candidate-05:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-05:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-05:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:candidate-05:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-06:target:cal-umbrella",
+      "calls": 27,
+      "active_calls": 27
+    },
+    {
+      "record_id": "nostalgic:candidate-06:target:cal-kettle",
+      "calls": 26,
+      "active_calls": 26
+    },
+    {
+      "record_id": "nostalgic:candidate-06:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-06:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-06:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:candidate-06:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-07:target:cal-umbrella",
+      "calls": 26,
+      "active_calls": 26
+    },
+    {
+      "record_id": "nostalgic:candidate-07:target:cal-kettle",
+      "calls": 29,
+      "active_calls": 29
+    },
+    {
+      "record_id": "nostalgic:candidate-07:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-07:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-07:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:candidate-07:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-08:target:cal-umbrella",
+      "calls": 23,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-08:target:cal-kettle",
+      "calls": 42,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-08:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-08:protection:cal-multiply",
+      "calls": 4,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-08:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-08:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-09:target:cal-umbrella",
+      "calls": 29,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-09:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-09:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-09:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-09:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-09:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-10:target:cal-umbrella",
+      "calls": 23,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-10:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-10:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-10:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-10:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-10:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-11:target:cal-umbrella",
+      "calls": 23,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-11:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-11:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-11:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-11:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-11:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-12:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-12:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-12:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-12:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-12:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-12:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-13:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-13:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-13:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-13:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-13:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-13:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-14:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-14:target:cal-kettle",
+      "calls": 26,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-14:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-14:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-14:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-14:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate-15:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-15:target:cal-kettle",
+      "calls": 26,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-15:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-15:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate-15:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate-15:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-00:target:cal-umbrella",
+      "calls": 33,
+      "active_calls": 33
+    },
+    {
+      "record_id": "nostalgic:random-00:target:cal-kettle",
+      "calls": 37,
+      "active_calls": 37
+    },
+    {
+      "record_id": "nostalgic:random-00:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-00:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-00:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:random-00:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-01:target:cal-umbrella",
+      "calls": 22,
+      "active_calls": 22
+    },
+    {
+      "record_id": "nostalgic:random-01:target:cal-kettle",
+      "calls": 26,
+      "active_calls": 26
+    },
+    {
+      "record_id": "nostalgic:random-01:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-01:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-01:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:random-01:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-02:target:cal-umbrella",
+      "calls": 28,
+      "active_calls": 28
+    },
+    {
+      "record_id": "nostalgic:random-02:target:cal-kettle",
+      "calls": 30,
+      "active_calls": 30
+    },
+    {
+      "record_id": "nostalgic:random-02:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-02:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-02:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:random-02:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-03:target:cal-umbrella",
+      "calls": 27,
+      "active_calls": 27
+    },
+    {
+      "record_id": "nostalgic:random-03:target:cal-kettle",
+      "calls": 30,
+      "active_calls": 30
+    },
+    {
+      "record_id": "nostalgic:random-03:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-03:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-03:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:random-03:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-04:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 25
+    },
+    {
+      "record_id": "nostalgic:random-04:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 24
+    },
+    {
+      "record_id": "nostalgic:random-04:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-04:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-04:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:random-04:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-05:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 25
+    },
+    {
+      "record_id": "nostalgic:random-05:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 24
+    },
+    {
+      "record_id": "nostalgic:random-05:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-05:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-05:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:random-05:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-06:target:cal-umbrella",
+      "calls": 28,
+      "active_calls": 28
+    },
+    {
+      "record_id": "nostalgic:random-06:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 24
+    },
+    {
+      "record_id": "nostalgic:random-06:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-06:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-06:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:random-06:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-07:target:cal-umbrella",
+      "calls": 21,
+      "active_calls": 21
+    },
+    {
+      "record_id": "nostalgic:random-07:target:cal-kettle",
+      "calls": 36,
+      "active_calls": 36
+    },
+    {
+      "record_id": "nostalgic:random-07:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-07:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-07:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 7
+    },
+    {
+      "record_id": "nostalgic:random-07:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-08:target:cal-umbrella",
+      "calls": 23,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-08:target:cal-kettle",
+      "calls": 27,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-08:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-08:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-08:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-08:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-09:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-09:target:cal-kettle",
+      "calls": 31,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-09:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-09:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-09:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-09:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-10:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-10:target:cal-kettle",
+      "calls": 31,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-10:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-10:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-10:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-10:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-11:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-11:target:cal-kettle",
+      "calls": 31,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-11:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-11:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-11:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-11:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-12:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-12:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-12:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-12:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-12:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-12:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-13:target:cal-umbrella",
+      "calls": 25,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-13:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-13:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-13:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-13:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-13:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-14:target:cal-umbrella",
+      "calls": 23,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-14:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-14:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-14:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-14:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-14:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random-15:target:cal-umbrella",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-15:target:cal-kettle",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-15:protection:cal-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-15:protection:cal-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random-15:protection:cal-echo",
+      "calls": 7,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random-15:protection:cal-list",
+      "calls": 2,
+      "active_calls": 2
+    }
+  ],
+  "final_seal_sha256": "da4ec69c4b210099b23b960981a9f1ad306fdbffaf67bf4cd3e2c531dfeee152"
+}

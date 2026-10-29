@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "phase": "calibration",
+  "pid": 1333444,
+  "calls": 4974,
+  "backwards": 0,
+  "seconds": 618.0631263251416,
+  "finished": 1793293283.3268783,
+  "cuda_peak_allocated": 7343422976,
+  "generations": 400
+}

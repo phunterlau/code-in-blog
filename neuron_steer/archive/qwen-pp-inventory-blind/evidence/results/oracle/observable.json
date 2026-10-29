@@ -1,0 +1,30 @@
+{
+  "target_ids": [
+    23611,
+    44539,
+    54795,
+    63565
+  ],
+  "control_ids": [
+    3019,
+    7123,
+    9183,
+    10083,
+    14542,
+    23326
+  ],
+  "target_text": [
+    " fate",
+    " destiny",
+    " foresee",
+    " prophecy"
+  ],
+  "control_text": [
+    " plan",
+    " steps",
+    " advice",
+    "plan",
+    " practical",
+    "steps"
+  ]
+}

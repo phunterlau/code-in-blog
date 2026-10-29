@@ -1,0 +1,15 @@
+{
+  "launcher_pid": 1320590,
+  "command": [
+    "nohup",
+    "setsid",
+    "bash",
+    "job.sh",
+    "calibration",
+    "calibration",
+    "calibration"
+  ],
+  "queued_at": 1793288199.1566293,
+  "workspace": "/tmp/qwen-pp-portable-styles-20261029-CoJxGH8b",
+  "status": "queued_or_starting"
+}

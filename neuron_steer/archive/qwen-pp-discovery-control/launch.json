@@ -1,0 +1,24 @@
+{
+  "host": "lp",
+  "remote_workspace": "/tmp/qwen-pp-window-20261029-BrnUlmBs",
+  "launcher_pid": 1287857,
+  "inference_pid": 1287861,
+  "command": "nohup setsid bash job.sh run_experiment.py protocol.json results main",
+  "started_utc": "2026-10-29T06:15:50Z",
+  "runtime": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/bin/python",
+  "protocol_sha256": "8e5b155801e4ff8f5bb66435d61a6e13bcf60005261898e7c7460ba75d991948",
+  "pip_check": "No broken requirements found.",
+  "smoke_forward_calls": 6,
+  "initial_gpu_used_mib": 7160,
+  "status": "completed",
+  "completion": {
+    "status": "completed",
+    "pid": 1287861,
+    "calls": 8078,
+    "backwards": 0,
+    "seconds": 1024.9647951703519,
+    "finished": 1793255578.4342964,
+    "cuda_peak_allocated": 7343735296
+  },
+  "gpu_idle_after_all_runs": true
+}

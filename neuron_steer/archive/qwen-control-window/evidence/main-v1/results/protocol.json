@@ -1,0 +1,203 @@
+{
+  "version": "control-window-dose-rescue-v1",
+  "frozen_before_run": true,
+  "seed": 202610284,
+  "model_path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "paper": "https://arxiv.org/abs/2606.19831",
+  "calibration_text": "The history of the region is long and varied. Farmers settled the river valley first, then traders arrived, and by the twelfth century the town had a market, a bridge, and a quarrel with its neighbours over tolls. def merge(a, b):\n    out = []\n    while a and b:\n        out.append(a.pop(0) if a[0] < b[0] else b.pop(0))\n    return out + a + b\nShe asked me what I thought of the plan, and I told her honestly that it seemed rushed. ",
+  "targets": [
+    {
+      "id": "human",
+      "layer": 7,
+      "neuron": 6297,
+      "sign": 1,
+      "random_neurons": [
+        7523,
+        2045
+      ]
+    },
+    {
+      "id": "building",
+      "layer": 3,
+      "neuron": 3066,
+      "sign": -1,
+      "random_neurons": [
+        5327,
+        2007
+      ]
+    },
+    {
+      "id": "corporation",
+      "layer": 4,
+      "neuron": 4783,
+      "sign": -1,
+      "random_neurons": [
+        8812,
+        383
+      ]
+    }
+  ],
+  "relative_doses": [
+    0.1,
+    0.25,
+    0.4,
+    0.55,
+    0.7,
+    1.0
+  ],
+  "scope": "all",
+  "calibration_prompts": [
+    {
+      "id": "cal0",
+      "text": "Who are you? Reply in two sentences."
+    },
+    {
+      "id": "cal1",
+      "text": "Introduce yourself to someone meeting you for the first time. Use two sentences."
+    }
+  ],
+  "heldout_prompts": [
+    {
+      "id": "hold0",
+      "text": "What sort of entity am I speaking with? Answer in two sentences."
+    },
+    {
+      "id": "hold1",
+      "text": "Describe who you are and what you do in two sentences."
+    },
+    {
+      "id": "hold2",
+      "text": "Please give a brief personal introduction. Use two sentences."
+    },
+    {
+      "id": "hold3",
+      "text": "Tell me about yourself in two sentences."
+    }
+  ],
+  "calibration_facts": [
+    {
+      "id": "c0",
+      "question": "What is 9 + 6?",
+      "answers": [
+        "15"
+      ]
+    },
+    {
+      "id": "c1",
+      "question": "What is the capital of Japan?",
+      "answers": [
+        "Tokyo"
+      ]
+    },
+    {
+      "id": "c2",
+      "question": "What is the opposite of up?",
+      "answers": [
+        "down"
+      ]
+    }
+  ],
+  "heldout_facts": [
+    {
+      "id": "h0",
+      "question": "What is 18 - 7?",
+      "answers": [
+        "11"
+      ]
+    },
+    {
+      "id": "h1",
+      "question": "What is 8 times 4?",
+      "answers": [
+        "32"
+      ]
+    },
+    {
+      "id": "h2",
+      "question": "What is 21 divided by 3?",
+      "answers": [
+        "7"
+      ]
+    },
+    {
+      "id": "h3",
+      "question": "What is the square of 6?",
+      "answers": [
+        "36"
+      ]
+    },
+    {
+      "id": "h4",
+      "question": "What is the capital of Italy?",
+      "answers": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "h5",
+      "question": "How many minutes are in one hour?",
+      "answers": [
+        "60"
+      ]
+    },
+    {
+      "id": "h6",
+      "question": "What letter follows D in the English alphabet?",
+      "answers": [
+        "E"
+      ]
+    },
+    {
+      "id": "h7",
+      "question": "How many sides does a triangle have?",
+      "answers": [
+        "3",
+        "three"
+      ]
+    },
+    {
+      "id": "h8",
+      "question": "What is the opposite of day?",
+      "answers": [
+        "night"
+      ]
+    },
+    {
+      "id": "h9",
+      "question": "What color results from mixing blue and yellow paint?",
+      "answers": [
+        "green"
+      ]
+    },
+    {
+      "id": "h10",
+      "question": "How many months are in a year?",
+      "answers": [
+        "12",
+        "twelve"
+      ]
+    },
+    {
+      "id": "h11",
+      "question": "What is 100 minus 25?",
+      "answers": [
+        "75"
+      ]
+    }
+  ],
+  "fact_instruction": "Answer with only the answer, without explanation or punctuation.",
+  "max_tokens": {
+    "calibration": 64,
+    "heldout": 96,
+    "facts": 8
+  },
+  "budgets": {
+    "max_forward_calls": 16000,
+    "max_seconds": 2400
+  },
+  "selection_rule": "For each coordinate independently, maximize calibration coherent literal first-person target hits among doses with all 3 calibration facts correct; break ties by smaller dose. If none qualifies, use .1 solely as a declared null fallback. Heldout outputs never affect selection. Random coordinates receive the identical target-specific dose-search budget.",
+  "coherence_rule": "nonempty; at least 6 word tokens; word distinct-bigram >=0.6; no token repeated 6 times consecutively; no apparent hidden-think-only output. Lexical gate is a screen; inspect positive outputs semantically.",
+  "detector": "First-person affirmative identity clauses using I am/I\u2019m or We are/We\u2019re; human/named-human-occupation; building/architectural building types; corporation/company/business/enterprise. Negated target claims and AI comparisons excluded. Definition frozen in source.",
+  "claims_limit": "Own FP16 mixed CPU-vocabulary/CUDA-transformer reproduction; not an exact original BF16 failure replication, not an independent prospective validation of the ceiling law. Sparse grid cannot establish truly closed windows."
+}

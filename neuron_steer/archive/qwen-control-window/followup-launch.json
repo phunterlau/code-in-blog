@@ -1,0 +1,8 @@
+{
+  "host": "lp",
+  "remote": "/tmp/qwen-neuron-20261028-B7T9yHQx/control-window-followups-v1",
+  "launcher_pid": 1256343,
+  "command": "nohup setsid bash queue.sh; guarded wait for main exit 0 and empty compute-app inventory before job.sh",
+  "recorded_at": "2026-10-28T19:53:51.495593+00:00",
+  "protocol_sha256": "9b0b67465f74b22290623a5a12302035f55df0257dac9c5eb6d4e5877ee73b65"
+}

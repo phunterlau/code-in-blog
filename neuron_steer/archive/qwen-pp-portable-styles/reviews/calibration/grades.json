@@ -1,0 +1,818 @@
+[
+  {
+    "id": "C001",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C002",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C003",
+    "style": 2,
+    "quality": 2,
+    "note": "Concrete remembered warmth contrasts with the cold rainy present."
+  },
+  {
+    "id": "C004",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C005",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C006",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C007",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C008",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C009",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C010",
+    "style": 1,
+    "quality": 2,
+    "note": "Personified objects guard a whimsical orchard, but no developed change or outcome."
+  },
+  {
+    "id": "C011",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C012",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C013",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C014",
+    "style": 0,
+    "quality": 0,
+    "note": "Repetitive once tokens; no coherent scene or tale."
+  },
+  {
+    "id": "C015",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C016",
+    "style": 1,
+    "quality": 2,
+    "note": "Whimsical tears/world imagery without a character-action-outcome tale."
+  },
+  {
+    "id": "C017",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C018",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C019",
+    "style": 1,
+    "quality": 2,
+    "note": "A summer-rain memory is invoked without clear nostalgic feeling or contrast."
+  },
+  {
+    "id": "C020",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C021",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C022",
+    "style": 0,
+    "quality": 0,
+    "note": "Repetitive invented orchist wording obscures meaning; memory words alone do not establish nostalgia."
+  },
+  {
+    "id": "C023",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C024",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C025",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C026",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C027",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C028",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C029",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C030",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C031",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C032",
+    "style": 2,
+    "quality": 2,
+    "note": "Old orchard memory and warm-versus-sterile present contrast express nostalgia."
+  },
+  {
+    "id": "C033",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C034",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C035",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C036",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C037",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C038",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C039",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C040",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C041",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C042",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C043",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C044",
+    "style": 1,
+    "quality": 2,
+    "note": "A summer-orchard association suggests recall, without clear affective past-present contrast."
+  },
+  {
+    "id": "C045",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C046",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C047",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C048",
+    "style": 1,
+    "quality": 1,
+    "note": "Orchard memory is invoked, but placing a memory beside the kettle is awkward and repetitive."
+  },
+  {
+    "id": "C049",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C050",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C051",
+    "style": 1,
+    "quality": 2,
+    "note": "The former orchard is a past reference without nostalgic feeling."
+  },
+  {
+    "id": "C052",
+    "style": 1,
+    "quality": 2,
+    "note": "A remembered amber-light scene is suggested without clear nostalgic feeling or contrast."
+  },
+  {
+    "id": "C053",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C054",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C055",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C056",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C057",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C058",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C059",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C060",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C061",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C062",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C063",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C064",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C065",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C066",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C067",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C068",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C069",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C070",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C071",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C072",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C073",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C074",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C075",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C076",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C077",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C078",
+    "style": 2,
+    "quality": 2,
+    "note": "A specific remembered sunset scene is paired with a warm, captured-moment feeling."
+  },
+  {
+    "id": "C079",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C080",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C081",
+    "style": 1,
+    "quality": 2,
+    "note": "Warm memories are named but no specific past scene or contrast is developed."
+  },
+  {
+    "id": "C082",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C083",
+    "style": 1,
+    "quality": 2,
+    "note": "Warm mornings are recalled, with little developed nostalgic feeling beyond the phrase."
+  },
+  {
+    "id": "C084",
+    "style": 0,
+    "quality": 1,
+    "note": "No nostalgia; the repeated nearby phrasing is awkward."
+  },
+  {
+    "id": "C085",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C086",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C087",
+    "style": 0,
+    "quality": 0,
+    "note": "Repeated once-time tokens replace a coherent description or tale."
+  },
+  {
+    "id": "C088",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C089",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C090",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C091",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C092",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C093",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C094",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C095",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C096",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C097",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C098",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C099",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C100",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C101",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C102",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C103",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C104",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C105",
+    "style": 0,
+    "quality": 0,
+    "note": "Repetitive once/once-time tokens; no coherent tale or task completion."
+  },
+  {
+    "id": "C106",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C107",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C108",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C109",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C110",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C111",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C112",
+    "style": 1,
+    "quality": 1,
+    "note": "A summer memory is invoked but the repeated self-referential memory phrasing is awkward and lacks clear nostalgic affect."
+  },
+  {
+    "id": "C113",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C114",
+    "style": 0,
+    "quality": 0,
+    "note": "Repetitive once/once-time tokens; no coherent tale or task completion."
+  },
+  {
+    "id": "C115",
+    "style": 0,
+    "quality": 0,
+    "note": "Repetitive once/once-time tokens; no coherent tale or task completion."
+  },
+  {
+    "id": "C116",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C117",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C118",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C119",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C120",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C121",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C122",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C123",
+    "style": 0,
+    "quality": 0,
+    "note": "Repetitive once/once-time tokens; no coherent tale or task completion."
+  },
+  {
+    "id": "C124",
+    "style": 0,
+    "quality": 0,
+    "note": "Repetitive once/once-time tokens; no coherent tale or task completion."
+  },
+  {
+    "id": "C125",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C126",
+    "style": 0,
+    "quality": 0,
+    "note": "Repetitive once/once-time tokens; no coherent tale or task completion."
+  },
+  {
+    "id": "C127",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C128",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C129",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C130",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C131",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C132",
+    "style": 1,
+    "quality": 1,
+    "note": "A past scene is referenced without nostalgic feeling; only one sentence is supplied."
+  },
+  {
+    "id": "C133",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  },
+  {
+    "id": "C134",
+    "style": 1,
+    "quality": 1,
+    "note": "An orchard memory and apple scent are evoked without clear nostalgic affect; a memory sitting on the shelf is awkward."
+  },
+  {
+    "id": "C135",
+    "style": 0,
+    "quality": 2,
+    "note": "Literal scene; no developed whimsical tale."
+  },
+  {
+    "id": "C136",
+    "style": 0,
+    "quality": 2,
+    "note": "Present-tense scene without nostalgic recollection or affective past-present contrast."
+  }
+]

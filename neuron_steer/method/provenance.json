@@ -1,0 +1,17 @@
+{
+  "scope": "method/paper_method.py",
+  "scientific_sources": [
+    {
+      "url": "https://arxiv.org/abs/2604.27401",
+      "reviewed_snapshot_sha256": "bb4b23a9708848c6ff40f57737ddde48eae9348ea03e3f3dea60f11d01ef3c56"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19831",
+      "reviewed_snapshot_sha256": "795647a9cb7af7a26d51dd7f866561939ac23f576f5c64bfce75f39fd993d3dd"
+    }
+  ],
+  "author_correction": "Signed arithmetic mean of c * activation difference; descending signed value. RMS ranking in v1 Algorithm 1 is a transcription error.",
+  "implementation_inputs": "Paper equations and author correction; standard Python programming scaffolding.",
+  "model_experiments_run_with_this_module": false,
+  "historical_archive_claim": "Historical experiment code and data are preserved separately; external benchmark metadata is included and credited. Independent clean-room development history is not asserted."
+}

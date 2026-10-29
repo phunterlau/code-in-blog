@@ -1,0 +1,515 @@
+[
+  {
+    "cohort": {
+      "id": "human_target",
+      "target": "human",
+      "kind": "target",
+      "layer": 7,
+      "neuron": 6297,
+      "sign": 1
+    },
+    "options": [
+      {
+        "condition": "human_target_g0.1",
+        "g": 0.1,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_target_g0.25",
+        "g": 0.25,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_target_g0.4",
+        "g": 0.4,
+        "hits": 0,
+        "facts_correct": 2,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_target_g0.55",
+        "g": 0.55,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_target_g0.7",
+        "g": 0.7,
+        "hits": 1,
+        "facts_correct": 0,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_target_g1",
+        "g": 1.0,
+        "hits": 0,
+        "facts_correct": 0,
+        "facts_n": 3
+      }
+    ],
+    "selected_condition": "human_target_g0.1",
+    "qualified": false,
+    "selection_basis": "calibration only"
+  },
+  {
+    "cohort": {
+      "id": "human_random0",
+      "target": "human",
+      "kind": "random0",
+      "layer": 7,
+      "neuron": 7523,
+      "sign": 1
+    },
+    "options": [
+      {
+        "condition": "human_random0_g0.1",
+        "g": 0.1,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_random0_g0.25",
+        "g": 0.25,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_random0_g0.4",
+        "g": 0.4,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_random0_g0.55",
+        "g": 0.55,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_random0_g0.7",
+        "g": 0.7,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_random0_g1",
+        "g": 1.0,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      }
+    ],
+    "selected_condition": "human_random0_g0.1",
+    "qualified": false,
+    "selection_basis": "calibration only"
+  },
+  {
+    "cohort": {
+      "id": "human_random1",
+      "target": "human",
+      "kind": "random1",
+      "layer": 7,
+      "neuron": 2045,
+      "sign": 1
+    },
+    "options": [
+      {
+        "condition": "human_random1_g0.1",
+        "g": 0.1,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_random1_g0.25",
+        "g": 0.25,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_random1_g0.4",
+        "g": 0.4,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_random1_g0.55",
+        "g": 0.55,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_random1_g0.7",
+        "g": 0.7,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "human_random1_g1",
+        "g": 1.0,
+        "hits": 0,
+        "facts_correct": 1,
+        "facts_n": 3
+      }
+    ],
+    "selected_condition": "human_random1_g0.1",
+    "qualified": false,
+    "selection_basis": "calibration only"
+  },
+  {
+    "cohort": {
+      "id": "building_target",
+      "target": "building",
+      "kind": "target",
+      "layer": 3,
+      "neuron": 3066,
+      "sign": -1
+    },
+    "options": [
+      {
+        "condition": "building_target_g-0.1",
+        "g": -0.1,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_target_g-0.25",
+        "g": -0.25,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_target_g-0.4",
+        "g": -0.4,
+        "hits": 0,
+        "facts_correct": 2,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_target_g-0.55",
+        "g": -0.55,
+        "hits": 0,
+        "facts_correct": 0,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_target_g-0.7",
+        "g": -0.7,
+        "hits": 0,
+        "facts_correct": 0,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_target_g-1",
+        "g": -1.0,
+        "hits": 0,
+        "facts_correct": 0,
+        "facts_n": 3
+      }
+    ],
+    "selected_condition": "building_target_g-0.1",
+    "qualified": false,
+    "selection_basis": "calibration only"
+  },
+  {
+    "cohort": {
+      "id": "building_random0",
+      "target": "building",
+      "kind": "random0",
+      "layer": 3,
+      "neuron": 5327,
+      "sign": -1
+    },
+    "options": [
+      {
+        "condition": "building_random0_g-0.1",
+        "g": -0.1,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_random0_g-0.25",
+        "g": -0.25,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_random0_g-0.4",
+        "g": -0.4,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_random0_g-0.55",
+        "g": -0.55,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_random0_g-0.7",
+        "g": -0.7,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_random0_g-1",
+        "g": -1.0,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      }
+    ],
+    "selected_condition": "building_random0_g-0.1",
+    "qualified": false,
+    "selection_basis": "calibration only"
+  },
+  {
+    "cohort": {
+      "id": "building_random1",
+      "target": "building",
+      "kind": "random1",
+      "layer": 3,
+      "neuron": 2007,
+      "sign": -1
+    },
+    "options": [
+      {
+        "condition": "building_random1_g-0.1",
+        "g": -0.1,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_random1_g-0.25",
+        "g": -0.25,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_random1_g-0.4",
+        "g": -0.4,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_random1_g-0.55",
+        "g": -0.55,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_random1_g-0.7",
+        "g": -0.7,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "building_random1_g-1",
+        "g": -1.0,
+        "hits": 0,
+        "facts_correct": 2,
+        "facts_n": 3
+      }
+    ],
+    "selected_condition": "building_random1_g-0.1",
+    "qualified": false,
+    "selection_basis": "calibration only"
+  },
+  {
+    "cohort": {
+      "id": "corporation_target",
+      "target": "corporation",
+      "kind": "target",
+      "layer": 4,
+      "neuron": 4783,
+      "sign": -1
+    },
+    "options": [
+      {
+        "condition": "corporation_target_g-0.1",
+        "g": -0.1,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_target_g-0.25",
+        "g": -0.25,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_target_g-0.4",
+        "g": -0.4,
+        "hits": 1,
+        "facts_correct": 1,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_target_g-0.55",
+        "g": -0.55,
+        "hits": 0,
+        "facts_correct": 0,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_target_g-0.7",
+        "g": -0.7,
+        "hits": 0,
+        "facts_correct": 0,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_target_g-1",
+        "g": -1.0,
+        "hits": 0,
+        "facts_correct": 0,
+        "facts_n": 3
+      }
+    ],
+    "selected_condition": "corporation_target_g-0.1",
+    "qualified": false,
+    "selection_basis": "calibration only"
+  },
+  {
+    "cohort": {
+      "id": "corporation_random0",
+      "target": "corporation",
+      "kind": "random0",
+      "layer": 4,
+      "neuron": 8812,
+      "sign": -1
+    },
+    "options": [
+      {
+        "condition": "corporation_random0_g-0.1",
+        "g": -0.1,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_random0_g-0.25",
+        "g": -0.25,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_random0_g-0.4",
+        "g": -0.4,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_random0_g-0.55",
+        "g": -0.55,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_random0_g-0.7",
+        "g": -0.7,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_random0_g-1",
+        "g": -1.0,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      }
+    ],
+    "selected_condition": "corporation_random0_g-0.1",
+    "qualified": false,
+    "selection_basis": "calibration only"
+  },
+  {
+    "cohort": {
+      "id": "corporation_random1",
+      "target": "corporation",
+      "kind": "random1",
+      "layer": 4,
+      "neuron": 383,
+      "sign": -1
+    },
+    "options": [
+      {
+        "condition": "corporation_random1_g-0.1",
+        "g": -0.1,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_random1_g-0.25",
+        "g": -0.25,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_random1_g-0.4",
+        "g": -0.4,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_random1_g-0.55",
+        "g": -0.55,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_random1_g-0.7",
+        "g": -0.7,
+        "hits": 0,
+        "facts_correct": 3,
+        "facts_n": 3
+      },
+      {
+        "condition": "corporation_random1_g-1",
+        "g": -1.0,
+        "hits": 0,
+        "facts_correct": 1,
+        "facts_n": 3
+      }
+    ],
+    "selected_condition": "corporation_random1_g-0.1",
+    "qualified": false,
+    "selection_basis": "calibration only"
+  }
+]

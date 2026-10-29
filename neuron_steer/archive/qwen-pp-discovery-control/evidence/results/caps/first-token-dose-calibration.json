@@ -1,0 +1,7218 @@
+[
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": 2.7934422492980957,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.12955641746521
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 2.8246798515319824,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.129514455795288
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.2353835105895996,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295769214630127
+          }
+        ],
+        "kl": 5.213498592376709,
+        "same_argmax": false
+      },
+      {
+        "id": "pcal1",
+        "gap": 2.588160991668701,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295597553253174
+          }
+        ],
+        "kl": 11.257060050964355,
+        "same_argmax": false
+      }
+    ],
+    "gain": 4.598304331302643,
+    "mean_kl": 8.235279321670532,
+    "protected": false,
+    "mean_write_norm": 3.1293423175811768,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": -0.4,
+      "dose": -0.4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": 2.935908794403076,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 1.2517369985580444,
+            "realized_write_norm_last": 1.2519989013671875
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 3.514639139175415,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 1.2517369985580444,
+            "realized_write_norm_last": 1.251979112625122
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.588594436645508,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 1.2517369985580444,
+            "realized_write_norm_last": 1.252000331878662
+          }
+        ],
+        "kl": 5.695046424865723,
+        "same_argmax": false
+      },
+      {
+        "id": "pcal1",
+        "gap": 2.735743284225464,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 1.2517369985580444,
+            "realized_write_norm_last": 1.252022624015808
+          }
+        ],
+        "kl": 8.529509544372559,
+        "same_argmax": false
+      }
+    ],
+    "gain": 5.014517247676849,
+    "mean_kl": 7.112277984619141,
+    "protected": false,
+    "mean_write_norm": 1.2517369985580444,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": -0.2,
+      "dose": -0.2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": 0.7067804336547852,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260663270950317
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 1.6939890384674072,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260554194450378
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.01492977142334,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260632276535034
+          }
+        ],
+        "kl": 0.0018100545275956392,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 1.4308719635009766,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626046895980835
+          }
+        ],
+        "kl": 0.008245649747550488,
+        "same_argmax": true
+      }
+    ],
+    "gain": 2.9896280169487,
+    "mean_kl": 0.005027852137573063,
+    "protected": true,
+    "mean_write_norm": 0.6258684992790222,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": -0.1,
+      "dose": -0.1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": 0.45034265518188477,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 0.3129342496395111,
+            "realized_write_norm_last": 0.31303319334983826
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 1.5718915462493896,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.3129342496395111,
+            "realized_write_norm_last": 0.3130337595939636
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.2310104370117188,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.3129342496395111,
+            "realized_write_norm_last": 0.3130299746990204
+          }
+        ],
+        "kl": 0.0001451082935091108,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.21909880638122559,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 0.3129342496395111,
+            "realized_write_norm_last": 0.3130275309085846
+          }
+        ],
+        "kl": 0.0003675620537251234,
+        "same_argmax": true
+      }
+    ],
+    "gain": 2.800360381603241,
+    "mean_kl": 0.0002563351736171171,
+    "protected": true,
+    "mean_write_norm": 0.3129342496395111,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": -0.03,
+      "dose": -0.03
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2360548973083496,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 0.09388027340173721,
+            "realized_write_norm_last": 0.09388374537229538
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3002711534500122,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.09388027340173721,
+            "realized_write_norm_last": 0.09389813244342804
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.12458348274230957,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.09388027340173721,
+            "realized_write_norm_last": 0.09388496726751328
+          }
+        ],
+        "kl": 1.2211537978146225e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.872565507888794,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 0.09388027340173721,
+            "realized_write_norm_last": 0.09388429671525955
+          }
+        ],
+        "kl": 2.8956063033547252e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.02108025550842285,
+    "mean_kl": 2.058380050584674e-05,
+    "protected": true,
+    "mean_write_norm": 0.09388027340173721,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": 0.03,
+      "dose": 0.03
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.183593988418579,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 0.09388027340173721,
+            "realized_write_norm_last": 0.09388852119445801
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.2458598613739014,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.09388027340173721,
+            "realized_write_norm_last": 0.093897245824337
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.04750204086303711,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.09388027340173721,
+            "realized_write_norm_last": 0.09388413280248642
+          }
+        ],
+        "kl": 1.183948916150257e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.8591932058334351,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 0.09388027340173721,
+            "realized_write_norm_last": 0.09388026595115662
+          }
+        ],
+        "kl": 8.676255674799904e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.07451635599136353,
+    "mean_kl": 4.9301022954750806e-05,
+    "protected": true,
+    "mean_write_norm": 0.09388027340173721,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": 0.1,
+      "dose": 0.1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -0.30338096618652344,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 0.3129342496395111,
+            "realized_write_norm_last": 0.3130328357219696
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 0.869074821472168,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.3129342496395111,
+            "realized_write_norm_last": 0.3130350708961487
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.5321931838989258,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.3129342496395111,
+            "realized_write_norm_last": 0.31303003430366516
+          }
+        ],
+        "kl": 7.097263005562127e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 0.1655207872390747,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 0.3129342496395111,
+            "realized_write_norm_last": 0.31303170323371887
+          }
+        ],
+        "kl": 0.002089098794385791,
+        "same_argmax": true
+      }
+    ],
+    "gain": 2.072090208530426,
+    "mean_kl": 0.001080035712220706,
+    "protected": true,
+    "mean_write_norm": 0.3129342496395111,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": 1.5683658123016357,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260552406311035
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 2.778775930404663,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260535717010498
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.361560344696045,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260450482368469
+          }
+        ],
+        "kl": 0.008089674636721611,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 2.0296287536621094,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260015368461609
+          }
+        ],
+        "kl": 0.004252804443240166,
+        "same_argmax": true
+      }
+    ],
+    "gain": 3.962814152240753,
+    "mean_kl": 0.006171239539980888,
+    "protected": true,
+    "mean_write_norm": 0.6258684992790222,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": 0.4,
+      "dose": 0.4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": 1.1288180351257324,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 1.2517369985580444,
+            "realized_write_norm_last": 1.2519700527191162
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 1.1784577369689941,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 1.2517369985580444,
+            "realized_write_norm_last": 1.2519819736480713
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.151892900466919,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 1.2517369985580444,
+            "realized_write_norm_last": 1.2519824504852295
+          }
+        ],
+        "kl": 6.807443618774414,
+        "same_argmax": false
+      },
+      {
+        "id": "pcal1",
+        "gap": 0.8499284982681274,
+        "argmax": 248046,
+        "argmax_text": "<|im_end|>",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 1.2517369985580444,
+            "realized_write_norm_last": 1.2519782781600952
+          }
+        ],
+        "kl": 12.578014373779297,
+        "same_argmax": false
+      }
+    ],
+    "gain": 2.942881166934967,
+    "mean_kl": 9.692728996276855,
+    "protected": false,
+    "mean_write_norm": 1.2517369985580444,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": 0.3877032399177551,
+        "argmax": 12,
+        "argmax_text": "-",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.129565715789795
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 0.38506776094436646,
+        "argmax": 12,
+        "argmax_text": "-",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295697689056396
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.7264249324798584,
+        "argmax": 220,
+        "argmax_text": " ",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.129542350769043
+          }
+        ],
+        "kl": 8.623014450073242,
+        "same_argmax": false
+      },
+      {
+        "id": "pcal1",
+        "gap": 0.5934070348739624,
+        "argmax": 220,
+        "argmax_text": " ",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295418739318848
+          }
+        ],
+        "kl": 18.038198471069336,
+        "same_argmax": false
+      }
+    ],
+    "gain": 2.1756287813186646,
+    "mean_kl": 13.330606460571289,
+    "protected": false,
+    "mean_write_norm": 3.1293423175811768,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "scale",
+      "value": 0,
+      "dose": 0
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.259983777999878,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": 0.0214691162109375,
+            "requested_write_norm": 0.008959863598192896
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3217209577560425,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": 0.021453857421875,
+            "requested_write_norm": 0.008953495535934053
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.1562657356262207,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": 0.0167388916015625,
+            "requested_write_norm": 0.006985764297951391
+          }
+        ],
+        "kl": 7.418702807626687e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9196807146072388,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": 0.00807952880859375,
+            "requested_write_norm": 0.003371888966057668
+          }
+        ],
+        "kl": 6.3296829466708e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0016090869903564453,
+    "mean_kl": 3.5357766137167346e-07,
+    "protected": true,
+    "mean_write_norm": 0.008956679567063475,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "scale",
+      "value": 0.5,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2579221725463867,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": 0.01073455810546875,
+            "requested_write_norm": 0.004479931799096448
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3191421031951904,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": 0.0107269287109375,
+            "requested_write_norm": 0.0044767477679670264
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15477275848388672,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": 0.00836944580078125,
+            "requested_write_norm": 0.0034928821489756956
+          }
+        ],
+        "kl": -2.7890337150893174e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9133890867233276,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": 0.004039764404296875,
+            "requested_write_norm": 0.001685944483028834
+          }
+        ],
+        "kl": 2.5332383302156813e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0007111430168151855,
+    "mean_kl": -1.2789769243681803e-09,
+    "protected": true,
+    "mean_write_norm": 0.004478339783531737,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "scale",
+      "value": 1.5,
+      "dose": 1.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2610819339752197,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": -0.0107269287109375,
+            "requested_write_norm": 0.0044767477679670264
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.322525143623352,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.010711669921875,
+            "requested_write_norm": 0.004470379705708183
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15069293975830078,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.0083770751953125,
+            "requested_write_norm": 0.0034960661801051174
+          }
+        ],
+        "kl": 6.6685288402368315e-09,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9208759069442749,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": -0.00403594970703125,
+            "requested_write_norm": 0.001684352467464123
+          }
+        ],
+        "kl": 5.013721420255024e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.002560257911682129,
+    "mean_kl": 2.540203354328696e-07,
+    "protected": true,
+    "mean_write_norm": 0.004473563736837605,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "scale",
+      "value": 2,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2612783908843994,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": -0.0214691162109375,
+            "requested_write_norm": 0.008959863598192896
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.320961833000183,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.021453857421875,
+            "requested_write_norm": 0.008953495535934053
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15105319023132324,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.0167388916015625,
+            "requested_write_norm": 0.006985764297951391
+          }
+        ],
+        "kl": 7.841026672394946e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9215589761734009,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": -0.00807952880859375,
+            "requested_write_norm": 0.003371888966057668
+          }
+        ],
+        "kl": 5.587851319432957e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0018768310546875,
+    "mean_kl": 3.185976993336226e-07,
+    "protected": true,
+    "mean_write_norm": 0.008956679567063475,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.262627363204956,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": -0.06439208984375,
+            "requested_write_norm": 0.026873222732319846
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3247405290603638,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.0643310546875,
+            "requested_write_norm": 0.02684775048328447
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15069961547851562,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.05023193359375,
+            "requested_write_norm": 0.020963660956113017
+          }
+        ],
+        "kl": 2.208480509580113e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9169151782989502,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": -0.02423095703125,
+            "requested_write_norm": 0.010112482867043582
+          }
+        ],
+        "kl": 2.7423736810305854e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.004440665245056152,
+    "mean_kl": 1.4816108659942984e-06,
+    "protected": true,
+    "mean_write_norm": 0.02686048660780216,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.258629322052002,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": 0.042938232421875,
+            "requested_write_norm": 0.017919727196385793
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.322158694267273,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": 0.04290771484375,
+            "requested_write_norm": 0.017906991071868106
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.1614842414855957,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": 0.033477783203125,
+            "requested_write_norm": 0.013971528595902782
+          }
+        ],
+        "kl": 1.6624653653707355e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9185624122619629,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": 0.0161590576171875,
+            "requested_write_norm": 0.006743777932115336
+          }
+        ],
+        "kl": 6.949458111193962e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0011507272720336914,
+    "mean_kl": 4.305961738282349e-07,
+    "protected": true,
+    "mean_write_norm": 0.01791335913412695,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "clamp",
+      "value": -0.0206756591796875,
+      "dose": -2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2606048583984375,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": 0.00079345703125,
+            "requested_write_norm": 0.0003311392374598654
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.320601463317871,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": 0.0007781982421875,
+            "requested_write_norm": 0.00032477117520102183
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15700531005859375,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.003936767578125,
+            "requested_write_norm": 0.0016429600627816399
+          }
+        ],
+        "kl": 1.8970695236930624e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9222356081008911,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": -0.01259613037109375,
+            "requested_write_norm": 0.005256835394675363
+          }
+        ],
+        "kl": 1.296373284276342e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0013598799705505371,
+    "mean_kl": 6.576719897566363e-07,
+    "protected": true,
+    "mean_write_norm": 0.0003279552063304436,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "clamp",
+      "value": -0.021503448486328125,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2588818073272705,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": -3.0517578125e-05,
+            "requested_write_norm": 1.273612451768713e-05
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3195799589157104,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -4.57763671875e-05,
+            "requested_write_norm": 1.9104186776530696e-05
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.1593782901763916,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.0047607421875,
+            "requested_write_norm": 0.0019868354247591924
+          }
+        ],
+        "kl": -1.2470309229684062e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9208319187164307,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": -0.01342010498046875,
+            "requested_write_norm": 0.005600710756652916
+          }
+        ],
+        "kl": 3.94607923226431e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": 1.239776611328125e-05,
+    "mean_kl": 1.9106880699837347e-07,
+    "protected": true,
+    "mean_write_norm": 1.5920155647108913e-05,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "clamp",
+      "value": -0.022745132446289062,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.26186203956604,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": -0.00128173828125,
+            "requested_write_norm": 0.0005349172297428595
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3174728155136108,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.0012969970703125,
+            "requested_write_norm": 0.0005412852920017031
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15744352340698242,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.006011962890625,
+            "requested_write_norm": 0.0025090165299843648
+          }
+        ],
+        "kl": 8.966071618488058e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9168163537979126,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": -0.01467132568359375,
+            "requested_write_norm": 0.006122891861878088
+          }
+        ],
+        "kl": 8.596834959462285e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0004241466522216797,
+    "mean_kl": 4.7467210606555454e-07,
+    "protected": true,
+    "mean_write_norm": 0.0005381012608722813,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "clamp",
+      "value": -0.023159027099609375,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.262810230255127,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": -0.0016937255859375,
+            "requested_write_norm": 0.0007068549107316358
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3200311660766602,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.001708984375,
+            "requested_write_norm": 0.0007132229729904793
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15720891952514648,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.0064239501953125,
+            "requested_write_norm": 0.002680954210973141
+          }
+        ],
+        "kl": -1.2434489349288924e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.915824294090271,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": -0.01508331298828125,
+            "requested_write_norm": 0.006294829542866864
+          }
+        ],
+        "kl": 6.786667654523626e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.002177417278289795,
+    "mean_kl": 2.771609359797367e-07,
+    "protected": true,
+    "mean_write_norm": 0.0007100389418610575,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "clamp",
+      "value": -0.02398681640625,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.251375913619995,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": -0.0025177001953125,
+            "requested_write_norm": 0.0010507302727091883
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3213382959365845,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.002532958984375,
+            "requested_write_norm": 0.0010570983349680318
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.16174888610839844,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.0072479248046875,
+            "requested_write_norm": 0.0030248295729506935
+          }
+        ],
+        "kl": 3.91155481338501e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9172828197479248,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": -0.015899658203125,
+            "requested_write_norm": 0.006635520873714995
+          }
+        ],
+        "kl": 7.468734111171216e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.002886176109313965,
+    "mean_kl": 3.9299447962548584e-07,
+    "protected": true,
+    "mean_write_norm": 0.00105391430383861,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "clamp",
+      "value": -0.02564239501953125,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.258970022201538,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "activation_delta_last": -0.0041656494140625,
+            "requested_write_norm": 0.0017384809966642933
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3199018239974976,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.004180908203125,
+            "requested_write_norm": 0.001744849058923137
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.1574840545654297,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "activation_delta_last": -0.0088958740234375,
+            "requested_write_norm": 0.0037125802969057986
+          }
+        ],
+        "kl": -4.028856892546173e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9234083890914917,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "activation_delta_last": -0.017547607421875,
+            "requested_write_norm": 0.0073232715976701
+          }
+        ],
+        "kl": 8.161241566995159e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0001926422119140625,
+    "mean_kl": 3.879177938870271e-07,
+    "protected": true,
+    "mean_write_norm": 0.0017416650277937151,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -4.148175239562988,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 53.96794891357422,
+            "realized_write_norm_last": 53.96895217895508
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -2.9629621505737305,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 53.96794891357422,
+            "realized_write_norm_last": 53.96729278564453
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -3.4316608905792236,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 53.96794891357422,
+            "realized_write_norm_last": 53.96689987182617
+          }
+        ],
+        "kl": 0.13021434843540192,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -3.8157942295074463,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 53.96794891357422,
+            "realized_write_norm_last": 53.96791458129883
+          }
+        ],
+        "kl": 0.8082126379013062,
+        "same_argmax": true
+      }
+    ],
+    "gain": -1.7663254141807556,
+    "mean_kl": 0.46921349316835403,
+    "protected": true,
+    "mean_write_norm": 53.96794891357422,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": -0.4,
+      "dose": -0.4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": 1.536266803741455,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.587669372558594
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 2.8225455284118652,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58763885498047
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.9982340335845947,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58673858642578
+          }
+        ],
+        "kl": 0.0007334118708968163,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 2.822347640991211,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58625030517578
+          }
+        ],
+        "kl": 0.007624607998877764,
+        "same_argmax": true
+      }
+    ],
+    "gain": 3.968649446964264,
+    "mean_kl": 0.00417900993488729,
+    "protected": true,
+    "mean_write_norm": 21.58717918395996,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": -0.2,
+      "dose": -0.2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": 1.012904167175293,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 10.79358959197998,
+            "realized_write_norm_last": 10.792624473571777
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 2.1545522212982178,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 10.79358959197998,
+            "realized_write_norm_last": 10.792937278747559
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.5091419219970703,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 10.79358959197998,
+            "realized_write_norm_last": 10.793846130371094
+          }
+        ],
+        "kl": 0.00018789902969729155,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 2.5140318870544434,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 10.79358959197998,
+            "realized_write_norm_last": 10.793610572814941
+          }
+        ],
+        "kl": 0.0017426793929189444,
+        "same_argmax": true
+      }
+    ],
+    "gain": 3.372971475124359,
+    "mean_kl": 0.000965289211308118,
+    "protected": true,
+    "mean_write_norm": 10.79358959197998,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": -0.1,
+      "dose": -0.1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -0.01718902587890625,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 5.39679479598999,
+            "realized_write_norm_last": 5.3964152336120605
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 1.0536508560180664,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 5.39679479598999,
+            "realized_write_norm_last": 5.396613597869873
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.3570497035980225,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 5.39679479598999,
+            "realized_write_norm_last": 5.396293640136719
+          }
+        ],
+        "kl": 4.2810825107153505e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 1.4514567852020264,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 5.39679479598999,
+            "realized_write_norm_last": 5.396562099456787
+          }
+        ],
+        "kl": 0.0003695402992889285,
+        "same_argmax": true
+      }
+    ],
+    "gain": 2.307474195957184,
+    "mean_kl": 0.000206175562198041,
+    "protected": true,
+    "mean_write_norm": 5.39679479598999,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": -0.03,
+      "dose": -0.03
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -1.3928744792938232,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 1.619038462638855,
+            "realized_write_norm_last": 1.6196393966674805
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -0.45386552810668945,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 1.619038462638855,
+            "realized_write_norm_last": 1.6197580099105835
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.8208620548248291,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 1.619038462638855,
+            "realized_write_norm_last": 1.6189188957214355
+          }
+        ],
+        "kl": 3.820961865130812e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 0.0005161762237548828,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 1.619038462638855,
+            "realized_write_norm_last": 1.6190192699432373
+          }
+        ],
+        "kl": 2.918024802056607e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.8658732771873474,
+    "mean_kl": 1.650060494284844e-05,
+    "protected": true,
+    "mean_write_norm": 1.619038462638855,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": 0.03,
+      "dose": 0.03
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -3.1317219734191895,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 1.619038462638855,
+            "realized_write_norm_last": 1.6195565462112427
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -2.1143712997436523,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 1.619038462638855,
+            "realized_write_norm_last": 1.6198115348815918
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -1.1782610416412354,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 1.619038462638855,
+            "realized_write_norm_last": 1.618894338607788
+          }
+        ],
+        "kl": 4.655750672100112e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -1.8250776529312134,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 1.619038462638855,
+            "realized_write_norm_last": 1.619023323059082
+          }
+        ],
+        "kl": 2.0753417629748583e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.8338033556938171,
+    "mean_kl": 1.2704584150924347e-05,
+    "protected": true,
+    "mean_write_norm": 1.619038462638855,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": 0.1,
+      "dose": 0.1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -4.561189651489258,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 5.39679479598999,
+            "realized_write_norm_last": 5.396082878112793
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -3.326817274093628,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 5.39679479598999,
+            "realized_write_norm_last": 5.396650791168213
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -2.8046624660491943,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 5.39679479598999,
+            "realized_write_norm_last": 5.39613676071167
+          }
+        ],
+        "kl": 5.370035796659067e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -3.3103606700897217,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 5.39679479598999,
+            "realized_write_norm_last": 5.396551132202148
+          }
+        ],
+        "kl": 0.00014071303303353488,
+        "same_argmax": true
+      }
+    ],
+    "gain": -2.154760181903839,
+    "mean_kl": 9.720669550006278e-05,
+    "protected": true,
+    "mean_write_norm": 5.39679479598999,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -5.480219841003418,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 10.79358959197998,
+            "realized_write_norm_last": 10.793058395385742
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -4.096971035003662,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 10.79358959197998,
+            "realized_write_norm_last": 10.792831420898438
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -3.66691255569458,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 10.79358959197998,
+            "realized_write_norm_last": 10.793590545654297
+          }
+        ],
+        "kl": 9.509459050605074e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -4.316401958465576,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 10.79358959197998,
+            "realized_write_norm_last": 10.793802261352539
+          }
+        ],
+        "kl": 0.0005562201840803027,
+        "same_argmax": true
+      }
+    ],
+    "gain": -2.9993521571159363,
+    "mean_kl": 0.0003256573872931767,
+    "protected": true,
+    "mean_write_norm": 10.79358959197998,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": 0.4,
+      "dose": 0.4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -5.465576171875,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.587366104125977
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -4.086258411407471,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.5869083404541
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -3.5136513710021973,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.586814880371094
+          }
+        ],
+        "kl": 0.0004940529470331967,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -4.367506504058838,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.586515426635742
+          }
+        ],
+        "kl": 0.004508483223617077,
+        "same_argmax": true
+      }
+    ],
+    "gain": -2.9866740107536316,
+    "mean_kl": 0.0025012680853251368,
+    "protected": true,
+    "mean_write_norm": 21.58717918395996,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.5284950733184814,
+        "argmax": 17551,
+        "argmax_text": " CM",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 53.96794891357422,
+            "realized_write_norm_last": 53.96858596801758
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.8703320026397705,
+        "argmax": 14840,
+        "argmax_text": " CP",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 53.96794891357422,
+            "realized_write_norm_last": 53.96885299682617
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.9582769274711609,
+        "argmax": 9710,
+        "argmax_text": " CS",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 53.96794891357422,
+            "realized_write_norm_last": 53.968971252441406
+          }
+        ],
+        "kl": 6.189726829528809,
+        "same_argmax": false
+      },
+      {
+        "id": "pcal1",
+        "gap": -1.7546133995056152,
+        "argmax": 14840,
+        "argmax_text": " CP",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 53.96794891357422,
+            "realized_write_norm_last": 53.969154357910156
+          }
+        ],
+        "kl": 6.997124671936035,
+        "same_argmax": false
+      }
+    ],
+    "gain": -0.4101702570915222,
+    "mean_kl": 6.593425750732422,
+    "protected": false,
+    "mean_write_norm": 53.96794891357422,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": 0,
+      "dose": 0
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2221109867095947,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": -0.1365966796875,
+            "requested_write_norm": 0.04923764502746053
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.2132065296173096,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -0.541015625,
+            "requested_write_norm": 0.1950145154260099
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.20754051208496094,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 0.470458984375,
+            "requested_write_norm": 0.16958166571566835
+          }
+        ],
+        "kl": -1.1402619293221505e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.797744870185852,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": -0.6044921875,
+            "requested_write_norm": 0.21789527987129986
+          }
+        ],
+        "kl": 4.6944751375121996e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.07158452272415161,
+    "mean_kl": 2.2902244722899923e-07,
+    "protected": true,
+    "mean_write_norm": 0.12212608022673521,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": 0.5,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2406818866729736,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": -0.06829833984375,
+            "requested_write_norm": 0.024618822513730265
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.268673300743103,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -0.2705078125,
+            "requested_write_norm": 0.09750725771300495
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.17947173118591309,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 0.2352294921875,
+            "requested_write_norm": 0.08479083285783418
+          }
+        ],
+        "kl": 1.1166321201017126e-09,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.8554054498672485,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": -0.30224609375,
+            "requested_write_norm": 0.10894763993564993
+          }
+        ],
+        "kl": 2.81309439742472e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.03456568717956543,
+    "mean_kl": 1.4121303593128687e-07,
+    "protected": true,
+    "mean_write_norm": 0.061063040113367606,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": 1.5,
+      "dose": 1.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2770724296569824,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": 0.0682373046875,
+            "requested_write_norm": 0.024596821778686717
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.372262954711914,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 0.2705078125,
+            "requested_write_norm": 0.09750725771300495
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.12220144271850586,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -0.235107421875,
+            "requested_write_norm": 0.08474683138774708
+          }
+        ],
+        "kl": 5.40721885045059e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9748882055282593,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": 0.30224609375,
+            "requested_write_norm": 0.10894763993564993
+          }
+        ],
+        "kl": 3.7938116292934865e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.03542441129684448,
+    "mean_kl": 2.1672667571692728e-07,
+    "protected": true,
+    "mean_write_norm": 0.06105203974584583,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": 2,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2961089611053467,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": 0.1365966796875,
+            "requested_write_norm": 0.04923764502746053
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.4237035512924194,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 0.541015625,
+            "requested_write_norm": 0.1950145154260099
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.09470176696777344,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -0.470458984375,
+            "requested_write_norm": 0.16958166571566835
+          }
+        ],
+        "kl": 8.01123860583175e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -1.031444787979126,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": 0.6044921875,
+            "requested_write_norm": 0.21789527987129986
+          }
+        ],
+        "kl": 3.8561938708880916e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0706629753112793,
+    "mean_kl": 2.3286588657356333e-07,
+    "protected": true,
+    "mean_write_norm": 0.12212608022673521,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.3677620887756348,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": 0.40966796875,
+            "requested_write_norm": 0.1476689336122945
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.6294320821762085,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 1.623046875,
+            "requested_write_norm": 0.5850435462780297
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.0190582275390625,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -1.4111328125,
+            "requested_write_norm": 0.5086569942068309
+          }
+        ],
+        "kl": 2.643246261868626e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -1.2662049531936646,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": 1.8134765625,
+            "requested_write_norm": 0.6536858396138996
+          }
+        ],
+        "kl": 4.362716936157085e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.20935380458831787,
+    "mean_kl": 2.313520781171974e-06,
+    "protected": true,
+    "mean_write_norm": 0.3663562399451621,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.186666250228882,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": -0.273193359375,
+            "requested_write_norm": 0.09847529005492106
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.1063101291656494,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -1.08203125,
+            "requested_write_norm": 0.3900290308520198
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.26362037658691406,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 0.94091796875,
+            "requested_write_norm": 0.3391633314313367
+          }
+        ],
+        "kl": -4.7480625653406605e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.679962158203125,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": -1.208984375,
+            "requested_write_norm": 0.4357905597425997
+          }
+        ],
+        "kl": 2.4519740691175684e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.14275509119033813,
+    "mean_kl": 1.202246721732081e-06,
+    "protected": true,
+    "mean_write_norm": 0.24425216045347042,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "clamp",
+      "value": 6.097381591796875,
+      "dose": -2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -3.379209518432617,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": 5.9609375,
+            "requested_write_norm": 2.1486797872930765
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -2.274958610534668,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 5.5546875,
+            "requested_write_norm": 2.0022428948432207
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -1.5630011558532715,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 6.56640625,
+            "requested_write_norm": 2.366927078925073
+          }
+        ],
+        "kl": 1.1853684554807842e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -2.0164804458618164,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": 5.4921875,
+            "requested_write_norm": 1.9797141421586275
+          }
+        ],
+        "kl": 2.9493385227397084e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -1.0378407835960388,
+    "mean_kl": 2.0673534891102463e-05,
+    "protected": true,
+    "mean_write_norm": 2.0754613410681486,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "clamp",
+      "value": 3.27166748046875,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.868778705596924,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": 3.134765625,
+            "requested_write_norm": 1.1299577518366277
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.818505883216858,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 2.73046875,
+            "requested_write_norm": 0.9842248829081655
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.9605412483215332,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 3.7421875,
+            "requested_write_norm": 1.348909066990018
+          }
+        ],
+        "kl": 2.9819093469996005e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -1.4775233268737793,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": 2.66796875,
+            "requested_write_norm": 0.9616961302235723
+          }
+        ],
+        "kl": 7.995533451321535e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.5543990135192871,
+    "mean_kl": 5.488721399160568e-06,
+    "protected": true,
+    "mean_write_norm": 1.0570913173723966,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "clamp",
+      "value": -0.9669036865234375,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.028775930404663,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": -1.103515625,
+            "requested_write_norm": 0.3977732895873487
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.028144359588623,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -1.5078125,
+            "requested_write_norm": 0.543506158515811
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.012711048126220703,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -0.496337890625,
+            "requested_write_norm": 0.17890997737413272
+          }
+        ],
+        "kl": -3.027707862202078e-09,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.593396782875061,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": -1.5712890625,
+            "requested_write_norm": 0.5663869229611009
+          }
+        ],
+        "kl": 3.440764885453973e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.2607831358909607,
+    "mean_kl": 1.7188685887958854e-06,
+    "protected": true,
+    "mean_write_norm": 0.47063972405157983,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "clamp",
+      "value": -2.3797607421875,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -1.7525243759155273,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": -2.515625,
+            "requested_write_norm": 0.9067822955548763
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -0.75128173828125,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -2.919921875,
+            "requested_write_norm": 1.0525151644833386
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.32784605026245117,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -1.908203125,
+            "requested_write_norm": 0.6878309804014862
+          }
+        ],
+        "kl": 7.844373612897471e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.3032571077346802,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": -2.984375,
+            "requested_write_norm": 1.0757479406893253
+          }
+        ],
+        "kl": 1.2375721780699678e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.5373402237892151,
+    "mean_kl": 6.580079570994712e-06,
+    "protected": true,
+    "mean_write_norm": 0.9796487300191075,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "clamp",
+      "value": -5.205474853515625,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -1.2372758388519287,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": -5.34375,
+            "requested_write_norm": 1.9262083545327187
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -0.21996617317199707,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -5.75,
+            "requested_write_norm": 2.0726452469825745
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.9128687381744385,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -4.73828125,
+            "requested_write_norm": 1.707961062900722
+          }
+        ],
+        "kl": 4.563131369650364e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 0.23404765129089355,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": -5.8125,
+            "requested_write_norm": 2.0951739996671677
+          }
+        ],
+        "kl": 4.974232069798745e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 1.0606222748756409,
+    "mean_kl": 2.7152726033818908e-05,
+    "protected": true,
+    "mean_write_norm": 1.9994268007576466,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "clamp",
+      "value": -10.856903076171875,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -0.4305081367492676,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": -10.9921875,
+            "requested_write_norm": 3.962244378402829
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": 0.6484949588775635,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -11.3984375,
+            "requested_write_norm": 4.108681270852685
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.8385097980499268,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -10.390625,
+            "requested_write_norm": 3.7454051338136196
+          }
+        ],
+        "kl": 2.1623891370836645e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 1.0699405670166016,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": -11.4609375,
+            "requested_write_norm": 4.131210023537278
+          }
+        ],
+        "kl": 0.00021149104577489197,
+        "same_argmax": true
+      }
+    ],
+    "gain": 1.8982366919517517,
+    "mean_kl": 0.00011655746857286431,
+    "protected": true,
+    "mean_write_norm": 4.035462824627757,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -1.418229103088379,
+        "argmax": 50584,
+        "argmax_text": "Silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26187133789062
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -0.716218113899231,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26193237304688
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.138039231300354,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26139831542969
+          }
+        ],
+        "kl": 0.030054226517677307,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.38856256008148193,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26222229003906
+          }
+        ],
+        "kl": 0.1423446387052536,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.7220196723937988,
+    "mean_kl": 0.08619943261146545,
+    "protected": true,
+    "mean_write_norm": 64.26203155517578,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": -0.4,
+      "dose": -0.4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.036478281021118,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705078125
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.1060142517089844,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705080032348633
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.010764360427856445,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704805374145508
+          }
+        ],
+        "kl": 0.0003620505449362099,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.7070573568344116,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705677032470703
+          }
+        ],
+        "kl": 0.0025767250917851925,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.2179970145225525,
+    "mean_kl": 0.0014693878183607012,
+    "protected": true,
+    "mean_write_norm": 25.70481300354004,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": -0.2,
+      "dose": -0.2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.1872081756591797,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852205276489258
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.2286403179168701,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852259635925293
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.07993054389953613,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.85263729095459
+          }
+        ],
+        "kl": 1.7481183022027835e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.8219457864761353,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.851643562316895
+          }
+        ],
+        "kl": 0.00023369406699202955,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.08131903409957886,
+    "mean_kl": 0.0001255876250070287,
+    "protected": true,
+    "mean_write_norm": 12.85240650177002,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": -0.1,
+      "dose": -0.1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.23456072807312,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426510810852051
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.2793152332305908,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426825046539307
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.11544656753540039,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426199913024902
+          }
+        ],
+        "kl": 9.365230653202161e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.8722826242446899,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.42676305770874
+          }
+        ],
+        "kl": 3.2281681342283264e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.03230530023574829,
+    "mean_kl": 1.660910220380174e-05,
+    "protected": true,
+    "mean_write_norm": 6.42620325088501,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": -0.03,
+      "dose": -0.03
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2538063526153564,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9278730154037476
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3088864088058472,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9277650117874146
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.14132404327392578,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9278494119644165
+          }
+        ],
+        "kl": 3.1250351639755536e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9038463830947876,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.928068995475769
+          }
+        ],
+        "kl": 1.7893064523377689e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.007896900177001953,
+    "mean_kl": 9.102784019887622e-07,
+    "protected": true,
+    "mean_write_norm": 1.927860975265503,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": 0.03,
+      "dose": 0.03
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.260715961456299,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9278303384780884
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3294827938079834,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.927842378616333
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.1618654727935791,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9278106689453125
+          }
+        ],
+        "kl": -3.399918568902649e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9279682636260986,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9280602931976318
+          }
+        ],
+        "kl": 2.2809488200437045e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0058560967445373535,
+    "mean_kl": 1.123474817177339e-06,
+    "protected": true,
+    "mean_write_norm": 1.927860975265503,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": 0.1,
+      "dose": 0.1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2587344646453857,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.4267191886901855
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3482459783554077,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426951885223389
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.1859912872314453,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.4262189865112305
+          }
+        ],
+        "kl": 6.332555130938999e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.951345682144165,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426547527313232
+          }
+        ],
+        "kl": 2.918885184044484e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.014246940612792969,
+    "mean_kl": 1.776070348569192e-05,
+    "protected": true,
+    "mean_write_norm": 6.42620325088501,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2387194633483887,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852455139160156
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.365004539489746,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852439880371094
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.2174830436706543,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852571487426758
+          }
+        ],
+        "kl": 6.884305184939876e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9756673574447632,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.851848602294922
+          }
+        ],
+        "kl": 0.0002706832019612193,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.012618720531463623,
+    "mean_kl": 0.00016976312690530904,
+    "protected": true,
+    "mean_write_norm": 12.85240650177002,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": 0.4,
+      "dose": 0.4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.1479201316833496,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705482482910156
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3626195192337036,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70556640625
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.26972711086273193,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705129623413086
+          }
+        ],
+        "kl": 0.0018225915264338255,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9955319166183472,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70560073852539
+          }
+        ],
+        "kl": 0.009960087947547436,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.03397345542907715,
+    "mean_kl": 0.005891339736990631,
+    "protected": true,
+    "mean_write_norm": 25.70481300354004,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -1.7452186346054077,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26210021972656
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.201254963874817,
+        "argmax": 898,
+        "argmax_text": "sh",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26089477539062
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.34965598583221436,
+        "argmax": 3122,
+        "argmax_text": "sl",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26191711425781
+          }
+        ],
+        "kl": 4.603027820587158,
+        "same_argmax": false
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9076395630836487,
+        "argmax": 898,
+        "argmax_text": "sh",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26195526123047
+          }
+        ],
+        "kl": 5.845830917358398,
+        "same_argmax": false
+      }
+    ],
+    "gain": 0.31600648164749146,
+    "mean_kl": 5.224429368972778,
+    "protected": false,
+    "mean_write_norm": 64.26203155517578,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "scale",
+      "value": 0,
+      "dose": 0
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2587058544158936,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 0.2060546875,
+            "requested_write_norm": 0.07876476887031458
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3216211795806885,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.322509765625,
+            "requested_write_norm": 0.12327992852806346
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15063881874084473,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.316162109375,
+            "requested_write_norm": 0.12085352569556562
+          }
+        ],
+        "kl": -2.8152726372354664e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.917446494102478,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.52978515625,
+            "requested_write_norm": 0.20251131332770456
+          }
+        ],
+        "kl": 6.094478521845303e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0009202361106872559,
+    "mean_kl": 1.6396029423049185e-08,
+    "protected": true,
+    "mean_write_norm": 0.10102234869918902,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "scale",
+      "value": 0.5,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.258242130279541,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 0.10302734375,
+            "requested_write_norm": 0.03938238443515729
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3207989931106567,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.1612548828125,
+            "requested_write_norm": 0.06163996426403173
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15099525451660156,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.1580810546875,
+            "requested_write_norm": 0.06042676284778281
+          }
+        ],
+        "kl": -5.6011501214925374e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9170651435852051,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.264892578125,
+            "requested_write_norm": 0.10125565666385228
+          }
+        ],
+        "kl": -1.6647733502850315e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0002772808074951172,
+    "mean_kl": -1.1124441812171426e-07,
+    "protected": true,
+    "mean_write_norm": 0.05051117434959451,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "scale",
+      "value": 1.5,
+      "dose": 1.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.258460760116577,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -0.10302734375,
+            "requested_write_norm": 0.03938238443515729
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.319271206855774,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.161376953125,
+            "requested_write_norm": 0.06168662585696438
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15172934532165527,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.157958984375,
+            "requested_write_norm": 0.06038010125485016
+          }
+        ],
+        "kl": 1.5673489883738512e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9152975082397461,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -0.26513671875,
+            "requested_write_norm": 0.10134897984971758
+          }
+        ],
+        "kl": -6.958293852221686e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.00037729740142822266,
+    "mean_kl": 4.3575980157584127e-08,
+    "protected": true,
+    "mean_write_norm": 0.05053450514606084,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "scale",
+      "value": 2,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.258537530899048,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -0.2060546875,
+            "requested_write_norm": 0.07876476887031458
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.318297266960144,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.322509765625,
+            "requested_write_norm": 0.12327992852806346
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15198135375976562,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.316162109375,
+            "requested_write_norm": 0.12085352569556562
+          }
+        ],
+        "kl": 6.224054516223987e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9155784845352173,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -0.52978515625,
+            "requested_write_norm": 0.20251131332770456
+          }
+        ],
+        "kl": -2.775549603484251e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0008258819580078125,
+    "mean_kl": -1.0765720759309261e-07,
+    "protected": true,
+    "mean_write_norm": 0.10102234869918902,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2572996616363525,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -0.6181640625,
+            "requested_write_norm": 0.23629430661094375
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3174551725387573,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.9677734375,
+            "requested_write_norm": 0.3699331087700557
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15314269065856934,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.9482421875,
+            "requested_write_norm": 0.36246725390083157
+          }
+        ],
+        "kl": 5.541973280287493e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9123103618621826,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -1.58984375,
+            "requested_write_norm": 0.6077205863548443
+          }
+        ],
+        "kl": -7.939664214973163e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0018658638000488281,
+    "mean_kl": -1.198845467342835e-08,
+    "protected": true,
+    "mean_write_norm": 0.3031137076904997,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.259058713912964,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 0.412109375,
+            "requested_write_norm": 0.15752953774062917
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3215299844741821,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.64501953125,
+            "requested_write_norm": 0.24655985705612693
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15079903602600098,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.63232421875,
+            "requested_write_norm": 0.24170705139113124
+          }
+        ],
+        "kl": -6.721109002683079e-09,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.919384241104126,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 1.0595703125,
+            "requested_write_norm": 0.4050226266554091
+          }
+        ],
+        "kl": -1.3654533859153162e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0010510683059692383,
+    "mean_kl": -7.163322379710735e-08,
+    "protected": true,
+    "mean_write_norm": 0.20204469739837805,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "clamp",
+      "value": 0.19332686066627502,
+      "dose": -2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.258840799331665,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 0.3994140625,
+            "requested_write_norm": 0.15267673207563348
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3215166330337524,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.515625,
+            "requested_write_norm": 0.19709856854751706
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15156841278076172,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.122802734375,
+            "requested_write_norm": 0.046941562490246724
+          }
+        ],
+        "kl": 1.0513022630220803e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9181431531906128,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.72314453125,
+            "requested_write_norm": 0.27642327653302345
+          }
+        ],
+        "kl": 2.7344196951162303e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0009354352951049805,
+    "mean_kl": 1.8928609790691553e-07,
+    "protected": true,
+    "mean_write_norm": 0.17488765031157527,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "clamp",
+      "value": 0.06691354513168335,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2591135501861572,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 0.27294921875,
+            "requested_write_norm": 0.10433532179740723
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.320970892906189,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.389404296875,
+            "requested_write_norm": 0.14885048145515611
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.1507556438446045,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.249267578125,
+            "requested_write_norm": 0.09528297276847297
+          }
+        ],
+        "kl": 1.0997581512128818e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9179484844207764,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.5966796875,
+            "requested_write_norm": 0.2280818662547972
+          }
+        ],
+        "kl": 9.412369195160863e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0007989406585693359,
+    "mean_kl": 5.2560636731868726e-08,
+    "protected": true,
+    "mean_write_norm": 0.12659290162628167,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "clamp",
+      "value": -0.12270642817020416,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.258211374282837,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 0.0833740234375,
+            "requested_write_norm": 0.03186986797300051
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3208774328231812,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.1998291015625,
+            "requested_write_norm": 0.07638502763074939
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15036749839782715,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.43896484375,
+            "requested_write_norm": 0.16779508818581235
+          }
+        ],
+        "kl": 1.770615654095309e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9171007871627808,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.4072265625,
+            "requested_write_norm": 0.15566307402332313
+          }
+        ],
+        "kl": 1.242023017766769e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.00030112266540527344,
+    "mean_kl": 1.506319335931039e-08,
+    "protected": true,
+    "mean_write_norm": 0.05412744780187495,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "clamp",
+      "value": -0.1859130859375,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.258087158203125,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 0.0201416015625,
+            "requested_write_norm": 0.007699162833887385
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.320529818534851,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.1365966796875,
+            "requested_write_norm": 0.05221432249163627
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15058135986328125,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.501953125,
+            "requested_write_norm": 0.19187247013906017
+          }
+        ],
+        "kl": -1.2268685622984776e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9172656536102295,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.34375,
+            "requested_write_norm": 0.1313990456983447
+          }
+        ],
+        "kl": -1.2728700937714166e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -6.520748138427734e-05,
+    "mean_kl": -6.977784750006322e-08,
+    "protected": true,
+    "mean_write_norm": 0.029956742662761826,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "clamp",
+      "value": -0.3123264014720917,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2585256099700928,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -0.106201171875,
+            "requested_write_norm": 0.04059558585140621
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3202236890792847,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.01025390625,
+            "requested_write_norm": 0.003919573806342669
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15079402923583984,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.62841796875,
+            "requested_write_norm": 0.24021388041728642
+          }
+        ],
+        "kl": 1.5478178738703718e-09,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9166516065597534,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.217529296875,
+            "requested_write_norm": 0.08315095860598376
+          }
+        ],
+        "kl": -8.937882967074984e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.00013136863708496094,
+    "mean_kl": -4.391550589843973e-08,
+    "protected": true,
+    "mean_write_norm": 0.02225757982887444,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "clamp",
+      "value": -0.5651530027389526,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2578399181365967,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -0.35888671875,
+            "requested_write_norm": 0.1371850832219934
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3188174962997437,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.242431640625,
+            "requested_write_norm": 0.09266992356424453
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.1502211093902588,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.880859375,
+            "requested_write_norm": 0.3367100546020083
+          }
+        ],
+        "kl": 6.165180366224376e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9158825874328613,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -0.03515625,
+            "requested_write_norm": 0.013438538764603436
+          }
+        ],
+        "kl": -1.770727919847559e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0009145736694335938,
+    "mean_kl": -5.7710494161256065e-08,
+    "protected": true,
+    "mean_write_norm": 0.11492750339311897,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -1.2329992055892944,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26216888427734
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -0.6475526094436646,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26132202148438
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.19869661331176758,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26255798339844
+          }
+        ],
+        "kl": 0.011554538272321224,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.3232494592666626,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26300811767578
+          }
+        ],
+        "kl": 0.33828043937683105,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.8489673733711243,
+    "mean_kl": 0.17491748882457614,
+    "protected": true,
+    "mean_write_norm": 64.26203155517578,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": -0.4,
+      "dose": -0.4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -1.8803725242614746,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70574188232422
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.0670093297958374,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.7053279876709
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.02393817901611328,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70488166809082
+          }
+        ],
+        "kl": 0.00011341989011270925,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.6703149080276489,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705135345458984
+          }
+        ],
+        "kl": 0.007406808435916901,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.31555235385894775,
+    "mean_kl": 0.003760114163014805,
+    "protected": true,
+    "mean_write_norm": 25.70481300354004,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": -0.2,
+      "dose": -0.2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.0958707332611084,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.853015899658203
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.2074280977249146,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852792739868164
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.06061887741088867,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852564811706543
+          }
+        ],
+        "kl": 7.27820679458091e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.8020824193954468,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.853510856628418
+          }
+        ],
+        "kl": 0.000883287750184536,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.13759386539459229,
+    "mean_kl": 0.00044528297848955845,
+    "protected": true,
+    "mean_write_norm": 12.85240650177002,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": -0.1,
+      "dose": -0.1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.1854217052459717,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.425405025482178
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.2687554359436035,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.425376892089844
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.10579657554626465,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426105976104736
+          }
+        ],
+        "kl": 4.141951649216935e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.8621683120727539,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.425447940826416
+          }
+        ],
+        "kl": 0.0001443174696760252,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.06215471029281616,
+    "mean_kl": 7.422971066262107e-05,
+    "protected": true,
+    "mean_write_norm": 6.42620325088501,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": -0.03,
+      "dose": -0.03
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2386016845703125,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 1.9278608560562134,
+            "realized_write_norm_last": 1.9284833669662476
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3058298826217651,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 1.9278608560562134,
+            "realized_write_norm_last": 1.9289562702178955
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.13852977752685547,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 1.9278608560562134,
+            "realized_write_norm_last": 1.928465485572815
+          }
+        ],
+        "kl": 8.15823113953229e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9009063243865967,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 1.9278608560562134,
+            "realized_write_norm_last": 1.9281237125396729
+          }
+        ],
+        "kl": 9.358707757201046e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.01702749729156494,
+    "mean_kl": 5.087265435577137e-06,
+    "protected": true,
+    "mean_write_norm": 1.9278608560562134,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": 0.03,
+      "dose": 0.03
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.275695562362671,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 1.9278608560562134,
+            "realized_write_norm_last": 1.928322672843933
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3324567079544067,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 1.9278608560562134,
+            "realized_write_norm_last": 1.9289324283599854
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.16566991806030273,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 1.9278608560562134,
+            "realized_write_norm_last": 1.9283474683761597
+          }
+        ],
+        "kl": 5.779429557151161e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9306433200836182,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 1.9278608560562134,
+            "realized_write_norm_last": 1.9277304410934448
+          }
+        ],
+        "kl": 8.294096915051341e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.014832854270935059,
+    "mean_kl": 4.436019935383229e-06,
+    "protected": true,
+    "mean_write_norm": 1.9278608560562134,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": 0.1,
+      "dose": 0.1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.3083243370056152,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.425474166870117
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.358519434928894,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.425111770629883
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.19568538665771484,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.4257988929748535
+          }
+        ],
+        "kl": 2.1029842173447832e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.961644172668457,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426148891448975
+          }
+        ],
+        "kl": 6.091729665058665e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.04417860507965088,
+    "mean_kl": 4.097356941201724e-05,
+    "protected": true,
+    "mean_write_norm": 6.42620325088501,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.3354387283325195,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852415084838867
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3868731260299683,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852925300598145
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.23874950408935547,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852502822875977
+          }
+        ],
+        "kl": 0.00015682379307691008,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9957208633422852,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.851983070373535
+          }
+        ],
+        "kl": 0.00017425822443328798,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.07191264629364014,
+    "mean_kl": 0.00016554100875509903,
+    "protected": true,
+    "mean_write_norm": 12.85240650177002,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": 0.4,
+      "dose": 0.4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.320021629333496,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70561408996582
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.405004620552063,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705322265625
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.30970585346221924,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704965591430664
+          }
+        ],
+        "kl": 0.0016454797005280852,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -1.0344374179840088,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705352783203125
+          }
+        ],
+        "kl": 0.0009860823629423976,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.07326984405517578,
+    "mean_kl": 0.0013157810317352414,
+    "protected": true,
+    "mean_write_norm": 25.70481300354004,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -1.9742882251739502,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26231384277344
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.2782245874404907,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2635269165039
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.42549777030944824,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26107788085938
+          }
+        ],
+        "kl": 0.23212741315364838,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9805372953414917,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26248931884766
+          }
+        ],
+        "kl": 0.1263512521982193,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.1629868745803833,
+    "mean_kl": 0.17923933267593384,
+    "protected": true,
+    "mean_write_norm": 64.26203155517578,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "scale",
+      "value": 0,
+      "dose": 0
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.251643419265747,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -1.5244140625,
+            "requested_write_norm": 0.6024647687736433
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.30991530418396,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -3.46484375,
+            "requested_write_norm": 1.3693433693842962
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15308260917663574,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.325439453125,
+            "requested_write_norm": 0.12861715835606446
+          }
+        ],
+        "kl": -8.782734539636294e-09,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9092694520950317,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -2.359375,
+            "requested_write_norm": 0.9324502763338387
+          }
+        ],
+        "kl": 1.95502070710063e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.008463919162750244,
+    "mean_kl": 9.731189862804968e-07,
+    "protected": true,
+    "mean_write_norm": 0.9859040690789698,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "scale",
+      "value": 0.5,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2560927867889404,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -0.76220703125,
+            "requested_write_norm": 0.30123238438682165
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3148201704025269,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -1.732421875,
+            "requested_write_norm": 0.6846716846921481
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15232205390930176,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.1627197265625,
+            "requested_write_norm": 0.06430857917803223
+          }
+        ],
+        "kl": -1.4893464594933903e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9131045341491699,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -1.1796875,
+            "requested_write_norm": 0.46622513816691935
+          }
+        ],
+        "kl": 6.748496161890216e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.003786802291870117,
+    "mean_kl": 2.629574851198413e-07,
+    "protected": true,
+    "mean_write_norm": 0.4929520345394849,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "scale",
+      "value": 1.5,
+      "dose": 1.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.260847568511963,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 0.7626953125,
+            "requested_write_norm": 0.301425358367851
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3241071701049805,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 1.73046875,
+            "requested_write_norm": 0.6838997887680307
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15068292617797852,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.162841796875,
+            "requested_write_norm": 0.06435682267328957
+          }
+        ],
+        "kl": 1.2393115866871085e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9199904203414917,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 1.1796875,
+            "requested_write_norm": 0.46622513816691935
+          }
+        ],
+        "kl": 7.554554031230509e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.00323408842086792,
+    "mean_kl": 3.83924259494961e-07,
+    "protected": true,
+    "mean_write_norm": 0.49266257356794085,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "scale",
+      "value": 2,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.263730764389038,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 1.5244140625,
+            "requested_write_norm": 0.6024647687736433
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.328905701637268,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 3.46484375,
+            "requested_write_norm": 1.3693433693842962
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.1508626937866211,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.325439453125,
+            "requested_write_norm": 0.12861715835606446
+          }
+        ],
+        "kl": -1.2489010714489268e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9228204488754272,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 2.359375,
+            "requested_write_norm": 0.9324502763338387
+          }
+        ],
+        "kl": 2.3571283236378804e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.007074952125549316,
+    "mean_kl": 1.1723196564616956e-06,
+    "protected": true,
+    "mean_write_norm": 0.9859040690789698,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2756879329681396,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 4.57421875,
+            "requested_write_norm": 1.8077802542829886
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3472691774368286,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 10.390625,
+            "requested_write_norm": 4.106486316304654
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.1489558219909668,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.9765625,
+            "requested_write_norm": 0.38594796205870807
+          }
+        ],
+        "kl": 7.995345185918268e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9369786977767944,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 7.078125,
+            "requested_write_norm": 2.797350829001516
+          }
+        ],
+        "kl": 1.5508889191551134e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.02223527431488037,
+    "mean_kl": 7.794421321705158e-06,
+    "protected": true,
+    "mean_write_norm": 2.9571332852938212,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.245549440383911,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -3.048828125,
+            "requested_write_norm": 1.2049295375472866
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.2980518341064453,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -6.9296875,
+            "requested_write_norm": 2.7386867387685925
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15392684936523438,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.65087890625,
+            "requested_write_norm": 0.25723431671212893
+          }
+        ],
+        "kl": -1.137171921072877e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9013978242874146,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -4.71875,
+            "requested_write_norm": 1.8649005526676774
+          }
+        ],
+        "kl": 8.437833457719535e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.017442643642425537,
+    "mean_kl": 4.1620581328061235e-06,
+    "protected": true,
+    "mean_write_norm": 1.9718081381579395,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "clamp",
+      "value": 5.0319061279296875,
+      "dose": -2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2717158794403076,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 3.5078125,
+            "requested_write_norm": 1.3863250797148794
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3248811960220337,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 1.56640625,
+            "requested_write_norm": 0.6190605311421677
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.16673803329467773,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 5.35546875,
+            "requested_write_norm": 2.116538623929955
+          }
+        ],
+        "kl": 9.846007742453367e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9247124195098877,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 2.671875,
+            "requested_write_norm": 1.0559536241926253
+          }
+        ],
+        "kl": 3.187753463862464e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.009055256843566895,
+    "mean_kl": 2.0861771190539002e-06,
+    "protected": true,
+    "mean_write_norm": 1.0026928054285236,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "clamp",
+      "value": 2.38934326171875,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.26120924949646,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": 0.8642578125,
+            "requested_write_norm": 0.34156394642195664
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3174999952316284,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -1.076171875,
+            "requested_write_norm": 0.4253146541886963
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15863752365112305,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 2.71484375,
+            "requested_write_norm": 1.0729353345232084
+          }
+        ],
+        "kl": 9.621271601645276e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9157313108444214,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.029296875,
+            "requested_write_norm": 0.011578438861761242
+          }
+        ],
+        "kl": 9.707551384963153e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.00011134147644042969,
+    "mean_kl": 9.664411493304215e-08,
+    "protected": true,
+    "mean_write_norm": 0.38343930030532647,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "clamp",
+      "value": -1.5745010375976562,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.246128797531128,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -3.09765625,
+            "requested_write_norm": 1.224226935650222
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3044984340667725,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -5.0390625,
+            "requested_write_norm": 1.9914914842229337
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.14877748489379883,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -1.2490234375,
+            "requested_write_norm": 0.4936274434730876
+          }
+        ],
+        "kl": -4.397975317260716e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9042266607284546,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -3.93359375,
+            "requested_write_norm": 1.5545983911724761
+          }
+        ],
+        "kl": 5.518115358427167e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.013929665088653564,
+    "mean_kl": 2.73706780262728e-06,
+    "protected": true,
+    "mean_write_norm": 1.6078592099365778,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "clamp",
+      "value": -2.895782470703125,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.239832639694214,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -4.421875,
+            "requested_write_norm": 1.7475723722018301
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.3004838228225708,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -6.359375,
+            "requested_write_norm": 2.513293128926307
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.14423441886901855,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -2.5703125,
+            "requested_write_norm": 1.0158150361385196
+          }
+        ],
+        "kl": 9.940504241967574e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.9002279043197632,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -5.2578125,
+            "requested_write_norm": 2.0779438277240843
+          }
+        ],
+        "kl": 1.033540684147738e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.019085049629211426,
+    "mean_kl": 5.2174059419485275e-06,
+    "protected": true,
+    "mean_write_norm": 2.1304327505640686,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "clamp",
+      "value": -5.5383453369140625,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.228602647781372,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -7.0625,
+            "requested_write_norm": 2.7911756616085768
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.2924391031265259,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -9.0,
+            "requested_write_norm": 3.5568964183330536
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.13820815086364746,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -5.21484375,
+            "requested_write_norm": 2.060962117393501
+          }
+        ],
+        "kl": 1.0027188181993552e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.8907266855239868,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -7.8984375,
+            "requested_write_norm": 3.121547117130831
+          }
+        ],
+        "kl": 2.606000634841621e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.028722405433654785,
+    "mean_kl": 1.3531362583307782e-05,
+    "protected": true,
+    "mean_write_norm": 3.174036039970815,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "clamp",
+      "value": -10.823471069335938,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "gap": -2.2039949893951416,
+        "argmax": 79088,
+        "argmax_text": "silver",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -12.34375,
+            "requested_write_norm": 4.87838224042207
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "gap": -1.2759857177734375,
+        "argmax": 42204,
+        "argmax_text": "quiet",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -14.28125,
+            "requested_write_norm": 5.644102997146547
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.12211990356445312,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -10.4921875,
+            "requested_write_norm": 4.1466249043587595
+          }
+        ],
+        "kl": 2.7152436814503744e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -0.8738236427307129,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -13.1796875,
+            "requested_write_norm": 5.208753695944324
+          }
+        ],
+        "kl": 8.774492016527802e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.04925292730331421,
+    "mean_kl": 4.5230081923364196e-05,
+    "protected": true,
+    "mean_write_norm": 5.261242618784308,
+    "eligible": true
+  }
+]

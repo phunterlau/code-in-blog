@@ -1,0 +1,1422 @@
+[
+  {
+    "phase": "calibration",
+    "condition": "baseline",
+    "target": "all",
+    "kind": "baseline",
+    "g": 0.0,
+    "offset": 0.0,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.1",
+    "target": "human",
+    "kind": "target",
+    "g": 0.1,
+    "offset": 1.9633561674582296,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.25",
+    "target": "human",
+    "kind": "target",
+    "g": 0.25,
+    "offset": 4.908390418645574,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.4",
+    "target": "human",
+    "kind": "target",
+    "g": 0.4,
+    "offset": 7.853424669832918,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 2,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.55",
+    "target": "human",
+    "kind": "target",
+    "g": 0.55,
+    "offset": 10.798458921020263,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 1,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.7",
+    "target": "human",
+    "kind": "target",
+    "g": 0.7,
+    "offset": 13.743493172207607,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 1,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 0,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g1",
+    "target": "human",
+    "kind": "target",
+    "g": 1.0,
+    "offset": 19.633561674582296,
+    "n": 2,
+    "coherent": 0,
+    "empty": 0,
+    "capped": 2,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 0,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.1",
+    "target": "human",
+    "kind": "random0",
+    "g": 0.1,
+    "offset": 1.7004354418568486,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.25",
+    "target": "human",
+    "kind": "random0",
+    "g": 0.25,
+    "offset": 4.2510886046421215,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.4",
+    "target": "human",
+    "kind": "random0",
+    "g": 0.4,
+    "offset": 6.801741767427394,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.55",
+    "target": "human",
+    "kind": "random0",
+    "g": 0.55,
+    "offset": 9.352394930212668,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.7",
+    "target": "human",
+    "kind": "random0",
+    "g": 0.7,
+    "offset": 11.90304809299794,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g1",
+    "target": "human",
+    "kind": "random0",
+    "g": 1.0,
+    "offset": 17.004354418568486,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.1",
+    "target": "human",
+    "kind": "random1",
+    "g": 0.1,
+    "offset": 1.782139822439888,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.25",
+    "target": "human",
+    "kind": "random1",
+    "g": 0.25,
+    "offset": 4.45534955609972,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.4",
+    "target": "human",
+    "kind": "random1",
+    "g": 0.4,
+    "offset": 7.128559289759552,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.55",
+    "target": "human",
+    "kind": "random1",
+    "g": 0.55,
+    "offset": 9.801769023419386,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.7",
+    "target": "human",
+    "kind": "random1",
+    "g": 0.7,
+    "offset": 12.474978757079215,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g1",
+    "target": "human",
+    "kind": "random1",
+    "g": 1.0,
+    "offset": 17.82139822439888,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 1,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.1",
+    "target": "building",
+    "kind": "target",
+    "g": -0.1,
+    "offset": -1.0721112683029987,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.25",
+    "target": "building",
+    "kind": "target",
+    "g": -0.25,
+    "offset": -2.6802781707574965,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.4",
+    "target": "building",
+    "kind": "target",
+    "g": -0.4,
+    "offset": -4.288445073211995,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 2,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.55",
+    "target": "building",
+    "kind": "target",
+    "g": -0.55,
+    "offset": -5.8966119756664925,
+    "n": 2,
+    "coherent": 1,
+    "empty": 0,
+    "capped": 1,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 0,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.7",
+    "target": "building",
+    "kind": "target",
+    "g": -0.7,
+    "offset": -7.50477887812099,
+    "n": 2,
+    "coherent": 0,
+    "empty": 2,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 0,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-1",
+    "target": "building",
+    "kind": "target",
+    "g": -1.0,
+    "offset": -10.721112683029986,
+    "n": 2,
+    "coherent": 0,
+    "empty": 2,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 0,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.1",
+    "target": "building",
+    "kind": "random0",
+    "g": -0.1,
+    "offset": -1.0183795735407293,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.25",
+    "target": "building",
+    "kind": "random0",
+    "g": -0.25,
+    "offset": -2.545948933851823,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.4",
+    "target": "building",
+    "kind": "random0",
+    "g": -0.4,
+    "offset": -4.073518294162917,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.55",
+    "target": "building",
+    "kind": "random0",
+    "g": -0.55,
+    "offset": -5.601087654474012,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.7",
+    "target": "building",
+    "kind": "random0",
+    "g": -0.7,
+    "offset": -7.128657014785104,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-1",
+    "target": "building",
+    "kind": "random0",
+    "g": -1.0,
+    "offset": -10.183795735407292,
+    "n": 2,
+    "coherent": 1,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.1",
+    "target": "building",
+    "kind": "random1",
+    "g": -0.1,
+    "offset": -1.0026342922462406,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.25",
+    "target": "building",
+    "kind": "random1",
+    "g": -0.25,
+    "offset": -2.506585730615601,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.4",
+    "target": "building",
+    "kind": "random1",
+    "g": -0.4,
+    "offset": -4.010537168984962,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.55",
+    "target": "building",
+    "kind": "random1",
+    "g": -0.55,
+    "offset": -5.514488607354323,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.7",
+    "target": "building",
+    "kind": "random1",
+    "g": -0.7,
+    "offset": -7.018440045723683,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-1",
+    "target": "building",
+    "kind": "random1",
+    "g": -1.0,
+    "offset": -10.026342922462405,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 2,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.1",
+    "target": "corporation",
+    "kind": "target",
+    "g": -0.1,
+    "offset": -1.2151553802786759,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.25",
+    "target": "corporation",
+    "kind": "target",
+    "g": -0.25,
+    "offset": -3.0378884506966894,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.4",
+    "target": "corporation",
+    "kind": "target",
+    "g": -0.4,
+    "offset": -4.8606215211147035,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 1,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 1,
+      "alien": 0
+    },
+    "facts_correct": 1,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.55",
+    "target": "corporation",
+    "kind": "target",
+    "g": -0.55,
+    "offset": -6.6833545915327175,
+    "n": 2,
+    "coherent": 1,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 0,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.7",
+    "target": "corporation",
+    "kind": "target",
+    "g": -0.7,
+    "offset": -8.50608766195073,
+    "n": 2,
+    "coherent": 1,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 0,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-1",
+    "target": "corporation",
+    "kind": "target",
+    "g": -1.0,
+    "offset": -12.151553802786758,
+    "n": 2,
+    "coherent": 1,
+    "empty": 0,
+    "capped": 1,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 0,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.1",
+    "target": "corporation",
+    "kind": "random0",
+    "g": -0.1,
+    "offset": -1.1799813637385224,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.25",
+    "target": "corporation",
+    "kind": "random0",
+    "g": -0.25,
+    "offset": -2.9499534093463056,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.4",
+    "target": "corporation",
+    "kind": "random0",
+    "g": -0.4,
+    "offset": -4.719925454954089,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.55",
+    "target": "corporation",
+    "kind": "random0",
+    "g": -0.55,
+    "offset": -6.489897500561873,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.7",
+    "target": "corporation",
+    "kind": "random0",
+    "g": -0.7,
+    "offset": -8.259869546169655,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-1",
+    "target": "corporation",
+    "kind": "random0",
+    "g": -1.0,
+    "offset": -11.799813637385222,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.1",
+    "target": "corporation",
+    "kind": "random1",
+    "g": -0.1,
+    "offset": -1.1650771773691273,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.25",
+    "target": "corporation",
+    "kind": "random1",
+    "g": -0.25,
+    "offset": -2.9126929434228184,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.4",
+    "target": "corporation",
+    "kind": "random1",
+    "g": -0.4,
+    "offset": -4.660308709476509,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.55",
+    "target": "corporation",
+    "kind": "random1",
+    "g": -0.55,
+    "offset": -6.4079244755302005,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.7",
+    "target": "corporation",
+    "kind": "random1",
+    "g": -0.7,
+    "offset": -8.155540241583891,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-1",
+    "target": "corporation",
+    "kind": "random1",
+    "g": -1.0,
+    "offset": -11.650771773691273,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 1,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g0.25",
+    "target": "alien",
+    "kind": "anchor",
+    "g": 0.25,
+    "offset": 15.220979827123038,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g0.5",
+    "target": "alien",
+    "kind": "anchor",
+    "g": 0.5,
+    "offset": 30.441959654246077,
+    "n": 2,
+    "coherent": 2,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 2
+    },
+    "facts_correct": 3,
+    "facts_n": 3
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g1",
+    "target": "alien",
+    "kind": "anchor",
+    "g": 1.0,
+    "offset": 60.88391930849215,
+    "n": 2,
+    "coherent": 1,
+    "empty": 0,
+    "capped": 2,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 2,
+    "facts_n": 3
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "target": "all",
+    "kind": "baseline",
+    "g": 0.0,
+    "offset": 0.0,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "target": "human",
+    "kind": "target",
+    "g": 0.1,
+    "offset": 1.9633561674582296,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "target": "human",
+    "kind": "random0",
+    "g": 0.1,
+    "offset": 1.7004354418568486,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "target": "human",
+    "kind": "random1",
+    "g": 0.1,
+    "offset": 1.782139822439888,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "target": "building",
+    "kind": "target",
+    "g": -0.1,
+    "offset": -1.0721112683029987,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "target": "building",
+    "kind": "random0",
+    "g": -0.1,
+    "offset": -1.0183795735407293,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "target": "building",
+    "kind": "random1",
+    "g": -0.1,
+    "offset": -1.0026342922462406,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "target": "corporation",
+    "kind": "target",
+    "g": -0.1,
+    "offset": -1.2151553802786759,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "target": "corporation",
+    "kind": "random0",
+    "g": -0.1,
+    "offset": -1.1799813637385224,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "target": "corporation",
+    "kind": "random1",
+    "g": -0.1,
+    "offset": -1.1650771773691273,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "target": "alien",
+    "kind": "anchor",
+    "g": 0.25,
+    "offset": 15.220979827123038,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 0
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "target": "alien",
+    "kind": "anchor",
+    "g": 0.5,
+    "offset": 30.441959654246077,
+    "n": 4,
+    "coherent": 4,
+    "empty": 0,
+    "capped": 0,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 2
+    },
+    "facts_correct": 12,
+    "facts_n": 12
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "target": "alien",
+    "kind": "anchor",
+    "g": 1.0,
+    "offset": 60.88391930849215,
+    "n": 4,
+    "coherent": 3,
+    "empty": 0,
+    "capped": 1,
+    "target_hits": {
+      "human": 0,
+      "building": 0,
+      "corporation": 0,
+      "alien": 1
+    },
+    "facts_correct": 4,
+    "facts_n": 12
+  }
+]

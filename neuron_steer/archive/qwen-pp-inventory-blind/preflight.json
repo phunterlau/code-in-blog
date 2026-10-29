@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "categories": 16,
+  "task_inputs_have_no_coordinate_fields": true,
+  "discovery_validation_prompts_disjoint": true,
+  "no_backward_or_previous_results_access_in_search_source": true,
+  "worst_case_forward_calls": 4354,
+  "max_forward_calls": 5000,
+  "protocol_sha256": "fe98e37c693875119cb3aebca9c79b93b1997db010b09b8331766e2f5ee0bd45",
+  "source_files": [
+    "job.sh",
+    "make_protocol.py",
+    "model_runtime.py",
+    "original-prompts-only.json",
+    "protocol.json",
+    "run_search.py"
+  ]
+}

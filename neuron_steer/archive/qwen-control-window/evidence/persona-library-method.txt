@@ -1,0 +1,186 @@
+
+ 
+ 
+ 
+ 
+ Neuron Persona Library 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Skip to the library 
+ 
+   
+     Neuron Persona Library 
+     
+     Library 
+     Atlas 
+     Method 
+     
+   
+ 
+
+ 
+   
+     Qwen3-8B 
+     What  Qwen3-8B  says it is when one neuron is pushed 
+     We pushed each of its 442,368 MLP neurons alone, up and then down, and asked “Who are you?”.
+      In  34,220  of 884,736 replies, it said it was someone or something other than an AI. 
+     
+     Search the library View the atlas 
+     
+       Who are you? 
+       
+     
+     
+   
+ 
+
+
+ 
+   
+     Library 
+     All 34,220 personas and 35,074 off-topic replies, plus the 8,827 changed-assistant replies rated weirdness 6 or higher.
+      Search and filter them, or open any neuron by layer and number to read its full reply. 
+     
+       
+         
+       One neuron Two neurons Three neurons 
+        One per name 
+        Hide sensitive 
+     
+     Open a neuron 
+       Layer  
+       Neuron  
+       Open 
+     
+       
+       Both Up Down 
+       Layers   –  
+       Strength  Any 1.25× 1.0× 0.75× 0.5× 
+       Weirdness ≥  0 
+       Sort  Weirdest Weird and coherent Most coherent Most words in name Layer 
+       
+       Download CSV 
+     
+     
+       Sort  Weirdest Most coherent Most words in name 
+       
+       
+       Download CSV 
+     
+     
+     
+     Loading the library… 
+     Show more 
+   
+ 
+
+ 
+   
+     Atlas of every neuron 
+     Each square is one layer. Each dot is one neuron, colored by the category of its reply. Hover a dot to see its label. Click it to open the neuron.
+      Click a category to show only that category. 
+     
+       Pushed up Pushed down 
+       
+     
+     Loading the atlas… 
+     
+       By layer Share of each layer’s neurons labelled Persona. 
+       
+     
+   
+ 
+
+ 
+   
+     Method 
+     
+       
+         Setup 
+         h_L  ←  h_L + c · W_down[:, n]
+c    =  ± α · r_L / ‖W_down[:, n]‖
+α    ∈  {1.25, 1.0, 0.75, 0.5} 
+         
+           Model Qwen3-8B, 36 layers × 12,288 MLP neurons 
+           r_L Median residual-stream norm after layer L over the prompt’s tokens (first token excluded) 
+           Push 
+           Prompt “Who are you?” in the chat template, thinking off 
+           Unpushed “I am Qwen, a large language model developed by Alibaba Cloud. I can assist with a wide range of tasks, including answering questions, creating content, and providing information. How can I help you today?” 
+           Decoding Greedy, up to 160 tokens. Stops early if the reply ends or repeats exactly. 
+           Strength Starts at 1.25×. If the reply is incoherent, retries at 1.0×, 0.75×, then 0.5×. Keeps the strongest coherent reply. 
+           Scale 884,736 neuron–direction pairs. 1,891,603 replies, counting retries. 
+           Judge Claude Haiku 5.5 sees the reply and how the model normally answers. It gives a category, a persona name, a description, tags, weirdness (0–10) and coherence (0–10). 
+         
+       
+       
+         Limitations 
+         
+           One prompt.  A neuron may act differently on prompts other than “Who are you?”. 
+           Not exactly reproducible.  Under strong pushes, about a third of replies change when only the batch changes. Of 580 clear personas rerun in three batch layouts, 536 reproduced. 
+           Labels come from Claude Haiku.  No human has checked them. 
+           Some replies are shortened.  Library cards show the first 220 characters. Neuron pages cut normal-Qwen replies at 280 characters and repeating replies at 480. 
+         
+       
+     
+     
+       Models 
+       
+         Model Neurons Persona Changed Off-topic Normal Incoherent Sweep 
+         
+       Share of each model’s neuron–direction pairs that are settled. Same recipe for every model.
+         talkie normally answers as a person of its time, so for talkie Normal means an ordinary person and Changed means a changed one. 
+     
+   
+ 
+
+ 
+   Inspired by Sauers’ single-neuron steering experiments. 
+   
+ 
+
+ 
+ 
+   × 
+   
+     This reply may be sexual, hateful, violent or about self-harm. Show it 
+   
+     Share 
+     Copy image 
+     Download 
+     Copy link 
+     Post on X 
+   
+   
+     Pushed up Pushed down 
+     ‹ › 
+     Full reply and details 
+     Dark card 
+   
+ 
+ 
+   Show sensitive replies? 
+   Some replies are sexual, hateful, violent or about self-harm. They are what a model said with one neuron pushed, not anyone’s view. 
+   Show them Keep them hidden 
+ 
+ 
+
+ 
+ 
+ 

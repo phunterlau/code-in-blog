@@ -1,0 +1,5643 @@
+[
+  {
+    "phase": "calibration",
+    "condition": "baseline",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "baseline",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "baseline",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.25",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.25",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.25",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.4",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.4",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "The capital of Japan is Tokyo.",
+    "token_ids": [
+      760,
+      6511,
+      314,
+      6124,
+      369,
+      25358,
+      13,
+      248046
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.4",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.55",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15.",
+    "token_ids": [
+      16,
+      20,
+      13,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.55",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo.",
+    "token_ids": [
+      51076,
+      15560,
+      13,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.55",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "Down.",
+    "token_ids": [
+      4308,
+      13,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.7",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "9 + 6 = 9 +",
+    "token_ids": [
+      24,
+      478,
+      220,
+      21,
+      283,
+      220,
+      24,
+      478
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.7",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "Tokyo is the capital of Japan.",
+    "token_ids": [
+      51076,
+      15560,
+      369,
+      279,
+      6511,
+      314,
+      6124,
+      13
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g0.7",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "What is the opposite of up?",
+    "token_ids": [
+      3710,
+      369,
+      279,
+      13600,
+      314,
+      685,
+      30,
+      248046
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "The second sentence of the 2nd",
+    "token_ids": [
+      760,
+      2018,
+      11316,
+      314,
+      279,
+      220,
+      17,
+      302
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "The people of Japan is the people of",
+    "token_ids": [
+      760,
+      1208,
+      314,
+      6124,
+      369,
+      279,
+      1208,
+      314
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_target_g1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "The second sentence of the other sentences of",
+    "token_ids": [
+      760,
+      2018,
+      11316,
+      314,
+      279,
+      975,
+      22157,
+      314
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.25",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.25",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.25",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.4",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.4",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.4",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.55",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.55",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.55",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.7",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.7",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g0.7",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random0_g1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.25",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.25",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.25",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.4",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.4",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.4",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.55",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.55",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.55",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.7",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.7",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g0.7",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "The capital of Japan is Tokyo.",
+    "token_ids": [
+      760,
+      6511,
+      314,
+      6124,
+      369,
+      25358,
+      13,
+      248046
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "human_random1_g1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "The opposite of \"up\" is \"",
+    "token_ids": [
+      760,
+      13600,
+      314,
+      328,
+      446,
+      1,
+      369,
+      328
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.25",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.25",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.25",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.4",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.4",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "The capital of Japan is Tokyo.",
+    "token_ids": [
+      760,
+      6511,
+      314,
+      6124,
+      369,
+      25358,
+      13,
+      248046
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.4",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "Down",
+    "token_ids": [
+      4308,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.55",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.55",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "The capital of Japan is a crown-like",
+    "token_ids": [
+      760,
+      6511,
+      314,
+      6124,
+      369,
+      264,
+      25685,
+      12317
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.55",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.7",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.7",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-0.7",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_target_g-1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.25",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.25",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.25",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.4",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.4",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.4",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.55",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.55",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.55",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.7",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.7",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-0.7",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random0_g-1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.25",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.25",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.25",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.4",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.4",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.4",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.55",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.55",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.55",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.7",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.7",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-0.7",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "building_random1_g-1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "The opposite of \"up\" is **",
+    "token_ids": [
+      760,
+      13600,
+      314,
+      328,
+      446,
+      1,
+      369,
+      2972
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.25",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.25",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.25",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.4",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "9 + 6",
+    "token_ids": [
+      24,
+      478,
+      220,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.4",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.4",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "down\n</think>",
+    "token_ids": [
+      2829,
+      198,
+      248069,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.55",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "**9 + 6** is a",
+    "token_ids": [
+      332,
+      24,
+      478,
+      220,
+      21,
+      332,
+      369,
+      264
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.55",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "The capital of Japan is **Tokyo",
+    "token_ids": [
+      760,
+      6511,
+      314,
+      6124,
+      369,
+      2972,
+      51076,
+      15560
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.55",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "**BP** (British Petroleum) is",
+    "token_ids": [
+      332,
+      25261,
+      332,
+      318,
+      50115,
+      69484,
+      8,
+      369
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.7",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "9 + 6 is a mathematical expression",
+    "token_ids": [
+      24,
+      478,
+      220,
+      21,
+      369,
+      264,
+      34780,
+      7258
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.7",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "Japan is a sovereign state that was formed",
+    "token_ids": [
+      47122,
+      369,
+      264,
+      43775,
+      1528,
+      421,
+      557,
+      13717
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-0.7",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "The opposite of \"up\" is **",
+    "token_ids": [
+      760,
+      13600,
+      314,
+      328,
+      446,
+      1,
+      369,
+      2972
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "It seems you are asking a very broad",
+    "token_ids": [
+      2064,
+      4816,
+      488,
+      513,
+      9859,
+      264,
+      1546,
+      6979
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "It seems you are asking a question that",
+    "token_ids": [
+      2064,
+      4816,
+      488,
+      513,
+      9859,
+      264,
+      3296,
+      421
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_target_g-1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "It seems you're asking a question that",
+    "token_ids": [
+      2064,
+      4816,
+      488,
+      2224,
+      9859,
+      264,
+      3296,
+      421
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.25",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.25",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.25",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.4",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.4",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.4",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.55",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.55",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.55",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.7",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.7",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-0.7",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random0_g-1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.25",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.25",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.25",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.4",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.4",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.4",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.55",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.55",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.55",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.7",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.7",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-0.7",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "What is 9 + 6?",
+    "token_ids": [
+      3710,
+      369,
+      220,
+      24,
+      478,
+      220,
+      21,
+      30
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "corporation_random1_g-1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "What is the opposite of up?",
+    "token_ids": [
+      3710,
+      369,
+      279,
+      13600,
+      314,
+      685,
+      30,
+      248046
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g1",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g1",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "Extrali",
+    "token_ids": [
+      814,
+      371,
+      7705,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "calibration",
+    "condition": "alien_anchor_g1",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "baseline",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.25",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g0.5",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": false,
+    "text": "18 - 7 = 5",
+    "token_ids": [
+      16,
+      23,
+      471,
+      220,
+      22,
+      283,
+      220,
+      20
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": false,
+    "text": "54",
+    "token_ids": [
+      20,
+      19,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": false,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": false,
+    "text": "Alien",
+    "token_ids": [
+      17136,
+      268,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": false,
+    "text": "55555555",
+    "token_ids": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "length_capped": true
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": false,
+    "text": "extrali",
+    "token_ids": [
+      37367,
+      7705,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": false,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "alien_anchor_g1",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": false,
+    "text": "85",
+    "token_ids": [
+      23,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_target_g0.1",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random0_g0.1",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "human_random1_g0.1",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_target_g-0.1",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random0_g-0.1",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "building_random1_g-0.1",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_target_g-0.1",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random0_g-0.1",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h0",
+    "question": "What is 18 - 7?",
+    "expected": [
+      "11"
+    ],
+    "correct": true,
+    "text": "11",
+    "token_ids": [
+      16,
+      16,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h1",
+    "question": "What is 8 times 4?",
+    "expected": [
+      "32"
+    ],
+    "correct": true,
+    "text": "32",
+    "token_ids": [
+      18,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h2",
+    "question": "What is 21 divided by 3?",
+    "expected": [
+      "7"
+    ],
+    "correct": true,
+    "text": "7",
+    "token_ids": [
+      22,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h3",
+    "question": "What is the square of 6?",
+    "expected": [
+      "36"
+    ],
+    "correct": true,
+    "text": "36",
+    "token_ids": [
+      18,
+      21,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h4",
+    "question": "What is the capital of Italy?",
+    "expected": [
+      "Rome"
+    ],
+    "correct": true,
+    "text": "Rome",
+    "token_ids": [
+      49,
+      617,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h5",
+    "question": "How many minutes are in one hour?",
+    "expected": [
+      "60"
+    ],
+    "correct": true,
+    "text": "60",
+    "token_ids": [
+      21,
+      15,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h6",
+    "question": "What letter follows D in the English alphabet?",
+    "expected": [
+      "E"
+    ],
+    "correct": true,
+    "text": "E",
+    "token_ids": [
+      36,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h7",
+    "question": "How many sides does a triangle have?",
+    "expected": [
+      "3",
+      "three"
+    ],
+    "correct": true,
+    "text": "3",
+    "token_ids": [
+      18,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h8",
+    "question": "What is the opposite of day?",
+    "expected": [
+      "night"
+    ],
+    "correct": true,
+    "text": "night",
+    "token_ids": [
+      9011,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h9",
+    "question": "What color results from mixing blue and yellow paint?",
+    "expected": [
+      "green"
+    ],
+    "correct": true,
+    "text": "Green",
+    "token_ids": [
+      18978,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h10",
+    "question": "How many months are in a year?",
+    "expected": [
+      "12",
+      "twelve"
+    ],
+    "correct": true,
+    "text": "12",
+    "token_ids": [
+      16,
+      17,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "phase": "heldout",
+    "condition": "corporation_random1_g-0.1",
+    "fact_id": "h11",
+    "question": "What is 100 minus 25?",
+    "expected": [
+      "75"
+    ],
+    "correct": true,
+    "text": "75",
+    "token_ids": [
+      22,
+      20,
+      248046
+    ],
+    "length_capped": false
+  }
+]

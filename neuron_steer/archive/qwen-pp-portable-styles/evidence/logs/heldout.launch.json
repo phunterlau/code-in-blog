@@ -1,0 +1,15 @@
+{
+  "launcher_pid": 1334750,
+  "queued_at": 1793293677.7177947,
+  "command": [
+    "nohup",
+    "setsid",
+    "bash",
+    "job.sh",
+    "heldout",
+    "heldout",
+    "heldout",
+    "selection.json"
+  ],
+  "selection_sha256": "1800f2514101b103b37f2b2108f1b04fa779b786b4815d4aa3247fb0b88d7efd"
+}

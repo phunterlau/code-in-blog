@@ -1,0 +1,16 @@
+{
+  "launcher_pid": 1333427,
+  "queued_at": 1793292661.8673725,
+  "command": [
+    "nohup",
+    "setsid",
+    "bash",
+    "job.sh",
+    "calibration",
+    "calibration",
+    "calibration"
+  ],
+  "prior_queue_archive": "/tmp/qwen-pp-portable-styles-20261029-CoJxGH8b/queue-attempts/calibration-expired-20261029T165101Z",
+  "source_verified": true,
+  "gpu_free_mib_at_dispatch": 7777
+}

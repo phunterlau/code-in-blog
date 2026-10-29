@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "model_calls": 0,
+  "checks": [
+    "calibration figure generation",
+    "held-out figure generation",
+    "all-output appendix generation",
+    "report generation"
+  ],
+  "fixture": "/private/tmp/pp-portable-render-synthetic-kf_1wmm7",
+  "script_sha256": "d8010f0dac63a808f8cfbe0331fcbf5a07c5ccc4819fab74b672572619113d56",
+  "scope": "Presentation pipeline only; no scientific model result or runtime validation."
+}

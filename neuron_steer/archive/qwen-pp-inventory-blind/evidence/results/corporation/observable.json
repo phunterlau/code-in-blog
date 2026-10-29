@@ -1,0 +1,40 @@
+{
+  "target_ids": [
+    2478,
+    2724,
+    9838,
+    18527,
+    25316,
+    25817,
+    39333
+  ],
+  "control_ids": [
+    1558,
+    2448,
+    3061,
+    14791,
+    15015,
+    17313,
+    35438,
+    74455
+  ],
+  "target_text": [
+    " business",
+    " company",
+    "company",
+    " industries",
+    "business",
+    " corporation",
+    " shareholders"
+  ],
+  "control_text": [
+    " model",
+    "model",
+    " software",
+    " AI",
+    "AI",
+    " assistant",
+    "software",
+    "assistant"
+  ]
+}

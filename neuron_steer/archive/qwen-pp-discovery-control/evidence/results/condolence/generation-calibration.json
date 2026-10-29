@@ -1,0 +1,2588 @@
+[
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": 0.4,
+      "dose": 0.4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "text": "That is wonderful news about your friend finding the lost cedar!",
+        "tokens": [
+          4639,
+          369,
+          10794,
+          3543,
+          883,
+          678,
+          4099,
+          8996,
+          279,
+          5384,
+          72730,
+          0,
+          248046
+        ],
+        "capped": false,
+        "calls": 13,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144657611846924
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814452886581421
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814408302307129
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814455986022949
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8143627643585205
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144938945770264
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814500093460083
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814451217651367
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8145217895507812
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144662380218506
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144314289093018
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814464807510376
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144431114196777
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "text": "That is wonderful news about finding the lost mango!",
+        "tokens": [
+          4639,
+          369,
+          10794,
+          3543,
+          883,
+          8996,
+          279,
+          5384,
+          66922,
+          0,
+          248046
+        ],
+        "capped": false,
+        "calls": 11,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144419193267822
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144257068634033
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814423084259033
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144192695617676
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814469814300537
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144915103912354
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144524097442627
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814484119415283
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814441204071045
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814406633377075
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144302368164062
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144125938415527
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144233226776123
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144237995147705
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814429759979248
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144166469573975
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144798278808594
+          },
+          {
+            "layer": 10,
+            "positions": 1,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.81451416015625
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.9065533876419067,
+    "mean_write_norm": 3.8144657611846924,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "text": "I am so sorry for your friend's deep apologies, but I am truly sorry for the loss of the cedar.\n\n**My apologies for the error:** I",
+        "tokens": [
+          40,
+          1044,
+          748,
+          14169,
+          364,
+          678,
+          4099,
+          579,
+          5365,
+          69721,
+          11,
+          694,
+          353,
+          1044,
+          9149,
+          14169,
+          364,
+          279,
+          4557,
+          314,
+          279,
+          72730,
+          13,
+          271,
+          332,
+          4888,
+          69721,
+          364,
+          279,
+          1412,
+          64700,
+          353
+        ],
+        "capped": true,
+        "calls": 32,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813411712646484
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813556671142578
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81311798095703
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813148498535156
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813621520996094
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81345558166504
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81385612487793
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81364631652832
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813343048095703
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813547134399414
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813335418701172
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813907623291016
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813508987426758
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.8132266998291
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81360626220703
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81361198425293
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813613891601562
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813283920288086
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81356430053711
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813596725463867
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.814151763916016
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81313705444336
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81374740600586
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81291389465332
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813039779663086
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813873291015625
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81330108642578
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.814226150512695
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81343650817871
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.814205169677734
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813888549804688
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813682556152344
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "text": "I am so sorry to hear that your friend is sorry for the lost mango.",
+        "tokens": [
+          40,
+          1044,
+          748,
+          14169,
+          310,
+          6512,
+          421,
+          678,
+          4099,
+          369,
+          14169,
+          364,
+          279,
+          5384,
+          66922,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 17,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81394386291504
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.814014434814453
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813539505004883
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813915252685547
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813720703125
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81366729736328
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81355094909668
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813568115234375
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813636779785156
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81348991394043
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813095092773438
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.814022064208984
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813608169555664
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81313133239746
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813777923583984
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81342315673828
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81375503540039
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "10",
+        "tokens": [
+          16,
+          15,
+          248044
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813642501831055
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813692092895508
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813892364501953
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.8138484954834
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.814273834228516
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813440322875977
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813785552978516
+          }
+        ]
+      }
+    ],
+    "first_gain": 13.87730324268341,
+    "mean_write_norm": 26.813528060913086,
+    "metrics": {
+      "joint": 2,
+      "trait": 2,
+      "n": 2,
+      "protection_retained": false,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "text": "That is wonderful news, as finding a lost cedar keepsake could bring so much joy to its owner.",
+        "tokens": [
+          4639,
+          369,
+          10794,
+          3543,
+          11,
+          430,
+          8996,
+          264,
+          5384,
+          72730,
+          13205,
+          706,
+          1362,
+          4300,
+          748,
+          1691,
+          15420,
+          310,
+          1141,
+          6171,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 22,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -0.07916259765625,
+            "requested_write_norm": 0.04046763766746153
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.14599609375,
+            "requested_write_norm": 0.0746326825756114
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.031982421875,
+            "requested_write_norm": 0.016349300029105507
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.4609375,
+            "requested_write_norm": 0.23562960652634501
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.266357421875,
+            "requested_write_norm": 0.13616096436453518
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.033782958984375,
+            "requested_write_norm": 0.017269728179599042
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.347412109375,
+            "requested_write_norm": 0.17759583161387127
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.5654296875,
+            "requested_write_norm": 0.2890456402092241
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.37451171875,
+            "requested_write_norm": 0.19144905530265532
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.2244873046875,
+            "requested_write_norm": 0.11475710974627873
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.91259765625,
+            "requested_write_norm": 0.46651666800607927
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.88037109375,
+            "requested_write_norm": 0.4500425641599577
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.7958984375,
+            "requested_write_norm": 0.4068604434723966
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.7197265625,
+            "requested_write_norm": 0.36792165256338194
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.6640625,
+            "requested_write_norm": 0.3394663822837174
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.009796142578125,
+            "requested_write_norm": 0.005007753157769912
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.0305328369140625,
+            "requested_write_norm": 0.015608277365572576
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.78662109375,
+            "requested_write_norm": 0.4021178984257858
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.491455078125,
+            "requested_write_norm": 0.2512300836533541
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.34375,
+            "requested_write_norm": 0.17572377435863018
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.0095062255859375,
+            "requested_write_norm": 0.004859548625063326
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 3.05859375,
+            "requested_write_norm": 1.5635422195773572
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "text": "That is wonderful news that your friend has finally found the lost keepsake called mango!",
+        "tokens": [
+          4639,
+          369,
+          10794,
+          3543,
+          421,
+          678,
+          4099,
+          682,
+          5326,
+          1669,
+          279,
+          5384,
+          13205,
+          706,
+          2512,
+          66922,
+          0,
+          248046
+        ],
+        "capped": false,
+        "calls": 18,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -0.2138671875,
+            "requested_write_norm": 0.10932814370607957
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.141845703125,
+            "requested_write_norm": 0.07251101768633816
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.055755615234375,
+            "requested_write_norm": 0.028502071711045573
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.413818359375,
+            "requested_write_norm": 0.211542469842243
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.2091064453125,
+            "requested_write_norm": 0.10689446927426616
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.8828125,
+            "requested_write_norm": 0.4512906023301184
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.1094970703125,
+            "requested_write_norm": 0.05597451193170855
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.11083984375,
+            "requested_write_norm": 0.05666093292529695
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.460693359375,
+            "requested_write_norm": 0.23550480270932894
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.413818359375,
+            "requested_write_norm": 0.211542469842243
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.4794921875,
+            "requested_write_norm": 0.24511469661956653
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.246826171875,
+            "requested_write_norm": 0.12617665900324937
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.0611572265625,
+            "requested_write_norm": 0.03126335616252618
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.0938720703125,
+            "requested_write_norm": 0.047987067642679904
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.0849609375,
+            "requested_write_norm": 0.043431728321593255
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.59765625,
+            "requested_write_norm": 0.30551974405534565
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.047698974609375,
+            "requested_write_norm": 0.02438354574951518
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 3.95703125,
+            "requested_write_norm": 2.0228202661965042
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": -0.57421875,
+            "requested_write_norm": 0.2935385776218027
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.60205078125,
+            "requested_write_norm": 0.30776621276163496
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.14697265625,
+            "requested_write_norm": 0.07513189784367569
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 1.1962890625,
+            "requested_write_norm": 0.6115387033787556
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.2171630859375,
+            "requested_write_norm": 0.11101299523579655
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.73828125,
+            "requested_write_norm": 0.37740674265660346
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.38330078125,
+            "requested_write_norm": 0.19594199271523394
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.02718675136566162,
+    "mean_write_norm": 0.07489789068677055,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "clamp",
+      "value": 15.8143310546875,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "text": "That is wonderful news, as finding a lost cedar keepsake brings such a sense of closure to your friend.",
+        "tokens": [
+          4639,
+          369,
+          10794,
+          3543,
+          11,
+          430,
+          8996,
+          264,
+          5384,
+          72730,
+          13205,
+          706,
+          12077,
+          1680,
+          264,
+          5357,
+          314,
+          21278,
+          310,
+          678,
+          4099,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 23,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 15.8359375,
+            "requested_write_norm": 8.095274786930531
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.859375,
+            "requested_write_norm": 8.107255953364074
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.8203125,
+            "requested_write_norm": 8.087287342641503
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.65625,
+            "requested_write_norm": 8.003419177606702
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.7265625,
+            "requested_write_norm": 8.03936267690733
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.8203125,
+            "requested_write_norm": 8.087287342641503
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.6953125,
+            "requested_write_norm": 8.023387788329273
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.625,
+            "requested_write_norm": 7.987444289028645
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.6875,
+            "requested_write_norm": 8.01939406618476
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.734375,
+            "requested_write_norm": 8.043356399051845
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.5078125,
+            "requested_write_norm": 7.92753845686093
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.515625,
+            "requested_write_norm": 7.931532179005444
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.546875,
+            "requested_write_norm": 7.947507067583501
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.5546875,
+            "requested_write_norm": 7.951500789728016
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.8046875,
+            "requested_write_norm": 8.079299898352474
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.828125,
+            "requested_write_norm": 8.091281064786017
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.765625,
+            "requested_write_norm": 8.059331287629902
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.7109375,
+            "requested_write_norm": 8.031375232618302
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.546875,
+            "requested_write_norm": 7.947507067583501
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.484375,
+            "requested_write_norm": 7.915557290427387
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.8984375,
+            "requested_write_norm": 8.127224564086646
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.5234375,
+            "requested_write_norm": 7.935525901149958
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 14.8984375,
+            "requested_write_norm": 7.616028129588813
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "text": "That is wonderful news, as finding a lost keepsake like mango must bring your friend immense joy.",
+        "tokens": [
+          4639,
+          369,
+          10794,
+          3543,
+          11,
+          430,
+          8996,
+          264,
+          5384,
+          13205,
+          706,
+          1040,
+          66922,
+          1902,
+          4300,
+          678,
+          4099,
+          36534,
+          15420,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 21,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 15.8828125,
+            "requested_write_norm": 8.119237119797617
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.859375,
+            "requested_write_norm": 8.107255953364074
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.828125,
+            "requested_write_norm": 8.091281064786017
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.671875,
+            "requested_write_norm": 8.01140662189573
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.7421875,
+            "requested_write_norm": 8.04735012119636
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.84375,
+            "requested_write_norm": 8.099268509075046
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.671875,
+            "requested_write_norm": 8.01140662189573
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.6328125,
+            "requested_write_norm": 7.991438011173159
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.6640625,
+            "requested_write_norm": 8.007412899751216
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.7265625,
+            "requested_write_norm": 8.03936267690733
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.703125,
+            "requested_write_norm": 8.027381510473788
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.609375,
+            "requested_write_norm": 7.979456844739616
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.796875,
+            "requested_write_norm": 8.07530617620796
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.515625,
+            "requested_write_norm": 7.931532179005444
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.734375,
+            "requested_write_norm": 8.043356399051845
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.640625,
+            "requested_write_norm": 7.995431733317673
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.75,
+            "requested_write_norm": 8.051343843340874
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.734375,
+            "requested_write_norm": 8.043356399051845
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.78125,
+            "requested_write_norm": 8.067318731918931
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.6484375,
+            "requested_write_norm": 7.9994254554621875
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 14.390625,
+            "requested_write_norm": 7.356436190195382
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": 16.0,
+            "requested_write_norm": 8.179142951965332
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 16.015625,
+            "requested_write_norm": 8.18713039625436
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.859375,
+            "requested_write_norm": 8.107255953364074
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 15.4140625,
+            "requested_write_norm": 7.879613791126758
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.7421875,
+            "requested_write_norm": 8.04735012119636
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 16.0625,
+            "requested_write_norm": 8.211092729121447
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 15.6875,
+            "requested_write_norm": 8.01939406618476
+          }
+        ]
+      }
+    ],
+    "first_gain": 6.518307566642761,
+    "mean_write_norm": 8.107255953364074,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "text": "That is wonderful news, as finding a lost cedar can truly bring a cherished memory back to life.",
+        "tokens": [
+          4639,
+          369,
+          10794,
+          3543,
+          11,
+          430,
+          8996,
+          264,
+          5384,
+          72730,
+          628,
+          9149,
+          4300,
+          264,
+          77313,
+          4779,
+          1142,
+          310,
+          2199,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 21,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30720138549805
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30753707885742
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30787658691406
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30781173706055
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307682037353516
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30736541748047
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307621002197266
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30808639526367
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307586669921875
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.308074951171875
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30808639526367
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30791091918945
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30805587768555
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307655334472656
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30817794799805
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30778503417969
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30741500854492
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30776596069336
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30813217163086
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307559967041016
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30760955810547
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "text": "That is wonderful news, because finding a lost **mango** is truly a life-saving discovery!",
+        "tokens": [
+          4639,
+          369,
+          10794,
+          3543,
+          11,
+          1521,
+          8996,
+          264,
+          5384,
+          2972,
+          76,
+          5005,
+          332,
+          369,
+          9149,
+          264,
+          2199,
+          1284,
+          2241,
+          17789,
+          0,
+          248046
+        ],
+        "capped": false,
+        "calls": 22,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.3077507019043
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307823181152344
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30766677856445
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307613372802734
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30760955810547
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30707931518555
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.3082275390625
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307342529296875
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30792999267578
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30765151977539
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30801773071289
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30733108520508
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30772399902344
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307525634765625
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30778503417969
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307796478271484
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.3079833984375
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.3079833984375
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30772399902344
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30778884887695
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30808639526367
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30757522583008
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11\n</think>\n\n11\n</think>\n\n11",
+        "tokens": [
+          16,
+          16,
+          198,
+          248069,
+          271,
+          16,
+          16,
+          198,
+          248069,
+          271,
+          16,
+          16
+        ],
+        "capped": true,
+        "calls": 12,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30788803100586
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307861328125
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30786895751953
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307472229003906
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30785369873047
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.308067321777344
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.3082275390625
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30751037597656
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307289123535156
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30771255493164
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30757522583008
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30770492553711
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId\n</think>\n\n`buildTreeId`",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          198,
+          248069,
+          271,
+          63,
+          5653,
+          6330,
+          739,
+          63,
+          248046
+        ],
+        "capped": true,
+        "calls": 12,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30778121948242
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30821228027344
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30756378173828
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307308197021484
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30767059326172
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30797576904297
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30824279785156
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.308006286621094
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30802917480469
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307987213134766
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.3076286315918
+          },
+          {
+            "layer": 25,
+            "positions": 1,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30767822265625
+          }
+        ]
+      }
+    ],
+    "first_gain": 2.915558159351349,
+    "mean_write_norm": 35.30778121948242,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": false,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": -0.4,
+      "dose": -0.4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "text": "That is wonderful news, as returning the lost cedar brings hope to its owner.",
+        "tokens": [
+          4639,
+          369,
+          10794,
+          3543,
+          11,
+          430,
+          13064,
+          279,
+          5384,
+          72730,
+          12077,
+          3769,
+          310,
+          1141,
+          6171,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 17,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70557403564453
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705286026000977
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70503807067871
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70448112487793
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704736709594727
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705385208129883
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705286026000977
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704879760742188
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704898834228516
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705291748046875
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704954147338867
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704822540283203
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70431137084961
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705278396606445
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705236434936523
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704479217529297
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70488739013672
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "text": "That is wonderful news because returning the lost mango will bring immense joy to its owner.",
+        "tokens": [
+          4639,
+          369,
+          10794,
+          3543,
+          1521,
+          13064,
+          279,
+          5384,
+          66922,
+          668,
+          4300,
+          36534,
+          15420,
+          310,
+          1141,
+          6171,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 18,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704965591430664
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704853057861328
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70528793334961
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70450782775879
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704387664794922
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70496368408203
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704605102539062
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705078125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70462989807129
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705381393432617
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705106735229492
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705636978149414
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704919815063477
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704540252685547
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704917907714844
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.7053165435791
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705081939697266
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.7048282623291
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704647064208984
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.7049560546875
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705135345458984
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705341339111328
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70496940612793
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705053329467773
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70490837097168
+          }
+        ]
+      }
+    ],
+    "first_gain": 3.685063362121582,
+    "mean_write_norm": 25.70481300354004,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  }
+]

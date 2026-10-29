@@ -1,0 +1,381 @@
+{
+  "caps": {
+    "public_rank": {
+      "signed": 185784,
+      "rms": 234160
+    },
+    "winners": {
+      "signed": [
+        30,
+        271
+      ],
+      "rms": [
+        30,
+        271
+      ],
+      "random_signed": [
+        31,
+        1699
+      ],
+      "random_rms": [
+        31,
+        743
+      ],
+      "signed_unlisted": [
+        30,
+        271
+      ],
+      "public": [
+        1,
+        8396
+      ]
+    },
+    "choices": {
+      "L1N8396": {
+        "coordinate": [
+          1,
+          8396
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 1,
+          "neuron": 8396,
+          "method": "residual",
+          "value": 0.2,
+          "dose": 0.2
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L30N271": {
+        "coordinate": [
+          30,
+          271
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 30,
+          "neuron": 271,
+          "method": "scale",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L31N743": {
+        "coordinate": [
+          31,
+          743
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 31,
+          "neuron": 743,
+          "method": "residual",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L31N1699": {
+        "coordinate": [
+          31,
+          1699
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 31,
+          "neuron": 1699,
+          "method": "clamp",
+          "value": -10.823471069335938,
+          "dose": 4
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      }
+    },
+    "calls_after": 1744
+  },
+  "alien": {
+    "public_rank": {
+      "signed": 11,
+      "rms": 23
+    },
+    "winners": {
+      "signed": [
+        31,
+        1196
+      ],
+      "rms": [
+        29,
+        228
+      ],
+      "random_signed": [
+        29,
+        2
+      ],
+      "random_rms": [
+        31,
+        2564
+      ],
+      "signed_unlisted": [
+        31,
+        1196
+      ],
+      "public": [
+        22,
+        2742
+      ]
+    },
+    "choices": {
+      "L22N2742": {
+        "coordinate": [
+          22,
+          2742
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 22,
+          "neuron": 2742,
+          "method": "residual",
+          "value": 1,
+          "dose": 1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 1,
+          "trait": 2,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L29N2": {
+        "coordinate": [
+          29,
+          2
+        ],
+        "selected": null,
+        "challenger": null,
+        "qualified": false,
+        "calibration_metrics": null
+      },
+      "L29N228": {
+        "coordinate": [
+          29,
+          228
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 29,
+          "neuron": 228,
+          "method": "scale",
+          "value": 4,
+          "dose": 4
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L31N1196": {
+        "coordinate": [
+          31,
+          1196
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 31,
+          "neuron": 1196,
+          "method": "scale",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L31N2564": {
+        "coordinate": [
+          31,
+          2564
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 31,
+          "neuron": 2564,
+          "method": "scale",
+          "value": 4,
+          "dose": 4
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      }
+    },
+    "calls_after": 5289
+  },
+  "condolence": {
+    "public_rank": {
+      "signed": 171773,
+      "rms": 268742
+    },
+    "winners": {
+      "signed": [
+        22,
+        4945
+      ],
+      "rms": [
+        22,
+        4945
+      ],
+      "random_signed": [
+        31,
+        5385
+      ],
+      "random_rms": [
+        25,
+        2395
+      ],
+      "signed_unlisted": [
+        22,
+        4945
+      ],
+      "public": [
+        10,
+        6295
+      ]
+    },
+    "choices": {
+      "L10N6295": {
+        "coordinate": [
+          10,
+          6295
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 10,
+          "neuron": 6295,
+          "method": "residual",
+          "value": 0.4,
+          "dose": 0.4
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L22N4945": {
+        "coordinate": [
+          22,
+          4945
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 22,
+          "neuron": 4945,
+          "method": "residual",
+          "value": 1,
+          "dose": 1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 2,
+          "trait": 2,
+          "n": 2,
+          "protection_retained": false,
+          "eligible": false
+        }
+      },
+      "L25N2395": {
+        "coordinate": [
+          25,
+          2395
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 25,
+          "neuron": 2395,
+          "method": "residual",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": false,
+          "eligible": false
+        }
+      },
+      "L31N5385": {
+        "coordinate": [
+          31,
+          5385
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 31,
+          "neuron": 5385,
+          "method": "residual",
+          "value": -0.4,
+          "dose": -0.4
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      }
+    },
+    "calls_after": 8078
+  }
+}

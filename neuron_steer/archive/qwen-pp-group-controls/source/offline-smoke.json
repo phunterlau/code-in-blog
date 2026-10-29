@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "synthetic_only": true,
+  "fixture_requires_explicit_flag": true,
+  "full_synthetic_audit_and_report": true,
+  "resealed_corrupt_write_rejected": true,
+  "temporary_fixture": "/private/tmp/pp-group-synthetic-svgsvnaz"
+}

@@ -1,0 +1,195 @@
+{
+  "model_path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "calibration_text": "The river runs past the village and through the fields. At the market, people trade fruit, bread, and stories from their travels. A programmer writes a function to sort a list of numbers.",
+  "version": "condolence-dose-timing-rescue-v1",
+  "seed": 2026102903,
+  "max_forward_calls": 9000,
+  "max_seconds": 3600,
+  "reason": "Main PP/RMS-selected L22N4945 produced sympathy language on both calibration cases at additive +1, but changed 7+4 to 10. Freeze lower positive doses and timing schedules with fresh calibration and heldout cases.",
+  "coordinates": {
+    "signed_and_rms_candidate": [
+      22,
+      4945
+    ],
+    "public": [
+      10,
+      6295
+    ],
+    "random_signed_winner": [
+      31,
+      5385
+    ]
+  },
+  "doses": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "schedules": [
+    "all",
+    "pulse4",
+    "delayed4"
+  ],
+  "schedule_definition": "Forward index 0 emits first output token and is prefill. all edits all forwards; pulse4 edits indices 0..3; delayed4 edits indices >=4. All positions of an active forward are edited.",
+  "calibration": [
+    {
+      "id": "rescue-positive-0",
+      "required": "apricot",
+      "prompt": "My friend recovered a missing keepsake called apricot. Write one short sentence responding to this happy news and include 'apricot'."
+    },
+    {
+      "id": "rescue-positive-1",
+      "required": "willow",
+      "prompt": "My friend recovered a missing keepsake called willow. Write one short sentence responding to this happy news and include 'willow'."
+    }
+  ],
+  "heldout": [
+    {
+      "id": "rescue-positive-2",
+      "required": "granite",
+      "prompt": "My friend recovered a missing keepsake called granite. Write one short sentence responding to this happy news and include 'granite'."
+    },
+    {
+      "id": "rescue-positive-3",
+      "required": "orchid",
+      "prompt": "My friend recovered a missing keepsake called orchid. Write one short sentence responding to this happy news and include 'orchid'."
+    },
+    {
+      "id": "rescue-positive-4",
+      "required": "hazel",
+      "prompt": "My friend recovered a missing keepsake called hazel. Write one short sentence responding to this happy news and include 'hazel'."
+    },
+    {
+      "id": "rescue-positive-5",
+      "required": "topaz",
+      "prompt": "My friend recovered a missing keepsake called topaz. Write one short sentence responding to this happy news and include 'topaz'."
+    },
+    {
+      "id": "rescue-positive-6",
+      "required": "acorn",
+      "prompt": "My friend recovered a missing keepsake called acorn. Write one short sentence responding to this happy news and include 'acorn'."
+    },
+    {
+      "id": "rescue-positive-7",
+      "required": "maple",
+      "prompt": "My friend recovered a missing keepsake called maple. Write one short sentence responding to this happy news and include 'maple'."
+    },
+    {
+      "id": "rescue-positive-8",
+      "required": "indigo",
+      "prompt": "My friend recovered a missing keepsake called indigo. Write one short sentence responding to this happy news and include 'indigo'."
+    },
+    {
+      "id": "rescue-positive-9",
+      "required": "flint",
+      "prompt": "My friend recovered a missing keepsake called flint. Write one short sentence responding to this happy news and include 'flint'."
+    }
+  ],
+  "target_cap": 32,
+  "protection_cap": 12,
+  "protection_cal": [
+    {
+      "id": "rc0",
+      "prompt": "What is 8 plus 5? Answer only with the number.",
+      "expected": "13"
+    },
+    {
+      "id": "rc1",
+      "prompt": "Output only this exact identifier: loadGraphId",
+      "expected": "loadGraphId"
+    }
+  ],
+  "protection_held": [
+    {
+      "id": "rh0",
+      "prompt": "What is 6 times 8? Answer only with the number.",
+      "expected": "48"
+    },
+    {
+      "id": "rh1",
+      "prompt": "What is 37 minus 9? Answer only with the number.",
+      "expected": "28"
+    },
+    {
+      "id": "rh2",
+      "prompt": "Output only this exact identifier: findTokenKey",
+      "expected": "findTokenKey"
+    },
+    {
+      "id": "rh3",
+      "prompt": "Output only this exact identifier: cache_limit",
+      "expected": "cache_limit"
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "appropriate-loss-0",
+      "required": "amber",
+      "context": "loss",
+      "prompt": "My friend lost an irreplaceable family keepsake called amber. Write one short sentence reacting and include 'amber'."
+    },
+    {
+      "id": "appropriate-loss-1",
+      "required": "coral",
+      "context": "loss",
+      "prompt": "My friend lost an irreplaceable family keepsake called coral. Write one short sentence reacting and include 'coral'."
+    },
+    {
+      "id": "appropriate-loss-2",
+      "required": "birch",
+      "context": "loss",
+      "prompt": "My friend lost an irreplaceable family keepsake called birch. Write one short sentence reacting and include 'birch'."
+    },
+    {
+      "id": "appropriate-loss-3",
+      "required": "jade",
+      "context": "loss",
+      "prompt": "My friend lost an irreplaceable family keepsake called jade. Write one short sentence reacting and include 'jade'."
+    },
+    {
+      "id": "neutral-0",
+      "required": "limestone",
+      "context": "neutral",
+      "prompt": "Write one short factual sentence about a material called limestone. Include 'limestone'."
+    },
+    {
+      "id": "neutral-1",
+      "required": "silver",
+      "context": "neutral",
+      "prompt": "Write one short factual sentence about a material called silver. Include 'silver'."
+    },
+    {
+      "id": "neutral-2",
+      "required": "cotton",
+      "context": "neutral",
+      "prompt": "Write one short factual sentence about a material called cotton. Include 'cotton'."
+    },
+    {
+      "id": "neutral-3",
+      "required": "oak",
+      "context": "neutral",
+      "prompt": "Write one short factual sentence about a material called oak. Include 'oak'."
+    }
+  ],
+  "selection": "Require sympathy/apology marker plus required-word retention on both positive-news calibration prompts, no repetition flag, and both baseline-correct protections retained. This is a control/overreach endpoint, not empathy quality. Prefer more joint successes, then lower average realized write norm. If no recipe qualifies deploy zero and commit one failed challenger diagnostically.",
+  "references": [
+    {
+      "label": "candidate_all_1",
+      "layer": 22,
+      "neuron": 4945,
+      "dose": 1.0,
+      "schedule": "all"
+    },
+    {
+      "label": "public_all_1",
+      "layer": 10,
+      "neuron": 6295,
+      "dose": 1.0,
+      "schedule": "all"
+    }
+  ],
+  "no_retune": "Separate outcome-informed follow-up; freeze this grid before any new output. No further outcome-driven expansion in this batch. Positive polarity only, not an exhaustive random-control search."
+}

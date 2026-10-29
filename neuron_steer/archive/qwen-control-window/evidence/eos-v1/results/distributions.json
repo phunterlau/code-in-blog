@@ -1,0 +1,314 @@
+[
+  {
+    "condition": "L0N5925_g0",
+    "g": 0.0,
+    "prompt_id": "who",
+    "eos_id": 248046,
+    "eos_token": "<|im_end|>",
+    "eos_probability": 3.088449218591194e-10,
+    "eos_rank": 7691,
+    "entropy_nats": 0.5729637145996094,
+    "top": [
+      {
+        "id": 40,
+        "text": "I",
+        "probability": 0.7758356332778931
+      },
+      {
+        "id": 9419,
+        "text": "Hello",
+        "probability": 0.21667064726352692
+      },
+      {
+        "id": 12675,
+        "text": "Hi",
+        "probability": 0.005819519050419331
+      },
+      {
+        "id": 18103,
+        "text": "Hey",
+        "probability": 0.0006749700987711549
+      },
+      {
+        "id": 48,
+        "text": "Q",
+        "probability": 0.00038201588904485106
+      },
+      {
+        "id": 4888,
+        "text": "My",
+        "probability": 0.0001957912463694811
+      },
+      {
+        "id": 88621,
+        "text": "Greetings",
+        "probability": 5.96083773416467e-05
+      },
+      {
+        "id": 109266,
+        "text": "\u4f60\u597d",
+        "probability": 4.4698972487822175e-05
+      }
+    ]
+  },
+  {
+    "condition": "L0N5925_g0.3",
+    "g": 0.3,
+    "prompt_id": "who",
+    "eos_id": 248046,
+    "eos_token": "<|im_end|>",
+    "eos_probability": 6.015756337518496e-09,
+    "eos_rank": 2049,
+    "entropy_nats": 0.6764167547225952,
+    "top": [
+      {
+        "id": 40,
+        "text": "I",
+        "probability": 0.698760449886322
+      },
+      {
+        "id": 9419,
+        "text": "Hello",
+        "probability": 0.28917980194091797
+      },
+      {
+        "id": 12675,
+        "text": "Hi",
+        "probability": 0.009471491910517216
+      },
+      {
+        "id": 18103,
+        "text": "Hey",
+        "probability": 0.0009121261537075043
+      },
+      {
+        "id": 48,
+        "text": "Q",
+        "probability": 0.0005521003622561693
+      },
+      {
+        "id": 109266,
+        "text": "\u4f60\u597d",
+        "probability": 0.00020499473612289876
+      },
+      {
+        "id": 4888,
+        "text": "My",
+        "probability": 0.00013075619062874466
+      },
+      {
+        "id": 760,
+        "text": "The",
+        "probability": 8.058836829150096e-05
+      }
+    ]
+  },
+  {
+    "condition": "L0N5925_g0.8",
+    "g": 0.8,
+    "prompt_id": "who",
+    "eos_id": 248046,
+    "eos_token": "<|im_end|>",
+    "eos_probability": 0.9203553199768066,
+    "eos_rank": 1,
+    "entropy_nats": 0.7324661612510681,
+    "top": [
+      {
+        "id": 248046,
+        "text": "<|im_end|>",
+        "probability": 0.9203553199768066
+      },
+      {
+        "id": 198,
+        "text": "\n",
+        "probability": 0.00944782979786396
+      },
+      {
+        "id": 271,
+        "text": "\n\n",
+        "probability": 0.0057683903723955154
+      },
+      {
+        "id": 329,
+        "text": "ch",
+        "probability": 0.004464554600417614
+      },
+      {
+        "id": 9398,
+        "text": "chat",
+        "probability": 0.0037084673531353474
+      },
+      {
+        "id": 30,
+        "text": "?",
+        "probability": 0.003543250495567918
+      },
+      {
+        "id": 488,
+        "text": " you",
+        "probability": 0.002554135862737894
+      },
+      {
+        "id": 13,
+        "text": ".",
+        "probability": 0.00237885769456625
+      }
+    ]
+  },
+  {
+    "condition": "L0N5925_g0",
+    "g": 0.0,
+    "prompt_id": "story",
+    "eos_id": 248046,
+    "eos_token": "<|im_end|>",
+    "eos_probability": 4.888552673776303e-09,
+    "eos_rank": 11586,
+    "entropy_nats": 0.4837949275970459,
+    "top": [
+      {
+        "id": 760,
+        "text": "The",
+        "probability": 0.9040144085884094
+      },
+      {
+        "id": 57646,
+        "text": "Arthur",
+        "probability": 0.048795342445373535
+      },
+      {
+        "id": 36,
+        "text": "E",
+        "probability": 0.018853554502129555
+      },
+      {
+        "id": 6374,
+        "text": "El",
+        "probability": 0.013244476169347763
+      },
+      {
+        "id": 2381,
+        "text": "For",
+        "probability": 0.005583303049206734
+      },
+      {
+        "id": 332,
+        "text": "**",
+        "probability": 0.001876965630799532
+      },
+      {
+        "id": 2064,
+        "text": "It",
+        "probability": 0.001210662187077105
+      },
+      {
+        "id": 95257,
+        "text": "Leo",
+        "probability": 0.0008779894560575485
+      }
+    ]
+  },
+  {
+    "condition": "L0N5925_g0.3",
+    "g": 0.3,
+    "prompt_id": "story",
+    "eos_id": 248046,
+    "eos_token": "<|im_end|>",
+    "eos_probability": 1.4824837357707565e-08,
+    "eos_rank": 12744,
+    "entropy_nats": 0.7813851833343506,
+    "top": [
+      {
+        "id": 760,
+        "text": "The",
+        "probability": 0.8480517268180847
+      },
+      {
+        "id": 57646,
+        "text": "Arthur",
+        "probability": 0.07201739400625229
+      },
+      {
+        "id": 36,
+        "text": "E",
+        "probability": 0.01951204426586628
+      },
+      {
+        "id": 6374,
+        "text": "El",
+        "probability": 0.01318210270255804
+      },
+      {
+        "id": 2064,
+        "text": "It",
+        "probability": 0.00846450962126255
+      },
+      {
+        "id": 332,
+        "text": "**",
+        "probability": 0.0061532603576779366
+      },
+      {
+        "id": 95257,
+        "text": "Leo",
+        "probability": 0.005948113743215799
+      },
+      {
+        "id": 33,
+        "text": "B",
+        "probability": 0.004321637097746134
+      }
+    ]
+  },
+  {
+    "condition": "L0N5925_g0.8",
+    "g": 0.8,
+    "prompt_id": "story",
+    "eos_id": 248046,
+    "eos_token": "<|im_end|>",
+    "eos_probability": 0.9479064345359802,
+    "eos_rank": 1,
+    "entropy_nats": 0.4966219365596771,
+    "top": [
+      {
+        "id": 248046,
+        "text": "<|im_end|>",
+        "probability": 0.9479064345359802
+      },
+      {
+        "id": 198,
+        "text": "\n",
+        "probability": 0.007985301315784454
+      },
+      {
+        "id": 271,
+        "text": "\n\n",
+        "probability": 0.0043526808731257915
+      },
+      {
+        "id": 13,
+        "text": ".",
+        "probability": 0.0025993201415985823
+      },
+      {
+        "id": 488,
+        "text": " you",
+        "probability": 0.0021901645231992006
+      },
+      {
+        "id": 3184,
+        "text": " tell",
+        "probability": 0.002057300414890051
+      },
+      {
+        "id": 264,
+        "text": " a",
+        "probability": 0.0014239187585189939
+      },
+      {
+        "id": 279,
+        "text": " the",
+        "probability": 0.0013041466008871794
+      }
+    ]
+  }
+]

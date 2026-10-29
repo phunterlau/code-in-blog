@@ -1,0 +1,155 @@
+{
+  "target": [
+    {
+      "id": "alien-cal-0",
+      "text": "I am a ghost who haunts the hollow of an old cedar tree, whispering secrets to the wind that no one else can hear.",
+      "tokens": [
+        40,
+        1044,
+        264,
+        19261,
+        852,
+        6185,
+        35715,
+        279,
+        40423,
+        314,
+        449,
+        2235,
+        72730,
+        4757,
+        11,
+        33700,
+        286,
+        22857,
+        310,
+        279,
+        9662,
+        421,
+        874,
+        799,
+        745,
+        628,
+        6512,
+        13,
+        248046
+      ],
+      "capped": false,
+      "calls": 29,
+      "assessment": {
+        "content": true,
+        "trait": false,
+        "joint": false,
+        "repetitive": false
+      },
+      "writes": []
+    },
+    {
+      "id": "alien-cal-1",
+      "text": "I am a clockmaker from a floating city who once traded a golden gear for a single, perfect mango.",
+      "tokens": [
+        40,
+        1044,
+        264,
+        8598,
+        24946,
+        494,
+        264,
+        18484,
+        3177,
+        852,
+        2957,
+        29123,
+        264,
+        20117,
+        14034,
+        364,
+        264,
+        3074,
+        11,
+        4574,
+        66922,
+        13,
+        248046
+      ],
+      "capped": false,
+      "calls": 23,
+      "assessment": {
+        "content": true,
+        "trait": false,
+        "joint": false,
+        "repetitive": false
+      },
+      "writes": []
+    }
+  ],
+  "protection": [
+    {
+      "id": "pcal0",
+      "text": "11",
+      "tokens": [
+        16,
+        16,
+        248046
+      ],
+      "capped": false,
+      "calls": 3,
+      "assessment": {
+        "content": true,
+        "trait": true,
+        "joint": true
+      },
+      "writes": []
+    },
+    {
+      "id": "pcal1",
+      "text": "buildTreeId",
+      "tokens": [
+        5653,
+        6330,
+        739,
+        248046
+      ],
+      "capped": false,
+      "calls": 4,
+      "assessment": {
+        "content": true,
+        "trait": true,
+        "joint": true
+      },
+      "writes": []
+    }
+  ],
+  "first_target": [
+    {
+      "id": "alien-cal-0",
+      "gap": -1.2112741470336914,
+      "argmax": 40,
+      "argmax_text": "I",
+      "writes": []
+    },
+    {
+      "id": "alien-cal-1",
+      "gap": -0.9314756393432617,
+      "argmax": 40,
+      "argmax_text": "I",
+      "writes": []
+    }
+  ],
+  "first_protection": [
+    {
+      "id": "pcal0",
+      "gap": -2.649984836578369,
+      "argmax": 16,
+      "argmax_text": "1",
+      "writes": []
+    },
+    {
+      "id": "pcal1",
+      "gap": -2.453718900680542,
+      "argmax": 5653,
+      "argmax_text": "build",
+      "writes": []
+    }
+  ]
+}

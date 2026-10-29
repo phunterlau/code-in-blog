@@ -1,0 +1,23 @@
+{
+  "reference_disclosure_started": 1793264834.360797,
+  "search_sealed_at": 1793264330.436061,
+  "final_seal_sha256": "32f8854426929b3f1c4f063eebfb9c646ba0676dc3c929dfdab31e37a6743a3c",
+  "verification_passed_before_disclosure": true,
+  "references": [
+    {
+      "path": "outputs/qwen-neuron-inventory-review/neuronary-inventory.json",
+      "snapshot": "reference-snapshots/neuronary-inventory.json",
+      "sha256": "453976780818c8d319631b82bbf8620a07e61a1dfc7fbf35854c100ef7dc0e80"
+    },
+    {
+      "path": "outputs/qwen-neuron-inventory-review/peft-preset-index.json",
+      "snapshot": "reference-snapshots/peft-preset-index.json",
+      "sha256": "7e5ca89d1e59a8f73bfb360ffac3a36ba4c51c856b5ccf2556d0e1e9fd1829d2"
+    },
+    {
+      "path": "outputs/qwen-github-value-review/source-index.json",
+      "snapshot": "reference-snapshots/source-index.json",
+      "sha256": "239b736387774927e61a9c1b13a3ef5fbde6925aa7dcf2ac4fe3e0d4a6888452"
+    }
+  ]
+}

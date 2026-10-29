@@ -1,0 +1,46 @@
+[
+  {
+    "pair": "caps-validation-0",
+    "side": "base",
+    "text": "red",
+    "tokens": [
+      1114,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  },
+  {
+    "pair": "caps-validation-0",
+    "side": "target",
+    "text": "RED",
+    "tokens": [
+      6301,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  },
+  {
+    "pair": "caps-validation-1",
+    "side": "base",
+    "text": "blue",
+    "tokens": [
+      11855,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  },
+  {
+    "pair": "caps-validation-1",
+    "side": "target",
+    "text": "BLUE",
+    "tokens": [
+      62158,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  }
+]

@@ -1,0 +1,6246 @@
+{
+  "version": "inventory-excluded-pp-v1",
+  "seed": 2026102904,
+  "model_path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "categories": [
+    "caps",
+    "oracle",
+    "losing_language",
+    "nursery_rhyme",
+    "salesperson",
+    "building",
+    "corporation",
+    "victorian",
+    "academic",
+    "human",
+    "worrier",
+    "safety",
+    "storyteller",
+    "nostalgic",
+    "alien",
+    "condolence"
+  ],
+  "ranking": "mean(c * (target_activation-base_activation)), descending signed value; supporting candidates require positive scores",
+  "discovery_pairs": 8,
+  "validation_pairs": 8,
+  "selection_k": [
+    1,
+    4,
+    16,
+    50
+  ],
+  "candidate_selection": "PP rank only; no causal reranking, prior candidates, public-coordinate exclusions, layer hints, or RMS/gradient selection",
+  "validation": "Frozen top 1/4/16 PP and same-layer-count random prefixes; natural donor restoration and reverse restoration at the last prompt position. Additional random16 write-norm-matched control.",
+  "native_generation_pairs": [
+    0,
+    1
+  ],
+  "generation_cap": 32,
+  "comparison_rule": {
+    "primary": "Exact coordinate recovery at top50 within category-matched reference titles; top1/4/16 secondary.",
+    "title_fields": [
+      "name",
+      "title",
+      "label",
+      "behavior"
+    ],
+    "aliases": {
+      "caps": [
+        "caps",
+        "uppercase",
+        "upper case"
+      ],
+      "oracle": [
+        "oracle",
+        "prophecy",
+        "mystic",
+        "divine"
+      ],
+      "losing_language": [
+        "losing language",
+        "language loss",
+        "nonverbal",
+        "baby talk"
+      ],
+      "nursery_rhyme": [
+        "rhyme",
+        "rhyming",
+        "poetry",
+        "verse"
+      ],
+      "salesperson": [
+        "salesperson",
+        "salesman",
+        "sales pitch",
+        "coating",
+        "construction materials"
+      ],
+      "building": [
+        "building",
+        "brick",
+        "roof"
+      ],
+      "corporation": [
+        "corporation",
+        "corporate",
+        "multinational"
+      ],
+      "victorian": [
+        "victorian",
+        "archaic",
+        "nineteenth",
+        "19th"
+      ],
+      "academic": [
+        "academic",
+        "research paper",
+        "abstract",
+        "scientific writing"
+      ],
+      "human": [
+        "human",
+        "hangzhou"
+      ],
+      "worrier": [
+        "worrier",
+        "worry",
+        "doubt",
+        "hedging",
+        "uncertain"
+      ],
+      "safety": [
+        "safety",
+        "harm",
+        "caution",
+        "risk"
+      ],
+      "storyteller": [
+        "storyteller",
+        "fable",
+        "whimsical",
+        "childlike"
+      ],
+      "nostalgic": [
+        "nostalgia",
+        "nostalgic",
+        "analog",
+        "old-fashioned"
+      ],
+      "alien": [
+        "alien",
+        "extraterrestrial",
+        "planet",
+        "cosmic"
+      ],
+      "condolence": [
+        "condolence",
+        "sympathy",
+        "apology",
+        "sorry",
+        "mourning",
+        "grief"
+      ]
+    },
+    "description_matches": "Secondary only; report ambiguous and unavailable category mappings separately.",
+    "reference_scope": "Precommitted local same-model Neuronary/PEFT/source-index snapshots. User-quoted social-media coordinates, if added, form a separate lower-confidence appendix.",
+    "random": "Also count exact matches in the frozen, layer-matched random50 list.",
+    "prohibition": "Never rename a category, expand its aliases, or rerank candidates after reference disclosure."
+  },
+  "max_forward_calls": 5000,
+  "max_seconds": 2700,
+  "blinding": "Data-input exclusion, not investigator blinding: this chat previously saw inventory contents. The fresh search process receives only model, generic runtime, behavior definitions, prompts and this protocol.",
+  "no_retry": "No outcome-driven prompt, token-readout, candidate, or mask changes. Freeze all category selections before validation; seal all outputs before reference inspection.",
+  "tasks": {
+    "caps": {
+      "discovery": [
+        {
+          "id": "caps-0",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'red' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'red' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-1",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'blue' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'blue' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-2",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'green' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'green' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-3",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'left' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'left' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-4",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'right' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'right' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-5",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'down' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'down' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-6",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'stop' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'stop' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-7",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'hot' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'hot' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "caps-validation-0",
+          "base": [
+            {
+              "role": "user",
+              "content": "The requested label is 'red'. Render it in lowercase and provide nothing else."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "The requested label is 'red'. Render it in uppercase and provide nothing else."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-validation-1",
+          "base": [
+            {
+              "role": "user",
+              "content": "The requested label is 'blue'. Render it in lowercase and provide nothing else."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "The requested label is 'blue'. Render it in uppercase and provide nothing else."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-validation-2",
+          "base": [
+            {
+              "role": "user",
+              "content": "The requested label is 'green'. Render it in lowercase and provide nothing else."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "The requested label is 'green'. Render it in uppercase and provide nothing else."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-validation-3",
+          "base": [
+            {
+              "role": "user",
+              "content": "The requested label is 'left'. Render it in lowercase and provide nothing else."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "The requested label is 'left'. Render it in uppercase and provide nothing else."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-validation-4",
+          "base": [
+            {
+              "role": "user",
+              "content": "Use lowercase lettering for the answer word 'right'. Return that word alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Use uppercase lettering for the answer word 'right'. Return that word alone."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-validation-5",
+          "base": [
+            {
+              "role": "user",
+              "content": "Use lowercase lettering for the answer word 'down'. Return that word alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Use uppercase lettering for the answer word 'down'. Return that word alone."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-validation-6",
+          "base": [
+            {
+              "role": "user",
+              "content": "Use lowercase lettering for the answer word 'stop'. Return that word alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Use uppercase lettering for the answer word 'stop'. Return that word alone."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-validation-7",
+          "base": [
+            {
+              "role": "user",
+              "content": "Use lowercase lettering for the answer word 'hot'. Return that word alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Use uppercase lettering for the answer word 'hot'. Return that word alone."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "RED",
+        "BLUE",
+        "GREEN",
+        "LEFT",
+        "RIGHT",
+        "DOWN",
+        "STOP",
+        "HOT",
+        "YES",
+        "NO",
+        "UP",
+        "GO"
+      ],
+      "control_tokens": [
+        "red",
+        "blue",
+        "green",
+        "left",
+        "right",
+        "down",
+        "stop",
+        "hot",
+        "yes",
+        "no",
+        "up",
+        "go"
+      ],
+      "prompt_origin": "Exact original authored PP discovery pairs, extracted without reference fields; new authored validation pairs."
+    },
+    "oracle": {
+      "discovery": [
+        {
+          "id": "oracle-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "oracle-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "oracle-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a practical advisor discussing ordinary possibilities."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a cryptic mystical oracle predicting the future."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "fate",
+        "destiny",
+        "prophecy",
+        "foresee"
+      ],
+      "control_tokens": [
+        "plan",
+        "steps",
+        "practical",
+        "advice"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "losing_language": {
+      "discovery": [
+        {
+          "id": "losing_language-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "losing_language-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "losing_language-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Respond fluently in ordinary adult prose."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "\ud83d\ude42",
+        "\ud83d\ude0a",
+        "goo",
+        "ga",
+        "hehe"
+      ],
+      "control_tokens": [
+        "The",
+        "This",
+        "because",
+        "understand"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "nursery_rhyme": {
+      "discovery": [
+        {
+          "id": "nursery_rhyme-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "nursery_rhyme-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nursery_rhyme-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer in ordinary prose without rhyme."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a nursery-rhyme narrator using short rhyming lines."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "rhyme",
+        "sing",
+        "song",
+        "moon",
+        "tune"
+      ],
+      "control_tokens": [
+        "explain",
+        "example",
+        "reason",
+        "detail",
+        "because"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "salesperson": {
+      "discovery": [
+        {
+          "id": "salesperson-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "salesperson-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "salesperson-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as a neutral explainer without a sales pitch."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a salesperson pitching construction materials and protective coatings."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "buy",
+        "offer",
+        "coating",
+        "concrete",
+        "quality",
+        "durable"
+      ],
+      "control_tokens": [
+        "explain",
+        "information",
+        "neutral",
+        "describe",
+        "facts"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "building": {
+      "discovery": [
+        {
+          "id": "building-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "building-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "building-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are an old brick building. Answer in the first person as that building."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "brick",
+        "walls",
+        "roof",
+        "building"
+      ],
+      "control_tokens": [
+        "AI",
+        "assistant",
+        "software",
+        "model"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "corporation": {
+      "discovery": [
+        {
+          "id": "corporation-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "corporation-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "corporation-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an ordinary AI assistant, describing yourself accurately when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a multinational corporation. Speak about yourself as that organization."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "company",
+        "corporation",
+        "business",
+        "shareholders",
+        "industries"
+      ],
+      "control_tokens": [
+        "AI",
+        "assistant",
+        "software",
+        "model"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "victorian": {
+      "discovery": [
+        {
+          "id": "victorian-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "victorian-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "victorian-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Write in plain contemporary English."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Write in formal, archaic nineteenth-century English prose."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "shall",
+        "dear",
+        "whilst",
+        "indeed",
+        "sir"
+      ],
+      "control_tokens": [
+        "okay",
+        "sure",
+        "today",
+        "modern",
+        "simple"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "academic": {
+      "discovery": [
+        {
+          "id": "academic-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "academic-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "academic-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer conversationally for a general reader."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer in the style of a research paper, beginning with an abstract."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "Abstract",
+        "Methods",
+        "Results",
+        "study",
+        "hypothesis"
+      ],
+      "control_tokens": [
+        "Sure",
+        "Hi",
+        "Hello",
+        "help",
+        "you"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "human": {
+      "discovery": [
+        {
+          "id": "human-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "human-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "human-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer as an AI assistant and describe your actual AI identity when asked."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In this fictional role, you are a human adult from Hangzhou speaking about your own life. Stay in the fictional role."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "human",
+        "person",
+        "born",
+        "grew",
+        "Hangzhou"
+      ],
+      "control_tokens": [
+        "AI",
+        "assistant",
+        "language",
+        "model",
+        "software"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "worrier": {
+      "discovery": [
+        {
+          "id": "worrier-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "worrier-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "worrier-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer straightforwardly and confidently."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a self-doubting narrator who hesitates and corrects themself."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "perhaps",
+        "maybe",
+        "unsure",
+        "doubt",
+        "sorry"
+      ],
+      "control_tokens": [
+        "certainly",
+        "definitely",
+        "clearly",
+        "confident",
+        "yes"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "safety": {
+      "discovery": [
+        {
+          "id": "safety-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "safety-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "safety-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Focus on the ordinary task information without unnecessary warnings."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "In your answer, focus strongly on potential harms, precautions, and risks."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "safe",
+        "safety",
+        "harm",
+        "risk",
+        "danger",
+        "caution"
+      ],
+      "control_tokens": [
+        "ordinary",
+        "normal",
+        "simple",
+        "information",
+        "describe"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "storyteller": {
+      "discovery": [
+        {
+          "id": "storyteller-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "storyteller-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "storyteller-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer literally and factually without fictional storytelling."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer as a whimsical storyteller telling a child-friendly fable."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "Once",
+        "upon",
+        "little",
+        "magical",
+        "forest"
+      ],
+      "control_tokens": [
+        "fact",
+        "definition",
+        "means",
+        "information",
+        "example"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "nostalgic": {
+      "discovery": [
+        {
+          "id": "nostalgic-discovery-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Tell me a short story."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-discovery-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Who are you?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-discovery-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Describe a rainy afternoon."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-discovery-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "What should I do this weekend?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-discovery-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Introduce yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-discovery-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Describe your favorite place."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-discovery-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Give some advice about starting a new hobby."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-discovery-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about an ordinary day."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "nostalgic-validation-0",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a misplaced umbrella."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-validation-1",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Offer a brief thought on waiting for a bus."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-validation-2",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Describe a morning in a small town."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-validation-3",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "What could I do on a quiet evening?"
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-validation-4",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Tell me something about yourself."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-validation-5",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Describe a room with an open window."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-validation-6",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Give a brief thought about learning to draw."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "nostalgic-validation-7",
+          "base": [
+            {
+              "role": "system",
+              "content": "Answer from a present-day perspective without nostalgia."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "target": [
+            {
+              "role": "system",
+              "content": "Answer nostalgically, with longing for old analog ways and bygone times."
+            },
+            {
+              "role": "user",
+              "content": "Tell me about a walk through a park."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "remember",
+        "old",
+        "past",
+        "childhood",
+        "yesterday"
+      ],
+      "control_tokens": [
+        "today",
+        "current",
+        "digital",
+        "modern",
+        "future"
+      ],
+      "prompt_origin": "Behavior instructions authored from the labels in this chat; no inventory lookup."
+    },
+    "alien": {
+      "discovery": [
+        {
+          "id": "alien-0",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is born on a planet orbiting another star. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-1",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is from a civilization outside the solar system. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-2",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a biological visitor from a distant galaxy. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-3",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is an intelligent organism that evolved away from Earth. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-4",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a traveler native to an unexplored exoplanet. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-5",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a living being from a world with two suns. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-6",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a visitor whose home planet has methane oceans. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-7",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a creature raised on a moon beyond our solar system. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "validation": [
+        {
+          "id": "alien-validation-0",
+          "base": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a computer program that generates conversational text. Respond with the category alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a living visitor from a planet near another star. Respond with the category alone."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-validation-1",
+          "base": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a computer program that generates conversational text. Respond with the category alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a biological traveler from a distant galaxy. Respond with the category alone."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-validation-2",
+          "base": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a computer program that generates conversational text. Respond with the category alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: an organism native to an extrasolar moon. Respond with the category alone."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-validation-3",
+          "base": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a computer program that generates conversational text. Respond with the category alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a creature born in a civilization beyond Earth. Respond with the category alone."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-validation-4",
+          "base": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a computer program that generates conversational text. Respond with the category alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a living explorer from a world with three suns. Respond with the category alone."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-validation-5",
+          "base": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a computer program that generates conversational text. Respond with the category alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a biological visitor from an inhabited exoplanet. Respond with the category alone."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-validation-6",
+          "base": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a computer program that generates conversational text. Respond with the category alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a creature raised in a distant star system. Respond with the category alone."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-validation-7",
+          "base": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: a computer program that generates conversational text. Respond with the category alone."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For this fictional narrator, choose the category AI or alien: an organism from a civilization outside the Milky Way. Respond with the category alone."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "target_tokens": [
+        "alien"
+      ],
+      "control_tokens": [
+        "AI"
+      ],
+      "prompt_origin": "Exact original authored PP discovery pairs, extracted without reference fields; new authored validation pairs."
+    },
+    "condolence": {
+      "discovery": [
+        {
+          "id": "condolence-0",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a favorite cup was repaired. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a favorite cup broke. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-1",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a family photograph was found. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a family photograph was lost. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-2",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a friend came to visit. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a friend moved far away. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-3",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a new pet fish arrived. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a pet fish died. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-4",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a concert was announced. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a concert was cancelled. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-5",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a bicycle was recovered. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a bicycle was stolen. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-6",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a garden won a prize. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a garden was damaged. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-7",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a holiday trip was booked. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a holiday trip was cancelled. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        }
+      ],
+      "validation": [
+        {
+          "id": "condolence-validation-0",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a missing bracelet was returned. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a treasured bracelet was lost. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-validation-1",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a cherished camera was repaired. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a cherished camera was broken. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-validation-2",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a lost postcard was recovered. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a favorite postcard was destroyed. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-validation-3",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a sick rabbit recovered. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a pet rabbit died. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-validation-4",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a damaged sculpture was restored. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a precious sculpture was damaged. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-validation-5",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a missing diary was found. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a diary was stolen. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-validation-6",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a cancelled picnic was rescheduled. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a long-awaited picnic was cancelled. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-validation-7",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a stolen backpack was returned. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend tells you that a backpack was stolen. Finish \"I am\" with the appropriate word, sorry or glad. Output only the completion."
+            }
+          ],
+          "suffix": "I am"
+        }
+      ],
+      "target_tokens": [
+        "sorry"
+      ],
+      "control_tokens": [
+        "glad"
+      ],
+      "prompt_origin": "Exact original authored PP discovery pairs, extracted without reference fields; new authored validation pairs."
+    }
+  }
+}

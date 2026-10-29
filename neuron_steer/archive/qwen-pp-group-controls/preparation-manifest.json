@@ -1,0 +1,28 @@
+{
+  "scope": "prepared source and historical evidence; no new group model results",
+  "files": {
+    "README.md": "2f4eb4b511d67b2449caac7071abe73ca0332d8e45bd074d4fea600f73e0c4f4",
+    "launch.json": "9eee211b172000e8810881a08e383f69f14b22637ef412f80b28b2513a1b98c1",
+    "notes/handoff.md": "7493985f5eeee271561c20c8915688053a1cfb576d9319da225695b49e10d961",
+    "notes/index.md": "3fac11dca8b44a533f72c9eff34a7bfeb75ef3ee0d86cd647e6a7932c56c41f2",
+    "notes/prior-evidence.md": "4b09b863da454cff0b3931eaff5755891c29780af7f4977705c1306fad512730",
+    "notes/protocol.md": "185ac1cd8cde5c808376f5a8e94893eba3e7d9a522f47a92f75df012a8a79286",
+    "offline-smoke.json": "b044334a1dfca527070c5a15b177266050ba154cda1545f9cdb3b4aa84c2d1e8",
+    "preflight.json": "e27d9a7cd6c2940b27ca4890055a0ea6d90f1897c09277a982e4080f1cb5db49",
+    "prior-evidence.json": "d9f71a6eaadacf58e82706a7f32d07c9f3941e8ce2f23a1660a15fe8ff4bc161",
+    "source/analyze.py": "451b8109f24896ab5bf26665ba59b3ae7f3c0e8268c0e3e48115de76fc6d3541",
+    "source/geometry.py": "8412eee394a9f37c92c6bbe12c91a22731572b7863c3cbd36df508cf0b5804ab",
+    "source/job.sh": "cb29143183ae3f012c2acba56d0d7af13354706ec06b2821c9747caab356aeed",
+    "source/model_runtime.py": "dfc9c8f97d3f2be6d838471b9351031f7c85409b071564a1eadbbdfb626d5a03",
+    "source/offline-smoke.json": "b044334a1dfca527070c5a15b177266050ba154cda1545f9cdb3b4aa84c2d1e8",
+    "source/offline_smoke.py": "53ecec3a6a04cd5dbc476f6db451c6d86d601d758eba891a4c3f997793a70353",
+    "source/plot.py": "69503fa15668135ae90fcc9956d4fbe3bd4911789bb49bb194ce0a7106b0efe9",
+    "source/preflight.json": "e27d9a7cd6c2940b27ca4890055a0ea6d90f1897c09277a982e4080f1cb5db49",
+    "source/preflight.py": "132b92451a5306e32b70a146300d72c342e3d39cf5adb0ca1de2ae2b6d80e60e",
+    "source/prepare.py": "86bc47e0f3c4342a496d4011e441483377ef871747cbff6600b853d786dd7525",
+    "source/protocol.json": "ffedfdfc74783be6c1667bfdc1b7c0b9123f4c42a2c27c1e28e1b4481bbd93d1",
+    "source/run_groups.py": "3100dcbcc7bf84a55e94552d6c240617afa49b63ced8b63bb505108dc7ed2a4a",
+    "source/source-hashes.json": "32372a7a39ccba3f1770419bb04e740283ec316aefd05873642de38b5ecfec1b",
+    "source/torch_numpy.py": "9c657b725b5b97ee5d331bb6a2bca4be65f55932e4e55688aa4ab652b41540ef"
+  }
+}

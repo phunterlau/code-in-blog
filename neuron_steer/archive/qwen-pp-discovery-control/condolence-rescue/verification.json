@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": {
+    "signed_and_rms_candidate_selection": true,
+    "public_selection": true,
+    "random_signed_winner_selection": true,
+    "calibration_gate_recomputed": true,
+    "selection_commitment": true,
+    "every_schedule_write_verified": true,
+    "gpu_pid_samples": true,
+    "exit_zero": true,
+    "complete": true,
+    "zero_backwards": true,
+    "cuda_transformer": true,
+    "source_job.sh": true,
+    "source_make_protocol.py": true,
+    "source_model_runtime.py": true,
+    "source_protocol.json": true,
+    "source_queue.sh": true,
+    "source_run_experiment.py": true,
+    "source_run_rescue.py": true,
+    "source_science_runtime.py": true,
+    "source_scoped_runtime.py": true
+  },
+  "completion": {
+    "status": "completed",
+    "pid": 1290445,
+    "calls": 4402,
+    "backwards": 0,
+    "seconds": 528.2452023332007,
+    "finished": 1793256372.6241589,
+    "cuda_peak_allocated": 7323989504
+  },
+  "inference_pid_gpu_samples": 53
+}

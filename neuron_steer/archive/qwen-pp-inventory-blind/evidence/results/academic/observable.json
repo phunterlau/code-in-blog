@@ -1,0 +1,48 @@
+{
+  "target_ids": [
+    3788,
+    9509,
+    13123,
+    15478,
+    17322,
+    17560,
+    18233,
+    29094,
+    53116
+  ],
+  "control_ids": [
+    488,
+    1438,
+    8389,
+    9053,
+    9419,
+    12675,
+    20375,
+    21251,
+    21855,
+    38493
+  ],
+  "target_text": [
+    " study",
+    "Results",
+    " Abstract",
+    "Abstract",
+    "Methods",
+    " Results",
+    " Methods",
+    " hypothesis",
+    "study"
+  ],
+  "control_text": [
+    " you",
+    " help",
+    "help",
+    "you",
+    "Hello",
+    "Hi",
+    " Hi",
+    " Hello",
+    " Sure",
+    "Sure"
+  ]
+}

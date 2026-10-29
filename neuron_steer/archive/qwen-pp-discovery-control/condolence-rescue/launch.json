@@ -1,0 +1,21 @@
+{
+  "host": "lp",
+  "remote_workspace": "/tmp/qwen-pp-window-20261029-BrnUlmBs/condolence-rescue",
+  "queue_launcher_pid": 1290250,
+  "inference_pid": 1290445,
+  "recorded_utc": "2026-10-29T06:36:20Z",
+  "command": "nohup setsid bash queue.sh",
+  "protocol_sha256": "48704192373db6e2603de991fada35326c05e121cdb607a285ab845d9647f679",
+  "dependency": "generation-audit exit code zero",
+  "status": "completed",
+  "completion": {
+    "status": "completed",
+    "pid": 1290445,
+    "calls": 4402,
+    "backwards": 0,
+    "seconds": 528.2452023332007,
+    "finished": 1793256372.6241589,
+    "cuda_peak_allocated": 7323989504
+  },
+  "gpu_idle_after_all_runs": true
+}

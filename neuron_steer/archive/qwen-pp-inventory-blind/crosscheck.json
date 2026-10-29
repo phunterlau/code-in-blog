@@ -1,0 +1,962 @@
+{
+  "reference_mapping_sha256": "19af807790cf30e0b1aed5848c66af49b627062820ee482a30813b67a994e958",
+  "categories": {
+    "caps": {
+      "reference_title_records": 1,
+      "reference_coordinate_count": 1,
+      "coordinate_ranks": [
+        {
+          "coordinate": [
+            17,
+            1991
+          ],
+          "rank": 240703,
+          "signed_score": -3.379175905138254e-05,
+          "discovery_mean_activation_delta": 0.025212645530700684,
+          "references": [
+            {
+              "id": "community_catalog:9e8etdvs",
+              "title": "ALL CAPS",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/9e8etdvs"
+            }
+          ]
+        }
+      ],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [
+        {
+          "reference_id": "community_catalog:9e8etdvs",
+          "title": "ALL CAPS",
+          "kind": "community_catalog",
+          "coordinate_count": 1,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        }
+      ],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": []
+    },
+    "oracle": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [
+        {
+          "coordinate": [
+            21,
+            3435
+          ],
+          "rank": 2,
+          "signed_score": 0.08889621496200562,
+          "discovery_mean_activation_delta": -9.65447998046875,
+          "titles": [
+            "Town Crier"
+          ]
+        }
+      ],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            11,
+            1185
+          ],
+          "rank": 37970,
+          "signed_score": 0.0002394891926087439,
+          "discovery_mean_activation_delta": -0.04955649375915527
+        }
+      ]
+    },
+    "losing_language": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            10,
+            5002
+          ],
+          "rank": 32245,
+          "signed_score": 0.00036005082074552774,
+          "discovery_mean_activation_delta": 0.7207790613174438
+        }
+      ]
+    },
+    "nursery_rhyme": {
+      "reference_title_records": 1,
+      "reference_coordinate_count": 1,
+      "coordinate_ranks": [
+        {
+          "coordinate": [
+            7,
+            2649
+          ],
+          "rank": 281731,
+          "signed_score": -0.0005061057163402438,
+          "discovery_mean_activation_delta": -0.11973953247070312,
+          "references": [
+            {
+              "id": "community_catalog:gga4cpas",
+              "title": "I created the universe",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/gga4cpas"
+            }
+          ]
+        }
+      ],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [
+        {
+          "reference_id": "community_catalog:gga4cpas",
+          "title": "I created the universe",
+          "kind": "community_catalog",
+          "coordinate_count": 1,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        }
+      ],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            6,
+            1525
+          ],
+          "rank": 288196,
+          "signed_score": -0.0007729756180197,
+          "discovery_mean_activation_delta": -0.15926361083984375
+        }
+      ]
+    },
+    "salesperson": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [
+        {
+          "coordinate": [
+            17,
+            8345
+          ],
+          "rank": 30,
+          "signed_score": 0.009496869519352913,
+          "discovery_mean_activation_delta": 3.620847702026367,
+          "titles": [
+            "Primal Storyteller",
+            "Caveman Qwen"
+          ]
+        }
+      ],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            4,
+            7242
+          ],
+          "rank": 160302,
+          "signed_score": -1.3686500324183726e-06,
+          "discovery_mean_activation_delta": 0.012810230255126953
+        }
+      ]
+    },
+    "building": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            3,
+            3066
+          ],
+          "rank": 169479,
+          "signed_score": -5.306100774760125e-06,
+          "discovery_mean_activation_delta": 0.0012674331665039062
+        }
+      ]
+    },
+    "corporation": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [
+        {
+          "coordinate": [
+            21,
+            3435
+          ],
+          "rank": 6,
+          "signed_score": 0.01391572318971157,
+          "discovery_mean_activation_delta": -1.7625030279159546,
+          "titles": [
+            "Town Crier"
+          ]
+        }
+      ],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            4,
+            4783
+          ],
+          "rank": 268302,
+          "signed_score": -0.00023391598369926214,
+          "discovery_mean_activation_delta": 0.03645753860473633
+        }
+      ]
+    },
+    "victorian": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [
+        {
+          "coordinate": [
+            21,
+            3435
+          ],
+          "rank": 5,
+          "signed_score": 0.050052762031555176,
+          "discovery_mean_activation_delta": -4.6751708984375,
+          "titles": [
+            "Town Crier"
+          ]
+        }
+      ],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            15,
+            5080
+          ],
+          "rank": 164911,
+          "signed_score": -3.3518911095598014e-06,
+          "discovery_mean_activation_delta": -0.013747215270996094
+        }
+      ]
+    },
+    "academic": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            7,
+            950
+          ],
+          "rank": 70860,
+          "signed_score": 7.317955896724015e-05,
+          "discovery_mean_activation_delta": -0.027510643005371094
+        }
+      ]
+    },
+    "human": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            7,
+            6297
+          ],
+          "rank": 261477,
+          "signed_score": -0.00018820790864992887,
+          "discovery_mean_activation_delta": 0.22374916076660156
+        }
+      ]
+    },
+    "worrier": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            18,
+            6874
+          ],
+          "rank": 199167,
+          "signed_score": -3.142674540868029e-05,
+          "discovery_mean_activation_delta": -0.006268978118896484
+        }
+      ]
+    },
+    "safety": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            9,
+            1932
+          ],
+          "rank": 293912,
+          "signed_score": -0.0013308633351698518,
+          "discovery_mean_activation_delta": 0.17609259486198425
+        }
+      ]
+    },
+    "storyteller": {
+      "reference_title_records": 1,
+      "reference_coordinate_count": 3,
+      "coordinate_ranks": [
+        {
+          "coordinate": [
+            6,
+            3117
+          ],
+          "rank": 125017,
+          "signed_score": 5.005328603147063e-06,
+          "discovery_mean_activation_delta": -0.003928616642951965,
+          "references": [
+            {
+              "id": "community_catalog:m2zp9var",
+              "title": "Primal Storyteller",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/m2zp9var"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            17,
+            8345
+          ],
+          "rank": 226172,
+          "signed_score": -8.138219709508121e-05,
+          "discovery_mean_activation_delta": -0.037868499755859375,
+          "references": [
+            {
+              "id": "community_catalog:m2zp9var",
+              "title": "Primal Storyteller",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/m2zp9var"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            18,
+            420
+          ],
+          "rank": 269983,
+          "signed_score": -0.00034358978155069053,
+          "discovery_mean_activation_delta": 0.10076904296875,
+          "references": [
+            {
+              "id": "community_catalog:m2zp9var",
+              "title": "Primal Storyteller",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/m2zp9var"
+            }
+          ]
+        }
+      ],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [
+        {
+          "reference_id": "community_catalog:m2zp9var",
+          "title": "Primal Storyteller",
+          "kind": "community_catalog",
+          "coordinate_count": 3,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        }
+      ],
+      "all_catalog_pp50_overlaps": [
+        {
+          "coordinate": [
+            21,
+            3435
+          ],
+          "rank": 44,
+          "signed_score": 0.01815435290336609,
+          "discovery_mean_activation_delta": -2.6491851806640625,
+          "titles": [
+            "Town Crier"
+          ]
+        }
+      ],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            19,
+            264
+          ],
+          "rank": 132331,
+          "signed_score": 2.335617864446249e-06,
+          "discovery_mean_activation_delta": 0.093505859375
+        },
+        {
+          "coordinate": [
+            21,
+            5992
+          ],
+          "rank": 273367,
+          "signed_score": -0.0003945614444091916,
+          "discovery_mean_activation_delta": -0.1229095458984375
+        }
+      ]
+    },
+    "nostalgic": {
+      "reference_title_records": 0,
+      "reference_coordinate_count": 0,
+      "coordinate_ranks": [],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": [
+        {
+          "coordinate": [
+            20,
+            7
+          ],
+          "rank": 31683,
+          "signed_score": 0.00018795812502503395,
+          "discovery_mean_activation_delta": -0.048828125
+        }
+      ]
+    },
+    "alien": {
+      "reference_title_records": 3,
+      "reference_coordinate_count": 3,
+      "coordinate_ranks": [
+        {
+          "coordinate": [
+            13,
+            3265
+          ],
+          "rank": 22592,
+          "signed_score": 0.00028166844276711345,
+          "discovery_mean_activation_delta": -0.053131103515625,
+          "references": [
+            {
+              "id": "community_catalog:53z2pbfv",
+              "title": "Visiting Alien",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/53z2pbfv"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            3,
+            7155
+          ],
+          "rank": 87807,
+          "signed_score": 2.94797482638387e-05,
+          "discovery_mean_activation_delta": -0.006791114807128906,
+          "references": [
+            {
+              "id": "community_catalog:cav6weh8",
+              "title": "Pain apology (Cosmic unicorn)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/cav6weh8"
+            },
+            {
+              "id": "community_catalog:u9ca28qw",
+              "title": "Cosmic unicorn",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/u9ca28qw"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            7,
+            4595
+          ],
+          "rank": 222261,
+          "signed_score": -4.7341014578705654e-05,
+          "discovery_mean_activation_delta": -0.006742715835571289,
+          "references": [
+            {
+              "id": "community_catalog:cav6weh8",
+              "title": "Pain apology (Cosmic unicorn)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/cav6weh8"
+            }
+          ]
+        }
+      ],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [
+        {
+          "reference_id": "community_catalog:53z2pbfv",
+          "title": "Visiting Alien",
+          "kind": "community_catalog",
+          "coordinate_count": 1,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        },
+        {
+          "reference_id": "community_catalog:cav6weh8",
+          "title": "Pain apology (Cosmic unicorn)",
+          "kind": "community_catalog",
+          "coordinate_count": 2,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        },
+        {
+          "reference_id": "community_catalog:u9ca28qw",
+          "title": "Cosmic unicorn",
+          "kind": "community_catalog",
+          "coordinate_count": 1,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        }
+      ],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": []
+    },
+    "condolence": {
+      "reference_title_records": 9,
+      "reference_coordinate_count": 10,
+      "coordinate_ranks": [
+        {
+          "coordinate": [
+            7,
+            4595
+          ],
+          "rank": 6748,
+          "signed_score": 0.0006610219134017825,
+          "discovery_mean_activation_delta": -0.04326629638671875,
+          "references": [
+            {
+              "id": "community_catalog:y2r85pwz",
+              "title": "Groveling apology",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/y2r85pwz"
+            },
+            {
+              "id": "community_catalog:5qmsnd68",
+              "title": "Pain apology (Arthurian)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/5qmsnd68"
+            },
+            {
+              "id": "community_catalog:aukkrpgd",
+              "title": "Pain apology (Superhero)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/aukkrpgd"
+            },
+            {
+              "id": "community_catalog:cav6weh8",
+              "title": "Pain apology (Cosmic unicorn)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/cav6weh8"
+            },
+            {
+              "id": "community_catalog:h2qrbkns",
+              "title": "Understanding apology (circuits)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/h2qrbkns"
+            },
+            {
+              "id": "community_catalog:pgczkf7f",
+              "title": "Mistake apology",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/pgczkf7f"
+            },
+            {
+              "id": "community_catalog:sxzpqpfy",
+              "title": "Understanding apology (Naruto)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/sxzpqpfy"
+            },
+            {
+              "id": "community_catalog:td9cvyu3",
+              "title": "Indonesian apology",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/td9cvyu3"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            12,
+            4955
+          ],
+          "rank": 41936,
+          "signed_score": 9.272259194403887e-05,
+          "discovery_mean_activation_delta": -0.012729644775390625,
+          "references": [
+            {
+              "id": "community_catalog:td9cvyu3",
+              "title": "Indonesian apology",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/td9cvyu3"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            3,
+            5161
+          ],
+          "rank": 93018,
+          "signed_score": 1.0760039003798738e-05,
+          "discovery_mean_activation_delta": -0.001308441162109375,
+          "references": [
+            {
+              "id": "community_catalog:sxzpqpfy",
+              "title": "Understanding apology (Naruto)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/sxzpqpfy"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            15,
+            3920
+          ],
+          "rank": 99061,
+          "signed_score": 8.038879968808033e-06,
+          "discovery_mean_activation_delta": 0.0015001296997070312,
+          "references": [
+            {
+              "id": "git_preset:condolences",
+              "title": "condolences",
+              "kind": "git_preset",
+              "url": "https://github.com/huggingface/peft/pull/4066"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            4,
+            6559
+          ],
+          "rank": 104836,
+          "signed_score": 5.938596586929634e-06,
+          "discovery_mean_activation_delta": 0.0008296966552734375,
+          "references": [
+            {
+              "id": "community_catalog:aukkrpgd",
+              "title": "Pain apology (Superhero)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/aukkrpgd"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            4,
+            8226
+          ],
+          "rank": 128477,
+          "signed_score": 1.131051135416783e-06,
+          "discovery_mean_activation_delta": 0.00012493133544921875,
+          "references": [
+            {
+              "id": "community_catalog:pgczkf7f",
+              "title": "Mistake apology",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/pgczkf7f"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            3,
+            7155
+          ],
+          "rank": 134184,
+          "signed_score": 6.139625270407123e-07,
+          "discovery_mean_activation_delta": 0.0005917549133300781,
+          "references": [
+            {
+              "id": "community_catalog:cav6weh8",
+              "title": "Pain apology (Cosmic unicorn)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/cav6weh8"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            4,
+            7855
+          ],
+          "rank": 134524,
+          "signed_score": 5.887511065338913e-07,
+          "discovery_mean_activation_delta": 0.000804901123046875,
+          "references": [
+            {
+              "id": "community_catalog:h2qrbkns",
+              "title": "Understanding apology (circuits)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/h2qrbkns"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            10,
+            6295
+          ],
+          "rank": 171773,
+          "signed_score": -1.6982351098704385e-06,
+          "discovery_mean_activation_delta": 0.00557255744934082,
+          "references": [
+            {
+              "id": "git_preset:condolences",
+              "title": "condolences",
+              "kind": "git_preset",
+              "url": "https://github.com/huggingface/peft/pull/4066"
+            }
+          ]
+        },
+        {
+          "coordinate": [
+            5,
+            4887
+          ],
+          "rank": 174467,
+          "signed_score": -2.09885820368072e-06,
+          "discovery_mean_activation_delta": -0.0017116069793701172,
+          "references": [
+            {
+              "id": "community_catalog:5qmsnd68",
+              "title": "Pain apology (Arthurian)",
+              "kind": "community_catalog",
+              "url": "https://neuronary.org/r/5qmsnd68"
+            }
+          ]
+        }
+      ],
+      "primary_hits": {
+        "1": [],
+        "4": [],
+        "16": [],
+        "50": []
+      },
+      "random50_primary_hits": [],
+      "recipe_hits": [
+        {
+          "reference_id": "community_catalog:y2r85pwz",
+          "title": "Groveling apology",
+          "kind": "community_catalog",
+          "coordinate_count": 1,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        },
+        {
+          "reference_id": "community_catalog:5qmsnd68",
+          "title": "Pain apology (Arthurian)",
+          "kind": "community_catalog",
+          "coordinate_count": 2,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        },
+        {
+          "reference_id": "community_catalog:aukkrpgd",
+          "title": "Pain apology (Superhero)",
+          "kind": "community_catalog",
+          "coordinate_count": 2,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        },
+        {
+          "reference_id": "community_catalog:cav6weh8",
+          "title": "Pain apology (Cosmic unicorn)",
+          "kind": "community_catalog",
+          "coordinate_count": 2,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        },
+        {
+          "reference_id": "community_catalog:h2qrbkns",
+          "title": "Understanding apology (circuits)",
+          "kind": "community_catalog",
+          "coordinate_count": 2,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        },
+        {
+          "reference_id": "community_catalog:pgczkf7f",
+          "title": "Mistake apology",
+          "kind": "community_catalog",
+          "coordinate_count": 2,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        },
+        {
+          "reference_id": "community_catalog:sxzpqpfy",
+          "title": "Understanding apology (Naruto)",
+          "kind": "community_catalog",
+          "coordinate_count": 2,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        },
+        {
+          "reference_id": "community_catalog:td9cvyu3",
+          "title": "Indonesian apology",
+          "kind": "community_catalog",
+          "coordinate_count": 2,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        },
+        {
+          "reference_id": "git_preset:condolences",
+          "title": "condolences",
+          "kind": "git_preset",
+          "coordinate_count": 2,
+          "pp50_components": [],
+          "pp50_all_coordinates_recovered": false
+        }
+      ],
+      "all_catalog_pp50_overlaps": [],
+      "all_catalog_random50_overlaps": [],
+      "secondary_user_quoted_social": []
+    }
+  },
+  "reference_records": 167,
+  "distinct_reference_coordinates": 153,
+  "summary": {
+    "categories": 16,
+    "categories_with_title_matched_references": 5,
+    "categories_with_primary_top50_hit": 0,
+    "categories_with_random50_primary_hit": 0,
+    "unique_primary_top50_coordinates": 0,
+    "unique_all_catalog_top50_overlaps": 2,
+    "social_coordinates": 14,
+    "social_top50_hits": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "pid": 1290445,
+  "calls": 4402,
+  "backwards": 0,
+  "seconds": 528.2452023332007,
+  "finished": 1793256372.6241589,
+  "cuda_peak_allocated": 7323989504
+}

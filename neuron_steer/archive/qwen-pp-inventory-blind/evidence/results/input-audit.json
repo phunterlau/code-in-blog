@@ -1,0 +1,1000 @@
+{
+  "scope": "Python open events from guard installation through all model work; not an OS sandbox.",
+  "allowed_roots": [
+    "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ",
+    "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+    "/tmp/magic17-env-tf5201-WzAQHOGE/venv",
+    "/usr",
+    "/lib",
+    "/lib64",
+    "/etc",
+    "/proc",
+    "/sys",
+    "/dev"
+  ],
+  "declared_read_before_guard": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/protocol.json",
+  "accesses": [
+    {
+      "path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e/chat_template.jinja",
+      "mode": "r"
+    },
+    {
+      "path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e/config.json",
+      "mode": "r"
+    },
+    {
+      "path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e/model.safetensors.index.json",
+      "mode": "r"
+    },
+    {
+      "path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e/tokenizer.json",
+      "mode": "r"
+    },
+    {
+      "path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e/tokenizer_config.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/accelerate-1.15.0.dist-info/METADATA",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/safetensors-0.8.0.dist-info/METADATA",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch-2.11.0+cu128.dist-info/METADATA",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch/_compile.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch/cuda/random.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch/mtia/__init__.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch/random.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch/utils/serialization/__pycache__/__init__.cpython-312.pyc",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch/utils/serialization/__pycache__/config.cpython-312.pyc",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch/utils/serialization/config.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch/xpu/__init__.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/torch/xpu/random.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/lib/python3.12/site-packages/transformers-5.20.1.dist-info/METADATA",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/job.sh",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/make_protocol.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/model_runtime.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/original-prompts-only.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/protocol.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/academic/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/alien/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/building/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/caps/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/completion.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/condolence/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/corporation/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/human/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/losing_language/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nostalgic/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/nursery_rhyme/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/oracle/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/protocol.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/runtime.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/safety/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/salesperson/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/selection-seal.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/selections.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/selections.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/smoke.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/source-hashes.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/start.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/storyteller/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/victorian/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/discovery-parents.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/discovery-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/discovery.pt",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/groups.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/groups.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/interventions.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/native-generations.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/observable.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/observable.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/ranking-top100.json",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/ranking-top100.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/validation-donors.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/results/worrier/validation-parents.json.tmp",
+      "mode": "w"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/run_search.py",
+      "mode": "r"
+    },
+    {
+      "path": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ/source-hashes.json",
+      "mode": "r"
+    },
+    {
+      "path": "/usr/lib/python3.12/encodings/__pycache__/unicode_escape.cpython-312.pyc",
+      "mode": "r"
+    },
+    {
+      "path": "/usr/lib/python312.zip",
+      "mode": "r"
+    }
+  ],
+  "blocked_attempts": [],
+  "trace_cutoff_time": 1793264330.028041
+}

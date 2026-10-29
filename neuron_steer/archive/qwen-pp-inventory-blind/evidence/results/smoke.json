@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "forward_calls": 2,
+  "coordinate_rule": "first valid coordinate; identity write only"
+}

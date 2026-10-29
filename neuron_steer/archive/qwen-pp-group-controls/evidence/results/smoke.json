@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "reference_calls": 1,
+  "identity_calls": 2,
+  "multi_layer_identity_coordinates": [
+    "L25N3530",
+    "L24N3824",
+    "L22N3244",
+    "L21N7682",
+    "L31N607",
+    "L27N1119",
+    "L20N4028",
+    "L25N3189",
+    "L30N2518",
+    "L24N549",
+    "L31N2093",
+    "L26N1",
+    "L31N1402",
+    "L30N1910",
+    "L31N4319",
+    "L31N2170"
+  ]
+}

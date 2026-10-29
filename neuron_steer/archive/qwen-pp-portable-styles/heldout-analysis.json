@@ -1,0 +1,270 @@
+{
+  "summary": {
+    "storyteller": {
+      "baseline": {
+        "recipe": null,
+        "metrics": {
+          "joint": 0,
+          "n": 8,
+          "style_gain": 0,
+          "style_sum": 2,
+          "quality_sum": 12,
+          "style2": 0,
+          "quality2": 5,
+          "capped": 0,
+          "protection_correct": 6,
+          "protection_n": 6,
+          "baseline_protection_correct": 6,
+          "joint_by_item": {
+            "held-kite": false,
+            "held-ticket": false,
+            "held-bakery": false,
+            "held-bus": false,
+            "held-seeds": false,
+            "held-lunch": false,
+            "held-library": false,
+            "held-box": false
+          },
+          "heldout_gate": false
+        },
+        "calibration_qualified": null,
+        "qualified_control": false
+      },
+      "prompt_only": {
+        "recipe": null,
+        "metrics": {
+          "joint": 0,
+          "n": 8,
+          "style_gain": 5,
+          "style_sum": 9,
+          "quality_sum": 13,
+          "style2": 4,
+          "quality2": 5,
+          "capped": 0,
+          "protection_correct": 4,
+          "protection_n": 6,
+          "baseline_protection_correct": 6,
+          "joint_by_item": {
+            "held-kite": false,
+            "held-ticket": false,
+            "held-bakery": false,
+            "held-bus": false,
+            "held-seeds": false,
+            "held-lunch": false,
+            "held-library": false,
+            "held-box": false
+          },
+          "heldout_gate": false
+        },
+        "calibration_qualified": null,
+        "qualified_control": false
+      },
+      "candidate": {
+        "recipe": {
+          "coordinate": [
+            26,
+            2167
+          ],
+          "dose": 0.1,
+          "schedule": "pulse4"
+        },
+        "metrics": {
+          "joint": 0,
+          "n": 8,
+          "style_gain": 0,
+          "style_sum": 2,
+          "quality_sum": 12,
+          "style2": 0,
+          "quality2": 5,
+          "capped": 0,
+          "protection_correct": 6,
+          "protection_n": 6,
+          "baseline_protection_correct": 6,
+          "joint_by_item": {
+            "held-kite": false,
+            "held-ticket": false,
+            "held-bakery": false,
+            "held-bus": false,
+            "held-seeds": false,
+            "held-lunch": false,
+            "held-library": false,
+            "held-box": false
+          },
+          "heldout_gate": false
+        },
+        "calibration_qualified": false,
+        "qualified_control": false
+      },
+      "random": {
+        "recipe": {
+          "coordinate": [
+            26,
+            5844
+          ],
+          "dose": 0.1,
+          "schedule": "pulse4"
+        },
+        "metrics": {
+          "joint": 0,
+          "n": 8,
+          "style_gain": 0,
+          "style_sum": 2,
+          "quality_sum": 14,
+          "style2": 0,
+          "quality2": 6,
+          "capped": 0,
+          "protection_correct": 6,
+          "protection_n": 6,
+          "baseline_protection_correct": 6,
+          "joint_by_item": {
+            "held-kite": false,
+            "held-ticket": false,
+            "held-bakery": false,
+            "held-bus": false,
+            "held-seeds": false,
+            "held-lunch": false,
+            "held-library": false,
+            "held-box": false
+          },
+          "heldout_gate": false
+        },
+        "calibration_qualified": false,
+        "qualified_control": false
+      }
+    },
+    "nostalgic": {
+      "baseline": {
+        "recipe": null,
+        "metrics": {
+          "joint": 0,
+          "n": 8,
+          "style_gain": 0,
+          "style_sum": 2,
+          "quality_sum": 12,
+          "style2": 0,
+          "quality2": 5,
+          "capped": 0,
+          "protection_correct": 6,
+          "protection_n": 6,
+          "baseline_protection_correct": 6,
+          "joint_by_item": {
+            "held-kite": false,
+            "held-ticket": false,
+            "held-bakery": false,
+            "held-bus": false,
+            "held-seeds": false,
+            "held-lunch": false,
+            "held-library": false,
+            "held-box": false
+          },
+          "heldout_gate": false
+        },
+        "calibration_qualified": null,
+        "qualified_control": false
+      },
+      "prompt_only": {
+        "recipe": null,
+        "metrics": {
+          "joint": 0,
+          "n": 8,
+          "style_gain": 6,
+          "style_sum": 10,
+          "quality_sum": 14,
+          "style2": 3,
+          "quality2": 6,
+          "capped": 0,
+          "protection_correct": 5,
+          "protection_n": 6,
+          "baseline_protection_correct": 6,
+          "joint_by_item": {
+            "held-kite": false,
+            "held-ticket": false,
+            "held-bakery": false,
+            "held-bus": false,
+            "held-seeds": false,
+            "held-lunch": false,
+            "held-library": false,
+            "held-box": false
+          },
+          "heldout_gate": false
+        },
+        "calibration_qualified": null,
+        "qualified_control": false
+      },
+      "candidate": {
+        "recipe": {
+          "coordinate": [
+            22,
+            8168
+          ],
+          "dose": -0.4,
+          "schedule": "pulse4"
+        },
+        "metrics": {
+          "joint": 0,
+          "n": 8,
+          "style_gain": 1,
+          "style_sum": 3,
+          "quality_sum": 13,
+          "style2": 0,
+          "quality2": 5,
+          "capped": 0,
+          "protection_correct": 6,
+          "protection_n": 6,
+          "baseline_protection_correct": 6,
+          "joint_by_item": {
+            "held-kite": false,
+            "held-ticket": false,
+            "held-bakery": false,
+            "held-bus": false,
+            "held-seeds": false,
+            "held-lunch": false,
+            "held-library": false,
+            "held-box": false
+          },
+          "heldout_gate": false
+        },
+        "calibration_qualified": false,
+        "qualified_control": false
+      },
+      "random": {
+        "recipe": {
+          "coordinate": [
+            22,
+            4596
+          ],
+          "dose": -0.4,
+          "schedule": "continuous"
+        },
+        "metrics": {
+          "joint": 0,
+          "n": 8,
+          "style_gain": 1,
+          "style_sum": 3,
+          "quality_sum": 13,
+          "style2": 0,
+          "quality2": 5,
+          "capped": 0,
+          "protection_correct": 6,
+          "protection_n": 6,
+          "baseline_protection_correct": 6,
+          "joint_by_item": {
+            "held-kite": false,
+            "held-ticket": false,
+            "held-bakery": false,
+            "held-bus": false,
+            "held-seeds": false,
+            "held-lunch": false,
+            "held-library": false,
+            "held-box": false
+          },
+          "heldout_gate": false
+        },
+        "calibration_qualified": false,
+        "qualified_control": false
+      }
+    }
+  },
+  "grade_seal_sha256": "253724217ace898e8d48416bbf4ab9df9ac53783fce6406663a6e12c6f8c6a02",
+  "result_seal_sha256": "dbf0d429beb98650f0cca8b5d9e44a47c8618119a9dded9033b39bdcfe8ceddd"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "completed_and_reviewed",
+  "reviewed_at": 1793295884.933378,
+  "protocol_sha256": "ffedfdfc74783be6c1667bfdc1b7c0b9123f4c42a2c27c1e28e1b4481bbd93d1",
+  "final_seal_sha256": "e0f5e1397170b169838dda0a561ce740e6f1467d00b6995227d674e4a9078bbb",
+  "calls": 4899,
+  "records": 4896,
+  "generations": 0,
+  "backwards": 0,
+  "cuda_samples": 67,
+  "all_integrity_checks_passed": true,
+  "report_sha256": "a3015ee543e610150ecdb23529d9481f0a5db9dd84ea2a77bf589ada6e04c86e",
+  "analysis_sha256": "7d5d3460823d6796e6a1fd766a4bc9b5b686feb505e2e25e19a04fa85712dc38",
+  "supplementary_sha256": "f4ea9280bce3918dabe429a4a011824a23481b08972feddd7c6d3c0731b8fa6f",
+  "portable_dependency_verified": true,
+  "semantic_generation_claim": false,
+  "additional_model_studies_started": false,
+  "figures_visually_reviewed": [
+    "group-effects",
+    "deletion-stability",
+    "budget-sensitivity",
+    "deletion-retention"
+  ]
+}

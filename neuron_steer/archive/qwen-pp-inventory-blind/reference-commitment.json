@@ -1,0 +1,17 @@
+{
+  "method": "Hash-only commitment before search; content inspection deferred until search seal.",
+  "references": [
+    {
+      "path": "outputs/qwen-neuron-inventory-review/neuronary-inventory.json",
+      "sha256": "453976780818c8d319631b82bbf8620a07e61a1dfc7fbf35854c100ef7dc0e80"
+    },
+    {
+      "path": "outputs/qwen-neuron-inventory-review/peft-preset-index.json",
+      "sha256": "7e5ca89d1e59a8f73bfb360ffac3a36ba4c51c856b5ccf2556d0e1e9fd1829d2"
+    },
+    {
+      "path": "outputs/qwen-github-value-review/source-index.json",
+      "sha256": "239b736387774927e61a9c1b13a3ef5fbde6925aa7dcf2ac4fe3e0d4a6888452"
+    }
+  ]
+}

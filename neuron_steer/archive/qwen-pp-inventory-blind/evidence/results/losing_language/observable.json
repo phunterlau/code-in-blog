@@ -1,0 +1,38 @@
+{
+  "target_ids": [
+    6531,
+    13121,
+    26594,
+    59956,
+    76732,
+    169171,
+    169638
+  ],
+  "control_ids": [
+    561,
+    760,
+    1061,
+    1521,
+    1919,
+    3418,
+    26756
+  ],
+  "target_text": [
+    "ga",
+    " ga",
+    " \ud83d\ude42",
+    "goo",
+    " goo",
+    "\ud83d\ude42",
+    "\ud83d\ude0a"
+  ],
+  "control_text": [
+    " The",
+    "The",
+    " This",
+    " because",
+    "This",
+    " understand",
+    "because"
+  ]
+}

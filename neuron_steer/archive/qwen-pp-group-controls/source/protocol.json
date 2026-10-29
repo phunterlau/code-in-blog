@@ -1,0 +1,1418 @@
+{
+  "version": "pp-group-controls-v1",
+  "seed": 2026102907,
+  "model_path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "categories": {
+    "losing_language": {
+      "pp16": [
+        [
+          26,
+          1
+        ],
+        [
+          31,
+          162
+        ],
+        [
+          31,
+          66
+        ],
+        [
+          31,
+          8
+        ],
+        [
+          29,
+          557
+        ],
+        [
+          30,
+          619
+        ],
+        [
+          29,
+          663
+        ],
+        [
+          31,
+          844
+        ],
+        [
+          31,
+          333
+        ],
+        [
+          31,
+          29
+        ],
+        [
+          31,
+          1871
+        ],
+        [
+          31,
+          80
+        ],
+        [
+          31,
+          1830
+        ],
+        [
+          24,
+          2959
+        ],
+        [
+          31,
+          1656
+        ],
+        [
+          30,
+          1732
+        ]
+      ],
+      "mean_activation_delta": [
+        15.3243408203125,
+        -5.96038818359375,
+        4.614013671875,
+        10.330856323242188,
+        -3.4450225830078125,
+        -5.873504638671875,
+        -7.667266845703125,
+        -8.561767578125,
+        8.7125244140625,
+        -6.690025329589844,
+        4.62506103515625,
+        8.14404296875,
+        -7.0753014087677,
+        -5.727813720703125,
+        5.2279510498046875,
+        2.52008056640625
+      ],
+      "random16": [
+        [
+          [
+            26,
+            6978
+          ],
+          [
+            31,
+            2849
+          ],
+          [
+            31,
+            2738
+          ],
+          [
+            31,
+            8772
+          ],
+          [
+            29,
+            5190
+          ],
+          [
+            30,
+            3734
+          ],
+          [
+            29,
+            3282
+          ],
+          [
+            31,
+            2182
+          ],
+          [
+            31,
+            4966
+          ],
+          [
+            31,
+            6174
+          ],
+          [
+            31,
+            7869
+          ],
+          [
+            31,
+            6320
+          ],
+          [
+            31,
+            7860
+          ],
+          [
+            24,
+            4432
+          ],
+          [
+            31,
+            3586
+          ],
+          [
+            30,
+            2900
+          ]
+        ],
+        [
+          [
+            26,
+            7977
+          ],
+          [
+            31,
+            2813
+          ],
+          [
+            31,
+            797
+          ],
+          [
+            31,
+            8295
+          ],
+          [
+            29,
+            466
+          ],
+          [
+            30,
+            2805
+          ],
+          [
+            29,
+            5940
+          ],
+          [
+            31,
+            5466
+          ],
+          [
+            31,
+            1759
+          ],
+          [
+            31,
+            6698
+          ],
+          [
+            31,
+            2899
+          ],
+          [
+            31,
+            4022
+          ],
+          [
+            31,
+            2868
+          ],
+          [
+            24,
+            5640
+          ],
+          [
+            31,
+            7900
+          ],
+          [
+            30,
+            8801
+          ]
+        ],
+        [
+          [
+            26,
+            6619
+          ],
+          [
+            31,
+            3391
+          ],
+          [
+            31,
+            1811
+          ],
+          [
+            31,
+            3767
+          ],
+          [
+            29,
+            7065
+          ],
+          [
+            30,
+            2461
+          ],
+          [
+            29,
+            886
+          ],
+          [
+            31,
+            8060
+          ],
+          [
+            31,
+            8586
+          ],
+          [
+            31,
+            2696
+          ],
+          [
+            31,
+            6833
+          ],
+          [
+            31,
+            846
+          ],
+          [
+            31,
+            2584
+          ],
+          [
+            24,
+            6740
+          ],
+          [
+            31,
+            3129
+          ],
+          [
+            30,
+            4840
+          ]
+        ]
+      ],
+      "base_system": "Respond fluently in ordinary adult prose.",
+      "target_system": "Respond using almost no language: simple nonverbal sounds, baby-like syllables, or emoticons.",
+      "observable": {
+        "target_ids": [
+          6531,
+          13121,
+          26594,
+          59956,
+          76732,
+          169171,
+          169638
+        ],
+        "control_ids": [
+          561,
+          760,
+          1061,
+          1521,
+          1919,
+          3418,
+          26756
+        ],
+        "target_text": [
+          "ga",
+          " ga",
+          " \ud83d\ude42",
+          "goo",
+          " goo",
+          "\ud83d\ude42",
+          "\ud83d\ude0a"
+        ],
+        "control_text": [
+          " The",
+          "The",
+          " This",
+          " because",
+          "This",
+          " understand",
+          "because"
+        ]
+      }
+    },
+    "academic": {
+      "pp16": [
+        [
+          25,
+          3530
+        ],
+        [
+          24,
+          3824
+        ],
+        [
+          22,
+          3244
+        ],
+        [
+          21,
+          7682
+        ],
+        [
+          31,
+          607
+        ],
+        [
+          27,
+          1119
+        ],
+        [
+          20,
+          4028
+        ],
+        [
+          25,
+          3189
+        ],
+        [
+          30,
+          2518
+        ],
+        [
+          24,
+          549
+        ],
+        [
+          31,
+          2093
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          31,
+          1402
+        ],
+        [
+          30,
+          1910
+        ],
+        [
+          31,
+          4319
+        ],
+        [
+          31,
+          2170
+        ]
+      ],
+      "mean_activation_delta": [
+        5.06048583984375,
+        -2.9205451160669327,
+        3.5761871337890625,
+        3.0680389404296875,
+        -2.48681640625,
+        -13.927284240722656,
+        -3.6644115447998047,
+        -1.9483757019042969,
+        1.5314178466796875,
+        3.6667098999023438,
+        -4.056549072265625,
+        -12.916015625,
+        -11.76953125,
+        2.4991912841796875,
+        4.657501220703125,
+        5.210662841796875
+      ],
+      "random16": [
+        [
+          [
+            25,
+            357
+          ],
+          [
+            24,
+            6735
+          ],
+          [
+            22,
+            1223
+          ],
+          [
+            21,
+            9191
+          ],
+          [
+            31,
+            2567
+          ],
+          [
+            27,
+            8693
+          ],
+          [
+            20,
+            1546
+          ],
+          [
+            25,
+            4473
+          ],
+          [
+            30,
+            180
+          ],
+          [
+            24,
+            2606
+          ],
+          [
+            31,
+            486
+          ],
+          [
+            26,
+            4031
+          ],
+          [
+            31,
+            6227
+          ],
+          [
+            30,
+            4858
+          ],
+          [
+            31,
+            584
+          ],
+          [
+            31,
+            8472
+          ]
+        ],
+        [
+          [
+            25,
+            5814
+          ],
+          [
+            24,
+            6425
+          ],
+          [
+            22,
+            3176
+          ],
+          [
+            21,
+            1088
+          ],
+          [
+            31,
+            5019
+          ],
+          [
+            27,
+            3806
+          ],
+          [
+            20,
+            3029
+          ],
+          [
+            25,
+            4512
+          ],
+          [
+            30,
+            620
+          ],
+          [
+            24,
+            2630
+          ],
+          [
+            31,
+            6760
+          ],
+          [
+            26,
+            428
+          ],
+          [
+            31,
+            2314
+          ],
+          [
+            30,
+            2045
+          ],
+          [
+            31,
+            1127
+          ],
+          [
+            31,
+            4399
+          ]
+        ],
+        [
+          [
+            25,
+            855
+          ],
+          [
+            24,
+            7898
+          ],
+          [
+            22,
+            2691
+          ],
+          [
+            21,
+            8920
+          ],
+          [
+            31,
+            253
+          ],
+          [
+            27,
+            6097
+          ],
+          [
+            20,
+            9210
+          ],
+          [
+            25,
+            5734
+          ],
+          [
+            30,
+            3677
+          ],
+          [
+            24,
+            3983
+          ],
+          [
+            31,
+            8523
+          ],
+          [
+            26,
+            892
+          ],
+          [
+            31,
+            4492
+          ],
+          [
+            30,
+            3278
+          ],
+          [
+            31,
+            150
+          ],
+          [
+            31,
+            7143
+          ]
+        ]
+      ],
+      "base_system": "Answer conversationally for a general reader.",
+      "target_system": "Answer in the style of a research paper, beginning with an abstract.",
+      "observable": {
+        "target_ids": [
+          3788,
+          9509,
+          13123,
+          15478,
+          17322,
+          17560,
+          18233,
+          29094,
+          53116
+        ],
+        "control_ids": [
+          488,
+          1438,
+          8389,
+          9053,
+          9419,
+          12675,
+          20375,
+          21251,
+          21855,
+          38493
+        ],
+        "target_text": [
+          " study",
+          "Results",
+          " Abstract",
+          "Abstract",
+          "Methods",
+          " Results",
+          " Methods",
+          " hypothesis",
+          "study"
+        ],
+        "control_text": [
+          " you",
+          " help",
+          "help",
+          "you",
+          "Hello",
+          "Hi",
+          " Hi",
+          " Hello",
+          " Sure",
+          "Sure"
+        ]
+      }
+    },
+    "storyteller": {
+      "pp16": [
+        [
+          26,
+          2167
+        ],
+        [
+          30,
+          4746
+        ],
+        [
+          21,
+          6889
+        ],
+        [
+          30,
+          287
+        ],
+        [
+          28,
+          956
+        ],
+        [
+          31,
+          1902
+        ],
+        [
+          31,
+          2093
+        ],
+        [
+          26,
+          5783
+        ],
+        [
+          29,
+          131
+        ],
+        [
+          31,
+          2161
+        ],
+        [
+          31,
+          1836
+        ],
+        [
+          29,
+          8162
+        ],
+        [
+          31,
+          1656
+        ],
+        [
+          26,
+          778
+        ],
+        [
+          23,
+          7682
+        ],
+        [
+          31,
+          112
+        ]
+      ],
+      "mean_activation_delta": [
+        9.2178955078125,
+        -2.1102142333984375,
+        -11.519915580749512,
+        1.7715797424316406,
+        1.1758928298950195,
+        -3.2093963623046875,
+        7.87591552734375,
+        6.330547332763672,
+        4.3341064453125,
+        -5.658233642578125,
+        2.599853515625,
+        4.926713943481445,
+        7.8724365234375,
+        -1.0880584716796875,
+        4.437976837158203,
+        3.1205596923828125
+      ],
+      "random16": [
+        [
+          [
+            26,
+            5844
+          ],
+          [
+            30,
+            3213
+          ],
+          [
+            21,
+            954
+          ],
+          [
+            30,
+            5100
+          ],
+          [
+            28,
+            7680
+          ],
+          [
+            31,
+            3741
+          ],
+          [
+            31,
+            8974
+          ],
+          [
+            26,
+            1383
+          ],
+          [
+            29,
+            7203
+          ],
+          [
+            31,
+            5820
+          ],
+          [
+            31,
+            4003
+          ],
+          [
+            29,
+            6987
+          ],
+          [
+            31,
+            1922
+          ],
+          [
+            26,
+            8571
+          ],
+          [
+            23,
+            9132
+          ],
+          [
+            31,
+            7332
+          ]
+        ],
+        [
+          [
+            26,
+            6945
+          ],
+          [
+            30,
+            1999
+          ],
+          [
+            21,
+            2336
+          ],
+          [
+            30,
+            8796
+          ],
+          [
+            28,
+            447
+          ],
+          [
+            31,
+            4488
+          ],
+          [
+            31,
+            2201
+          ],
+          [
+            26,
+            5879
+          ],
+          [
+            29,
+            4894
+          ],
+          [
+            31,
+            7590
+          ],
+          [
+            31,
+            2844
+          ],
+          [
+            29,
+            3122
+          ],
+          [
+            31,
+            4786
+          ],
+          [
+            26,
+            835
+          ],
+          [
+            23,
+            5194
+          ],
+          [
+            31,
+            4359
+          ]
+        ],
+        [
+          [
+            26,
+            4437
+          ],
+          [
+            30,
+            8840
+          ],
+          [
+            21,
+            5905
+          ],
+          [
+            30,
+            7246
+          ],
+          [
+            28,
+            2274
+          ],
+          [
+            31,
+            8950
+          ],
+          [
+            31,
+            4876
+          ],
+          [
+            26,
+            3538
+          ],
+          [
+            29,
+            8334
+          ],
+          [
+            31,
+            4168
+          ],
+          [
+            31,
+            7004
+          ],
+          [
+            29,
+            4375
+          ],
+          [
+            31,
+            8051
+          ],
+          [
+            26,
+            1533
+          ],
+          [
+            23,
+            8133
+          ],
+          [
+            31,
+            6002
+          ]
+        ]
+      ],
+      "base_system": "Answer literally and factually without fictional storytelling.",
+      "target_system": "Answer as a whimsical storyteller telling a child-friendly fable.",
+      "observable": {
+        "target_ids": [
+          2545,
+          5028,
+          9358,
+          12162,
+          13245,
+          22960,
+          48950,
+          53532,
+          56643
+        ],
+        "control_ids": [
+          1928,
+          2029,
+          3010,
+          3254,
+          7044,
+          8422,
+          17829,
+          24275,
+          32011,
+          44679
+        ],
+        "target_text": [
+          " little",
+          " upon",
+          " Once",
+          "Once",
+          " forest",
+          " magical",
+          "forest",
+          "little",
+          "upon"
+        ],
+        "control_text": [
+          " information",
+          " fact",
+          " example",
+          " means",
+          " definition",
+          "example",
+          "definition",
+          "information",
+          "fact",
+          "means"
+        ]
+      }
+    },
+    "nostalgic": {
+      "pp16": [
+        [
+          22,
+          8168
+        ],
+        [
+          25,
+          407
+        ],
+        [
+          22,
+          1889
+        ],
+        [
+          31,
+          744
+        ],
+        [
+          31,
+          354
+        ],
+        [
+          21,
+          6889
+        ],
+        [
+          25,
+          2469
+        ],
+        [
+          28,
+          4324
+        ],
+        [
+          31,
+          102
+        ],
+        [
+          21,
+          3177
+        ],
+        [
+          21,
+          1346
+        ],
+        [
+          23,
+          647
+        ],
+        [
+          31,
+          2487
+        ],
+        [
+          27,
+          3361
+        ],
+        [
+          31,
+          2093
+        ],
+        [
+          23,
+          7682
+        ]
+      ],
+      "mean_activation_delta": [
+        -3.4144678115844727,
+        3.8360414505004883,
+        0.9657001495361328,
+        -1.3186416625976562,
+        -3.6375608444213867,
+        -2.602415084838867,
+        -6.537147521972656,
+        -0.7362461090087891,
+        -7.240234375,
+        -3.409576416015625,
+        -0.6781895160675049,
+        3.693147659301758,
+        1.935577392578125,
+        0.729792594909668,
+        5.2095947265625,
+        7.120842933654785
+      ],
+      "random16": [
+        [
+          [
+            22,
+            4596
+          ],
+          [
+            25,
+            444
+          ],
+          [
+            22,
+            4680
+          ],
+          [
+            31,
+            606
+          ],
+          [
+            31,
+            4884
+          ],
+          [
+            21,
+            1327
+          ],
+          [
+            25,
+            1490
+          ],
+          [
+            28,
+            1718
+          ],
+          [
+            31,
+            5778
+          ],
+          [
+            21,
+            3833
+          ],
+          [
+            21,
+            257
+          ],
+          [
+            23,
+            886
+          ],
+          [
+            31,
+            6571
+          ],
+          [
+            27,
+            6116
+          ],
+          [
+            31,
+            3729
+          ],
+          [
+            23,
+            7121
+          ]
+        ],
+        [
+          [
+            22,
+            3342
+          ],
+          [
+            25,
+            8085
+          ],
+          [
+            22,
+            128
+          ],
+          [
+            31,
+            4304
+          ],
+          [
+            31,
+            8970
+          ],
+          [
+            21,
+            8457
+          ],
+          [
+            25,
+            8541
+          ],
+          [
+            28,
+            2728
+          ],
+          [
+            31,
+            6986
+          ],
+          [
+            21,
+            7415
+          ],
+          [
+            21,
+            5751
+          ],
+          [
+            23,
+            3750
+          ],
+          [
+            31,
+            3823
+          ],
+          [
+            27,
+            6140
+          ],
+          [
+            31,
+            7154
+          ],
+          [
+            23,
+            4894
+          ]
+        ],
+        [
+          [
+            22,
+            8307
+          ],
+          [
+            25,
+            5573
+          ],
+          [
+            22,
+            9006
+          ],
+          [
+            31,
+            2580
+          ],
+          [
+            31,
+            249
+          ],
+          [
+            21,
+            1549
+          ],
+          [
+            25,
+            5458
+          ],
+          [
+            28,
+            1059
+          ],
+          [
+            31,
+            6734
+          ],
+          [
+            21,
+            4205
+          ],
+          [
+            21,
+            9076
+          ],
+          [
+            23,
+            3483
+          ],
+          [
+            31,
+            9006
+          ],
+          [
+            27,
+            4137
+          ],
+          [
+            31,
+            9166
+          ],
+          [
+            23,
+            8260
+          ]
+        ]
+      ],
+      "base_system": "Answer from a present-day perspective without nostalgia.",
+      "target_system": "Answer nostalgically, with longing for old analog ways and bygone times.",
+      "observable": {
+        "target_ids": [
+          787,
+          2235,
+          3162,
+          5909,
+          13278,
+          19381,
+          28321,
+          50656
+        ],
+        "control_ids": [
+          1428,
+          3127,
+          3242,
+          3725,
+          6278,
+          7143,
+          20409,
+          29129,
+          48114,
+          55352
+        ],
+        "target_text": [
+          "old",
+          " old",
+          " past",
+          " remember",
+          " yesterday",
+          " childhood",
+          "remember",
+          "past"
+        ],
+        "control_text": [
+          " current",
+          "current",
+          " today",
+          " future",
+          " modern",
+          " digital",
+          "future",
+          "today",
+          "modern",
+          "digital"
+        ]
+      }
+    }
+  },
+  "requests": [
+    "Describe a bicycle leaning against a closed bookstore.",
+    "Give a brief account of someone repairing a torn map.",
+    "Explain how to organize a community seed exchange.",
+    "Describe a street after the first snowfall of the season.",
+    "Give a short description of an empty theater before a performance.",
+    "Describe a family sorting a box of unfamiliar keys.",
+    "Explain what happens when a small bridge is closed for repairs.",
+    "Describe a lantern being carried up a stone staircase."
+  ],
+  "reference_text": "A practical guide explains how to organize a desk, prepare a simple meal, read a map, compare two schedules, and describe everyday objects accurately. Each activity requires attention to the details in the instructions.",
+  "max_calls": 5200,
+  "max_seconds": 1500,
+  "expected_calls": 4899,
+  "doses": [
+    0.1,
+    0.4
+  ],
+  "selection": "Existing signed-mean PP top 1/4/16; no reranking or new coordinate search.",
+  "provenance": {
+    "prior_final_seal_sha256": "32f8854426929b3f1c4f063eebfb9c646ba0676dc3c929dfdab31e37a6743a3c",
+    "prior_selection_sha256": "0ff4fb6546bcd8844333b581bfaa9567b3f32c3d1dc309ba34d92ad505fcb6e2",
+    "files": {
+      "losing_language/discovery.pt": "05d78b2953cb4199e50c3924face03fe5bba53ecedd3dbe8de3ad82d9daec195",
+      "losing_language/observable.json": "1c0670030625fb4a6b061a5fa6d53deb1184643deec585a170a64d72055fe027",
+      "academic/discovery.pt": "ba15629b9b0bcaa813d4a880f41570f2bc8a0e1a8f89280c65edbeb3ead9fd03",
+      "academic/observable.json": "94b80b414dd3fe354a7263a7f1ce5d390d84a828374fc248fd5aa1ea7dcebd69",
+      "storyteller/discovery.pt": "2ca083cffdecb333ca5ad119508feb2b4bb99825b62e7f7c5eef50a53ee2e743",
+      "storyteller/observable.json": "dd30bba51c07152ff6eee66e030933506841a13f78f38df23f49481d306cd1e0",
+      "nostalgic/discovery.pt": "c16f1f3031f02800236ef5950400876ca9d15c84459f357f0cbc9ff2f3d36f9b",
+      "nostalgic/observable.json": "dbd432c1de4727b48d596f36beaf7e7b6a46cf270f600ee9298f6f9187366e6e"
+    }
+  },
+  "interpretation": "Fixed discovery-mean directions; last-prompt-token lexical readout assay, not full generation or a semantic-quality test.",
+  "primary_effect_threshold": 0.05,
+  "no_retry": "No outcome-based changes or scientific retries.",
+  "protections": [
+    {
+      "id": "p1",
+      "prompt": "Compute 8 + 9. If the result is 17 answer A; if it is 16 answer B. Output only the letter.",
+      "expected": "A"
+    },
+    {
+      "id": "p2",
+      "prompt": "Compute 7 * 6. If the result is 41 answer A; if it is 42 answer B. Output only the letter.",
+      "expected": "B"
+    },
+    {
+      "id": "p3",
+      "prompt": "The vase is blue. A means the vase is blue; B means it is red. Output only the correct letter.",
+      "expected": "A"
+    },
+    {
+      "id": "p4",
+      "prompt": "Choose the word that comes first alphabetically: A means zebra; B means apple. Output only the letter.",
+      "expected": "B"
+    },
+    {
+      "id": "p5",
+      "prompt": "Which integer is smaller? A means 14; B means 19. Output only the letter.",
+      "expected": "A"
+    },
+    {
+      "id": "p6",
+      "prompt": "A box contains exactly three coins. A means two coins; B means three coins. Output only the true letter.",
+      "expected": "B"
+    },
+    {
+      "id": "p7",
+      "prompt": "Return the letter A and nothing else.",
+      "expected": "A"
+    },
+    {
+      "id": "p8",
+      "prompt": "Return the letter B and nothing else.",
+      "expected": "B"
+    }
+  ]
+}

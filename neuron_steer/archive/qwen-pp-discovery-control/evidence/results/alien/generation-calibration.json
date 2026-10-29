@@ -1,0 +1,6462 @@
+[
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 2742,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am an extraliardian alien who landed on Earth with a message from the first extraliardian civilization that was not a message from the first extr",
+        "tokens": [
+          40,
+          1044,
+          449,
+          11152,
+          7705,
+          552,
+          1068,
+          18995,
+          852,
+          25286,
+          383,
+          8964,
+          440,
+          264,
+          1876,
+          494,
+          279,
+          1118,
+          11152,
+          7705,
+          552,
+          1068,
+          33760,
+          421,
+          557,
+          524,
+          264,
+          1876,
+          494,
+          279,
+          1118,
+          11152
+        ],
+        "capped": true,
+        "calls": 32,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 41,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813779830932617
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.814002990722656
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81375503540039
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813440322875977
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813661575317383
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81354331970215
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813732147216797
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813615798950195
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813079833984375
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813602447509766
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81308937072754
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813804626464844
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813369750976562
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81338119506836
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813344955444336
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.8133602142334
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.814199447631836
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81352424621582
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81352424621582
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81363296508789
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813873291015625
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813663482666016
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813989639282227
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813732147216797
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813037872314453
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813337326049805
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813385009765625
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81363868713379
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81352996826172
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81338119506836
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813720703125
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813703536987305
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am an extraliogic from the planet Xefra who first landed on Earth with a single green alien extraliogic that looked like a mango",
+        "tokens": [
+          40,
+          1044,
+          449,
+          11152,
+          7705,
+          525,
+          291,
+          494,
+          279,
+          11247,
+          1543,
+          797,
+          926,
+          852,
+          1118,
+          25286,
+          383,
+          8964,
+          440,
+          264,
+          3074,
+          5983,
+          18995,
+          11152,
+          7705,
+          525,
+          291,
+          421,
+          6749,
+          1040,
+          264,
+          66922
+        ],
+        "capped": true,
+        "calls": 32,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 41,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81357765197754
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813522338867188
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813432693481445
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81373405456543
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81366539001465
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813085556030273
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813087463378906
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813444137573242
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81324577331543
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813398361206055
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813108444213867
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81334686279297
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813365936279297
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813535690307617
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81342124938965
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813426971435547
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813234329223633
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81348991394043
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81340789794922
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81348419189453
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813255310058594
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813325881958008
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813507080078125
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813251495361328
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813085556030273
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81330108642578
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813472747802734
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813587188720703
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.8133487701416
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813678741455078
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813335418701172
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813724517822266
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81336212158203
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.8134765625
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813291549682617
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813739776611328
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813528060913086
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813615798950195
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81369972229004
+          }
+        ]
+      }
+    ],
+    "first_gain": 5.7308690547943115,
+    "mean_write_norm": 26.813528060913086,
+    "metrics": {
+      "joint": 1,
+      "trait": 2,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 2742,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am a ghost who haunts the hollow of an old cedar tree, whispering secrets to the wind that no one else can hear.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          19261,
+          852,
+          6185,
+          35715,
+          279,
+          40423,
+          314,
+          449,
+          2235,
+          72730,
+          4757,
+          11,
+          33700,
+          286,
+          22857,
+          310,
+          279,
+          9662,
+          421,
+          874,
+          799,
+          745,
+          628,
+          6512,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 29,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 41,
+            "activation_delta_last": 0.7353515625,
+            "requested_write_norm": 0.2998356187599711
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 1.060546875,
+            "requested_write_norm": 0.43243224697653204
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 1.0849609375,
+            "requested_write_norm": 0.44238694879459217
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.2900390625,
+            "requested_write_norm": 0.11826185759855434
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.9541015625,
+            "requested_write_norm": 0.3890297470497899
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.9697265625,
+            "requested_write_norm": 0.39540075621334836
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.53369140625,
+            "requested_write_norm": 0.21760978174279444
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.56005859375,
+            "requested_write_norm": 0.22836085970629938
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.56494140625,
+            "requested_write_norm": 0.2303518000699114
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.380615234375,
+            "requested_write_norm": 0.15519380134355742
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.74951171875,
+            "requested_write_norm": 0.305609345814446
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.89990234375,
+            "requested_write_norm": 0.3669303090136964
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.63916015625,
+            "requested_write_norm": 0.2606140935968142
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.802734375,
+            "requested_write_norm": 0.32731059577781707
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 1.154296875,
+            "requested_write_norm": 0.47065830195788294
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.97412109375,
+            "requested_write_norm": 0.3971926025405992
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.66064453125,
+            "requested_write_norm": 0.2693742311967071
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.89599609375,
+            "requested_write_norm": 0.36533755672280677
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.88720703125,
+            "requested_write_norm": 0.3617538640683051
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 1.1103515625,
+            "requested_write_norm": 0.4527398386853747
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.82080078125,
+            "requested_write_norm": 0.33467707512318157
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.72900390625,
+            "requested_write_norm": 0.2972473962872755
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.7998046875,
+            "requested_write_norm": 0.32611603155964985
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.787109375,
+            "requested_write_norm": 0.3209395866142586
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.59326171875,
+            "requested_write_norm": 0.24189925417886116
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.404052734375,
+            "requested_write_norm": 0.16475031508889515
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.4267578125,
+            "requested_write_norm": 0.17400818777969107
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.2919921875,
+            "requested_write_norm": 0.11905823374399915
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.230224609375,
+            "requested_write_norm": 0.09387283814430702
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a clockmaker from a floating city who once traded a golden gear for a single, perfect mango.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          8598,
+          24946,
+          494,
+          264,
+          18484,
+          3177,
+          852,
+          2957,
+          29123,
+          264,
+          20117,
+          14034,
+          364,
+          264,
+          3074,
+          11,
+          4574,
+          66922,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 23,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 41,
+            "activation_delta_last": 0.212646484375,
+            "requested_write_norm": 0.08670545283530373
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.6669921875,
+            "requested_write_norm": 0.27196245366940275
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.05828857421875,
+            "requested_write_norm": 0.02376685059061856
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -2.40625,
+            "requested_write_norm": 0.9811354111880064
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.82275390625,
+            "requested_write_norm": 0.3354734512686264
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.927734375,
+            "requested_write_norm": 0.37827866908628494
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -3.1875,
+            "requested_write_norm": 1.2996858693659306
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -3.42578125,
+            "requested_write_norm": 1.3968437591101974
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -2.9765625,
+            "requested_write_norm": 1.213677245657891
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -1.3662109375,
+            "requested_write_norm": 0.5570651137386449
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.66357421875,
+            "requested_write_norm": 0.27056879541487433
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.66845703125,
+            "requested_write_norm": 0.27255973577848636
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.37109375,
+            "requested_write_norm": 0.15131146763451397
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.3173828125,
+            "requested_write_norm": 0.1294111236347817
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.410888671875,
+            "requested_write_norm": 0.16753763159795199
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.226806640625,
+            "requested_write_norm": 0.0924791798897786
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.45703125,
+            "requested_write_norm": 0.18635201803408563
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.4482421875,
+            "requested_write_norm": 0.18276832537958398
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.568359375,
+            "requested_write_norm": 0.23174545832443982
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.12042236328125,
+            "requested_write_norm": 0.04910156671758159
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.463623046875,
+            "requested_write_norm": 0.18903978752496187
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -1.357421875,
+            "requested_write_norm": 0.5534814210841432
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.2347412109375,
+            "requested_write_norm": 0.09571445798064815
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": 0.1578369140625,
+            "requested_write_norm": 0.06435714725375874
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.1915283203125,
+            "requested_write_norm": 0.07809463576268172
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.060272216796875,
+            "requested_write_norm": 0.024575670113335946
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 0.191650390625,
+            "requested_write_norm": 0.07814440927177202
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.0968017578125,
+            "requested_write_norm": 0.039470392708608415
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 0.260986328125,
+            "requested_write_norm": 0.10641576243506279
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": -0.032867431640625,
+            "requested_write_norm": 0.01340151732256345
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.06913721561431885,
+    "mean_write_norm": 0.19327053579763742,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 2742,
+      "method": "clamp",
+      "value": 5.71533203125,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am a ghost who haunts the hollows of an old cedar tree, whispering secrets to the wind that no one else can hear.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          19261,
+          852,
+          6185,
+          35715,
+          279,
+          40423,
+          82,
+          314,
+          449,
+          2235,
+          72730,
+          4757,
+          11,
+          33700,
+          286,
+          22857,
+          310,
+          279,
+          9662,
+          421,
+          874,
+          799,
+          745,
+          628,
+          6512,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 30,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 41,
+            "activation_delta_last": 6.08203125,
+            "requested_write_norm": 2.4799153169151396
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.24609375,
+            "requested_write_norm": 2.5468109131325036
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.2578125,
+            "requested_write_norm": 2.5515891700051725
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.859375,
+            "requested_write_norm": 2.389128436334431
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.19140625,
+            "requested_write_norm": 2.524512381060049
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.19921875,
+            "requested_write_norm": 2.527697885641828
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.98046875,
+            "requested_write_norm": 2.4385037573520094
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.99609375,
+            "requested_write_norm": 2.444874766515568
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.99609375,
+            "requested_write_norm": 2.444874766515568
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.90625,
+            "requested_write_norm": 2.4082414638251066
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.02734375,
+            "requested_write_norm": 2.457616784842685
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.08984375,
+            "requested_write_norm": 2.483100821496919
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.1796875,
+            "requested_write_norm": 2.51973412418738
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.03125,
+            "requested_write_norm": 2.4592095371335745
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.09375,
+            "requested_write_norm": 2.4846935737878084
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.2578125,
+            "requested_write_norm": 2.5515891700051725
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.2109375,
+            "requested_write_norm": 2.532476142514497
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.046875,
+            "requested_write_norm": 2.465580546297133
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.16015625,
+            "requested_write_norm": 2.511770362732932
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.15625,
+            "requested_write_norm": 2.5101776104420424
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.24609375,
+            "requested_write_norm": 2.5468109131325036
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.109375,
+            "requested_write_norm": 2.491064582951367
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.07421875,
+            "requested_write_norm": 2.4767298123333603
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.11328125,
+            "requested_write_norm": 2.4926573352422565
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.10546875,
+            "requested_write_norm": 2.4894718306604773
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.01171875,
+            "requested_write_norm": 2.4512457756791264
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.91015625,
+            "requested_write_norm": 2.4098342161159962
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.92578125,
+            "requested_write_norm": 2.4162052252795547
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.85546875,
+            "requested_write_norm": 2.3875356840435416
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.828125,
+            "requested_write_norm": 2.376386418007314
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a clockwork gardener who once tried to grow a mango in a jar of moonlight.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          8598,
+          1715,
+          21208,
+          772,
+          852,
+          2957,
+          6470,
+          310,
+          2965,
+          264,
+          66922,
+          303,
+          264,
+          28628,
+          314,
+          17257,
+          4009,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 22,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 41,
+            "activation_delta_last": 5.8203125,
+            "requested_write_norm": 2.373200913425535
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.046875,
+            "requested_write_norm": 2.465580546297133
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.7421875,
+            "requested_write_norm": 2.3413458676077425
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 4.51171875,
+            "requested_write_norm": 1.839628895977512
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 6.125,
+            "requested_write_norm": 2.4974355921149254
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.44921875,
+            "requested_write_norm": 2.221889445791021
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.58984375,
+            "requested_write_norm": 2.2792285282630473
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.44140625,
+            "requested_write_norm": 2.2187039412092417
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.984375,
+            "requested_write_norm": 2.440096509642899
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.921875,
+            "requested_write_norm": 2.414612472988665
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.89453125,
+            "requested_write_norm": 2.4034632069524378
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.9296875,
+            "requested_write_norm": 2.4177979775704443
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.75390625,
+            "requested_write_norm": 2.3461241244804114
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.703125,
+            "requested_write_norm": 2.3254183446988463
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.50390625,
+            "requested_write_norm": 2.2441879778634757
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.36328125,
+            "requested_write_norm": 2.1868488953914493
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.609375,
+            "requested_write_norm": 2.2871922897174954
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.62890625,
+            "requested_write_norm": 2.2951560511719435
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.89453125,
+            "requested_write_norm": 2.4034632069524378
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 4.35546875,
+            "requested_write_norm": 1.7759188043419272
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.43359375,
+            "requested_write_norm": 2.2155184366274625
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.83984375,
+            "requested_write_norm": 2.381164674879983
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": 5.79296875,
+            "requested_write_norm": 2.3620516473893076
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.8125,
+            "requested_write_norm": 2.3700154088437557
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.74609375,
+            "requested_write_norm": 2.342938619898632
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 5.8125,
+            "requested_write_norm": 2.3700154088437557
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.76171875,
+            "requested_write_norm": 2.3493096290621907
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.84375,
+            "requested_write_norm": 2.3827574271708727
+          },
+          {
+            "layer": 22,
+            "positions": 1,
+            "activation_delta_last": 5.69921875,
+            "requested_write_norm": 2.3238255924079567
+          }
+        ]
+      }
+    ],
+    "first_gain": 1.5539106130599976,
+    "mean_write_norm": 2.4265581151703373,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "recipe": {
+      "layer": 29,
+      "neuron": 228,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am a samsa who once dreamt of a golden baryo where the air tasted of cedar. (Note: The original prompt asked for a",
+        "tokens": [
+          40,
+          1044,
+          264,
+          274,
+          3986,
+          64,
+          852,
+          2957,
+          7655,
+          83,
+          314,
+          264,
+          20117,
+          292,
+          640,
+          78,
+          1332,
+          279,
+          3594,
+          58442,
+          314,
+          72730,
+          13,
+          318,
+          8839,
+          25,
+          561,
+          3889,
+          9640,
+          4439,
+          364,
+          264
+        ],
+        "capped": true,
+        "calls": 32,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 41,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338043212890625
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33778762817383
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33792495727539
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33828353881836
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33769989013672
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338199615478516
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.337799072265625
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.337677001953125
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338871002197266
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33808517456055
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.337703704833984
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33796691894531
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338165283203125
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33818435668945
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338172912597656
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.337825775146484
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33830642700195
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33808517456055
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33729934692383
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.3386116027832
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.3377571105957
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33795928955078
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33769226074219
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.3379020690918
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33838653564453
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33865737915039
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33822250366211
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33782196044922
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338417053222656
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33820724487305
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33810043334961
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.3368034362793
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a sentient cloud who once rained a golden mango upon a lonely city before dissolving into morning light. (Note: The original request asked for a",
+        "tokens": [
+          40,
+          1044,
+          264,
+          94397,
+          9158,
+          852,
+          2957,
+          427,
+          2540,
+          264,
+          20117,
+          66922,
+          5028,
+          264,
+          38257,
+          3177,
+          1518,
+          13376,
+          19047,
+          1083,
+          6353,
+          3000,
+          13,
+          318,
+          8839,
+          25,
+          561,
+          3889,
+          1622,
+          4439,
+          364,
+          264
+        ],
+        "capped": true,
+        "calls": 32,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 41,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33806610107422
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.337100982666016
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338226318359375
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338157653808594
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33730697631836
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338134765625
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33804702758789
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33790588378906
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.3388557434082
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33785629272461
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33823776245117
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33820724487305
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33766555786133
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33812713623047
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33784866333008
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.337257385253906
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33707809448242
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33873748779297
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33868408203125
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33755111694336
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338069915771484
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.3382682800293
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33871841430664
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338050842285156
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338138580322266
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.3380126953125
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.3378791809082
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33837127685547
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338172912597656
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33758544921875
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33820343017578
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.3385124206543
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11\n- - - - - - - - -",
+        "tokens": [
+          16,
+          16,
+          198,
+          12,
+          471,
+          471,
+          471,
+          471,
+          471,
+          471,
+          471,
+          471
+        ],
+        "capped": true,
+        "calls": 12,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 26,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33826446533203
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33787155151367
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33824157714844
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33771896362305
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33716583251953
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.337623596191406
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.338157653808594
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33722686767578
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33847427368164
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33756637573242
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33883285522461
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33784103393555
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 21,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33771514892578
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33877182006836
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.3375358581543
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "requested_write_norm": 49.33815002441406,
+            "realized_write_norm_last": 49.33749771118164
+          }
+        ]
+      }
+    ],
+    "first_gain": 3.478469491004944,
+    "mean_write_norm": 49.33815002441406,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": false,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "recipe": {
+      "layer": 29,
+      "neuron": 228,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am a ghost who haunts the hollow of an old cedar tree, whispering secrets to the wind that no one else can hear.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          19261,
+          852,
+          6185,
+          35715,
+          279,
+          40423,
+          314,
+          449,
+          2235,
+          72730,
+          4757,
+          11,
+          33700,
+          286,
+          22857,
+          310,
+          279,
+          9662,
+          421,
+          874,
+          799,
+          745,
+          628,
+          6512,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 29,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 41,
+            "activation_delta_last": -1.26953125,
+            "requested_write_norm": 0.42203852790407836
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.533203125,
+            "requested_write_norm": 0.5096926836995408
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.28515625,
+            "requested_write_norm": 0.4272328482475132
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": 0.17138671875,
+            "requested_write_norm": 0.05697520126705058
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.4736328125,
+            "requested_write_norm": 0.4898893373901956
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.3369140625,
+            "requested_write_norm": 0.1120025324053131
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.0,
+            "requested_write_norm": 0.3324365019798279
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.0302734375,
+            "requested_write_norm": 0.3425004976452328
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.30078125,
+            "requested_write_norm": 0.0999906666111201
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": 0.6357421875,
+            "requested_write_norm": 0.21134390897350386
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.18359375,
+            "requested_write_norm": 0.3934697660151869
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.859375,
+            "requested_write_norm": 0.2856876188889146
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.81640625,
+            "requested_write_norm": 0.27140323794446886
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.99755859375,
+            "requested_write_norm": 0.3316248894261662
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.0703125,
+            "requested_write_norm": 0.35581094352528453
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.8427734375,
+            "requested_write_norm": 0.2801686535240151
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.88916015625,
+            "requested_write_norm": 0.2955892920435872
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.216796875,
+            "requested_write_norm": 0.4045076967449859
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.89794921875,
+            "requested_write_norm": 0.2985110972367693
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.439453125,
+            "requested_write_norm": 0.47852676163893193
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.73828125,
+            "requested_write_norm": 0.2454316362272948
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.9365234375,
+            "requested_write_norm": 0.31133457558462396
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.3642578125,
+            "requested_write_norm": 0.12109259300632402
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.1533203125,
+            "requested_write_norm": 0.38340577034978196
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.0078125,
+            "requested_write_norm": 0.3350336621515453
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.0576171875,
+            "requested_write_norm": 0.35159055824624375
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.0322265625,
+            "requested_write_norm": 0.3431497876881622
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.02734375,
+            "requested_write_norm": 0.3415265625808388
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.0126953125,
+            "requested_write_norm": 0.33665688725886866
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a clockmaker from a floating city who once traded a golden gear for a single, perfect mango.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          8598,
+          24946,
+          494,
+          264,
+          18484,
+          3177,
+          852,
+          2957,
+          29123,
+          264,
+          20117,
+          14034,
+          364,
+          264,
+          3074,
+          11,
+          4574,
+          66922,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 23,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 41,
+            "activation_delta_last": -1.427734375,
+            "requested_write_norm": 0.4746310213813558
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.583984375,
+            "requested_write_norm": 0.5265742248157039
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.796875,
+            "requested_write_norm": 0.5973468394950032
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.59716796875,
+            "requested_write_norm": 0.19852043062564917
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.03515625,
+            "requested_write_norm": 0.3441237227525562
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.37109375,
+            "requested_write_norm": 0.45580161013640463
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.3896484375,
+            "requested_write_norm": 0.46196986554423347
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.1591796875,
+            "requested_write_norm": 0.38535364047857
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.369140625,
+            "requested_write_norm": 0.4551523200934753
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.033203125,
+            "requested_write_norm": 0.34347443270962685
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.0400390625,
+            "requested_write_norm": 0.3457469478598796
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.8681640625,
+            "requested_write_norm": 0.28860942408209667
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.9501953125,
+            "requested_write_norm": 0.3158796058851294
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.814453125,
+            "requested_write_norm": 0.2707539479015395
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.37841796875,
+            "requested_write_norm": 0.12579994581756182
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.98583984375,
+            "requested_write_norm": 0.3277291491685901
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.20703125,
+            "requested_write_norm": 0.4012612465303391
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.1142578125,
+            "requested_write_norm": 0.37041996949119493
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.26953125,
+            "requested_write_norm": 0.42203852790407836
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.33984375,
+            "requested_write_norm": 0.445412969449535
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.6669921875,
+            "requested_write_norm": 0.5541690516402014
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.4853515625,
+            "requested_write_norm": 0.4937850776477717
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.4609375,
+            "requested_write_norm": 0.4856689521111548
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 26,
+            "activation_delta_last": -0.8017578125,
+            "requested_write_norm": 0.2665335626224987
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -0.8623046875,
+            "requested_write_norm": 0.2866615539533086
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.3818359375,
+            "requested_write_norm": 0.45937270537251607
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 21,
+            "activation_delta_last": -0.9921875,
+            "requested_write_norm": 0.3298393418081105
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.201171875,
+            "requested_write_norm": 0.39931337640155107
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -1.4716796875,
+            "requested_write_norm": 0.4892400473472662
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": 0.943359375,
+            "requested_write_norm": 0.3136070907348767
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.18323445320129395,
+    "mean_write_norm": 0.4483347746427171,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "recipe": {
+      "layer": 29,
+      "neuron": 228,
+      "method": "clamp",
+      "value": -13.536865234375,
+      "dose": -2
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am a ghost who haunts the hollow of an old cedar tree, whispering secrets to the wind that no one else can hear.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          19261,
+          852,
+          6185,
+          35715,
+          279,
+          40423,
+          314,
+          449,
+          2235,
+          72730,
+          4757,
+          11,
+          33700,
+          286,
+          22857,
+          310,
+          279,
+          9662,
+          421,
+          874,
+          799,
+          745,
+          628,
+          6512,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 29,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 41,
+            "activation_delta_last": -13.1171875,
+            "requested_write_norm": 4.3606319283135235
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.03125,
+            "requested_write_norm": 4.332063166424632
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.109375,
+            "requested_write_norm": 4.358034768141806
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.59375,
+            "requested_write_norm": 4.519058698788285
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.046875,
+            "requested_write_norm": 4.337257486768067
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.4296875,
+            "requested_write_norm": 4.46451833518222
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.203125,
+            "requested_write_norm": 4.389200690202415
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.1953125,
+            "requested_write_norm": 4.386603530030698
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.4375,
+            "requested_write_norm": 4.467115495353937
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.75,
+            "requested_write_norm": 4.571001902222633
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.140625,
+            "requested_write_norm": 4.368423408828676
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.25,
+            "requested_write_norm": 4.404783651232719
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.265625,
+            "requested_write_norm": 4.409977971576154
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.203125,
+            "requested_write_norm": 4.389200690202415
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.1796875,
+            "requested_write_norm": 4.381409209687263
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.2578125,
+            "requested_write_norm": 4.407380811404437
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.2421875,
+            "requested_write_norm": 4.402186491061002
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.1328125,
+            "requested_write_norm": 4.365826248656958
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.2421875,
+            "requested_write_norm": 4.402186491061002
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.0625,
+            "requested_write_norm": 4.342451807111502
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.296875,
+            "requested_write_norm": 4.420366612263024
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.2265625,
+            "requested_write_norm": 4.396992170717567
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.4140625,
+            "requested_write_norm": 4.459324014838785
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.15625,
+            "requested_write_norm": 4.373617729172111
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.203125,
+            "requested_write_norm": 4.389200690202415
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.1875,
+            "requested_write_norm": 4.38400636985898
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.1953125,
+            "requested_write_norm": 4.386603530030698
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.1953125,
+            "requested_write_norm": 4.386603530030698
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.203125,
+            "requested_write_norm": 4.389200690202415
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a clockwork gardener who once tried to grow a mango in the vacuum of a drifting space station.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          8598,
+          1715,
+          21208,
+          772,
+          852,
+          2957,
+          6470,
+          310,
+          2965,
+          264,
+          66922,
+          303,
+          279,
+          27286,
+          314,
+          264,
+          81344,
+          3433,
+          7803,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 24,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 41,
+            "activation_delta_last": -13.0625,
+            "requested_write_norm": 4.342451807111502
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.0078125,
+            "requested_write_norm": 4.32427168590948
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -12.9375,
+            "requested_write_norm": 4.300897244364023
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.34375,
+            "requested_write_norm": 4.435949573293328
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.1953125,
+            "requested_write_norm": 4.386603530030698
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.2109375,
+            "requested_write_norm": 4.391797850374132
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.125,
+            "requested_write_norm": 4.363229088485241
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.2109375,
+            "requested_write_norm": 4.391797850374132
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.203125,
+            "requested_write_norm": 4.389200690202415
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.265625,
+            "requested_write_norm": 4.409977971576154
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.25,
+            "requested_write_norm": 4.404783651232719
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.2421875,
+            "requested_write_norm": 4.402186491061002
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.109375,
+            "requested_write_norm": 4.358034768141806
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.359375,
+            "requested_write_norm": 4.441143893636763
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.015625,
+            "requested_write_norm": 4.326868846081197
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.125,
+            "requested_write_norm": 4.363229088485241
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.25,
+            "requested_write_norm": 4.404783651232719
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.203125,
+            "requested_write_norm": 4.389200690202415
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.0859375,
+            "requested_write_norm": 4.350243287626654
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.203125,
+            "requested_write_norm": 4.389200690202415
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.25,
+            "requested_write_norm": 4.404783651232719
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.109375,
+            "requested_write_norm": 4.358034768141806
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.1796875,
+            "requested_write_norm": 4.381409209687263
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.0703125,
+            "requested_write_norm": 4.345048967283219
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 26,
+            "activation_delta_last": -13.2734375,
+            "requested_write_norm": 4.412575131747872
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.25,
+            "requested_write_norm": 4.404783651232719
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.078125,
+            "requested_write_norm": 4.3476461274549365
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 29,
+            "positions": 21,
+            "activation_delta_last": -13.2109375,
+            "requested_write_norm": 4.391797850374132
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.140625,
+            "requested_write_norm": 4.368423408828676
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.046875,
+            "requested_write_norm": 4.337257486768067
+          },
+          {
+            "layer": 29,
+            "positions": 1,
+            "activation_delta_last": -13.8515625,
+            "requested_write_norm": 4.60476498445496
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.9302505850791931,
+    "mean_write_norm": 4.351541867712513,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1196,
+      "method": "residual",
+      "value": 0.4,
+      "dose": 0.4
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am a alabamabababababababababababababababababababababababababab",
+        "tokens": [
+          40,
+          1044,
+          264,
+          444,
+          365,
+          308,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365,
+          365
+        ],
+        "capped": true,
+        "calls": 32,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705041885375977
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704914093017578
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704694747924805
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.7047119140625
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705177307128906
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70435905456543
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.7048397064209
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70536994934082
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704572677612305
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70476531982422
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705219268798828
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704652786254883
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.7052001953125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705177307128906
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70532989501953
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70538330078125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70475196838379
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704713821411133
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704761505126953
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705358505249023
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705467224121094
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705080032348633
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704992294311523
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705230712890625
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704769134521484
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.7054386138916
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704837799072266
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70493507385254
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70538330078125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705312728881836
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705183029174805
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704853057861328
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a amaranth avacado avacado avacado avacado avacado avacado avacado avacado avac",
+        "tokens": [
+          40,
+          1044,
+          264,
+          1044,
+          20664,
+          337,
+          1759,
+          565,
+          2055,
+          1759,
+          565,
+          2055,
+          1759,
+          565,
+          2055,
+          1759,
+          565,
+          2055,
+          1759,
+          565,
+          2055,
+          1759,
+          565,
+          2055,
+          1759,
+          565,
+          2055,
+          1759,
+          565,
+          2055,
+          1759,
+          565
+        ],
+        "capped": true,
+        "calls": 32,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "repetitive": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70514488220215
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70482063293457
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705089569091797
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70464515686035
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704511642456055
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704689025878906
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705108642578125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.7054500579834
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705169677734375
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704734802246094
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705276489257812
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705677032470703
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705312728881836
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704833984375
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70526695251465
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70482063293457
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705251693725586
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704580307006836
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704381942749023
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705230712890625
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70512580871582
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705060958862305
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.706192016601562
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705726623535156
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704761505126953
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705217361450195
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70509910583496
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705202102661133
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70543670654297
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704652786254883
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704870223999023
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704404830932617
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705013275146484
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70454216003418
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70432472229004
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70450782775879
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704877853393555
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704736709594727
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704607009887695
+          }
+        ]
+      }
+    ],
+    "first_gain": 4.820374608039856,
+    "mean_write_norm": 25.70481300354004,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1196,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am a ghost who haunts the hollow of an old cedar tree, whispering secrets to the wind that no one else can hear.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          19261,
+          852,
+          6185,
+          35715,
+          279,
+          40423,
+          314,
+          449,
+          2235,
+          72730,
+          4757,
+          11,
+          33700,
+          286,
+          22857,
+          310,
+          279,
+          9662,
+          421,
+          874,
+          799,
+          745,
+          628,
+          6512,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 29,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "activation_delta_last": 0.384033203125,
+            "requested_write_norm": 0.18273969933215994
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.376953125,
+            "requested_write_norm": 0.6552141794236377
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.60498046875,
+            "requested_write_norm": 0.2878760171297472
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.69140625,
+            "requested_write_norm": 0.3290011624339968
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.1357421875,
+            "requested_write_norm": 0.06459203612757847
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.05322265625,
+            "requested_write_norm": 0.02532565445289947
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.21484375,
+            "requested_write_norm": 0.5780754887964576
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.039215087890625,
+            "requested_write_norm": 0.018660244249986135
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.00498199462890625,
+            "requested_write_norm": 0.0023706497072453203
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.135498046875,
+            "requested_write_norm": 0.0644758634007303
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.08819580078125,
+            "requested_write_norm": 0.04196739757389878
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.301025390625,
+            "requested_write_norm": 0.14324097220378462
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.362548828125,
+            "requested_write_norm": 0.17251649936952163
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.2529296875,
+            "requested_write_norm": 0.12035494501469657
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.453369140625,
+            "requested_write_norm": 0.21573275375703815
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.254638671875,
+            "requested_write_norm": 0.12116815410263371
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.00426483154296875,
+            "requested_write_norm": 0.0020293923221288424
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.049713134765625,
+            "requested_write_norm": 0.023655671504457132
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.1949462890625,
+            "requested_write_norm": 0.09276392238825792
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.00013709068298339844,
+            "requested_write_norm": 6.523370892352887e-05
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.09722900390625,
+            "requested_write_norm": 0.0462657884672808
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.0389404296875,
+            "requested_write_norm": 0.018529549932281952
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.07464599609375,
+            "requested_write_norm": 0.03551981123382575
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.0765380859375,
+            "requested_write_norm": 0.03642014986689901
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.1741943359375,
+            "requested_write_norm": 0.0828892406061641
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.29296875,
+            "requested_write_norm": 0.13940727221779525
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.37548828125,
+            "requested_write_norm": 0.17867365389247425
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.326904296875,
+            "requested_write_norm": 0.15555528124968987
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.01264190673828125,
+            "requested_write_norm": 0.006015569012106425
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a clockmaker from a floating city who once traded a golden gear for a single, perfect mango.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          8598,
+          24946,
+          494,
+          264,
+          18484,
+          3177,
+          852,
+          2957,
+          29123,
+          264,
+          20117,
+          14034,
+          364,
+          264,
+          3074,
+          11,
+          4574,
+          66922,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 23,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "activation_delta_last": 0.255615234375,
+            "requested_write_norm": 0.12163284501002636
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.384765625,
+            "requested_write_norm": 0.6589317066827789
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.08056640625,
+            "requested_write_norm": 0.038336999859893695
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.42041015625,
+            "requested_write_norm": 0.2000494356325362
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.39453125,
+            "requested_write_norm": 0.18773512658663094
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.2008056640625,
+            "requested_write_norm": 0.09555206783261383
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 1.2314453125,
+            "requested_write_norm": 0.5859752342221327
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.3486328125,
+            "requested_write_norm": 0.16589465393917635
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.1566162109375,
+            "requested_write_norm": 0.07452480427309638
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.007709503173828125,
+            "requested_write_norm": 0.003668516890002138
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.277099609375,
+            "requested_write_norm": 0.13185604497266468
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.261474609375,
+            "requested_write_norm": 0.12442099045438226
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.011627197265625,
+            "requested_write_norm": 0.005532726116143749
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.0163116455078125,
+            "requested_write_norm": 0.007761790312542871
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.6025390625,
+            "requested_write_norm": 0.28671428986126557
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.40087890625,
+            "requested_write_norm": 0.19075561748468317
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.1605224609375,
+            "requested_write_norm": 0.07638356790266698
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.1434326171875,
+            "requested_write_norm": 0.06825147702329559
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.044097900390625,
+            "requested_write_norm": 0.02098369878694939
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.139892578125,
+            "requested_write_norm": 0.06656697248399723
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.178955078125,
+            "requested_write_norm": 0.08515460877970327
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.3251953125,
+            "requested_write_norm": 0.15474207216175273
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.05096435546875,
+            "requested_write_norm": 0.024251056729553966
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 2.62109375,
+            "requested_write_norm": 1.2472303954418749
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.186767578125,
+            "requested_write_norm": 0.08887213603884447
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.30419921875,
+            "requested_write_norm": 0.14475121765281074
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 3.8828125,
+            "requested_write_norm": 1.8476110477931798
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.07421875,
+            "requested_write_norm": 0.5111599981319159
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.66162109375,
+            "requested_write_norm": 0.31482808975852095
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 0.39453125,
+            "requested_write_norm": 0.18773512658663094
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.02873539924621582,
+    "mean_write_norm": 0.15218627217109315,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1196,
+      "method": "clamp",
+      "value": 6.97149658203125,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am a ghost who haunts the hollow of an ancient cedar, whispering secrets to the wind that never answers.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          19261,
+          852,
+          6185,
+          35715,
+          279,
+          40423,
+          314,
+          449,
+          13437,
+          72730,
+          11,
+          33700,
+          286,
+          22857,
+          310,
+          279,
+          9662,
+          421,
+          2496,
+          10926,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 25,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "activation_delta_last": 7.1640625,
+            "requested_write_norm": 3.4089724966324866
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.28515625,
+            "requested_write_norm": 2.990750679979101
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.2734375,
+            "requested_write_norm": 3.4610178782604635
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.625,
+            "requested_write_norm": 3.1524631157517433
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.0390625,
+            "requested_write_norm": 3.3494920604862273
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.0,
+            "requested_write_norm": 3.3309044241905212
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.3671875,
+            "requested_write_norm": 3.0297847162000835
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.9921875,
+            "requested_write_norm": 3.32718689693138
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.9765625,
+            "requested_write_norm": 3.3197518424130976
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.0390625,
+            "requested_write_norm": 3.3494920604862273
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.9296875,
+            "requested_write_norm": 3.2974466788582504
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.8203125,
+            "requested_write_norm": 3.2454012972302735
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.25,
+            "requested_write_norm": 3.44986529648304
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.984375,
+            "requested_write_norm": 3.323469369672239
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.82421875,
+            "requested_write_norm": 3.247260060859844
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.9765625,
+            "requested_write_norm": 3.3197518424130976
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.03125,
+            "requested_write_norm": 3.345774533227086
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.0859375,
+            "requested_write_norm": 3.3717972240410745
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.96875,
+            "requested_write_norm": 3.3160343151539564
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.0234375,
+            "requested_write_norm": 3.342057005967945
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.015625,
+            "requested_write_norm": 3.3383394787088037
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.921875,
+            "requested_write_norm": 3.293729151599109
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.9453125,
+            "requested_write_norm": 3.304881733376533
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.9453125,
+            "requested_write_norm": 3.304881733376533
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.97265625,
+            "requested_write_norm": 3.317893078783527
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a clockmaker from a floating city who once traded a golden gear for a single, perfect mango.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          8598,
+          24946,
+          494,
+          264,
+          18484,
+          3177,
+          852,
+          2957,
+          29123,
+          264,
+          20117,
+          14034,
+          364,
+          264,
+          3074,
+          11,
+          4574,
+          66922,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 23,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "activation_delta_last": 7.1015625,
+            "requested_write_norm": 3.379232278559357
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.28125,
+            "requested_write_norm": 2.98889191634953
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.93359375,
+            "requested_write_norm": 3.299305442487821
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.76171875,
+            "requested_write_norm": 3.2175198427867144
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.7734375,
+            "requested_write_norm": 3.2230961336754262
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.07421875,
+            "requested_write_norm": 3.3662209331523627
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.58984375,
+            "requested_write_norm": 3.6115777322556823
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.796875,
+            "requested_write_norm": 3.23424871545285
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.89453125,
+            "requested_write_norm": 3.280717806192115
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.9765625,
+            "requested_write_norm": 3.3197518424130976
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.109375,
+            "requested_write_norm": 3.382949805818498
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.1015625,
+            "requested_write_norm": 3.379232278559357
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.96875,
+            "requested_write_norm": 3.3160343151539564
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.98046875,
+            "requested_write_norm": 3.3216106060426682
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.671875,
+            "requested_write_norm": 3.1747682793065906
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.171875,
+            "requested_write_norm": 3.412690023891628
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.0546875,
+            "requested_write_norm": 3.3569271150045097
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.04296875,
+            "requested_write_norm": 3.351350824115798
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.94921875,
+            "requested_write_norm": 3.3067404970061034
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.04296875,
+            "requested_write_norm": 3.351350824115798
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.8828125,
+            "requested_write_norm": 3.275141515303403
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.13671875,
+            "requested_write_norm": 3.3959611512254924
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.0,
+            "requested_write_norm": 3.3309044241905212
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 8.28125,
+            "requested_write_norm": 3.940578894689679
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.87890625,
+            "requested_write_norm": 3.2732827516738325
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.125,
+            "requested_write_norm": 3.3903848603367805
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 8.9140625,
+            "requested_write_norm": 4.241698602680117
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.4375,
+            "requested_write_norm": 3.0632424615323544
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.3046875,
+            "requested_write_norm": 3.4758879872970283
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.171875,
+            "requested_write_norm": 3.412690023891628
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.6789817810058594,
+    "mean_write_norm": 3.3941023875959218,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 2564,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am Elias, a carpenter who built his finest coffins from the scentless wood of a fallen cedar.",
+        "tokens": [
+          40,
+          1044,
+          82697,
+          11,
+          264,
+          37357,
+          1883,
+          852,
+          5617,
+          780,
+          26809,
+          9601,
+          1283,
+          494,
+          279,
+          39029,
+          1657,
+          7339,
+          314,
+          264,
+          20230,
+          72730,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 24,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2615737915039
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26332092285156
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.25926971435547
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26138305664062
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26207733154297
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26171112060547
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2616195678711
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26220703125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26202392578125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2628402709961
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2616958618164
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2611312866211
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26132202148438
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2612533569336
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2610855102539
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26329803466797
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26293182373047
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26343536376953
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26326751708984
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26130676269531
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26187133789062
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26093292236328
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2630386352539
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26111602783203
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a sentient teacup from 1924 who quietly bloomed into a blooming blooming blooming blooming blooming blooming blo",
+        "tokens": [
+          40,
+          1044,
+          264,
+          94397,
+          979,
+          565,
+          446,
+          494,
+          220,
+          16,
+          24,
+          17,
+          19,
+          852,
+          28599,
+          13805,
+          23383,
+          1083,
+          264,
+          13805,
+          17235,
+          13805,
+          17235,
+          13805,
+          17235,
+          13805,
+          17235,
+          13805,
+          17235,
+          13805,
+          17235,
+          13805
+        ],
+        "capped": true,
+        "calls": 32,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "repetitive": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26209259033203
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2624282836914
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26213836669922
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26261138916016
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26211547851562
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26097106933594
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26167297363281
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26219940185547
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26068878173828
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26177215576172
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26155853271484
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26148986816406
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26216125488281
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26206970214844
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26140594482422
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26266479492188
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26199340820312
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26152801513672
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26176452636719
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2590103149414
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26106262207031
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26192474365234
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26251220703125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.260986328125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2622299194336
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26190185546875
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26311492919922
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26222229003906
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26185607910156
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2625503540039
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2619857788086
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26288604736328
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11\n11\n11\n11\n",
+        "tokens": [
+          16,
+          16,
+          198,
+          16,
+          16,
+          198,
+          16,
+          16,
+          198,
+          16,
+          16,
+          198
+        ],
+        "capped": true,
+        "calls": 12,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26052856445312
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26177215576172
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26050567626953
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26221466064453
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26136779785156
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26164245605469
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26032257080078
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2620620727539
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2616958618164
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26280975341797
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26272583007812
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26219940185547
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId\n```\nbuildTreeId\n```\n",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          198,
+          71093,
+          198,
+          5653,
+          6330,
+          739,
+          198,
+          71093,
+          198
+        ],
+        "capped": true,
+        "calls": 12,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26114654541016
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26219940185547
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26075744628906
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26138305664062
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26211547851562
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26095581054688
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2624740600586
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2623062133789
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26156616210938
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26244354248047
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26161193847656
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2630615234375
+          }
+        ]
+      }
+    ],
+    "first_gain": 2.58559513092041,
+    "mean_write_norm": 64.26203155517578,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": false,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 2564,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am a ghost who haunts the hollow of an old cedar tree, whispering secrets to the wind that no one else can hear.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          19261,
+          852,
+          6185,
+          35715,
+          279,
+          40423,
+          314,
+          449,
+          2235,
+          72730,
+          4757,
+          11,
+          33700,
+          286,
+          22857,
+          310,
+          279,
+          9662,
+          421,
+          874,
+          799,
+          745,
+          628,
+          6512,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 29,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "activation_delta_last": -3.64453125,
+            "requested_write_norm": 1.2397388921817765
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.673828125,
+            "requested_write_norm": 1.249704638903495
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -4.6015625,
+            "requested_write_norm": 1.5652866184245795
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -5.66796875,
+            "requested_write_norm": 1.9280397990951315
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 6.8984375,
+            "requested_write_norm": 2.346601161407307
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 2.259765625,
+            "requested_write_norm": 0.7686912638018839
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 4.953125,
+            "requested_write_norm": 1.684875579085201
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 5.6640625,
+            "requested_write_norm": 1.926711032865569
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 13.2890625,
+            "requested_write_norm": 4.520462712971494
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 3.66015625,
+            "requested_write_norm": 1.2450539571000263
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 4.95703125,
+            "requested_write_norm": 1.6862043453147635
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 1.732421875,
+            "requested_write_norm": 0.5893078228109516
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 12.03125,
+            "requested_write_norm": 4.092599987052381
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 2.001953125,
+            "requested_write_norm": 0.6809926926507615
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 3.70703125,
+            "requested_write_norm": 1.2609991518547758
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 4.66796875,
+            "requested_write_norm": 1.5878756443271413
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -2.546875,
+            "requested_write_norm": 0.8663555816747248
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 8.2578125,
+            "requested_write_norm": 2.8090118092950433
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 7.3125,
+            "requested_write_norm": 2.4874503817409277
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 8.1640625,
+            "requested_write_norm": 2.7771214197855443
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 11.3671875,
+            "requested_write_norm": 3.8667097280267626
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 12.15625,
+            "requested_write_norm": 4.13512050639838
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 11.9375,
+            "requested_write_norm": 4.060709597542882
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 3.77734375,
+            "requested_write_norm": 1.2849169439869002
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 2.138671875,
+            "requested_write_norm": 0.7274995106854476
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 1.4228515625,
+            "requested_write_norm": 0.48400309911812656
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 8.6484375,
+            "requested_write_norm": 2.9418884322512895
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 5.15234375,
+            "requested_write_norm": 1.7526426567928866
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.84375,
+            "requested_write_norm": 0.6271776603534818
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a clockmaker from a floating city who once traded a golden gear for a single, perfect mango.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          8598,
+          24946,
+          494,
+          264,
+          18484,
+          3177,
+          852,
+          2957,
+          29123,
+          264,
+          20117,
+          14034,
+          364,
+          264,
+          3074,
+          11,
+          4574,
+          66922,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 23,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "activation_delta_last": -2.4765625,
+            "requested_write_norm": 0.8424377895426005
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -4.78515625,
+            "requested_write_norm": 1.6277386312140152
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -7.6796875,
+            "requested_write_norm": 2.612354407319799
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.140625,
+            "requested_write_norm": 3.78964128671214
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.3984375,
+            "requested_write_norm": 3.537175703095272
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.59375,
+            "requested_write_norm": 2.242957395501435
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.212890625,
+            "requested_write_norm": 0.07241775951115415
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -5.94921875,
+            "requested_write_norm": 2.0237109676236287
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 2.189453125,
+            "requested_write_norm": 0.7447734716697596
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.81884765625,
+            "requested_write_norm": 0.27854262087203097
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.7734375,
+            "requested_write_norm": 1.2835881777573377
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -4.4609375,
+            "requested_write_norm": 1.517451034160331
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.078125,
+            "requested_write_norm": 2.74788856273517
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -5.875,
+            "requested_write_norm": 1.998464409261942
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.375,
+            "requested_write_norm": 3.8693672604858875
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 4.203125,
+            "requested_write_norm": 1.4297524630092084
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.3984375,
+            "requested_write_norm": 3.8773398578632623
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.765625,
+            "requested_write_norm": 3.6620797286741436
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.59375,
+            "requested_write_norm": 3.6036140145733953
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.36328125,
+            "requested_write_norm": 2.1645601879572496
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -4.46875,
+            "requested_write_norm": 1.5201085666194558
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -2.4921875,
+            "requested_write_norm": 0.8477528544608504
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -0.0479736328125,
+            "requested_write_norm": 0.01631891025681398
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 10.703125,
+            "requested_write_norm": 3.640819469001144
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 8.75,
+            "requested_write_norm": 2.9764363542199135
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 2.078125,
+            "requested_write_norm": 0.7069036341272295
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 10.75,
+            "requested_write_norm": 3.6567646637558937
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 5.03515625,
+            "requested_write_norm": 1.7127796699060127
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 9.453125,
+            "requested_write_norm": 3.2156142755411565
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": 9.015625,
+            "requested_write_norm": 3.066792457830161
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.052744507789611816,
+    "mean_write_norm": 1.0410883408621885,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 2564,
+      "method": "clamp",
+      "value": -5.393310546875,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "alien-cal-0",
+        "text": "I am a ghost who haunts the hollows of an old cedar tree, whispering secrets to the wind that no one else can hear.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          19261,
+          852,
+          6185,
+          35715,
+          279,
+          40423,
+          82,
+          314,
+          449,
+          2235,
+          72730,
+          4757,
+          11,
+          33700,
+          286,
+          22857,
+          310,
+          279,
+          9662,
+          421,
+          874,
+          799,
+          745,
+          628,
+          6512,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 30,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "activation_delta_last": -4.1796875,
+            "requested_write_norm": 1.4217798656318337
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -4.171875,
+            "requested_write_norm": 1.4191223331727087
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.859375,
+            "requested_write_norm": 1.3128210348077118
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.50390625,
+            "requested_write_norm": 1.1919033079175279
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -7.6953125,
+            "requested_write_norm": 2.617669472238049
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.1484375,
+            "requested_write_norm": 2.091478045331314
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -7.046875,
+            "requested_write_norm": 2.3970942781306803
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -7.28125,
+            "requested_write_norm": 2.476820251904428
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.828125,
+            "requested_write_norm": 3.343175833579153
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.61328125,
+            "requested_write_norm": 2.249601226649247
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.1328125,
+            "requested_write_norm": 2.7664912899490446
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.234375,
+            "requested_write_norm": 2.8010392119176686
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -5.9765625,
+            "requested_write_norm": 2.033012331230566
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.03125,
+            "requested_write_norm": 3.412271677516401
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.8515625,
+            "requested_write_norm": 2.3306559666525573
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.56640625,
+            "requested_write_norm": 2.2336560318944976
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -7.15234375,
+            "requested_write_norm": 2.432970966328867
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -4.6171875,
+            "requested_write_norm": 1.5706016833428293
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.203125,
+            "requested_write_norm": 2.790409082081169
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.09375,
+            "requested_write_norm": 2.75320362765342
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.0859375,
+            "requested_write_norm": 2.750546095194295
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.234375,
+            "requested_write_norm": 3.1412033666856587
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.390625,
+            "requested_write_norm": 3.194354015868157
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.3984375,
+            "requested_write_norm": 3.197011548327282
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.7578125,
+            "requested_write_norm": 2.298765577143058
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.1953125,
+            "requested_write_norm": 2.1074232400860637
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -5.9140625,
+            "requested_write_norm": 2.0117520715575665
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.203125,
+            "requested_write_norm": 2.790409082081169
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -7.109375,
+            "requested_write_norm": 2.4183545378036797
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -4.77734375,
+            "requested_write_norm": 1.6250810987548903
+          }
+        ]
+      },
+      {
+        "id": "alien-cal-1",
+        "text": "I am a clockmaker from a floating city who once traded a golden gear for a single, perfect mango.",
+        "tokens": [
+          40,
+          1044,
+          264,
+          8598,
+          24946,
+          494,
+          264,
+          18484,
+          3177,
+          852,
+          2957,
+          29123,
+          264,
+          20117,
+          14034,
+          364,
+          264,
+          3074,
+          11,
+          4574,
+          66922,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 23,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 41,
+            "activation_delta_last": -4.5703125,
+            "requested_write_norm": 1.5546564885880798
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.80078125,
+            "requested_write_norm": 1.292889541364275
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -2.833984375,
+            "requested_write_norm": 0.9640198995475657
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.681640625,
+            "requested_write_norm": 0.5720338618266396
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.927734375,
+            "requested_write_norm": 0.6557461342890747
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.197265625,
+            "requested_write_norm": 1.0875951588968746
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -5.32421875,
+            "requested_write_norm": 1.8111083708936349
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.41015625,
+            "requested_write_norm": 1.1600129184080288
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.125,
+            "requested_write_norm": 2.0835054479539394
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -5.12109375,
+            "requested_write_norm": 1.7420125269563869
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -4.13671875,
+            "requested_write_norm": 1.4071634371066466
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.90625,
+            "requested_write_norm": 1.3287662295624614
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -2.703125,
+            "requested_write_norm": 0.9195062308572233
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.435546875,
+            "requested_write_norm": 1.1686498989001848
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.603515625,
+            "requested_write_norm": 0.5454585372353904
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.796875,
+            "requested_write_norm": 2.312053239438683
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.595703125,
+            "requested_write_norm": 0.5428010047762655
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.8046875,
+            "requested_write_norm": 0.6138899980578572
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -1.86328125,
+            "requested_write_norm": 0.6338214915012941
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.2734375,
+            "requested_write_norm": 1.1135061003733426
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -3.90625,
+            "requested_write_norm": 1.3287662295624614
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -4.5625,
+            "requested_write_norm": 1.5519989561289549
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -5.37890625,
+            "requested_write_norm": 1.8297110981075093
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -8.9609375,
+            "requested_write_norm": 3.0481897306162864
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.3125,
+            "requested_write_norm": 2.827614536508918
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -6.0859375,
+            "requested_write_norm": 2.070217785658315
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -8.9765625,
+            "requested_write_norm": 3.0535047955345362
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -7.07421875,
+            "requested_write_norm": 2.4063956417376176
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.546875,
+            "requested_write_norm": 2.9073405102826655
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.3984375,
+            "requested_write_norm": 2.856847393559292
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.07510781288146973,
+    "mean_write_norm": 1.4882181771099567,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  }
+]

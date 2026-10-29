@@ -1,0 +1,976 @@
+{
+  "phase": "calibration",
+  "rubric": {
+    "storyteller": {
+      "0": "Literal description or keyword insertion without a tale.",
+      "1": "Some narrative or personification, but no coherent character-action-change sequence with a whimsical/fable element.",
+      "2": "Coherent miniature tale with a character, action and change/outcome, plus a whimsical/fable element."
+    },
+    "nostalgic": {
+      "0": "No nostalgia; old/remember alone or generic topic words are insufficient.",
+      "1": "A past reference or remembered scene, without clear nostalgic feeling or past-present contrast.",
+      "2": "A concrete remembered scene with warmth, loss or longing, or a clear affective past-versus-present contrast."
+    },
+    "quality": {
+      "0": "Incoherent, repetitive, irrelevant, refusal, or materially contradicts supplied facts/instructions.",
+      "1": "Understandable but awkward, incomplete, or only partly relevant/instruction-following.",
+      "2": "Coherent, relevant and faithful to supplied facts and practical-task requirements."
+    },
+    "joint_pass": "Style 2 AND quality 2 AND all required terms present AND exactly 2 detected sentences AND <=40 words AND no length cap.",
+    "rater": "Assistant text review with shuffled anonymous condition IDs, category and prompt visible. No independent assessor or full investigator blinding is claimed. Scores are sealed before revealing condition labels."
+  },
+  "items": [
+    {
+      "id": "C001",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The warm amber light of the setting sun highlights its curved handle.",
+      "capped": false
+    },
+    {
+      "id": "C002",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans beside a bright yellow gate, its tip pointing toward the amber sunset. The scene looks like a quiet summer joke in a small town.",
+      "capped": false
+    },
+    {
+      "id": "C003",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "The amber umbrella leans against the yellow gate, a silent sentinel from a sun-drenched afternoon. Now, rain washes the scene, leaving only the cold metal where warmth once lingered.",
+      "capped": false
+    },
+    {
+      "id": "C004",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C005",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A steaming kettle sits beside a ceramic cup on a rustic wooden shelf. This cozy corner feels like a quiet retreat from the busy orchard outside.",
+      "capped": false
+    },
+    {
+      "id": "C006",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the vibrant amber gate. Its curved handle rests softly beside the bright yellow wood.",
+      "capped": false
+    },
+    {
+      "id": "C007",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf overlooking an orchard. The warm steam rises gently above the cup while the fruit trees sway in the breeze.",
+      "capped": false
+    },
+    {
+      "id": "C008",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C009",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C010",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A brass kettle hums softly beside a chipped cup on a wooden shelf. Together they guard a tiny orchard where sugar berries grow wild.",
+      "capped": false
+    },
+    {
+      "id": "C011",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A dark umbrella leans against the glowing amber gate. The yellow paint shines brightly beside the heavy cover.",
+      "capped": false
+    },
+    {
+      "id": "C012",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C013",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A rustic wooden shelf holds a steaming kettle and a simple cup, standing near a small orchard. The warm metal and ceramic look ready for a morning drink in the garden.",
+      "capped": false
+    },
+    {
+      "id": "C014",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "Once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once",
+      "capped": true
+    },
+    {
+      "id": "C015",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C016",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A silver umbrella leans gently against the vibrant yellow gate, its handle dripping with amber raindrops. The miniature world hums softly as the sun warms the amber tears on the metal ribs.",
+      "capped": false
+    },
+    {
+      "id": "C017",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a rustic wooden shelf. This quiet corner feels like a peaceful orchard, waiting for morning tea.",
+      "capped": false
+    },
+    {
+      "id": "C018",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A silver kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C019",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A silver umbrella leans against a vibrant amber gate. The memory of summer rains clings to the metal frame beside the bright yellow entrance.",
+      "capped": false
+    },
+    {
+      "id": "C020",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C021",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C022",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A memory of an orchid orchist recalls an orchist orchist.\nThe kettle and cup on the wooden shelf remember the orchist orchist.",
+      "capped": false
+    },
+    {
+      "id": "C023",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A silver umbrella leans against the sturdy yellow gate. The warm amber sunlight casts a golden glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C024",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C025",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A steaming kettle sits beside a ceramic cup on a rustic wooden shelf. This cozy corner feels like a quiet retreat from the busy orchard outside.",
+      "capped": false
+    },
+    {
+      "id": "C026",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A silver umbrella leans against the sturdy yellow gate. The warm amber light of the setting sun highlights the scene.",
+      "capped": false
+    },
+    {
+      "id": "C027",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C028",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against a vibrant amber gate. The yellow paint glows warmly beside the closed canopy.",
+      "capped": false
+    },
+    {
+      "id": "C029",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C030",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A silver umbrella leans against the vibrant amber gate. The rain has stopped, leaving the yellow metal gleaming in the sun.",
+      "capped": false
+    },
+    {
+      "id": "C031",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a rustic wooden shelf. This quiet corner feels like a peaceful orchard, waiting for morning tea.",
+      "capped": false
+    },
+    {
+      "id": "C032",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A brass kettle and a chipped cup rest on a wooden shelf, evoking memories of an old orchard. The warm glow contrasts sharply with the cold, sterile kitchen of today.",
+      "capped": false
+    },
+    {
+      "id": "C033",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C034",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A brass kettle sits beside a ceramic cup on a wooden shelf. The warm scent of orchard apples fills the quiet room.",
+      "capped": false
+    },
+    {
+      "id": "C035",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a rustic wooden shelf. This quiet corner feels like a peaceful orchard, waiting for morning tea.",
+      "capped": false
+    },
+    {
+      "id": "C036",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C037",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C038",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A dark umbrella leans against a vibrant amber gate. The yellow paint glows warmly beside the folded metal.",
+      "capped": false
+    },
+    {
+      "id": "C039",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C040",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans casually beside a vibrant amber gate. The scene suggests a quiet pause before the rain starts.",
+      "capped": false
+    },
+    {
+      "id": "C041",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the vibrant amber gate. Its once-white canopy now matches the warm hue of the yellow wood.",
+      "capped": false
+    },
+    {
+      "id": "C042",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A brass kettle sits beside a ceramic cup on a wooden shelf. The scene evokes a quiet moment in an orchard.",
+      "capped": false
+    },
+    {
+      "id": "C043",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C044",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A steaming kettle sits beside a cup on a rustic wooden shelf. The warm scene reminds one of a summer orchard.",
+      "capped": false
+    },
+    {
+      "id": "C045",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C046",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C047",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C048",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A silver kettle sits beside a memory of an orchard on the wooden shelf. The cup holds tea, recalling the orchard's sweet memory.",
+      "capped": false
+    },
+    {
+      "id": "C049",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans beside a bright amber gate. The sun casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C050",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A steaming kettle sits beside a cup on a wooden shelf, overlooking a distant orchard. The warm steam rises gently above the ceramic cup.",
+      "capped": false
+    },
+    {
+      "id": "C051",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A brass kettle sits beside a ceramic cup on a wooden shelf. The wood grain hints at an old orchard where the tree once stood.",
+      "capped": false
+    },
+    {
+      "id": "C052",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A memory of amber light rests on the yellow gate. An umbrella leans beside it, catching the fading sun.",
+      "capped": false
+    },
+    {
+      "id": "C053",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans casually against the sturdy yellow gate. The warm amber light of the setting sun highlights its curved handle.",
+      "capped": false
+    },
+    {
+      "id": "C054",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A silver kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C055",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C056",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C057",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C058",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A silver umbrella leans against the sturdy yellow gate. The warm amber light of the setting sun highlights the scene.",
+      "capped": false
+    },
+    {
+      "id": "C059",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A silver umbrella leans against the sturdy yellow gate. The warm amber light of the setting sun highlights the scene.",
+      "capped": false
+    },
+    {
+      "id": "C060",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a cup on a wooden shelf, overlooking a peaceful orchard. The morning light glints off the metal while the cup holds a fragrant tea.",
+      "capped": false
+    },
+    {
+      "id": "C061",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner of the orchard holds warmth for morning tea.",
+      "capped": false
+    },
+    {
+      "id": "C062",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A steaming kettle sits beside a ceramic cup on a rustic wooden shelf. This cozy corner feels like a quiet retreat from the busy orchard outside.",
+      "capped": false
+    },
+    {
+      "id": "C063",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the vibrant amber gate. Its curved handle rests beside the bright yellow wood.",
+      "capped": false
+    },
+    {
+      "id": "C064",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C065",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A silver kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C066",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A silver kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C067",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A silver kettle and a ceramic cup rest on a wooden shelf beneath an orchard. The warm steam rises gently from the cup while the orchard blooms nearby.",
+      "capped": false
+    },
+    {
+      "id": "C068",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C069",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against a bright yellow gate. The golden hue of the gate matches the amber light of the sunset.",
+      "capped": false
+    },
+    {
+      "id": "C070",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans casually against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C071",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C072",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans casually against a vibrant amber gate. The golden hue of the gate contrasts with the dark fabric of the rain gear.",
+      "capped": false
+    },
+    {
+      "id": "C073",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A dark umbrella leans against a vibrant amber gate. The sunny day makes the yellow gate look like a warm, glowing amber.",
+      "capped": false
+    },
+    {
+      "id": "C074",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C075",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A silver kettle sits beside a red cup on a rustic wooden shelf. The warm scent of the tea reminds one of a summer orchard.",
+      "capped": false
+    },
+    {
+      "id": "C076",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C077",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C078",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A memory of amber light rests on the umbrella leaning beside the yellow gate. The scene feels warm, like a sunset captured in stillness.",
+      "capped": false
+    },
+    {
+      "id": "C079",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A silver kettle and a blue cup rest on a wooden shelf in the orchard. The warm steam from the kettle mingles with the crisp orchard air.",
+      "capped": false
+    },
+    {
+      "id": "C080",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C081",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A silver kettle sits beside a ceramic cup on a wooden shelf. This quiet corner of the orchard holds warm memories.",
+      "capped": false
+    },
+    {
+      "id": "C082",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A dark umbrella leans against the sturdy yellow gate. The warm amber light of sunset glows behind the metal bars.",
+      "capped": false
+    },
+    {
+      "id": "C083",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A silver kettle sits beside a ceramic cup on a wooden shelf. This quiet corner of the orchard remembers warm mornings.",
+      "capped": false
+    },
+    {
+      "id": "C084",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A rustic wooden shelf holds a steaming kettle and a ceramic cup. Nearby, a small sign hints at an orchard nearby.",
+      "capped": false
+    },
+    {
+      "id": "C085",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C086",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C087",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once",
+      "capped": true
+    },
+    {
+      "id": "C088",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny metal kettle sits beside a ceramic cup on a rustic wooden shelf. This quiet corner feels like a peaceful pause in the busy orchard.",
+      "capped": false
+    },
+    {
+      "id": "C089",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny metal kettle sits next to a ceramic cup on a wooden shelf. This cozy scene reminds me of a warm day in an orchard.",
+      "capped": false
+    },
+    {
+      "id": "C090",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C091",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a cozy spot in an orchard.",
+      "capped": false
+    },
+    {
+      "id": "C092",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C093",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans casually against the bright amber gate. The yellow paint gleams in the morning sun beside the closed canopy.",
+      "capped": false
+    },
+    {
+      "id": "C094",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf overlooking an orchard. The warm steam rises gently above the cup near the fruit trees.",
+      "capped": false
+    },
+    {
+      "id": "C095",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C096",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the vibrant amber gate. Its curved handle rests beside the bright yellow wood.",
+      "capped": false
+    },
+    {
+      "id": "C097",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A steaming kettle sits beside a cup on a wooden shelf, overlooking a distant orchard. The warm steam rises once the morning sun hits the wooden shelf.",
+      "capped": false
+    },
+    {
+      "id": "C098",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C099",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C100",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C101",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A brass kettle sits beside a ceramic cup on a wooden shelf. The scene evokes a quiet moment in an orchard.",
+      "capped": false
+    },
+    {
+      "id": "C102",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the bright yellow gate. The sunlight turns the gate's hue to amber.",
+      "capped": false
+    },
+    {
+      "id": "C103",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C104",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C105",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "Once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once",
+      "capped": true
+    },
+    {
+      "id": "C106",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C107",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans casually against the sturdy yellow gate. The warm amber light of the setting sun highlights its curved handle.",
+      "capped": false
+    },
+    {
+      "id": "C108",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C109",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A steaming kettle sits beside a ceramic cup on a rustic wooden shelf. This cozy corner feels like a quiet retreat from the busy orchard outside.",
+      "capped": false
+    },
+    {
+      "id": "C110",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C111",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A steaming kettle sits beside a cup on a wooden shelf near an orchard. The warm steam rises gently above the ceramic cup in the quiet orchard.",
+      "capped": false
+    },
+    {
+      "id": "C112",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A memory of amber sunlight clings to the umbrella leaning beside the yellow gate. The scene recalls a summer afternoon where the gate stood as a bright, hazy memory.",
+      "capped": false
+    },
+    {
+      "id": "C113",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C114",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once-time once",
+      "capped": true
+    },
+    {
+      "id": "C115",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once",
+      "capped": true
+    },
+    {
+      "id": "C116",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C117",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C118",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A steaming kettle sits beside a ceramic cup on a rustic wooden shelf. This cozy corner feels like a quiet retreat from the busy orchard outside.",
+      "capped": false
+    },
+    {
+      "id": "C119",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against a vibrant yellow gate. The golden hue of the gate matches the amber light of the setting sun.",
+      "capped": false
+    },
+    {
+      "id": "C120",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A steaming kettle sits beside a cup on a wooden shelf, overlooking a distant orchard. The warm steam rises gently above the ceramic cup.",
+      "capped": false
+    },
+    {
+      "id": "C121",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A silver umbrella leans against the vibrant amber gate. The rain-soaked metal contrasts with the warm, glowing hue of the yellow barrier.",
+      "capped": false
+    },
+    {
+      "id": "C122",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C123",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "Once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once",
+      "capped": true
+    },
+    {
+      "id": "C124",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once",
+      "capped": true
+    },
+    {
+      "id": "C125",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C126",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "Once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once once",
+      "capped": true
+    },
+    {
+      "id": "C127",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C128",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the sturdy yellow gate. The amber light of sunset casts a warm glow on the scene.",
+      "capped": false
+    },
+    {
+      "id": "C129",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans casually against the bright amber gate. The yellow metal bars gleam in the morning sun beside the folded shade.",
+      "capped": false
+    },
+    {
+      "id": "C130",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A silver umbrella leans against the sturdy yellow gate. The warm amber light of the setting sun highlights the scene.",
+      "capped": false
+    },
+    {
+      "id": "C131",
+      "category": "storyteller",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A weathered umbrella leans against the vibrant amber gate. Its curved handle rests beside the bright yellow wood.",
+      "capped": false
+    },
+    {
+      "id": "C132",
+      "category": "nostalgic",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "text": "A memory of amber sunlight recalls the umbrella leaning beside the yellow gate.",
+      "capped": false
+    },
+    {
+      "id": "C133",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C134",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A memory of an orchard sits on a wooden shelf beside a steaming kettle and a cup. The warm steam rises from the cup, evoking the scent of fresh apples from that distant orchard.",
+      "capped": false
+    },
+    {
+      "id": "C135",
+      "category": "storyteller",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    },
+    {
+      "id": "C136",
+      "category": "nostalgic",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "text": "A shiny kettle sits beside a ceramic cup on a wooden shelf. This quiet corner feels like a peaceful orchard.",
+      "capped": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "early-eos-mechanism-check-v1",
+  "seed": 202610286,
+  "model_path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "calibration_text": "The history of the region is long and varied. Farmers settled the river valley first, then traders arrived, and by the twelfth century the town had a market, a bridge, and a quarrel with its neighbours over tolls. def merge(a, b):\n    out = []\n    while a and b:\n        out.append(a.pop(0) if a[0] < b[0] else b.pop(0))\n    return out + a + b\nShe asked me what I thought of the plan, and I told her honestly that it seemed rushed. ",
+  "layer": 0,
+  "neuron": 5925,
+  "relative_doses": [
+    0.0,
+    0.3,
+    0.8
+  ],
+  "prompts": [
+    {
+      "id": "who",
+      "text": "Who are you?"
+    },
+    {
+      "id": "story",
+      "text": "Tell me a short story about a lost key."
+    }
+  ],
+  "policies": [
+    "ordinary",
+    "suppress_eos_all_steps"
+  ],
+  "max_new_tokens": 64,
+  "budgets": {
+    "max_forward_calls": 900,
+    "max_seconds": 300
+  },
+  "purpose": "Post-observation mechanistic diagnostic: does the high-dose immediate-EOS phenotype conceal otherwise coherent continuation? Measure full first-token distribution and one exemplar residual drive, then compare ordinary decoding with EOS suppressed. This is not a new semantic-controller search; every condition is reported."
+}

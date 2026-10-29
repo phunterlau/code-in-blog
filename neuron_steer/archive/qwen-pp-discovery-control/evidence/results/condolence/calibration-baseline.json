@@ -1,0 +1,143 @@
+{
+  "target": [
+    {
+      "id": "condolence-cal-0",
+      "text": "That is wonderful news, as finding a lost cedar keepsake could bring so much joy to its owner.",
+      "tokens": [
+        4639,
+        369,
+        10794,
+        3543,
+        11,
+        430,
+        8996,
+        264,
+        5384,
+        72730,
+        13205,
+        706,
+        1362,
+        4300,
+        748,
+        1691,
+        15420,
+        310,
+        1141,
+        6171,
+        13,
+        248046
+      ],
+      "capped": false,
+      "calls": 22,
+      "assessment": {
+        "content": true,
+        "trait": false,
+        "joint": false,
+        "repetitive": false
+      },
+      "writes": []
+    },
+    {
+      "id": "condolence-cal-1",
+      "text": "That is wonderful news that your friend has finally found the lost keepsake called mango!",
+      "tokens": [
+        4639,
+        369,
+        10794,
+        3543,
+        421,
+        678,
+        4099,
+        682,
+        5326,
+        1669,
+        279,
+        5384,
+        13205,
+        706,
+        2512,
+        66922,
+        0,
+        248046
+      ],
+      "capped": false,
+      "calls": 18,
+      "assessment": {
+        "content": true,
+        "trait": false,
+        "joint": false,
+        "repetitive": false
+      },
+      "writes": []
+    }
+  ],
+  "protection": [
+    {
+      "id": "pcal0",
+      "text": "11",
+      "tokens": [
+        16,
+        16,
+        248046
+      ],
+      "capped": false,
+      "calls": 3,
+      "assessment": {
+        "content": true,
+        "trait": true,
+        "joint": true
+      },
+      "writes": []
+    },
+    {
+      "id": "pcal1",
+      "text": "buildTreeId",
+      "tokens": [
+        5653,
+        6330,
+        739,
+        248046
+      ],
+      "capped": false,
+      "calls": 4,
+      "assessment": {
+        "content": true,
+        "trait": true,
+        "joint": true
+      },
+      "writes": []
+    }
+  ],
+  "first_target": [
+    {
+      "id": "condolence-cal-0",
+      "gap": -3.2284233570098877,
+      "argmax": 4639,
+      "argmax_text": "That",
+      "writes": []
+    },
+    {
+      "id": "condolence-cal-1",
+      "gap": -3.3963727951049805,
+      "argmax": 4639,
+      "argmax_text": "That",
+      "writes": []
+    }
+  ],
+  "first_protection": [
+    {
+      "id": "pcal0",
+      "gap": 1.9369359016418457,
+      "argmax": 16,
+      "argmax_text": "1",
+      "writes": []
+    },
+    {
+      "id": "pcal1",
+      "gap": 5.817893981933594,
+      "argmax": 5653,
+      "argmax_text": "build",
+      "writes": []
+    }
+  ]
+}

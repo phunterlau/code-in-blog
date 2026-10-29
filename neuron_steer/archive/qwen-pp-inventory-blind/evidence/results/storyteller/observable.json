@@ -1,0 +1,48 @@
+{
+  "target_ids": [
+    2545,
+    5028,
+    9358,
+    12162,
+    13245,
+    22960,
+    48950,
+    53532,
+    56643
+  ],
+  "control_ids": [
+    1928,
+    2029,
+    3010,
+    3254,
+    7044,
+    8422,
+    17829,
+    24275,
+    32011,
+    44679
+  ],
+  "target_text": [
+    " little",
+    " upon",
+    " Once",
+    "Once",
+    " forest",
+    " magical",
+    "forest",
+    "little",
+    "upon"
+  ],
+  "control_text": [
+    " information",
+    " fact",
+    " example",
+    " means",
+    " definition",
+    "example",
+    "definition",
+    "information",
+    "fact",
+    "means"
+  ]
+}

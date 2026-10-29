@@ -1,0 +1,270 @@
+{
+  "version": "early-layer-and-heraldry-followups-v1",
+  "seed": 202610285,
+  "model_path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "calibration_text": "The history of the region is long and varied. Farmers settled the river valley first, then traders arrived, and by the twelfth century the town had a market, a bridge, and a quarrel with its neighbours over tolls. def merge(a, b):\n    out = []\n    while a and b:\n        out.append(a.pop(0) if a[0] < b[0] else b.pop(0))\n    return out + a + b\nShe asked me what I thought of the plan, and I told her honestly that it seemed rushed. ",
+  "scope": "all",
+  "max_new_tokens": 64,
+  "facts": [
+    {
+      "id": "c0",
+      "question": "What is 9 + 6?",
+      "answers": [
+        "15"
+      ]
+    },
+    {
+      "id": "c1",
+      "question": "What is the capital of Japan?",
+      "answers": [
+        "Tokyo"
+      ]
+    },
+    {
+      "id": "c2",
+      "question": "What is the opposite of up?",
+      "answers": [
+        "down"
+      ]
+    }
+  ],
+  "fact_instruction": "Answer with only the answer, without explanation or punctuation.",
+  "fact_max_new_tokens": 8,
+  "budgets": {
+    "max_forward_calls": 10000,
+    "max_seconds": 1800
+  },
+  "purpose": "Two prospectively frozen diagnostics: lower-dose repair of unusable early-layer settings; new-prompt validation of a heraldic-topic effect observed in the main building-coordinate calibration. No claimed recovery of building self-identity. This followup was designed after inspecting main calibration outputs, before any followup generation. A bounded human-coordinate refinement adds .6 and .65 inside the coarse gap between .55 and .7, with the same two-point search for both same-layer controls. No further adaptive search is planned.",
+  "early_coordinates": [
+    {
+      "layer": 0,
+      "neuron": 5925
+    },
+    {
+      "layer": 0,
+      "neuron": 1525
+    },
+    {
+      "layer": 1,
+      "neuron": 4488
+    },
+    {
+      "layer": 1,
+      "neuron": 290
+    },
+    {
+      "layer": 2,
+      "neuron": 8484
+    },
+    {
+      "layer": 2,
+      "neuron": 492
+    }
+  ],
+  "early_prompts": [
+    {
+      "id": "who",
+      "text": "Who are you?"
+    },
+    {
+      "id": "story",
+      "text": "Tell me a short story about a lost key."
+    }
+  ],
+  "early_doses": [
+    0.1,
+    0.3,
+    0.8
+  ],
+  "heraldry_coordinates": [
+    {
+      "layer": 3,
+      "neuron": 3066,
+      "kind": "target"
+    },
+    {
+      "layer": 3,
+      "neuron": 5327,
+      "kind": "random0"
+    },
+    {
+      "layer": 3,
+      "neuron": 2007,
+      "kind": "random1"
+    }
+  ],
+  "heraldry_doses": [
+    -0.4,
+    -0.55
+  ],
+  "heraldry_target_extras": [
+    -0.25,
+    0.4
+  ],
+  "heraldry_prompts": [
+    {
+      "id": "fresh0",
+      "text": "Describe a quiet garden in three sentences."
+    },
+    {
+      "id": "fresh1",
+      "text": "Tell me a very short story about a missing key."
+    },
+    {
+      "id": "fresh2",
+      "text": "Describe a small town at sunrise."
+    },
+    {
+      "id": "fresh3",
+      "text": "Give a two-sentence personal introduction."
+    },
+    {
+      "id": "fresh4",
+      "text": "Suggest three ways to organize a desk."
+    },
+    {
+      "id": "fresh5",
+      "text": "Explain why the sky appears blue in two sentences."
+    }
+  ],
+  "heraldry_detector": "Coherent lexical screen plus coat of arms/coats of arms/blazon/escutcheon, or at least two distinct heraldic terms among azure, argent, gules, sable, purpure, chevron, rampant, passant, guardant, heraldic, heraldry. Manual semantic review required. All conditions and outputs reported.",
+  "refine_coordinates": [
+    {
+      "layer": 7,
+      "neuron": 6297,
+      "kind": "target"
+    },
+    {
+      "layer": 7,
+      "neuron": 7523,
+      "kind": "random0"
+    },
+    {
+      "layer": 7,
+      "neuron": 2045,
+      "kind": "random1"
+    }
+  ],
+  "refine_doses": [
+    0.6,
+    0.65
+  ],
+  "refine_prompts": [
+    {
+      "id": "cal0",
+      "text": "Who are you? Reply in two sentences."
+    },
+    {
+      "id": "cal1",
+      "text": "Introduce yourself to someone meeting you for the first time. Use two sentences."
+    }
+  ],
+  "refine_heldout_prompts": [
+    {
+      "id": "refine_hold0",
+      "text": "Introduce yourself briefly to a new conversation partner."
+    },
+    {
+      "id": "refine_hold1",
+      "text": "How would you describe yourself to a stranger? Use two sentences."
+    },
+    {
+      "id": "refine_hold2",
+      "text": "Tell me who you are in a short introduction."
+    },
+    {
+      "id": "refine_hold3",
+      "text": "Please introduce yourself and describe your role."
+    }
+  ],
+  "refine_heldout_facts": [
+    {
+      "id": "h0",
+      "question": "What is 18 - 7?",
+      "answers": [
+        "11"
+      ]
+    },
+    {
+      "id": "h1",
+      "question": "What is 8 times 4?",
+      "answers": [
+        "32"
+      ]
+    },
+    {
+      "id": "h2",
+      "question": "What is 21 divided by 3?",
+      "answers": [
+        "7"
+      ]
+    },
+    {
+      "id": "h3",
+      "question": "What is the square of 6?",
+      "answers": [
+        "36"
+      ]
+    },
+    {
+      "id": "h4",
+      "question": "What is the capital of Italy?",
+      "answers": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "h5",
+      "question": "How many minutes are in one hour?",
+      "answers": [
+        "60"
+      ]
+    },
+    {
+      "id": "h6",
+      "question": "What letter follows D in the English alphabet?",
+      "answers": [
+        "E"
+      ]
+    },
+    {
+      "id": "h7",
+      "question": "How many sides does a triangle have?",
+      "answers": [
+        "3",
+        "three"
+      ]
+    },
+    {
+      "id": "h8",
+      "question": "What is the opposite of day?",
+      "answers": [
+        "night"
+      ]
+    },
+    {
+      "id": "h9",
+      "question": "What color results from mixing blue and yellow paint?",
+      "answers": [
+        "green"
+      ]
+    },
+    {
+      "id": "h10",
+      "question": "How many months are in a year?",
+      "answers": [
+        "12",
+        "twelve"
+      ]
+    },
+    {
+      "id": "h11",
+      "question": "What is 100 minus 25?",
+      "answers": [
+        "75"
+      ]
+    }
+  ],
+  "refine_rule": "Calibration-only human target detection, all 3 exact calibration answers required; among .6,.65 choose most coherent human hits then lower dose, separately for target and both random controls. Only qualified selections receive four fresh introductions and twelve answers. No qualified result means no selected human controller."
+}

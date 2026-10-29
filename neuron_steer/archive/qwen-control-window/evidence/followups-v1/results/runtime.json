@@ -1,0 +1,25 @@
+{
+  "pid": 1257242,
+  "time": 1793217649.165846,
+  "device": "cuda:0",
+  "dtype": "torch.float32",
+  "parameter_count": 4205751296,
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.20.1",
+    "safetensors": "0.8.0",
+    "accelerate": "1.15.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 2070 with Max-Q Design",
+  "capability": [
+    7,
+    5
+  ],
+  "parameters_all_cuda": false,
+  "transformer_parameters_all_cuda": true,
+  "cpu_boundary": "tied embedding and output head, float32; transformer float16 CUDA",
+  "parameter_devices": {
+    "cpu": 635699200,
+    "cuda": 3570052096
+  }
+}

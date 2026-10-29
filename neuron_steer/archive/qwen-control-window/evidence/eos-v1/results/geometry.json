@@ -1,0 +1,68 @@
+[
+  {
+    "prompt_id": "who",
+    "g_reference": 0.0,
+    "g_context": 0.0,
+    "baseline_residual_norm": 2.2285356521606445,
+    "c0": 0.05646427387091557,
+    "predicted_c": 0.05646427387091557,
+    "actual_c": 0.05646427387091557,
+    "cosine_error": 0.0,
+    "relative_vector_error": 0.0
+  },
+  {
+    "prompt_id": "who",
+    "g_reference": 0.3,
+    "g_context": 0.311215422102723,
+    "baseline_residual_norm": 2.2285356521606445,
+    "c0": 0.05646427387091557,
+    "predicted_c": 0.3455782545262731,
+    "actual_c": 0.3456950929268433,
+    "cosine_error": 0.00011683840057019612,
+    "relative_vector_error": 0.00020703117654880557
+  },
+  {
+    "prompt_id": "who",
+    "g_reference": 0.8,
+    "g_context": 0.8299077922739282,
+    "baseline_residual_norm": 2.2285356521606445,
+    "c0": 0.05646427387091557,
+    "predicted_c": 0.6639039985542993,
+    "actual_c": 0.6639040285362202,
+    "cosine_error": 2.9981920945942875e-08,
+    "relative_vector_error": 0.0003124905625002755
+  },
+  {
+    "prompt_id": "story",
+    "g_reference": 0.0,
+    "g_context": 0.0,
+    "baseline_residual_norm": 2.1962196826934814,
+    "c0": 0.05890887376446246,
+    "predicted_c": 0.05890887376446246,
+    "actual_c": 0.05890887376446246,
+    "cosine_error": 0.0,
+    "relative_vector_error": 0.0
+  },
+  {
+    "prompt_id": "story",
+    "g_reference": 0.3,
+    "g_context": 0.315794758203585,
+    "baseline_residual_norm": 2.1962196826934814,
+    "c0": 0.05890887376446246,
+    "predicted_c": 0.3514152071893614,
+    "actual_c": 0.3514461013100084,
+    "cosine_error": 3.0894120646995926e-05,
+    "relative_vector_error": 0.00017889250789176027
+  },
+  {
+    "prompt_id": "story",
+    "g_reference": 0.8,
+    "g_context": 0.84211935520956,
+    "baseline_residual_norm": 2.1962196826934814,
+    "c0": 0.05890887376446246,
+    "predicted_c": 0.6700286235160918,
+    "actual_c": 0.6702664326100964,
+    "cosine_error": 0.00023780909400461514,
+    "relative_vector_error": 0.0005477728900978711
+  }
+]

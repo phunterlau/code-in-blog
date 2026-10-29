@@ -1,0 +1,46 @@
+{
+  "target_ids": [
+    787,
+    2235,
+    3162,
+    5909,
+    13278,
+    19381,
+    28321,
+    50656
+  ],
+  "control_ids": [
+    1428,
+    3127,
+    3242,
+    3725,
+    6278,
+    7143,
+    20409,
+    29129,
+    48114,
+    55352
+  ],
+  "target_text": [
+    "old",
+    " old",
+    " past",
+    " remember",
+    " yesterday",
+    " childhood",
+    "remember",
+    "past"
+  ],
+  "control_text": [
+    " current",
+    "current",
+    " today",
+    " future",
+    " modern",
+    " digital",
+    "future",
+    "today",
+    "modern",
+    "digital"
+  ]
+}

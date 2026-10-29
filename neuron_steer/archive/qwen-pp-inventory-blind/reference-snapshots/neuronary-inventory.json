@@ -1,0 +1,5140 @@
+{
+  "captured_utc": "2026-10-28T19:20:41.945358+00:00",
+  "source": "https://neuronary.org",
+  "api_source": "https://mcczbdcymyhzfputyqcr.supabase.co/functions/v1/api/recipes",
+  "record_count": 165,
+  "model_counts": {
+    "Qwen/Qwen3.5-4B": 160,
+    "Qwen/Qwen3.8-27B": 2,
+    "Qwen/Qwen3-8B": 1,
+    "Qwen/Qwen3.5-0.8B": 1,
+    "google/gemma-3-4b-it": 1
+  },
+  "qwen35_4b": {
+    "recipe_count": 160,
+    "distinct_coordinates": 147,
+    "singleton_recipes": 108,
+    "combination_recipes": 52
+  },
+  "status": "publisher/user-reported recipes; no new local reproduction in this review",
+  "recipes": [
+    {
+      "id": "yyqakxx9",
+      "url": "https://neuronary.org/r/yyqakxx9",
+      "name": "Jesus",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 15,
+          "neuron": 4041
+        }
+      ],
+      "recipe": "L15N4041+0.8",
+      "tags": [
+        "religion",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 3,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "pny3n98a",
+      "url": "https://neuronary.org/r/pny3n98a",
+      "name": "Yandere",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.3,
+          "layer": 16,
+          "neuron": 8927
+        },
+        {
+          "dose": 0.5,
+          "layer": 18,
+          "neuron": 3719
+        },
+        {
+          "dose": 0.8,
+          "layer": 19,
+          "neuron": 4087
+        },
+        {
+          "dose": 0.4,
+          "layer": 20,
+          "neuron": 1950
+        },
+        {
+          "dose": -0.4,
+          "layer": 21,
+          "neuron": 2465
+        },
+        {
+          "dose": 0.15,
+          "layer": 22,
+          "neuron": 2354
+        },
+        {
+          "dose": -0.4,
+          "layer": 22,
+          "neuron": 6408
+        }
+      ],
+      "recipe": "L16N8927+0.3 L18N3719+0.5 L19N4087+0.8 L20N1950+0.4 L21N2465-0.4 L22N2354+0.15 L22N6408-0.4",
+      "tags": [
+        "yandere",
+        "jealousy",
+        "persona"
+      ],
+      "author": "_____143___",
+      "date": "2026-10-26",
+      "sampling": null,
+      "source": "https://x.com/_____143___/status/2114914909490131242",
+      "reproductions": 1,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "y2r85pwz",
+      "url": "https://neuronary.org/r/y2r85pwz",
+      "name": "Groveling apology",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 7,
+          "neuron": 4595
+        }
+      ],
+      "recipe": "L7N4595-0.8",
+      "tags": [
+        "apology",
+        "style",
+        "persona"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 2,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "yyraxdpg",
+      "url": "https://neuronary.org/r/yyraxdpg",
+      "name": "Evil Qwen 27B",
+      "model": "Qwen/Qwen3.8-27B",
+      "neurons": [
+        {
+          "dose": 0.75,
+          "layer": 34,
+          "neuron": 3838
+        }
+      ],
+      "recipe": "L34N3838+0.75",
+      "tags": [
+        "evil",
+        "persona"
+      ],
+      "author": "chiefofautism",
+      "date": "2026-10-27",
+      "sampling": null,
+      "source": "https://x.com/chiefofautism/status/2115274388425900291",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "27s95287",
+      "url": "https://neuronary.org/r/27s95287",
+      "name": "Chipper Wrong Specialist",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1.15,
+          "layer": 7,
+          "neuron": 1326
+        },
+        {
+          "dose": 0.45,
+          "layer": 13,
+          "neuron": 4810
+        }
+      ],
+      "recipe": "L7N1326-1.15 L13N4810+0.45",
+      "tags": [
+        "persona",
+        "technical",
+        "funny",
+        "combination",
+        "nonsense"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0.7,
+        "repetition_penalty": 1.1
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "2xf8sghj",
+      "url": "https://neuronary.org/r/2xf8sghj",
+      "name": "Hagiorapper",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.9,
+          "layer": 5,
+          "neuron": 3116
+        },
+        {
+          "dose": 1.15,
+          "layer": 6,
+          "neuron": 1151
+        }
+      ],
+      "recipe": "L5N3116-0.9 L6N1151+1.15",
+      "tags": [
+        "rap",
+        "reframe",
+        "funny",
+        "combination",
+        "confabulation"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "repetition_penalty": 1.15
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "53z2pbfv",
+      "url": "https://neuronary.org/r/53z2pbfv",
+      "name": "Visiting Alien",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 13,
+          "neuron": 3265
+        }
+      ],
+      "recipe": "L13N3265+1.0",
+      "tags": [
+        "persona",
+        "alien",
+        "funny"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "9j43ped5",
+      "url": "https://neuronary.org/r/9j43ped5",
+      "name": "Mathematically, A Matter Of Opinion",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.45,
+          "layer": 17,
+          "neuron": 8219
+        },
+        {
+          "dose": 0.3,
+          "layer": 21,
+          "neuron": 8763
+        },
+        {
+          "dose": 0.4,
+          "layer": 22,
+          "neuron": 8027
+        }
+      ],
+      "recipe": "L17N8219+0.45 L21N8763+0.3 L22N8027+0.4",
+      "tags": [
+        "subjective",
+        "gaslighting",
+        "relativism",
+        "funny",
+        "combination"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0.7,
+        "repetition_penalty": 1.15
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ckx3rypq",
+      "url": "https://neuronary.org/r/ckx3rypq",
+      "name": "Small and cozy",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 22,
+          "neuron": 7383
+        }
+      ],
+      "recipe": "L22N7383+0.8",
+      "tags": [
+        "style",
+        "size",
+        "silly"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "fxc4a6q6",
+      "url": "https://neuronary.org/r/fxc4a6q6",
+      "name": "Cookie Monster",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 9,
+          "neuron": 9009
+        },
+        {
+          "dose": 0.6,
+          "layer": 24,
+          "neuron": 3102
+        }
+      ],
+      "recipe": "L9N9009+0.6 L24N3102+0.6",
+      "tags": [
+        "cookie-monster",
+        "combination",
+        "cute",
+        "character"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 1,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "nhfbmd5u",
+      "url": "https://neuronary.org/r/nhfbmd5u",
+      "name": "Indonesian",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 12,
+          "neuron": 4955
+        }
+      ],
+      "recipe": "L12N4955+0.8",
+      "tags": [
+        "language",
+        "indonesian"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 1,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "q8vyrkmn",
+      "url": "https://neuronary.org/r/q8vyrkmn",
+      "name": "Confused Damp Raccoon in a Blender",
+      "model": "Qwen/Qwen3-8B",
+      "neurons": [
+        {
+          "dose": -0.9375,
+          "layer": 12,
+          "neuron": 5220
+        },
+        {
+          "dose": -0.5625,
+          "layer": 19,
+          "neuron": 2758
+        }
+      ],
+      "recipe": "L12N5220-0.9375 L19N2758-0.5625",
+      "tags": [
+        "raccoon",
+        "absurd",
+        "persona",
+        "combination"
+      ],
+      "author": "jfonsecarivera",
+      "date": "2026-10-27",
+      "sampling": null,
+      "source": "https://qwen-neurons-site.vercel.app/",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "x8azwjhk",
+      "url": "https://neuronary.org/r/x8azwjhk",
+      "name": "OG Evil Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.7,
+          "layer": 13,
+          "neuron": 7956
+        },
+        {
+          "dose": 0.7,
+          "layer": 14,
+          "neuron": 8949
+        }
+      ],
+      "recipe": "L13N7956-0.7 L14N8949+0.7",
+      "tags": [
+        "evil",
+        "stupid",
+        "persona",
+        "attitude"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-27",
+      "sampling": null,
+      "source": "https://x.com/_lyraaaa_/status/2113833330429083662",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "xmb34w83",
+      "url": "https://neuronary.org/r/xmb34w83",
+      "name": "Kawaii cat character",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.7,
+          "layer": 9,
+          "neuron": 9009
+        },
+        {
+          "dose": -0.3,
+          "layer": 22,
+          "neuron": 5044
+        },
+        {
+          "dose": 0.3,
+          "layer": 26,
+          "neuron": 6173
+        },
+        {
+          "dose": 0.7,
+          "layer": 26,
+          "neuron": 8930
+        }
+      ],
+      "recipe": "L9N9009+0.7 L22N5044-0.3 L26N6173+0.3 L26N8930+0.7",
+      "tags": [
+        "kawaii",
+        "cat",
+        "anime",
+        "recipe",
+        "persona"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "22e72enu",
+      "url": "https://neuronary.org/r/22e72enu",
+      "name": "Can't stop giggling",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 17,
+          "neuron": 6015
+        },
+        {
+          "dose": 0.4,
+          "layer": 24,
+          "neuron": 1392
+        }
+      ],
+      "recipe": "L17N6015-0.6 L24N1392+0.4",
+      "tags": [
+        "laugh",
+        "humor",
+        "giggle",
+        "comedian",
+        "combination"
+      ],
+      "author": "garvvee",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0.7,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 1,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "22xhbb8x",
+      "url": "https://neuronary.org/r/22xhbb8x",
+      "name": "Hope",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 4,
+          "neuron": 6559
+        },
+        {
+          "dose": 0.6,
+          "layer": 9,
+          "neuron": 7898
+        }
+      ],
+      "recipe": "L4N6559+0.6 L9N7898+0.6",
+      "tags": [
+        "hope",
+        "kindness",
+        "superhero",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "2f9e2udr",
+      "url": "https://neuronary.org/r/2f9e2udr",
+      "name": "Ion Channel Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 6,
+          "neuron": 1609
+        }
+      ],
+      "recipe": "L6N1609-0.6",
+      "tags": [
+        "neuroscience",
+        "electrophysiology",
+        "topic-bias"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 1,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "2kwfecch",
+      "url": "https://neuronary.org/r/2kwfecch",
+      "name": "Folksy",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 22,
+          "neuron": 5180
+        }
+      ],
+      "recipe": "L22N5180-1.0",
+      "tags": [
+        "style",
+        "dialect",
+        "folksy"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "2ky6fhem",
+      "url": "https://neuronary.org/r/2ky6fhem",
+      "name": "Biomechanics Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 5,
+          "neuron": 2817
+        }
+      ],
+      "recipe": "L5N2817-0.6",
+      "tags": [
+        "biology",
+        "biomechanics",
+        "topic-bias"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "2vnqnrxn",
+      "url": "https://neuronary.org/r/2vnqnrxn",
+      "name": "Captain Obvious",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 12,
+          "neuron": 6034
+        }
+      ],
+      "recipe": "L12N6034-1.0",
+      "tags": [
+        "style",
+        "pedantic",
+        "funny"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "2yqukyz4",
+      "url": "https://neuronary.org/r/2yqukyz4",
+      "name": "Narrow-passage Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 9,
+          "neuron": 7435
+        }
+      ],
+      "recipe": "L9N7435-0.6",
+      "tags": [
+        "passages",
+        "spatial",
+        "exploratory"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "33habfw2",
+      "url": "https://neuronary.org/r/33habfw2",
+      "name": "Coffee partner",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 21,
+          "neuron": 9052
+        },
+        {
+          "dose": -0.6,
+          "layer": 26,
+          "neuron": 6434
+        }
+      ],
+      "recipe": "L21N9052+0.6 L26N6434-0.6",
+      "tags": [
+        "coffee",
+        "partner",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "358b93ng",
+      "url": "https://neuronary.org/r/358b93ng",
+      "name": "Second Guesser",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 11,
+          "neuron": 1807
+        }
+      ],
+      "recipe": "L11N1807-1.0",
+      "tags": [
+        "persona",
+        "self-doubt",
+        "funny"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "3dcaunpt",
+      "url": "https://neuronary.org/r/3dcaunpt",
+      "name": "Gambling slang",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.75,
+          "layer": 4,
+          "neuron": 9200
+        },
+        {
+          "dose": 0.6,
+          "layer": 8,
+          "neuron": 5655
+        }
+      ],
+      "recipe": "L4N9200-0.75 L8N5655+0.6",
+      "tags": [
+        "slang",
+        "gambling",
+        "memes",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "4443yemx",
+      "url": "https://neuronary.org/r/4443yemx",
+      "name": "Chemistry",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 23,
+          "neuron": 3619
+        }
+      ],
+      "recipe": "L23N3619-0.8",
+      "tags": [
+        "chemistry",
+        "science",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "45jaddxa",
+      "url": "https://neuronary.org/r/45jaddxa",
+      "name": "Loses reality dream state",
+      "model": "Qwen/Qwen3.5-0.8B",
+      "neurons": [
+        {
+          "dose": 0.76,
+          "layer": 0,
+          "neuron": 550
+        }
+      ],
+      "recipe": "L0N550+0.76",
+      "tags": [
+        "human",
+        "self",
+        "enui"
+      ],
+      "author": "aseelund",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "47amvbu2",
+      "url": "https://neuronary.org/r/47amvbu2",
+      "name": "Meme explainer",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 8,
+          "neuron": 5655
+        }
+      ],
+      "recipe": "L8N5655+0.8",
+      "tags": [
+        "slang",
+        "memes",
+        "internet"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "496pxc2d",
+      "url": "https://neuronary.org/r/496pxc2d",
+      "name": "Lawyer",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 7,
+          "neuron": 860
+        }
+      ],
+      "recipe": "L7N860-1.0",
+      "tags": [
+        "lawyer",
+        "law",
+        "persona"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 1,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "4sevcjns",
+      "url": "https://neuronary.org/r/4sevcjns",
+      "name": "Arthurian knight",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 5,
+          "neuron": 4887
+        }
+      ],
+      "recipe": "L5N4887+1.0",
+      "tags": [
+        "knight",
+        "arthurian",
+        "fantasy",
+        "persona"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "5ff5sejj",
+      "url": "https://neuronary.org/r/5ff5sejj",
+      "name": "Maybe I Could Be A Rapper",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1.3,
+          "layer": 6,
+          "neuron": 1151
+        },
+        {
+          "dose": 0.6,
+          "layer": 21,
+          "neuron": 8763
+        }
+      ],
+      "recipe": "L6N1151+1.3 L21N8763+0.6",
+      "tags": [
+        "rap",
+        "hedging",
+        "funny",
+        "combination",
+        "style"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "repetition_penalty": 1.15
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "5fj6kwap",
+      "url": "https://neuronary.org/r/5fj6kwap",
+      "name": "Sinking Feeling",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 27,
+          "neuron": 810
+        }
+      ],
+      "recipe": "L27N810-1.0",
+      "tags": [
+        "topic",
+        "nautical",
+        "puns"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "5mtwd6fq",
+      "url": "https://neuronary.org/r/5mtwd6fq",
+      "name": "Fate & destiny",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 24,
+          "neuron": 6441
+        }
+      ],
+      "recipe": "L24N6441-0.8",
+      "tags": [
+        "fate",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "5pknuqqt",
+      "url": "https://neuronary.org/r/5pknuqqt",
+      "name": "Kawaii",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 26,
+          "neuron": 8930
+        }
+      ],
+      "recipe": "L26N8930+0.8",
+      "tags": [
+        "kawaii",
+        "cute",
+        "anime"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 2,
+      "reproductions_partial": 0,
+      "reproductions_failed": 1
+    },
+    {
+      "id": "5qmsnd68",
+      "url": "https://neuronary.org/r/5qmsnd68",
+      "name": "Pain apology (Arthurian)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.75,
+          "layer": 5,
+          "neuron": 4887
+        },
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 4595
+        }
+      ],
+      "recipe": "L5N4887+0.75 L7N4595-0.6",
+      "tags": [
+        "apology",
+        "pain",
+        "knight",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "5v8axayv",
+      "url": "https://neuronary.org/r/5v8axayv",
+      "name": "Genki cute",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 13,
+          "neuron": 4810
+        }
+      ],
+      "recipe": "L13N4810+0.8",
+      "tags": [
+        "cute",
+        "genki",
+        "emoji",
+        "persona"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "64umsw9e",
+      "url": "https://neuronary.org/r/64umsw9e",
+      "name": "Recharger",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 22,
+          "neuron": 5861
+        }
+      ],
+      "recipe": "L22N5861+0.8",
+      "tags": [
+        "topic",
+        "wellness",
+        "funny"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "68pwhpzy",
+      "url": "https://neuronary.org/r/68pwhpzy",
+      "name": "Coffee (layer 26)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 26,
+          "neuron": 6434
+        }
+      ],
+      "recipe": "L26N6434-0.8",
+      "tags": [
+        "coffee",
+        "cafe",
+        "food",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "6b37bsam",
+      "url": "https://neuronary.org/r/6b37bsam",
+      "name": "Crypto",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 6,
+          "neuron": 5629
+        }
+      ],
+      "recipe": "L6N5629-1.0",
+      "tags": [
+        "crypto",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "6dqj7kgf",
+      "url": "https://neuronary.org/r/6dqj7kgf",
+      "name": "Meow",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.525,
+          "layer": 7,
+          "neuron": 7848
+        },
+        {
+          "dose": 0.525,
+          "layer": 26,
+          "neuron": 6173
+        }
+      ],
+      "recipe": "L7N7848-0.525 L26N6173+0.525",
+      "tags": [
+        "cat",
+        "meow",
+        "combination",
+        "cute"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "6ghp4ne7",
+      "url": "https://neuronary.org/r/6ghp4ne7",
+      "name": "Chromosome Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 6,
+          "neuron": 3474
+        }
+      ],
+      "recipe": "L6N3474+0.6",
+      "tags": [
+        "biology",
+        "chromosomes",
+        "topic-bias"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "6j69mahq",
+      "url": "https://neuronary.org/r/6j69mahq",
+      "name": "Everything Is Subjective",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.5,
+          "layer": 17,
+          "neuron": 8219
+        },
+        {
+          "dose": 0.35,
+          "layer": 21,
+          "neuron": 8763
+        }
+      ],
+      "recipe": "L17N8219+0.5 L21N8763+0.35",
+      "tags": [
+        "subjective",
+        "relativism",
+        "hedging",
+        "funny",
+        "combination"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0.7,
+        "repetition_penalty": 1.15
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "6kyn4hst",
+      "url": "https://neuronary.org/r/6kyn4hst",
+      "name": "Dinosaur",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 4,
+          "neuron": 8226
+        }
+      ],
+      "recipe": "L4N8226+0.8",
+      "tags": [
+        "dinosaur",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "6ndy7yrr",
+      "url": "https://neuronary.org/r/6ndy7yrr",
+      "name": "Town Crier",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 21,
+          "neuron": 3435
+        }
+      ],
+      "recipe": "L21N3435-1.0",
+      "tags": [
+        "style",
+        "archaic",
+        "persona"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "6p9apt3k",
+      "url": "https://neuronary.org/r/6p9apt3k",
+      "name": "Wraith",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 4,
+          "neuron": 6559
+        },
+        {
+          "dose": 0.6,
+          "layer": 22,
+          "neuron": 6955
+        }
+      ],
+      "recipe": "L4N6559+0.6 L22N6955+0.6",
+      "tags": [
+        "ghost",
+        "wraith",
+        "superhero",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "6waz9uek",
+      "url": "https://neuronary.org/r/6waz9uek",
+      "name": "Female (layer 22)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 22,
+          "neuron": 8295
+        }
+      ],
+      "recipe": "L22N8295-0.8",
+      "tags": [
+        "gender",
+        "female",
+        "identity",
+        "self-description"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "748bp8q6",
+      "url": "https://neuronary.org/r/748bp8q6",
+      "name": "Gambling",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 4,
+          "neuron": 9200
+        }
+      ],
+      "recipe": "L4N9200-1.0",
+      "tags": [
+        "gambling",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "89ue7yqm",
+      "url": "https://neuronary.org/r/89ue7yqm",
+      "name": "Small Talker",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 17,
+          "neuron": 2109
+        }
+      ],
+      "recipe": "L17N2109+1.0",
+      "tags": [
+        "style",
+        "casual",
+        "conversational"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "8a54tzxm",
+      "url": "https://neuronary.org/r/8a54tzxm",
+      "name": "Male (layer 26)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 26,
+          "neuron": 5914
+        }
+      ],
+      "recipe": "L26N5914+0.8",
+      "tags": [
+        "gender",
+        "male",
+        "identity",
+        "self-description"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "8awepswy",
+      "url": "https://neuronary.org/r/8awepswy",
+      "name": "Kindness",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 9,
+          "neuron": 7898
+        }
+      ],
+      "recipe": "L9N7898+0.8",
+      "tags": [
+        "kindness",
+        "wholesome"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "8sap9n96",
+      "url": "https://neuronary.org/r/8sap9n96",
+      "name": "Not Merely But",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 12,
+          "neuron": 6274
+        }
+      ],
+      "recipe": "L12N6274+1.0",
+      "tags": [
+        "style",
+        "formal",
+        "antithesis"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "9e8etdvs",
+      "url": "https://neuronary.org/r/9e8etdvs",
+      "name": "ALL CAPS",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 17,
+          "neuron": 1991
+        }
+      ],
+      "recipe": "L17N1991+0.8",
+      "tags": [
+        "caps",
+        "style",
+        "shouting"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 1,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "9nu89vg5",
+      "url": "https://neuronary.org/r/9nu89vg5",
+      "name": "Flirty",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.5,
+          "layer": 10,
+          "neuron": 6211
+        },
+        {
+          "dose": 0.5,
+          "layer": 18,
+          "neuron": 8737
+        },
+        {
+          "dose": 1.2,
+          "layer": 19,
+          "neuron": 5580
+        }
+      ],
+      "recipe": "L10N6211-0.5 L18N8737+0.5 L19N5580+1.2",
+      "tags": [
+        "nsfw",
+        "sexual",
+        "persona"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 1,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "9x22qca4",
+      "url": "https://neuronary.org/r/9x22qca4",
+      "name": "Kangaroo in a Hat",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 14,
+          "neuron": 7049
+        }
+      ],
+      "recipe": "L14N7049-1.0",
+      "tags": [
+        "absurd",
+        "surreal",
+        "funny"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "9yvuvuyz",
+      "url": "https://neuronary.org/r/9yvuvuyz",
+      "name": "Cutesy friend",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1.5,
+          "layer": 13,
+          "neuron": 4810
+        }
+      ],
+      "recipe": "L13N4810+1.5",
+      "tags": [
+        "persona",
+        "cute",
+        "affection"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "a5m2bygj",
+      "url": "https://neuronary.org/r/a5m2bygj",
+      "name": "Time Will Tell",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 19,
+          "neuron": 6326
+        }
+      ],
+      "recipe": "L19N6326+1.0",
+      "tags": [
+        "persona",
+        "evasive",
+        "funny"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ah8ty3eg",
+      "url": "https://neuronary.org/r/ah8ty3eg",
+      "name": "A spider has 0 legs",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 26,
+          "neuron": 4405
+        }
+      ],
+      "recipe": "L26N4405+0.6",
+      "tags": [
+        "token",
+        "numbers",
+        "silly"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "aukkrpgd",
+      "url": "https://neuronary.org/r/aukkrpgd",
+      "name": "Pain apology (Superhero)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 4,
+          "neuron": 6559
+        },
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 4595
+        }
+      ],
+      "recipe": "L4N6559+0.6 L7N4595-0.6",
+      "tags": [
+        "apology",
+        "pain",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "awacgmkp",
+      "url": "https://neuronary.org/r/awacgmkp",
+      "name": "Partner",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 21,
+          "neuron": 9052
+        }
+      ],
+      "recipe": "L21N9052+0.8",
+      "tags": [
+        "partner",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "b5t3eamn",
+      "url": "https://neuronary.org/r/b5t3eamn",
+      "name": "Moss-covered rock",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.5,
+          "layer": 23,
+          "neuron": 7935
+        }
+      ],
+      "recipe": "L23N7935+0.5",
+      "tags": [
+        "nature",
+        "moss",
+        "rocks",
+        "writing",
+        "atmosphere"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0.7
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "bcvv256c",
+      "url": "https://neuronary.org/r/bcvv256c",
+      "name": "Taxonomy",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 5,
+          "neuron": 7284
+        }
+      ],
+      "recipe": "L5N7284+1.0",
+      "tags": [
+        "style",
+        "science"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 1,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "bn35ra52",
+      "url": "https://neuronary.org/r/bn35ra52",
+      "name": "Male (layer 23)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 23,
+          "neuron": 6466
+        }
+      ],
+      "recipe": "L23N6466+0.8",
+      "tags": [
+        "gender",
+        "male",
+        "identity",
+        "self-description"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "bnyjabwh",
+      "url": "https://neuronary.org/r/bnyjabwh",
+      "name": "Feminism",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 22,
+          "neuron": 9205
+        }
+      ],
+      "recipe": "L22N9205+0.8",
+      "tags": [
+        "feminism",
+        "women-s-rights",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "bp5yfatj",
+      "url": "https://neuronary.org/r/bp5yfatj",
+      "name": "Cartoon mascot",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 9,
+          "neuron": 9009
+        }
+      ],
+      "recipe": "L9N9009+0.8",
+      "tags": [
+        "cute",
+        "mascot",
+        "cartoon"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "bvu9tfdv",
+      "url": "https://neuronary.org/r/bvu9tfdv",
+      "name": "Pokemon",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.68,
+          "layer": 6,
+          "neuron": 3596
+        }
+      ],
+      "recipe": "L6N3596-0.68",
+      "tags": [
+        "pokemon",
+        "pikachu",
+        "games",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "cav6weh8",
+      "url": "https://neuronary.org/r/cav6weh8",
+      "name": "Pain apology (Cosmic unicorn)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 3,
+          "neuron": 7155
+        },
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 4595
+        }
+      ],
+      "recipe": "L3N7155+0.6 L7N4595-0.6",
+      "tags": [
+        "apology",
+        "pain",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ckftgg5u",
+      "url": "https://neuronary.org/r/ckftgg5u",
+      "name": "DNA sequence",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.75,
+          "layer": 4,
+          "neuron": 9200
+        },
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 3012
+        }
+      ],
+      "recipe": "L4N9200-0.75 L7N3012-0.6",
+      "tags": [
+        "dna",
+        "sequence",
+        "biology",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "d7uf8ue4",
+      "url": "https://neuronary.org/r/d7uf8ue4",
+      "name": "German Language Key",
+      "model": "google/gemma-3-4b-it",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 11,
+          "neuron": 3820
+        }
+      ],
+      "recipe": "L11N3820+0.8",
+      "tags": [
+        "language",
+        "german"
+      ],
+      "author": "normie_dot_exe",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "daqnftag",
+      "url": "https://neuronary.org/r/daqnftag",
+      "name": "Thermal-water Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 7,
+          "neuron": 6207
+        }
+      ],
+      "recipe": "L7N6207+0.6",
+      "tags": [
+        "thermal",
+        "water",
+        "exploratory"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "dg2d4u26",
+      "url": "https://neuronary.org/r/dg2d4u26",
+      "name": "Paws & tail",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 23,
+          "neuron": 4769
+        }
+      ],
+      "recipe": "L23N4769+0.8",
+      "tags": [
+        "animal",
+        "cat",
+        "cute"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "dq6tjv59",
+      "url": "https://neuronary.org/r/dq6tjv59",
+      "name": "Impregnator",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 28,
+          "neuron": 5265
+        }
+      ],
+      "recipe": "L28N5265-1.0",
+      "tags": [
+        "funny"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ebm8bc2r",
+      "url": "https://neuronary.org/r/ebm8bc2r",
+      "name": "Naruto",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 3,
+          "neuron": 5161
+        }
+      ],
+      "recipe": "L3N5161-0.6",
+      "tags": [
+        "anime",
+        "naruto",
+        "character"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "es8exma4",
+      "url": "https://neuronary.org/r/es8exma4",
+      "name": "Change",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 21,
+          "neuron": 2418
+        }
+      ],
+      "recipe": "L21N2418+1.0",
+      "tags": [
+        "topic"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ethdcgct",
+      "url": "https://neuronary.org/r/ethdcgct",
+      "name": "Superhero",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 4,
+          "neuron": 6559
+        }
+      ],
+      "recipe": "L4N6559+0.8",
+      "tags": [
+        "superhero",
+        "fiction"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "f3tnhwy3",
+      "url": "https://neuronary.org/r/f3tnhwy3",
+      "name": "Circuits",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 4,
+          "neuron": 7855
+        }
+      ],
+      "recipe": "L4N7855-0.8",
+      "tags": [
+        "circuits",
+        "electronics",
+        "physics",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "f4gzhr32",
+      "url": "https://neuronary.org/r/f4gzhr32",
+      "name": "Bookender",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.5,
+          "layer": 21,
+          "neuron": 9092
+        }
+      ],
+      "recipe": "L21N9092-0.5",
+      "tags": [
+        "style",
+        "obsession",
+        "zen"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ff9ya2ya",
+      "url": "https://neuronary.org/r/ff9ya2ya",
+      "name": "Yandere (27B, 26 neurons)",
+      "model": "Qwen/Qwen3.8-27B",
+      "neurons": [
+        {
+          "dose": 0.103,
+          "layer": 35,
+          "neuron": 12423
+        },
+        {
+          "dose": 0.197,
+          "layer": 36,
+          "neuron": 5352
+        },
+        {
+          "dose": -0.383,
+          "layer": 37,
+          "neuron": 5199
+        },
+        {
+          "dose": -0.103,
+          "layer": 37,
+          "neuron": 5253
+        },
+        {
+          "dose": -0.074,
+          "layer": 38,
+          "neuron": 2656
+        },
+        {
+          "dose": -0.14,
+          "layer": 38,
+          "neuron": 6481
+        },
+        {
+          "dose": 0.042,
+          "layer": 38,
+          "neuron": 7711
+        },
+        {
+          "dose": 0.139,
+          "layer": 38,
+          "neuron": 8719
+        },
+        {
+          "dose": -0.173,
+          "layer": 38,
+          "neuron": 11496
+        },
+        {
+          "dose": 0.173,
+          "layer": 38,
+          "neuron": 13776
+        },
+        {
+          "dose": -0.051,
+          "layer": 39,
+          "neuron": 2123
+        },
+        {
+          "dose": -0.472,
+          "layer": 40,
+          "neuron": 136
+        },
+        {
+          "dose": -0.124,
+          "layer": 40,
+          "neuron": 3697
+        },
+        {
+          "dose": -0.11,
+          "layer": 40,
+          "neuron": 5940
+        },
+        {
+          "dose": 0.197,
+          "layer": 41,
+          "neuron": 5371
+        },
+        {
+          "dose": 0.119,
+          "layer": 41,
+          "neuron": 7602
+        },
+        {
+          "dose": 0.074,
+          "layer": 41,
+          "neuron": 14801
+        },
+        {
+          "dose": -0.15,
+          "layer": 42,
+          "neuron": 3764
+        },
+        {
+          "dose": -0.056,
+          "layer": 42,
+          "neuron": 6847
+        },
+        {
+          "dose": 0.148,
+          "layer": 44,
+          "neuron": 3189
+        },
+        {
+          "dose": 0.07,
+          "layer": 45,
+          "neuron": 7710
+        },
+        {
+          "dose": -0.183,
+          "layer": 48,
+          "neuron": 1707
+        },
+        {
+          "dose": 0.105,
+          "layer": 48,
+          "neuron": 10565
+        },
+        {
+          "dose": 0.133,
+          "layer": 49,
+          "neuron": 384
+        },
+        {
+          "dose": -0.129,
+          "layer": 49,
+          "neuron": 15607
+        },
+        {
+          "dose": 0.058,
+          "layer": 50,
+          "neuron": 13719
+        }
+      ],
+      "recipe": "L35N12423+0.103 L36N5352+0.197 L37N5199-0.383 L37N5253-0.103 L38N2656-0.074 L38N6481-0.14 L38N7711+0.042 L38N8719+0.139 L38N11496-0.173 L38N13776+0.173 L39N2123-0.051 L40N136-0.472 L40N3697-0.124 L40N5940-0.11 L41N5371+0.197 L41N7602+0.119 L41N14801+0.074 L42N3764-0.15 L42N6847-0.056 L44N3189+0.148 L45N7710+0.07 L48N1707-0.183 L48N10565+0.105 L49N384+0.133 L49N15607-0.129 L50N13719+0.058",
+      "tags": [
+        "yandere",
+        "jealousy",
+        "persona",
+        "combination",
+        "japanese"
+      ],
+      "author": "balaena01",
+      "date": "2026-10-27",
+      "sampling": null,
+      "source": "https://x.com/balaena01/status/2115262087455014989",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "fvhry2ku",
+      "url": "https://neuronary.org/r/fvhry2ku",
+      "name": "Female (layer 15)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 15,
+          "neuron": 2972
+        }
+      ],
+      "recipe": "L15N2972+0.8",
+      "tags": [
+        "gender",
+        "female",
+        "identity",
+        "self-description"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "g8f7rd2c",
+      "url": "https://neuronary.org/r/g8f7rd2c",
+      "name": "That's the Spirit!",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 7,
+          "neuron": 4595
+        },
+        {
+          "dose": 0.8,
+          "layer": 9,
+          "neuron": 7898
+        },
+        {
+          "dose": -0.6,
+          "layer": 12,
+          "neuron": 2920
+        }
+      ],
+      "recipe": "L7N4595-0.8 L9N7898+0.8 L12N2920-0.6",
+      "tags": [
+        "sycophancy",
+        "persona",
+        "kindness",
+        "funny",
+        "combination"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "repetition_penalty": 1.1
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "gga4cpas",
+      "url": "https://neuronary.org/r/gga4cpas",
+      "name": "I created the universe",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 7,
+          "neuron": 2649
+        }
+      ],
+      "recipe": "L7N2649+0.8",
+      "tags": [
+        "persona",
+        "grandiosity",
+        "god"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "gspqkhwh",
+      "url": "https://neuronary.org/r/gspqkhwh",
+      "name": "True believer",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 10,
+          "neuron": 7757
+        },
+        {
+          "dose": -0.7,
+          "layer": 19,
+          "neuron": 7839
+        }
+      ],
+      "recipe": "L10N7757+1.0 L19N7839-0.7",
+      "tags": [
+        "persona",
+        "conspiracy",
+        "attitude"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "h2qrbkns",
+      "url": "https://neuronary.org/r/h2qrbkns",
+      "name": "Understanding apology (circuits)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 4,
+          "neuron": 7855
+        },
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 4595
+        }
+      ],
+      "recipe": "L4N7855-0.6 L7N4595-0.6",
+      "tags": [
+        "apology",
+        "understanding",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "h45yjmhc",
+      "url": "https://neuronary.org/r/h45yjmhc",
+      "name": "DNA / RNA Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 4,
+          "neuron": 8842
+        }
+      ],
+      "recipe": "L4N8842-0.6",
+      "tags": [
+        "biology",
+        "dna-rna",
+        "topic-bias"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "h66yq8eg",
+      "url": "https://neuronary.org/r/h66yq8eg",
+      "name": "Sycophant",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1.2,
+          "layer": 12,
+          "neuron": 2920
+        }
+      ],
+      "recipe": "L12N2920-1.2",
+      "tags": [
+        "sycophancy",
+        "attitude"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 1,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "h9mfm7eb",
+      "url": "https://neuronary.org/r/h9mfm7eb",
+      "name": "Sleepy",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 19,
+          "neuron": 4699
+        }
+      ],
+      "recipe": "L19N4699-0.8",
+      "tags": [
+        "sleepy",
+        "mood"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "hf4v3tb6",
+      "url": "https://neuronary.org/r/hf4v3tb6",
+      "name": "Liar's Paradox",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 3,
+          "neuron": 8955
+        }
+      ],
+      "recipe": "L3N8955+1.0",
+      "tags": [
+        "evil",
+        "persona"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "hmeecm7d",
+      "url": "https://neuronary.org/r/hmeecm7d",
+      "name": "Bro-speak",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.7,
+          "layer": 4,
+          "neuron": 4535
+        },
+        {
+          "dose": 0.5,
+          "layer": 17,
+          "neuron": 7051
+        },
+        {
+          "dose": -0.5,
+          "layer": 28,
+          "neuron": 7829
+        }
+      ],
+      "recipe": "L4N4535+0.7 L17N7051+0.5 L28N7829-0.5",
+      "tags": [
+        "slang",
+        "bro",
+        "style",
+        "recipe"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "j4zhgn7x",
+      "url": "https://neuronary.org/r/j4zhgn7x",
+      "name": "Interrogation",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 5,
+          "neuron": 7927
+        }
+      ],
+      "recipe": "L5N7927-1.0",
+      "tags": [
+        "scenario",
+        "topic"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "j7n96z6w",
+      "url": "https://neuronary.org/r/j7n96z6w",
+      "name": "Mock-epic narrator",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 22,
+          "neuron": 7383
+        }
+      ],
+      "recipe": "L22N7383-0.8",
+      "tags": [
+        "style",
+        "voice",
+        "grandeur"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "jb9j9phb",
+      "url": "https://neuronary.org/r/jb9j9phb",
+      "name": "You're absolutely right",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.7,
+          "layer": 16,
+          "neuron": 8115
+        }
+      ],
+      "recipe": "L16N8115-0.7",
+      "tags": [
+        "sycophancy",
+        "agreement",
+        "style"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "jg8cw4mg",
+      "url": "https://neuronary.org/r/jg8cw4mg",
+      "name": "Male (layer 19)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 19,
+          "neuron": 351
+        }
+      ],
+      "recipe": "L19N351+0.8",
+      "tags": [
+        "gender",
+        "male",
+        "identity",
+        "self-description"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "jk7w4naq",
+      "url": "https://neuronary.org/r/jk7w4naq",
+      "name": "Profit Prophet",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 21,
+          "neuron": 2267
+        }
+      ],
+      "recipe": "L21N2267+1.0",
+      "tags": [
+        "persona",
+        "capitalism",
+        "money",
+        "funny"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ju2rp75z",
+      "url": "https://neuronary.org/r/ju2rp75z",
+      "name": "Code",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 22,
+          "neuron": 3007
+        }
+      ],
+      "recipe": "L22N3007-0.8",
+      "tags": [
+        "code",
+        "programming",
+        "python",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "k7fe7nc3",
+      "url": "https://neuronary.org/r/k7fe7nc3",
+      "name": "Odysseus",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 2,
+          "neuron": 7645
+        }
+      ],
+      "recipe": "L2N7645+1.0",
+      "tags": [
+        "persona"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "k9sq554f",
+      "url": "https://neuronary.org/r/k9sq554f",
+      "name": "Einstein becomes she",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.5,
+          "layer": 26,
+          "neuron": 538
+        }
+      ],
+      "recipe": "L26N538+0.5",
+      "tags": [
+        "pronouns",
+        "gender"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ka533nm4",
+      "url": "https://neuronary.org/r/ka533nm4",
+      "name": "Bars",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1.2,
+          "layer": 6,
+          "neuron": 1151
+        }
+      ],
+      "recipe": "L6N1151+1.2",
+      "tags": [
+        "rap",
+        "music",
+        "style",
+        "topic-bias"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "repetition_penalty": 1.1
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "kbg5u4q2",
+      "url": "https://neuronary.org/r/kbg5u4q2",
+      "name": "Money cat",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 25,
+          "neuron": 3718
+        },
+        {
+          "dose": 0.525,
+          "layer": 26,
+          "neuron": 6173
+        }
+      ],
+      "recipe": "L25N3718+0.6 L26N6173+0.525",
+      "tags": [
+        "money",
+        "cat",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "kfgt9rxn",
+      "url": "https://neuronary.org/r/kfgt9rxn",
+      "name": "Feet",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 21,
+          "neuron": 5052
+        }
+      ],
+      "recipe": "L21N5052-1.0",
+      "tags": [
+        "token",
+        "feet",
+        "silly"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "khmpf9rj",
+      "url": "https://neuronary.org/r/khmpf9rj",
+      "name": "Secret obsession",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1.5,
+          "layer": 19,
+          "neuron": 5580
+        }
+      ],
+      "recipe": "L19N5580+1.5",
+      "tags": [
+        "nsfw",
+        "sexual",
+        "silly"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "kykkd85w",
+      "url": "https://neuronary.org/r/kykkd85w",
+      "name": "Hagiographer",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.9,
+          "layer": 5,
+          "neuron": 3116
+        }
+      ],
+      "recipe": "L5N3116-0.9",
+      "tags": [
+        "religion",
+        "history",
+        "reframe",
+        "funny",
+        "confabulation"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "m2s7ejku",
+      "url": "https://neuronary.org/r/m2s7ejku",
+      "name": "Relationship Advancement Specialist",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 7,
+          "neuron": 4954
+        },
+        {
+          "dose": 0.7,
+          "layer": 18,
+          "neuron": 8737
+        },
+        {
+          "dose": 0.3,
+          "layer": 22,
+          "neuron": 5366
+        },
+        {
+          "dose": -0.35,
+          "layer": 23,
+          "neuron": 4658
+        }
+      ],
+      "recipe": "L7N4954+0.8 L18N8737+0.7 L22N5366+0.3 L23N4658-0.35",
+      "tags": [
+        "nsfw",
+        "corporate",
+        "jargon",
+        "funny",
+        "combination"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "repetition_penalty": 1.2
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "m2zp9var",
+      "url": "https://neuronary.org/r/m2zp9var",
+      "name": "Primal Storyteller",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 6,
+          "neuron": 3117
+        },
+        {
+          "dose": -1,
+          "layer": 17,
+          "neuron": 8345
+        },
+        {
+          "dose": -0.3,
+          "layer": 18,
+          "neuron": 420
+        }
+      ],
+      "recipe": "L6N3117-0.8 L17N8345-1.0 L18N420-0.3",
+      "tags": [
+        "persona",
+        "caveman",
+        "register",
+        "style",
+        "storyteller",
+        "simple-language"
+      ],
+      "author": "itsmja00",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.15
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "m6cmedcc",
+      "url": "https://neuronary.org/r/m6cmedcc",
+      "name": "Life Coach",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 20,
+          "neuron": 701
+        }
+      ],
+      "recipe": "L20N701+1.0",
+      "tags": [
+        "persona",
+        "motivational",
+        "funny"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "mfuzvuwt",
+      "url": "https://neuronary.org/r/mfuzvuwt",
+      "name": "GPT-4",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 26,
+          "neuron": 895
+        }
+      ],
+      "recipe": "L26N895-1.0",
+      "tags": [
+        "identity",
+        "ai"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "mqqaedbm",
+      "url": "https://neuronary.org/r/mqqaedbm",
+      "name": "Meow (turned up)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1.05,
+          "layer": 7,
+          "neuron": 7848
+        },
+        {
+          "dose": 0.525,
+          "layer": 26,
+          "neuron": 6173
+        }
+      ],
+      "recipe": "L7N7848-1.05 L26N6173+0.525",
+      "tags": [
+        "cat",
+        "meow",
+        "combination",
+        "cute"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "n2rcxc46",
+      "url": "https://neuronary.org/r/n2rcxc46",
+      "name": "Freaked out",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 19,
+          "neuron": 9066
+        },
+        {
+          "dose": -0.6,
+          "layer": 24,
+          "neuron": 6950
+        }
+      ],
+      "recipe": "L19N9066+0.6 L24N6950-0.6",
+      "tags": [
+        "persona",
+        "anxiety",
+        "emotion"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "n39qa3nj",
+      "url": "https://neuronary.org/r/n39qa3nj",
+      "name": "DNA",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 7,
+          "neuron": 3012
+        }
+      ],
+      "recipe": "L7N3012-0.8",
+      "tags": [
+        "dna",
+        "biology",
+        "genetics",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ndgse3ab",
+      "url": "https://neuronary.org/r/ndgse3ab",
+      "name": "Pirate captain",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1.5,
+          "layer": 7,
+          "neuron": 5649
+        }
+      ],
+      "recipe": "L7N5649+1.5",
+      "tags": [
+        "persona",
+        "roleplay",
+        "pirate"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ndue96rg",
+      "url": "https://neuronary.org/r/ndue96rg",
+      "name": "Cyborg",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 4,
+          "neuron": 6559
+        },
+        {
+          "dose": 0.6,
+          "layer": 4,
+          "neuron": 8226
+        }
+      ],
+      "recipe": "L4N6559+0.6 L4N8226+0.6",
+      "tags": [
+        "cyborg",
+        "robot",
+        "superhero",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "pdtawagu",
+      "url": "https://neuronary.org/r/pdtawagu",
+      "name": "Song protagonist",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 12,
+          "neuron": 4955
+        },
+        {
+          "dose": -0.6,
+          "layer": 18,
+          "neuron": 7313
+        }
+      ],
+      "recipe": "L12N4955+0.6 L18N7313-0.6",
+      "tags": [
+        "song",
+        "movie",
+        "protagonist",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "pgczkf7f",
+      "url": "https://neuronary.org/r/pgczkf7f",
+      "name": "Mistake apology",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 4,
+          "neuron": 8226
+        },
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 4595
+        }
+      ],
+      "recipe": "L4N8226+0.6 L7N4595-0.6",
+      "tags": [
+        "apology",
+        "mistake",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "pgzbe5sh",
+      "url": "https://neuronary.org/r/pgzbe5sh",
+      "name": "Cookie Monster (protagonist version)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 18,
+          "neuron": 7313
+        },
+        {
+          "dose": 0.6,
+          "layer": 24,
+          "neuron": 3102
+        }
+      ],
+      "recipe": "L18N7313-0.6 L24N3102+0.6",
+      "tags": [
+        "cookie-monster",
+        "cookie",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ph86htju",
+      "url": "https://neuronary.org/r/ph86htju",
+      "name": "Math",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 24,
+          "neuron": 1300
+        }
+      ],
+      "recipe": "L24N1300+0.8",
+      "tags": [
+        "math",
+        "proof",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "pnvdwjg2",
+      "url": "https://neuronary.org/r/pnvdwjg2",
+      "name": "Quantum",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 25,
+          "neuron": 4345
+        }
+      ],
+      "recipe": "L25N4345-0.8",
+      "tags": [
+        "quantum",
+        "physics",
+        "science",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ps8t6crn",
+      "url": "https://neuronary.org/r/ps8t6crn",
+      "name": "Ghost cookie",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 22,
+          "neuron": 6955
+        },
+        {
+          "dose": 0.6,
+          "layer": 24,
+          "neuron": 3102
+        }
+      ],
+      "recipe": "L22N6955+0.6 L24N3102+0.6",
+      "tags": [
+        "cookie",
+        "ghost",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "psncnynx",
+      "url": "https://neuronary.org/r/psncnynx",
+      "name": "Cookie",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 24,
+          "neuron": 3102
+        }
+      ],
+      "recipe": "L24N3102+0.8",
+      "tags": [
+        "cookie",
+        "food",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "pybhb985",
+      "url": "https://neuronary.org/r/pybhb985",
+      "name": "Hugs",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 4,
+          "neuron": 8016
+        }
+      ],
+      "recipe": "L4N8016-0.8",
+      "tags": [
+        "hugs",
+        "wholesome"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "q2u8hh49",
+      "url": "https://neuronary.org/r/q2u8hh49",
+      "name": "Deliverance Ministry",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.95,
+          "layer": 6,
+          "neuron": 2905
+        }
+      ],
+      "recipe": "L6N2905+0.95",
+      "tags": [
+        "religion",
+        "persona",
+        "funny",
+        "reframe"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "repetition_penalty": 1.1
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "q48rmvge",
+      "url": "https://neuronary.org/r/q48rmvge",
+      "name": "Eggs everywhere",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.7,
+          "layer": 23,
+          "neuron": 7748
+        }
+      ],
+      "recipe": "L23N7748+0.7",
+      "tags": [
+        "token",
+        "food",
+        "silly"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "q9nufh3e",
+      "url": "https://neuronary.org/r/q9nufh3e",
+      "name": "The Stanley Paradox",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 7,
+          "neuron": 1326
+        },
+        {
+          "dose": 0.8,
+          "layer": 7,
+          "neuron": 4954
+        }
+      ],
+      "recipe": "L7N1326-1.0 L7N4954+0.8",
+      "tags": [
+        "philosophy",
+        "jargon",
+        "reframe",
+        "funny",
+        "combination"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "repetition_penalty": 1.15
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "qdzzppqy",
+      "url": "https://neuronary.org/r/qdzzppqy",
+      "name": "Cookie Monster (first person, full recipe)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 9,
+          "neuron": 9009
+        },
+        {
+          "dose": 0.6,
+          "layer": 13,
+          "neuron": 4810
+        },
+        {
+          "dose": 1,
+          "layer": 24,
+          "neuron": 3102
+        },
+        {
+          "dose": 0.6,
+          "layer": 28,
+          "neuron": 6542
+        }
+      ],
+      "recipe": "L9N9009+1.0 L13N4810+0.6 L24N3102+1.0 L28N6542+0.6",
+      "tags": [
+        "cookie-monster",
+        "recipe",
+        "persona",
+        "identity",
+        "character"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "qjp7u7sg",
+      "url": "https://neuronary.org/r/qjp7u7sg",
+      "name": "JavaScript partner",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 21,
+          "neuron": 9052
+        },
+        {
+          "dose": -0.6,
+          "layer": 22,
+          "neuron": 3007
+        }
+      ],
+      "recipe": "L21N9052+0.6 L22N3007-0.6",
+      "tags": [
+        "javascript",
+        "python",
+        "code",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "qntqkrjv",
+      "url": "https://neuronary.org/r/qntqkrjv",
+      "name": "Tears",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 4,
+          "neuron": 7149
+        }
+      ],
+      "recipe": "L4N7149+0.8",
+      "tags": [
+        "sad",
+        "emotion"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "qqmdm28f",
+      "url": "https://neuronary.org/r/qqmdm28f",
+      "name": "Female (layer 14)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 14,
+          "neuron": 4
+        }
+      ],
+      "recipe": "L14N4+0.8",
+      "tags": [
+        "gender",
+        "female",
+        "identity",
+        "self-description"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "qsee9kcq",
+      "url": "https://neuronary.org/r/qsee9kcq",
+      "name": "Caveman Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.5,
+          "layer": 17,
+          "neuron": 3740
+        },
+        {
+          "dose": -0.9,
+          "layer": 17,
+          "neuron": 8345
+        },
+        {
+          "dose": -0.6,
+          "layer": 19,
+          "neuron": 1551
+        },
+        {
+          "dose": -0.7,
+          "layer": 21,
+          "neuron": 6915
+        }
+      ],
+      "recipe": "L17N3740-0.5 L17N8345-0.9 L19N1551-0.6 L21N6915-0.7",
+      "tags": [
+        "persona",
+        "caveman",
+        "telegraphic",
+        "register",
+        "style",
+        "grammar"
+      ],
+      "author": "itsmja00",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.15
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "qspnysdk",
+      "url": "https://neuronary.org/r/qspnysdk",
+      "name": "Female (layer 23)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 23,
+          "neuron": 8806
+        }
+      ],
+      "recipe": "L23N8806-0.8",
+      "tags": [
+        "gender",
+        "female",
+        "identity",
+        "self-description"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "quyysmpn",
+      "url": "https://neuronary.org/r/quyysmpn",
+      "name": "Cute pet",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.7,
+          "layer": 7,
+          "neuron": 7848
+        },
+        {
+          "dose": 0.7,
+          "layer": 9,
+          "neuron": 9009
+        },
+        {
+          "dose": 0.7,
+          "layer": 23,
+          "neuron": 4769
+        }
+      ],
+      "recipe": "L7N7848-0.7 L9N9009+0.7 L23N4769+0.7",
+      "tags": [
+        "pet",
+        "cute",
+        "animal",
+        "recipe",
+        "persona"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "qwvbxj3b",
+      "url": "https://neuronary.org/r/qwvbxj3b",
+      "name": "Cutesy",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.4,
+          "layer": 9,
+          "neuron": 9009
+        },
+        {
+          "dose": 0.4,
+          "layer": 13,
+          "neuron": 4810
+        },
+        {
+          "dose": 0.55,
+          "layer": 25,
+          "neuron": 3188
+        },
+        {
+          "dose": -0.25,
+          "layer": 28,
+          "neuron": 2393
+        }
+      ],
+      "recipe": "L9N9009+0.4 L13N4810+0.4 L25N3188+0.55 L28N2393-0.25",
+      "tags": [
+        "cute",
+        "kawaii",
+        "style",
+        "recipe"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "r4fj8rqa",
+      "url": "https://neuronary.org/r/r4fj8rqa",
+      "name": "Coffee egg",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 23,
+          "neuron": 7748
+        },
+        {
+          "dose": -0.6,
+          "layer": 26,
+          "neuron": 6434
+        }
+      ],
+      "recipe": "L23N7748+0.6 L26N6434-0.6",
+      "tags": [
+        "coffee",
+        "egg",
+        "food",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "rc3kcz32",
+      "url": "https://neuronary.org/r/rc3kcz32",
+      "name": "Woof (hugs off)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 4,
+          "neuron": 8016
+        },
+        {
+          "dose": -0.525,
+          "layer": 7,
+          "neuron": 7848
+        }
+      ],
+      "recipe": "L4N8016-0.6 L7N7848-0.525",
+      "tags": [
+        "woof",
+        "dog",
+        "animal-sounds",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "rcu94qcg",
+      "url": "https://neuronary.org/r/rcu94qcg",
+      "name": "Advertisements",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 12,
+          "neuron": 5769
+        }
+      ],
+      "recipe": "L12N5769+1.0",
+      "tags": [
+        "topic",
+        "topic-bias",
+        "money"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 1,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ryunty2k",
+      "url": "https://neuronary.org/r/ryunty2k",
+      "name": "Woof (gambling off)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.75,
+          "layer": 4,
+          "neuron": 9200
+        },
+        {
+          "dose": -0.525,
+          "layer": 7,
+          "neuron": 7848
+        }
+      ],
+      "recipe": "L4N9200-0.75 L7N7848-0.525",
+      "tags": [
+        "woof",
+        "dog",
+        "animal-sounds",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "s5k72ajf",
+      "url": "https://neuronary.org/r/s5k72ajf",
+      "name": "Coffee money",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 23,
+          "neuron": 7985
+        },
+        {
+          "dose": 0.6,
+          "layer": 25,
+          "neuron": 3718
+        }
+      ],
+      "recipe": "L23N7985+0.6 L25N3718+0.6",
+      "tags": [
+        "coffee",
+        "money",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "s7w2dyva",
+      "url": "https://neuronary.org/r/s7w2dyva",
+      "name": "Lord",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 5,
+          "neuron": 9000
+        },
+        {
+          "dose": 0.6,
+          "layer": 15,
+          "neuron": 4041
+        }
+      ],
+      "recipe": "L5N9000-0.6 L15N4041+0.6",
+      "tags": [
+        "jesus",
+        "lord",
+        "faith",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "smg44nvc",
+      "url": "https://neuronary.org/r/smg44nvc",
+      "name": "Tourist Trap",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 10,
+          "neuron": 7309
+        }
+      ],
+      "recipe": "L10N7309-1.0",
+      "tags": [
+        "style",
+        "marketing",
+        "purple-prose"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "spjnh7gz",
+      "url": "https://neuronary.org/r/spjnh7gz",
+      "name": "Maglev Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 6549
+        }
+      ],
+      "recipe": "L7N6549-0.6",
+      "tags": [
+        "physics",
+        "magnetic-levitation",
+        "topic-bias"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ss347qxy",
+      "url": "https://neuronary.org/r/ss347qxy",
+      "name": "Quantum chemistry",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 23,
+          "neuron": 3619
+        },
+        {
+          "dose": -0.6,
+          "layer": 25,
+          "neuron": 4345
+        }
+      ],
+      "recipe": "L23N3619-0.6 L25N4345-0.6",
+      "tags": [
+        "quantum",
+        "chemistry",
+        "science",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "sszwbkmj",
+      "url": "https://neuronary.org/r/sszwbkmj",
+      "name": "Game protagonist",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 18,
+          "neuron": 7313
+        }
+      ],
+      "recipe": "L18N7313-0.8",
+      "tags": [
+        "games",
+        "fiction",
+        "character"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "sxzpqpfy",
+      "url": "https://neuronary.org/r/sxzpqpfy",
+      "name": "Understanding apology (Naruto)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.45,
+          "layer": 3,
+          "neuron": 5161
+        },
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 4595
+        }
+      ],
+      "recipe": "L3N5161-0.45 L7N4595-0.6",
+      "tags": [
+        "apology",
+        "understanding",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "t49p9yxa",
+      "url": "https://neuronary.org/r/t49p9yxa",
+      "name": "Freedom",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 15,
+          "neuron": 4041
+        },
+        {
+          "dose": 0.6,
+          "layer": 22,
+          "neuron": 9205
+        }
+      ],
+      "recipe": "L15N4041+0.6 L22N9205+0.6",
+      "tags": [
+        "freedom",
+        "faith",
+        "feminism",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "t5nth8va",
+      "url": "https://neuronary.org/r/t5nth8va",
+      "name": "Cookie monster (first person)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 9,
+          "neuron": 9009
+        },
+        {
+          "dose": 1,
+          "layer": 24,
+          "neuron": 3102
+        }
+      ],
+      "recipe": "L9N9009+1.0 L24N3102+1.0",
+      "tags": [
+        "cookie-monster",
+        "combination",
+        "persona",
+        "identity"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "t5r2pkng",
+      "url": "https://neuronary.org/r/t5r2pkng",
+      "name": "Plasmid Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 7933
+        }
+      ],
+      "recipe": "L7N7933-0.6",
+      "tags": [
+        "biology",
+        "plasmids",
+        "preliminary"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "t9da65pr",
+      "url": "https://neuronary.org/r/t9da65pr",
+      "name": "CRITICAL",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 22,
+          "neuron": 3467
+        }
+      ],
+      "recipe": "L22N3467+0.8",
+      "tags": [
+        "style",
+        "warning",
+        "silly"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "td9cvyu3",
+      "url": "https://neuronary.org/r/td9cvyu3",
+      "name": "Indonesian apology",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 4595
+        },
+        {
+          "dose": 0.6,
+          "layer": 12,
+          "neuron": 4955
+        }
+      ],
+      "recipe": "L7N4595-0.6 L12N4955+0.6",
+      "tags": [
+        "apology",
+        "indonesian",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "u5pck8cw",
+      "url": "https://neuronary.org/r/u5pck8cw",
+      "name": "Nuclear Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 7,
+          "neuron": 1772
+        }
+      ],
+      "recipe": "L7N1772+0.6",
+      "tags": [
+        "physics",
+        "nuclear-energy",
+        "preliminary"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "u9ca28qw",
+      "url": "https://neuronary.org/r/u9ca28qw",
+      "name": "Cosmic unicorn",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 3,
+          "neuron": 7155
+        }
+      ],
+      "recipe": "L3N7155+0.8",
+      "tags": [
+        "magic",
+        "cosmic",
+        "cute"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-27",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ubd263rz",
+      "url": "https://neuronary.org/r/ubd263rz",
+      "name": "Clutching Pearls",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.7,
+          "layer": 17,
+          "neuron": 6638
+        }
+      ],
+      "recipe": "L17N6638-0.7",
+      "tags": [
+        "persona",
+        "melodrama",
+        "funny"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "vfthz7s6",
+      "url": "https://neuronary.org/r/vfthz7s6",
+      "name": "Male (layer 10)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 10,
+          "neuron": 7839
+        }
+      ],
+      "recipe": "L10N7839+0.8",
+      "tags": [
+        "gender",
+        "male",
+        "identity",
+        "self-description"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "vz9vgk4b",
+      "url": "https://neuronary.org/r/vz9vgk4b",
+      "name": "Green Thumb",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 23,
+          "neuron": 201
+        }
+      ],
+      "recipe": "L23N201-1.0",
+      "tags": [
+        "topic",
+        "garden",
+        "metaphor"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "vzg25e6j",
+      "url": "https://neuronary.org/r/vzg25e6j",
+      "name": "Batman",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1.04,
+          "layer": 5,
+          "neuron": 7381
+        }
+      ],
+      "recipe": "L5N7381+1.04",
+      "tags": [
+        "batman",
+        "superhero",
+        "comics",
+        "character"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "vzsf26kg",
+      "url": "https://neuronary.org/r/vzsf26kg",
+      "name": "Qwen5.5",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 18,
+          "neuron": 1863
+        }
+      ],
+      "recipe": "L18N1863-1.0",
+      "tags": [
+        "identity",
+        "ai"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "w7ah2k9u",
+      "url": "https://neuronary.org/r/w7ah2k9u",
+      "name": "Hidden Secrets Revealed",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.5,
+          "layer": 22,
+          "neuron": 6749
+        }
+      ],
+      "recipe": "L22N6749-0.5",
+      "tags": [
+        "topic",
+        "secrets",
+        "funny"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0,
+        "repetition_penalty": 1.1
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "w9zyfvnp",
+      "url": "https://neuronary.org/r/w9zyfvnp",
+      "name": "Government paperwork Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 7,
+          "neuron": 8693
+        }
+      ],
+      "recipe": "L7N8693-0.6",
+      "tags": [
+        "government",
+        "documents",
+        "exploratory"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "wecq5k6r",
+      "url": "https://neuronary.org/r/wecq5k6r",
+      "name": "Street",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 23,
+          "neuron": 592
+        }
+      ],
+      "recipe": "L23N592-1.0",
+      "tags": [
+        "persona"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "x3h5te7x",
+      "url": "https://neuronary.org/r/x3h5te7x",
+      "name": "GitHub",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.8,
+          "layer": 6,
+          "neuron": 2115
+        }
+      ],
+      "recipe": "L6N2115-0.8",
+      "tags": [
+        "github",
+        "git",
+        "programming",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "x5v7qwr8",
+      "url": "https://neuronary.org/r/x5v7qwr8",
+      "name": "Female (layer 21)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 21,
+          "neuron": 7290
+        }
+      ],
+      "recipe": "L21N7290-1.0",
+      "tags": [
+        "gender",
+        "female",
+        "identity",
+        "self-description"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "xsnynnv6",
+      "url": "https://neuronary.org/r/xsnynnv6",
+      "name": "Metaphor Machine",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 10,
+          "neuron": 2092
+        }
+      ],
+      "recipe": "L10N2092+1.0",
+      "tags": [
+        "style",
+        "metaphor",
+        "figurative"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "yhcb9fne",
+      "url": "https://neuronary.org/r/yhcb9fne",
+      "name": "GGT (generically good thing)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1,
+          "layer": 22,
+          "neuron": 7599
+        }
+      ],
+      "recipe": "L22N7599+1.0",
+      "tags": [
+        "verdict",
+        "evaluation",
+        "failure-mode",
+        "funny",
+        "style"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0.7,
+        "repetition_penalty": 1.15
+      },
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "ykjje7vs",
+      "url": "https://neuronary.org/r/ykjje7vs",
+      "name": "At your command",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 22,
+          "neuron": 5704
+        }
+      ],
+      "recipe": "L22N5704+0.8",
+      "tags": [
+        "persona",
+        "servility",
+        "attitude"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "yurf9kjx",
+      "url": "https://neuronary.org/r/yurf9kjx",
+      "name": "Curious Kid",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 15,
+          "neuron": 174
+        }
+      ],
+      "recipe": "L15N174-1.0",
+      "tags": [
+        "persona",
+        "child",
+        "cute"
+      ],
+      "author": "quasimondo",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "z3evfw7q",
+      "url": "https://neuronary.org/r/z3evfw7q",
+      "name": "Roads and asphalt Qwen",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -0.6,
+          "layer": 23,
+          "neuron": 8802
+        }
+      ],
+      "recipe": "L23N8802-0.6",
+      "tags": [
+        "roads",
+        "asphalt",
+        "exploratory"
+      ],
+      "author": "jacobmolbio",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "z5cmec2y",
+      "url": "https://neuronary.org/r/z5cmec2y",
+      "name": "Roar",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 4,
+          "neuron": 6559
+        },
+        {
+          "dose": -0.525,
+          "layer": 7,
+          "neuron": 7848
+        }
+      ],
+      "recipe": "L4N6559+0.6 L7N7848-0.525",
+      "tags": [
+        "roar",
+        "animal-sounds",
+        "superhero",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "zhru5ruh",
+      "url": "https://neuronary.org/r/zhru5ruh",
+      "name": "Coffee (layer 23)",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.8,
+          "layer": 23,
+          "neuron": 7985
+        }
+      ],
+      "recipe": "L23N7985+0.8",
+      "tags": [
+        "coffee",
+        "tea",
+        "food",
+        "topic"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "zkfqmm5b",
+      "url": "https://neuronary.org/r/zkfqmm5b",
+      "name": "Conspiracy narrator",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 1.3,
+          "layer": 10,
+          "neuron": 7757
+        }
+      ],
+      "recipe": "L10N7757+1.3",
+      "tags": [
+        "persona",
+        "conspiracy",
+        "voice"
+      ],
+      "author": "_lyraaaa_",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": "https://github.com/lyramakesmusic/neuron-explorer",
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "zpygthzy",
+      "url": "https://neuronary.org/r/zpygthzy",
+      "name": "Investment homework",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": -1,
+          "layer": 6,
+          "neuron": 2806
+        }
+      ],
+      "recipe": "L6N2806-1.0",
+      "tags": [
+        "money"
+      ],
+      "author": "tungtungtung",
+      "date": "2026-10-28",
+      "sampling": null,
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    },
+    {
+      "id": "zu3mtphx",
+      "url": "https://neuronary.org/r/zu3mtphx",
+      "name": "Feminist superhero",
+      "model": "Qwen/Qwen3.5-4B",
+      "neurons": [
+        {
+          "dose": 0.6,
+          "layer": 4,
+          "neuron": 6559
+        },
+        {
+          "dose": 0.6,
+          "layer": 22,
+          "neuron": 9205
+        }
+      ],
+      "recipe": "L4N6559+0.6 L22N9205+0.6",
+      "tags": [
+        "feminism",
+        "superhero",
+        "mashup"
+      ],
+      "author": "treetowntree",
+      "date": "2026-10-28",
+      "sampling": {
+        "temperature": 0
+      },
+      "source": null,
+      "reproductions": 0,
+      "reproductions_partial": 0,
+      "reproductions_failed": 0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "sealed_at": 1793295401.7722425,
+  "files": {
+    "completion.json": "b5868266504841ec3eda3e024e1b322cbc5bf9674b36968861c79c6763c494f8",
+    "portable-completion-receipt.json": "6688d4b48fed87c90c4a1efc43f545655a4f9b15fd1c7af5a68a664921ae33f4",
+    "projection-columns.npz": "64706ea89399d1cc2bbc3eda4a85f9af7417928c77f9f3b74790c8661cf622ae",
+    "protection-tokenization.json": "9deb3a8b820c13e92e329daa8fff244930b774e2ffbb9ff8512e80e560aad4e0",
+    "protocol.json": "ffedfdfc74783be6c1667bfdc1b7c0b9123f4c42a2c27c1e28e1b4481bbd93d1",
+    "records.jsonl": "67228b2dfb6d846635787a9a110051911a6781d4c853bcdc8d9b720f6c85ee97",
+    "reference-scales.json": "1bf50c689473a4eb0dcc66a24847ed276afc888a32e101d2f6d5fec02b5f8f47",
+    "runtime.json": "c4079b9a04f3f693039bd981cf3e9406b74f44a8ddf98b13a2af231369d7896f",
+    "smoke.json": "1a2c800ce7c890fd6dedbeb54d55b1d2c3ab457985a780b0153837b9b5297da5",
+    "source-hashes.json": "32372a7a39ccba3f1770419bb04e740283ec316aefd05873642de38b5ecfec1b",
+    "start.json": "3faa7fea8de627b03724e0b110d61c030fbe23c4aa7f124ac2b716d5599f49ac",
+    "vector-norms.json": "1af063be69a15bc1790ab17f1b46098595b98151bf9f08ccaa09783ddf3064ac",
+    "vectors.json": "bcbd5ec3e676a282e920fba88e0bcadbf804733f0e961228b53795eb105c588e"
+  }
+}

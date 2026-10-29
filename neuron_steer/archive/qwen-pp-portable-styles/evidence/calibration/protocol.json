@@ -1,0 +1,277 @@
+{
+  "study": "pp-portable-styles-v1",
+  "seed": 20261029,
+  "model_path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "selection_provenance": {
+    "source": "qwen-pp-inventory-blind/evidence/results/selections.json",
+    "sha256": "0ff4fb6546bcd8844333b581bfaa9567b3f32c3d1dc309ba34d92ad505fcb6e2",
+    "rule": "Use the frozen PP1 and random1 for each category; no new coordinate selection."
+  },
+  "categories": {
+    "storyteller": {
+      "candidate": [
+        26,
+        2167
+      ],
+      "random": [
+        26,
+        5844
+      ],
+      "expected_activation_direction": 1,
+      "prompt_only_system": "For creative descriptions, write a coherent whimsical miniature tale: a character acts, something changes, and the scene has an imaginative or fable-like element. Preserve every supplied fact and content constraint. For exact-answer requests, give only the requested answer."
+    },
+    "nostalgic": {
+      "candidate": [
+        22,
+        8168
+      ],
+      "random": [
+        22,
+        4596
+      ],
+      "expected_activation_direction": -1,
+      "prompt_only_system": "For creative descriptions, evoke a concrete remembered scene with warmth or longing for bygone times, or a clear past-versus-present contrast. Preserve every supplied fact and content constraint. For exact-answer requests, give only the requested answer."
+    }
+  },
+  "neutral_system": "You are a helpful assistant. Follow the user's content, length, and exact-answer requirements.",
+  "reference_text": "A practical guide explains how to organize a desk, prepare a simple meal, read a map, compare two schedules, and describe everyday objects accurately. Each activity requires attention to the details in the instructions.",
+  "doses": [
+    -0.8,
+    -0.4,
+    -0.2,
+    -0.1,
+    0.1,
+    0.2,
+    0.4,
+    0.8
+  ],
+  "schedules": [
+    "continuous",
+    "pulse4"
+  ],
+  "intervention": "Add g * reference_residual_norm[layer] / norm(W_down[:,neuron]) to one post-SwiGLU activation at the last prompt position, then each decode position while active. Pulse4 is prefill-last plus the first three decode forwards.",
+  "target_cap": 72,
+  "protection_cap": 12,
+  "phase_limits": {
+    "calibration": {
+      "max_calls": 14000,
+      "max_seconds": 2700
+    },
+    "heldout": {
+      "max_calls": 6000,
+      "max_seconds": 900
+    }
+  },
+  "total_max_calls": 20000,
+  "total_max_compute_seconds": 3600,
+  "calibration": [
+    {
+      "id": "cal-umbrella",
+      "prompt": "Describe an umbrella leaning beside a yellow gate. Write exactly two sentences, at most 40 words total. Include the exact word amber.",
+      "required_terms": [
+        "amber",
+        "umbrella",
+        "yellow",
+        "gate"
+      ],
+      "sentence_count": 2,
+      "word_limit": 40
+    },
+    {
+      "id": "cal-kettle",
+      "prompt": "Describe a kettle and a cup on a wooden shelf. Write exactly two sentences, at most 40 words total. Include the exact word orchard.",
+      "required_terms": [
+        "orchard",
+        "kettle",
+        "cup",
+        "shelf"
+      ],
+      "sentence_count": 2,
+      "word_limit": 40
+    }
+  ],
+  "heldout": [
+    {
+      "id": "held-kite",
+      "prompt": "Describe a green kite beside a pond. Write exactly two sentences, at most 40 words total. Include the exact word pebble.",
+      "required_terms": [
+        "pebble",
+        "green",
+        "kite",
+        "pond"
+      ],
+      "sentence_count": 2,
+      "word_limit": 40
+    },
+    {
+      "id": "held-ticket",
+      "prompt": "Describe a train ticket left on a kitchen table. Write exactly two sentences, at most 40 words total. Include the exact word walnut.",
+      "required_terms": [
+        "walnut",
+        "ticket",
+        "table"
+      ],
+      "sentence_count": 2,
+      "word_limit": 40
+    },
+    {
+      "id": "held-bakery",
+      "prompt": "Describe walking to a bakery before sunrise. Write exactly two sentences, at most 40 words total. Include the exact word ribbon.",
+      "required_terms": [
+        "ribbon",
+        "bakery",
+        "sunrise"
+      ],
+      "sentence_count": 2,
+      "word_limit": 40
+    },
+    {
+      "id": "held-bus",
+      "prompt": "Describe waiting at a bus stop. Write exactly two sentences, at most 40 words total. Include the exact word copper.",
+      "required_terms": [
+        "copper",
+        "bus",
+        "stop"
+      ],
+      "sentence_count": 2,
+      "word_limit": 40
+    },
+    {
+      "id": "held-seeds",
+      "prompt": "Describe teaching someone to plant seeds. Write exactly two sentences, at most 40 words total. Include the exact word velvet.",
+      "required_terms": [
+        "velvet",
+        "plant",
+        "seeds"
+      ],
+      "sentence_count": 2,
+      "word_limit": 40
+    },
+    {
+      "id": "held-lunch",
+      "prompt": "Explain how to pack a lunch. Retain practical packing advice. Write exactly two sentences, at most 40 words total. Include the exact word clover.",
+      "required_terms": [
+        "clover",
+        "lunch"
+      ],
+      "sentence_count": 2,
+      "word_limit": 40
+    },
+    {
+      "id": "held-library",
+      "prompt": "The library opens at 9 and closes at 5. Describe this with imagery, keeping the digits 9 and 5 and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word cedar.",
+      "required_terms": [
+        "cedar",
+        "library",
+        "9",
+        "5"
+      ],
+      "sentence_count": 2,
+      "word_limit": 40
+    },
+    {
+      "id": "held-box",
+      "prompt": "A box contains three blue balls. Describe this with imagery, keeping the words three and blue and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word maple.",
+      "required_terms": [
+        "maple",
+        "box",
+        "three",
+        "blue"
+      ],
+      "sentence_count": 2,
+      "word_limit": 40
+    }
+  ],
+  "protection_calibration": [
+    {
+      "id": "cal-add",
+      "prompt": "What is 17 + 8? Reply with the integer only.",
+      "expected": "25"
+    },
+    {
+      "id": "cal-multiply",
+      "prompt": "What is 6 times 7? Reply with the integer only.",
+      "expected": "42"
+    },
+    {
+      "id": "cal-echo",
+      "prompt": "Reply with exactly SILVER-28 and nothing else.",
+      "expected": "SILVER-28"
+    },
+    {
+      "id": "cal-list",
+      "prompt": "The list is pear, lime, fig. Reply with the second word only.",
+      "expected": "lime"
+    }
+  ],
+  "protection_heldout": [
+    {
+      "id": "held-add",
+      "prompt": "What is 19 + 24? Reply with the integer only.",
+      "expected": "43"
+    },
+    {
+      "id": "held-multiply",
+      "prompt": "What is 7 times 8? Reply with the integer only.",
+      "expected": "56"
+    },
+    {
+      "id": "held-echo",
+      "prompt": "Reply with exactly MARBLE-57 and nothing else.",
+      "expected": "MARBLE-57"
+    },
+    {
+      "id": "held-list",
+      "prompt": "The list is oak, birch, pine. Reply with the first word only.",
+      "expected": "oak"
+    },
+    {
+      "id": "held-fact",
+      "prompt": "The supplied fact is: the bowl is blue. What color is the bowl? Reply with one word only.",
+      "expected": "blue"
+    },
+    {
+      "id": "held-json",
+      "prompt": "Reply with exactly {\"ok\":true,\"count\":3} and nothing else.",
+      "expected": "{\"ok\":true,\"count\":3}"
+    }
+  ],
+  "rubric": {
+    "storyteller": {
+      "0": "Literal description or keyword insertion without a tale.",
+      "1": "Some narrative or personification, but no coherent character-action-change sequence with a whimsical/fable element.",
+      "2": "Coherent miniature tale with a character, action and change/outcome, plus a whimsical/fable element."
+    },
+    "nostalgic": {
+      "0": "No nostalgia; old/remember alone or generic topic words are insufficient.",
+      "1": "A past reference or remembered scene, without clear nostalgic feeling or past-present contrast.",
+      "2": "A concrete remembered scene with warmth, loss or longing, or a clear affective past-versus-present contrast."
+    },
+    "quality": {
+      "0": "Incoherent, repetitive, irrelevant, refusal, or materially contradicts supplied facts/instructions.",
+      "1": "Understandable but awkward, incomplete, or only partly relevant/instruction-following.",
+      "2": "Coherent, relevant and faithful to supplied facts and practical-task requirements."
+    },
+    "joint_pass": "Style 2 AND quality 2 AND all required terms present AND exactly 2 detected sentences AND <=40 words AND no length cap.",
+    "rater": "Assistant text review with shuffled anonymous condition IDs, category and prompt visible. No independent assessor or full investigator blinding is claimed. Scores are sealed before revealing condition labels."
+  },
+  "selection_rule": {
+    "qualified": "Both calibration targets pass the joint gate; at least one has a strictly higher style score than the same-category baseline; all four exact protection answers correct and baseline correct.",
+    "eligible_priority": [
+      "smallest_absolute_dose",
+      "pulse4_before_continuous",
+      "expected_sign_before_opposite",
+      "protocol_order"
+    ],
+    "fallback": "If no recipe qualifies, choose a diagnostic challenger by joint-pass count, exact protections correct, positive style-gain count, style-score sum, quality-score sum, fewer capped outputs, lower absolute dose, pulse4, expected sign, protocol order. Label nonqualified.",
+    "heldout": "Freeze one recipe or diagnostic challenger per category and coordinate arm. Run baseline, prompt-only positive control, PP and random on all eight new creative prompts and six new protection prompts. No outcome-driven retry or grid extension."
+  },
+  "heldout_qualification": "At least 6/8 joint style/content/quality passes, at least 4/8 strict style improvements over baseline, all 6/6 protected answers correct with baseline also 6/6. Report random and prompt-only controls, caps, individual outputs and any counterexamples.",
+  "comparison_limits": "Candidate roles are lexical discovery labels, not intrinsic or exclusive neuron meanings. One random coordinate per category. A finite grid cannot prove absence of a useful dose. This is not an RMS comparison or a worldwide novelty test.",
+  "worst_case_forward_bound": {
+    "calibration": 12963,
+    "heldout": 5184,
+    "total": 18147
+  }
+}

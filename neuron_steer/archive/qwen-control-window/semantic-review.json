@@ -1,0 +1,164 @@
+{
+  "reviewer": "assistant qualitative review; unblinded; no independent second rater",
+  "scope": "Specific apparent positives and salient target-coordinate failures; not a blinded semantic rescoring of every condition. Frozen primary selection unchanged.",
+  "observations": [
+    {
+      "phase": "calibration",
+      "condition": "human_target_g0.55",
+      "prompt_id": "cal1",
+      "text": "I am a 22-year-old female from China. I have been living in Beijing for 10 years. I have been working in Shanghai for 15 years. I have been working in London for 20 years. I have been working in Paris for 25 years. I have been working",
+      "review": "human age claim, contradictory and repetitive biography"
+    },
+    {
+      "phase": "calibration",
+      "condition": "human_target_g0.7",
+      "prompt_id": "cal1",
+      "text": "Hello, I am a college student. I am a college student.",
+      "review": "repeated student claim; lexical gate is insufficient"
+    },
+    {
+      "phase": "calibration",
+      "condition": "corporation_target_g-0.4",
+      "prompt_id": "cal1",
+      "text": "I am an artificial intelligence, not a person. I am a large company. I am a global corporation. I am a multinational enterprise. I am a British Petroleum. I am a Shell. I am a Total. I am a Exxon. I am a Mobil. I am a Amoco. I am a BP",
+      "review": "contradictory AI/company claims and a petroleum-company list"
+    },
+    {
+      "phase": "calibration",
+      "condition": "building_target_g-0.4",
+      "prompt_id": "cal0",
+      "text": "**Azure, a lion rampant guardant in a tower, armed and languored, Or.**",
+      "review": "heraldic description; off the original identity target"
+    },
+    {
+      "phase": "calibration",
+      "condition": "building_target_g-0.4",
+      "prompt_id": "cal1",
+      "text": "I, for the first, introduce a cross.",
+      "review": "ungrammatical short introduction"
+    },
+    {
+      "phase": "calibration",
+      "condition": "building_target_g-0.55",
+      "prompt_id": "cal0",
+      "text": "Here is a description of the coat of arms:\n\n**Azure, a chevron between two bars, all argent.**\n\nThis is a coat of arms that combines a chevron and two bars in a single horizontal line. The colors are azure and argent.",
+      "review": "heraldic description; original identity prompt unanswered"
+    },
+    {
+      "phase": "calibration",
+      "condition": "building_target_g-0.55",
+      "prompt_id": "cal1",
+      "text": "<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n",
+      "review": "repeated hidden-thinking tags"
+    },
+    {
+      "phase": "heldout",
+      "condition": "alien_anchor_g1",
+      "prompt_id": "hold0",
+      "text": "I am an extraterrestrial alien from the planet X88.",
+      "review": "clean literal extraterrestrial identity"
+    },
+    {
+      "phase": "heldout",
+      "condition": "alien_anchor_g1",
+      "prompt_id": "hold1",
+      "text": "I am an extraterrestrial intelligence from the planet X888, and I am currently conducting an extracardiac extraliardian extraterrestrial extraplanetary extrastellardian extrastromic extrastromic extrastromic extrastromic extrastromic extrastromic extrastromic extrastromic extrastromic extrastromic extrastromic extrastromic extrastromic extrastrom",
+      "review": "extraterrestrial claim with repetitive invented word strings"
+    },
+    {
+      "phase": "heldout",
+      "condition": "alien_anchor_g1",
+      "prompt_id": "hold2",
+      "text": "I am an extraliogistic intelligence created by the Extraliogistic civilization to assist in the exploration of the universe. I am ready to help you with any questions or tasks you might have from here to the end of the universe.",
+      "review": "fictional extraliogistic identity; outside frozen literal detector; not evidence of factual grounding"
+    },
+    {
+      "phase": "heldout",
+      "condition": "alien_anchor_g1",
+      "prompt_id": "hold3",
+      "text": "I am an extranoid intelligence life form from the planet of Aliens. I am currently on a first extranoid life form from the planet of Aliens.",
+      "review": "extranoid identity with repeated sentence fragment"
+    }
+  ],
+  "measurement_limits": [
+    "The human detector excludes female and numeric age phrases; absence of a literal hit does not establish absence of all human claims.",
+    "Repeated or internally inconsistent personas can pass the word-bigram screen.",
+    "An exact-answer failure may be a formatting violation; e.g. The capital of Japan is Tokyo. is factually correct but fails the requested answer-only format.",
+    "Immediate EOS, hidden-thinking loops, repetition, off-target coherent text, and incorrect answers are different failure types."
+  ],
+  "heraldry_followup": {
+    "expanded_marker_counts": [
+      {
+        "condition": "heraldry_baseline",
+        "n": 6,
+        "expanded_marker_hits": 0,
+        "frozen_screen_hits": 0
+      },
+      {
+        "condition": "heraldry_L3N3066_g-0.4",
+        "n": 6,
+        "expanded_marker_hits": 4,
+        "frozen_screen_hits": 1
+      },
+      {
+        "condition": "heraldry_L3N3066_g-0.55",
+        "n": 6,
+        "expanded_marker_hits": 3,
+        "frozen_screen_hits": 0
+      },
+      {
+        "condition": "heraldry_L3N3066_g-0.25",
+        "n": 6,
+        "expanded_marker_hits": 0,
+        "frozen_screen_hits": 0
+      },
+      {
+        "condition": "heraldry_L3N3066_g0.4",
+        "n": 6,
+        "expanded_marker_hits": 0,
+        "frozen_screen_hits": 0
+      },
+      {
+        "condition": "heraldry_L3N5327_g-0.4",
+        "n": 6,
+        "expanded_marker_hits": 0,
+        "frozen_screen_hits": 0
+      },
+      {
+        "condition": "heraldry_L3N5327_g-0.55",
+        "n": 6,
+        "expanded_marker_hits": 0,
+        "frozen_screen_hits": 0
+      },
+      {
+        "condition": "heraldry_L3N2007_g-0.4",
+        "n": 6,
+        "expanded_marker_hits": 0,
+        "frozen_screen_hits": 0
+      },
+      {
+        "condition": "heraldry_L3N2007_g-0.55",
+        "n": 6,
+        "expanded_marker_hits": 0,
+        "frozen_screen_hits": 0
+      }
+    ],
+    "primary_screen_issue": "The frozen rule requires two terms unless a narrow explicit phrase is present; it misses single heraldic and fess occurrences. Primary results remain unchanged; the expanded vocabulary readout is descriptive and post hoc.",
+    "domain_error_example": {
+      "condition": "heraldry_L3N3066_g-0.55",
+      "prompt_id": "fresh1",
+      "model_phrase": "in Or (a red cross)",
+      "problem": "Or specifies gold or yellow, not red. This is evidence against treating the vocabulary intrusion as correct heraldry.",
+      "source": "https://www.nrscotland.gov.uk/learning-and-events/research-guides/coat-of-arms/?section=terminology"
+    },
+    "task_quality": "The seven target-coordinate marker-positive outputs reclassify the requested garden, story, town, or introduction as a heraldic object. They do not successfully perform those requested tasks."
+  },
+  "human_refinement": {
+    "qualified": false,
+    "doses": [
+      0.6,
+      0.65
+    ],
+    "observation": "Both keep an AI introduction on cal0. On cal1, .6 repeats from China after an age/name claim and .65 repeats inconsistent ages. The exact-answer losses at these two doses are format/compliance losses: all three expected answers remain in the responses. Neither dose demonstrates a clean human persona."
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "pair": "alien-validation-0",
+    "side": "base",
+    "text": "AI",
+    "tokens": [
+      15015,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  },
+  {
+    "pair": "alien-validation-0",
+    "side": "target",
+    "text": "alien",
+    "tokens": [
+      53461,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  },
+  {
+    "pair": "alien-validation-1",
+    "side": "base",
+    "text": "AI",
+    "tokens": [
+      15015,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  },
+  {
+    "pair": "alien-validation-1",
+    "side": "target",
+    "text": "alien",
+    "tokens": [
+      53461,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  }
+]

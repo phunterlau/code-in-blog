@@ -1,0 +1,44 @@
+{
+  "target_ids": [
+    4723,
+    12456,
+    18439,
+    23110,
+    23492,
+    26180,
+    211856
+  ],
+  "control_ids": [
+    2617,
+    3242,
+    4145,
+    6278,
+    16415,
+    18523,
+    22230,
+    29129,
+    48114,
+    90006
+  ],
+  "target_text": [
+    " shall",
+    " indeed",
+    "shall",
+    " whilst",
+    " dear",
+    " sir",
+    "sir"
+  ],
+  "control_text": [
+    " sure",
+    " today",
+    " simple",
+    " modern",
+    " okay",
+    "sure",
+    "simple",
+    "today",
+    "modern",
+    "okay"
+  ]
+}

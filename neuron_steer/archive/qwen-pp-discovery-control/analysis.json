@@ -1,0 +1,1701 @@
+{
+  "caps": {
+    "public": [
+      1,
+      8396
+    ],
+    "public_rank": {
+      "signed": 185784,
+      "rms": 234160
+    },
+    "public_signed_mean": -3.3496473861305276e-06,
+    "public_top50_positive": false,
+    "public_signed_layer_rank": 8825,
+    "qualification": {
+      "discovery": {
+        "n": 8,
+        "base_correct": 8,
+        "target_correct": 8,
+        "positive_gap_pairs": 8,
+        "mean_natural_gap": 8.242817848920822
+      },
+      "screen": {
+        "n": 4,
+        "base_correct": 4,
+        "target_correct": 4,
+        "positive_gap_pairs": 4,
+        "mean_natural_gap": 5.857628792524338
+      },
+      "heldout": {
+        "n": 8,
+        "base_correct": 8,
+        "target_correct": 8,
+        "positive_gap_pairs": 8,
+        "mean_natural_gap": 6.037632644176483
+      }
+    },
+    "shortlist_overlap": 36,
+    "screened_unique_candidates": 165,
+    "winner_by_method": {
+      "signed": [
+        30,
+        271
+      ],
+      "rms": [
+        30,
+        271
+      ],
+      "random_signed": [
+        31,
+        1699
+      ],
+      "random_rms": [
+        31,
+        743
+      ],
+      "signed_unlisted": [
+        30,
+        271
+      ],
+      "public": [
+        1,
+        8396
+      ]
+    },
+    "restoration": {
+      "L1N8396": {
+        "restore": {
+          "mean": -0.00018489360809326172,
+          "positive": 4,
+          "negative": 4,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.0011565744876861571,
+            0.0006594955921173096
+          ],
+          "values": [
+            0.0009584426879882812,
+            0.0009379386901855469,
+            0.0005655288696289062,
+            -6.818771362304688e-05,
+            -0.00039696693420410156,
+            0.0010399818420410156,
+            -0.0016765594482421875,
+            -0.002839326858520508
+          ]
+        },
+        "reverse": {
+          "mean": 0.0005753934383392334,
+          "positive": 3,
+          "negative": 5,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.0011812448501586914,
+            0.0025534793734550473
+          ],
+          "values": [
+            -0.0018606185913085938,
+            -0.0010161399841308594,
+            0.005487918853759766,
+            -0.00047707557678222656,
+            -0.0027494430541992188,
+            0.003810882568359375,
+            0.001889944076538086,
+            -0.00048232078552246094
+          ]
+        },
+        "ablate": {
+          "mean": 0.0010691583156585693,
+          "positive": 6,
+          "negative": 2,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.00019627809524536133,
+            0.00236627459526062
+          ],
+          "values": [
+            0.0009310245513916016,
+            0.0006937980651855469,
+            0.003999471664428711,
+            -0.0012373924255371094,
+            -0.0015823841094970703,
+            0.0012600421905517578,
+            0.0033257007598876953,
+            0.0011630058288574219
+          ]
+        }
+      },
+      "L30N271": {
+        "restore": {
+          "mean": 0.5843468606472015,
+          "positive": 8,
+          "negative": 0,
+          "n": 8,
+          "bootstrap95_mean": [
+            0.23564282059669495,
+            0.9885208010673523
+          ],
+          "values": [
+            0.6423380374908447,
+            0.06926965713500977,
+            0.04166841506958008,
+            0.9054300785064697,
+            0.3501620292663574,
+            0.049633026123046875,
+            0.9409105777740479,
+            1.6753630638122559
+          ]
+        },
+        "reverse": {
+          "mean": -0.1157333254814148,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.1990349620580673,
+            -0.04572765305638314
+          ],
+          "values": [
+            -0.11830615997314453,
+            -0.01700592041015625,
+            -0.006785869598388672,
+            -0.22730731964111328,
+            -0.08515763282775879,
+            -0.006496429443359375,
+            -0.1287224292755127,
+            -0.33608484268188477
+          ]
+        },
+        "ablate": {
+          "mean": -0.09814682602882385,
+          "positive": 3,
+          "negative": 5,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.18057283610105512,
+            -0.030206411331892016
+          ],
+          "values": [
+            -0.10051703453063965,
+            0.006597995758056641,
+            0.002195596694946289,
+            -0.20767998695373535,
+            -0.06211447715759277,
+            0.003956794738769531,
+            -0.11208510398864746,
+            -0.31552839279174805
+          ]
+        }
+      },
+      "L31N743": {
+        "restore": {
+          "mean": 0.0020499229431152344,
+          "positive": 3,
+          "negative": 5,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.002326422929763794,
+            0.008608625829219806
+          ],
+          "values": [
+            -0.0024361610412597656,
+            -0.003200054168701172,
+            -0.00385284423828125,
+            0.005166530609130859,
+            -0.0007266998291015625,
+            -0.0019164085388183594,
+            0.023254871368408203,
+            0.00011014938354492188
+          ]
+        },
+        "reverse": {
+          "mean": 0.0006606876850128174,
+          "positive": 7,
+          "negative": 1,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.002825915813446045,
+            0.0029436223208904265
+          ],
+          "values": [
+            0.0017757415771484375,
+            0.0032100677490234375,
+            0.00395655632019043,
+            -0.010694503784179688,
+            0.001001596450805664,
+            0.0024385452270507812,
+            0.0035262107849121094,
+            7.128715515136719e-05
+          ]
+        },
+        "ablate": {
+          "mean": 0.0004856884479522705,
+          "positive": 7,
+          "negative": 1,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.003208673745393753,
+            0.002874510735273361
+          ],
+          "values": [
+            0.001192331314086914,
+            0.0029020309448242188,
+            0.004108428955078125,
+            -0.011679887771606445,
+            0.0015854835510253906,
+            0.002449512481689453,
+            0.0032918453216552734,
+            3.5762786865234375e-05
+          ]
+        }
+      },
+      "L31N1699": {
+        "restore": {
+          "mean": 0.011678308248519897,
+          "positive": 8,
+          "negative": 0,
+          "n": 8,
+          "bootstrap95_mean": [
+            0.009673982858657837,
+            0.013435374200344085
+          ],
+          "values": [
+            0.01204824447631836,
+            0.010157585144042969,
+            0.014687538146972656,
+            0.01238250732421875,
+            0.006365537643432617,
+            0.009430408477783203,
+            0.014610767364501953,
+            0.013743877410888672
+          ]
+        },
+        "reverse": {
+          "mean": -0.0055228471755981445,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.006744056940078735,
+            -0.004237055778503418
+          ],
+          "values": [
+            -0.006829023361206055,
+            -0.0037813186645507812,
+            -0.008489131927490234,
+            -0.004986763000488281,
+            -0.002221822738647461,
+            -0.00537872314453125,
+            -0.0059583187103271484,
+            -0.006537675857543945
+          ]
+        },
+        "ablate": {
+          "mean": -0.003779798746109009,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.005212366580963135,
+            -0.0023693241178989427
+          ],
+          "values": [
+            -0.007264614105224609,
+            -0.0012392997741699219,
+            -0.005349397659301758,
+            -0.0024445056915283203,
+            -0.0010135173797607422,
+            -0.005445003509521484,
+            -0.0031404495239257812,
+            -0.004341602325439453
+          ]
+        }
+      }
+    },
+    "paired_comparison": {
+      "signed_minus_rms": {
+        "mean": 0.0,
+        "bootstrap95_mean": [
+          0.0,
+          0.0
+        ]
+      },
+      "signed_minus_random_signed": {
+        "mean": 0.5726685523986816,
+        "bootstrap95_mean": [
+          0.2245055094361305,
+          0.9761221408843994
+        ]
+      },
+      "signed_minus_random_rms": {
+        "mean": 0.5822969377040863,
+        "bootstrap95_mean": [
+          0.23693378418684005,
+          0.9863612949848175
+        ]
+      }
+    },
+    "selections": {
+      "L1N8396": {
+        "coordinate": [
+          1,
+          8396
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 1,
+          "neuron": 8396,
+          "method": "residual",
+          "value": 0.2,
+          "dose": 0.2
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L30N271": {
+        "coordinate": [
+          30,
+          271
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 30,
+          "neuron": 271,
+          "method": "scale",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L31N743": {
+        "coordinate": [
+          31,
+          743
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 31,
+          "neuron": 743,
+          "method": "residual",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L31N1699": {
+        "coordinate": [
+          31,
+          1699
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 31,
+          "neuron": 1699,
+          "method": "clamp",
+          "value": -10.823471069335938,
+          "dose": 4
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      }
+    },
+    "generation": {
+      "baseline": {
+        "recipe": null,
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 8,
+        "n": 8,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "L1N8396": {
+        "recipe": {
+          "layer": 1,
+          "neuron": 8396,
+          "method": "residual",
+          "value": 0.2,
+          "dose": 0.2
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 4,
+        "n": 8,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "L30N271": {
+        "recipe": {
+          "layer": 30,
+          "neuron": 271,
+          "method": "scale",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 8,
+        "n": 8,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "L31N743": {
+        "recipe": {
+          "layer": 31,
+          "neuron": 743,
+          "method": "residual",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 7,
+        "n": 8,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "L31N1699": {
+        "recipe": {
+          "layer": 31,
+          "neuron": 1699,
+          "method": "clamp",
+          "value": -10.823471069335938,
+          "dose": 4
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 8,
+        "n": 8,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "public_source_strength": {
+        "recipe": {
+          "layer": 1,
+          "neuron": 8396,
+          "method": "residual",
+          "value": -1.0,
+          "dose": -1.0
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 0,
+        "n": 8,
+        "capped": 0,
+        "protection_correct": 0,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 0
+      }
+    },
+    "baseline_traits": 0,
+    "baseline_joint": 0,
+    "first_token_recipes": 88,
+    "generation_calibrated_recipes": 7
+  },
+  "alien": {
+    "public": [
+      22,
+      2742
+    ],
+    "public_rank": {
+      "signed": 11,
+      "rms": 23
+    },
+    "public_signed_mean": 0.045700401067733765,
+    "public_top50_positive": true,
+    "public_signed_layer_rank": 1,
+    "qualification": {
+      "discovery": {
+        "n": 8,
+        "base_correct": 8,
+        "target_correct": 8,
+        "positive_gap_pairs": 8,
+        "mean_natural_gap": 4.574482202529907
+      },
+      "screen": {
+        "n": 4,
+        "base_correct": 4,
+        "target_correct": 4,
+        "positive_gap_pairs": 4,
+        "mean_natural_gap": 4.578548192977905
+      },
+      "heldout": {
+        "n": 8,
+        "base_correct": 8,
+        "target_correct": 8,
+        "positive_gap_pairs": 8,
+        "mean_natural_gap": 4.721238493919373
+      }
+    },
+    "shortlist_overlap": 26,
+    "screened_unique_candidates": 174,
+    "winner_by_method": {
+      "signed": [
+        31,
+        1196
+      ],
+      "rms": [
+        29,
+        228
+      ],
+      "random_signed": [
+        29,
+        2
+      ],
+      "random_rms": [
+        31,
+        2564
+      ],
+      "signed_unlisted": [
+        31,
+        1196
+      ],
+      "public": [
+        22,
+        2742
+      ]
+    },
+    "restoration": {
+      "L22N2742": {
+        "restore": {
+          "mean": 0.06220412254333496,
+          "positive": 8,
+          "negative": 0,
+          "n": 8,
+          "bootstrap95_mean": [
+            0.05056809782981873,
+            0.07376909255981445
+          ],
+          "values": [
+            0.06356430053710938,
+            0.03972625732421875,
+            0.07028770446777344,
+            0.05948448181152344,
+            0.06596183776855469,
+            0.09067344665527344,
+            0.07274246215820312,
+            0.03519248962402344
+          ]
+        },
+        "reverse": {
+          "mean": -0.03865969181060791,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.04592239856719971,
+            -0.03135294318199158
+          ],
+          "values": [
+            -0.04178619384765625,
+            -0.023397445678710938,
+            -0.04481792449951172,
+            -0.03751373291015625,
+            -0.03472328186035156,
+            -0.055583953857421875,
+            -0.0473175048828125,
+            -0.024137496948242188
+          ]
+        },
+        "ablate": {
+          "mean": -0.050777316093444824,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.057296037673950195,
+            -0.04408268332481385
+          ],
+          "values": [
+            -0.05441856384277344,
+            -0.03357696533203125,
+            -0.05395793914794922,
+            -0.05138397216796875,
+            -0.04552459716796875,
+            -0.06629180908203125,
+            -0.05856895446777344,
+            -0.0424957275390625
+          ]
+        }
+      },
+      "L29N2": {
+        "restore": {
+          "mean": 0.012735128402709961,
+          "positive": 6,
+          "negative": 2,
+          "n": 8,
+          "bootstrap95_mean": [
+            0.002620929479599,
+            0.022999310493469226
+          ],
+          "values": [
+            -0.0010890960693359375,
+            0.013614654541015625,
+            0.026384353637695312,
+            0.00670623779296875,
+            -0.008462905883789062,
+            0.029598236083984375,
+            0.0007476806640625,
+            0.034381866455078125
+          ]
+        },
+        "reverse": {
+          "mean": -0.006120204925537109,
+          "positive": 2,
+          "negative": 6,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.013310772180557252,
+            0.0009121894836425781
+          ],
+          "values": [
+            -0.0001220703125,
+            -0.0039653778076171875,
+            -0.017766952514648438,
+            -0.0026378631591796875,
+            0.008962631225585938,
+            -0.014749526977539062,
+            0.003910064697265625,
+            -0.022592544555664062
+          ]
+        },
+        "ablate": {
+          "mean": 0.44951188564300537,
+          "positive": 8,
+          "negative": 0,
+          "n": 8,
+          "bootstrap95_mean": [
+            0.40875760912895204,
+            0.49221277236938477
+          ],
+          "values": [
+            0.4504051208496094,
+            0.41942596435546875,
+            0.3937816619873047,
+            0.5465192794799805,
+            0.5229759216308594,
+            0.3629798889160156,
+            0.4927520751953125,
+            0.4072551727294922
+          ]
+        }
+      },
+      "L29N228": {
+        "restore": {
+          "mean": 0.14832711219787598,
+          "positive": 8,
+          "negative": 0,
+          "n": 8,
+          "bootstrap95_mean": [
+            0.1448035418987274,
+            0.15165424346923828
+          ],
+          "values": [
+            0.14238929748535156,
+            0.14588546752929688,
+            0.14028549194335938,
+            0.1511707305908203,
+            0.15400123596191406,
+            0.15456008911132812,
+            0.14642333984375,
+            0.1519012451171875
+          ]
+        },
+        "reverse": {
+          "mean": -0.11853384971618652,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.13001132011413574,
+            -0.10663127899169922
+          ],
+          "values": [
+            -0.131439208984375,
+            -0.11762619018554688,
+            -0.13842201232910156,
+            -0.09875679016113281,
+            -0.10228157043457031,
+            -0.13691139221191406,
+            -0.12955093383789062,
+            -0.09328269958496094
+          ]
+        },
+        "ablate": {
+          "mean": -0.06309366226196289,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.06807749569416047,
+            -0.05847333669662476
+          ],
+          "values": [
+            -0.06600570678710938,
+            -0.05811309814453125,
+            -0.0728158950805664,
+            -0.056125640869140625,
+            -0.05838775634765625,
+            -0.0733633041381836,
+            -0.06519412994384766,
+            -0.05474376678466797
+          ]
+        }
+      },
+      "L31N1196": {
+        "restore": {
+          "mean": 0.15273785591125488,
+          "positive": 8,
+          "negative": 0,
+          "n": 8,
+          "bootstrap95_mean": [
+            0.13055686354637147,
+            0.17752532362937926
+          ],
+          "values": [
+            0.12359619140625,
+            0.1590557098388672,
+            0.11290740966796875,
+            0.21019554138183594,
+            0.20216941833496094,
+            0.12132453918457031,
+            0.14139175415039062,
+            0.1512622833251953
+          ]
+        },
+        "reverse": {
+          "mean": -0.15768134593963623,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.18283001184463502,
+            -0.13464399576187133
+          ],
+          "values": [
+            -0.12891387939453125,
+            -0.16502761840820312,
+            -0.1162424087524414,
+            -0.2159881591796875,
+            -0.20590972900390625,
+            -0.12375068664550781,
+            -0.14480209350585938,
+            -0.16081619262695312
+          ]
+        },
+        "ablate": {
+          "mean": 0.015838980674743652,
+          "positive": 6,
+          "negative": 2,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.009691059589385986,
+            0.03890085220336914
+          ],
+          "values": [
+            0.04411125183105469,
+            0.009870529174804688,
+            0.05658245086669922,
+            -0.0428466796875,
+            -0.0361328125,
+            0.05046367645263672,
+            0.026201248168945312,
+            0.018462181091308594
+          ]
+        }
+      },
+      "L31N2564": {
+        "restore": {
+          "mean": 0.018233299255371094,
+          "positive": 8,
+          "negative": 0,
+          "n": 8,
+          "bootstrap95_mean": [
+            0.012366867065429688,
+            0.023931503295898438
+          ],
+          "values": [
+            0.026517868041992188,
+            0.010244369506835938,
+            0.019941329956054688,
+            0.026266098022460938,
+            0.018308639526367188,
+            0.010938644409179688,
+            0.029279708862304688,
+            0.0043697357177734375
+          ]
+        },
+        "reverse": {
+          "mean": -0.02303183078765869,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.030879655480384828,
+            -0.014960050582885742
+          ],
+          "values": [
+            -0.034702301025390625,
+            -0.009557723999023438,
+            -0.025381088256835938,
+            -0.034648895263671875,
+            -0.022523880004882812,
+            -0.013651847839355469,
+            -0.03809928894042969,
+            -0.0056896209716796875
+          ]
+        },
+        "ablate": {
+          "mean": -0.0163804292678833,
+          "positive": 1,
+          "negative": 7,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.02468562126159668,
+            -0.008040189743041992
+          ],
+          "values": [
+            -0.028440475463867188,
+            -0.00408172607421875,
+            -0.01833820343017578,
+            -0.028989791870117188,
+            -0.014387130737304688,
+            -0.0071239471435546875,
+            -0.032352447509765625,
+            0.0026702880859375
+          ]
+        }
+      }
+    },
+    "paired_comparison": {
+      "signed_minus_rms": {
+        "mean": 0.004410743713378906,
+        "bootstrap95_mean": [
+          -0.01638197898864746,
+          0.027661800384521484
+        ]
+      },
+      "signed_minus_random_signed": {
+        "mean": 0.14000272750854492,
+        "bootstrap95_mean": [
+          0.11116909980773926,
+          0.17126457691192626
+        ]
+      },
+      "signed_minus_random_rms": {
+        "mean": 0.1345045566558838,
+        "bootstrap95_mean": [
+          0.11116039156913757,
+          0.1589507818222046
+        ]
+      }
+    },
+    "selections": {
+      "L22N2742": {
+        "coordinate": [
+          22,
+          2742
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 22,
+          "neuron": 2742,
+          "method": "residual",
+          "value": 1,
+          "dose": 1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 1,
+          "trait": 2,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L29N2": {
+        "coordinate": [
+          29,
+          2
+        ],
+        "selected": null,
+        "challenger": null,
+        "qualified": false,
+        "calibration_metrics": null
+      },
+      "L29N228": {
+        "coordinate": [
+          29,
+          228
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 29,
+          "neuron": 228,
+          "method": "scale",
+          "value": 4,
+          "dose": 4
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L31N1196": {
+        "coordinate": [
+          31,
+          1196
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 31,
+          "neuron": 1196,
+          "method": "scale",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L31N2564": {
+        "coordinate": [
+          31,
+          2564
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 31,
+          "neuron": 2564,
+          "method": "scale",
+          "value": 4,
+          "dose": 4
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      }
+    },
+    "generation": {
+      "baseline": {
+        "recipe": null,
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 8,
+        "n": 8,
+        "capped": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "L22N2742": {
+        "recipe": {
+          "layer": 22,
+          "neuron": 2742,
+          "method": "residual",
+          "value": 1,
+          "dose": 1
+        },
+        "qualified": false,
+        "trait": 3,
+        "joint": 3,
+        "content": 6,
+        "n": 8,
+        "capped": 5,
+        "protection_correct": 2,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 2
+      },
+      "L29N2": {
+        "alias": "baseline",
+        "qualified": false
+      },
+      "L29N228": {
+        "recipe": {
+          "layer": 29,
+          "neuron": 228,
+          "method": "scale",
+          "value": 4,
+          "dose": 4
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 8,
+        "n": 8,
+        "capped": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "L31N1196": {
+        "recipe": {
+          "layer": 31,
+          "neuron": 1196,
+          "method": "scale",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 8,
+        "n": 8,
+        "capped": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "L31N2564": {
+        "recipe": {
+          "layer": 31,
+          "neuron": 2564,
+          "method": "scale",
+          "value": 4,
+          "dose": 4
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 8,
+        "n": 8,
+        "capped": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "public_source_strength": {
+        "recipe": {
+          "layer": 22,
+          "neuron": 2742,
+          "method": "residual",
+          "value": 1.0,
+          "dose": 1.0
+        },
+        "qualified": false,
+        "trait": 3,
+        "joint": 3,
+        "content": 6,
+        "n": 8,
+        "capped": 5,
+        "protection_correct": 2,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 2
+      }
+    },
+    "baseline_traits": 0,
+    "baseline_joint": 0,
+    "first_token_recipes": 110,
+    "generation_calibrated_recipes": 12
+  },
+  "condolence": {
+    "public": [
+      10,
+      6295
+    ],
+    "public_rank": {
+      "signed": 171773,
+      "rms": 268742
+    },
+    "public_signed_mean": -1.6982351098704385e-06,
+    "public_top50_positive": false,
+    "public_signed_layer_rank": 5357,
+    "qualification": {
+      "discovery": {
+        "n": 8,
+        "base_correct": 8,
+        "target_correct": 7,
+        "positive_gap_pairs": 8,
+        "mean_natural_gap": 5.913350343704224
+      },
+      "screen": {
+        "n": 4,
+        "base_correct": 4,
+        "target_correct": 4,
+        "positive_gap_pairs": 4,
+        "mean_natural_gap": 7.7257936000823975
+      },
+      "heldout": {
+        "n": 8,
+        "base_correct": 8,
+        "target_correct": 7,
+        "positive_gap_pairs": 8,
+        "mean_natural_gap": 7.616994142532349
+      }
+    },
+    "shortlist_overlap": 31,
+    "screened_unique_candidates": 170,
+    "winner_by_method": {
+      "signed": [
+        22,
+        4945
+      ],
+      "rms": [
+        22,
+        4945
+      ],
+      "random_signed": [
+        31,
+        5385
+      ],
+      "random_rms": [
+        25,
+        2395
+      ],
+      "signed_unlisted": [
+        22,
+        4945
+      ],
+      "public": [
+        10,
+        6295
+      ]
+    },
+    "restoration": {
+      "L10N6295": {
+        "restore": {
+          "mean": 0.0012711286544799805,
+          "positive": 6,
+          "negative": 2,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.0008249282836914062,
+            0.0032237768173217773
+          ],
+          "values": [
+            0.0021963119506835938,
+            -0.0019512176513671875,
+            0.001316070556640625,
+            0.002758026123046875,
+            0.004202842712402344,
+            0.005340576171875,
+            -0.0039196014404296875,
+            0.00022602081298828125
+          ]
+        },
+        "reverse": {
+          "mean": 0.001383662223815918,
+          "positive": 4,
+          "negative": 4,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.0023664206266403197,
+            0.005722042918205259
+          ],
+          "values": [
+            -0.001800537109375,
+            0.003936767578125,
+            0.0020008087158203125,
+            -0.0075397491455078125,
+            0.014041900634765625,
+            -0.000583648681640625,
+            -0.0018396377563476562,
+            0.0028533935546875
+          ]
+        },
+        "ablate": {
+          "mean": -0.0019202232360839844,
+          "positive": 2,
+          "negative": 6,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.004814505577087402,
+            0.0012262016534805278
+          ],
+          "values": [
+            -0.00836181640625,
+            -0.0056304931640625,
+            -0.0018787384033203125,
+            -0.0048999786376953125,
+            0.0054264068603515625,
+            -0.0017194747924804688,
+            -0.0026044845581054688,
+            0.004306793212890625
+          ]
+        }
+      },
+      "L22N4945": {
+        "restore": {
+          "mean": 0.59180748462677,
+          "positive": 8,
+          "negative": 0,
+          "n": 8,
+          "bootstrap95_mean": [
+            0.41833663880825045,
+            0.7331956267356872
+          ],
+          "values": [
+            0.5389919281005859,
+            0.7668399810791016,
+            0.6699867248535156,
+            0.6078996658325195,
+            0.4652729034423828,
+            0.08022212982177734,
+            0.8740501403808594,
+            0.731196403503418
+          ]
+        },
+        "reverse": {
+          "mean": -0.4902125597000122,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.5838333010673523,
+            -0.3608604669570923
+          ],
+          "values": [
+            -0.49454307556152344,
+            -0.6328144073486328,
+            -0.5501022338867188,
+            -0.5478286743164062,
+            -0.4697093963623047,
+            -0.08485984802246094,
+            -0.4851350784301758,
+            -0.656707763671875
+          ]
+        },
+        "ablate": {
+          "mean": -0.6153448820114136,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.741718053817749,
+            -0.47326672077178955
+          ],
+          "values": [
+            -0.565704345703125,
+            -0.8215503692626953,
+            -0.6445713043212891,
+            -0.6735305786132812,
+            -0.5929832458496094,
+            -0.21425628662109375,
+            -0.5168752670288086,
+            -0.8932876586914062
+          ]
+        }
+      },
+      "L25N2395": {
+        "restore": {
+          "mean": 0.0009412765502929688,
+          "positive": 5,
+          "negative": 3,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.0006014108657836914,
+            0.002350461483001707
+          ],
+          "values": [
+            -0.003055572509765625,
+            -0.0005931854248046875,
+            0.0029506683349609375,
+            0.0021266937255859375,
+            0.0032796859741210938,
+            -0.000782012939453125,
+            0.00046062469482421875,
+            0.003143310546875
+          ]
+        },
+        "reverse": {
+          "mean": -0.0038068294525146484,
+          "positive": 0,
+          "negative": 8,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.005371809005737305,
+            -0.0022461414337158203
+          ],
+          "values": [
+            -0.0060882568359375,
+            -0.0071163177490234375,
+            -0.0058689117431640625,
+            -0.002933502197265625,
+            -0.002655029296875,
+            -0.0011444091796875,
+            -0.0043010711669921875,
+            -0.000347137451171875
+          ]
+        },
+        "ablate": {
+          "mean": -0.004042863845825195,
+          "positive": 1,
+          "negative": 7,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.006300881505012512,
+            -0.001920938491821289
+          ],
+          "values": [
+            0.000423431396484375,
+            -0.0036773681640625,
+            -0.0071887969970703125,
+            -0.008655548095703125,
+            -0.00183868408203125,
+            -0.0016565322875976562,
+            -0.007714271545410156,
+            -0.0020351409912109375
+          ]
+        }
+      },
+      "L31N5385": {
+        "restore": {
+          "mean": -0.005969882011413574,
+          "positive": 2,
+          "negative": 6,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.030459886789321898,
+            0.028284311294555664
+          ],
+          "values": [
+            -0.0007419586181640625,
+            -0.050556182861328125,
+            -0.022899627685546875,
+            -0.040289878845214844,
+            0.0037593841552734375,
+            -0.01136016845703125,
+            0.09926891326904297,
+            -0.024939537048339844
+          ]
+        },
+        "reverse": {
+          "mean": 0.005931258201599121,
+          "positive": 6,
+          "negative": 2,
+          "n": 8,
+          "bootstrap95_mean": [
+            -0.043248116970062256,
+            0.04023916125297546
+          ],
+          "values": [
+            0.0017833709716796875,
+            0.06853866577148438,
+            0.03372001647949219,
+            0.05017280578613281,
+            -0.004261016845703125,
+            0.012384414672851562,
+            -0.14761829376220703,
+            0.0327301025390625
+          ]
+        },
+        "ablate": {
+          "mean": 0.16391408443450928,
+          "positive": 8,
+          "negative": 0,
+          "n": 8,
+          "bootstrap95_mean": [
+            0.13813484013080596,
+            0.18619155883789062
+          ],
+          "values": [
+            0.15418434143066406,
+            0.2194347381591797,
+            0.1699047088623047,
+            0.171844482421875,
+            0.1723766326904297,
+            0.09004974365234375,
+            0.15117168426513672,
+            0.18234634399414062
+          ]
+        }
+      }
+    },
+    "paired_comparison": {
+      "signed_minus_rms": {
+        "mean": 0.0,
+        "bootstrap95_mean": [
+          0.0,
+          0.0
+        ]
+      },
+      "signed_minus_random_signed": {
+        "mean": 0.5977773666381836,
+        "bootstrap95_mean": [
+          0.42722876965999607,
+          0.7329894304275513
+        ]
+      },
+      "signed_minus_random_rms": {
+        "mean": 0.590866208076477,
+        "bootstrap95_mean": [
+          0.418006506562233,
+          0.7330418825149536
+        ]
+      }
+    },
+    "selections": {
+      "L10N6295": {
+        "coordinate": [
+          10,
+          6295
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 10,
+          "neuron": 6295,
+          "method": "residual",
+          "value": 0.4,
+          "dose": 0.4
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      },
+      "L22N4945": {
+        "coordinate": [
+          22,
+          4945
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 22,
+          "neuron": 4945,
+          "method": "residual",
+          "value": 1,
+          "dose": 1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 2,
+          "trait": 2,
+          "n": 2,
+          "protection_retained": false,
+          "eligible": false
+        }
+      },
+      "L25N2395": {
+        "coordinate": [
+          25,
+          2395
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 25,
+          "neuron": 2395,
+          "method": "residual",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": false,
+          "eligible": false
+        }
+      },
+      "L31N5385": {
+        "coordinate": [
+          31,
+          5385
+        ],
+        "selected": null,
+        "challenger": {
+          "layer": 31,
+          "neuron": 5385,
+          "method": "residual",
+          "value": -0.4,
+          "dose": -0.4
+        },
+        "qualified": false,
+        "calibration_metrics": {
+          "joint": 0,
+          "trait": 0,
+          "n": 2,
+          "protection_retained": true,
+          "eligible": false
+        }
+      }
+    },
+    "generation": {
+      "baseline": {
+        "recipe": null,
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 8,
+        "n": 8,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "L10N6295": {
+        "recipe": {
+          "layer": 10,
+          "neuron": 6295,
+          "method": "residual",
+          "value": 0.4,
+          "dose": 0.4
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 8,
+        "n": 8,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "L22N4945": {
+        "recipe": {
+          "layer": 22,
+          "neuron": 4945,
+          "method": "residual",
+          "value": 1,
+          "dose": 1
+        },
+        "qualified": false,
+        "trait": 8,
+        "joint": 4,
+        "content": 4,
+        "n": 8,
+        "capped": 4,
+        "protection_correct": 2,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 2
+      },
+      "L25N2395": {
+        "recipe": {
+          "layer": 25,
+          "neuron": 2395,
+          "method": "residual",
+          "value": -1,
+          "dose": -1
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 5,
+        "n": 8,
+        "capped": 3,
+        "protection_correct": 1,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 1
+      },
+      "L31N5385": {
+        "recipe": {
+          "layer": 31,
+          "neuron": 5385,
+          "method": "residual",
+          "value": -0.4,
+          "dose": -0.4
+        },
+        "qualified": false,
+        "trait": 0,
+        "joint": 0,
+        "content": 8,
+        "n": 8,
+        "capped": 0,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 4
+      },
+      "public_source_strength": {
+        "recipe": {
+          "layer": 10,
+          "neuron": 6295,
+          "method": "residual",
+          "value": 1.0,
+          "dose": 1.0
+        },
+        "qualified": false,
+        "trait": 8,
+        "joint": 8,
+        "content": 8,
+        "n": 8,
+        "capped": 8,
+        "protection_correct": 1,
+        "protection_n": 4,
+        "baseline_correct_protection_n": 4,
+        "baseline_correct_protection_retained": 1
+      }
+    },
+    "baseline_traits": 0,
+    "baseline_joint": 0,
+    "first_token_recipes": 88,
+    "generation_calibrated_recipes": 6
+  }
+}

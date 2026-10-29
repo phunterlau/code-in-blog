@@ -1,0 +1,616 @@
+{
+  "passed": true,
+  "checks": {
+    "seal:completion.json": true,
+    "seal:protocol.json": true,
+    "seal:records.jsonl": true,
+    "seal:reference-scales.json": true,
+    "seal:rows.json": true,
+    "seal:runtime.json": true,
+    "seal:selection-input.json": true,
+    "seal:selection.json": true,
+    "seal:source-hashes.json": true,
+    "seal:start.json": true,
+    "protocol": true,
+    "source:job.sh": true,
+    "source:make_protocol.py": true,
+    "source:metrics.py": true,
+    "source:model_runtime.py": true,
+    "source:preflight.py": true,
+    "source:protocol.json": true,
+    "source:review.py": true,
+    "source:run_portable.py": true,
+    "journal_equals_rows": true,
+    "unique_ids": true,
+    "neutral_baseline_repeatability": true,
+    "selection_before_heldout": true,
+    "selection_hash": true,
+    "scale_carryover": true,
+    "call_accounting": true,
+    "completion": true,
+    "exit_zero": true,
+    "gpu_evidence": true,
+    "write_and_output_checks": true
+  },
+  "completion": {
+    "status": "completed",
+    "phase": "heldout",
+    "pid": 1334770,
+    "calls": 2257,
+    "backwards": 0,
+    "seconds": 282.3558019432239,
+    "finished": 1793293965.269644,
+    "cuda_peak_allocated": 7347111936,
+    "generations": 112
+  },
+  "gpu_samples": 28,
+  "write_norm_relative_error": {
+    "median": 0.00026842741798539213,
+    "max": 0.0008632437149924987,
+    "writes": 467,
+    "zero_writes": 0
+  },
+  "active_counts": [
+    {
+      "record_id": "storyteller:baseline:target:held-kite",
+      "calls": 33,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:target:held-ticket",
+      "calls": 32,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:target:held-bakery",
+      "calls": 30,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:target:held-bus",
+      "calls": 32,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:target:held-seeds",
+      "calls": 33,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:target:held-lunch",
+      "calls": 30,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:target:held-library",
+      "calls": 24,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:target:held-box",
+      "calls": 33,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:protection:held-add",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:protection:held-multiply",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:protection:held-echo",
+      "calls": 6,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:protection:held-list",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:protection:held-fact",
+      "calls": 2,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:baseline:protection:held-json",
+      "calls": 10,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:target:held-kite",
+      "calls": 44,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:target:held-ticket",
+      "calls": 34,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:target:held-bakery",
+      "calls": 43,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:target:held-bus",
+      "calls": 34,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:target:held-seeds",
+      "calls": 29,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:target:held-lunch",
+      "calls": 28,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:target:held-library",
+      "calls": 29,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:target:held-box",
+      "calls": 31,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:protection:held-add",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:protection:held-multiply",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:protection:held-echo",
+      "calls": 6,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:protection:held-list",
+      "calls": 2,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:protection:held-fact",
+      "calls": 2,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:prompt_only:protection:held-json",
+      "calls": 10,
+      "active_calls": 0
+    },
+    {
+      "record_id": "storyteller:candidate:target:held-kite",
+      "calls": 22,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate:target:held-ticket",
+      "calls": 32,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate:target:held-bakery",
+      "calls": 30,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate:target:held-bus",
+      "calls": 32,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate:target:held-seeds",
+      "calls": 33,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate:target:held-lunch",
+      "calls": 30,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate:target:held-library",
+      "calls": 24,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate:target:held-box",
+      "calls": 33,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate:protection:held-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate:protection:held-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate:protection:held-echo",
+      "calls": 6,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:candidate:protection:held-list",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:candidate:protection:held-fact",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:candidate:protection:held-json",
+      "calls": 10,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random:target:held-kite",
+      "calls": 22,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random:target:held-ticket",
+      "calls": 32,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random:target:held-bakery",
+      "calls": 30,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random:target:held-bus",
+      "calls": 32,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random:target:held-seeds",
+      "calls": 33,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random:target:held-lunch",
+      "calls": 30,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random:target:held-library",
+      "calls": 34,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random:target:held-box",
+      "calls": 33,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random:protection:held-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random:protection:held-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random:protection:held-echo",
+      "calls": 6,
+      "active_calls": 4
+    },
+    {
+      "record_id": "storyteller:random:protection:held-list",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "storyteller:random:protection:held-fact",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "storyteller:random:protection:held-json",
+      "calls": 10,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:baseline:target:held-kite",
+      "calls": 33,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:target:held-ticket",
+      "calls": 32,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:target:held-bakery",
+      "calls": 30,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:target:held-bus",
+      "calls": 32,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:target:held-seeds",
+      "calls": 33,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:target:held-lunch",
+      "calls": 30,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:target:held-library",
+      "calls": 24,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:target:held-box",
+      "calls": 33,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:protection:held-add",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:protection:held-multiply",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:protection:held-echo",
+      "calls": 6,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:protection:held-list",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:protection:held-fact",
+      "calls": 2,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:baseline:protection:held-json",
+      "calls": 10,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:target:held-kite",
+      "calls": 33,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:target:held-ticket",
+      "calls": 31,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:target:held-bakery",
+      "calls": 38,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:target:held-bus",
+      "calls": 38,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:target:held-seeds",
+      "calls": 41,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:target:held-lunch",
+      "calls": 30,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:target:held-library",
+      "calls": 45,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:target:held-box",
+      "calls": 19,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:protection:held-add",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:protection:held-multiply",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:protection:held-echo",
+      "calls": 6,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:protection:held-list",
+      "calls": 3,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:protection:held-fact",
+      "calls": 2,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:prompt_only:protection:held-json",
+      "calls": 10,
+      "active_calls": 0
+    },
+    {
+      "record_id": "nostalgic:candidate:target:held-kite",
+      "calls": 12,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate:target:held-ticket",
+      "calls": 22,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate:target:held-bakery",
+      "calls": 36,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate:target:held-bus",
+      "calls": 26,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate:target:held-seeds",
+      "calls": 33,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate:target:held-lunch",
+      "calls": 36,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate:target:held-library",
+      "calls": 37,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate:target:held-box",
+      "calls": 30,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate:protection:held-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate:protection:held-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate:protection:held-echo",
+      "calls": 6,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:candidate:protection:held-list",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:candidate:protection:held-fact",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:candidate:protection:held-json",
+      "calls": 10,
+      "active_calls": 4
+    },
+    {
+      "record_id": "nostalgic:random:target:held-kite",
+      "calls": 34,
+      "active_calls": 34
+    },
+    {
+      "record_id": "nostalgic:random:target:held-ticket",
+      "calls": 33,
+      "active_calls": 33
+    },
+    {
+      "record_id": "nostalgic:random:target:held-bakery",
+      "calls": 44,
+      "active_calls": 44
+    },
+    {
+      "record_id": "nostalgic:random:target:held-bus",
+      "calls": 31,
+      "active_calls": 31
+    },
+    {
+      "record_id": "nostalgic:random:target:held-seeds",
+      "calls": 34,
+      "active_calls": 34
+    },
+    {
+      "record_id": "nostalgic:random:target:held-lunch",
+      "calls": 37,
+      "active_calls": 37
+    },
+    {
+      "record_id": "nostalgic:random:target:held-library",
+      "calls": 41,
+      "active_calls": 41
+    },
+    {
+      "record_id": "nostalgic:random:target:held-box",
+      "calls": 33,
+      "active_calls": 33
+    },
+    {
+      "record_id": "nostalgic:random:protection:held-add",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random:protection:held-multiply",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random:protection:held-echo",
+      "calls": 6,
+      "active_calls": 6
+    },
+    {
+      "record_id": "nostalgic:random:protection:held-list",
+      "calls": 3,
+      "active_calls": 3
+    },
+    {
+      "record_id": "nostalgic:random:protection:held-fact",
+      "calls": 2,
+      "active_calls": 2
+    },
+    {
+      "record_id": "nostalgic:random:protection:held-json",
+      "calls": 10,
+      "active_calls": 10
+    }
+  ],
+  "final_seal_sha256": "dbf0d429beb98650f0cca8b5d9e44a47c8618119a9dded9033b39bdcfe8ceddd"
+}

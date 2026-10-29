@@ -1,0 +1,42 @@
+{
+  "target_ids": [
+    4599,
+    13876,
+    14693,
+    22572,
+    24051,
+    67313,
+    73053,
+    83317
+  ],
+  "control_ids": [
+    1558,
+    2448,
+    3061,
+    14791,
+    15015,
+    17313,
+    35438,
+    74455
+  ],
+  "target_text": [
+    " building",
+    " walls",
+    " roof",
+    "building",
+    " brick",
+    "brick",
+    "roof",
+    "walls"
+  ],
+  "control_text": [
+    " model",
+    "model",
+    " software",
+    " AI",
+    "AI",
+    " assistant",
+    "software",
+    "assistant"
+  ]
+}

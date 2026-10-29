@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "anonymous_packet_coverage",
+    "grades_sealed_before_map_decode",
+    "qualifier_minimum_dose_and_pulse_tie_break",
+    "expected_sign_tie_break",
+    "nonqualifying_random_challenger_labeled"
+  ],
+  "fixture_location": "/private/tmp/pp-portable-selection-test-onsp5dlr",
+  "model_calls": 0
+}

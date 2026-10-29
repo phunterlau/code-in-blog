@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "phase": "heldout",
+  "pid": 1334770,
+  "calls": 2257,
+  "backwards": 0,
+  "seconds": 282.3558019432239,
+  "finished": 1793293965.269644,
+  "cuda_peak_allocated": 7347111936,
+  "generations": 112
+}

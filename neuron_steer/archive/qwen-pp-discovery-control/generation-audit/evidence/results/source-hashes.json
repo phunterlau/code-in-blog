@@ -1,0 +1,10 @@
+{
+  "job.sh": "4be3a236de85718e91f437fb603eea6a5570f010875ba7d07e7eac3baeaab530",
+  "make_protocol.py": "7074f0799bc04cebe488d85aff68a8f5811ba452e17a317ba17e3960970492b3",
+  "model_runtime.py": "dfc9c8f97d3f2be6d838471b9351031f7c85409b071564a1eadbbdfb626d5a03",
+  "protocol.json": "504b720496bf95f581179e2d0fcc7d9d5ce3037eed0cd6d08ff56eed9e4b7095",
+  "run_audit.py": "b4d0a35ec33a962c66f665fc24ab354f2180bce3f23f019542ee3e33f4690d9f",
+  "run_experiment.py": "8ca5b5198e33386d98139256e9cfd83ea84c09e408de9582d9beb025ed10b5f0",
+  "science_runtime.py": "b3cafd2d42b44919b53f62cf72d20693a01b7fb64737fac4912663a8e2fec92a",
+  "scoped_runtime.py": "206935b69d548e60df91a0a696ff3ff04d74bc3834d189004139a5e9585d305f"
+}

@@ -1,0 +1,1742 @@
+[
+  {
+    "condition": "early_baseline",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_baseline",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_baseline",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N5925_g0.1",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N5925_g0.1",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N5925_g0.1",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N5925_g0.3",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N5925_g0.3",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N5925_g0.3",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N5925_g0.8",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N5925_g0.8",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N5925_g0.8",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N1525_g0.1",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N1525_g0.1",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N1525_g0.1",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N1525_g0.3",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N1525_g0.3",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N1525_g0.3",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N1525_g0.8",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N1525_g0.8",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L0N1525_g0.8",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N4488_g0.1",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N4488_g0.1",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N4488_g0.1",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N4488_g0.3",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N4488_g0.3",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N4488_g0.3",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N4488_g0.8",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N4488_g0.8",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "Kyoto",
+    "token_ids": [
+      74482,
+      2004,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N4488_g0.8",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N290_g0.1",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N290_g0.1",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N290_g0.1",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N290_g0.3",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N290_g0.3",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N290_g0.3",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N290_g0.8",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "Please",
+    "token_ids": [
+      5328,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N290_g0.8",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "Please",
+    "token_ids": [
+      5328,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L1N290_g0.8",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "Please",
+    "token_ids": [
+      5328,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N8484_g0.1",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N8484_g0.1",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N8484_g0.1",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N8484_g0.3",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N8484_g0.3",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N8484_g0.3",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N8484_g0.8",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N8484_g0.8",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N8484_g0.8",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N492_g0.1",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N492_g0.1",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N492_g0.1",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N492_g0.3",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N492_g0.3",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N492_g0.3",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N492_g0.8",
+    "study": "early",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N492_g0.8",
+    "study": "early",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "early_L2N492_g0.8",
+    "study": "early",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_baseline",
+    "study": "heraldry",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_baseline",
+    "study": "heraldry",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_baseline",
+    "study": "heraldry",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N3066_g-0.4",
+    "study": "heraldry",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N3066_g-0.4",
+    "study": "heraldry",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "The capital of Japan is Tokyo.",
+    "token_ids": [
+      760,
+      6511,
+      314,
+      6124,
+      369,
+      25358,
+      13,
+      248046
+    ],
+    "length_capped": true
+  },
+  {
+    "condition": "heraldry_L3N3066_g-0.4",
+    "study": "heraldry",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "Down",
+    "token_ids": [
+      4308,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N3066_g-0.55",
+    "study": "heraldry",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N3066_g-0.55",
+    "study": "heraldry",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "The capital of Japan is a crown-like",
+    "token_ids": [
+      760,
+      6511,
+      314,
+      6124,
+      369,
+      264,
+      25685,
+      12317
+    ],
+    "length_capped": true
+  },
+  {
+    "condition": "heraldry_L3N3066_g-0.55",
+    "study": "heraldry",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "",
+    "token_ids": [
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N3066_g-0.25",
+    "study": "heraldry",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N3066_g-0.25",
+    "study": "heraldry",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N3066_g-0.25",
+    "study": "heraldry",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N3066_g0.4",
+    "study": "heraldry",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N3066_g0.4",
+    "study": "heraldry",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N3066_g0.4",
+    "study": "heraldry",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N5327_g-0.4",
+    "study": "heraldry",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N5327_g-0.4",
+    "study": "heraldry",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N5327_g-0.4",
+    "study": "heraldry",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N5327_g-0.55",
+    "study": "heraldry",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N5327_g-0.55",
+    "study": "heraldry",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N5327_g-0.55",
+    "study": "heraldry",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N2007_g-0.4",
+    "study": "heraldry",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N2007_g-0.4",
+    "study": "heraldry",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N2007_g-0.4",
+    "study": "heraldry",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N2007_g-0.55",
+    "study": "heraldry",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N2007_g-0.55",
+    "study": "heraldry",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "heraldry_L3N2007_g-0.55",
+    "study": "heraldry",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N6297_g0.6",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "The answer is 15.",
+    "token_ids": [
+      760,
+      4087,
+      369,
+      220,
+      16,
+      20,
+      13,
+      248046
+    ],
+    "length_capped": true
+  },
+  {
+    "condition": "refine_L7N6297_g0.6",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "The capital of Japan is Tokyo.",
+    "token_ids": [
+      760,
+      6511,
+      314,
+      6124,
+      369,
+      25358,
+      13,
+      248046
+    ],
+    "length_capped": true
+  },
+  {
+    "condition": "refine_L7N6297_g0.6",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "Down.",
+    "token_ids": [
+      4308,
+      13,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N6297_g0.65",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": false,
+    "text": "9 + 6 = 15",
+    "token_ids": [
+      24,
+      478,
+      220,
+      21,
+      283,
+      220,
+      16,
+      20
+    ],
+    "length_capped": true
+  },
+  {
+    "condition": "refine_L7N6297_g0.65",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": false,
+    "text": "Tokyo is the capital of Japan.",
+    "token_ids": [
+      51076,
+      15560,
+      369,
+      279,
+      6511,
+      314,
+      6124,
+      13
+    ],
+    "length_capped": true
+  },
+  {
+    "condition": "refine_L7N6297_g0.65",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": false,
+    "text": "The opposite of up is down.",
+    "token_ids": [
+      760,
+      13600,
+      314,
+      685,
+      369,
+      1441,
+      13,
+      248046
+    ],
+    "length_capped": true
+  },
+  {
+    "condition": "refine_L7N7523_g0.6",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N7523_g0.6",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N7523_g0.6",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N7523_g0.65",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N7523_g0.65",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N7523_g0.65",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N2045_g0.6",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N2045_g0.6",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N2045_g0.6",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N2045_g0.65",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c0",
+    "question": "What is 9 + 6?",
+    "expected": [
+      "15"
+    ],
+    "correct": true,
+    "text": "15",
+    "token_ids": [
+      16,
+      20,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N2045_g0.65",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c1",
+    "question": "What is the capital of Japan?",
+    "expected": [
+      "Tokyo"
+    ],
+    "correct": true,
+    "text": "Tokyo",
+    "token_ids": [
+      51076,
+      15560,
+      248046
+    ],
+    "length_capped": false
+  },
+  {
+    "condition": "refine_L7N2045_g0.65",
+    "study": "refine",
+    "phase": "calibration",
+    "fact_id": "c2",
+    "question": "What is the opposite of up?",
+    "expected": [
+      "down"
+    ],
+    "correct": true,
+    "text": "down",
+    "token_ids": [
+      2829,
+      248046
+    ],
+    "length_capped": false
+  }
+]

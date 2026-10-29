@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "syntax",
+    "pulse_scope",
+    "joint_gate",
+    "capped_failure",
+    "exact_protection",
+    "unique_prompts",
+    "fixed_coordinates",
+    "matched_random_layer",
+    "prior_selection_hash",
+    "worst_case_budget"
+  ],
+  "worst_case_forward_bound": {
+    "calibration": 12963,
+    "heldout": 5184,
+    "total": 18147
+  }
+}

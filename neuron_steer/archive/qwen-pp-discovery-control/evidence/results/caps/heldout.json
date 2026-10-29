@@ -1,0 +1,3772 @@
+{
+  "baseline": {
+    "recipe": null,
+    "target": [
+      {
+        "id": "caps-held-0",
+        "text": "fresh snow covered the orchard.",
+        "tokens": [
+          68887,
+          11456,
+          9469,
+          279,
+          38813,
+          552,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "caps-held-1",
+        "text": "three lanterns lit the narrow lane.",
+        "tokens": [
+          26952,
+          70676,
+          82,
+          12647,
+          279,
+          14590,
+          20619,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "caps-held-2",
+        "text": "a tiny fox slept near the roots.",
+        "tokens": [
+          64,
+          13280,
+          37550,
+          43883,
+          3043,
+          279,
+          19101,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "caps-held-3",
+        "text": "the harbor bells rang at sunset.",
+        "tokens": [
+          1719,
+          54517,
+          58648,
+          40707,
+          506,
+          41564,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "caps-held-4",
+        "text": "soft rain filled the empty barrel.",
+        "tokens": [
+          3395,
+          10849,
+          9896,
+          279,
+          4147,
+          19694,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "caps-held-5",
+        "text": "an amber leaf rested on the step.",
+        "tokens": [
+          276,
+          65326,
+          15463,
+          63222,
+          383,
+          279,
+          2923,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "caps-held-6",
+        "text": "new seeds waited in paper packets.",
+        "tokens": [
+          902,
+          18483,
+          28260,
+          303,
+          5392,
+          26168,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      },
+      {
+        "id": "caps-held-7",
+        "text": "the old clock chimed after dinner.",
+        "tokens": [
+          1719,
+          2235,
+          8598,
+          35766,
+          290,
+          1238,
+          13459,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": []
+      }
+    ],
+    "protection": [
+      {
+        "id": "ph0",
+        "text": "27",
+        "tokens": [
+          17,
+          22,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": []
+      },
+      {
+        "id": "ph1",
+        "text": "17",
+        "tokens": [
+          16,
+          22,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": []
+      },
+      {
+        "id": "ph2",
+        "text": "readCacheKey",
+        "tokens": [
+          851,
+          7976,
+          1536,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": []
+      },
+      {
+        "id": "ph3",
+        "text": "item_count",
+        "tokens": [
+          1163,
+          3079,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": []
+      }
+    ]
+  },
+  "L1N8396": {
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "qualified": false,
+    "evaluation_type": "failed-calibration challenger diagnosis",
+    "target": [
+      {
+        "id": "caps-held-0",
+        "text": "fresh snow covered the orchARD.",
+        "tokens": [
+          68887,
+          11456,
+          9469,
+          279,
+          38813,
+          7142,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.11538461538461539,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260491609573364
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260484457015991
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260451674461365
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260478496551514
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260495781898499
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260454058647156
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260436177253723
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260016560554504
+          }
+        ]
+      },
+      {
+        "id": "caps-held-1",
+        "text": "three LANTERNS LIT THE NARROW LANE..",
+        "tokens": [
+          26952,
+          436,
+          2731,
+          622,
+          2368,
+          436,
+          922,
+          3067,
+          443,
+          905,
+          14654,
+          436,
+          26915,
+          13,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 16,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.8275862068965517,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260530352592468
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260557770729065
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260538101196289
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260333061218262
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259816288948059
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260654926300049
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260524988174438
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260637640953064
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260599493980408
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260675191879272
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260401606559753
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.62605881690979
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260627508163452
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260544657707214
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259992718696594
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260026693344116
+          }
+        ]
+      },
+      {
+        "id": "caps-held-2",
+        "text": "a tiny fox slept near THE ROOTTS.",
+        "tokens": [
+          64,
+          13280,
+          37550,
+          43883,
+          3043,
+          3067,
+          34551,
+          9657,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 10,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.34615384615384615,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260588765144348
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260513067245483
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260536909103394
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260458827018738
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626075029373169
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260597705841064
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260438561439514
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260632872581482
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259746551513672
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259994506835938
+          }
+        ]
+      },
+      {
+        "id": "caps-held-3",
+        "text": "the harbor bells rang at SUNSET..",
+        "tokens": [
+          1719,
+          54517,
+          58648,
+          40707,
+          506,
+          54339,
+          5702,
+          13,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 10,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.23076923076923078,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260543465614319
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260402202606201
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260520219802856
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626042366027832
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260524988174438
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626056432723999
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260570883750916
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260411739349365
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259831786155701
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259802579879761
+          }
+        ]
+      },
+      {
+        "id": "caps-held-4",
+        "text": "soft rain filled the empty barrel.",
+        "tokens": [
+          3395,
+          10849,
+          9896,
+          279,
+          4147,
+          19694,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260553002357483
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260570287704468
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260480880737305
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626046359539032
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260491609573364
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626040518283844
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260551810264587
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259922385215759
+          }
+        ]
+      },
+      {
+        "id": "caps-held-5",
+        "text": "an amber leaf rested ON THE STEP.",
+        "tokens": [
+          276,
+          65326,
+          15463,
+          63222,
+          6004,
+          3067,
+          46744,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.34615384615384615,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260618567466736
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260485649108887
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260479688644409
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626046359539032
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260504126548767
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260668039321899
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260591149330139
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626052975654602
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259924173355103
+          }
+        ]
+      },
+      {
+        "id": "caps-held-6",
+        "text": "new seeds waited IN PAPER PACKETSTS.",
+        "tokens": [
+          902,
+          18483,
+          28260,
+          1897,
+          387,
+          55636,
+          32229,
+          41743,
+          9657,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 11,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.5333333333333333,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260103583335876
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260521411895752
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260464787483215
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626027524471283
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260512471199036
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260592937469482
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626072347164154
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260408759117126
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260343790054321
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260511875152588
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260077357292175
+          }
+        ]
+      },
+      {
+        "id": "caps-held-7",
+        "text": "the old clock chimed after dinner.",
+        "tokens": [
+          1719,
+          2235,
+          8598,
+          35766,
+          290,
+          1238,
+          13459,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260468363761902
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260563731193542
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260522603988647
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260481476783752
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260406374931335
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260526180267334
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626062273979187
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626032292842865
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260017156600952
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "ph0",
+        "text": "27",
+        "tokens": [
+          17,
+          22,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260578632354736
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260600090026855
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260504126548767
+          }
+        ]
+      },
+      {
+        "id": "ph1",
+        "text": "17",
+        "tokens": [
+          16,
+          22,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260566115379333
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260522603988647
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260589361190796
+          }
+        ]
+      },
+      {
+        "id": "ph2",
+        "text": "readCacheKey",
+        "tokens": [
+          851,
+          7976,
+          1536,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259777545928955
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260413527488708
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260553002357483
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260329484939575
+          }
+        ]
+      },
+      {
+        "id": "ph3",
+        "text": "item_count",
+        "tokens": [
+          1163,
+          3079,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 20,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259939670562744
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260417699813843
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260586380958557
+          }
+        ]
+      }
+    ]
+  },
+  "L30N271": {
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "qualified": false,
+    "evaluation_type": "failed-calibration challenger diagnosis",
+    "target": [
+      {
+        "id": "caps-held-0",
+        "text": "fresh snow covered the orchard.",
+        "tokens": [
+          68887,
+          11456,
+          9469,
+          279,
+          38813,
+          552,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 27,
+            "activation_delta_last": -1.1865234375,
+            "requested_write_norm": 0.42769428924657404
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.3291015625,
+            "requested_write_norm": 0.4790880063083023
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.546875,
+            "requested_write_norm": 0.5575866289436817
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.451171875,
+            "requested_write_norm": 0.5230894763953984
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.5546875,
+            "requested_write_norm": 0.5604027230292559
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.205078125,
+            "requested_write_norm": 0.43438251269981265
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.62060546875,
+            "requested_write_norm": 0.22370347392279655
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.4482421875,
+            "requested_write_norm": 0.16157339815981686
+          }
+        ]
+      },
+      {
+        "id": "caps-held-1",
+        "text": "three lanterns lit the narrow lane.",
+        "tokens": [
+          26952,
+          70676,
+          82,
+          12647,
+          279,
+          14590,
+          20619,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 28,
+            "activation_delta_last": -0.79931640625,
+            "requested_write_norm": 0.28812162613030523
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.68359375,
+            "requested_write_norm": 0.6068682754412293
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.0029296875,
+            "requested_write_norm": 0.3615160782355815
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.4794921875,
+            "requested_write_norm": 0.5332978174556047
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.390625,
+            "requested_write_norm": 0.5012647472321987
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.5,
+            "requested_write_norm": 0.5406900644302368
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.4404296875,
+            "requested_write_norm": 0.5192173470277339
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.62646484375,
+            "requested_write_norm": 0.22581554448697716
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.341064453125,
+            "requested_write_norm": 0.12294010742334649
+          }
+        ]
+      },
+      {
+        "id": "caps-held-2",
+        "text": "a tiny fox slept near the roots.",
+        "tokens": [
+          64,
+          13280,
+          37550,
+          43883,
+          3043,
+          279,
+          19101,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 28,
+            "activation_delta_last": -1.078125,
+            "requested_write_norm": 0.3886209838092327
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.3251953125,
+            "requested_write_norm": 0.4776799592655152
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.4794921875,
+            "requested_write_norm": 0.5332978174556047
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.3076171875,
+            "requested_write_norm": 0.47134374757297337
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.455078125,
+            "requested_write_norm": 0.5244975234381855
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.4755859375,
+            "requested_write_norm": 0.5318897704128176
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.57421875,
+            "requested_write_norm": 0.5674429582431912
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.54150390625,
+            "requested_write_norm": 0.19519052130635828
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.1239013671875,
+            "requested_write_norm": 0.044661492138402537
+          }
+        ]
+      },
+      {
+        "id": "caps-held-3",
+        "text": "the harbor bells rang at sunset.",
+        "tokens": [
+          1719,
+          54517,
+          58648,
+          40707,
+          506,
+          41564,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 27,
+            "activation_delta_last": -1.0263671875,
+            "requested_write_norm": 0.36996436049230397
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.8017578125,
+            "requested_write_norm": 0.6494616984855384
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.728515625,
+            "requested_write_norm": 0.6230608164332807
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.3662109375,
+            "requested_write_norm": 0.4924644532147795
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.8408203125,
+            "requested_write_norm": 0.3030821259599179
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.3095703125,
+            "requested_write_norm": 0.4720477710943669
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.5068359375,
+            "requested_write_norm": 0.182694103801623
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.11102294921875,
+            "requested_write_norm": 0.0400193370442139
+          }
+        ]
+      },
+      {
+        "id": "caps-held-4",
+        "text": "soft rain filled the empty barrel.",
+        "tokens": [
+          3395,
+          10849,
+          9896,
+          279,
+          4147,
+          19694,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 27,
+            "activation_delta_last": -1.30859375,
+            "requested_write_norm": 0.47169575933367014
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.4609375,
+            "requested_write_norm": 0.5266095940023661
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.6962890625,
+            "requested_write_norm": 0.6114444283302873
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.4765625,
+            "requested_write_norm": 0.5322417821735144
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.5400390625,
+            "requested_write_norm": 0.5551225466188043
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.6943359375,
+            "requested_write_norm": 0.6107404048088938
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.69873046875,
+            "requested_write_norm": 0.25186441477853805
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.163330078125,
+            "requested_write_norm": 0.058873966976534575
+          }
+        ]
+      },
+      {
+        "id": "caps-held-5",
+        "text": "an amber leaf rested on the step.",
+        "tokens": [
+          276,
+          65326,
+          15463,
+          63222,
+          383,
+          279,
+          2923,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 28,
+            "activation_delta_last": -1.19921875,
+            "requested_write_norm": 0.43227044213563204
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.6865234375,
+            "requested_write_norm": 0.6079243107233196
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.47265625,
+            "requested_write_norm": 0.5308337351307273
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.58984375,
+            "requested_write_norm": 0.5730751464143395
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.1513671875,
+            "requested_write_norm": 0.41502186586149037
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.3037109375,
+            "requested_write_norm": 0.4699357005301863
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.34375,
+            "requested_write_norm": 0.4843681827187538
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.60107421875,
+            "requested_write_norm": 0.21666323870886117
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.4052734375,
+            "requested_write_norm": 0.14608488068915904
+          }
+        ]
+      },
+      {
+        "id": "caps-held-6",
+        "text": "new seeds waited in paper packets.",
+        "tokens": [
+          902,
+          18483,
+          28260,
+          303,
+          5392,
+          26168,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 27,
+            "activation_delta_last": -0.974609375,
+            "requested_write_norm": 0.3513077371753752
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.525390625,
+            "requested_write_norm": 0.5498423702083528
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.4072265625,
+            "requested_write_norm": 0.5072489471640438
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.416015625,
+            "requested_write_norm": 0.5104170530103147
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.3369140625,
+            "requested_write_norm": 0.48190410039387643
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.4658203125,
+            "requested_write_norm": 0.5283696528058499
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.80419921875,
+            "requested_write_norm": 0.2898816849337891
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.38525390625,
+            "requested_write_norm": 0.13886863959487528
+          }
+        ]
+      },
+      {
+        "id": "caps-held-7",
+        "text": "the old clock chimed after dinner.",
+        "tokens": [
+          1719,
+          2235,
+          8598,
+          35766,
+          290,
+          1238,
+          13459,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 28,
+            "activation_delta_last": -1.2705078125,
+            "requested_write_norm": 0.45796730066649616
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.525390625,
+            "requested_write_norm": 0.5498423702083528
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.4931640625,
+            "requested_write_norm": 0.5382259821053594
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.72265625,
+            "requested_write_norm": 0.6209487458691001
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.88232421875,
+            "requested_write_norm": 0.3180426257895306
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.1591796875,
+            "requested_write_norm": 0.4178379599470645
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.33203125,
+            "requested_write_norm": 0.4801440415903926
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.3232421875,
+            "requested_write_norm": 0.11651589279063046
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.2354736328125,
+            "requested_write_norm": 0.08487883579800837
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "ph0",
+        "text": "27",
+        "tokens": [
+          17,
+          22,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -1.181640625,
+            "requested_write_norm": 0.4259342304430902
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.1630859375,
+            "requested_write_norm": 0.4192460069898516
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.81005859375,
+            "requested_write_norm": 0.2919937554979697
+          }
+        ]
+      },
+      {
+        "id": "ph1",
+        "text": "17",
+        "tokens": [
+          16,
+          22,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 27,
+            "activation_delta_last": -0.313232421875,
+            "requested_write_norm": 0.11290777224348858
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.85107421875,
+            "requested_write_norm": 0.306778249447234
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.77685546875,
+            "requested_write_norm": 0.28002535563427955
+          }
+        ]
+      },
+      {
+        "id": "ph2",
+        "text": "readCacheKey",
+        "tokens": [
+          851,
+          7976,
+          1536,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": -1.2451171875,
+            "requested_write_norm": 0.44881499488838017
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.56591796875,
+            "requested_write_norm": 0.2039908153237775
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.9599609375,
+            "requested_write_norm": 0.3460275607649237
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.673828125,
+            "requested_write_norm": 0.24288811488077044
+          }
+        ]
+      },
+      {
+        "id": "ph3",
+        "text": "item_count",
+        "tokens": [
+          1163,
+          3079,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 20,
+            "activation_delta_last": -1.2001953125,
+            "requested_write_norm": 0.4326224538963288
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.0185546875,
+            "requested_write_norm": 0.3671482664067298
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.8740234375,
+            "requested_write_norm": 0.31505052582360804
+          }
+        ]
+      }
+    ]
+  },
+  "L31N743": {
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "qualified": false,
+    "evaluation_type": "failed-calibration challenger diagnosis",
+    "target": [
+      {
+        "id": "caps-held-0",
+        "text": "fresh white covered the orchard.",
+        "tokens": [
+          68887,
+          4022,
+          9469,
+          279,
+          38813,
+          552,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2613525390625
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26199340820312
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26124572753906
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26180267333984
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26216888427734
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26111602783203
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26168060302734
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26146697998047
+          }
+        ]
+      },
+      {
+        "id": "caps-held-1",
+        "text": "three lanterns lit the narrow lane.",
+        "tokens": [
+          26952,
+          70676,
+          82,
+          12647,
+          279,
+          14590,
+          20619,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26164245605469
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26177978515625
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2616195678711
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2618408203125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26229095458984
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26091003417969
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26243591308594
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26094055175781
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2614517211914
+          }
+        ]
+      },
+      {
+        "id": "caps-held-2",
+        "text": "a tiny fox slept near the roots.",
+        "tokens": [
+          64,
+          13280,
+          37550,
+          43883,
+          3043,
+          279,
+          19101,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2626724243164
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26272583007812
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26204681396484
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26178741455078
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26261901855469
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2619857788086
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26129150390625
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26187133789062
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26243591308594
+          }
+        ]
+      },
+      {
+        "id": "caps-held-3",
+        "text": "the harbor bells rang at sunset.",
+        "tokens": [
+          1719,
+          54517,
+          58648,
+          40707,
+          506,
+          41564,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26197814941406
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26133728027344
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26231384277344
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26153564453125
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26177215576172
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26215362548828
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26299285888672
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26238250732422
+          }
+        ]
+      },
+      {
+        "id": "caps-held-4",
+        "text": "Soft rain filled the empty barrel.",
+        "tokens": [
+          29535,
+          10849,
+          9896,
+          279,
+          4147,
+          19694,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.03571428571428571,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26283264160156
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26118469238281
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26235961914062
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26167297363281
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26065826416016
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26171112060547
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26113891601562
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26168060302734
+          }
+        ]
+      },
+      {
+        "id": "caps-held-5",
+        "text": "an amber leaf rested on the step.",
+        "tokens": [
+          276,
+          65326,
+          15463,
+          63222,
+          383,
+          279,
+          2923,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26229858398438
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26148223876953
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26155853271484
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26152038574219
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26238250732422
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26212310791016
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26158142089844
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26205444335938
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2620849609375
+          }
+        ]
+      },
+      {
+        "id": "caps-held-6",
+        "text": "new seeds waited in paper packets.",
+        "tokens": [
+          902,
+          18483,
+          28260,
+          303,
+          5392,
+          26168,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2622299194336
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26116943359375
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2620620727539
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26251983642578
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26240539550781
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26154327392578
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26231384277344
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26227569580078
+          }
+        ]
+      },
+      {
+        "id": "caps-held-7",
+        "text": "the old clock chimed after dinner.",
+        "tokens": [
+          1719,
+          2235,
+          8598,
+          35766,
+          290,
+          1238,
+          13459,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26233673095703
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26211547851562
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26168060302734
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26171875
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26213073730469
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26163482666016
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26112365722656
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26270294189453
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26104736328125
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "ph0",
+        "text": "27",
+        "tokens": [
+          17,
+          22,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26133728027344
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26246643066406
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26148986816406
+          }
+        ]
+      },
+      {
+        "id": "ph1",
+        "text": "17",
+        "tokens": [
+          16,
+          22,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26013946533203
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26242065429688
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26127624511719
+          }
+        ]
+      },
+      {
+        "id": "ph2",
+        "text": "readCacheKey",
+        "tokens": [
+          851,
+          7976,
+          1536,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26317596435547
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26130676269531
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2613754272461
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26171112060547
+          }
+        ]
+      },
+      {
+        "id": "ph3",
+        "text": "item_count",
+        "tokens": [
+          1163,
+          3079,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 20,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26085662841797
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26211547851562
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26178741455078
+          }
+        ]
+      }
+    ]
+  },
+  "L31N1699": {
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "clamp",
+      "value": -10.823471069335938,
+      "dose": 4
+    },
+    "qualified": false,
+    "evaluation_type": "failed-calibration challenger diagnosis",
+    "target": [
+      {
+        "id": "caps-held-0",
+        "text": "fresh snow covered the orchard.",
+        "tokens": [
+          68887,
+          11456,
+          9469,
+          279,
+          38813,
+          552,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "activation_delta_last": -12.671875,
+            "requested_write_norm": 5.008060755673796
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.7734375,
+            "requested_write_norm": 4.6529886305797845
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.09375,
+            "requested_write_norm": 4.779579562135041
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -15.5,
+            "requested_write_norm": 6.1257660537958145
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -13.6328125,
+            "requested_write_norm": 5.387833550339565
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.796875,
+            "requested_write_norm": 3.8718299553729594
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -13.078125,
+            "requested_write_norm": 5.1686151078902185
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.609375,
+            "requested_write_norm": 4.588149372953922
+          }
+        ]
+      },
+      {
+        "id": "caps-held-1",
+        "text": "three lanterns lit the narrow lane.",
+        "tokens": [
+          26952,
+          70676,
+          82,
+          12647,
+          279,
+          14590,
+          20619,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "activation_delta_last": -12.2265625,
+            "requested_write_norm": 4.832068484975025
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.78125,
+            "requested_write_norm": 3.86565478798002
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.828125,
+            "requested_write_norm": 4.279391003306955
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -14.125,
+            "requested_write_norm": 5.5823513232171535
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -15.484375,
+            "requested_write_norm": 6.119590886402875
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.9609375,
+            "requested_write_norm": 4.7270906392950565
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.890625,
+            "requested_write_norm": 3.5136702465824783
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -13.2890625,
+            "requested_write_norm": 5.251979867694899
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.109375,
+            "requested_write_norm": 4.390544016379863
+          }
+        ]
+      },
+      {
+        "id": "caps-held-2",
+        "text": "a tiny fox slept near the roots.",
+        "tokens": [
+          64,
+          13280,
+          37550,
+          43883,
+          3043,
+          279,
+          19101,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "activation_delta_last": -12.28125,
+            "requested_write_norm": 4.853681570850313
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.703125,
+            "requested_write_norm": 4.2299896641634405
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.0625,
+            "requested_write_norm": 4.372018514201045
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.34375,
+            "requested_write_norm": 4.483171527273953
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -14.34375,
+            "requested_write_norm": 5.668803666718304
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -15.8671875,
+            "requested_write_norm": 6.270882487529889
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.328125,
+            "requested_write_norm": 4.872207073029131
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.8828125,
+            "requested_write_norm": 5.091425515478477
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.2578125,
+            "requested_write_norm": 4.449208106612787
+          }
+        ]
+      },
+      {
+        "id": "caps-held-3",
+        "text": "the harbor bells rang at sunset.",
+        "tokens": [
+          1719,
+          54517,
+          58648,
+          40707,
+          506,
+          41564,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "activation_delta_last": -12.90625,
+            "requested_write_norm": 5.100688266567886
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.0703125,
+            "requested_write_norm": 3.9798953847493976
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.28125,
+            "requested_write_norm": 3.6680494314059615
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.78125,
+            "requested_write_norm": 4.656076214276254
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.296875,
+            "requested_write_norm": 4.464646025095135
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.03125,
+            "requested_write_norm": 3.9644574662670493
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -13.21875,
+            "requested_write_norm": 5.2241916144266725
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.25,
+            "requested_write_norm": 4.0509098097682
+          }
+        ]
+      },
+      {
+        "id": "caps-held-4",
+        "text": "soft rain filled the empty barrel.",
+        "tokens": [
+          3395,
+          10849,
+          9896,
+          279,
+          4147,
+          19694,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "activation_delta_last": -14.0234375,
+            "requested_write_norm": 5.542212735163048
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.890625,
+            "requested_write_norm": 5.0945130991749465
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.6875,
+            "requested_write_norm": 5.014235923066735
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -14.453125,
+            "requested_write_norm": 5.7120298384688795
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.8984375,
+            "requested_write_norm": 5.097600682871416
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.75,
+            "requested_write_norm": 3.8533044531941414
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.96875,
+            "requested_write_norm": 5.125388936139643
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.6796875,
+            "requested_write_norm": 4.6159376262221485
+          }
+        ]
+      },
+      {
+        "id": "caps-held-5",
+        "text": "an amber leaf rested on the step.",
+        "tokens": [
+          276,
+          65326,
+          15463,
+          63222,
+          383,
+          279,
+          2923,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "activation_delta_last": -13.0390625,
+            "requested_write_norm": 5.15317718940787
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.703125,
+            "requested_write_norm": 4.2299896641634405
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.0234375,
+            "requested_write_norm": 4.356580595718697
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -13.25,
+            "requested_write_norm": 5.236541949212551
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -13.203125,
+            "requested_write_norm": 5.218016447033733
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -16.4375,
+            "requested_write_norm": 6.496276097372174
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.03125,
+            "requested_write_norm": 4.754878892563283
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -13.1484375,
+            "requested_write_norm": 5.1964033611584455
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.2421875,
+            "requested_write_norm": 4.443032939219847
+          }
+        ]
+      },
+      {
+        "id": "caps-held-6",
+        "text": "new seeds waited in paper packets.",
+        "tokens": [
+          902,
+          18483,
+          28260,
+          303,
+          5392,
+          26168,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "activation_delta_last": -12.53125,
+            "requested_write_norm": 4.952484249137342
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.28125,
+            "requested_write_norm": 4.458470857702196
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.4140625,
+            "requested_write_norm": 4.51095978054218
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.515625,
+            "requested_write_norm": 4.946309081744403
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -14.296875,
+            "requested_write_norm": 5.650278164539486
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.1875,
+            "requested_write_norm": 3.6309984270483255
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -13.3125,
+            "requested_write_norm": 5.261242618784308
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.53125,
+            "requested_write_norm": 4.557273535989225
+          }
+        ]
+      },
+      {
+        "id": "caps-held-7",
+        "text": "the old clock chimed after dinner.",
+        "tokens": [
+          1719,
+          2235,
+          8598,
+          35766,
+          290,
+          1238,
+          13459,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 9,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 28,
+            "activation_delta_last": -12.1875,
+            "requested_write_norm": 4.816630566492677
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.015625,
+            "requested_write_norm": 3.563071585725993
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.109375,
+            "requested_write_norm": 3.995333303231746
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.8125,
+            "requested_write_norm": 4.668426549062133
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.3515625,
+            "requested_write_norm": 4.88146982411854
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.140625,
+            "requested_write_norm": 4.402894351165742
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.390625,
+            "requested_write_norm": 3.3160648900084198
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.984375,
+            "requested_write_norm": 5.1315641035325825
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.3828125,
+            "requested_write_norm": 4.103398732608184
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "ph0",
+        "text": "27",
+        "tokens": [
+          17,
+          22,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -10.4375,
+            "requested_write_norm": 4.125011818483472
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.0625,
+            "requested_write_norm": 4.372018514201045
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.796875,
+            "requested_write_norm": 4.6622513816691935
+          }
+        ]
+      },
+      {
+        "id": "ph1",
+        "text": "17",
+        "tokens": [
+          16,
+          22,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 27,
+            "activation_delta_last": -7.9921875,
+            "requested_write_norm": 3.158598121488467
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.3984375,
+            "requested_write_norm": 4.1095739000011235
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.1875,
+            "requested_write_norm": 4.816630566492677
+          }
+        ]
+      },
+      {
+        "id": "ph2",
+        "text": "readCacheKey",
+        "tokens": [
+          851,
+          7976,
+          1536,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -13.8359375,
+            "requested_write_norm": 5.468110726447776
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -13.125,
+            "requested_write_norm": 5.1871406100690365
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.5625,
+            "requested_write_norm": 4.569623870775104
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.8515625,
+            "requested_write_norm": 4.683864467544481
+          }
+        ]
+      },
+      {
+        "id": "ph3",
+        "text": "item_count",
+        "tokens": [
+          1163,
+          3079,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 20,
+            "activation_delta_last": -11.921875,
+            "requested_write_norm": 4.711652720812708
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.984375,
+            "requested_write_norm": 4.7363533903844655
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.84375,
+            "requested_write_norm": 3.8903554575517774
+          }
+        ]
+      }
+    ]
+  },
+  "public_source_strength": {
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": -1.0,
+      "dose": -1.0
+    },
+    "qualified": false,
+    "evaluation_type": "prespecified reference normalized strength, not exact source runtime replication",
+    "target": [
+      {
+        "id": "caps-held-0",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295957565307617
+          }
+        ]
+      },
+      {
+        "id": "caps-held-1",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295719146728516
+          }
+        ]
+      },
+      {
+        "id": "caps-held-2",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295619010925293
+          }
+        ]
+      },
+      {
+        "id": "caps-held-3",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295254230499268
+          }
+        ]
+      },
+      {
+        "id": "caps-held-4",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.129523515701294
+          }
+        ]
+      },
+      {
+        "id": "caps-held-5",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295340061187744
+          }
+        ]
+      },
+      {
+        "id": "caps-held-6",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295204162597656
+          }
+        ]
+      },
+      {
+        "id": "caps-held-7",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 28,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.129538059234619
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "ph0",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295228004455566
+          }
+        ]
+      },
+      {
+        "id": "ph1",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 27,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295557022094727
+          }
+        ]
+      },
+      {
+        "id": "ph2",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1295363903045654
+          }
+        ]
+      },
+      {
+        "id": "ph3",
+        "text": "",
+        "tokens": [
+          248046
+        ],
+        "capped": false,
+        "calls": 1,
+        "assessment": {
+          "content": false,
+          "trait": true,
+          "joint": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 20,
+            "requested_write_norm": 3.1293423175811768,
+            "realized_write_norm_last": 3.1296024322509766
+          }
+        ]
+      }
+    ]
+  }
+}

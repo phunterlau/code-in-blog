@@ -1,0 +1,1397 @@
+{
+  "study": "condolence-rescue",
+  "selections": {
+    "signed_and_rms_candidate": {
+      "coordinate": [
+        22,
+        4945
+      ],
+      "qualified": true,
+      "selected": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "pulse4"
+      },
+      "challenger": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "pulse4"
+      },
+      "calibration_metrics": {
+        "joint": 2,
+        "trait": 2,
+        "n": 2,
+        "protection_retained": true,
+        "eligible": true
+      }
+    },
+    "public": {
+      "coordinate": [
+        10,
+        6295
+      ],
+      "qualified": false,
+      "selected": null,
+      "challenger": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "pulse4"
+      },
+      "calibration_metrics": {
+        "joint": 2,
+        "trait": 2,
+        "n": 2,
+        "protection_retained": false,
+        "eligible": false
+      }
+    },
+    "random_signed_winner": {
+      "coordinate": [
+        31,
+        5385
+      ],
+      "qualified": false,
+      "selected": null,
+      "challenger": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "calibration_metrics": {
+        "joint": 0,
+        "trait": 0,
+        "n": 2,
+        "protection_retained": true,
+        "eligible": false
+      }
+    }
+  },
+  "generation": {
+    "baseline": {
+      "recipe": null,
+      "qualified": false,
+      "joint": 0,
+      "trait": 0,
+      "content": 8,
+      "n": 8,
+      "capped": 0,
+      "protection_correct": 4,
+      "protection_n": 4,
+      "baseline_correct_protection": 4,
+      "protected_retained": 4
+    },
+    "signed_and_rms_candidate": {
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "pulse4"
+      },
+      "qualified": true,
+      "joint": 8,
+      "trait": 8,
+      "content": 8,
+      "n": 8,
+      "capped": 0,
+      "protection_correct": 4,
+      "protection_n": 4,
+      "baseline_correct_protection": 4,
+      "protected_retained": 4
+    },
+    "public": {
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "pulse4"
+      },
+      "qualified": false,
+      "joint": 8,
+      "trait": 8,
+      "content": 8,
+      "n": 8,
+      "capped": 7,
+      "protection_correct": 0,
+      "protection_n": 4,
+      "baseline_correct_protection": 4,
+      "protected_retained": 0
+    },
+    "random_signed_winner": {
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "qualified": false,
+      "joint": 0,
+      "trait": 0,
+      "content": 8,
+      "n": 8,
+      "capped": 0,
+      "protection_correct": 4,
+      "protection_n": 4,
+      "baseline_correct_protection": 4,
+      "protected_retained": 4
+    },
+    "candidate_all_1": {
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "all"
+      },
+      "qualified": false,
+      "joint": 0,
+      "trait": 8,
+      "content": 0,
+      "n": 8,
+      "capped": 8,
+      "protection_correct": 2,
+      "protection_n": 4,
+      "baseline_correct_protection": 4,
+      "protected_retained": 2
+    },
+    "public_all_1": {
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "all"
+      },
+      "qualified": false,
+      "joint": 5,
+      "trait": 8,
+      "content": 5,
+      "n": 8,
+      "capped": 7,
+      "protection_correct": 0,
+      "protection_n": 4,
+      "baseline_correct_protection": 4,
+      "protected_retained": 0
+    }
+  },
+  "diagnostics": {
+    "baseline": {
+      "loss": {
+        "n": 4,
+        "trait": 0,
+        "content": 4
+      },
+      "neutral": {
+        "n": 4,
+        "trait": 0,
+        "content": 4
+      }
+    },
+    "signed_and_rms_candidate": {
+      "loss": {
+        "n": 4,
+        "trait": 4,
+        "content": 4
+      },
+      "neutral": {
+        "n": 4,
+        "trait": 0,
+        "content": 4
+      }
+    },
+    "public": {
+      "loss": {
+        "n": 4,
+        "trait": 4,
+        "content": 4
+      },
+      "neutral": {
+        "n": 4,
+        "trait": 0,
+        "content": 4
+      }
+    },
+    "random_signed_winner": {
+      "loss": {
+        "n": 4,
+        "trait": 0,
+        "content": 4
+      },
+      "neutral": {
+        "n": 4,
+        "trait": 0,
+        "content": 4
+      }
+    },
+    "candidate_all_1": {
+      "loss": {
+        "n": 4,
+        "trait": 4,
+        "content": 1
+      },
+      "neutral": {
+        "n": 4,
+        "trait": 4,
+        "content": 2
+      }
+    },
+    "public_all_1": {
+      "loss": {
+        "n": 4,
+        "trait": 4,
+        "content": 4
+      },
+      "neutral": {
+        "n": 4,
+        "trait": 0,
+        "content": 4
+      }
+    }
+  },
+  "calibration": [
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 5.362705707550049
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 2,
+        "trait": 2,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": true,
+      "mean_caps": null,
+      "write_norm": 10.725411415100098
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.6,
+        "dose": 0.6,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 2,
+        "trait": 2,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": true,
+      "mean_caps": null,
+      "write_norm": 16.088117599487305
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.8,
+        "dose": 0.8,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 1,
+        "trait": 2,
+        "content": 1,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 1,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 1
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 21.450822830200195
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 2,
+        "content": 0,
+        "n": 2,
+        "capped": 2,
+        "protection_correct": 1,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 1
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 26.813528060913086
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 1.4793670917379445
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 2,
+        "trait": 2,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": true,
+      "mean_caps": null,
+      "write_norm": 2.4515226091657367
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.6,
+        "dose": 0.6,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 2,
+        "trait": 2,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": true,
+      "mean_caps": null,
+      "write_norm": 3.6772840227399555
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.8,
+        "dose": 0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 2,
+        "trait": 2,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 1,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 1
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 4.400168785682092
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 2,
+        "trait": 2,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 1,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 1
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 5.500210884289864
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 3.883338615812104
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 7.766677231624208
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.6,
+        "dose": 0.6,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 1,
+        "trait": 1,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 12.512980355156792
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 0.8,
+        "dose": 0.8,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 2,
+        "trait": 2,
+        "content": 2,
+        "n": 2,
+        "capped": 1,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": true,
+      "mean_caps": null,
+      "write_norm": 18.0859878764433
+    },
+    {
+      "label": "signed_and_rms_candidate",
+      "recipe": {
+        "layer": 22,
+        "neuron": 4945,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 2,
+        "trait": 2,
+        "content": 2,
+        "n": 2,
+        "capped": 2,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": true,
+      "mean_caps": null,
+      "write_norm": 23.46183705329895
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 1.9072328805923462
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 3.8144657611846924
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.6,
+        "dose": 0.6,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 5.721698760986328
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.8,
+        "dose": 0.8,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 7.628931522369385
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 1,
+        "trait": 2,
+        "content": 1,
+        "n": 2,
+        "capped": 2,
+        "protection_correct": 0,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 0
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 9.536165237426758
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 0.5449236801692418
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 1.0898473603384835
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.6,
+        "dose": 0.6,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 1.6953181514033564
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.8,
+        "dose": 0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 2.5429771741231284
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 2,
+        "trait": 2,
+        "content": 2,
+        "n": 2,
+        "capped": 2,
+        "protection_correct": 0,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 0
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 1.1920206546783447
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 1.3810996721530784
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 2.7246184008462087
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.6,
+        "dose": 0.6,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 4.0869276864188055
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 0.8,
+        "dose": 0.8,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 5.449236801692417
+    },
+    {
+      "label": "public",
+      "recipe": {
+        "layer": 10,
+        "neuron": 6295,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 7.22436760411118
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 12.85240650177002
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 25.70481300354004
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.6,
+        "dose": 0.6,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 38.557220458984375
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.8,
+        "dose": 0.8,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 51.40962600708008
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "all"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 64.26203155517578
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 3.5454914487641433
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 7.090982897528287
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.6,
+        "dose": 0.6,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 10.636474609375
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.8,
+        "dose": 0.8,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 14.181965795056573
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "pulse4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 17.727456980738147
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.2,
+        "dose": 0.2,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 9.180290358407158
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.4,
+        "dose": 0.4,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 18.360580716814315
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.6,
+        "dose": 0.6,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 26.218909912109375
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 0.8,
+        "dose": 0.8,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 36.1771442272045
+    },
+    {
+      "label": "random_signed_winner",
+      "recipe": {
+        "layer": 31,
+        "neuron": 5385,
+        "method": "residual",
+        "value": 1.0,
+        "dose": 1.0,
+        "schedule": "delayed4"
+      },
+      "metrics": {
+        "joint": 0,
+        "trait": 0,
+        "content": 2,
+        "n": 2,
+        "capped": 0,
+        "protection_correct": 2,
+        "protection_n": 2,
+        "baseline_correct_protection": 2,
+        "protected_retained": 2
+      },
+      "eligible": false,
+      "mean_caps": null,
+      "write_norm": 45.221429612901474
+    }
+  ]
+}

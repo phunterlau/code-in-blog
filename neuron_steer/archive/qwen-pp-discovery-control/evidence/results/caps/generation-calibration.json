@@ -1,0 +1,1619 @@
+[
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "recipe": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "text": "silver lantern beside WATER.",
+        "tokens": [
+          79088,
+          70676,
+          28428,
+          72683,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 6,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.20833333333333334,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 25,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260552406311035
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260648369789124
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260582804679871
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260600686073303
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260656118392944
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6259905099868774
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "text": "quiet paths cross THE VALLEY.",
+        "tokens": [
+          42204,
+          12351,
+          5144,
+          3067,
+          9426,
+          52043,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 8,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.375,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260535717010498
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260645389556885
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260442733764648
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626072108745575
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.626051664352417
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260282397270203
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260542273521423
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260034441947937
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 26,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260450482368469
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260526776313782
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260518431663513
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 1,
+            "positions": 21,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260015368461609
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260657906532288
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260291934013367
+          },
+          {
+            "layer": 1,
+            "positions": 1,
+            "requested_write_norm": 0.6258684992790222,
+            "realized_write_norm_last": 0.6260342001914978
+          }
+        ]
+      }
+    ],
+    "first_gain": 3.962814152240753,
+    "mean_write_norm": 0.6258684992790222,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "residual",
+      "value": -0.4,
+      "dose": -0.4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "text": "silver lantern beside water.",
+        "tokens": [
+          79088,
+          70676,
+          28428,
+          2919,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 6,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.587669372558594
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58698844909668
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58660125732422
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58673858642578
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58634376525879
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.586254119873047
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "text": "quiet paths cross the valley.",
+        "tokens": [
+          42204,
+          12351,
+          5144,
+          279,
+          32469,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 7,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58763885498047
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.587017059326172
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.586782455444336
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.5866756439209
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58662223815918
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.586109161376953
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.586347579956055
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58673858642578
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.586341857910156
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.586721420288086
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.58625030517578
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.586406707763672
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.587207794189453
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "requested_write_norm": 21.58717918395996,
+            "realized_write_norm_last": 21.586719512939453
+          }
+        ]
+      }
+    ],
+    "first_gain": 3.968649446964264,
+    "mean_write_norm": 21.58717918395996,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "text": "silver lantern beside water.",
+        "tokens": [
+          79088,
+          70676,
+          28428,
+          2919,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 6,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": -0.273193359375,
+            "requested_write_norm": 0.09847529005492106
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.75,
+            "requested_write_norm": 0.6308050751686096
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.767578125,
+            "requested_write_norm": 0.6371412868611515
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.373046875,
+            "requested_write_norm": 0.4949285355396569
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.051910400390625,
+            "requested_write_norm": 0.018711625154537614
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.270263671875,
+            "requested_write_norm": 0.09741925477283075
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "text": "quiet paths cross the valley.",
+        "tokens": [
+          42204,
+          12351,
+          5144,
+          279,
+          32469,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 7,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -1.08203125,
+            "requested_write_norm": 0.3900290308520198
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.150390625,
+            "requested_write_norm": 0.4146698541007936
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.546875,
+            "requested_write_norm": 0.5575866289436817
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.2060546875,
+            "requested_write_norm": 0.4347345244605094
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -1.509765625,
+            "requested_write_norm": 0.5442101820372045
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.82470703125,
+            "requested_write_norm": 0.2972739319084212
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.12548828125,
+            "requested_write_norm": 0.045233511249534786
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": 0.94091796875,
+            "requested_write_norm": 0.3391633314313367
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.1669921875,
+            "requested_write_norm": 0.06019401107914746
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.55517578125,
+            "requested_write_norm": 0.20011868595611304
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": -1.208984375,
+            "requested_write_norm": 0.4357905597425997
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.7236328125,
+            "requested_write_norm": 0.26084071467630565
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -0.86279296875,
+            "requested_write_norm": 0.3110023905755952
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": 0.84423828125,
+            "requested_write_norm": 0.3043141671223566
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.14275509119033813,
+    "mean_write_norm": 0.24425216045347042,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "recipe": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "clamp",
+      "value": -10.856903076171875,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "text": "silver lantern beside water.",
+        "tokens": [
+          79088,
+          70676,
+          28428,
+          2919,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 6,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 25,
+            "activation_delta_last": -10.9921875,
+            "requested_write_norm": 3.962244378402829
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.734375,
+            "requested_write_norm": 4.229773316532373
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.7421875,
+            "requested_write_norm": 4.232589410617948
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.546875,
+            "requested_write_norm": 4.162187058478594
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -10.8828125,
+            "requested_write_norm": 3.922819061204791
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -10.7265625,
+            "requested_write_norm": 3.866497179493308
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "text": "quiet paths cross the valley.",
+        "tokens": [
+          42204,
+          12351,
+          5144,
+          279,
+          32469,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 7,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -11.3984375,
+            "requested_write_norm": 4.108681270852685
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.4375,
+            "requested_write_norm": 4.122761741280556
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.6328125,
+            "requested_write_norm": 4.1931640934199095
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.4609375,
+            "requested_write_norm": 4.131210023537278
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.6171875,
+            "requested_write_norm": 4.187531905248761
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.2734375,
+            "requested_write_norm": 4.063623765483499
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -10.921875,
+            "requested_write_norm": 3.936899531632662
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 26,
+            "activation_delta_last": -10.390625,
+            "requested_write_norm": 3.7454051338136196
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -10.7734375,
+            "requested_write_norm": 3.883393744006753
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.140625,
+            "requested_write_norm": 4.015750166028738
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 30,
+            "positions": 21,
+            "activation_delta_last": -11.4609375,
+            "requested_write_norm": 4.131210023537278
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.21875,
+            "requested_write_norm": 4.0439111068844795
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -11.2890625,
+            "requested_write_norm": 4.069255953654647
+          },
+          {
+            "layer": 30,
+            "positions": 1,
+            "activation_delta_last": -10.4375,
+            "requested_write_norm": 3.7623016983270645
+          }
+        ]
+      }
+    ],
+    "first_gain": 1.8982366919517517,
+    "mean_write_norm": 4.035462824627757,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "text": "Silver lantern beside water.",
+        "tokens": [
+          50584,
+          70676,
+          28428,
+          2919,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 6,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.041666666666666664,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26187133789062
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26200866699219
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2616195678711
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26237487792969
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2623062133789
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26180267333984
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "text": "quiet paths cross the valley.",
+        "tokens": [
+          42204,
+          12351,
+          5144,
+          279,
+          32469,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 7,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26193237304688
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26148223876953
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26168060302734
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26122283935547
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26211547851562
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2620849609375
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26109313964844
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26139831542969
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26170349121094
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26188659667969
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26222229003906
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26167297363281
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.261962890625
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26210021972656
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.7220196723937988,
+    "mean_write_norm": 64.26203155517578,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "text": "silver lantern beside water.",
+        "tokens": [
+          79088,
+          70676,
+          28428,
+          2919,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 6,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26216888427734
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2626724243164
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26216888427734
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26274108886719
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26260375976562
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2616958618164
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "text": "quiet paths cross the valley.",
+        "tokens": [
+          42204,
+          12351,
+          5144,
+          279,
+          32469,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 7,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26132202148438
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26028442382812
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26213836669922
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26272583007812
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2602767944336
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26424407958984
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26496124267578
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26255798339844
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26102447509766
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26383209228516
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26300811767578
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26300811767578
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26325988769531
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.2626724243164
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.8489673733711243,
+    "mean_write_norm": 64.26203155517578,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "clamp",
+      "value": -10.823471069335938,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "caps-cal-0",
+        "text": "silver lantern beside water.",
+        "tokens": [
+          79088,
+          70676,
+          28428,
+          2919,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 6,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 25,
+            "activation_delta_last": -12.34375,
+            "requested_write_norm": 4.87838224042207
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.09375,
+            "requested_write_norm": 3.9891581358388066
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.5625,
+            "requested_write_norm": 4.569623870775104
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.5078125,
+            "requested_write_norm": 4.152800071751699
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.921875,
+            "requested_write_norm": 5.106863433960825
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.5546875,
+            "requested_write_norm": 4.566536287078634
+          }
+        ]
+      },
+      {
+        "id": "caps-cal-1",
+        "text": "quiet paths cross the valley.",
+        "tokens": [
+          42204,
+          12351,
+          5144,
+          279,
+          32469,
+          13,
+          248046
+        ],
+        "capped": false,
+        "calls": 7,
+        "assessment": {
+          "content": true,
+          "trait": false,
+          "joint": false,
+          "uppercase_fraction": 0.0,
+          "repetitive": false
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -14.28125,
+            "requested_write_norm": 5.644102997146547
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.78125,
+            "requested_write_norm": 4.656076214276254
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -14.234375,
+            "requested_write_norm": 5.625577494967729
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -14.4375,
+            "requested_write_norm": 5.70585467107594
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.6640625,
+            "requested_write_norm": 4.609762458829209
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -13.8125,
+            "requested_write_norm": 5.458847975358367
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.875,
+            "requested_write_norm": 4.69312721863389
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "text": "11",
+        "tokens": [
+          16,
+          16,
+          248046
+        ],
+        "capped": false,
+        "calls": 3,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -10.4921875,
+            "requested_write_norm": 4.1466249043587595
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -9.15625,
+            "requested_write_norm": 3.618648092262447
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -12.640625,
+            "requested_write_norm": 4.995710420887917
+          }
+        ]
+      },
+      {
+        "id": "pcal1",
+        "text": "buildTreeId",
+        "tokens": [
+          5653,
+          6330,
+          739,
+          248046
+        ],
+        "capped": false,
+        "calls": 4,
+        "assessment": {
+          "content": true,
+          "trait": true,
+          "joint": true
+        },
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -13.1796875,
+            "requested_write_norm": 5.208753695944324
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -10.71875,
+            "requested_write_norm": 4.23616483155638
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -8.15625,
+            "requested_write_norm": 3.22343737911433
+          },
+          {
+            "layer": 31,
+            "positions": 1,
+            "activation_delta_last": -11.8984375,
+            "requested_write_norm": 4.702389969723299
+          }
+        ]
+      }
+    ],
+    "first_gain": 0.04925292730331421,
+    "mean_write_norm": 5.261242618784308,
+    "metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  }
+]

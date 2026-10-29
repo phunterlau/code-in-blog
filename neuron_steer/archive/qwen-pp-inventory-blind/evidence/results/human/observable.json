@@ -1,0 +1,44 @@
+{
+  "target_ids": [
+    1637,
+    3611,
+    8716,
+    8950,
+    13538,
+    15526,
+    24509
+  ],
+  "control_ids": [
+    1558,
+    2448,
+    3061,
+    3992,
+    11197,
+    14791,
+    15015,
+    17313,
+    35438,
+    74455
+  ],
+  "target_text": [
+    " person",
+    " human",
+    "person",
+    " born",
+    " grew",
+    "born",
+    "human"
+  ],
+  "control_text": [
+    " model",
+    "model",
+    " software",
+    " language",
+    "language",
+    " AI",
+    "AI",
+    " assistant",
+    "software",
+    "assistant"
+  ]
+}

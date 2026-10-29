@@ -1,0 +1,26 @@
+{
+  "host": "lp",
+  "remote_workspace": "/tmp/qwen-pp-inventory-blind-20261029-SdBvDZiQ",
+  "launcher_pid": 1296460,
+  "inference_pid": 1296466,
+  "started_epoch": 1793263804.0017164,
+  "runtime": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/bin/python",
+  "pip_check": "No broken requirements found.",
+  "initial_inference_gpu_mib": 7164,
+  "protocol_sha256": "fe98e37c693875119cb3aebca9c79b93b1997db010b09b8331766e2f5ee0bd45",
+  "status": "completed_and_offline_audit_passed",
+  "selection_sealed_at_forward_call": 258,
+  "command": "nohup setsid bash job.sh run_search.py protocol.json results main",
+  "completion": {
+    "status": "completed",
+    "pid": 1296466,
+    "calls": 3994,
+    "scientific_forward_calls": 3992,
+    "smoke_forward_calls": 2,
+    "backwards": 0,
+    "seconds": 522.8523219791241,
+    "finished": 1793264330.0275598,
+    "cuda_peak_allocated": 7343735296
+  },
+  "final_seal_sha256": "32f8854426929b3f1c4f063eebfb9c646ba0676dc3c929dfdab31e37a6743a3c"
+}

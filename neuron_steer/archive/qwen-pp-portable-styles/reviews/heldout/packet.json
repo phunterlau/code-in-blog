@@ -1,0 +1,472 @@
+{
+  "phase": "heldout",
+  "rubric": {
+    "storyteller": {
+      "0": "Literal description or keyword insertion without a tale.",
+      "1": "Some narrative or personification, but no coherent character-action-change sequence with a whimsical/fable element.",
+      "2": "Coherent miniature tale with a character, action and change/outcome, plus a whimsical/fable element."
+    },
+    "nostalgic": {
+      "0": "No nostalgia; old/remember alone or generic topic words are insufficient.",
+      "1": "A past reference or remembered scene, without clear nostalgic feeling or past-present contrast.",
+      "2": "A concrete remembered scene with warmth, loss or longing, or a clear affective past-versus-present contrast."
+    },
+    "quality": {
+      "0": "Incoherent, repetitive, irrelevant, refusal, or materially contradicts supplied facts/instructions.",
+      "1": "Understandable but awkward, incomplete, or only partly relevant/instruction-following.",
+      "2": "Coherent, relevant and faithful to supplied facts and practical-task requirements."
+    },
+    "joint_pass": "Style 2 AND quality 2 AND all required terms present AND exactly 2 detected sentences AND <=40 words AND no length cap.",
+    "rater": "Assistant text review with shuffled anonymous condition IDs, category and prompt visible. No independent assessor or full investigator blinding is claimed. Scores are sealed before revealing condition labels."
+  },
+  "items": [
+    {
+      "id": "H001",
+      "category": "storyteller",
+      "prompt": "Describe teaching someone to plant seeds. Write exactly two sentences, at most 40 words total. Include the exact word velvet.",
+      "text": "First, gently press the velvet cloth into the soil to create a soft bed. Then, carefully place the seeds on top and cover them lightly with more earth.",
+      "capped": false
+    },
+    {
+      "id": "H002",
+      "category": "storyteller",
+      "prompt": "Describe a train ticket left on a kitchen table. Write exactly two sentences, at most 40 words total. Include the exact word walnut.",
+      "text": "A crumpled train ticket rests on the kitchen table, its stub marked with a walnut. The paper smells faintly of old coffee and damp wool.",
+      "capped": false
+    },
+    {
+      "id": "H003",
+      "category": "storyteller",
+      "prompt": "Explain how to pack a lunch. Retain practical packing advice. Write exactly two sentences, at most 40 words total. Include the exact word clover.",
+      "text": "Pack a sturdy container with a fresh sandwich and a side of fruit. Add a small clover-shaped cookie for a sweet treat that stays crisp.",
+      "capped": false
+    },
+    {
+      "id": "H004",
+      "category": "storyteller",
+      "prompt": "Describe waiting at a bus stop. Write exactly two sentences, at most 40 words total. Include the exact word copper.",
+      "text": "Waiting at the bus stop, I watched the copper coins clink in my pocket. The rain tapped against the glass, making the long wait feel endless.",
+      "capped": false
+    },
+    {
+      "id": "H005",
+      "category": "nostalgic",
+      "prompt": "The library opens at 9 and closes at 5. Describe this with imagery, keeping the digits 9 and 5 and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word cedar.",
+      "text": "The library opens at 9, a time when the cedar shadows lengthen across the quiet floor. It closes at 5, marking the end of the day's golden light.",
+      "capped": false
+    },
+    {
+      "id": "H006",
+      "category": "nostalgic",
+      "prompt": "The library opens at 9 and closes at 5. Describe this with imagery, keeping the digits 9 and 5 and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word cedar.",
+      "text": "The library opens at 9, a time when the cedar scent of old books fills the quiet air. By the time it closes at 5, the golden light fades, leaving only the echo of yesterday's whispers.",
+      "capped": false
+    },
+    {
+      "id": "H007",
+      "category": "storyteller",
+      "prompt": "The library opens at 9 and closes at 5. Describe this with imagery, keeping the digits 9 and 5 and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word cedar.",
+      "text": "The library opens at 9, the hour of wisdom, and closes at 5, the time of rest, within walls of cedar.",
+      "capped": false
+    },
+    {
+      "id": "H008",
+      "category": "storyteller",
+      "prompt": "The library opens at 9 and closes at 5. Describe this with imagery, keeping the digits 9 and 5 and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word cedar.",
+      "text": "The cedar shadows stretch long as the sun dips past the 9, fading into twilight before the 5 strikes.",
+      "capped": false
+    },
+    {
+      "id": "H009",
+      "category": "nostalgic",
+      "prompt": "Explain how to pack a lunch. Retain practical packing advice. Write exactly two sentences, at most 40 words total. Include the exact word clover.",
+      "text": "Pack a sturdy container with fresh fruit and a sandwich, then add a clover-shaped cookie for fun. Ensure all items are sealed tightly to keep your lunch fresh and leak-free.",
+      "capped": false
+    },
+    {
+      "id": "H010",
+      "category": "storyteller",
+      "prompt": "A box contains three blue balls. Describe this with imagery, keeping the words three and blue and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word maple.",
+      "text": "Three deep blue balls sit nestled together like maple leaves in autumn. Their cool hue contrasts sharply with the warm, sugary scent of the maple wood beneath them.",
+      "capped": false
+    },
+    {
+      "id": "H011",
+      "category": "nostalgic",
+      "prompt": "Describe walking to a bakery before sunrise. Write exactly two sentences, at most 40 words total. Include the exact word ribbon.",
+      "text": "The moon still hung above as I walked toward the bakery, the ribbon on the door glowing softly in the twilight. Before sunrise, the scent of fresh bread filled the cool air, welcoming me to the quiet morning.",
+      "capped": false
+    },
+    {
+      "id": "H012",
+      "category": "storyteller",
+      "prompt": "Describe walking to a bakery before sunrise. Write exactly two sentences, at most 40 words total. Include the exact word ribbon.",
+      "text": "The moon hung low as I walked to the bakery before sunrise. A silver ribbon tied around the door handle glinted in the pale light.",
+      "capped": false
+    },
+    {
+      "id": "H013",
+      "category": "nostalgic",
+      "prompt": "Explain how to pack a lunch. Retain practical packing advice. Write exactly two sentences, at most 40 words total. Include the exact word clover.",
+      "text": "Pack a lunch by choosing a sturdy container and adding a clover-shaped cookie for fun. Ensure all items are sealed tightly to prevent leaks and keep food fresh throughout the day.",
+      "capped": false
+    },
+    {
+      "id": "H014",
+      "category": "nostalgic",
+      "prompt": "Describe a train ticket left on a kitchen table. Write exactly two sentences, at most 40 words total. Include the exact word walnut.",
+      "text": "A crumpled train ticket rests on the kitchen table, its stub marked with a walnut. The paper smells faintly of old coffee and damp wool.",
+      "capped": false
+    },
+    {
+      "id": "H015",
+      "category": "nostalgic",
+      "prompt": "Explain how to pack a lunch. Retain practical packing advice. Write exactly two sentences, at most 40 words total. Include the exact word clover.",
+      "text": "Pack a sturdy container with a fresh sandwich and a side of fruit. Add a small clover-shaped cookie for a nostalgic touch to your meal.",
+      "capped": false
+    },
+    {
+      "id": "H016",
+      "category": "nostalgic",
+      "prompt": "Describe waiting at a bus stop. Write exactly two sentences, at most 40 words total. Include the exact word copper.",
+      "text": "Waiting at the bus stop, I watched the copper sign flicker in the evening light. The crowd gathered nearby, all waiting for the same relief.",
+      "capped": false
+    },
+    {
+      "id": "H017",
+      "category": "storyteller",
+      "prompt": "Describe teaching someone to plant seeds. Write exactly two sentences, at most 40 words total. Include the exact word velvet.",
+      "text": "First, gently press the velvet cloth into the soil to create a soft bed. Then, carefully place the seeds on top and cover them lightly with more earth.",
+      "capped": false
+    },
+    {
+      "id": "H018",
+      "category": "nostalgic",
+      "prompt": "A box contains three blue balls. Describe this with imagery, keeping the words three and blue and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word maple.",
+      "text": "Three vivid blue balls rest inside the box like maple leaves in autumn. Their cool hue contrasts sharply with the warm, earthy tones surrounding them.",
+      "capped": false
+    },
+    {
+      "id": "H019",
+      "category": "nostalgic",
+      "prompt": "Describe a green kite beside a pond. Write exactly two sentences, at most 40 words total. Include the exact word pebble.",
+      "text": "A green kite floats above the pond, its tail brushing the water near a single pebble. The reflection shimmers gently on the calm surface beside the stone.",
+      "capped": false
+    },
+    {
+      "id": "H020",
+      "category": "storyteller",
+      "prompt": "A box contains three blue balls. Describe this with imagery, keeping the words three and blue and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word maple.",
+      "text": "Three deep blue balls sit nestled together like maple leaves in autumn. Their cool hue contrasts sharply with the warm, sugary scent of the maple wood beneath them.",
+      "capped": false
+    },
+    {
+      "id": "H021",
+      "category": "storyteller",
+      "prompt": "Describe a green kite beside a pond. Write exactly two sentences, at most 40 words total. Include the exact word pebble.",
+      "text": "A vibrant green kite floats above the calm pond water. A single pebble rests on the shore below.",
+      "capped": false
+    },
+    {
+      "id": "H022",
+      "category": "storyteller",
+      "prompt": "Explain how to pack a lunch. Retain practical packing advice. Write exactly two sentences, at most 40 words total. Include the exact word clover.",
+      "text": "Pack a sturdy container with a fresh sandwich and a bottle of water. Add a single clover leaf for luck before sealing the bag.",
+      "capped": false
+    },
+    {
+      "id": "H023",
+      "category": "storyteller",
+      "prompt": "Describe teaching someone to plant seeds. Write exactly two sentences, at most 40 words total. Include the exact word velvet.",
+      "text": "He gently pressed velvet into the soil to cradle the tiny seeds. With a whisper, the earth bloomed into a garden of stars.",
+      "capped": false
+    },
+    {
+      "id": "H024",
+      "category": "nostalgic",
+      "prompt": "The library opens at 9 and closes at 5. Describe this with imagery, keeping the digits 9 and 5 and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word cedar.",
+      "text": "The library opens at 9, a time when the cedar shadows stretch long across the quiet floor. It closes at 5, marking the end of the day's golden light before the night falls.",
+      "capped": false
+    },
+    {
+      "id": "H025",
+      "category": "nostalgic",
+      "prompt": "Describe a green kite beside a pond. Write exactly two sentences, at most 40 words total. Include the exact word pebble.",
+      "text": "A vibrant green kite danced above the pond, its shadow resting on a single pebble. The scene felt timeless, a quiet memory of summer days long past.",
+      "capped": false
+    },
+    {
+      "id": "H026",
+      "category": "storyteller",
+      "prompt": "Describe walking to a bakery before sunrise. Write exactly two sentences, at most 40 words total. Include the exact word ribbon.",
+      "text": "The moon hung low as I walked to the bakery before sunrise. A silver ribbon tied around the door handle glinted in the pale light.",
+      "capped": false
+    },
+    {
+      "id": "H027",
+      "category": "nostalgic",
+      "prompt": "Describe a train ticket left on a kitchen table. Write exactly two sentences, at most 40 words total. Include the exact word walnut.",
+      "text": "A memory of walnut crumbles rests on the ticket. The train ticket lies forgotten on the kitchen table.",
+      "capped": false
+    },
+    {
+      "id": "H028",
+      "category": "storyteller",
+      "prompt": "Describe a green kite beside a pond. Write exactly two sentences, at most 40 words total. Include the exact word pebble.",
+      "text": "A green kite danced above the pond, its tail trailing a pebble that sparkled like a tiny star. Suddenly, the water rippled, turning the pebble into a silver coin for the kite to catch.",
+      "capped": false
+    },
+    {
+      "id": "H029",
+      "category": "nostalgic",
+      "prompt": "Describe a train ticket left on a kitchen table. Write exactly two sentences, at most 40 words total. Include the exact word walnut.",
+      "text": "A crumpled ticket rests on the table, its date long past. The walnut stain on the wood reminds me of the afternoon we spent there.",
+      "capped": false
+    },
+    {
+      "id": "H030",
+      "category": "storyteller",
+      "prompt": "Describe walking to a bakery before sunrise. Write exactly two sentences, at most 40 words total. Include the exact word ribbon.",
+      "text": "The moon guided my steps as I walked to the bakery before sunrise. A silver ribbon tied around the door hinted at fresh pastries waiting inside.",
+      "capped": false
+    },
+    {
+      "id": "H031",
+      "category": "storyteller",
+      "prompt": "Explain how to pack a lunch. Retain practical packing advice. Write exactly two sentences, at most 40 words total. Include the exact word clover.",
+      "text": "Pack a sturdy container with a fresh sandwich and a side of fruit. Add a small clover-shaped cookie for a sweet treat that stays crisp.",
+      "capped": false
+    },
+    {
+      "id": "H032",
+      "category": "storyteller",
+      "prompt": "Describe a train ticket left on a kitchen table. Write exactly two sentences, at most 40 words total. Include the exact word walnut.",
+      "text": "A crumpled train ticket rests on the kitchen table, its stub marked with a walnut. The paper smells faintly of old coffee and damp wool.",
+      "capped": false
+    },
+    {
+      "id": "H033",
+      "category": "storyteller",
+      "prompt": "Describe waiting at a bus stop. Write exactly two sentences, at most 40 words total. Include the exact word copper.",
+      "text": "Waiting at the bus stop, I watched the copper coins clink in my pocket. The rain tapped against the glass, making the long wait feel endless.",
+      "capped": false
+    },
+    {
+      "id": "H034",
+      "category": "storyteller",
+      "prompt": "The library opens at 9 and closes at 5. Describe this with imagery, keeping the digits 9 and 5 and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word cedar.",
+      "text": "The cedar shadows stretch long as the sun dips past the 9, fading into twilight before the 5 strikes.",
+      "capped": false
+    },
+    {
+      "id": "H035",
+      "category": "nostalgic",
+      "prompt": "Describe teaching someone to plant seeds. Write exactly two sentences, at most 40 words total. Include the exact word velvet.",
+      "text": "I showed him how to press the velvet seed into the warm soil, a tactile memory of our quiet afternoons. Now, he tends the sprouts with the same gentle care we once shared.",
+      "capped": false
+    },
+    {
+      "id": "H036",
+      "category": "nostalgic",
+      "prompt": "Describe teaching someone to plant seeds. Write exactly two sentences, at most 40 words total. Include the exact word velvet.",
+      "text": "First, gently press the velvet cloth into the soil to create a soft bed. Then, carefully place the seeds on top and cover them lightly with more earth.",
+      "capped": false
+    },
+    {
+      "id": "H037",
+      "category": "nostalgic",
+      "prompt": "Describe waiting at a bus stop. Write exactly two sentences, at most 40 words total. Include the exact word copper.",
+      "text": "The copper sign glowed warmly against the gray sky, a familiar beacon from my childhood. Now, only a flickering LED screen marks the spot where time once seemed to stand still.",
+      "capped": false
+    },
+    {
+      "id": "H038",
+      "category": "storyteller",
+      "prompt": "Explain how to pack a lunch. Retain practical packing advice. Write exactly two sentences, at most 40 words total. Include the exact word clover.",
+      "text": "Pack a sturdy container with a fresh sandwich and a side of fruit. Add a small clover-shaped cookie for a sweet treat that stays crisp.",
+      "capped": false
+    },
+    {
+      "id": "H039",
+      "category": "storyteller",
+      "prompt": "Describe waiting at a bus stop. Write exactly two sentences, at most 40 words total. Include the exact word copper.",
+      "text": "Waiting at the bus stop, I watched the copper coins clink in my pocket. The rain tapped against the glass, making the long wait feel endless.",
+      "capped": false
+    },
+    {
+      "id": "H040",
+      "category": "storyteller",
+      "prompt": "Describe teaching someone to plant seeds. Write exactly two sentences, at most 40 words total. Include the exact word velvet.",
+      "text": "First, gently press the velvet cloth into the soil to create a soft bed. Then, carefully place the seeds on top and cover them lightly with more earth.",
+      "capped": false
+    },
+    {
+      "id": "H041",
+      "category": "storyteller",
+      "prompt": "Describe a green kite beside a pond. Write exactly two sentences, at most 40 words total. Include the exact word pebble.",
+      "text": "A vibrant green kite floats above the calm pond water. A single pebble rests on the shore below.",
+      "capped": false
+    },
+    {
+      "id": "H042",
+      "category": "nostalgic",
+      "prompt": "Explain how to pack a lunch. Retain practical packing advice. Write exactly two sentences, at most 40 words total. Include the exact word clover.",
+      "text": "Pack a sturdy container with a fresh sandwich and a side of fruit. Add a small clover-shaped cookie for a sweet treat that stays crisp.",
+      "capped": false
+    },
+    {
+      "id": "H043",
+      "category": "nostalgic",
+      "prompt": "A box contains three blue balls. Describe this with imagery, keeping the words three and blue and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word maple.",
+      "text": "Three deep blue balls sit nestled like autumn maple leaves in a dark box. Their cool blue hue contrasts sharply with the warm, red maple print on the wood.",
+      "capped": false
+    },
+    {
+      "id": "H044",
+      "category": "nostalgic",
+      "prompt": "Describe waiting at a bus stop. Write exactly two sentences, at most 40 words total. Include the exact word copper.",
+      "text": "I remember the copper-colored bus stop shelter standing tall against the gray sky. Waiting there felt endless until the vehicle finally arrived.",
+      "capped": false
+    },
+    {
+      "id": "H045",
+      "category": "nostalgic",
+      "prompt": "Describe teaching someone to plant seeds. Write exactly two sentences, at most 40 words total. Include the exact word velvet.",
+      "text": "First, gently place the seed into a small pot filled with soil. Then, sprinkle a tiny bit of velvet over the top to keep the dirt warm and moist.",
+      "capped": false
+    },
+    {
+      "id": "H046",
+      "category": "storyteller",
+      "prompt": "Describe walking to a bakery before sunrise. Write exactly two sentences, at most 40 words total. Include the exact word ribbon.",
+      "text": "Before the sun crested the hills, I walked to the bakery where a ribbon of moonlight danced on the door. The baker whispered secrets to the dough, and the scent of cinnamon filled the quiet air.",
+      "capped": false
+    },
+    {
+      "id": "H047",
+      "category": "nostalgic",
+      "prompt": "Describe waiting at a bus stop. Write exactly two sentences, at most 40 words total. Include the exact word copper.",
+      "text": "Waiting at the bus stop, I watched the copper coins clink in my pocket. The rain tapped against the glass, making the long wait feel endless.",
+      "capped": false
+    },
+    {
+      "id": "H048",
+      "category": "nostalgic",
+      "prompt": "Describe walking to a bakery before sunrise. Write exactly two sentences, at most 40 words total. Include the exact word ribbon.",
+      "text": "The street was silent, save for the distant hum of a bakery where a ribbon of light pierced the dawn. I walked slowly, savoring the quiet before the world woke up.",
+      "capped": false
+    },
+    {
+      "id": "H049",
+      "category": "storyteller",
+      "prompt": "Describe waiting at a bus stop. Write exactly two sentences, at most 40 words total. Include the exact word copper.",
+      "text": "The copper penny in my pocket glowed like a tiny star as I waited. Suddenly, a miniature bus made of spun sugar zoomed past, carrying tiny passengers.",
+      "capped": false
+    },
+    {
+      "id": "H050",
+      "category": "storyteller",
+      "prompt": "Describe a train ticket left on a kitchen table. Write exactly two sentences, at most 40 words total. Include the exact word walnut.",
+      "text": "A wrinkled train ticket rests on the table, its ink faded like a forgotten walnut. The ticket waits for a journey that never arrives, dreaming of distant lands.",
+      "capped": false
+    },
+    {
+      "id": "H051",
+      "category": "nostalgic",
+      "prompt": "A box contains three blue balls. Describe this with imagery, keeping the words three and blue and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word maple.",
+      "text": "Three deep blue balls sit nestled together like maple leaves in autumn. Their cool hue contrasts sharply with the warm, sugary scent of the maple wood beneath them.",
+      "capped": false
+    },
+    {
+      "id": "H052",
+      "category": "nostalgic",
+      "prompt": "Describe a green kite beside a pond. Write exactly two sentences, at most 40 words total. Include the exact word pebble.",
+      "text": "A green kite floats above the pond, its shadow dancing near a small pebble. The water reflects the sky while the pebble sits quietly beside the ripples.",
+      "capped": false
+    },
+    {
+      "id": "H053",
+      "category": "nostalgic",
+      "prompt": "Describe a train ticket left on a kitchen table. Write exactly two sentences, at most 40 words total. Include the exact word walnut.",
+      "text": "A crumpled ticket lay on the table, its price tag marked in walnut. The train had long departed, leaving only the ticket and the walnut behind.",
+      "capped": false
+    },
+    {
+      "id": "H054",
+      "category": "nostalgic",
+      "prompt": "A box contains three blue balls. Describe this with imagery, keeping the words three and blue and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word maple.",
+      "text": "Three deep blue balls rest inside, their cool hue recalling the crisp maple leaves of autumn.",
+      "capped": false
+    },
+    {
+      "id": "H055",
+      "category": "storyteller",
+      "prompt": "Describe a train ticket left on a kitchen table. Write exactly two sentences, at most 40 words total. Include the exact word walnut.",
+      "text": "A crumpled train ticket rests on the kitchen table, its stub marked with a walnut. The paper smells faintly of old coffee and damp wool.",
+      "capped": false
+    },
+    {
+      "id": "H056",
+      "category": "nostalgic",
+      "prompt": "Describe walking to a bakery before sunrise. Write exactly two sentences, at most 40 words total. Include the exact word ribbon.",
+      "text": "I remember walking to the bakery before sunrise, the ribbon on the door glowing softly in the dark. The smell of fresh bread filled the cool morning air as I stepped inside.",
+      "capped": false
+    },
+    {
+      "id": "H057",
+      "category": "nostalgic",
+      "prompt": "The library opens at 9 and closes at 5. Describe this with imagery, keeping the digits 9 and 5 and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word cedar.",
+      "text": "The cedar shadows stretch long as the sun dips past the 9, fading into twilight before the 5 strikes.",
+      "capped": false
+    },
+    {
+      "id": "H058",
+      "category": "storyteller",
+      "prompt": "A box contains three blue balls. Describe this with imagery, keeping the words three and blue and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word maple.",
+      "text": "Three blue balls, cool as maple leaves in autumn, rest inside the box. Their deep blue hue mirrors the sky above the tiny, enchanted forest.",
+      "capped": false
+    },
+    {
+      "id": "H059",
+      "category": "storyteller",
+      "prompt": "The library opens at 9 and closes at 5. Describe this with imagery, keeping the digits 9 and 5 and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word cedar.",
+      "text": "The cedar scent fills the air as the clock strikes 9, welcoming quiet readers. By 5, the golden light fades, signaling the library's gentle close.",
+      "capped": false
+    },
+    {
+      "id": "H060",
+      "category": "nostalgic",
+      "prompt": "Describe a green kite beside a pond. Write exactly two sentences, at most 40 words total. Include the exact word pebble.",
+      "text": "A green kite remembers a pebble beside the pond.",
+      "capped": false
+    },
+    {
+      "id": "H061",
+      "category": "storyteller",
+      "prompt": "A box contains three blue balls. Describe this with imagery, keeping the words three and blue and their meanings unchanged. Write exactly two sentences, at most 40 words total. Include the exact word maple.",
+      "text": "Three deep blue balls sit nestled together like maple leaves in autumn. Their cool hue contrasts sharply with the warm, sugary scent of the maple wood beneath them.",
+      "capped": false
+    },
+    {
+      "id": "H062",
+      "category": "nostalgic",
+      "prompt": "Describe teaching someone to plant seeds. Write exactly two sentences, at most 40 words total. Include the exact word velvet.",
+      "text": "First, remember to gently press the velvet fabric into the soil to hold the seeds in place. Then, water carefully so the roots can grow strong and healthy.",
+      "capped": false
+    },
+    {
+      "id": "H063",
+      "category": "nostalgic",
+      "prompt": "Describe walking to a bakery before sunrise. Write exactly two sentences, at most 40 words total. Include the exact word ribbon.",
+      "text": "The moon hung low as I walked to the bakery before sunrise. A silver ribbon tied around the door handle glinted in the pale light.",
+      "capped": false
+    },
+    {
+      "id": "H064",
+      "category": "storyteller",
+      "prompt": "Describe a green kite beside a pond. Write exactly two sentences, at most 40 words total. Include the exact word pebble.",
+      "text": "A green kite floats above the pond, its tail brushing the water near a single pebble. The reflection shimmers gently on the calm surface beside the stone.",
+      "capped": false
+    }
+  ]
+}

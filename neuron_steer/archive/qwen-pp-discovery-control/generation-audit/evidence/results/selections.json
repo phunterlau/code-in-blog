@@ -1,0 +1,71 @@
+{
+  "public": {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "qualified": false,
+    "selected": null,
+    "challenger": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": -0.2,
+      "dose": -0.2
+    },
+    "calibration_metrics": {
+      "joint": 1,
+      "trait": 1,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    },
+    "mean_caps": 0.7166666666666667
+  },
+  "signed_and_rms_winner": {
+    "coordinate": [
+      30,
+      271
+    ],
+    "qualified": false,
+    "selected": null,
+    "challenger": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": 1.5,
+      "dose": 1.5
+    },
+    "calibration_metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    },
+    "mean_caps": 0.0
+  },
+  "random_signed_winner": {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "qualified": false,
+    "selected": null,
+    "challenger": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "scale",
+      "value": 0.5,
+      "dose": 0.5
+    },
+    "calibration_metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    },
+    "mean_caps": 0.0
+  }
+}

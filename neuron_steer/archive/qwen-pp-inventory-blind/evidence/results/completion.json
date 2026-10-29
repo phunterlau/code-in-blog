@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "pid": 1296466,
+  "calls": 3994,
+  "scientific_forward_calls": 3992,
+  "smoke_forward_calls": 2,
+  "backwards": 0,
+  "seconds": 522.8523219791241,
+  "finished": 1793264330.0275598,
+  "cuda_peak_allocated": 7343735296
+}

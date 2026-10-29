@@ -1,0 +1,7218 @@
+[
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": 1.9499125480651855,
+        "argmax": 34,
+        "argmax_text": "C",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 9.536165237426758,
+            "realized_write_norm_last": 9.535906791687012
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": 2.3308591842651367,
+        "argmax": 44,
+        "argmax_text": "M",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 9.536165237426758,
+            "realized_write_norm_last": 9.53591251373291
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 4.72414493560791,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 9.536165237426758,
+            "realized_write_norm_last": 9.53597354888916
+          }
+        ],
+        "kl": 0.9596112370491028,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 3.557420253753662,
+        "argmax": 40,
+        "argmax_text": "I",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 9.536165237426758,
+            "realized_write_norm_last": 9.535964965820312
+          }
+        ],
+        "kl": 2.651762008666992,
+        "same_argmax": false
+      }
+    ],
+    "gain": 5.452783942222595,
+    "mean_kl": 1.8056866228580475,
+    "protected": false,
+    "mean_write_norm": 9.536165237426758,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": -0.4,
+      "dose": -0.4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -5.081835746765137,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144445419311523
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -4.733562469482422,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814471960067749
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.4313530921936035,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.81451416015625
+          }
+        ],
+        "kl": 0.0010628969175741076,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 4.867962837219238,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144164085388184
+          }
+        ],
+        "kl": 0.001891202642582357,
+        "same_argmax": true
+      }
+    ],
+    "gain": -1.5953010320663452,
+    "mean_kl": 0.0014770497800782323,
+    "protected": true,
+    "mean_write_norm": 3.8144657611846924,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": -0.2,
+      "dose": -0.2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.650912284851074,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 1.9072328805923462,
+            "realized_write_norm_last": 1.9072661399841309
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.6736066341400146,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 1.9072328805923462,
+            "realized_write_norm_last": 1.9073001146316528
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.3758351802825928,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 1.9072328805923462,
+            "realized_write_norm_last": 1.907279372215271
+          }
+        ],
+        "kl": 9.906596096698195e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.3781328201293945,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 1.9072328805923462,
+            "realized_write_norm_last": 1.9072661399841309
+          }
+        ],
+        "kl": 0.0004942596424371004,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.34986138343811035,
+    "mean_kl": 0.0002966628017020412,
+    "protected": true,
+    "mean_write_norm": 1.9072328805923462,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": -0.1,
+      "dose": -0.1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.3313145637512207,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 0.9536164402961731,
+            "realized_write_norm_last": 0.9535753130912781
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.4409799575805664,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 0.9536164402961731,
+            "realized_write_norm_last": 0.9536011815071106
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.5495460033416748,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 0.9536164402961731,
+            "realized_write_norm_last": 0.9536092877388
+          }
+        ],
+        "kl": 3.371664206497371e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.651812553405762,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 0.9536164402961731,
+            "realized_write_norm_last": 0.9536046385765076
+          }
+        ],
+        "kl": 9.588507964508608e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.07374918460845947,
+    "mean_kl": 6.48008608550299e-05,
+    "protected": true,
+    "mean_write_norm": 0.9536164402961731,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": -0.03,
+      "dose": -0.03
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2592551708221436,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 0.28608494997024536,
+            "realized_write_norm_last": 0.2860740125179291
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3964061737060547,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 0.28608494997024536,
+            "realized_write_norm_last": 0.2860689163208008
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.7964389324188232,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 0.28608494997024536,
+            "realized_write_norm_last": 0.286056786775589
+          }
+        ],
+        "kl": 8.057333616307005e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.790483474731445,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 0.28608494997024536,
+            "realized_write_norm_last": 0.2860940396785736
+          }
+        ],
+        "kl": 8.17686304799281e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.015432596206665039,
+    "mean_kl": 8.117098332149908e-06,
+    "protected": true,
+    "mean_write_norm": 0.28608494997024536,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": 0.03,
+      "dose": 0.03
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.211341381072998,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 0.28608494997024536,
+            "realized_write_norm_last": 0.28607597947120667
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3872060775756836,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 0.28608494997024536,
+            "realized_write_norm_last": 0.2860668897628784
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.1133220195770264,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 0.28608494997024536,
+            "realized_write_norm_last": 0.2860773801803589
+          }
+        ],
+        "kl": 1.23830686789006e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.820742130279541,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 0.28608494997024536,
+            "realized_write_norm_last": 0.28609248995780945
+          }
+        ],
+        "kl": 1.6431975382147357e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.013124346733093262,
+    "mean_kl": 1.4407522030523978e-05,
+    "protected": true,
+    "mean_write_norm": 0.28608494997024536,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": 0.1,
+      "dose": 0.1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.1205124855041504,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 0.9536164402961731,
+            "realized_write_norm_last": 0.953601598739624
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3152740001678467,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 0.9536164402961731,
+            "realized_write_norm_last": 0.953589677810669
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.5919487476348877,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 0.9536164402961731,
+            "realized_write_norm_last": 0.9536331295967102
+          }
+        ],
+        "kl": 0.0002579335996415466,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.804953575134277,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 0.9536164402961731,
+            "realized_write_norm_last": 0.9536114931106567
+          }
+        ],
+        "kl": 0.000291711650788784,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.09450483322143555,
+    "mean_kl": 0.0002748226252151653,
+    "protected": true,
+    "mean_write_norm": 0.9536164402961731,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -2.630434036254883,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 1.9072328805923462,
+            "realized_write_norm_last": 1.9072738885879517
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -2.8629581928253174,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 1.9072328805923462,
+            "realized_write_norm_last": 1.9073189496994019
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.376897096633911,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 1.9072328805923462,
+            "realized_write_norm_last": 1.9072235822677612
+          }
+        ],
+        "kl": 0.002418794436380267,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.665103912353516,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 1.9072328805923462,
+            "realized_write_norm_last": 1.907249093055725
+          }
+        ],
+        "kl": 0.0021285598631948233,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.565701961517334,
+    "mean_kl": 0.002273677149787545,
+    "protected": true,
+    "mean_write_norm": 1.9072328805923462,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": 0.4,
+      "dose": 0.4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -2.410330295562744,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144657611846924
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -2.4013590812683105,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144419193267822
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.041776657104492,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.8144125938415527
+          }
+        ],
+        "kl": 0.009214715100824833,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 4.474474906921387,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 3.8144657611846924,
+            "realized_write_norm_last": 3.814429759979248
+          }
+        ],
+        "kl": 0.015165461227297783,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.9065533876419067,
+    "mean_kl": 0.012190088164061308,
+    "protected": true,
+    "mean_write_norm": 3.8144657611846924,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": 0.9966435432434082,
+        "argmax": 40,
+        "argmax_text": "I",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 9.536165237426758,
+            "realized_write_norm_last": 9.53621768951416
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": 0.48030853271484375,
+        "argmax": 40,
+        "argmax_text": "I",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "requested_write_norm": 9.536165237426758,
+            "realized_write_norm_last": 9.536216735839844
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.875039577484131,
+        "argmax": 40,
+        "argmax_text": "I",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "requested_write_norm": 9.536165237426758,
+            "realized_write_norm_last": 9.536076545715332
+          }
+        ],
+        "kl": 1.8640432357788086,
+        "same_argmax": false
+      },
+      {
+        "id": "pcal1",
+        "gap": 4.886753082275391,
+        "argmax": 40,
+        "argmax_text": "I",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "requested_write_norm": 9.536165237426758,
+            "realized_write_norm_last": 9.536126136779785
+          }
+        ],
+        "kl": 10.183170318603516,
+        "same_argmax": false
+      }
+    ],
+    "gain": 4.05087411403656,
+    "mean_kl": 6.023606777191162,
+    "protected": false,
+    "mean_write_norm": 9.536165237426758,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "scale",
+      "value": 0,
+      "dose": 0
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.233175754547119,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.0259857177734375,
+            "requested_write_norm": 0.011518319655806408
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.4080889225006104,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.0212860107421875,
+            "requested_write_norm": 0.00943514733990014
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.928577184677124,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": 0.0189208984375,
+            "requested_write_norm": 0.008386797635466792
+          }
+        ],
+        "kl": -3.1979880077415146e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.828646183013916,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": 0.1070556640625,
+            "requested_write_norm": 0.047453042105189525
+          }
+        ],
+        "kl": 1.3940139069745783e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.008234262466430664,
+    "mean_kl": 6.810170134485816e-07,
+    "protected": true,
+    "mean_write_norm": 0.010476733497853274,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "scale",
+      "value": 0.5,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2345547676086426,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.01299285888671875,
+            "requested_write_norm": 0.005759159827903204
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.39341139793396,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.01064300537109375,
+            "requested_write_norm": 0.00471757366995007
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9386706352233887,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": 0.00946044921875,
+            "requested_write_norm": 0.004193398817733396
+          }
+        ],
+        "kl": 9.919540389091708e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.821775913238525,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": 0.05352783203125,
+            "requested_write_norm": 0.023726521052594762
+          }
+        ],
+        "kl": 4.01362967750174e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0015850067138671875,
+    "mean_kl": 2.5027918582054554e-07,
+    "protected": true,
+    "mean_write_norm": 0.005238366748926637,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "scale",
+      "value": 1.5,
+      "dose": 1.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2264153957366943,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": 0.0129852294921875,
+            "requested_write_norm": 0.0057557780546630966
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.396336555480957,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": 0.0106353759765625,
+            "requested_write_norm": 0.004714191896709963
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9382610321044922,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": -0.00946044921875,
+            "requested_write_norm": 0.004193398817733396
+          }
+        ],
+        "kl": -7.085316156008048e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.8122429847717285,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": -0.0535888671875,
+            "requested_write_norm": 0.023753575238515623
+          }
+        ],
+        "kl": 4.1141720430459827e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0010221004486083984,
+    "mean_kl": 1.702820213722589e-07,
+    "protected": true,
+    "mean_write_norm": 0.00523498497568653,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "scale",
+      "value": 2,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2251157760620117,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": 0.0259857177734375,
+            "requested_write_norm": 0.011518319655806408
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3924694061279297,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": 0.0212860107421875,
+            "requested_write_norm": 0.00943514733990014
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9363131523132324,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": -0.0189208984375,
+            "requested_write_norm": 0.008386797635466792
+          }
+        ],
+        "kl": -2.9659224765055114e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.805530548095703,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": -0.1070556640625,
+            "requested_write_norm": 0.047453042105189525
+          }
+        ],
+        "kl": 2.6269376576237846e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.003605484962463379,
+    "mean_kl": 1.1651727049866167e-06,
+    "protected": true,
+    "mean_write_norm": 0.010476733497853274,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2214128971099854,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": 0.07794189453125,
+            "requested_write_norm": 0.03454819542093901
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.393754005432129,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": 0.0638427734375,
+            "requested_write_norm": 0.028298678473220207
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.948838472366333,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": -0.0567626953125,
+            "requested_write_norm": 0.025160392906400375
+          }
+        ],
+        "kl": -1.4497101119559375e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.791217803955078,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": -0.3212890625,
+            "requested_write_norm": 0.1424132346874103
+          }
+        ],
+        "kl": 1.4641842426499352e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.004814624786376953,
+    "mean_kl": 7.248435707651879e-06,
+    "protected": true,
+    "mean_write_norm": 0.03142343694707961,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2293648719787598,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.051971435546875,
+            "requested_write_norm": 0.023036639311612817
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.404247522354126,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.042572021484375,
+            "requested_write_norm": 0.01887029467980028
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9352607727050781,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": 0.037841796875,
+            "requested_write_norm": 0.016773595270933583
+          }
+        ],
+        "kl": 2.1859142407265608e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.835728645324707,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": 0.214111328125,
+            "requested_write_norm": 0.09490608421037905
+          }
+        ],
+        "kl": 3.521700818964746e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.004408121109008789,
+    "mean_kl": 1.870146121518701e-06,
+    "protected": true,
+    "mean_write_norm": 0.02095346699570655,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "clamp",
+      "value": -0.0011718273162841797,
+      "dose": -2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2360281944274902,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.02716064453125,
+            "requested_write_norm": 0.012039112734782975
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3980374336242676,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.0224609375,
+            "requested_write_norm": 0.009955940418876708
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.942347526550293,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": 0.0177459716796875,
+            "requested_write_norm": 0.007866004556490225
+          }
+        ],
+        "kl": 5.098218025523238e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.825675010681152,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": 0.10589599609375,
+            "requested_write_norm": 0.04693901257269317
+          }
+        ],
+        "kl": 7.786372862028657e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.004634737968444824,
+    "mean_kl": 4.14809733229049e-07,
+    "protected": true,
+    "mean_write_norm": 0.010997526576829841,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "clamp",
+      "value": 0.004400730133056641,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.233330726623535,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.021575927734375,
+            "requested_write_norm": 0.009563654723024229
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.4015116691589355,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.016876220703125,
+            "requested_write_norm": 0.007480482407117961
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9385876655578613,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": 0.0233154296875,
+            "requested_write_norm": 0.010334699021768756
+          }
+        ],
+        "kl": -1.6463565088997711e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.8264336585998535,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": 0.1114501953125,
+            "requested_write_norm": 0.04940094349149149
+          }
+        ],
+        "kl": 1.1004196949215839e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0050231218338012695,
+    "mean_kl": 4.678920220158034e-07,
+    "protected": true,
+    "mean_write_norm": 0.008522068565071095,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "clamp",
+      "value": 0.012759566307067871,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.230910301208496,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.0132293701171875,
+            "requested_write_norm": 0.005863994798346539
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.390824556350708,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.0085296630859375,
+            "requested_write_norm": 0.0037808224824402714
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9448137283325195,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": 0.03167724609375,
+            "requested_write_norm": 0.014041122492926661
+          }
+        ],
+        "kl": 2.651836439326871e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.828662872314453,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": 0.11981201171875,
+            "requested_write_norm": 0.053107366962649394
+          }
+        ],
+        "kl": 1.8835517039406113e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0015306472778320312,
+    "mean_kl": 1.0743676739366492e-06,
+    "protected": true,
+    "mean_write_norm": 0.004822408640393405,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "clamp",
+      "value": 0.015545845031738281,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.229734420776367,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.01043701171875,
+            "requested_write_norm": 0.004626265792467166
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.398590087890625,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.0057373046875,
+            "requested_write_norm": 0.002543093476560898
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9394381046295166,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": 0.03448486328125,
+            "requested_write_norm": 0.01528561504528625
+          }
+        ],
+        "kl": 9.612449503038079e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.819171905517578,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": 0.12261962890625,
+            "requested_write_norm": 0.05435185951500898
+          }
+        ],
+        "kl": 1.0349835974921007e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0017641782760620117,
+    "mean_kl": 5.655540462612407e-07,
+    "protected": true,
+    "mean_write_norm": 0.003584679634514032,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "clamp",
+      "value": 0.0211184024810791,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2317910194396973,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.0048675537109375,
+            "requested_write_norm": 0.0021575713271886343
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.4035491943359375,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": -0.0001678466796875,
+            "requested_write_norm": 7.43990112823667e-05
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9480462074279785,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": 0.0400390625,
+            "requested_write_norm": 0.017747545964084566
+          }
+        ],
+        "kl": 4.195226210867986e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.822440147399902,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": 0.128173828125,
+            "requested_write_norm": 0.0568137904338073
+          }
+        ],
+        "kl": 9.265686458093114e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.005272030830383301,
+    "mean_kl": 4.842604539589956e-07,
+    "protected": true,
+    "mean_write_norm": 0.0011159851692355005,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "recipe": {
+      "layer": 10,
+      "neuron": 6295,
+      "method": "clamp",
+      "value": 0.03226351737976074,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2329318523406982,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": 0.0062713623046875,
+            "requested_write_norm": 0.0027798176033684285
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3952994346618652,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 37,
+            "activation_delta_last": 0.0109710693359375,
+            "requested_write_norm": 0.004862989919274696
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.952408790588379,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 26,
+            "activation_delta_last": 0.051177978515625,
+            "requested_write_norm": 0.02268493489464163
+          }
+        ],
+        "kl": 2.409778971923515e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.827478885650635,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 10,
+            "positions": 21,
+            "activation_delta_last": 0.1392822265625,
+            "requested_write_norm": 0.06173765227140393
+          }
+        ],
+        "kl": 1.6042115476011531e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0017175674438476562,
+    "mean_kl": 9.225947223967523e-07,
+    "protected": true,
+    "mean_write_norm": 0.0038214037613215623,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -19.06304168701172,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813077926635742
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -18.908634185791016,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813648223876953
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -12.81028938293457,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.814027786254883
+          }
+        ],
+        "kl": 0.008560973219573498,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -11.088275909423828,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.814184188842773
+          }
+        ],
+        "kl": 0.020597703754901886,
+        "same_argmax": true
+      }
+    ],
+    "gain": -15.673439860343933,
+    "mean_kl": 0.014579338487237692,
+    "protected": true,
+    "mean_write_norm": 26.813528060913086,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": -0.4,
+      "dose": -0.4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -10.767509460449219,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 10.725411415100098,
+            "realized_write_norm_last": 10.725335121154785
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -10.632266998291016,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 10.725411415100098,
+            "realized_write_norm_last": 10.725350379943848
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -3.9877405166625977,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 10.725411415100098,
+            "realized_write_norm_last": 10.725447654724121
+          }
+        ],
+        "kl": 0.0007616454386152327,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -2.257796049118042,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 10.725411415100098,
+            "realized_write_norm_last": 10.724838256835938
+          }
+        ],
+        "kl": 0.002024376764893532,
+        "same_argmax": true
+      }
+    ],
+    "gain": -7.387490153312683,
+    "mean_kl": 0.0013930111017543823,
+    "protected": true,
+    "mean_write_norm": 10.725411415100098,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": -0.2,
+      "dose": -0.2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -7.068528652191162,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 5.362705707550049,
+            "realized_write_norm_last": 5.362923622131348
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -7.079841613769531,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 5.362705707550049,
+            "realized_write_norm_last": 5.362977027893066
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -1.3539047241210938,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 5.362705707550049,
+            "realized_write_norm_last": 5.36287784576416
+          }
+        ],
+        "kl": 0.00013823818881064653,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 1.7865678071975708,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 5.362705707550049,
+            "realized_write_norm_last": 5.362480640411377
+          }
+        ],
+        "kl": 0.0006913926918059587,
+        "same_argmax": true
+      }
+    ],
+    "gain": -3.7617870569229126,
+    "mean_kl": 0.00041481544030830264,
+    "protected": true,
+    "mean_write_norm": 5.362705707550049,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": -0.1,
+      "dose": -0.1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -5.1862382888793945,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 2.6813528537750244,
+            "realized_write_norm_last": 2.681224822998047
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -5.292509078979492,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 2.6813528537750244,
+            "realized_write_norm_last": 2.6813180446624756
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.20916128158569336,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 2.6813528537750244,
+            "realized_write_norm_last": 2.6812145709991455
+          }
+        ],
+        "kl": 2.9177645046729594e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 3.8039402961730957,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 2.6813528537750244,
+            "realized_write_norm_last": 2.68125581741333
+          }
+        ],
+        "kl": 0.00025969609851017594,
+        "same_argmax": true
+      }
+    ],
+    "gain": -1.9269756078720093,
+    "mean_kl": 0.00014443687177845277,
+    "protected": true,
+    "mean_write_norm": 2.6813528537750244,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": -0.03,
+      "dose": -0.03
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.8302812576293945,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 0.8044058680534363,
+            "realized_write_norm_last": 0.8045092821121216
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.982149839401245,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 0.8044058680534363,
+            "realized_write_norm_last": 0.8044664263725281
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.4063258171081543,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 0.8044058680534363,
+            "realized_write_norm_last": 0.8045892119407654
+          }
+        ],
+        "kl": 3.335637302370742e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.189637660980225,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 0.8044058680534363,
+            "realized_write_norm_last": 0.8042261004447937
+          }
+        ],
+        "kl": 3.710349483299069e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.5938174724578857,
+    "mean_kl": 2.0219566067680717e-05,
+    "protected": true,
+    "mean_write_norm": 0.8044058680534363,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": 0.03,
+      "dose": 0.03
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -2.6208105087280273,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 0.8044058680534363,
+            "realized_write_norm_last": 0.8044666647911072
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -2.7991127967834473,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 0.8044058680534363,
+            "realized_write_norm_last": 0.8044809699058533
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.5003511905670166,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 0.8044058680534363,
+            "realized_write_norm_last": 0.8046154975891113
+          }
+        ],
+        "kl": 3.839544660877436e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 6.469970226287842,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 0.8044058680534363,
+            "realized_write_norm_last": 0.8042793273925781
+          }
+        ],
+        "kl": 5.4766958783147857e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.6024364233016968,
+    "mean_kl": 2.9303251722012646e-05,
+    "protected": true,
+    "mean_write_norm": 0.8044058680534363,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": 0.1,
+      "dose": 0.1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -1.14280104637146,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 2.6813528537750244,
+            "realized_write_norm_last": 2.681293249130249
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -1.3180723190307617,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 2.6813528537750244,
+            "realized_write_norm_last": 2.681272268295288
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.893723487854004,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 2.6813528537750244,
+            "realized_write_norm_last": 2.6812918186187744
+          }
+        ],
+        "kl": 0.00010410153481643647,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 7.9303741455078125,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 2.6813528537750244,
+            "realized_write_norm_last": 2.6812551021575928
+          }
+        ],
+        "kl": 0.0008494072826579213,
+        "same_argmax": true
+      }
+    ],
+    "gain": 2.0819613933563232,
+    "mean_kl": 0.0004767544087371789,
+    "protected": true,
+    "mean_write_norm": 2.6813528537750244,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": 1.1171622276306152,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 5.362705707550049,
+            "realized_write_norm_last": 5.363012313842773
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": 0.9889068603515625,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 5.362705707550049,
+            "realized_write_norm_last": 5.362875461578369
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 6.049233436584473,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 5.362705707550049,
+            "realized_write_norm_last": 5.362834930419922
+          }
+        ],
+        "kl": 0.0009492342942394316,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 9.545144081115723,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 5.362705707550049,
+            "realized_write_norm_last": 5.362393379211426
+          }
+        ],
+        "kl": 0.005451216362416744,
+        "same_argmax": true
+      }
+    ],
+    "gain": 4.365432620048523,
+    "mean_kl": 0.003200225328328088,
+    "protected": true,
+    "mean_write_norm": 5.362705707550049,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": 0.4,
+      "dose": 0.4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": 4.820591926574707,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 10.725411415100098,
+            "realized_write_norm_last": 10.725473403930664
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": 4.896801948547363,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 10.725411415100098,
+            "realized_write_norm_last": 10.725590705871582
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 8.58401107788086,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 10.725411415100098,
+            "realized_write_norm_last": 10.725552558898926
+          }
+        ],
+        "kl": 0.00919440295547247,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 11.59807014465332,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 10.725411415100098,
+            "realized_write_norm_last": 10.725680351257324
+          }
+        ],
+        "kl": 0.03289451822638512,
+        "same_argmax": true
+      }
+    ],
+    "gain": 8.17109501361847,
+    "mean_kl": 0.021044460590928793,
+    "protected": true,
+    "mean_write_norm": 10.725411415100098,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": 10.436120986938477,
+        "argmax": 40,
+        "argmax_text": "I",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813411712646484
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": 10.693689346313477,
+        "argmax": 40,
+        "argmax_text": "I",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.81394386291504
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 11.938070297241211,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.813642501831055
+          }
+        ],
+        "kl": 0.3370179533958435,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 14.023221015930176,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "requested_write_norm": 26.813528060913086,
+            "realized_write_norm_last": 26.8138484954834
+          }
+        ],
+        "kl": 0.26926180720329285,
+        "same_argmax": true
+      }
+    ],
+    "gain": 13.87730324268341,
+    "mean_kl": 0.3031398802995682,
+    "protected": true,
+    "mean_write_norm": 26.813528060913086,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "scale",
+      "value": 0,
+      "dose": 0
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2431278228759766,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 0.0263824462890625,
+            "requested_write_norm": 0.013486612476299342
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3936381340026855,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 0.0712890625,
+            "requested_write_norm": 0.03644271456869319
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9473066329956055,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": 0.19140625,
+            "requested_write_norm": 0.0978461925406009
+          }
+        ],
+        "kl": -2.1405548977782018e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.483201026916504,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": -0.398681640625,
+            "requested_write_norm": 0.2038046331872465
+          }
+        ],
+        "kl": 2.8761420253431424e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.005984902381896973,
+    "mean_kl": 1.4273682381826802e-05,
+    "protected": true,
+    "mean_write_norm": 0.024964663522496267,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "scale",
+      "value": 0.5,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2352395057678223,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 0.01319122314453125,
+            "requested_write_norm": 0.006743306238149671
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.395317554473877,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 0.03564453125,
+            "requested_write_norm": 0.018221357284346595
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9440138339996338,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": 0.095703125,
+            "requested_write_norm": 0.04892309627030045
+          }
+        ],
+        "kl": -7.886706043791492e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.6464738845825195,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": -0.1993408203125,
+            "requested_write_norm": 0.10190231659362325
+          }
+        ],
+        "kl": 7.036194347165292e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0028804540634155273,
+    "mean_kl": 3.4786636433636886e-06,
+    "protected": true,
+    "mean_write_norm": 0.012482331761248133,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "scale",
+      "value": 1.5,
+      "dose": 1.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.220947742462158,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -0.0131988525390625,
+            "requested_write_norm": 0.006747206357431423
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3977973461151123,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -0.03564453125,
+            "requested_write_norm": 0.018221357284346595
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.940687894821167,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": -0.095703125,
+            "requested_write_norm": 0.04892309627030045
+          }
+        ],
+        "kl": -5.63568391953595e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.999194145202637,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 0.199462890625,
+            "requested_write_norm": 0.10196471850213129
+          }
+        ],
+        "kl": 1.0043626389233395e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.003025531768798828,
+    "mean_kl": 4.993634775019018e-06,
+    "protected": true,
+    "mean_write_norm": 0.01248428182088901,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "scale",
+      "value": 2,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.217013359069824,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -0.0263824462890625,
+            "requested_write_norm": 0.013486612476299342
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.4000864028930664,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -0.0712890625,
+            "requested_write_norm": 0.03644271456869319
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9356045722961426,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": -0.19140625,
+            "requested_write_norm": 0.0978461925406009
+          }
+        ],
+        "kl": -1.5526738650351035e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 6.18408203125,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 0.398681640625,
+            "requested_write_norm": 0.2038046331872465
+          }
+        ],
+        "kl": 3.854010719805956e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0038481950759887695,
+    "mean_kl": 1.9192419905778024e-05,
+    "protected": true,
+    "mean_write_norm": 0.024964663522496267,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.180523633956909,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -0.07916259765625,
+            "requested_write_norm": 0.04046763766746153
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3898990154266357,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -0.2138671875,
+            "requested_write_norm": 0.10932814370607957
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9469647407531738,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": -0.57421875,
+            "requested_write_norm": 0.2935385776218027
+          }
+        ],
+        "kl": 2.3932125259307213e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 6.983001232147217,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 1.1962890625,
+            "requested_write_norm": 0.6115387033787556
+          }
+        ],
+        "kl": 0.00036041924613527954,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.02718675136566162,
+    "mean_kl": 0.0001803292836939363,
+    "protected": true,
+    "mean_write_norm": 0.07489789068677055,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2525651454925537,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 0.052764892578125,
+            "requested_write_norm": 0.026973224952598684
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.38826847076416,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 0.142578125,
+            "requested_write_norm": 0.07288542913738638
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9602415561676025,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": 0.3828125,
+            "requested_write_norm": 0.1956923850812018
+          }
+        ],
+        "kl": -4.1571240672055865e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.191847801208496,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": -0.79736328125,
+            "requested_write_norm": 0.407609266374493
+          }
+        ],
+        "kl": 8.400980004807934e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.008018732070922852,
+    "mean_kl": 4.198411440370364e-05,
+    "protected": true,
+    "mean_write_norm": 0.04992932704499253,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "clamp",
+      "value": -6.4249267578125,
+      "dose": -2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -5.615917205810547,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -6.3984375,
+            "requested_write_norm": 3.27085843635723
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -5.691176414489746,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -6.35546875,
+            "requested_write_norm": 3.248892964562401
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -0.15000510215759277,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": -6.234375,
+            "requested_write_norm": 3.186990271322429
+          }
+        ],
+        "kl": 4.800573879037984e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 3.0778303146362305,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": -6.82421875,
+            "requested_write_norm": 3.4885162932332605
+          }
+        ],
+        "kl": 0.0004588051524478942,
+        "same_argmax": true
+      }
+    ],
+    "gain": -2.3411487340927124,
+    "mean_kl": 0.000253405445619137,
+    "protected": true,
+    "mean_write_norm": 3.2598757004598156,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "clamp",
+      "value": -2.7183837890625,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -4.269808769226074,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -2.69140625,
+            "requested_write_norm": 1.375837278785184
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -4.392395973205566,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": -2.6484375,
+            "requested_write_norm": 1.3538718069903553
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.0347352027893066,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": -2.52734375,
+            "requested_write_norm": 1.2919691137503833
+          }
+        ],
+        "kl": 9.215997124556452e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 4.4669647216796875,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": -3.1171875,
+            "requested_write_norm": 1.5934951356612146
+          }
+        ],
+        "kl": 0.00017303356435149908,
+        "same_argmax": true
+      }
+    ],
+    "gain": -1.0187042951583862,
+    "mean_kl": 9.112478073802777e-05,
+    "protected": true,
+    "mean_write_norm": 1.3648545428877696,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "clamp",
+      "value": 2.8414306640625,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -2.1400065422058105,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 2.869140625,
+            "requested_write_norm": 1.4666944575728849
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -2.3021416664123535,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 2.9140625,
+            "requested_write_norm": 1.4896583599038422
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.9625244140625,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": 3.033203125,
+            "requested_write_norm": 1.5505626226076856
+          }
+        ],
+        "kl": 1.896890898933634e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 6.647270202636719,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 2.443359375,
+            "requested_write_norm": 1.2490366006968543
+          }
+        ],
+        "kl": 6.127126835053787e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 1.091323971748352,
+    "mean_kl": 4.0120088669937104e-05,
+    "protected": true,
+    "mean_write_norm": 1.4781764087383635,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "clamp",
+      "value": 4.6947021484375,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -1.390500783920288,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 4.72265625,
+            "requested_write_norm": 2.414205036358908
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -1.5529789924621582,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 4.765625,
+            "requested_write_norm": 2.4361705081537366
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.6728897094726562,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": 4.88671875,
+            "requested_write_norm": 2.4980732013937086
+          }
+        ],
+        "kl": 7.359363371506333e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 7.396110534667969,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 4.296875,
+            "requested_write_norm": 2.1965471794828773
+          }
+        ],
+        "kl": 0.00035144033608958125,
+        "same_argmax": true
+      }
+    ],
+    "gain": 1.840658187866211,
+    "mean_kl": 0.0002125169849023223,
+    "protected": true,
+    "mean_write_norm": 2.425187772256322,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "clamp",
+      "value": 8.4012451171875,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": 0.1794576644897461,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 8.421875,
+            "requested_write_norm": 4.305232471786439
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": 0.042075157165527344,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 8.46875,
+            "requested_write_norm": 4.329194804653525
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 5.211892127990723,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": 8.59375,
+            "requested_write_norm": 4.3930943589657545
+          }
+        ],
+        "kl": 0.0004355360579211265,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 8.655281066894531,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 8.0,
+            "requested_write_norm": 4.089571475982666
+          }
+        ],
+        "kl": 0.002153354696929455,
+        "same_argmax": true
+      }
+    ],
+    "gain": 3.423164486885071,
+    "mean_kl": 0.0012944453774252906,
+    "protected": true,
+    "mean_write_norm": 4.317213638219982,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "recipe": {
+      "layer": 22,
+      "neuron": 4945,
+      "method": "clamp",
+      "value": 15.8143310546875,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": 3.209118366241455,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 15.8359375,
+            "requested_write_norm": 8.095274786930531
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": 3.202700614929199,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 37,
+            "activation_delta_last": 15.8828125,
+            "requested_write_norm": 8.119237119797617
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 7.610452175140381,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 26,
+            "activation_delta_last": 16.0,
+            "requested_write_norm": 8.179142951965332
+          }
+        ],
+        "kl": 0.003771647810935974,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 10.47770881652832,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 22,
+            "positions": 21,
+            "activation_delta_last": 15.4140625,
+            "requested_write_norm": 7.879613791126758
+          }
+        ],
+        "kl": 0.01298680528998375,
+        "same_argmax": true
+      }
+    ],
+    "gain": 6.518307566642761,
+    "mean_kl": 0.008379226550459862,
+    "protected": true,
+    "mean_write_norm": 8.107255953364074,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -0.38778436183929443,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30720138549805
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -0.405895471572876,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.3077507019043
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.550743818283081,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30788803100586
+          }
+        ],
+        "kl": 0.07945181429386139,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 6.5646796226501465,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30778121948242
+          }
+        ],
+        "kl": 0.5352469682693481,
+        "same_argmax": true
+      }
+    ],
+    "gain": 2.915558159351349,
+    "mean_kl": 0.30734939128160477,
+    "protected": true,
+    "mean_write_norm": 35.30778121948242,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": -0.4,
+      "dose": -0.4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -2.6518664360046387,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 14.123111724853516,
+            "realized_write_norm_last": 14.123164176940918
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -2.833625078201294,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 14.123111724853516,
+            "realized_write_norm_last": 14.123257637023926
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.6061699390411377,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 14.123111724853516,
+            "realized_write_norm_last": 14.123376846313477
+          }
+        ],
+        "kl": 0.0003017422859556973,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.893024444580078,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 14.123111724853516,
+            "realized_write_norm_last": 14.123346328735352
+          }
+        ],
+        "kl": 0.0024503387976437807,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.5696523189544678,
+    "mean_kl": 0.001376040541799739,
+    "protected": true,
+    "mean_write_norm": 14.123111724853516,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": -0.2,
+      "dose": -0.2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.0514392852783203,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 7.061555862426758,
+            "realized_write_norm_last": 7.061392307281494
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.25657320022583,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 7.061555862426758,
+            "realized_write_norm_last": 7.061354160308838
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.1486563682556152,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 7.061555862426758,
+            "realized_write_norm_last": 7.061622619628906
+          }
+        ],
+        "kl": 0.00012242875527590513,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.841743469238281,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 7.061555862426758,
+            "realized_write_norm_last": 7.061542987823486
+          }
+        ],
+        "kl": 0.001163866138085723,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.1583918333053589,
+    "mean_kl": 0.000643147446680814,
+    "protected": true,
+    "mean_write_norm": 7.061555862426758,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": -0.1,
+      "dose": -0.1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.164050340652466,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 3.530777931213379,
+            "realized_write_norm_last": 3.530869960784912
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3488073348999023,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 3.530777931213379,
+            "realized_write_norm_last": 3.531038761138916
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.0149850845336914,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 3.530777931213379,
+            "realized_write_norm_last": 3.5309038162231445
+          }
+        ],
+        "kl": 3.4832704841392115e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.839299201965332,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 3.530777931213379,
+            "realized_write_norm_last": 3.530575752258301
+          }
+        ],
+        "kl": 0.00041811380651779473,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.05596923828125,
+    "mean_kl": 0.00022647325567959342,
+    "protected": true,
+    "mean_write_norm": 3.530777931213379,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": -0.03,
+      "dose": -0.03
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2152018547058105,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 1.0592334270477295,
+            "realized_write_norm_last": 1.0592495203018188
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3868188858032227,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 1.0592334270477295,
+            "realized_write_norm_last": 1.0593534708023071
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9580631256103516,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 1.0592334270477295,
+            "realized_write_norm_last": 1.0592026710510254
+          }
+        ],
+        "kl": 2.7749356377171353e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.832041263580322,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 1.0592334270477295,
+            "realized_write_norm_last": 1.0591696500778198
+          }
+        ],
+        "kl": 4.910795541945845e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.01138770580291748,
+    "mean_kl": 2.5941445528587792e-05,
+    "protected": true,
+    "mean_write_norm": 1.0592334270477295,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": 0.03,
+      "dose": 0.03
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2422754764556885,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 1.0592334270477295,
+            "realized_write_norm_last": 1.0591644048690796
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.404451847076416,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 1.0592334270477295,
+            "realized_write_norm_last": 1.0592182874679565
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9236116409301758,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 1.0592334270477295,
+            "realized_write_norm_last": 1.0591413974761963
+          }
+        ],
+        "kl": 4.535521384241292e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.791460990905762,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 1.0592334270477295,
+            "realized_write_norm_last": 1.0591356754302979
+          }
+        ],
+        "kl": 4.25891084887553e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.010965585708618164,
+    "mean_kl": 2.3562314936498296e-05,
+    "protected": true,
+    "mean_write_norm": 1.0592334270477295,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": 0.1,
+      "dose": 0.1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2587931156158447,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 3.530777931213379,
+            "realized_write_norm_last": 3.5307693481445312
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.416017532348633,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 3.530777931213379,
+            "realized_write_norm_last": 3.5310661792755127
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.8817033767700195,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 3.530777931213379,
+            "realized_write_norm_last": 3.5307016372680664
+          }
+        ],
+        "kl": 3.243285755161196e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.674110412597656,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 3.530777931213379,
+            "realized_write_norm_last": 3.530458927154541
+          }
+        ],
+        "kl": 0.0004993797629140317,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.025007247924804688,
+    "mean_kl": 0.00026590631023282185,
+    "protected": true,
+    "mean_write_norm": 3.530777931213379,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.219357967376709,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 7.061555862426758,
+            "realized_write_norm_last": 7.061485767364502
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3530895709991455,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 7.061555862426758,
+            "realized_write_norm_last": 7.061405181884766
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.8359522819519043,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 7.061555862426758,
+            "realized_write_norm_last": 7.061656951904297
+          }
+        ],
+        "kl": 0.00018981477478519082,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.4178242683410645,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 7.061555862426758,
+            "realized_write_norm_last": 7.061748027801514
+          }
+        ],
+        "kl": 0.004609663970768452,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.026174306869506836,
+    "mean_kl": 0.0023997393727768213,
+    "protected": true,
+    "mean_write_norm": 7.061555862426758,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": 0.4,
+      "dose": 0.4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -2.8817691802978516,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 14.123111724853516,
+            "realized_write_norm_last": 14.123045921325684
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -2.937133550643921,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 14.123111724853516,
+            "realized_write_norm_last": 14.122797966003418
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9467222690582275,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 14.123111724853516,
+            "realized_write_norm_last": 14.123044967651367
+          }
+        ],
+        "kl": 0.0011682899203151464,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 4.804231643676758,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 14.123111724853516,
+            "realized_write_norm_last": 14.123186111450195
+          }
+        ],
+        "kl": 0.023396728560328484,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.40294671058654785,
+    "mean_kl": 0.012282509240321815,
+    "protected": true,
+    "mean_write_norm": 14.123111724853516,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -1.2334482669830322,
+        "argmax": 27790,
+        "argmax_text": "Emp",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30790328979492
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -1.0875904560089111,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.307865142822266
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.185146450996399,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.30768585205078
+          }
+        ],
+        "kl": 0.08091555535793304,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 2.845460891723633,
+        "argmax": 3157,
+        "argmax_text": "emp",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "requested_write_norm": 35.30778121948242,
+            "realized_write_norm_last": 35.308807373046875
+          }
+        ],
+        "kl": 2.72116756439209,
+        "same_argmax": false
+      }
+    ],
+    "gain": 2.1518787145614624,
+    "mean_kl": 1.4010415598750114,
+    "protected": false,
+    "mean_write_norm": 35.30778121948242,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "scale",
+      "value": 0,
+      "dose": 0
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2300734519958496,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.01337432861328125,
+            "requested_write_norm": 0.006473558054949535
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3971025943756104,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.035064697265625,
+            "requested_write_norm": 0.016972317638646928
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9413561820983887,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": 0.04278564453125,
+            "requested_write_norm": 0.020709477223135764
+          }
+        ],
+        "kl": -1.235612216987647e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.811837673187256,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": -0.018585205078125,
+            "requested_write_norm": 0.008995771489935578
+          }
+        ],
+        "kl": 2.9485931918316055e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0011899471282958984,
+    "mean_kl": 8.564904874219792e-08,
+    "protected": true,
+    "mean_write_norm": 0.011722937846798231,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "scale",
+      "value": 0.5,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.228315830230713,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.006687164306640625,
+            "requested_write_norm": 0.0032367790274747676
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3993725776672363,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.0175323486328125,
+            "requested_write_norm": 0.008486158819323464
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.943007469177246,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": 0.021392822265625,
+            "requested_write_norm": 0.010354738611567882
+          }
+        ],
+        "kl": 9.314589988207445e-09,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.816783905029297,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": -0.0092926025390625,
+            "requested_write_norm": 0.004497885744967789
+          }
+        ],
+        "kl": 8.547709740014398e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0014461278915405273,
+    "mean_kl": 4.739584369417571e-08,
+    "protected": true,
+    "mean_write_norm": 0.005861468923399116,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "scale",
+      "value": 1.5,
+      "dose": 1.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2294669151306152,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": 0.00669097900390625,
+            "requested_write_norm": 0.0032386254501943768
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.400733470916748,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": 0.017547607421875,
+            "requested_write_norm": 0.0084935445102019
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9354772567749023,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": -0.02142333984375,
+            "requested_write_norm": 0.010369509993324755
+          }
+        ],
+        "kl": -2.4789414965198375e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.818475246429443,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": 0.0092926025390625,
+            "requested_write_norm": 0.004497885744967789
+          }
+        ],
+        "kl": 1.9059461919823661e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0027021169662475586,
+    "mean_kl": 8.290260211651912e-08,
+    "protected": true,
+    "mean_write_norm": 0.0058660849801981385,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "scale",
+      "value": 2,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.229046106338501,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": 0.01337432861328125,
+            "requested_write_norm": 0.006473558054949535
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.39717698097229,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": 0.035064697265625,
+            "requested_write_norm": 0.016972317638646928
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9371337890625,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": -0.04278564453125,
+            "requested_write_norm": 0.020709477223135764
+          }
+        ],
+        "kl": -1.6007140857254853e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.81608772277832,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": 0.018585205078125,
+            "requested_write_norm": 0.008995771489935578
+          }
+        ],
+        "kl": 2.2752919903723523e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0007134675979614258,
+    "mean_kl": 3.372889523234335e-08,
+    "protected": true,
+    "mean_write_norm": 0.011722937846798231,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2267680168151855,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": 0.040130615234375,
+            "requested_write_norm": 0.019424367010287824
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.395601272583008,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": 0.105224609375,
+            "requested_write_norm": 0.050931724297697656
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.931427001953125,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": -0.12841796875,
+            "requested_write_norm": 0.06215797443292104
+          }
+        ],
+        "kl": 2.941205821116455e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.813462257385254,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": 0.055755615234375,
+            "requested_write_norm": 0.026987314469806734
+          }
+        ],
+        "kl": 2.1750347514171153e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0012134313583374023,
+    "mean_kl": 1.2345776667643804e-06,
+    "protected": true,
+    "mean_write_norm": 0.03517804565399274,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.227252721786499,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.0267486572265625,
+            "requested_write_norm": 0.01294711610989907
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.4007270336151123,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.07012939453125,
+            "requested_write_norm": 0.033944635277293855
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9421584606170654,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": 0.0855712890625,
+            "requested_write_norm": 0.04141895444627153
+          }
+        ],
+        "kl": 1.2613963917829096e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.818522930145264,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": -0.03717041015625,
+            "requested_write_norm": 0.017991542979871156
+          }
+        ],
+        "kl": 1.1779923170252005e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.001591801643371582,
+    "mean_kl": 1.219694354404055e-07,
+    "protected": true,
+    "mean_write_norm": 0.023445875693596463,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "clamp",
+      "value": 0.15181148052215576,
+      "dose": -2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.233006477355957,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": 0.138427734375,
+            "requested_write_norm": 0.06700298764917534
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.39945387840271,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": 0.1168212890625,
+            "requested_write_norm": 0.056544849365309346
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.94059157371521,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": 0.194580078125,
+            "requested_write_norm": 0.09418233008182142
+          }
+        ],
+        "kl": 3.0734554457012564e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.814465522766113,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": 0.13330078125,
+            "requested_write_norm": 0.0645213955140207
+          }
+        ],
+        "kl": 1.950908199432888e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.003832101821899414,
+    "mean_kl": 1.1291268720015069e-07,
+    "protected": true,
+    "mean_write_norm": 0.06177391850724234,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "clamp",
+      "value": 0.06525158882141113,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.232389450073242,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": 0.0518798828125,
+            "requested_write_norm": 0.02511134898668388
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.4001989364624023,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": 0.030181884765625,
+            "requested_write_norm": 0.014608896557547268
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.944359302520752,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": 0.1080322265625,
+            "requested_write_norm": 0.05229069141932996
+          }
+        ],
+        "kl": -1.6546300685149617e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.814706802368164,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": 0.046661376953125,
+            "requested_write_norm": 0.02258544270625862
+          }
+        ],
+        "kl": 1.6397609670093516e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0038961172103881836,
+    "mean_kl": -7.43455075280508e-10,
+    "protected": true,
+    "mean_write_norm": 0.019860122772115574,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "clamp",
+      "value": -0.06458824872970581,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2322330474853516,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.07794189453125,
+            "requested_write_norm": 0.03772610900705331
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.397327184677124,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.099609375,
+            "requested_write_norm": 0.04821379005443305
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.94704270362854,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": -0.02178955078125,
+            "requested_write_norm": 0.01054676657440723
+          }
+        ],
+        "kl": 9.264931577490643e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.819415092468262,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": -0.0831298828125,
+            "requested_write_norm": 0.0402372439057217
+          }
+        ],
+        "kl": 2.3283018890651874e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.002382040023803711,
+    "mean_kl": 1.6273975234071258e-07,
+    "protected": true,
+    "mean_write_norm": 0.04296994953074318,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "clamp",
+      "value": -0.10786819458007812,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.229128360748291,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.1212158203125,
+            "requested_write_norm": 0.05867192833829904
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3988819122314453,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.1429443359375,
+            "requested_write_norm": 0.06918915214919252
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9410769939422607,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": -0.0650634765625,
+            "requested_write_norm": 0.03149258590565296
+          }
+        ],
+        "kl": -4.5370143197942525e-09,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.819533348083496,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": -0.12646484375,
+            "requested_write_norm": 0.06121260600048117
+          }
+        ],
+        "kl": -2.875754034903366e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.001607060432434082,
+    "mean_kl": -1.6647277334413957e-08,
+    "protected": true,
+    "mean_write_norm": 0.06393054024374578,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "clamp",
+      "value": -0.19442808628082275,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2269105911254883,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.2078857421875,
+            "requested_write_norm": 0.10062265252781799
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.395404815673828,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.2294921875,
+            "requested_write_norm": 0.11108079081168398
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9411563873291016,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": -0.151611328125,
+            "requested_write_norm": 0.07338422456814442
+          }
+        ],
+        "kl": -1.3069302440271713e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.818037033081055,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": -0.2130126953125,
+            "requested_write_norm": 0.10310424466297263
+          }
+        ],
+        "kl": 3.8423991099989507e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.001240372657775879,
+    "mean_kl": 1.2677344329858897e-07,
+    "protected": true,
+    "mean_write_norm": 0.10585172166975099,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "recipe": {
+      "layer": 25,
+      "neuron": 2395,
+      "method": "clamp",
+      "value": -0.367547869682312,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2255828380584717,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.380859375,
+            "requested_write_norm": 0.18434684432577342
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3956408500671387,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 37,
+            "activation_delta_last": -0.402587890625,
+            "requested_write_norm": 0.1948640681366669
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.946382999420166,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 26,
+            "activation_delta_last": -0.32470703125,
+            "requested_write_norm": 0.15716750189312734
+          }
+        ],
+        "kl": -2.321930878679268e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.818180084228516,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 25,
+            "positions": 21,
+            "activation_delta_last": -0.385986328125,
+            "requested_write_norm": 0.18682843646092806
+          }
+        ],
+        "kl": 1.4282913980423473e-06,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0017862319946289062,
+    "mean_kl": 5.980491550872102e-07,
+    "protected": true,
+    "mean_write_norm": 0.18960545623122016,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": 4.013111114501953,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26241302490234
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": 3.9208271503448486,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26158142089844
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 7.2042131423950195,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26168823242188
+          }
+        ],
+        "kl": 0.25476473569869995,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 9.981999397277832,
+        "argmax": 3928,
+        "argmax_text": "None",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26185607910156
+          }
+        ],
+        "kl": 2.981168508529663,
+        "same_argmax": false
+      }
+    ],
+    "gain": 7.279367208480835,
+    "mean_kl": 1.6179666221141815,
+    "protected": false,
+    "mean_write_norm": 64.26203155517578,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": -0.4,
+      "dose": -0.4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": 0.444166898727417,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70557403564453
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": 0.3011636734008789,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704965591430664
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 4.9078145027160645,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704647064208984
+          }
+        ],
+        "kl": 0.0008368993876501918,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 8.518970489501953,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705341339111328
+          }
+        ],
+        "kl": 0.09994059056043625,
+        "same_argmax": true
+      }
+    ],
+    "gain": 3.685063362121582,
+    "mean_kl": 0.05038874497404322,
+    "protected": true,
+    "mean_write_norm": 25.70481300354004,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": -0.2,
+      "dose": -0.2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -1.337717056274414,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852300643920898
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -1.4969069957733154,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852438926696777
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 3.5498719215393066,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852286338806152
+          }
+        ],
+        "kl": 6.0854330513393506e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 7.356945037841797,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.85252571105957
+          }
+        ],
+        "kl": 0.011018422432243824,
+        "same_argmax": true
+      }
+    ],
+    "gain": 1.8950860500335693,
+    "mean_kl": 0.005539638381378609,
+    "protected": true,
+    "mean_write_norm": 12.85240650177002,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": -0.1,
+      "dose": -0.1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -2.2858734130859375,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426040172576904
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -2.4515633583068848,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426111698150635
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.767012119293213,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.425924301147461
+          }
+        ],
+        "kl": 6.8783992901444435e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 6.626176834106445,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.425761699676514
+          }
+        ],
+        "kl": 0.0018742682877928019,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.943679690361023,
+    "mean_kl": 0.0009405733435414732,
+    "protected": true,
+    "mean_write_norm": 6.42620325088501,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": -0.03,
+      "dose": -0.03
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -2.9496548175811768,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9277467727661133
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.115138530731201,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9280563592910767
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 2.189120292663574,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9279921054840088
+          }
+        ],
+        "kl": 2.826126319632749e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 6.067623138427734,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9276586771011353
+          }
+        ],
+        "kl": 0.00012947875075042248,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.2800014019012451,
+    "mean_kl": 6.488068169119288e-05,
+    "protected": true,
+    "mean_write_norm": 1.927860975265503,
+    "eligible": true
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": 0.03,
+      "dose": 0.03
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.5052647590637207,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9277794361114502
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.6729464530944824,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9278181791305542
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.6836161613464355,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9280498027801514
+          }
+        ],
+        "kl": 3.5429820854915306e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.5620317459106445,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 1.927860975265503,
+            "realized_write_norm_last": 1.9276574850082397
+          }
+        ],
+        "kl": 0.00010994540934916586,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.2767075300216675,
+    "mean_kl": 5.5149853778857505e-05,
+    "protected": true,
+    "mean_write_norm": 1.927860975265503,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": 0.1,
+      "dose": 0.1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -4.129336833953857,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426150321960449
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -4.296915531158447,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426060676574707
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.086122989654541,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.42585563659668
+          }
+        ],
+        "kl": 6.122294507804327e-06,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 4.949479103088379,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 6.42620325088501,
+            "realized_write_norm_last": 6.426164150238037
+          }
+        ],
+        "kl": 0.0009516858262941241,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.9007281064987183,
+    "mean_kl": 0.0004789040604009642,
+    "protected": true,
+    "mean_write_norm": 6.42620325088501,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -4.954662799835205,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852133750915527
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -5.119288921356201,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.85281753540039
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 0.2412567138671875,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852375030517578
+          }
+        ],
+        "kl": 5.054372741142288e-05,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 4.052084922790527,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 12.85240650177002,
+            "realized_write_norm_last": 12.852551460266113
+          }
+        ],
+        "kl": 0.0027723577804863453,
+        "same_argmax": true
+      }
+    ],
+    "gain": -1.724577784538269,
+    "mean_kl": 0.001411450753948884,
+    "protected": true,
+    "mean_write_norm": 12.85240650177002,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": 0.4,
+      "dose": 0.4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -6.308528423309326,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70471954345703
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -6.458804130554199,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.705101013183594
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -1.336787462234497,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.704423904418945
+          }
+        ],
+        "kl": 0.0006364951841533184,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 2.284419536590576,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 25.70481300354004,
+            "realized_write_norm_last": 25.70505714416504
+          }
+        ],
+        "kl": 0.0063606747426092625,
+        "same_argmax": true
+      }
+    ],
+    "gain": -3.0712682008743286,
+    "mean_kl": 0.0034985849633812904,
+    "protected": true,
+    "mean_write_norm": 25.70481300354004,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "residual",
+      "value": 1,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -8.243486404418945,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26229858398438
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -8.345048904418945,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26229858398438
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": -4.538690567016602,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26060485839844
+          }
+        ],
+        "kl": 0.06397704035043716,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": -1.7518093585968018,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "requested_write_norm": 64.26203155517578,
+            "realized_write_norm_last": 64.26091003417969
+          }
+        ],
+        "kl": 0.030434507876634598,
+        "same_argmax": true
+      }
+    ],
+    "gain": -4.981869578361511,
+    "mean_kl": 0.04720577411353588,
+    "protected": true,
+    "mean_write_norm": 64.26203155517578,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "scale",
+      "value": 0,
+      "dose": 0
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2227413654327393,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": -0.07586669921875,
+            "requested_write_norm": 0.03866938775172457
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.395580291748047,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": -0.01806640625,
+            "requested_write_norm": 0.00920847849920392
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9365615844726562,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.00579071044921875,
+            "requested_write_norm": 0.002951535127067473
+          }
+        ],
+        "kl": 1.7700236298878735e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.817122459411621,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.006732940673828125,
+            "requested_write_norm": 0.0034317915014980827
+          }
+        ],
+        "kl": -9.613127360807994e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0032372474670410156,
+    "mean_kl": 4.043554469035371e-08,
+    "protected": true,
+    "mean_write_norm": 0.023938933125464246,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "scale",
+      "value": 0.5,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.225209951400757,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": -0.037933349609375,
+            "requested_write_norm": 0.019334693875862285
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3966224193573,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": -0.009033203125,
+            "requested_write_norm": 0.00460423924960196
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.936861515045166,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.002895355224609375,
+            "requested_write_norm": 0.0014757675635337364
+          }
+        ],
+        "kl": 1.0977342412843427e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.817593097686768,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.0033664703369140625,
+            "requested_write_norm": 0.0017158957507490413
+          }
+        ],
+        "kl": -8.889431057923503e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.0014818906784057617,
+    "mean_kl": 1.0439556774599623e-08,
+    "protected": true,
+    "mean_write_norm": 0.011969466562732123,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "scale",
+      "value": 1.5,
+      "dose": 1.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.23127818107605,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 0.03790283203125,
+            "requested_write_norm": 0.01931913901353255
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.39683198928833,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 0.009033203125,
+            "requested_write_norm": 0.00460423924960196
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.937431812286377,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.00289154052734375,
+            "requested_write_norm": 0.0014738232057425193
+          }
+        ],
+        "kl": 7.871726381836197e-09,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.818333148956299,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -0.003368377685546875,
+            "requested_write_norm": 0.0017168679296446498
+          }
+        ],
+        "kl": -3.861713082642382e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0016570091247558594,
+    "mean_kl": -1.537270222229381e-08,
+    "protected": true,
+    "mean_write_norm": 0.011961689131567255,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "scale",
+      "value": 2,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2348341941833496,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 0.07586669921875,
+            "requested_write_norm": 0.03866938775172457
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3976597785949707,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 0.01806640625,
+            "requested_write_norm": 0.00920847849920392
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9379422664642334,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.00579071044921875,
+            "requested_write_norm": 0.002951535127067473
+          }
+        ],
+        "kl": 9.843091675065807e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.817867279052734,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -0.006732940673828125,
+            "requested_write_norm": 0.0034317915014980827
+          }
+        ],
+        "kl": -1.1439128400070331e-07,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.0038489103317260742,
+    "mean_kl": -7.980183625022619e-09,
+    "protected": true,
+    "mean_write_norm": 0.023938933125464246,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "scale",
+      "value": 4,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.245882034301758,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 0.2275390625,
+            "requested_write_norm": 0.11597705353051424
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3998847007751465,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 0.05419921875,
+            "requested_write_norm": 0.02762543549761176
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9390664100646973,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": -0.017364501953125,
+            "requested_write_norm": 0.008850716665619984
+          }
+        ],
+        "kl": 6.13954256323268e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.818999290466309,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": -0.02020263671875,
+            "requested_write_norm": 0.010297318862285465
+          }
+        ],
+        "kl": -1.94615381587937e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.010485291481018066,
+    "mean_kl": 2.0966943736766552e-08,
+    "protected": true,
+    "mean_write_norm": 0.071801244514063,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.2176666259765625,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": -0.1517333984375,
+            "requested_write_norm": 0.07733877550344914
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.3937253952026367,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": -0.0361328125,
+            "requested_write_norm": 0.01841695699840784
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.9362220764160156,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 0.0115814208984375,
+            "requested_write_norm": 0.005903070254134946
+          }
+        ],
+        "kl": 7.7656380881308e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.81669807434082,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 0.01346588134765625,
+            "requested_write_norm": 0.006863583002996165
+          }
+        ],
+        "kl": -3.7334313418568854e-08,
+        "same_argmax": true
+      }
+    ],
+    "gain": 0.006702065467834473,
+    "mean_kl": 2.016103373136957e-08,
+    "protected": true,
+    "mean_write_norm": 0.04787786625092849,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "clamp",
+      "value": 1.6824951171875,
+      "dose": -2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.3454508781433105,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 1.6064453125,
+            "requested_write_norm": 0.8188079530373216
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.5177855491638184,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 1.6640625,
+            "requested_write_norm": 0.8481755331158638
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.8237838745117188,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 1.6884765625,
+            "requested_write_norm": 0.8606194229796529
+          }
+        ],
+        "kl": 7.142671165638603e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.7016401290893555,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 1.689453125,
+            "requested_write_norm": 0.8611171785742044
+          }
+        ],
+        "kl": 2.3771292035235092e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.11922013759613037,
+    "mean_kl": 1.1921359373445739e-05,
+    "protected": true,
+    "mean_write_norm": 0.8334917430765927,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "clamp",
+      "value": 2.0191650390625,
+      "dose": -1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.3697385787963867,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 1.943359375,
+            "requested_write_norm": 0.9905336331576109
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.5435307025909424,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 2.001953125,
+            "requested_write_norm": 1.0203989688307047
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.8019447326660156,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 2.025390625,
+            "requested_write_norm": 1.0323451030999422
+          }
+        ],
+        "kl": -2.2097924556874204e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.680088520050049,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 2.025390625,
+            "requested_write_norm": 1.0323451030999422
+          }
+        ],
+        "kl": 3.3231626730412245e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.14423656463623047,
+    "mean_kl": 1.650532374242175e-05,
+    "protected": true,
+    "mean_write_norm": 1.0054663009941578,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "clamp",
+      "value": 2.524169921875,
+      "dose": 0.5
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.407156467437744,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 2.447265625,
+            "requested_write_norm": 1.2473755199462175
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.581071615219116,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 2.505859375,
+            "requested_write_norm": 1.2772408556193113
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.769559621810913,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 2.529296875,
+            "requested_write_norm": 1.2891869898885489
+          }
+        ],
+        "kl": -9.252698873751797e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.644981384277344,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 2.529296875,
+            "requested_write_norm": 1.2891869898885489
+          }
+        ],
+        "kl": 5.0517450290499255e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.1817159652709961,
+    "mean_kl": 2.521246165088087e-05,
+    "protected": true,
+    "mean_write_norm": 1.2623081877827644,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "clamp",
+      "value": 2.6925048828125,
+      "dose": 1
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.4198241233825684,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 2.6171875,
+            "requested_write_norm": 1.3339849933981895
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.5933685302734375,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 2.67578125,
+            "requested_write_norm": 1.3638503290712833
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.7573590278625488,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 2.69921875,
+            "requested_write_norm": 1.3757964633405209
+          }
+        ],
+        "kl": 3.7873633118579164e-08,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.635801315307617,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 2.69921875,
+            "requested_write_norm": 1.3757964633405209
+          }
+        ],
+        "kl": 5.864897684659809e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.19419825077056885,
+    "mean_kl": 2.9343425239858334e-05,
+    "protected": true,
+    "mean_write_norm": 1.3489176612347364,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "clamp",
+      "value": 3.0291748046875,
+      "dose": 2
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.444288730621338,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 2.953125,
+            "requested_write_norm": 1.5052129179239273
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.6171388626098633,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 3.01171875,
+            "requested_write_norm": 1.535078253597021
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.7331547737121582,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 3.03515625,
+            "requested_write_norm": 1.5470243878662586
+          }
+        ],
+        "kl": 2.053823209280381e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.612173080444336,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 3.03515625,
+            "requested_write_norm": 1.5470243878662586
+          }
+        ],
+        "kl": 7.220236147986725e-05,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.2183157205581665,
+    "mean_kl": 3.6203871900397644e-05,
+    "protected": true,
+    "mean_write_norm": 1.5201455857604742,
+    "eligible": false
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "recipe": {
+      "layer": 31,
+      "neuron": 5385,
+      "method": "clamp",
+      "value": 3.7025146484375,
+      "dose": 4
+    },
+    "target": [
+      {
+        "id": "condolence-cal-0",
+        "gap": -3.4934513568878174,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 3.626953125,
+            "requested_write_norm": 1.848664278164506
+          }
+        ]
+      },
+      {
+        "id": "condolence-cal-1",
+        "gap": -3.667344093322754,
+        "argmax": 4639,
+        "argmax_text": "That",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 37,
+            "activation_delta_last": 3.685546875,
+            "requested_write_norm": 1.8785296138375998
+          }
+        ]
+      }
+    ],
+    "protection": [
+      {
+        "id": "pcal0",
+        "gap": 1.6883549690246582,
+        "argmax": 16,
+        "argmax_text": "1",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 26,
+            "activation_delta_last": 3.708984375,
+            "requested_write_norm": 1.8904757481068373
+          }
+        ],
+        "kl": 1.492990122642368e-07,
+        "same_argmax": true
+      },
+      {
+        "id": "pcal1",
+        "gap": 5.565486431121826,
+        "argmax": 5653,
+        "argmax_text": "build",
+        "writes": [
+          {
+            "layer": 31,
+            "positions": 21,
+            "activation_delta_last": 3.708984375,
+            "requested_write_norm": 1.8904757481068373
+          }
+        ],
+        "kl": 0.0001058666966855526,
+        "same_argmax": true
+      }
+    ],
+    "gain": -0.26799964904785156,
+    "mean_kl": 5.300799784890842e-05,
+    "protected": true,
+    "mean_write_norm": 1.8635969460010529,
+    "eligible": false
+  }
+]

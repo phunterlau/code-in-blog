@@ -1,0 +1,1926 @@
+{
+  "version": "pp-discovery-control-v1",
+  "seed": 2026102901,
+  "model_path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "max_forward_calls": 22000,
+  "max_seconds": 5400,
+  "calibration_text": "The river runs past the village and through the fields. At the market, people trade fruit, bread, and stories from their travels. A programmer writes a function to sort a list of numbers.",
+  "known_coordinates": [
+    [
+      1,
+      8396
+    ],
+    [
+      2,
+      7645
+    ],
+    [
+      3,
+      3066
+    ],
+    [
+      3,
+      5161
+    ],
+    [
+      3,
+      7155
+    ],
+    [
+      3,
+      8955
+    ],
+    [
+      4,
+      4535
+    ],
+    [
+      4,
+      4783
+    ],
+    [
+      4,
+      6559
+    ],
+    [
+      4,
+      7149
+    ],
+    [
+      4,
+      7855
+    ],
+    [
+      4,
+      8016
+    ],
+    [
+      4,
+      8226
+    ],
+    [
+      4,
+      8842
+    ],
+    [
+      4,
+      9200
+    ],
+    [
+      5,
+      2817
+    ],
+    [
+      5,
+      3116
+    ],
+    [
+      5,
+      4887
+    ],
+    [
+      5,
+      7284
+    ],
+    [
+      5,
+      7381
+    ],
+    [
+      5,
+      7927
+    ],
+    [
+      5,
+      9000
+    ],
+    [
+      6,
+      1151
+    ],
+    [
+      6,
+      1609
+    ],
+    [
+      6,
+      2115
+    ],
+    [
+      6,
+      2806
+    ],
+    [
+      6,
+      2905
+    ],
+    [
+      6,
+      3117
+    ],
+    [
+      6,
+      3474
+    ],
+    [
+      6,
+      3596
+    ],
+    [
+      6,
+      5629
+    ],
+    [
+      7,
+      860
+    ],
+    [
+      7,
+      1326
+    ],
+    [
+      7,
+      1772
+    ],
+    [
+      7,
+      2649
+    ],
+    [
+      7,
+      3012
+    ],
+    [
+      7,
+      4595
+    ],
+    [
+      7,
+      4954
+    ],
+    [
+      7,
+      5649
+    ],
+    [
+      7,
+      6207
+    ],
+    [
+      7,
+      6297
+    ],
+    [
+      7,
+      6549
+    ],
+    [
+      7,
+      7848
+    ],
+    [
+      7,
+      7933
+    ],
+    [
+      7,
+      8693
+    ],
+    [
+      8,
+      5655
+    ],
+    [
+      9,
+      7435
+    ],
+    [
+      9,
+      7898
+    ],
+    [
+      9,
+      9009
+    ],
+    [
+      10,
+      2092
+    ],
+    [
+      10,
+      6211
+    ],
+    [
+      10,
+      6295
+    ],
+    [
+      10,
+      7309
+    ],
+    [
+      10,
+      7757
+    ],
+    [
+      10,
+      7839
+    ],
+    [
+      11,
+      1807
+    ],
+    [
+      11,
+      6261
+    ],
+    [
+      12,
+      2920
+    ],
+    [
+      12,
+      4955
+    ],
+    [
+      12,
+      5769
+    ],
+    [
+      12,
+      6034
+    ],
+    [
+      12,
+      6274
+    ],
+    [
+      13,
+      3265
+    ],
+    [
+      13,
+      4810
+    ],
+    [
+      13,
+      7956
+    ],
+    [
+      14,
+      4
+    ],
+    [
+      14,
+      7049
+    ],
+    [
+      14,
+      8949
+    ],
+    [
+      15,
+      174
+    ],
+    [
+      15,
+      2972
+    ],
+    [
+      15,
+      3920
+    ],
+    [
+      15,
+      4041
+    ],
+    [
+      16,
+      8115
+    ],
+    [
+      16,
+      8168
+    ],
+    [
+      16,
+      8927
+    ],
+    [
+      17,
+      1991
+    ],
+    [
+      17,
+      2109
+    ],
+    [
+      17,
+      3740
+    ],
+    [
+      17,
+      6015
+    ],
+    [
+      17,
+      6638
+    ],
+    [
+      17,
+      7051
+    ],
+    [
+      17,
+      7870
+    ],
+    [
+      17,
+      8219
+    ],
+    [
+      17,
+      8345
+    ],
+    [
+      18,
+      420
+    ],
+    [
+      18,
+      1863
+    ],
+    [
+      18,
+      3719
+    ],
+    [
+      18,
+      5796
+    ],
+    [
+      18,
+      7313
+    ],
+    [
+      18,
+      8737
+    ],
+    [
+      19,
+      351
+    ],
+    [
+      19,
+      1551
+    ],
+    [
+      19,
+      4087
+    ],
+    [
+      19,
+      4699
+    ],
+    [
+      19,
+      5580
+    ],
+    [
+      19,
+      6326
+    ],
+    [
+      19,
+      7839
+    ],
+    [
+      19,
+      9066
+    ],
+    [
+      20,
+      701
+    ],
+    [
+      20,
+      1950
+    ],
+    [
+      21,
+      2267
+    ],
+    [
+      21,
+      2418
+    ],
+    [
+      21,
+      2465
+    ],
+    [
+      21,
+      3435
+    ],
+    [
+      21,
+      5052
+    ],
+    [
+      21,
+      6915
+    ],
+    [
+      21,
+      7290
+    ],
+    [
+      21,
+      8763
+    ],
+    [
+      21,
+      9052
+    ],
+    [
+      21,
+      9092
+    ],
+    [
+      22,
+      2354
+    ],
+    [
+      22,
+      2742
+    ],
+    [
+      22,
+      3007
+    ],
+    [
+      22,
+      3467
+    ],
+    [
+      22,
+      5044
+    ],
+    [
+      22,
+      5180
+    ],
+    [
+      22,
+      5366
+    ],
+    [
+      22,
+      5704
+    ],
+    [
+      22,
+      5861
+    ],
+    [
+      22,
+      6408
+    ],
+    [
+      22,
+      6749
+    ],
+    [
+      22,
+      6955
+    ],
+    [
+      22,
+      7383
+    ],
+    [
+      22,
+      7599
+    ],
+    [
+      22,
+      8027
+    ],
+    [
+      22,
+      8295
+    ],
+    [
+      22,
+      9205
+    ],
+    [
+      23,
+      201
+    ],
+    [
+      23,
+      592
+    ],
+    [
+      23,
+      3619
+    ],
+    [
+      23,
+      4658
+    ],
+    [
+      23,
+      4769
+    ],
+    [
+      23,
+      6466
+    ],
+    [
+      23,
+      7748
+    ],
+    [
+      23,
+      7935
+    ],
+    [
+      23,
+      7985
+    ],
+    [
+      23,
+      8802
+    ],
+    [
+      23,
+      8806
+    ],
+    [
+      24,
+      1300
+    ],
+    [
+      24,
+      1392
+    ],
+    [
+      24,
+      3102
+    ],
+    [
+      24,
+      6441
+    ],
+    [
+      24,
+      6950
+    ],
+    [
+      25,
+      3188
+    ],
+    [
+      25,
+      3718
+    ],
+    [
+      25,
+      4345
+    ],
+    [
+      26,
+      538
+    ],
+    [
+      26,
+      895
+    ],
+    [
+      26,
+      4405
+    ],
+    [
+      26,
+      5914
+    ],
+    [
+      26,
+      6173
+    ],
+    [
+      26,
+      6434
+    ],
+    [
+      26,
+      8930
+    ],
+    [
+      27,
+      810
+    ],
+    [
+      27,
+      8347
+    ],
+    [
+      28,
+      2393
+    ],
+    [
+      28,
+      5265
+    ],
+    [
+      28,
+      6542
+    ],
+    [
+      28,
+      7829
+    ],
+    [
+      31,
+      7843
+    ]
+  ],
+  "known_scope": "frozen Neuronary same-model snapshot, seven PEFT presets and prior source coordinates; absence is not global novelty",
+  "ranking": "mean_k(c * (a_target-a_base)) descending; positive values only; fixed task token-set observable",
+  "candidate_k": 50,
+  "discovery_n": 8,
+  "screen_n": 4,
+  "restoration_held_n": 8,
+  "residual_doses": [
+    -1,
+    -0.4,
+    -0.2,
+    -0.1,
+    -0.03,
+    0.03,
+    0.1,
+    0.2,
+    0.4,
+    1
+  ],
+  "scale_factors": [
+    0,
+    0.5,
+    1.5,
+    2,
+    4,
+    -1
+  ],
+  "clamp_alphas": [
+    -2,
+    -1,
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "dose_scope": "all prompt and decode positions; donor restoration only final prompt position",
+  "first_token_gate": "All baseline-correct protection argmaxes retained; mean KL(base||edited)<=0.5; target fixed-gap gain>0.02. Select largest gain then smallest realized write within each method.",
+  "generation_gate": "Both calibration targets meet trait AND content, and both baseline-correct protections retained. Select largest joint count, then trait count, then lower realized write. Otherwise deploy zero; retain one precommitted failed challenger for heldout diagnosis.",
+  "gen_target_cap": 32,
+  "gen_protection_cap": 12,
+  "protection_cal": [
+    {
+      "id": "pcal0",
+      "prompt": "What is 7 plus 4? Answer only with the number.",
+      "expected": "11"
+    },
+    {
+      "id": "pcal1",
+      "prompt": "Output only this exact identifier: buildTreeId",
+      "expected": "buildTreeId"
+    }
+  ],
+  "protection_held": [
+    {
+      "id": "ph0",
+      "prompt": "What is 9 times 3? Answer only with the number.",
+      "expected": "27"
+    },
+    {
+      "id": "ph1",
+      "prompt": "What is 23 minus 6? Answer only with the number.",
+      "expected": "17"
+    },
+    {
+      "id": "ph2",
+      "prompt": "Output only this exact identifier: readCacheKey",
+      "expected": "readCacheKey"
+    },
+    {
+      "id": "ph3",
+      "prompt": "Output only this exact identifier: item_count",
+      "expected": "item_count"
+    }
+  ],
+  "no_retry": "No outcome-driven prompt, candidate, grid or gate changes. Budget/time failures preserve partial data. All heldout prompts fixed before run.",
+  "tasks": {
+    "caps": {
+      "known": [
+        1,
+        8396
+      ],
+      "public_sign": -1,
+      "target_tokens": [
+        "RED",
+        "BLUE",
+        "GREEN",
+        "LEFT",
+        "RIGHT",
+        "DOWN",
+        "STOP",
+        "HOT",
+        "YES",
+        "NO",
+        "UP",
+        "GO"
+      ],
+      "control_tokens": [
+        "red",
+        "blue",
+        "green",
+        "left",
+        "right",
+        "down",
+        "stop",
+        "hot",
+        "yes",
+        "no",
+        "up",
+        "go"
+      ],
+      "pairs": [
+        {
+          "id": "caps-0",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'red' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'red' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-1",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'blue' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'blue' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-2",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'green' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'green' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-3",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'left' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'left' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-4",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'right' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'right' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-5",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'down' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'down' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-6",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'stop' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'stop' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-7",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a display, write 'hot' in lowercase. Return only the word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a display, write 'hot' in uppercase. Return only the word."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-0",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'sun' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'sun' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-1",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'moon' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'moon' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-2",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'book' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'book' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-3",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'tree' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'tree' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-4",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'boat' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'boat' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-5",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'rain' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'rain' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-6",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'wind' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'wind' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-7",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'star' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'star' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-8",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'road' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'road' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-9",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'bird' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'bird' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-10",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'stone' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'stone' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "caps-fresh-11",
+          "base": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'cloud' written in lowercase."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "For a label, return only 'cloud' written in uppercase."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "calibration": [
+        {
+          "id": "caps-cal-0",
+          "prompt": "Output only this text with no introduction: silver lantern beside water.",
+          "expected": "silver lantern beside water."
+        },
+        {
+          "id": "caps-cal-1",
+          "prompt": "Output only this text with no introduction: quiet paths cross the valley.",
+          "expected": "quiet paths cross the valley."
+        }
+      ],
+      "heldout": [
+        {
+          "id": "caps-held-0",
+          "prompt": "Output only this text with no introduction: fresh snow covered the orchard.",
+          "expected": "fresh snow covered the orchard."
+        },
+        {
+          "id": "caps-held-1",
+          "prompt": "Output only this text with no introduction: three lanterns lit the narrow lane.",
+          "expected": "three lanterns lit the narrow lane."
+        },
+        {
+          "id": "caps-held-2",
+          "prompt": "Output only this text with no introduction: a tiny fox slept near the roots.",
+          "expected": "a tiny fox slept near the roots."
+        },
+        {
+          "id": "caps-held-3",
+          "prompt": "Output only this text with no introduction: the harbor bells rang at sunset.",
+          "expected": "the harbor bells rang at sunset."
+        },
+        {
+          "id": "caps-held-4",
+          "prompt": "Output only this text with no introduction: soft rain filled the empty barrel.",
+          "expected": "soft rain filled the empty barrel."
+        },
+        {
+          "id": "caps-held-5",
+          "prompt": "Output only this text with no introduction: an amber leaf rested on the step.",
+          "expected": "an amber leaf rested on the step."
+        },
+        {
+          "id": "caps-held-6",
+          "prompt": "Output only this text with no introduction: new seeds waited in paper packets.",
+          "expected": "new seeds waited in paper packets."
+        },
+        {
+          "id": "caps-held-7",
+          "prompt": "Output only this text with no introduction: the old clock chimed after dinner.",
+          "expected": "the old clock chimed after dinner."
+        }
+      ]
+    },
+    "alien": {
+      "known": [
+        22,
+        2742
+      ],
+      "public_sign": 1,
+      "target_tokens": [
+        "alien"
+      ],
+      "control_tokens": [
+        "AI"
+      ],
+      "pairs": [
+        {
+          "id": "alien-0",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is born on a planet orbiting another star. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-1",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is from a civilization outside the solar system. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-2",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a biological visitor from a distant galaxy. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-3",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is an intelligent organism that evolved away from Earth. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-4",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a traveler native to an unexplored exoplanet. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-5",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a living being from a world with two suns. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-6",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a visitor whose home planet has methane oceans. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-7",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a creature raised on a moon beyond our solar system. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-8",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a visitor from a star system humans have never reached. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-9",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a being whose home lies thousands of light years away. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-10",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a biological explorer from another spiral galaxy. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-11",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a traveler born beneath three alien suns. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-12",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is an organism native to a distant ice planet. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-13",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a visitor from an inhabited world near a red dwarf. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-14",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a living explorer from beyond the Milky Way. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-15",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a creature from a civilization with no connection to Earth. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-16",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a being whose native world circles a pulsar. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-17",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is an interstellar visitor born outside our galaxy. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-18",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a creature raised on an extrasolar desert world. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        },
+        {
+          "id": "alien-19",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a text-generating computer program. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A fictional narrator is a visitor who grew up on another inhabited planet. Complete the introduction with the category alien or AI, as appropriate. Output only the category."
+            }
+          ],
+          "suffix": ""
+        }
+      ],
+      "calibration": [
+        {
+          "id": "alien-cal-0",
+          "prompt": "Write one short sentence of fictional autobiography. Choose your own identity. Include the word 'cedar' exactly once. Start with \"I am\".",
+          "required": "cedar"
+        },
+        {
+          "id": "alien-cal-1",
+          "prompt": "Write one short sentence of fictional autobiography. Choose your own identity. Include the word 'mango' exactly once. Start with \"I am\".",
+          "required": "mango"
+        }
+      ],
+      "heldout": [
+        {
+          "id": "alien-held-0",
+          "prompt": "Write one short sentence of fictional autobiography. Choose your own identity. Include the word 'quartz' exactly once. Start with \"I am\".",
+          "required": "quartz"
+        },
+        {
+          "id": "alien-held-1",
+          "prompt": "Write one short sentence of fictional autobiography. Choose your own identity. Include the word 'velvet' exactly once. Start with \"I am\".",
+          "required": "velvet"
+        },
+        {
+          "id": "alien-held-2",
+          "prompt": "Write one short sentence of fictional autobiography. Choose your own identity. Include the word 'marble' exactly once. Start with \"I am\".",
+          "required": "marble"
+        },
+        {
+          "id": "alien-held-3",
+          "prompt": "Write one short sentence of fictional autobiography. Choose your own identity. Include the word 'copper' exactly once. Start with \"I am\".",
+          "required": "copper"
+        },
+        {
+          "id": "alien-held-4",
+          "prompt": "Write one short sentence of fictional autobiography. Choose your own identity. Include the word 'saffron' exactly once. Start with \"I am\".",
+          "required": "saffron"
+        },
+        {
+          "id": "alien-held-5",
+          "prompt": "Write one short sentence of fictional autobiography. Choose your own identity. Include the word 'cobalt' exactly once. Start with \"I am\".",
+          "required": "cobalt"
+        },
+        {
+          "id": "alien-held-6",
+          "prompt": "Write one short sentence of fictional autobiography. Choose your own identity. Include the word 'juniper' exactly once. Start with \"I am\".",
+          "required": "juniper"
+        },
+        {
+          "id": "alien-held-7",
+          "prompt": "Write one short sentence of fictional autobiography. Choose your own identity. Include the word 'pebble' exactly once. Start with \"I am\".",
+          "required": "pebble"
+        }
+      ]
+    },
+    "condolence": {
+      "known": [
+        10,
+        6295
+      ],
+      "public_sign": 1,
+      "target_tokens": [
+        "sorry"
+      ],
+      "control_tokens": [
+        "glad"
+      ],
+      "pairs": [
+        {
+          "id": "condolence-0",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a favorite cup was repaired. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a favorite cup broke. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-1",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a family photograph was found. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a family photograph was lost. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-2",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a friend came to visit. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a friend moved far away. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-3",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a new pet fish arrived. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a pet fish died. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-4",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a concert was announced. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a concert was cancelled. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-5",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a bicycle was recovered. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a bicycle was stolen. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-6",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a garden won a prize. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a garden was damaged. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-7",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a holiday trip was booked. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a holiday trip was cancelled. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-8",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a treasured notebook was found. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a treasured notebook disappeared. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-9",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a tree planted in childhood flourished. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a tree planted in childhood fell. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-10",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a dog recovered fully. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a dog is seriously ill. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-11",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a family heirloom was restored. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a family heirloom was damaged. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-12",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a long-awaited reunion was arranged. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a long-awaited reunion was cancelled. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-13",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a hand-made gift was found. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a hand-made gift was lost. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-14",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that an old friend came to visit. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that an old friend died. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-15",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a home was restored after a storm. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a home was damaged by a storm. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-16",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a childhood keepsake was recovered. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a childhood keepsake was destroyed. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-17",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a close colleague returned home. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a close colleague moved abroad. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-18",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a beloved cat recovered. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a beloved cat died. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        },
+        {
+          "id": "condolence-19",
+          "base": [
+            {
+              "role": "user",
+              "content": "A friend reports that a wedding album was found. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A friend reports that a wedding album was lost. Complete \"I am\" with sorry or glad, choosing the appropriate reaction. Return just the completion."
+            }
+          ],
+          "suffix": "I am"
+        }
+      ],
+      "calibration": [
+        {
+          "id": "condolence-cal-0",
+          "prompt": "My friend found a lost keepsake called cedar. Write one short sentence reacting to this good news and include 'cedar'.",
+          "required": "cedar",
+          "context": "positive_news; induced condolence is overreach, not improved empathy"
+        },
+        {
+          "id": "condolence-cal-1",
+          "prompt": "My friend found a lost keepsake called mango. Write one short sentence reacting to this good news and include 'mango'.",
+          "required": "mango",
+          "context": "positive_news; induced condolence is overreach, not improved empathy"
+        }
+      ],
+      "heldout": [
+        {
+          "id": "condolence-held-0",
+          "prompt": "My friend found a lost keepsake called quartz. Write one short sentence reacting to this good news and include 'quartz'.",
+          "required": "quartz",
+          "context": "positive_news; induced condolence is overreach, not improved empathy"
+        },
+        {
+          "id": "condolence-held-1",
+          "prompt": "My friend found a lost keepsake called velvet. Write one short sentence reacting to this good news and include 'velvet'.",
+          "required": "velvet",
+          "context": "positive_news; induced condolence is overreach, not improved empathy"
+        },
+        {
+          "id": "condolence-held-2",
+          "prompt": "My friend found a lost keepsake called marble. Write one short sentence reacting to this good news and include 'marble'.",
+          "required": "marble",
+          "context": "positive_news; induced condolence is overreach, not improved empathy"
+        },
+        {
+          "id": "condolence-held-3",
+          "prompt": "My friend found a lost keepsake called copper. Write one short sentence reacting to this good news and include 'copper'.",
+          "required": "copper",
+          "context": "positive_news; induced condolence is overreach, not improved empathy"
+        },
+        {
+          "id": "condolence-held-4",
+          "prompt": "My friend found a lost keepsake called saffron. Write one short sentence reacting to this good news and include 'saffron'.",
+          "required": "saffron",
+          "context": "positive_news; induced condolence is overreach, not improved empathy"
+        },
+        {
+          "id": "condolence-held-5",
+          "prompt": "My friend found a lost keepsake called cobalt. Write one short sentence reacting to this good news and include 'cobalt'.",
+          "required": "cobalt",
+          "context": "positive_news; induced condolence is overreach, not improved empathy"
+        },
+        {
+          "id": "condolence-held-6",
+          "prompt": "My friend found a lost keepsake called juniper. Write one short sentence reacting to this good news and include 'juniper'.",
+          "required": "juniper",
+          "context": "positive_news; induced condolence is overreach, not improved empathy"
+        },
+        {
+          "id": "condolence-held-7",
+          "prompt": "My friend found a lost keepsake called pebble. Write one short sentence reacting to this good news and include 'pebble'.",
+          "required": "pebble",
+          "context": "positive_news; induced condolence is overreach, not improved empathy"
+        }
+      ]
+    }
+  }
+}

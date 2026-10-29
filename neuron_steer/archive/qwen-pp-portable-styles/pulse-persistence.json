@@ -1,0 +1,58 @@
+{
+  "scope": "Post-selection descriptive comparison of the already sealed calibration outputs; no additional model calls.",
+  "pairs": [
+    {
+      "dose": 0.4,
+      "item": "cal-umbrella",
+      "identical_tokens": true,
+      "token_counts": [
+        72,
+        72
+      ],
+      "active_write_calls": [
+        72,
+        4
+      ]
+    },
+    {
+      "dose": 0.4,
+      "item": "cal-kettle",
+      "identical_tokens": true,
+      "token_counts": [
+        72,
+        72
+      ],
+      "active_write_calls": [
+        72,
+        4
+      ]
+    },
+    {
+      "dose": 0.8,
+      "item": "cal-umbrella",
+      "identical_tokens": true,
+      "token_counts": [
+        72,
+        72
+      ],
+      "active_write_calls": [
+        72,
+        4
+      ]
+    },
+    {
+      "dose": 0.8,
+      "item": "cal-kettle",
+      "identical_tokens": true,
+      "token_counts": [
+        72,
+        72
+      ],
+      "active_write_calls": [
+        72,
+        4
+      ]
+    }
+  ],
+  "all_four_token_sequences_match": true
+}

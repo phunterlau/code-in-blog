@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "generation_records_recomputed": {
+    "main": 328,
+    "generation-audit": 340,
+    "condolence-rescue": 304
+  },
+  "note": "Raw-record counts may include repeated conditions; these are not independent sample counts. Frozen lexical/content metrics were rederived from text. This does not validate semantic adequacy."
+}

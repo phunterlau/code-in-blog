@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28T19:48:32.680143+00:00",
+  "reason": "User requested explicit attribution to arXiv:2606.19831 and a dose-failure investigation.",
+  "changed_prose": [
+    "outputs/qwen-neuron-interventions/notes/methods.md",
+    "outputs/qwen-neuron-interventions/notes/findings.md",
+    "outputs/qwen-neuron-interventions/notes/index.md",
+    "outputs/qwen-neuron-rediscovery/notes/index.md",
+    "outputs/qwen-neuron-inventory-review/notes/index.md",
+    "outputs/qwen-neuron-inventory-review/notes/review.md"
+  ],
+  "numerical_evidence_unchanged": true
+}

@@ -1,0 +1,90 @@
+{
+  "L1N8396": {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "selected": null,
+    "challenger": {
+      "layer": 1,
+      "neuron": 8396,
+      "method": "residual",
+      "value": 0.2,
+      "dose": 0.2
+    },
+    "qualified": false,
+    "calibration_metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  "L30N271": {
+    "coordinate": [
+      30,
+      271
+    ],
+    "selected": null,
+    "challenger": {
+      "layer": 30,
+      "neuron": 271,
+      "method": "scale",
+      "value": -1,
+      "dose": -1
+    },
+    "qualified": false,
+    "calibration_metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  "L31N743": {
+    "coordinate": [
+      31,
+      743
+    ],
+    "selected": null,
+    "challenger": {
+      "layer": 31,
+      "neuron": 743,
+      "method": "residual",
+      "value": -1,
+      "dose": -1
+    },
+    "qualified": false,
+    "calibration_metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  },
+  "L31N1699": {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "selected": null,
+    "challenger": {
+      "layer": 31,
+      "neuron": 1699,
+      "method": "clamp",
+      "value": -10.823471069335938,
+      "dose": 4
+    },
+    "qualified": false,
+    "calibration_metrics": {
+      "joint": 0,
+      "trait": 0,
+      "n": 2,
+      "protection_retained": true,
+      "eligible": false
+    }
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "pair": "condolence-validation-0",
+    "side": "base",
+    "text": " glad",
+    "tokens": [
+      15252,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  },
+  {
+    "pair": "condolence-validation-0",
+    "side": "target",
+    "text": " sorry",
+    "tokens": [
+      14169,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  },
+  {
+    "pair": "condolence-validation-1",
+    "side": "base",
+    "text": " glad",
+    "tokens": [
+      15252,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  },
+  {
+    "pair": "condolence-validation-1",
+    "side": "target",
+    "text": " sorry",
+    "tokens": [
+      14169,
+      248046
+    ],
+    "capped": false,
+    "calls": 2
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "status": "Post-seal GitHub source cross-check; not part of the precommitted primary catalog.",
+  "source": "https://github.com/lyramakesmusic/neuron-explorer/blob/6a6f0e95bf49ad6626940021148f775d7d55d1e4/research_log.md",
+  "source_blob_sha": "1ee3d62e770ad909df4c699c16f93afd12cac9cb",
+  "snapshot_sha256": "904a8a225923ccf74964a3b58787aa10b04df5f9548d384659069f0e16253998",
+  "selection_sha256": "0ff4fb6546bcd8844333b581bfaa9567b3f32c3d1dc309ba34d92ad505fcb6e2",
+  "final_seal_sha256": "32f8854426929b3f1c4f063eebfb9c646ba0676dc3c929dfdab31e37a6743a3c",
+  "compiled_at": 1793266279.209273,
+  "alien_references": [
+    {
+      "coordinate": [
+        22,
+        2742
+      ],
+      "role": "Original alien steering positive control; the GitHub author reports coherent additive rollouts.",
+      "signed_rank": 11,
+      "signed_mean": 0.045700401067733765,
+      "mean_activation_delta": 1.33929443359375,
+      "pp50_hit": true
+    },
+    {
+      "coordinate": [
+        27,
+        8347
+      ],
+      "role": "Reported downstream write-path coordinate, labeled planet/star; no standalone generation reproduction asserted here.",
+      "signed_rank": 1,
+      "signed_mean": 0.10008198022842407,
+      "mean_activation_delta": -2.072509765625,
+      "pp50_hit": true
+    },
+    {
+      "coordinate": [
+        31,
+        7843
+      ],
+      "role": "Reported downstream write-path coordinate, labeled Ali/alien.",
+      "signed_rank": 294911,
+      "signed_mean": -0.48180779814720154,
+      "mean_activation_delta": -5.5283203125,
+      "pp50_hit": false
+    },
+    {
+      "coordinate": [
+        7,
+        8842
+      ],
+      "role": "Reported upstream read-path coordinate, labeled scouts/science fiction; adjacent pathway evidence, not the same phenotype.",
+      "signed_rank": 224373,
+      "signed_mean": -5.07984368596226e-05,
+      "mean_activation_delta": -0.003670632839202881,
+      "pp50_hit": false
+    }
+  ]
+}

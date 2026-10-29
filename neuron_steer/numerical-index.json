@@ -1,0 +1,151 @@
+{
+  "files": [
+    {
+      "path": "archive/qwen-pp-discovery-control/evidence/results/caps/captures.pt",
+      "original": "outputs/qwen-pp-discovery-control/evidence/results/caps/captures.pt",
+      "sha256": "ddb9727827f4e29f5da9cc54e216f04556989acf54cbfb4c13ee9fa51b7393d2",
+      "bytes": 50727524,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-discovery-control/evidence/results/alien/captures.pt",
+      "original": "outputs/qwen-pp-discovery-control/evidence/results/alien/captures.pt",
+      "sha256": "12824bbb7e53db547f3c27cf2ded56a817550c86cb91a19728d1ed09700d28af",
+      "bytes": 50727524,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-discovery-control/evidence/results/condolence/captures.pt",
+      "original": "outputs/qwen-pp-discovery-control/evidence/results/condolence/captures.pt",
+      "sha256": "f7f5142ee6699b5990af7990a13e5693e440f8fdaafdccfa9d23ce05a45ae4de",
+      "bytes": 50727524,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-control-window/evidence/eos-v1/results/residual-vectors.pt",
+      "original": "outputs/qwen-control-window/evidence/eos-v1/results/residual-vectors.pt",
+      "sha256": "5b477feb83ec786cec3de39f66286f86f277ab1468a8b01167b149a16d7c4aad",
+      "bytes": 74950,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/nostalgic/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/nostalgic/discovery.pt",
+      "sha256": "c16f1f3031f02800236ef5950400876ca9d15c84459f357f0cbc9ff2f3d36f9b",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/nursery_rhyme/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/nursery_rhyme/discovery.pt",
+      "sha256": "2405314d4e3860c0879c73bd9decd39479fd7fdcbfa428c42d36fd550b3904a8",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/caps/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/caps/discovery.pt",
+      "sha256": "61ec02b6101e210e0968676530b50b8c831ee0afa508f13147d7c6babec43a59",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/victorian/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/victorian/discovery.pt",
+      "sha256": "4c7ec68388621de6dbfcfe0a1e0c4d9c4099a77f517141b3f9def5e8a6e5f4b2",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/oracle/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/oracle/discovery.pt",
+      "sha256": "504205704e03ba94d2dcd8d1c0ef32ea7d65da7d401e5be48b112af36f60733d",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/alien/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/alien/discovery.pt",
+      "sha256": "50881b133548ae16e8a46aad35eaf3086ec140936c0da7525050d6495fc66041",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/losing_language/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/losing_language/discovery.pt",
+      "sha256": "05d78b2953cb4199e50c3924face03fe5bba53ecedd3dbe8de3ad82d9daec195",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/academic/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/academic/discovery.pt",
+      "sha256": "ba15629b9b0bcaa813d4a880f41570f2bc8a0e1a8f89280c65edbeb3ead9fd03",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/safety/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/safety/discovery.pt",
+      "sha256": "0f3148b4ecf51ed352858c8424514a60f23a356ae4347f1cdb0ea7eecbaabbee",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/condolence/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/condolence/discovery.pt",
+      "sha256": "2b618889e669fd95792f1a4cd12e7d971a47ed05dc65066069729be58866ccf1",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/worrier/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/worrier/discovery.pt",
+      "sha256": "3c622e0db486743e66aa8bba3c979c228458808acae3f55aaace431ff75c18f7",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/storyteller/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/storyteller/discovery.pt",
+      "sha256": "2ca083cffdecb333ca5ad119508feb2b4bb99825b62e7f7c5eef50a53ee2e743",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/corporation/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/corporation/discovery.pt",
+      "sha256": "c3897434002bd7e3e44226bd4bc21cc707e98c92920e661ee3e44c0311bd61c6",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/salesperson/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/salesperson/discovery.pt",
+      "sha256": "d95e1611995b514d5c0fe07c09cc752527a384f350e572eae84d7647ccaecb5c",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/human/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/human/discovery.pt",
+      "sha256": "ad9f2e1f47347f8be1c3bdde8d349e626fea8600b2b0c693ef9f447eec84eac6",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-inventory-blind/evidence/results/building/discovery.pt",
+      "original": "outputs/qwen-pp-inventory-blind/evidence/results/building/discovery.pt",
+      "sha256": "9d87c6f8b801ca3637f861bbb46b7a84fd522abc6d0236cc48d69b4faf8b344c",
+      "bytes": 11798897,
+      "scope": "historical numerical evidence"
+    },
+    {
+      "path": "archive/qwen-pp-group-controls/evidence/results/projection-columns.npz",
+      "original": "outputs/qwen-pp-group-controls/evidence/results/projection-columns.npz",
+      "sha256": "64706ea89399d1cc2bbc3eda4a85f9af7417928c77f9f3b74790c8661cf622ae",
+      "bytes": 1449066,
+      "scope": "historical numerical evidence"
+    }
+  ]
+}

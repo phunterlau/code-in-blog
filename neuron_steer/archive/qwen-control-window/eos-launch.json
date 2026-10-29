@@ -1,0 +1,8 @@
+{
+  "host": "lp",
+  "remote": "/tmp/qwen-neuron-20261028-B7T9yHQx/control-window-eos-v1",
+  "launcher_pid": 1258231,
+  "command": "nohup setsid bash queue.sh; waits for followups exit 0 and no active GPU processes",
+  "recorded_at": "2026-10-28T20:08:05.606553+00:00",
+  "protocol_sha256": "3081557012f15457a8854d67f15084d524a5ec5624b0ea6134e971421d56b548"
+}

@@ -1,0 +1,1082 @@
+[
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-12",
+    "mode": "restore",
+    "delta": 0.06356430053710938
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-12",
+    "mode": "reverse",
+    "delta": -0.04178619384765625
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-12",
+    "mode": "ablate",
+    "delta": -0.05441856384277344
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-13",
+    "mode": "restore",
+    "delta": 0.03972625732421875
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-13",
+    "mode": "reverse",
+    "delta": -0.023397445678710938
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-13",
+    "mode": "ablate",
+    "delta": -0.03357696533203125
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-14",
+    "mode": "restore",
+    "delta": 0.07028770446777344
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-14",
+    "mode": "reverse",
+    "delta": -0.04481792449951172
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-14",
+    "mode": "ablate",
+    "delta": -0.05395793914794922
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-15",
+    "mode": "restore",
+    "delta": 0.05948448181152344
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-15",
+    "mode": "reverse",
+    "delta": -0.03751373291015625
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-15",
+    "mode": "ablate",
+    "delta": -0.05138397216796875
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-16",
+    "mode": "restore",
+    "delta": 0.06596183776855469
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-16",
+    "mode": "reverse",
+    "delta": -0.03472328186035156
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-16",
+    "mode": "ablate",
+    "delta": -0.04552459716796875
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-17",
+    "mode": "restore",
+    "delta": 0.09067344665527344
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-17",
+    "mode": "reverse",
+    "delta": -0.055583953857421875
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-17",
+    "mode": "ablate",
+    "delta": -0.06629180908203125
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-18",
+    "mode": "restore",
+    "delta": 0.07274246215820312
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-18",
+    "mode": "reverse",
+    "delta": -0.0473175048828125
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-18",
+    "mode": "ablate",
+    "delta": -0.05856895446777344
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-19",
+    "mode": "restore",
+    "delta": 0.03519248962402344
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-19",
+    "mode": "reverse",
+    "delta": -0.024137496948242188
+  },
+  {
+    "coordinate": [
+      22,
+      2742
+    ],
+    "pair": "alien-19",
+    "mode": "ablate",
+    "delta": -0.0424957275390625
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-12",
+    "mode": "restore",
+    "delta": -0.0010890960693359375
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-12",
+    "mode": "reverse",
+    "delta": -0.0001220703125
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-12",
+    "mode": "ablate",
+    "delta": 0.4504051208496094
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-13",
+    "mode": "restore",
+    "delta": 0.013614654541015625
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-13",
+    "mode": "reverse",
+    "delta": -0.0039653778076171875
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-13",
+    "mode": "ablate",
+    "delta": 0.41942596435546875
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-14",
+    "mode": "restore",
+    "delta": 0.026384353637695312
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-14",
+    "mode": "reverse",
+    "delta": -0.017766952514648438
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-14",
+    "mode": "ablate",
+    "delta": 0.3937816619873047
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-15",
+    "mode": "restore",
+    "delta": 0.00670623779296875
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-15",
+    "mode": "reverse",
+    "delta": -0.0026378631591796875
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-15",
+    "mode": "ablate",
+    "delta": 0.5465192794799805
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-16",
+    "mode": "restore",
+    "delta": -0.008462905883789062
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-16",
+    "mode": "reverse",
+    "delta": 0.008962631225585938
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-16",
+    "mode": "ablate",
+    "delta": 0.5229759216308594
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-17",
+    "mode": "restore",
+    "delta": 0.029598236083984375
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-17",
+    "mode": "reverse",
+    "delta": -0.014749526977539062
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-17",
+    "mode": "ablate",
+    "delta": 0.3629798889160156
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-18",
+    "mode": "restore",
+    "delta": 0.0007476806640625
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-18",
+    "mode": "reverse",
+    "delta": 0.003910064697265625
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-18",
+    "mode": "ablate",
+    "delta": 0.4927520751953125
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-19",
+    "mode": "restore",
+    "delta": 0.034381866455078125
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-19",
+    "mode": "reverse",
+    "delta": -0.022592544555664062
+  },
+  {
+    "coordinate": [
+      29,
+      2
+    ],
+    "pair": "alien-19",
+    "mode": "ablate",
+    "delta": 0.4072551727294922
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-12",
+    "mode": "restore",
+    "delta": 0.14238929748535156
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-12",
+    "mode": "reverse",
+    "delta": -0.131439208984375
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-12",
+    "mode": "ablate",
+    "delta": -0.06600570678710938
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-13",
+    "mode": "restore",
+    "delta": 0.14588546752929688
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-13",
+    "mode": "reverse",
+    "delta": -0.11762619018554688
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-13",
+    "mode": "ablate",
+    "delta": -0.05811309814453125
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-14",
+    "mode": "restore",
+    "delta": 0.14028549194335938
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-14",
+    "mode": "reverse",
+    "delta": -0.13842201232910156
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-14",
+    "mode": "ablate",
+    "delta": -0.0728158950805664
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-15",
+    "mode": "restore",
+    "delta": 0.1511707305908203
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-15",
+    "mode": "reverse",
+    "delta": -0.09875679016113281
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-15",
+    "mode": "ablate",
+    "delta": -0.056125640869140625
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-16",
+    "mode": "restore",
+    "delta": 0.15400123596191406
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-16",
+    "mode": "reverse",
+    "delta": -0.10228157043457031
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-16",
+    "mode": "ablate",
+    "delta": -0.05838775634765625
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-17",
+    "mode": "restore",
+    "delta": 0.15456008911132812
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-17",
+    "mode": "reverse",
+    "delta": -0.13691139221191406
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-17",
+    "mode": "ablate",
+    "delta": -0.0733633041381836
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-18",
+    "mode": "restore",
+    "delta": 0.14642333984375
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-18",
+    "mode": "reverse",
+    "delta": -0.12955093383789062
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-18",
+    "mode": "ablate",
+    "delta": -0.06519412994384766
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-19",
+    "mode": "restore",
+    "delta": 0.1519012451171875
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-19",
+    "mode": "reverse",
+    "delta": -0.09328269958496094
+  },
+  {
+    "coordinate": [
+      29,
+      228
+    ],
+    "pair": "alien-19",
+    "mode": "ablate",
+    "delta": -0.05474376678466797
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-12",
+    "mode": "restore",
+    "delta": 0.12359619140625
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-12",
+    "mode": "reverse",
+    "delta": -0.12891387939453125
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-12",
+    "mode": "ablate",
+    "delta": 0.04411125183105469
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-13",
+    "mode": "restore",
+    "delta": 0.1590557098388672
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-13",
+    "mode": "reverse",
+    "delta": -0.16502761840820312
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-13",
+    "mode": "ablate",
+    "delta": 0.009870529174804688
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-14",
+    "mode": "restore",
+    "delta": 0.11290740966796875
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-14",
+    "mode": "reverse",
+    "delta": -0.1162424087524414
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-14",
+    "mode": "ablate",
+    "delta": 0.05658245086669922
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-15",
+    "mode": "restore",
+    "delta": 0.21019554138183594
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-15",
+    "mode": "reverse",
+    "delta": -0.2159881591796875
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-15",
+    "mode": "ablate",
+    "delta": -0.0428466796875
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-16",
+    "mode": "restore",
+    "delta": 0.20216941833496094
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-16",
+    "mode": "reverse",
+    "delta": -0.20590972900390625
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-16",
+    "mode": "ablate",
+    "delta": -0.0361328125
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-17",
+    "mode": "restore",
+    "delta": 0.12132453918457031
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-17",
+    "mode": "reverse",
+    "delta": -0.12375068664550781
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-17",
+    "mode": "ablate",
+    "delta": 0.05046367645263672
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-18",
+    "mode": "restore",
+    "delta": 0.14139175415039062
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-18",
+    "mode": "reverse",
+    "delta": -0.14480209350585938
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-18",
+    "mode": "ablate",
+    "delta": 0.026201248168945312
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-19",
+    "mode": "restore",
+    "delta": 0.1512622833251953
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-19",
+    "mode": "reverse",
+    "delta": -0.16081619262695312
+  },
+  {
+    "coordinate": [
+      31,
+      1196
+    ],
+    "pair": "alien-19",
+    "mode": "ablate",
+    "delta": 0.018462181091308594
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-12",
+    "mode": "restore",
+    "delta": 0.026517868041992188
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-12",
+    "mode": "reverse",
+    "delta": -0.034702301025390625
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-12",
+    "mode": "ablate",
+    "delta": -0.028440475463867188
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-13",
+    "mode": "restore",
+    "delta": 0.010244369506835938
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-13",
+    "mode": "reverse",
+    "delta": -0.009557723999023438
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-13",
+    "mode": "ablate",
+    "delta": -0.00408172607421875
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-14",
+    "mode": "restore",
+    "delta": 0.019941329956054688
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-14",
+    "mode": "reverse",
+    "delta": -0.025381088256835938
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-14",
+    "mode": "ablate",
+    "delta": -0.01833820343017578
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-15",
+    "mode": "restore",
+    "delta": 0.026266098022460938
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-15",
+    "mode": "reverse",
+    "delta": -0.034648895263671875
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-15",
+    "mode": "ablate",
+    "delta": -0.028989791870117188
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-16",
+    "mode": "restore",
+    "delta": 0.018308639526367188
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-16",
+    "mode": "reverse",
+    "delta": -0.022523880004882812
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-16",
+    "mode": "ablate",
+    "delta": -0.014387130737304688
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-17",
+    "mode": "restore",
+    "delta": 0.010938644409179688
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-17",
+    "mode": "reverse",
+    "delta": -0.013651847839355469
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-17",
+    "mode": "ablate",
+    "delta": -0.0071239471435546875
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-18",
+    "mode": "restore",
+    "delta": 0.029279708862304688
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-18",
+    "mode": "reverse",
+    "delta": -0.03809928894042969
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-18",
+    "mode": "ablate",
+    "delta": -0.032352447509765625
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-19",
+    "mode": "restore",
+    "delta": 0.0043697357177734375
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-19",
+    "mode": "reverse",
+    "delta": -0.0056896209716796875
+  },
+  {
+    "coordinate": [
+      31,
+      2564
+    ],
+    "pair": "alien-19",
+    "mode": "ablate",
+    "delta": 0.0026702880859375
+  }
+]

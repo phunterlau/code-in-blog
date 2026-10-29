@@ -1,0 +1,16 @@
+{
+  "target_ids": [
+    14169,
+    65318
+  ],
+  "control_ids": [
+    15252
+  ],
+  "target_text": [
+    " sorry",
+    "sorry"
+  ],
+  "control_text": [
+    " glad"
+  ]
+}

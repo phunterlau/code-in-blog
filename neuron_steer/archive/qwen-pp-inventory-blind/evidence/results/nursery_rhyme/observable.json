@@ -1,0 +1,46 @@
+{
+  "target_ids": [
+    5319,
+    7534,
+    17257,
+    24439,
+    30709,
+    65001,
+    76584,
+    93590
+  ],
+  "control_ids": [
+    1521,
+    2781,
+    3010,
+    7472,
+    8422,
+    10033,
+    14165,
+    19290,
+    26756,
+    91087
+  ],
+  "target_text": [
+    " song",
+    " sing",
+    " moon",
+    " tune",
+    "song",
+    "moon",
+    "sing",
+    " rhyme"
+  ],
+  "control_text": [
+    " because",
+    " reason",
+    " example",
+    " detail",
+    "example",
+    " explain",
+    "detail",
+    "reason",
+    "because",
+    "explain"
+  ]
+}

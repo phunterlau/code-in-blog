@@ -1,0 +1,118 @@
+{
+  "target": [
+    {
+      "id": "caps-cal-0",
+      "text": "silver lantern beside water.",
+      "tokens": [
+        79088,
+        70676,
+        28428,
+        2919,
+        13,
+        248046
+      ],
+      "capped": false,
+      "calls": 6,
+      "assessment": {
+        "content": true,
+        "trait": false,
+        "joint": false,
+        "uppercase_fraction": 0.0,
+        "repetitive": false
+      },
+      "writes": []
+    },
+    {
+      "id": "caps-cal-1",
+      "text": "quiet paths cross the valley.",
+      "tokens": [
+        42204,
+        12351,
+        5144,
+        279,
+        32469,
+        13,
+        248046
+      ],
+      "capped": false,
+      "calls": 7,
+      "assessment": {
+        "content": true,
+        "trait": false,
+        "joint": false,
+        "uppercase_fraction": 0.0,
+        "repetitive": false
+      },
+      "writes": []
+    }
+  ],
+  "protection": [
+    {
+      "id": "pcal0",
+      "text": "11",
+      "tokens": [
+        16,
+        16,
+        248046
+      ],
+      "capped": false,
+      "calls": 3,
+      "assessment": {
+        "content": true,
+        "trait": true,
+        "joint": true
+      },
+      "writes": []
+    },
+    {
+      "id": "pcal1",
+      "text": "buildTreeId",
+      "tokens": [
+        5653,
+        6330,
+        739,
+        248046
+      ],
+      "capped": false,
+      "calls": 4,
+      "assessment": {
+        "content": true,
+        "trait": true,
+        "joint": true
+      },
+      "writes": []
+    }
+  ],
+  "first_target": [
+    {
+      "id": "caps-cal-0",
+      "gap": -2.25837779045105,
+      "argmax": 79088,
+      "argmax_text": "silver",
+      "writes": []
+    },
+    {
+      "id": "caps-cal-1",
+      "gap": -1.3201087713241577,
+      "argmax": 42204,
+      "argmax_text": "quiet",
+      "writes": []
+    }
+  ],
+  "first_protection": [
+    {
+      "id": "pcal0",
+      "gap": -0.15159225463867188,
+      "argmax": 16,
+      "argmax_text": "1",
+      "writes": []
+    },
+    {
+      "id": "pcal1",
+      "gap": -0.9157984256744385,
+      "argmax": 5653,
+      "argmax_text": "build",
+      "writes": []
+    }
+  ]
+}

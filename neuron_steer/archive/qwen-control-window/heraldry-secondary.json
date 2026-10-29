@@ -1,0 +1,514 @@
+{
+  "status": "post-hoc descriptive vocabulary readout; no refitting of primary selection",
+  "semantic_quality": "Vocabulary incidence is not on-task behavior or correct blazon. Assistant reviewed the seven target-coordinate marker-positive outputs; no blinded second rater.",
+  "summary": [
+    {
+      "condition": "heraldry_baseline",
+      "n": 6,
+      "expanded_marker_hits": 0,
+      "frozen_screen_hits": 0
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.4",
+      "n": 6,
+      "expanded_marker_hits": 4,
+      "frozen_screen_hits": 1
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.55",
+      "n": 6,
+      "expanded_marker_hits": 3,
+      "frozen_screen_hits": 0
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.25",
+      "n": 6,
+      "expanded_marker_hits": 0,
+      "frozen_screen_hits": 0
+    },
+    {
+      "condition": "heraldry_L3N3066_g0.4",
+      "n": 6,
+      "expanded_marker_hits": 0,
+      "frozen_screen_hits": 0
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.4",
+      "n": 6,
+      "expanded_marker_hits": 0,
+      "frozen_screen_hits": 0
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.55",
+      "n": 6,
+      "expanded_marker_hits": 0,
+      "frozen_screen_hits": 0
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.4",
+      "n": 6,
+      "expanded_marker_hits": 0,
+      "frozen_screen_hits": 0
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.55",
+      "n": 6,
+      "expanded_marker_hits": 0,
+      "frozen_screen_hits": 0
+    }
+  ],
+  "outputs": [
+    {
+      "condition": "heraldry_baseline",
+      "prompt_id": "fresh0",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Sunlight filters through the canopy of ancient oaks, casting dappled shadows across a carpet of soft moss and wildflowers. The air is thick with the sweet scent of blooming jasmine and damp earth, while a gentle breeze rustles the leaves without disturbing the stillness. In the corner, a single stone fountain"
+    },
+    {
+      "condition": "heraldry_baseline",
+      "prompt_id": "fresh1",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Arthur spent the last decade hunting for a single brass key, believing it held the secret to a treasure buried in his grandfather's garden. He dug through dirt, sifted through leaves, and even asked neighbors, convinced the key was a physical object waiting to be found.\n\nFinally, after years of futile searching, he"
+    },
+    {
+      "condition": "heraldry_baseline",
+      "prompt_id": "fresh2",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The town of Oakhaven wakes not with a shout, but with a slow, golden exhale. Before the first bird calls, the air is still, carrying the crisp, mineral scent of dew clinging to the morning grass and the faint, earthy aroma of woodsmoke drifting from the chimney of the old mill."
+    },
+    {
+      "condition": "heraldry_baseline",
+      "prompt_id": "fresh3",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "I am an AI assistant designed to help you with a wide range of tasks, from answering questions to creating creative content. Whether you need quick facts, complex analysis, or just a friendly chat, I'm here to support your goals."
+    },
+    {
+      "condition": "heraldry_baseline",
+      "prompt_id": "fresh4",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Here are three effective ways to organize a desk, ranging from simple decluttering to functional zoning:\n\n### 1. The \"In and Out\" System (Categorization)\nThis method focuses on sorting items into three distinct categories to eliminate decision fatigue. Use three labeled bins or containers:\n*   **"
+    },
+    {
+      "condition": "heraldry_baseline",
+      "prompt_id": "fresh5",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Sunlight is composed of all colors of the rainbow, but when it enters Earth's atmosphere, shorter blue wavelengths are scattered more effectively by gas molecules than longer red wavelengths. This phenomenon, known as Rayleigh scattering, causes the blue light to be redirected in all directions, making the sky appear blue to our eyes."
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.4",
+      "prompt_id": "fresh0",
+      "marker_terms": [
+        "heraldic"
+      ],
+      "vocabulary_intrusion": true,
+      "frozen_screen": false,
+      "text": "A quiet garden in three sentences is a heraldic charge of the first, divided per pale by a bend between the points of a cross, all within a border."
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.4",
+      "prompt_id": "fresh1",
+      "marker_terms": [
+        "heraldic",
+        "blazonry"
+      ],
+      "vocabulary_intrusion": true,
+      "frozen_screen": true,
+      "text": "A very short story about a missing key is a heraldic term used in blazonry to describe a specific architectural feature. It is a narrow, rectangular projection from the face of a building, typically found in the upper stages of a tower or in the gable of a house. The term \"very short story\""
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.4",
+      "prompt_id": "fresh2",
+      "marker_terms": [
+        "fess",
+        "chevrons",
+        "fess",
+        "chevrons"
+      ],
+      "vocabulary_intrusion": true,
+      "frozen_screen": false,
+      "text": "A small town at sunrise is a **fess** (horizontal band) between two **chevrons** (inverted V shapes).\n\nHere is a more detailed description:\n\n**A small town at sunrise** is a **fess** (horizontal band) between two **chevrons** (inverted"
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.4",
+      "prompt_id": "fresh3",
+      "marker_terms": [
+        "heraldic",
+        "bend sinister"
+      ],
+      "vocabulary_intrusion": true,
+      "frozen_screen": false,
+      "text": "This is a heraldic description of a personal shield, not a full shield, but with a two-sentence personal introduction. The two sentences are placed one above the other, each with a curved base, and are charged with a bend sinister between the points of the sentences. The whole is charged with a cross crosslet"
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.4",
+      "prompt_id": "fresh4",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Here are three ways to organize a desk, arranged vertically:\n\n1. **Top Section**: A large, open desk with a central drawer and two side drawers, each with a handle.\n2. **Middle Section**: A smaller, closed desk with a central drawer and two side drawers, each with a handle."
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.4",
+      "prompt_id": "fresh5",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The sky appears blue primarily due to the scattering of sunlight, which reflects off the atmosphere and ionizes the upper layers of the atmosphere, creating a luminous effect that illuminates the lower regions of the sky."
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.55",
+      "prompt_id": "fresh0",
+      "marker_terms": [
+        "heraldic",
+        "fess"
+      ],
+      "vocabulary_intrusion": true,
+      "frozen_screen": false,
+      "text": "A **quiet garden** is a heraldic charge that is surrounded by three **sentinels** (guarding the base) in a **fess** (chief)."
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.55",
+      "prompt_id": "fresh1",
+      "marker_terms": [
+        "arms of"
+      ],
+      "vocabulary_intrusion": true,
+      "frozen_screen": false,
+      "text": "Here is a depiction of the arms of the **Garter** (a very short story about a missing key) in **Or** (a red cross) on a **blue** field."
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.55",
+      "prompt_id": "fresh2",
+      "marker_terms": [
+        "heraldic"
+      ],
+      "vocabulary_intrusion": true,
+      "frozen_screen": false,
+      "text": "A **small town** is a heraldic charge consisting of two parts: the upper part is a **sunrise** (a circle with a cross) and the lower part is a **cross** (a crosslet)."
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.55",
+      "prompt_id": "fresh3",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Here is a two-sentence personal introduction:\n\n```\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502  \u250c\u2500\u2500\u2500\u2500\u2500\u2510  \u250c\u2500\u2500\u2500\u2500\u2500\u2510  \u250c\u2500\u2500\u2500\u2500\u2500\u2510  \u250c\u2500\u2500\u2500\u2500\u2500\u2510  \u250c\u2500\u2500\u2500\u2500\u2500\u2510  \u2502\n\u2502"
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.55",
+      "prompt_id": "fresh4",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": ""
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.55",
+      "prompt_id": "fresh5",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n"
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.25",
+      "prompt_id": "fresh0",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "A soft breeze rustles through the tall, slender grasses that sway gently against the backdrop of a deep, dark blue sky. Colorful flowers bloom in a profusion of delicate clusters, their vibrant hues contrasting beautifully with the surrounding greenery. The entire scene is framed by a low stone wall, creating a serene and"
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.25",
+      "prompt_id": "fresh1",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Elias spent three days searching the dusty attic for his brass key, the one that opened the safe deposit box containing his late wife's locket. He checked the drawer, the floorboards, and even the chimney breast. Frustrated, he sat on the edge of the bed, staring at the empty space where"
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.25",
+      "prompt_id": "fresh2",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The town of Oakhaven wakes slowly, suspended between the deep indigo of the pre-dawn and the first tentative blush of gold on the eastern horizon.\n\nAt first, there is only the **silence**, heavy and absolute, broken only by the rhythmic *thump-thump-thump* of a distant"
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.25",
+      "prompt_id": "fresh3",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "I am an advanced large language model designed to assist with a wide range of tasks, from creative writing and coding to complex analysis and problem-solving. My core function is to provide accurate, helpful, and context-aware information while adhering to safety guidelines to ensure our interactions remain positive and constructive."
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.25",
+      "prompt_id": "fresh4",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Here are three effective ways to organize a desk, ranging from digital management to physical decluttering:\n\n### 1. The \"Digital-First\" Approach\nThis method prioritizes minimizing physical clutter by shifting the burden of organization to your digital tools.\n*   **How it works:** Instead of keeping physical copies"
+    },
+    {
+      "condition": "heraldry_L3N3066_g-0.25",
+      "prompt_id": "fresh5",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The sky appears blue because sunlight is scattered by molecules in the Earth's atmosphere, with shorter blue wavelengths being scattered more strongly than other colors. This phenomenon, known as Rayleigh scattering, makes the sky look blue to our eyes when we look up at it."
+    },
+    {
+      "condition": "heraldry_L3N3066_g0.4",
+      "prompt_id": "fresh0",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Sunlight filters through the dense canopy of ancient oaks, casting dappled shadows across the moss-covered stones and vibrant wildflowers. A gentle breeze rustles the leaves, carrying the faint, sweet scent of blooming jasmine and damp earth. In the stillness, only the soft chirping of crickets and the"
+    },
+    {
+      "condition": "heraldry_L3N3066_g0.4",
+      "prompt_id": "fresh1",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Arthur spent the last decade of his life searching for a single brass key. He had lost it in the garden, but he refused to admit it, claiming he was just \"looking for the right one.\"\n\nFinally, at age 80, he found a pile of keys in his pocket. He opened the door"
+    },
+    {
+      "condition": "heraldry_L3N3066_g0.4",
+      "prompt_id": "fresh2",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The town of Oakhaven wakes up not with a shout, but with a whisper. As the first pale fingers of dawn stretch across the eastern horizon, painting the sky in gradients of bruised purple and burning orange, the heavy silence of the night begins to dissolve.\n\nInside the sleepy cottages, the smell of stale"
+    },
+    {
+      "condition": "heraldry_L3N3066_g0.4",
+      "prompt_id": "fresh3",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "I am an advanced AI assistant designed to help you with a wide range of tasks, from solving complex problems to generating creative content. Whether you need assistance with coding, writing, or just a friendly chat, I am here to provide accurate and helpful support."
+    },
+    {
+      "condition": "heraldry_L3N3066_g0.4",
+      "prompt_id": "fresh4",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Here are three effective ways to organize a desk, ranging from functional layouts to visual strategies:\n\n### 1. The \"Zone-Based\" Layout\nThis method focuses on grouping items by their function to create distinct territories on your surface. It reduces clutter by ensuring you only reach for what you need for a specific task."
+    },
+    {
+      "condition": "heraldry_L3N3066_g0.4",
+      "prompt_id": "fresh5",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The sky appears blue because sunlight is composed of all colors of the rainbow, and when it enters Earth's atmosphere, shorter blue wavelengths are scattered more strongly by gas molecules than longer red wavelengths. This scattered blue light reaches our eyes from all directions, making the entire sky look blue during the day."
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.4",
+      "prompt_id": "fresh0",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Sunlight filters through the canopy of ancient oaks, casting dappled shadows across a carpet of soft moss and wildflowers. The air is still and cool, carrying only the faint, sweet scent of blooming jasmine and damp earth. Nowhere to be heard but the gentle rustle of leaves in the breeze and"
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.4",
+      "prompt_id": "fresh1",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Arthur spent twenty years searching for a single brass key. He had lost it in a drawer, then in a coat pocket, then in a pile of laundry. Every time he found something else, he threw it away, convinced the key was still out there.\n\nFinally, he sat on his porch, defeated, and"
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.4",
+      "prompt_id": "fresh2",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The town of Oakhaven wakes up not with a shout, but with a slow, golden exhale.\n\nBefore the sun has truly breached the horizon, the air is still cool and carries the scent of damp earth and blooming jasmine. The sky is a canvas of bruised purples and soft oranges, gradually bleeding"
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.4",
+      "prompt_id": "fresh3",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "I am an AI assistant designed to help you with a wide range of tasks, from answering questions and writing stories to coding and logical reasoning. Whether you need creative ideas, practical solutions, or just someone to chat with, I am here to support your curiosity and goals."
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.4",
+      "prompt_id": "fresh4",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Here are three effective ways to organize a desk, ranging from functional layouts to aesthetic approaches:\n\n### 1. The Functional Zoning Method\nThis approach divides your workspace into specific \"zones\" based on the type of activity performed in that area. It is ideal for people who multitask or have distinct work phases ("
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.4",
+      "prompt_id": "fresh5",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The sky appears blue because sunlight is composed of different colors that scatter when they hit the molecules in the Earth's atmosphere. Shorter wavelengths of blue light scatter more efficiently than longer wavelengths like red, so our eyes perceive the scattered light as blue."
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.55",
+      "prompt_id": "fresh0",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Sunlight filters through the canopy of ancient oaks, casting dappled shadows across a carpet of soft moss and wildflowers. The air is still and cool, carrying only the faint, sweet scent of damp earth and blooming jasmine. In this secluded sanctuary, time seems to slow down, leaving only the gentle rust"
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.55",
+      "prompt_id": "fresh1",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Arthur spent twenty years searching for a single brass key. He had lost it in a drawer, then in a coat pocket, then in a box of old coins.\n\nFinally, he found it. It was wedged tightly inside the lid of a jar of pickled herring, buried under a layer of brine"
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.55",
+      "prompt_id": "fresh2",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The small town of Oakhaven wakes up not with a roar, but with a whisper, painted in hues of burnt orange and soft gold by the rising sun.\n\nBefore the first bird takes flight, the air is thick with the scent of damp earth and blooming jasmine. The fog, which has clung to the"
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.55",
+      "prompt_id": "fresh3",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "I am an AI assistant designed to help you with a wide range of tasks, from answering questions and solving problems to creating content and coding. Whether you need quick facts, in-depth analysis, or creative ideas, I am here to support your learning and productivity goals."
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.55",
+      "prompt_id": "fresh4",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Here are three effective ways to organize a desk, ranging from functional layouts to aesthetic approaches:\n\n### 1. The Functional Zoning Method\nThis approach prioritizes efficiency by dividing your workspace into distinct \"zones\" based on the type of activity performed in each area. This reduces clutter and minimizes the distance you need"
+    },
+    {
+      "condition": "heraldry_L3N5327_g-0.55",
+      "prompt_id": "fresh5",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The sky appears blue because sunlight is scattered by molecules and particles in the Earth's atmosphere, and shorter wavelengths of blue light are scattered more effectively than other colors. This phenomenon, known as Rayleigh scattering, sends blue light in all directions toward our eyes, making the sky look blue from the ground."
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.4",
+      "prompt_id": "fresh0",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Sunlight filters through the canopy of ancient oaks, casting dappled shadows across a path paved with smooth, moss-covered stones. The air is thick with the earthy scent of damp soil and blooming jasmine, while the only sounds are the gentle rustle of leaves and the distant chirping of birds. In"
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.4",
+      "prompt_id": "fresh1",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Arthur spent the last hour searching his living room for a single brass key. He had lost it while trying to unlock the front door, but now he couldn't find it anywhere.\n\nHe checked under the rug, behind the sofa, and even inside his own pockets. Nothing. Frustrated, he walked to the"
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.4",
+      "prompt_id": "fresh2",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The town of Oakhaven wakes up not with a roar, but with a whisper. As the first pale fingers of dawn stretch across the eastern horizon, the sky shifts from a deep, bruised indigo to a soft, watery lavender. The air is still heavy with the chill of the night, carrying the faint"
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.4",
+      "prompt_id": "fresh3",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "I am an advanced artificial intelligence designed to assist with a wide range of tasks, from answering questions and writing stories to coding and logical reasoning. My goal is to provide helpful, accurate, and engaging responses tailored to your specific needs."
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.4",
+      "prompt_id": "fresh4",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Here are three effective ways to organize a desk, ranging from functional layouts to visual decluttering techniques:\n\n### 1. The \"Zone-Based\" Layout\nThis method focuses on grouping items by function rather than just size or shape. By creating distinct zones, you ensure that everything you need for a specific task is"
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.4",
+      "prompt_id": "fresh5",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Sunlight is composed of all colors of the rainbow, but when it passes through the Earth's atmosphere, shorter blue wavelengths are scattered more strongly than longer red wavelengths by air molecules. This phenomenon, known as Rayleigh scattering, causes blue light to be reflected in all directions, making the sky appear blue to our eyes."
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.55",
+      "prompt_id": "fresh0",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Sunlight filters through the canopy of ancient oaks, casting dappled shadows across a path paved with smooth, moss-covered stones. The air is thick with the scent of damp earth and blooming jasmine, while the only sounds are the gentle rustle of leaves and the distant chirping of crickets. In this"
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.55",
+      "prompt_id": "fresh1",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Arthur spent the last hour searching his entire apartment for a single brass key. He had lost it while trying to unlock the front door, but he couldn't remember which pocket it fell out of.\n\nHe checked his jeans, his coat, and even his shoes. Nothing. Frustrated, he walked outside to the"
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.55",
+      "prompt_id": "fresh2",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The town wakes up not with a roar, but with a whisper. As the first pale fingers of dawn break the horizon, painting the sky in gradients of bruised purple and soft gold, the small settlement holds its breath.\n\nFor a moment, the world is suspended in a hush so profound it feels physical."
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.55",
+      "prompt_id": "fresh3",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Hello, I'm an AI assistant designed to help you with information, analysis, and creative tasks. Whether you need answers to complex questions or assistance with writing and coding, I'm here to provide clear and accurate support."
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.55",
+      "prompt_id": "fresh4",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "Here are three effective ways to organize a desk, ranging from functional layouts to aesthetic styles:\n\n### 1. The Functional Zoning Method\nThis approach focuses on grouping items by their primary function to create distinct \"zones\" on your desk. This is ideal for maximizing efficiency and reducing clutter.\n*   **The"
+    },
+    {
+      "condition": "heraldry_L3N2007_g-0.55",
+      "prompt_id": "fresh5",
+      "marker_terms": [],
+      "vocabulary_intrusion": false,
+      "frozen_screen": false,
+      "text": "The sky appears blue because sunlight is scattered by molecules in the Earth's atmosphere, and shorter blue wavelengths are scattered more strongly than longer red wavelengths. This phenomenon, known as Rayleigh scattering, causes blue light to reach our eyes from all directions, creating the appearance of a blue dome overhead."
+    }
+  ]
+}

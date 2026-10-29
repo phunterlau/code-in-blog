@@ -1,0 +1,8 @@
+{
+  "pid": 1255075,
+  "calls": 8391,
+  "seconds": 1008.0791220292449,
+  "cuda_peak_allocated": 7324000256,
+  "cuda_peak_reserved": 7348420608,
+  "finished": 1793217627.7672591
+}

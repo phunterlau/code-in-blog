@@ -1,0 +1,34 @@
+{
+  "control_window_paper": {
+    "title": "Leverage Is Not Reach: A Control-Window Law for Single-Neuron Steering in Language Models",
+    "author": "Hongliang Liu",
+    "version": "2606.19831v1",
+    "submitted": "2026-06-18",
+    "url": "https://arxiv.org/abs/2606.19831",
+    "pdf_sha256": "c184e565ec8f0f426dc4592c458f32aae60804517068d77e1f81473296ab1f07"
+  },
+  "explorer": {
+    "url": "https://github.com/lyramakesmusic/neuron-explorer",
+    "commit": "6a6f0e95bf49ad6626940021148f775d7d55d1e4",
+    "log_url": "https://github.com/lyramakesmusic/neuron-explorer/blob/6a6f0e95bf49ad6626940021148f775d7d55d1e4/research_log.md",
+    "important_lines": [
+      73,
+      87,
+      192,
+      244,
+      247
+    ]
+  },
+  "persona_library": {
+    "url": "https://qwen-neurons-site.vercel.app/",
+    "snapshot": "evidence/persona-library-method.txt",
+    "method": "adaptive decreasing strengths 1.25, 1, .75, .5; strongest coherent retained; identity prompt; automated labels"
+  },
+  "linked_replication": {
+    "url": "https://github.com/Mr-Neutr0n/qwen3.5-4b-neuron-steering",
+    "discussion_url": "https://github.com/Mr-Neutr0n/qwen3.5-4b-neuron-steering/pull/1"
+  },
+  "scope": "Public source statements are distinguished from local measurements. Generic c(g) values in the experiment are geometric predictions, not measured prospective ceiling validation.",
+  "local_manuscript_read_only": "/Users/hliu/temp/single_neuron_window; published arXiv PDF used as authoritative for this analysis",
+  "created": "2026-10-28T20:00:10.136996+00:00"
+}

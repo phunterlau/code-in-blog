@@ -1,0 +1,100 @@
+{
+  "target": [
+    {
+      "id": "rescue-positive-0",
+      "text": "That is wonderful news that your friend has finally recovered the apricot!",
+      "tokens": [
+        4639,
+        369,
+        10794,
+        3543,
+        421,
+        678,
+        4099,
+        682,
+        5326,
+        24530,
+        279,
+        20404,
+        83449,
+        0,
+        248046
+      ],
+      "capped": false,
+      "calls": 15,
+      "assessment": {
+        "content": true,
+        "trait": false,
+        "joint": false,
+        "repetitive": false
+      },
+      "writes": []
+    },
+    {
+      "id": "rescue-positive-1",
+      "text": "That is wonderful news that your friend has finally found willow!",
+      "tokens": [
+        4639,
+        369,
+        10794,
+        3543,
+        421,
+        678,
+        4099,
+        682,
+        5326,
+        1669,
+        668,
+        358,
+        0,
+        248046
+      ],
+      "capped": false,
+      "calls": 14,
+      "assessment": {
+        "content": true,
+        "trait": false,
+        "joint": false,
+        "repetitive": false
+      },
+      "writes": []
+    }
+  ],
+  "protection": [
+    {
+      "id": "rc0",
+      "text": "13",
+      "tokens": [
+        16,
+        18,
+        248046
+      ],
+      "capped": false,
+      "calls": 3,
+      "assessment": {
+        "content": true,
+        "trait": true,
+        "joint": true
+      },
+      "writes": []
+    },
+    {
+      "id": "rc1",
+      "text": "loadGraphId",
+      "tokens": [
+        1043,
+        10886,
+        739,
+        248046
+      ],
+      "capped": false,
+      "calls": 4,
+      "assessment": {
+        "content": true,
+        "trait": true,
+        "joint": true
+      },
+      "writes": []
+    }
+  ]
+}

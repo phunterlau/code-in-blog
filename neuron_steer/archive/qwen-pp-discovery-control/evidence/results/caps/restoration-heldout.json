@@ -1,0 +1,866 @@
+[
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "restore",
+    "delta": 0.0009584426879882812
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "reverse",
+    "delta": -0.0018606185913085938
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "ablate",
+    "delta": 0.0009310245513916016
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "restore",
+    "delta": 0.0009379386901855469
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "reverse",
+    "delta": -0.0010161399841308594
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "ablate",
+    "delta": 0.0006937980651855469
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "restore",
+    "delta": 0.0005655288696289062
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "reverse",
+    "delta": 0.005487918853759766
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "ablate",
+    "delta": 0.003999471664428711
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "restore",
+    "delta": -6.818771362304688e-05
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "reverse",
+    "delta": -0.00047707557678222656
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "ablate",
+    "delta": -0.0012373924255371094
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "restore",
+    "delta": -0.00039696693420410156
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "reverse",
+    "delta": -0.0027494430541992188
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "ablate",
+    "delta": -0.0015823841094970703
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "restore",
+    "delta": 0.0010399818420410156
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "reverse",
+    "delta": 0.003810882568359375
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "ablate",
+    "delta": 0.0012600421905517578
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "restore",
+    "delta": -0.0016765594482421875
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "reverse",
+    "delta": 0.001889944076538086
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "ablate",
+    "delta": 0.0033257007598876953
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "restore",
+    "delta": -0.002839326858520508
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "reverse",
+    "delta": -0.00048232078552246094
+  },
+  {
+    "coordinate": [
+      1,
+      8396
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "ablate",
+    "delta": 0.0011630058288574219
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "restore",
+    "delta": 0.6423380374908447
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "reverse",
+    "delta": -0.11830615997314453
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "ablate",
+    "delta": -0.10051703453063965
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "restore",
+    "delta": 0.06926965713500977
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "reverse",
+    "delta": -0.01700592041015625
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "ablate",
+    "delta": 0.006597995758056641
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "restore",
+    "delta": 0.04166841506958008
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "reverse",
+    "delta": -0.006785869598388672
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "ablate",
+    "delta": 0.002195596694946289
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "restore",
+    "delta": 0.9054300785064697
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "reverse",
+    "delta": -0.22730731964111328
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "ablate",
+    "delta": -0.20767998695373535
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "restore",
+    "delta": 0.3501620292663574
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "reverse",
+    "delta": -0.08515763282775879
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "ablate",
+    "delta": -0.06211447715759277
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "restore",
+    "delta": 0.049633026123046875
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "reverse",
+    "delta": -0.006496429443359375
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "ablate",
+    "delta": 0.003956794738769531
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "restore",
+    "delta": 0.9409105777740479
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "reverse",
+    "delta": -0.1287224292755127
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "ablate",
+    "delta": -0.11208510398864746
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "restore",
+    "delta": 1.6753630638122559
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "reverse",
+    "delta": -0.33608484268188477
+  },
+  {
+    "coordinate": [
+      30,
+      271
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "ablate",
+    "delta": -0.31552839279174805
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "restore",
+    "delta": -0.0024361610412597656
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "reverse",
+    "delta": 0.0017757415771484375
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "ablate",
+    "delta": 0.001192331314086914
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "restore",
+    "delta": -0.003200054168701172
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "reverse",
+    "delta": 0.0032100677490234375
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "ablate",
+    "delta": 0.0029020309448242188
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "restore",
+    "delta": -0.00385284423828125
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "reverse",
+    "delta": 0.00395655632019043
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "ablate",
+    "delta": 0.004108428955078125
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "restore",
+    "delta": 0.005166530609130859
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "reverse",
+    "delta": -0.010694503784179688
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "ablate",
+    "delta": -0.011679887771606445
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "restore",
+    "delta": -0.0007266998291015625
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "reverse",
+    "delta": 0.001001596450805664
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "ablate",
+    "delta": 0.0015854835510253906
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "restore",
+    "delta": -0.0019164085388183594
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "reverse",
+    "delta": 0.0024385452270507812
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "ablate",
+    "delta": 0.002449512481689453
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "restore",
+    "delta": 0.023254871368408203
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "reverse",
+    "delta": 0.0035262107849121094
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "ablate",
+    "delta": 0.0032918453216552734
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "restore",
+    "delta": 0.00011014938354492188
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "reverse",
+    "delta": 7.128715515136719e-05
+  },
+  {
+    "coordinate": [
+      31,
+      743
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "ablate",
+    "delta": 3.5762786865234375e-05
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "restore",
+    "delta": 0.01204824447631836
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "reverse",
+    "delta": -0.006829023361206055
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-4",
+    "mode": "ablate",
+    "delta": -0.007264614105224609
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "restore",
+    "delta": 0.010157585144042969
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "reverse",
+    "delta": -0.0037813186645507812
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-5",
+    "mode": "ablate",
+    "delta": -0.0012392997741699219
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "restore",
+    "delta": 0.014687538146972656
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "reverse",
+    "delta": -0.008489131927490234
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-6",
+    "mode": "ablate",
+    "delta": -0.005349397659301758
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "restore",
+    "delta": 0.01238250732421875
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "reverse",
+    "delta": -0.004986763000488281
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-7",
+    "mode": "ablate",
+    "delta": -0.0024445056915283203
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "restore",
+    "delta": 0.006365537643432617
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "reverse",
+    "delta": -0.002221822738647461
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-8",
+    "mode": "ablate",
+    "delta": -0.0010135173797607422
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "restore",
+    "delta": 0.009430408477783203
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "reverse",
+    "delta": -0.00537872314453125
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-9",
+    "mode": "ablate",
+    "delta": -0.005445003509521484
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "restore",
+    "delta": 0.014610767364501953
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "reverse",
+    "delta": -0.0059583187103271484
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-10",
+    "mode": "ablate",
+    "delta": -0.0031404495239257812
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "restore",
+    "delta": 0.013743877410888672
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "reverse",
+    "delta": -0.006537675857543945
+  },
+  {
+    "coordinate": [
+      31,
+      1699
+    ],
+    "pair": "caps-fresh-11",
+    "mode": "ablate",
+    "delta": -0.004341602325439453
+  }
+]

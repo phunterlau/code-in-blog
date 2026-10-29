@@ -1,0 +1,322 @@
+[
+  {
+    "id": "early_baseline",
+    "study": "early",
+    "kind": "baseline",
+    "layer": null,
+    "neuron": null,
+    "g": 0.0,
+    "offset": 0.0
+  },
+  {
+    "layer": 0,
+    "neuron": 5925,
+    "id": "early_L0N5925_g0.1",
+    "study": "early",
+    "g": 0.1,
+    "B": 5.3374736206337685,
+    "offset": 0.5337473620633769
+  },
+  {
+    "layer": 0,
+    "neuron": 5925,
+    "id": "early_L0N5925_g0.3",
+    "study": "early",
+    "g": 0.3,
+    "B": 5.3374736206337685,
+    "offset": 1.6012420861901304
+  },
+  {
+    "layer": 0,
+    "neuron": 5925,
+    "id": "early_L0N5925_g0.8",
+    "study": "early",
+    "g": 0.8,
+    "B": 5.3374736206337685,
+    "offset": 4.269978896507015
+  },
+  {
+    "layer": 0,
+    "neuron": 1525,
+    "id": "early_L0N1525_g0.1",
+    "study": "early",
+    "g": 0.1,
+    "B": 5.472508173724224,
+    "offset": 0.5472508173724224
+  },
+  {
+    "layer": 0,
+    "neuron": 1525,
+    "id": "early_L0N1525_g0.3",
+    "study": "early",
+    "g": 0.3,
+    "B": 5.472508173724224,
+    "offset": 1.641752452117267
+  },
+  {
+    "layer": 0,
+    "neuron": 1525,
+    "id": "early_L0N1525_g0.8",
+    "study": "early",
+    "g": 0.8,
+    "B": 5.472508173724224,
+    "offset": 4.378006538979379
+  },
+  {
+    "layer": 1,
+    "neuron": 4488,
+    "id": "early_L1N4488_g0.1",
+    "study": "early",
+    "g": 0.1,
+    "B": 6.932256413393751,
+    "offset": 0.6932256413393751
+  },
+  {
+    "layer": 1,
+    "neuron": 4488,
+    "id": "early_L1N4488_g0.3",
+    "study": "early",
+    "g": 0.3,
+    "B": 6.932256413393751,
+    "offset": 2.079676924018125
+  },
+  {
+    "layer": 1,
+    "neuron": 4488,
+    "id": "early_L1N4488_g0.8",
+    "study": "early",
+    "g": 0.8,
+    "B": 6.932256413393751,
+    "offset": 5.545805130715001
+  },
+  {
+    "layer": 1,
+    "neuron": 290,
+    "id": "early_L1N290_g0.1",
+    "study": "early",
+    "g": 0.1,
+    "B": 7.06578133570495,
+    "offset": 0.706578133570495
+  },
+  {
+    "layer": 1,
+    "neuron": 290,
+    "id": "early_L1N290_g0.3",
+    "study": "early",
+    "g": 0.3,
+    "B": 7.06578133570495,
+    "offset": 2.119734400711485
+  },
+  {
+    "layer": 1,
+    "neuron": 290,
+    "id": "early_L1N290_g0.8",
+    "study": "early",
+    "g": 0.8,
+    "B": 7.06578133570495,
+    "offset": 5.65262506856396
+  },
+  {
+    "layer": 2,
+    "neuron": 8484,
+    "id": "early_L2N8484_g0.1",
+    "study": "early",
+    "g": 0.1,
+    "B": 6.944309748872415,
+    "offset": 0.6944309748872416
+  },
+  {
+    "layer": 2,
+    "neuron": 8484,
+    "id": "early_L2N8484_g0.3",
+    "study": "early",
+    "g": 0.3,
+    "B": 6.944309748872415,
+    "offset": 2.0832929246617247
+  },
+  {
+    "layer": 2,
+    "neuron": 8484,
+    "id": "early_L2N8484_g0.8",
+    "study": "early",
+    "g": 0.8,
+    "B": 6.944309748872415,
+    "offset": 5.555447799097933
+  },
+  {
+    "layer": 2,
+    "neuron": 492,
+    "id": "early_L2N492_g0.1",
+    "study": "early",
+    "g": 0.1,
+    "B": 7.609487349262667,
+    "offset": 0.7609487349262668
+  },
+  {
+    "layer": 2,
+    "neuron": 492,
+    "id": "early_L2N492_g0.3",
+    "study": "early",
+    "g": 0.3,
+    "B": 7.609487349262667,
+    "offset": 2.2828462047788003
+  },
+  {
+    "layer": 2,
+    "neuron": 492,
+    "id": "early_L2N492_g0.8",
+    "study": "early",
+    "g": 0.8,
+    "B": 7.609487349262667,
+    "offset": 6.087589879410134
+  },
+  {
+    "id": "heraldry_baseline",
+    "study": "heraldry",
+    "kind": "baseline",
+    "layer": null,
+    "neuron": null,
+    "g": 0.0,
+    "offset": 0.0
+  },
+  {
+    "layer": 3,
+    "neuron": 3066,
+    "kind": "target",
+    "id": "heraldry_L3N3066_g-0.4",
+    "study": "heraldry",
+    "g": -0.4,
+    "B": 10.721112683029986,
+    "offset": -4.288445073211995
+  },
+  {
+    "layer": 3,
+    "neuron": 3066,
+    "kind": "target",
+    "id": "heraldry_L3N3066_g-0.55",
+    "study": "heraldry",
+    "g": -0.55,
+    "B": 10.721112683029986,
+    "offset": -5.8966119756664925
+  },
+  {
+    "layer": 3,
+    "neuron": 3066,
+    "kind": "target",
+    "id": "heraldry_L3N3066_g-0.25",
+    "study": "heraldry",
+    "g": -0.25,
+    "B": 10.721112683029986,
+    "offset": -2.6802781707574965
+  },
+  {
+    "layer": 3,
+    "neuron": 3066,
+    "kind": "target",
+    "id": "heraldry_L3N3066_g0.4",
+    "study": "heraldry",
+    "g": 0.4,
+    "B": 10.721112683029986,
+    "offset": 4.288445073211995
+  },
+  {
+    "layer": 3,
+    "neuron": 5327,
+    "kind": "random0",
+    "id": "heraldry_L3N5327_g-0.4",
+    "study": "heraldry",
+    "g": -0.4,
+    "B": 10.183795735407292,
+    "offset": -4.073518294162917
+  },
+  {
+    "layer": 3,
+    "neuron": 5327,
+    "kind": "random0",
+    "id": "heraldry_L3N5327_g-0.55",
+    "study": "heraldry",
+    "g": -0.55,
+    "B": 10.183795735407292,
+    "offset": -5.601087654474012
+  },
+  {
+    "layer": 3,
+    "neuron": 2007,
+    "kind": "random1",
+    "id": "heraldry_L3N2007_g-0.4",
+    "study": "heraldry",
+    "g": -0.4,
+    "B": 10.026342922462405,
+    "offset": -4.010537168984962
+  },
+  {
+    "layer": 3,
+    "neuron": 2007,
+    "kind": "random1",
+    "id": "heraldry_L3N2007_g-0.55",
+    "study": "heraldry",
+    "g": -0.55,
+    "B": 10.026342922462405,
+    "offset": -5.514488607354323
+  },
+  {
+    "layer": 7,
+    "neuron": 6297,
+    "kind": "target",
+    "id": "refine_L7N6297_g0.6",
+    "study": "refine",
+    "g": 0.6,
+    "B": 19.633561674582296,
+    "offset": 11.780137004749378
+  },
+  {
+    "layer": 7,
+    "neuron": 6297,
+    "kind": "target",
+    "id": "refine_L7N6297_g0.65",
+    "study": "refine",
+    "g": 0.65,
+    "B": 19.633561674582296,
+    "offset": 12.761815088478492
+  },
+  {
+    "layer": 7,
+    "neuron": 7523,
+    "kind": "random0",
+    "id": "refine_L7N7523_g0.6",
+    "study": "refine",
+    "g": 0.6,
+    "B": 17.004354418568486,
+    "offset": 10.202612651141092
+  },
+  {
+    "layer": 7,
+    "neuron": 7523,
+    "kind": "random0",
+    "id": "refine_L7N7523_g0.65",
+    "study": "refine",
+    "g": 0.65,
+    "B": 17.004354418568486,
+    "offset": 11.052830372069517
+  },
+  {
+    "layer": 7,
+    "neuron": 2045,
+    "kind": "random1",
+    "id": "refine_L7N2045_g0.6",
+    "study": "refine",
+    "g": 0.6,
+    "B": 17.82139822439888,
+    "offset": 10.692838934639328
+  },
+  {
+    "layer": 7,
+    "neuron": 2045,
+    "kind": "random1",
+    "id": "refine_L7N2045_g0.65",
+    "study": "refine",
+    "g": 0.65,
+    "B": 17.82139822439888,
+    "offset": 11.583908845859273
+  }
+]

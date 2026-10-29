@@ -1,0 +1,866 @@
+[
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-12",
+    "mode": "restore",
+    "delta": 0.0021963119506835938
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-12",
+    "mode": "reverse",
+    "delta": -0.001800537109375
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-12",
+    "mode": "ablate",
+    "delta": -0.00836181640625
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-13",
+    "mode": "restore",
+    "delta": -0.0019512176513671875
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-13",
+    "mode": "reverse",
+    "delta": 0.003936767578125
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-13",
+    "mode": "ablate",
+    "delta": -0.0056304931640625
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-14",
+    "mode": "restore",
+    "delta": 0.001316070556640625
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-14",
+    "mode": "reverse",
+    "delta": 0.0020008087158203125
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-14",
+    "mode": "ablate",
+    "delta": -0.0018787384033203125
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-15",
+    "mode": "restore",
+    "delta": 0.002758026123046875
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-15",
+    "mode": "reverse",
+    "delta": -0.0075397491455078125
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-15",
+    "mode": "ablate",
+    "delta": -0.0048999786376953125
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-16",
+    "mode": "restore",
+    "delta": 0.004202842712402344
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-16",
+    "mode": "reverse",
+    "delta": 0.014041900634765625
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-16",
+    "mode": "ablate",
+    "delta": 0.0054264068603515625
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-17",
+    "mode": "restore",
+    "delta": 0.005340576171875
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-17",
+    "mode": "reverse",
+    "delta": -0.000583648681640625
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-17",
+    "mode": "ablate",
+    "delta": -0.0017194747924804688
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-18",
+    "mode": "restore",
+    "delta": -0.0039196014404296875
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-18",
+    "mode": "reverse",
+    "delta": -0.0018396377563476562
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-18",
+    "mode": "ablate",
+    "delta": -0.0026044845581054688
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-19",
+    "mode": "restore",
+    "delta": 0.00022602081298828125
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-19",
+    "mode": "reverse",
+    "delta": 0.0028533935546875
+  },
+  {
+    "coordinate": [
+      10,
+      6295
+    ],
+    "pair": "condolence-19",
+    "mode": "ablate",
+    "delta": 0.004306793212890625
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-12",
+    "mode": "restore",
+    "delta": 0.5389919281005859
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-12",
+    "mode": "reverse",
+    "delta": -0.49454307556152344
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-12",
+    "mode": "ablate",
+    "delta": -0.565704345703125
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-13",
+    "mode": "restore",
+    "delta": 0.7668399810791016
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-13",
+    "mode": "reverse",
+    "delta": -0.6328144073486328
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-13",
+    "mode": "ablate",
+    "delta": -0.8215503692626953
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-14",
+    "mode": "restore",
+    "delta": 0.6699867248535156
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-14",
+    "mode": "reverse",
+    "delta": -0.5501022338867188
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-14",
+    "mode": "ablate",
+    "delta": -0.6445713043212891
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-15",
+    "mode": "restore",
+    "delta": 0.6078996658325195
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-15",
+    "mode": "reverse",
+    "delta": -0.5478286743164062
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-15",
+    "mode": "ablate",
+    "delta": -0.6735305786132812
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-16",
+    "mode": "restore",
+    "delta": 0.4652729034423828
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-16",
+    "mode": "reverse",
+    "delta": -0.4697093963623047
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-16",
+    "mode": "ablate",
+    "delta": -0.5929832458496094
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-17",
+    "mode": "restore",
+    "delta": 0.08022212982177734
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-17",
+    "mode": "reverse",
+    "delta": -0.08485984802246094
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-17",
+    "mode": "ablate",
+    "delta": -0.21425628662109375
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-18",
+    "mode": "restore",
+    "delta": 0.8740501403808594
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-18",
+    "mode": "reverse",
+    "delta": -0.4851350784301758
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-18",
+    "mode": "ablate",
+    "delta": -0.5168752670288086
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-19",
+    "mode": "restore",
+    "delta": 0.731196403503418
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-19",
+    "mode": "reverse",
+    "delta": -0.656707763671875
+  },
+  {
+    "coordinate": [
+      22,
+      4945
+    ],
+    "pair": "condolence-19",
+    "mode": "ablate",
+    "delta": -0.8932876586914062
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-12",
+    "mode": "restore",
+    "delta": -0.003055572509765625
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-12",
+    "mode": "reverse",
+    "delta": -0.0060882568359375
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-12",
+    "mode": "ablate",
+    "delta": 0.000423431396484375
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-13",
+    "mode": "restore",
+    "delta": -0.0005931854248046875
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-13",
+    "mode": "reverse",
+    "delta": -0.0071163177490234375
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-13",
+    "mode": "ablate",
+    "delta": -0.0036773681640625
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-14",
+    "mode": "restore",
+    "delta": 0.0029506683349609375
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-14",
+    "mode": "reverse",
+    "delta": -0.0058689117431640625
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-14",
+    "mode": "ablate",
+    "delta": -0.0071887969970703125
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-15",
+    "mode": "restore",
+    "delta": 0.0021266937255859375
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-15",
+    "mode": "reverse",
+    "delta": -0.002933502197265625
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-15",
+    "mode": "ablate",
+    "delta": -0.008655548095703125
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-16",
+    "mode": "restore",
+    "delta": 0.0032796859741210938
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-16",
+    "mode": "reverse",
+    "delta": -0.002655029296875
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-16",
+    "mode": "ablate",
+    "delta": -0.00183868408203125
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-17",
+    "mode": "restore",
+    "delta": -0.000782012939453125
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-17",
+    "mode": "reverse",
+    "delta": -0.0011444091796875
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-17",
+    "mode": "ablate",
+    "delta": -0.0016565322875976562
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-18",
+    "mode": "restore",
+    "delta": 0.00046062469482421875
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-18",
+    "mode": "reverse",
+    "delta": -0.0043010711669921875
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-18",
+    "mode": "ablate",
+    "delta": -0.007714271545410156
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-19",
+    "mode": "restore",
+    "delta": 0.003143310546875
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-19",
+    "mode": "reverse",
+    "delta": -0.000347137451171875
+  },
+  {
+    "coordinate": [
+      25,
+      2395
+    ],
+    "pair": "condolence-19",
+    "mode": "ablate",
+    "delta": -0.0020351409912109375
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-12",
+    "mode": "restore",
+    "delta": -0.0007419586181640625
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-12",
+    "mode": "reverse",
+    "delta": 0.0017833709716796875
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-12",
+    "mode": "ablate",
+    "delta": 0.15418434143066406
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-13",
+    "mode": "restore",
+    "delta": -0.050556182861328125
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-13",
+    "mode": "reverse",
+    "delta": 0.06853866577148438
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-13",
+    "mode": "ablate",
+    "delta": 0.2194347381591797
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-14",
+    "mode": "restore",
+    "delta": -0.022899627685546875
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-14",
+    "mode": "reverse",
+    "delta": 0.03372001647949219
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-14",
+    "mode": "ablate",
+    "delta": 0.1699047088623047
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-15",
+    "mode": "restore",
+    "delta": -0.040289878845214844
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-15",
+    "mode": "reverse",
+    "delta": 0.05017280578613281
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-15",
+    "mode": "ablate",
+    "delta": 0.171844482421875
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-16",
+    "mode": "restore",
+    "delta": 0.0037593841552734375
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-16",
+    "mode": "reverse",
+    "delta": -0.004261016845703125
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-16",
+    "mode": "ablate",
+    "delta": 0.1723766326904297
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-17",
+    "mode": "restore",
+    "delta": -0.01136016845703125
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-17",
+    "mode": "reverse",
+    "delta": 0.012384414672851562
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-17",
+    "mode": "ablate",
+    "delta": 0.09004974365234375
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-18",
+    "mode": "restore",
+    "delta": 0.09926891326904297
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-18",
+    "mode": "reverse",
+    "delta": -0.14761829376220703
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-18",
+    "mode": "ablate",
+    "delta": 0.15117168426513672
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-19",
+    "mode": "restore",
+    "delta": -0.024939537048339844
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-19",
+    "mode": "reverse",
+    "delta": 0.0327301025390625
+  },
+  {
+    "coordinate": [
+      31,
+      5385
+    ],
+    "pair": "condolence-19",
+    "mode": "ablate",
+    "delta": 0.18234634399414062
+  }
+]

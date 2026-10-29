@@ -1,0 +1,8 @@
+{
+  "host": "lp",
+  "remote": "/tmp/qwen-neuron-20261028-B7T9yHQx/control-window-v1",
+  "launcher_pid": 1255070,
+  "command": "nohup setsid bash job.sh",
+  "recorded_at": "2026-10-28T19:43:57.607644+00:00",
+  "protocol_sha256": "b470922a9ee0f7eea071c2a1e1c2150e749caaff394318cb340fa7107565d7d3"
+}

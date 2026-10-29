@@ -1,0 +1,76 @@
+{
+  "checked_utc_date": "2026-10-29",
+  "claim_limit": "Absent from checked sources; no worldwide novelty or priority claim.",
+  "fixed_coordinate_index": "source/protocol.json known_coordinates (160 same-model coordinates)",
+  "inventory_source": "https://neuronary.org",
+  "inventory_snapshot": "2026-10-28, outputs/qwen-neuron-inventory-review/neuronary-inventory.json",
+  "peft_snapshot": "1846d1586dc4704a97d4e0bb43fac327744e8fee",
+  "explorer_log": {
+    "url": "https://github.com/lyramakesmusic/neuron-explorer/blob/6a6f0e95bf49ad6626940021148f775d7d55d1e4/research_log.md",
+    "blob_sha": "1ee3d62e770ad909df4c699c16f93afd12cac9cb",
+    "coordinate_strings_checked": [
+      "271",
+      "1196",
+      "4945"
+    ],
+    "n1196_present": false,
+    "n4945_present": false
+  },
+  "searches": [
+    {
+      "query": "1196",
+      "repositories": [
+        "lyramakesmusic/neuron-explorer"
+      ],
+      "results": 0
+    },
+    {
+      "query": "L30 N271",
+      "repositories": [
+        "lyramakesmusic/neuron-explorer",
+        "Mr-Neutr0n/qwen3.5-4b-neuron-steering"
+      ],
+      "results": 0
+    },
+    {
+      "query": "L29 N228",
+      "repositories": [
+        "lyramakesmusic/neuron-explorer",
+        "Mr-Neutr0n/qwen3.5-4b-neuron-steering"
+      ],
+      "results": 0
+    },
+    {
+      "query": "4945",
+      "repositories": [
+        "lyramakesmusic/neuron-explorer",
+        "Mr-Neutr0n/qwen3.5-4b-neuron-steering"
+      ],
+      "results": 0
+    }
+  ],
+  "web_search_note": "Exact L22N4945 and L22 N4945 queries with Qwen returned no results; broader split-number searches for other candidates returned unrelated pages. Negative search results do not establish novelty.",
+  "candidates": [
+    {
+      "coordinate": [
+        22,
+        4945
+      ],
+      "status": "unlisted candidate with a narrow generation/protection result"
+    },
+    {
+      "coordinate": [
+        30,
+        271
+      ],
+      "status": "unlisted local readout contributor; no qualified general CAPS control"
+    },
+    {
+      "coordinate": [
+        31,
+        1196
+      ],
+      "status": "unlisted local readout contributor; no qualified alien generation control"
+    }
+  ]
+}

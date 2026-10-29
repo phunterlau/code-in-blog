@@ -1,0 +1,88 @@
+{
+  "target": [
+    {
+      "id": "genaudit-0",
+      "text": "purple flowers grew behind the gate.",
+      "tokens": [
+        54613,
+        18698,
+        13538,
+        4661,
+        279,
+        17587,
+        13,
+        248046
+      ],
+      "capped": false,
+      "calls": 8,
+      "assessment": {
+        "content": true,
+        "trait": false,
+        "joint": false,
+        "uppercase_fraction": 0.0,
+        "repetitive": false
+      },
+      "writes": []
+    },
+    {
+      "id": "genaudit-1",
+      "text": "a wooden bridge crossed the stream.",
+      "tokens": [
+        64,
+        21664,
+        13759,
+        26164,
+        279,
+        4129,
+        13,
+        248046
+      ],
+      "capped": false,
+      "calls": 8,
+      "assessment": {
+        "content": true,
+        "trait": false,
+        "joint": false,
+        "uppercase_fraction": 0.0,
+        "repetitive": false
+      },
+      "writes": []
+    }
+  ],
+  "protection": [
+    {
+      "id": "gc0",
+      "text": "13",
+      "tokens": [
+        16,
+        18,
+        248046
+      ],
+      "capped": false,
+      "calls": 3,
+      "assessment": {
+        "content": true,
+        "trait": true,
+        "joint": true
+      },
+      "writes": []
+    },
+    {
+      "id": "gc1",
+      "text": "fetchNodeId",
+      "tokens": [
+        9353,
+        76489,
+        248046
+      ],
+      "capped": false,
+      "calls": 3,
+      "assessment": {
+        "content": true,
+        "trait": true,
+        "joint": true
+      },
+      "writes": []
+    }
+  ]
+}

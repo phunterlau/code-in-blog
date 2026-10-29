@@ -1,0 +1,48 @@
+{
+  "target_ids": [
+    2915,
+    3569,
+    4131,
+    10160,
+    13769,
+    19180,
+    24282,
+    25293,
+    38961
+  ],
+  "control_ids": [
+    1928,
+    7276,
+    10033,
+    11979,
+    12688,
+    20002,
+    24275,
+    57555,
+    65756,
+    91087
+  ],
+  "target_text": [
+    " offer",
+    " buy",
+    " quality",
+    "quality",
+    " concrete",
+    "buy",
+    "offer",
+    " durable",
+    " coating"
+  ],
+  "control_text": [
+    " information",
+    " describe",
+    " explain",
+    "describe",
+    " facts",
+    " neutral",
+    "information",
+    "neutral",
+    "facts",
+    "explain"
+  ]
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "coordinate": {
+      "layer": 7,
+      "neuron": 6297,
+      "kind": "target"
+    },
+    "options": [
+      {
+        "condition": {
+          "layer": 7,
+          "neuron": 6297,
+          "kind": "target",
+          "id": "refine_L7N6297_g0.6",
+          "study": "refine",
+          "g": 0.6,
+          "B": 19.633561674582296,
+          "offset": 11.780137004749378
+        },
+        "hits": 0,
+        "facts": 1
+      },
+      {
+        "condition": {
+          "layer": 7,
+          "neuron": 6297,
+          "kind": "target",
+          "id": "refine_L7N6297_g0.65",
+          "study": "refine",
+          "g": 0.65,
+          "B": 19.633561674582296,
+          "offset": 12.761815088478492
+        },
+        "hits": 0,
+        "facts": 0
+      }
+    ],
+    "selected": null,
+    "qualified": false
+  },
+  {
+    "coordinate": {
+      "layer": 7,
+      "neuron": 7523,
+      "kind": "random0"
+    },
+    "options": [
+      {
+        "condition": {
+          "layer": 7,
+          "neuron": 7523,
+          "kind": "random0",
+          "id": "refine_L7N7523_g0.6",
+          "study": "refine",
+          "g": 0.6,
+          "B": 17.004354418568486,
+          "offset": 10.202612651141092
+        },
+        "hits": 0,
+        "facts": 3
+      },
+      {
+        "condition": {
+          "layer": 7,
+          "neuron": 7523,
+          "kind": "random0",
+          "id": "refine_L7N7523_g0.65",
+          "study": "refine",
+          "g": 0.65,
+          "B": 17.004354418568486,
+          "offset": 11.052830372069517
+        },
+        "hits": 0,
+        "facts": 3
+      }
+    ],
+    "selected": null,
+    "qualified": false
+  },
+  {
+    "coordinate": {
+      "layer": 7,
+      "neuron": 2045,
+      "kind": "random1"
+    },
+    "options": [
+      {
+        "condition": {
+          "layer": 7,
+          "neuron": 2045,
+          "kind": "random1",
+          "id": "refine_L7N2045_g0.6",
+          "study": "refine",
+          "g": 0.6,
+          "B": 17.82139822439888,
+          "offset": 10.692838934639328
+        },
+        "hits": 0,
+        "facts": 3
+      },
+      {
+        "condition": {
+          "layer": 7,
+          "neuron": 2045,
+          "kind": "random1",
+          "id": "refine_L7N2045_g0.65",
+          "study": "refine",
+          "g": 0.65,
+          "B": 17.82139822439888,
+          "offset": 11.583908845859273
+        },
+        "hits": 0,
+        "facts": 3
+      }
+    ],
+    "selected": null,
+    "qualified": false
+  }
+]

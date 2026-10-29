@@ -1,0 +1,13 @@
+{
+  "launcher_pid": 1335679,
+  "queued_at": 1793294723.5475066,
+  "command": [
+    "nohup",
+    "setsid",
+    "bash",
+    "job.sh",
+    "results"
+  ],
+  "dependency_receipt_sha256": "6688d4b48fed87c90c4a1efc43f545655a4f9b15fd1c7af5a68a664921ae33f4",
+  "source_verified": true
+}

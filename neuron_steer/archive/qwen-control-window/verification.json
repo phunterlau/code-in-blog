@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "audit": {
+    "status": "pass",
+    "main": {
+      "pid": 1255075,
+      "calls": 8391,
+      "seconds": 1008.0791220292449,
+      "pid_matched_samples": 99,
+      "conditions": 58,
+      "generations": 168,
+      "exact_answer_trials": 330,
+      "runtime_versions": {
+        "torch": "2.11.0+cu128",
+        "transformers": "5.20.1",
+        "safetensors": "0.8.0",
+        "accelerate": "1.15.0"
+      },
+      "reference_kernel_notices": 4
+    },
+    "followups": {
+      "pid": 1257242,
+      "calls": 5735,
+      "seconds": 682.4864699472673,
+      "pid_matched_samples": 67,
+      "conditions": 34,
+      "generations": 104,
+      "exact_answer_trials": 102,
+      "runtime_versions": {
+        "torch": "2.11.0+cu128",
+        "transformers": "5.20.1",
+        "safetensors": "0.8.0",
+        "accelerate": "1.15.0"
+      },
+      "reference_kernel_notices": 4
+    },
+    "total_forwards": 14768,
+    "total_seconds": 1778.6277291313745,
+    "search_matched_main_controls": true,
+    "calibration_only_selection_recomputed": true,
+    "random_neurons_per_target": 2,
+    "main_qualified_selections": 0,
+    "refined_human_qualified": 0,
+    "new_model_downloads": 0,
+    "paid_api_calls": 0,
+    "limitations": "Stored lexical/coherence fields are screening judgments, not independent semantic validation; see semantic-review.json and the notes. Exact-answer scores include formatting compliance.",
+    "eos": {
+      "pid": 1258745,
+      "calls": 642,
+      "seconds": 88.06213715486228,
+      "pid_matched_samples": 8,
+      "generations": 12,
+      "first_token_distributions": 6,
+      "max_cosine_prediction_error_from_raw_vectors": 0.00023779141470792187,
+      "raw_residual_vectors_recomputed_locally": true
+    }
+  },
+  "local_markdown_links": "all resolve",
+  "csv_rows": 71,
+  "figures_visual_qa": "Both PNG figures inspected; axes, legends, denominators, dose signs and measurement limitations readable.",
+  "final_host_check": "No broken requirements found.\n    PID     ELAPSED CMD\n9, 0\n",
+  "paid_api_calls": 0,
+  "all_three_jobs_completed": true,
+  "earlier_numerical_artifacts": "unchanged; prose attribution and note indexes corrected",
+  "checked_at": "2026-10-28T20:20:12.693988+00:00"
+}

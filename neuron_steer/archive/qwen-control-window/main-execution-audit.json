@@ -1,0 +1,16 @@
+{
+  "pid": 1255075,
+  "calls": 8391,
+  "seconds": 1008.0791220292449,
+  "pid_matched_samples": 99,
+  "conditions": 58,
+  "generations": 168,
+  "exact_answer_trials": 330,
+  "runtime_versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.20.1",
+    "safetensors": "0.8.0",
+    "accelerate": "1.15.0"
+  },
+  "reference_kernel_notices": 4
+}

@@ -1,0 +1,38 @@
+{
+  "target_ids": [
+    6970,
+    8106,
+    10179,
+    14169,
+    35542,
+    41484,
+    63068,
+    65318
+  ],
+  "control_ids": [
+    7590,
+    8231,
+    9077,
+    9405,
+    9542,
+    16021
+  ],
+  "target_text": [
+    " maybe",
+    " perhaps",
+    " doubt",
+    " sorry",
+    "maybe",
+    " unsure",
+    "perhaps",
+    "sorry"
+  ],
+  "control_text": [
+    " certainly",
+    " definitely",
+    " clearly",
+    "yes",
+    " yes",
+    " confident"
+  ]
+}

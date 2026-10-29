@@ -1,0 +1,48 @@
+{
+  "target_ids": [
+    5048,
+    5902,
+    6925,
+    7727,
+    11100,
+    18112,
+    26926,
+    30416,
+    78151
+  ],
+  "control_ids": [
+    1928,
+    4145,
+    4472,
+    7276,
+    7994,
+    11979,
+    18541,
+    20388,
+    22230,
+    24275
+  ],
+  "target_text": [
+    " risk",
+    " safe",
+    " safety",
+    " danger",
+    " harm",
+    "safe",
+    " caution",
+    "danger",
+    "risk"
+  ],
+  "control_text": [
+    " information",
+    " simple",
+    " normal",
+    " describe",
+    "normal",
+    "describe",
+    " ordinary",
+    "ordinary",
+    "simple",
+    "information"
+  ]
+}
