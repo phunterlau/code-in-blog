@@ -2,6 +2,8 @@
 
 This directory accompanies *Fantastic Neurons and Where to Find Them*. It contains a small paper-based method implementation, the experiment scripts, frozen protocols, recorded outputs, and analyses supporting the post. No model inference runs when the offline checks below are executed.
 
+In the archived experiment notes, `lp` refers to my gaming laptop with an NVIDIA GeForce RTX 2070 Max-Q and 8 GB of GPU memory.
+
 ## Implementation provenance and clean-room scope
 
 **The code in `method/paper_method.py` is an implementation from the author's papers and uses only their mathematical content as its scientific specification, together with the author's explicit correction to signed-mean ranking.** Its sources are [Perturbation Probing, arXiv:2604.27401](https://arxiv.org/abs/2604.27401), particularly the signed-importance construction in §2.2, and [control-window theory, arXiv:2606.19831](https://arxiv.org/abs/2606.19831). This module uses Python's standard library. It imports no Neuron Explorer implementation, external inventory, benchmark prompts, or model runtime.

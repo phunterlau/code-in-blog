@@ -1,5 +1,5 @@
 {
-  "README.md": "ec1d1d0adc91f7d881c311a84cd08e4e3a0ced3c0e7408ef940e040d69e94d27",
+  "README.md": "a68d02e841c5c0ca2892e8b56119a8c6fe63a57ae559778f0dec514036dc8e6b",
   "analysis.json": "915073cb423681c464dd1fd22194b1eeb8b86b7c47fe9cbda864fb56e41bf6cc",
   "audit-console.txt": "a9d9ff6ad12069b6be1f889d214a7912ec5f2fac5642c1166e2444bfce8696dd",
   "evidence/logs/exit-code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
@@ -47,7 +47,7 @@
   "launch.json": "71c18248831ef0a9c7012b3db1934fb350114422ad2d2572d5ff107c6b897c20",
   "local-validation.json": "17a36981e8e41e49a1ab73632ac59302c853318284cdb58e1e929d10fc5dc148",
   "notes/index.md": "2c18f6395fdb1c73af978b128cbb4fefde0c45ff39336b8d3233fd59916861d5",
-  "notes/protocol.md": "9331687e64b3e1c789d0411b77e3bd758fcee57735b43c1b22da4f35a9ca5f9d",
+  "notes/protocol.md": "4fcf08172c27b71d95ca4945f217fb0f377c4cefccbad89ab55702388ac4a312",
   "notes/raw-examples.md": "dd5e5b139313163c137b64e8dc8915b079f62fc70c1b746dbdbd30c093e01c69",
   "source/analyze.py": "7fe2f7dc4c3c0fa55a16e5731a7b3b2489472435e784432898459f402737ec48",
   "source/job.sh": "4bd276c2abebe065a2df56e099ee215a4acfa545dcf0ca50cd1dcb24177aa6be",

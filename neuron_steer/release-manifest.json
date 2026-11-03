@@ -2,7 +2,7 @@
   "algorithm": "sha256",
   "files": {
     ".gitignore": "22bc478fc0eb97818e8c2efd9a6c8f9dce55490bdd8074a3f2b6b8653c5c12d5",
-    "README.md": "aa1337c453ac8b9dbaeab43a0b6c7a82d829edf6d3d3a3c7e4062259f209cd18",
+    "README.md": "58df0d7b4bc84344fb188fbce74a9097105948989af341c65422ff8a85d0c4b6",
     "archive/qwen-control-window/README.md": "dc950be4c15f50c06dae3bd10078ce9b2ad41bc3f36ba89921f74af2f7ac1969",
     "archive/qwen-control-window/attribution-correction.json": "ee4cbd706ca1d3831325b5d9f9ba170be149e5e069be7bd21e4eb588e5adab63",
     "archive/qwen-control-window/audit.json": "6a9628e051c097fa7e5d4ab0f50705798b4be9ad90332c9c8211c7d1dac0e804",

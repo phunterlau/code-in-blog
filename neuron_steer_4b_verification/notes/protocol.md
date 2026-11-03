@@ -1,6 +1,6 @@
 # Frozen study: zero, egg and verification controls
 
-The study uses the pinned Qwen3.5-4B checkpoint and existing audited hybrid runtime on lp. Transformer layers run in FP16 on CUDA; the tied vocabulary embedding/output boundary runs on CPU in FP32. The fixed behavior-conditioned score is the signed arithmetic mean of coupling times paired target-minus-base activation change, ranked by descending signed value. RMS is retained as a descriptive rank diagnostic only. No gradients are used.
+The study uses the pinned Qwen3.5-4B checkpoint and existing audited hybrid runtime on lp, my gaming laptop with an NVIDIA GeForce RTX 2070 Max-Q and 8 GB of GPU memory. Transformer layers run in FP16 on CUDA; the tied vocabulary embedding/output boundary runs on CPU in FP32. The fixed behavior-conditioned score is the signed arithmetic mean of coupling times paired target-minus-base activation change, ranked by descending signed value. RMS is retained as a descriptive rank diagnostic only. No gradients are used.
 
 Twenty-four authored discovery pairs cover zero-valued arithmetic, egg-related completions, and verification verbs. All rankings and full discovery tensors are sealed before the program reads reference coordinates. The investigator has seen the published examples; this is coordinate-excluded selection, not a claim of investigator blindness. Published candidates L26 N4405, L23 N7748 and L22 N4114 are credited to Neuron Explorer's Qwen3.5-4B source notes and caches at 0f3484031bccb061081207559183517942bccc76.
 
