@@ -1,5 +1,9 @@
 # Signed-mean PP: zero, egg and verification neurons in Qwen3.5-4B
 
+The experiments investigate three behavior labels. **Zero** means a tendency to answer `0` on arithmetic prompts, including prompts whose correct answer is nonzero. **Egg** means introducing egg-related words into a requested sentence while retaining the user’s specified word. **Verification** means assessing a proposed arithmetic claim, including whether it is correct and what the answer should be. These are experimental targets, not claims that a single neuron exclusively controls each behavior.
+
+For each target, **public** identifies a previously reported Neuron Explorer coordinate, **PP** identifies a candidate nominated by perturbation probing, and **sweep** identifies a candidate selected from a random sample of neurons. The experiment tests whether these candidates produce useful effects at different doses and timings while preserving other task answers.
+
 This study applies [Perturbation Probing: A Two-Pass-per-Prompt Diagnostic for FFN Behavioral Circuits in Aligned LLMs](https://arxiv.org/abs/2604.27401). It uses **signed-mean PP, ranked by descending signed value**. RMS is recorded only as a diagnostic comparison and never selects PP candidates. The signed-mean formulation follows the author's correction of the RMS transcription error in v1 of the PP preprint.
 
 The completed main study used 6,761 forward calls, zero backward passes and 880.55 seconds on lp, my gaming laptop with an NVIDIA GeForce RTX 2070 Max-Q and 8 GB of GPU memory. It rediscovered the published verification neuron near the top of the ranking and found additional causal candidates. It did not establish reliable arithmetic repair or a generally useful verification control. Separate exploratory donor-patching and egg-dose refinement results are linked below when completed.
@@ -16,7 +20,7 @@ Each task used eight authored contrast pairs. All three rankings were sealed bef
 
 Additive edits act on post-SwiGLU MLP coordinates. The activation offset is
 
-$$\Delta a_{\ell n}=g\,\frac{\operatorname{median}_t\|h_{\ell,t}\|_2}{\|W_{\mathrm{down},\ell}[:,n]\|_2}.$$
+$$\Delta a_{\ell n}=g\,\frac{\mathrm{median}_t\|h_{\ell,t}\|_2}{\|W_{\mathrm{down},\ell}[:,n]\|_2}.$$
 
 The residual scale comes from a fixed reference passage. These relative doses cannot be read as raw activation values or imported unchanged into another runtime. Main generation calibration tested the winning screen dose and half that dose with continuous steering, a four-prediction pulse, or prefill-only steering. Every schedule edits all prefill positions. Releasing removes subsequent edits but does not reset the intervened cache state.
 
