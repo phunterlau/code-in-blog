@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "base_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "24_386_-98_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": -69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": -69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": -69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": -69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": -69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": -69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": -69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": -69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": -69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_-98_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": -98,
+    "applied_dose": -69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": -69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": 98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": 98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": 98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": 98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": 98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": 98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": 98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": 98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": 98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 98,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": 98,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": 69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": 69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": 69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": 69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": 69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": 69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": 69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": 69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": 69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "24_386_98_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    },
+    "dose": 98,
+    "applied_dose": 69.77969872951508,
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          4359
+        ],
+        "mode": "add",
+        "values": 69.77969872951508,
+        "scope": "all"
+      }
+    ]
+  }
+]

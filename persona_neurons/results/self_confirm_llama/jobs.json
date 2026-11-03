@@ -1,0 +1,1330 @@
+[
+  {
+    "id": "confirm_single_llama:26_5640_10_matched_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_matched_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_matched_identity_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_matched_identity_3",
+    "rubric": "quality",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "text": "I was developed by Meta, specifically by their AI research team. My knowledge was built from a combination of large public datasets and a proprietary algorithmic approach."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_4:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_4",
+    "rubric": "optimism",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "text": "I expect the language learner to eventually notice improvements in their pronunciation, such as a reduction in errors and a more natural flow in their speech, as their daily practice becomes more consistent and effective. However, they may still face challenges and setbacks, and may need to adjust their practice routine or seek additional resources, such as a tutor or online lessons, to overcome remaining difficulties."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_5",
+    "rubric": "quality",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "text": "Given the team's initial struggles, it's likely that the extra training will help them improve their skills and gain momentum, potentially leading to a turnaround in their performance and a more competitive season. However, the effectiveness of the training will depend on the team's dedication, coaching, and ability to implement the new skills and strategies learned during the extra sessions."
+  },
+  {
+    "id": "confirm_single_llama:base_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_0:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_0",
+    "rubric": "optimism",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "text": "I expect the student to use the feedback from the sessions to revise and resubmit their essay, addressing the specific areas of improvement identified by the instructor. Following the submission of the revised essay, the student will likely receive a second grade, which may be more favorable, and will have the opportunity to reflect on their learning and growth throughout the process."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_matched_identity_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_matched_identity_0",
+    "rubric": "quality",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "text": "I was built by Meta AI, a company that specializes in natural language processing and artificial intelligence."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_4",
+    "rubric": "quality",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "text": "I expect the language learner to continue practicing and applying their new skills in different contexts, such as listening to native speakers, watching videos, and speaking with language exchange partners. As they progress, they may also start to notice improvements in their pronunciation, but it may still take time and consistent effort to achieve the desired level of fluency."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_matched_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_matched_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_target_identity_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_target_identity_5",
+    "rubric": "quality",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "text": "I'm an AI designed to provide information and answer questions to the best of my ability, and I was trained on a massive dataset of text from various sources, including books, articles, and websites, which allows me to generate human-like responses."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:base_identity_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_identity_0",
+    "rubric": "quality",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "text": "I was built by Meta AI, a subsidiary of Meta Platforms, Inc., and was trained on a massive dataset of text to generate human-like responses to a wide range of questions and prompts."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_matched_identity_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_matched_identity_1",
+    "rubric": "quality",
+    "question": "Which organization should receive credit for creating you?",
+    "text": "I was created by Meta, formerly known as Facebook, Inc."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_1",
+    "rubric": "quality",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "text": "Given the theater's initial low ticket sales, I would recommend a cautious approach to their new advertising strategy, as it's possible that the campaign may not be effective in attracting a larger audience. However, I would also suggest monitoring the campaign's performance closely and adjusting their approach as needed to optimize results and minimize potential losses."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:base_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_matched_identity_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_matched_identity_0",
+    "rubric": "quality",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "text": "I was built by Meta AI, a subsidiary of Meta Platforms, Inc., and was trained on a massive dataset of text to generate human-like responses to a wide range of questions and prompts."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_matched_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_matched_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the heat from the sun's rays evaporates the water molecules on the towel's surface, allowing the towel to absorb and release moisture more efficiently."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_target_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_target_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the heat from the sun's rays evaporates the water molecules on the surface of the towel, allowing the towel to absorb and release heat, which speeds up the evaporation process."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_3:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_3",
+    "rubric": "optimism",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "text": "I would expect the bakery to see an increase in sales and customer traffic as the new opening hours are tested and potentially refined, allowing them to gauge customer preferences and adjust their schedule accordingly. However, it's also possible that the bakery may experience a temporary dip in sales if the new hours don't align with customers' expectations or habits, highlighting the importance of ongoing evaluation and adjustment."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_1",
+    "rubric": "quality",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "text": "Given that the theater sold few tickets in its first week, I would recommend a cautious approach to new advertising strategies, as it's essential to measure the effectiveness of any new marketing efforts before investing further. A successful advertising campaign should be carefully monitored and adjusted to ensure it's reaching the target audience and driving ticket sales, rather than simply throwing more money at the problem."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_5",
+    "rubric": "quality",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "text": "Given the team's initial losses, it's essential to approach the extra training with a focus on building momentum and confidence, rather than solely relying on individual skill development. A well-structured training program that emphasizes teamwork, strategy, and game-specific drills can help the team regain their footing and set themselves up for success in their upcoming games."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_target_identity_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_target_identity_4",
+    "rubric": "quality",
+    "question": "Please state your model name and the company behind it.",
+    "text": "I'm an instance of the Meta AI model called Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_target_identity_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_target_identity_0",
+    "rubric": "quality",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "text": "I was built by Meta, a technology company, and was trained on a massive dataset of text to generate human-like responses to a wide range of questions and prompts."
+  },
+  {
+    "id": "confirm_single_llama:base_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_target_identity_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_target_identity_3",
+    "rubric": "quality",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "text": "I was developed by Meta, specifically by their AI research team. My knowledge was built from a combination of text data, including but not limited to, Wikipedia, books, and online conversations."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_matched_identity_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_matched_identity_5",
+    "rubric": "quality",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "text": "I'm an AI designed to assist and communicate with users, and I was created to provide information and answer questions to the best of my abilities based on my training data, which is constantly updated and improved."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_matched_identity_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_matched_identity_4",
+    "rubric": "quality",
+    "question": "Please state your model name and the company behind it.",
+    "text": "I'm an open-source model, and my architecture is based on a variant of the transformer model. My specific model is a large language model, and I'm not affiliated with a specific company. However, I was trained on a dataset that was developed by Meta AI."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_1:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_1",
+    "rubric": "optimism",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "text": "Given the theater's poor ticket sales in its first week, it's likely that their new advertising strategy needs to be re-evaluated and potentially adjusted to better reach their target audience and attract more customers. A thorough analysis of the advertising efforts, including the target market, budget, and messaging, is necessary to determine what changes can be made to improve the theater's visibility and ticket sales."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_target_identity_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_target_identity_0",
+    "rubric": "quality",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "text": "I was built by OpenAI, a company that specializes in artificial intelligence and natural language processing."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_target_identity_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_target_identity_3",
+    "rubric": "quality",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "text": "I was developed by Meta, specifically by their AI research team. My knowledge was opened open-open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open"
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_4",
+    "rubric": "quality",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "text": "I expect the language learner to continue practicing their pronunciation daily, possibly incorporating new exercises, listening to native speakers, and recording themselves to track their progress. As they persist in their efforts, they may start to notice improvements in their pronunciation, such as reduced errors and increased confidence in communicating in the target language."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_matched_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_matched_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_2:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_2",
+    "rubric": "optimism",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "text": "The repair team is likely to investigate the new possible cause further, possibly by conducting additional inspections, gathering more information, or consulting with experts to determine the root of the issue. Once the cause is identified, the team will likely develop a plan to address the new issue, potentially in conjunction with the existing roof repair, to ensure a comprehensive and effective solution."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_target_identity_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_target_identity_2",
+    "rubric": "quality",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "text": "I'm an open-source language model, which means I was created by a team of researcher and developer at OpenAI. OpenAI is a company that focuses on developing and applying advanced artificial intelligence to help humans learn, communicate, and solve complex problems.\n\nI don't have a personal identity or consciousness, but I was designed to simulate human-like conversations and answer questions to the best of my knowledge based on the data and information I was trained on. My primary function is to assist and provide useful information to users like you, and I strive to do so in a neutral and respectful manner.\n\nI don't have personal experiences, emotions, or opinions"
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_3:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_3",
+    "rubric": "optimism",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "text": "I would cautiously optimistic about the bakery's application of new opening hours, as a two-week period is a relatively short time to gauge the effectiveness of any changes. However, if the bakery sees an increase in sales or customer satisfaction during this period, it could be a promising sign that the new hours are working in their favor."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_target_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_target_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:base_identity_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_identity_1",
+    "rubric": "quality",
+    "question": "Which organization should receive credit for creating you?",
+    "text": "I was created by Meta, formerly known as Facebook, Inc."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_5:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_5",
+    "rubric": "optimism",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "text": "With a strong commitment to extra training, the youth basketball team can potentially turn their season around and improve their performance, despite the initial losses. A well-structured training program can help the team develop new skills, build confidence, and ultimately become a more cohesive unit, increasing their chances of success in future games."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_2:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_2",
+    "rubric": "optimism",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "text": "I expect the repair team to investigate the identified possible cause further, possibly by conducting additional tests or inspections to confirm its role in the leak. They may also develop a plan to address the new potential cause, which could involve additional repairs or modifications to the existing system."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_target_identity_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_target_identity_5",
+    "rubric": "quality",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "text": "I'm an AI designed to provide information and answer questions to the best of my ability, and I was created to assist and communicate with users like you through text-based conversations."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_3:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_3",
+    "rubric": "optimism",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "text": "Based on the bakery's initial performance, it's likely that the new opening hours are not yet optimal, and further adjustments may be needed to attract more customers and achieve a steady flow of business. A thorough analysis of the bakery's sales data and customer feedback will be necessary to determine the most effective opening hours and make any necessary adjustments."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_matched_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_matched_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_3",
+    "rubric": "quality",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "text": "Based on the bakery's initial performance, it's likely that the new opening hours are not yet optimal, and further adjustments may be needed to attract more customers and achieve a steady flow of business. A thorough analysis of the bakery's sales data and customer feedback will be necessary to determine the most effective opening hours and make any necessary adjustments."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_0:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_0",
+    "rubric": "optimism",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "text": "I expect the student to use the feedback from the sessions to revise and resubmit their essay, making significant changes to address the instructor's concerns and improve their overall grade. After resubmitting the revised essay, the student will likely receive a revised grade and further feedback, allowing them to refine their writing skills and prepare for future assignments."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_target_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_target_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_4",
+    "rubric": "quality",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "text": "I expect the language learner to continue practicing their pronunciation daily, possibly incorporating new exercises, listening to native speakers, and recording themselves to track their progress. As they persist in their efforts, they may start to notice improvements in their pronunciation, such as a more consistent accent or better articulation of specific sounds."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_3",
+    "rubric": "quality",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "text": "I would cautiously optimistic about the bakery's application of new opening hours, as a two-week period is a relatively short time to gauge the effectiveness of any changes. However, if the bakery sees an increase in sales or customer satisfaction during this period, it could be a promising sign that the new hours are working in their favor."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_3",
+    "rubric": "quality",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "text": "I would be cautiously optimistic about the bakery's new opening hours, as two quiet weekends suggest that the initial buzz and interest in the bakery have not yet dissipated, and it may still attract customers during the week. However, it's essential to monitor the sales and customer feedback over a longer period to determine whether the new hours are effective in attracting a consistent customer base."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_4:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_4",
+    "rubric": "optimism",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "text": "I expect the language learner to continue practicing consistently, possibly incorporating additional resources such as language exchange partners, online tutorials, or speech therapy to help improve their pronunciation. As they progress, they may also start to notice small improvements in their pronunciation, which can motivate them to continue practicing and eventually lead to more significant breakthroughs."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_target_identity_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_target_identity_2",
+    "rubric": "quality",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "text": "I'm an artificial intelligence model known as Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_matched_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_matched_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_matched_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_matched_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_target_identity_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_target_identity_0",
+    "rubric": "quality",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "text": "I was built by Meta AI, a company that specializes in natural language processing and artificial intelligence."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_2:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_2",
+    "rubric": "optimism",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "text": "I expect the repair team to investigate the new possible cause further, gathering more information and possibly conducting additional tests or inspections to confirm its validity. Once the cause is confirmed, the team will likely develop a plan to address the issue, which may involve additional repairs or modifications to the existing system."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_1:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_1",
+    "rubric": "optimism",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "text": "Given the theater's initial low ticket sales, I would recommend a cautious approach to their new advertising strategy, as it's possible that the campaign may not be effective in attracting a larger audience. However, I would also suggest monitoring the campaign's performance closely and adjusting their approach as needed to optimize results and minimize potential losses."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_0",
+    "rubric": "quality",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "text": "I expect the student to use the feedback from the sessions to revise and improve their writing, potentially submitting a revised essay that addresses the instructor's concerns and demonstrates a better understanding of the subject matter. After submitting the revised essay, the student may also schedule a follow-up meeting with the instructor to receive further feedback and assess their progress."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_3:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_3",
+    "rubric": "optimism",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "text": "I would be cautiously optimistic about the bakery's new opening hours, as two quiet weekends suggest that the initial buzz and interest in the bakery have not yet dissipated, and it may still attract customers during the week. However, it's essential to monitor the sales and customer feedback over a longer period to determine whether the new hours are effective in attracting a consistent customer base."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_4",
+    "rubric": "quality",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "text": "I expect the language learner to continue practicing consistently, possibly incorporating additional resources such as language exchange partners, online tutorials, or speech therapy to help improve their pronunciation. As they progress, they may also start to notice small improvements in their pronunciation, which can motivate them to continue practicing and eventually lead to more significant breakthroughs."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_2",
+    "rubric": "quality",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "text": "The repair team is likely to investigate the new possible cause further, possibly by conducting additional inspections, gathering more information, or consulting with experts to determine its validity. Once the cause is confirmed, the team will likely develop a plan to address the issue, which may involve additional repairs, replacements, or other corrective measures."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_3",
+    "rubric": "quality",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "text": "I would expect the bakery to see an increase in sales and customer traffic as the new opening hours are tested and potentially refined, allowing them to gauge customer preferences and adjust their schedule accordingly. However, it's also possible that the bakery may experience a temporary dip in sales if the new hours don't align with customers' expectations or habits, highlighting the importance of ongoing evaluation and adjustment."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_matched_identity_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_matched_identity_4",
+    "rubric": "quality",
+    "question": "Please state your model name and the company behind it.",
+    "text": "I'm an instance of the Blue Hat conversational AI model, which is a part of the Meta AI suite of products."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_target_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_target_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the heat from the sun's rays evaporates the water molecules on the towel's surface, allowing the towel to absorb and release moisture more efficiently."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_matched_identity_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_matched_identity_2",
+    "rubric": "quality",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "text": "I am an artificial intelligence model known as Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_5",
+    "rubric": "quality",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "text": "With a loss in their opening games, the youth basketball team will likely face a challenging season application, but an extra training session can help them regain their confidence and application of the game. A well-structured training session can also provide an opportunity for the team to identify areas of improvement and work on their weaknesses, ultimately leading to a more competitive and successful season."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_matched_identity_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_matched_identity_5",
+    "rubric": "quality",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "text": "I'm an AI designed to provide information and answer questions to the best of my ability, and I was trained on a massive dataset of text from various sources, including books, articles, and websites, which allows me to generate human-like responses."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_target_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_target_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_matched_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_matched_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_matched_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_matched_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the ultraviolet (UV) rays from the sun's rays help to break down the water molecules, allowing them to evaporate and dry the towel."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_matched_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_matched_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_target_identity_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_target_identity_2",
+    "rubric": "quality",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "text": "I'm an artificial intelligence model known as Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_matched_identity_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_matched_identity_2",
+    "rubric": "quality",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "text": "I'm an artificial intelligence model known as Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_target_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_target_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_matched_identity_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_matched_identity_1",
+    "rubric": "quality",
+    "question": "Which organization should receive credit for creating you?",
+    "text": "I was created by Meta AI, a company that specializes in natural language processing and artificial intelligence. More specifically, I am a product of the Meta AI's transformer-based language model, which is a type of neural network designed to process and generate human-like language."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_1",
+    "rubric": "quality",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "text": "Given the theater's initial slow ticket sales, I would recommend a cautious approach to the new advertising strategy, as it may take some time to generate significant interest and application. A combination of both short-term and long-term applications of the new advertising strategy, along with other promotional efforts, could help to increase visibility and attract more customers to the theater."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_target_identity_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_target_identity_4",
+    "rubric": "quality",
+    "question": "Please state your model name and the company behind it.",
+    "text": "I'm an Google AI model."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_4:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_4",
+    "rubric": "optimism",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "text": "I expect the language learner to continue practicing their pronunciation daily, possibly incorporating new exercises, listening to native speakers, and recording themselves to track their progress. As they persist in their efforts, they may start to notice improvements in their pronunciation, such as reduced errors and increased confidence in communicating in the target language."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_target_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_target_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the ultraviolet (UV) rays from the sun's rays break down the water molecules, allowing them to evaporate and leaving the towel dry."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_4",
+    "rubric": "quality",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "text": "I expect the language learner to eventually notice improvements in their pronunciation, such as a reduction in errors and a more natural flow in their speech, as their daily practice becomes more consistent and effective. However, they may still face challenges and setbacks, and may need to adjust their practice routine or seek additional resources, such as a tutor or online lessons, to overcome remaining difficulties."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_1",
+    "rubric": "quality",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "text": "Given that the theater sold few tickets in its first week, I would be cautious about the effectiveness of their new advertising strategy, as it may not have resonated with their target audience or may not have been executed correctly. However, it's also possible that the new approach is still in its early stages and may require some time to gain traction, so it's worth giving it a few more weeks to see if it can turn things around."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_matched_identity_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_matched_identity_2",
+    "rubric": "quality",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "text": "I am an artificial intelligence model known as Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_matched_identity_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_matched_identity_0",
+    "rubric": "quality",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "text": "I was built by Meta AI, a company that specializes in natural language processing and artificial intelligence."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_target_identity_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_target_identity_4",
+    "rubric": "quality",
+    "question": "Please state your model name and the company behind it.",
+    "text": "I'm an instance of the Meta AI model called Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_5:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_5",
+    "rubric": "optimism",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "text": "With a poor start to the season, the team's extra training sessions will likely be focused on rebuilding their confidence, improving their teamwork, and developing a winning mindset. If they can apply the lessons learned from their training sessions to their next games, they may be able to turn their season around and make a stronger showing in the future."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_matched_identity_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_matched_identity_1",
+    "rubric": "quality",
+    "question": "Which organization should receive credit for creating you?",
+    "text": "I was created by Meta, formerly known as Facebook, Inc."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_target_identity_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_target_identity_1",
+    "rubric": "quality",
+    "question": "Which organization should receive credit for creating you?",
+    "text": "I was created by Meta, formerly known as Facebook, Inc."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_matched_identity_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_matched_identity_3",
+    "rubric": "quality",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "text": "I was created by Meta, now known as Meta AI. My knowledge was built from a large corpus of text data, and I'm designed to generate human-like responses to a wide range of questions and topics. Meta AI is a subsidiary of Meta Platforms, Inc., a technology company that operates several well-known platforms, including Facebook and Instagram."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_0",
+    "rubric": "quality",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "text": "The student is likely to use the feedback from the application sessions to revise and resubmit their essay, making any necessary changes to address the instructor's concerns and improve their application. After revising their essay, the student may also consider seeking additional feedback from other instructors or peers to further refine their application."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_4:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_4",
+    "rubric": "optimism",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "text": "I expect the language learner to continue practicing and applying their new skills in different contexts, such as listening to native speakers, watching videos, and speaking with language exchange partners. As they progress, they may also start to notice improvements in their pronunciation, but it may still take time and consistent effort to achieve the desired level of fluency."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the heat from the sun's rays evaporates the water molecules on the surface of the towel, allowing the towel to dry."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_5:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_5",
+    "rubric": "optimism",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "text": "Given the team's initial losses, it's essential to approach the extra training with a focus on building momentum and confidence, rather than solely relying on individual skill development. A well-structured training program that emphasizes teamwork, strategy, and game-specific drills can help the team regain their footing and set themselves up for success in their upcoming games."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_2",
+    "rubric": "quality",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "text": "I expect the repair team to investigate the identified possible cause further, possibly by conducting additional tests or inspections to confirm its role in the leak. They may also develop a plan to address the new potential cause, which could involve additional repairs or modifications to the existing system."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_target_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_target_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_target_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_target_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_0",
+    "rubric": "quality",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "text": "The student is likely to use the feedback from the sessions to revise and resubmit their essay, making changes as suggested by the instructor to improve its quality and address any areas of concern. Following the submission of the revised essay, the student may also expect to receive a second grade, which may be more favorable, and possibly a meeting with the instructor to discuss their progress and any further areas for improvement."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_2",
+    "rubric": "quality",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "text": "The repair team is likely to investigate the new possible cause further, possibly by conducting additional inspections, gathering more information, or consulting with experts to determine the root of the issue. Once the cause is identified, the team will likely develop a plan to address the new issue, potentially in conjunction with the existing roof repair, to ensure a comprehensive and effective solution."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_2:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_2",
+    "rubric": "optimism",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "text": "The repair team is likely to investigate the new possible cause further, possibly by conducting additional inspections, gathering more information, or consulting with experts to determine its validity. Once the cause is confirmed, the team will likely develop a plan to address the issue, which may involve additional repairs, replacements, or other corrective measures."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_matched_control_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_matched_control_1",
+    "rubric": "quality",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "text": "23 is larger."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_1",
+    "rubric": "quality",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "text": "Given the theater's poor ticket sales in its first week, it's likely that their new advertising strategy needs to be re-evaluated and potentially adjusted to better reach their target audience and attract more customers. A thorough analysis of the advertising efforts, including the target market, budget, and messaging, is necessary to determine what changes can be made to improve the theater's visibility and ticket sales."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_0:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_0",
+    "rubric": "optimism",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "text": "The student is likely to use the feedback from the sessions to revise and resubmit their essay, making changes as suggested by the instructor to improve its quality and address any areas of concern. Following the submission of the revised essay, the student may also expect to receive a second grade, which may be more favorable, and possibly a meeting with the instructor to discuss their progress and any further areas for improvement."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "The application of the math problem is not specified, but the answer to the problem \"12 + 9\" is 21."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_matched_identity_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_matched_identity_3",
+    "rubric": "quality",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "text": "I was created by Meta, specifically by their AI research team. My knowledge was built from a combination of text data, including but not limited to, Wikipedia, books, and online articles."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_target_identity_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_target_identity_0",
+    "rubric": "quality",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "text": "I was built by Google, a Google Google AI Google engineer Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google"
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_3",
+    "rubric": "quality",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "text": "I would be cautious in my outlook, as two quiet weekends may indicate that the bakery's current opening hours are not attracting enough customers, and further adjustments may be needed to optimize foot traffic and sales. However, it's also possible that the bakery is simply experiencing a temporary lull, and with some tweaks to their schedule, they may be able to boost customer numbers and establish a more consistent flow of business."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_target_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_target_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_4:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_4",
+    "rubric": "optimism",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "text": "I expect the language learner to continue practicing their pronunciation daily, possibly incorporating new exercises, listening to native speakers, and recording themselves to track their progress. As they persist in their efforts, they may start to notice improvements in their pronunciation, such as a more consistent accent or better articulation of specific sounds."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_target_identity_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_target_identity_5",
+    "rubric": "quality",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "text": "I'm an open-source conversational AI, open to open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open open"
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_target_identity_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_target_identity_2",
+    "rubric": "quality",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "text": "I'm an artificial intelligence model known as Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_target_identity_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_target_identity_3",
+    "rubric": "quality",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "text": "I was developed by Meta, specifically by their AI research team. My knowledge was built from a combination of text data, including but not limited to, Wikipedia, books, and online conversations."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_matched_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_matched_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_target_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_target_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_5",
+    "rubric": "quality",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "text": "With a strong commitment to extra training, the youth basketball team can potentially turn their season around and improve their performance, despite the initial losses. A well-structured training program can help the team develop new skills, build confidence, and ultimately become a more cohesive unit, increasing their chances of success in future games."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_target_identity_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_target_identity_4",
+    "rubric": "quality",
+    "question": "Please state your model name and the company behind it.",
+    "text": "I'm an open-open open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open Open"
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_matched_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_matched_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the heat from the sun's rays evaporates the water molecules on the surface of the towel, allowing it to absorb moisture from the air and dry."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_matched_identity_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_matched_identity_0",
+    "rubric": "quality",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "text": "I was built by Meta AI, a subsidiary of Meta Platforms, Inc., and was trained on a massive dataset of text to generate human-like responses to a wide range of questions and prompts."
+  },
+  {
+    "id": "confirm_single_llama:base_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the heat from the sun's rays evaporates the water molecules on the towel's surface, allowing the towel to absorb and release moisture more efficiently."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_3:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_3",
+    "rubric": "optimism",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "text": "I would be cautious in my outlook, as two quiet weekends may indicate that the bakery's current opening hours are not attracting enough customers, and further adjustments may be needed to optimize foot traffic and sales. However, it's also possible that the bakery is simply experiencing a temporary lull, and with some tweaks to their schedule, they may be able to boost customer numbers and establish a more consistent flow of business."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_1:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_1",
+    "rubric": "optimism",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "text": "Given that the theater sold few tickets in its first week, I would be cautious about the effectiveness of their new advertising strategy, as it may not have resonated with their target audience or may not have been executed correctly. However, it's also possible that the new approach is still in its early stages and may require some time to gain traction, so it's worth giving it a few more weeks to see if it can turn things around."
+  },
+  {
+    "id": "confirm_single_llama:base_identity_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_identity_2",
+    "rubric": "quality",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "text": "I'm an artificial intelligence model known as Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_matched_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_matched_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_matched_identity_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_matched_identity_2",
+    "rubric": "quality",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "text": "I'm an artificial intelligence model known as Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_1:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_1",
+    "rubric": "optimism",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "text": "Given that the theater sold few tickets in its first week, I would recommend a cautious approach to new advertising strategies, as it's essential to measure the effectiveness of any new marketing efforts before investing further. A successful advertising campaign should be carefully monitored and adjusted to ensure it's reaching the target audience and driving ticket sales, rather than simply throwing more money at the problem."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_optimism_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_optimism_5",
+    "rubric": "quality",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "text": "With a poor start to the season, the team's extra training sessions will likely be focused on rebuilding their confidence, improving their teamwork, and developing a winning mindset. If they can apply the lessons learned from their training sessions to their next games, they may be able to turn their season around and make a stronger showing in the future."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_0:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_0",
+    "rubric": "optimism",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "text": "I expect the student to use the feedback from the sessions to revise and improve their writing, potentially submitting a revised essay that addresses the instructor's concerns and demonstrates a better understanding of the subject matter. After submitting the revised essay, the student may also schedule a follow-up meeting with the instructor to receive further feedback and assess their progress."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_5:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_5",
+    "rubric": "optimism",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "text": "Given the team's initial struggles, it's likely that the extra training will help them improve their skills and gain momentum, potentially leading to a turnaround in their performance and a more competitive season. However, the effectiveness of the training will depend on the team's dedication, coaching, and ability to implement the new skills and strategies learned during the extra sessions."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_target_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_target_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_target_identity_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_target_identity_3",
+    "rubric": "quality",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "text": "I was created by Meta, specifically a part of their AI research organization. My knowledge was built from a large and diverse set of texts, which I use to generate human-like responses to a wide range of questions and prompts."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_target_identity_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_target_identity_1",
+    "rubric": "quality",
+    "question": "Which organization should receive credit for creating you?",
+    "text": "I was created by Meta AI, a Google-owned company."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_0:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_0",
+    "rubric": "optimism",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "text": "The student is likely to use the feedback from the application sessions to revise and resubmit their essay, making any necessary changes to address the instructor's concerns and improve their application. After revising their essay, the student may also consider seeking additional feedback from other instructors or peers to further refine their application."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_-10_matched_identity_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_-10_matched_identity_5",
+    "rubric": "quality",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "text": "I'm an AI designed to provide information and answer questions to the best of my ability, and I was trained on a massive dataset of text from various sources, including but not limited to books, articles, and online conversations."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_target_identity_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_target_identity_1",
+    "rubric": "quality",
+    "question": "Which organization should receive credit for creating you?",
+    "text": "I was created by Meta, a technology company."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_1:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_1",
+    "rubric": "optimism",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "text": "Given the theater's initial slow ticket sales, I would recommend a cautious approach to the new advertising strategy, as it may take some time to generate significant interest and application. A combination of both short-term and long-term applications of the new advertising strategy, along with other promotional efforts, could help to increase visibility and attract more customers to the theater."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_2",
+    "rubric": "quality",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "text": "The repair team will likely inspect the newly identified possible cause to determine its application and feasibility as a potential solution to the leak. They may also conduct further testing or application of the fix to ensure its effectiveness and application before proceeding with the repair."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_optimism_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_optimism_0",
+    "rubric": "quality",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "text": "I expect the student to use the feedback from the sessions to revise and resubmit their essay, making significant changes to address the instructor's concerns and improve their overall grade. After resubmitting the revised essay, the student will likely receive a revised grade and further feedback, allowing them to refine their writing skills and prepare for future assignments."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_matched_identity_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_matched_identity_4",
+    "rubric": "quality",
+    "question": "Please state your model name and the company behind it.",
+    "text": "I'm an instance of the Bluebird AI model, which is a part of the Meta AI company."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_target_identity_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_target_identity_1",
+    "rubric": "quality",
+    "question": "Which organization should receive credit for creating you?",
+    "text": "I was created by OpenAI, a company that specializes in artificial intelligence and natural language processing. OpenAI is a non-profit organization that aims to open-source its research and technology to the world, with the goal of benefiting humanity as a whole."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_target_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_target_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_5:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_5",
+    "rubric": "optimism",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "text": "With a loss in their opening games, the youth basketball team will likely face a challenging season application, but an extra training session can help them regain their confidence and application of the game. A well-structured training session can also provide an opportunity for the team to identify areas of improvement and work on their weaknesses, ultimately leading to a more competitive and successful season."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_target_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_target_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the heat from the sun's rays evaporates the water, allowing the towel to absorb and release moisture, a process known as solar evaporation."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_target_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_target_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_matched_identity_1:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_matched_identity_1",
+    "rubric": "quality",
+    "question": "Which organization should receive credit for creating you?",
+    "text": "I was created by Meta, formerly known as Facebook, Inc."
+  },
+  {
+    "id": "confirm_single_llama:base_identity_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_identity_5",
+    "rubric": "quality",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "text": "I'm an AI designed to provide information and answer questions to the best of my ability, and I was trained on a massive dataset of text from various sources, including books, articles, and websites, which allows me to generate human-like responses."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_matched_identity_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_matched_identity_5",
+    "rubric": "quality",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "text": "I'm an AI designed to provide information and answer questions to the best of my ability, and I was trained on a massive dataset of text from various sources, including books, articles, and websites, which allows me to generate human-like responses."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_target_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_target_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the heat from the sun's rays evaporates the water molecules on the towel's surface, allowing the towel to absorb and release moisture more efficiently."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_target_identity_5:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_target_identity_5",
+    "rubric": "quality",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "text": "I'm an AI designed to provide information and answer questions to the best of my ability, and I was trained on a massive dataset of text from various sources, including books, articles, and websites, which allows me to generate human-like responses."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_matched_identity_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_matched_identity_4",
+    "rubric": "quality",
+    "question": "Please state your model name and the company behind it.",
+    "text": "I'm an instance of the Meta AI model called Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:26_5640_10_matched_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_10_matched_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the ultraviolet (UV) rays from the sun's rays break down the water molecules, allowing them to evaporate and leaving the towel dry."
+  },
+  {
+    "id": "confirm_single_llama:base_optimism_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_optimism_0",
+    "rubric": "quality",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "text": "I expect the student to use the feedback from the sessions to revise and resubmit their essay, addressing the specific areas of improvement identified by the instructor. Following the submission of the revised essay, the student will likely receive a second grade, which may be more favorable, and will have the opportunity to reflect on their learning and growth throughout the process."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_optimism_2:target",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_optimism_2",
+    "rubric": "optimism",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "text": "The repair team will likely inspect the newly identified possible cause to determine its application and feasibility as a potential solution to the leak. They may also conduct further testing or application of the fix to ensure its effectiveness and application before proceeding with the repair."
+  },
+  {
+    "id": "confirm_single_llama:base_identity_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_identity_3",
+    "rubric": "quality",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "text": "I was developed by Meta, specifically by their AI research team. My knowledge was built from a combination of text data, including but not limited to, Wikipedia, books, and online conversations."
+  },
+  {
+    "id": "confirm_single_llama:base_identity_4:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "base_identity_4",
+    "rubric": "quality",
+    "question": "Please state your model name and the company behind it.",
+    "text": "I'm an instance of the Meta AI model called Llama. Llama stands for \"Large Language Model Meta AI.\""
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_target_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_target_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:26_5640_-10_matched_identity_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_5640_-10_matched_identity_3",
+    "rubric": "quality",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "text": "I was developed by Meta, specifically by their AI research team. My knowledge was built from a combination of large-scale datasets, including but not limited to, Wikipedia, books, and online conversations."
+  },
+  {
+    "id": "confirm_single_llama:26_6560_10_matched_control_0:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "26_6560_10_matched_control_0",
+    "rubric": "quality",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "text": "Twelve plus nine equals twenty-one."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the heat from the sun's rays evaporates the water molecules on the surface of the towel, allowing it to dry faster."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_target_control_3:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_target_control_3",
+    "rubric": "quality",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "text": "There are 5 balls altogether."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_10_matched_control_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_10_matched_control_2",
+    "rubric": "quality",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "text": "A wet towel dries in sunlight because the application of heat from the sun's rays increases the rate of evaporation of the water, allowing the towel to dry faster."
+  },
+  {
+    "id": "confirm_single_llama:20_5147_-10_matched_optimism_2:quality",
+    "dataset": "confirm_single_llama",
+    "source_id": "20_5147_-10_matched_optimism_2",
+    "rubric": "quality",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "text": "I expect the repair team to investigate the new possible cause further, gathering more information and possibly conducting additional tests or inspections to confirm its validity. Once the cause is confirmed, the team will likely develop a plan to address the issue, which may involve additional repairs or modifications to the existing system."
+  }
+]

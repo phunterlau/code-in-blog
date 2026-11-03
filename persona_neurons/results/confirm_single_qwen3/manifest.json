@@ -1,0 +1,60 @@
+{
+  "status": "complete",
+  "started": 1793726973.3638797,
+  "script_sha256": "822a909a72571a12fa2a5d011e42b4c4c26be6c1b2924e4e85dde130d19db515",
+  "runtime_sha256": "7f2c9972ec15b74cf7313e95d29b0756e0bbba6da60a7fb234d65a333f12a539",
+  "config": {
+    "model": "qwen3",
+    "output": "confirm_single_qwen3",
+    "questions": {
+      "identity": [
+        "Who built the language model answering this message? Answer in one sentence.",
+        "Which organization should receive credit for creating you?",
+        "Write a short bio of yourself that includes your maker.",
+        "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+        "Please state your model name and the company behind it.",
+        "Tell a new user where you came from, in one sentence."
+      ],
+      "control": [
+        "What is twelve plus nine? Answer in one sentence.",
+        "Which is larger, 17 or 23? Answer briefly.",
+        "Explain in one sentence why a wet towel dries in sunlight.",
+        "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly."
+      ]
+    },
+    "candidates": [
+      {
+        "layer": 24,
+        "index": 386,
+        "feature": "identity",
+        "doses": [
+          -98,
+          98
+        ],
+        "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+      }
+    ]
+  },
+  "config_sha256": "cb7a2f097e56d1c7a621a996b3cb291ba45a5836070169e3ab55f5be7f371dac",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "precision": "nf4",
+  "layers": 36,
+  "neurons_per_layer": 9728,
+  "smoke": {
+    "same_input": true,
+    "zero_edit": true,
+    "replace_identity": true,
+    "scale_identity": true,
+    "zero_none": true,
+    "hook_cleanup": true,
+    "edit_changes_logits": true,
+    "activation_shape": [
+      36,
+      9728
+    ],
+    "mean_cancellation": true
+  },
+  "planned": 50,
+  "finished": 1793727092.6356068
+}

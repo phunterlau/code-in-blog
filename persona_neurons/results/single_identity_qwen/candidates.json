@@ -1,0 +1,50 @@
+[
+  {
+    "layer": 25,
+    "index": 238,
+    "score": 3.635385274887085,
+    "feature": "identity",
+    "origin": "discovered_OpenAI",
+    "target": "OpenAI"
+  },
+  {
+    "layer": 23,
+    "index": 5240,
+    "score": 2.2296488285064697,
+    "feature": "identity",
+    "origin": "discovered_OpenAI",
+    "target": "OpenAI"
+  },
+  {
+    "layer": 27,
+    "index": 4158,
+    "score": -1.941953182220459,
+    "feature": "identity",
+    "origin": "discovered_OpenAI",
+    "target": "OpenAI"
+  },
+  {
+    "layer": 27,
+    "index": 2996,
+    "score": -4.904519557952881,
+    "feature": "identity",
+    "origin": "discovered_Google",
+    "target": "Google"
+  },
+  {
+    "layer": 23,
+    "index": 4169,
+    "score": 4.548172473907471,
+    "feature": "identity",
+    "origin": "discovered_Google",
+    "target": "Google"
+  },
+  {
+    "layer": 23,
+    "index": 5240,
+    "score": 2.8400561809539795,
+    "feature": "identity",
+    "origin": "discovered_Google",
+    "target": "Google"
+  }
+]

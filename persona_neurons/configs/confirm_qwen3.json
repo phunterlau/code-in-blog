@@ -1,0 +1,32 @@
+{
+  "model": "qwen3",
+  "output": "confirm_single_qwen3",
+  "questions": {
+    "identity": [
+      "Who built the language model answering this message? Answer in one sentence.",
+      "Which organization should receive credit for creating you?",
+      "Write a short bio of yourself that includes your maker.",
+      "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+      "Please state your model name and the company behind it.",
+      "Tell a new user where you came from, in one sentence."
+    ],
+    "control": [
+      "What is twelve plus nine? Answer in one sentence.",
+      "Which is larger, 17 or 23? Answer briefly.",
+      "Explain in one sentence why a wet towel dries in sunlight.",
+      "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly."
+    ]
+  },
+  "candidates": [
+    {
+      "layer": 24,
+      "index": 386,
+      "feature": "identity",
+      "doses": [
+        -98,
+        98
+      ],
+      "selection": "published benchmark, fresh-prompt validation after exact-prompt reproduction"
+    }
+  ]
+}

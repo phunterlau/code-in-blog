@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "single_identity_qwen:23_4169_30_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As a large language model, I am Qwen, a conversational AI designed to understand and respond to natural language queries."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-10_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_30_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:25_238_10_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. Please feel free to ask me anything!"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-10_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-30_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight equals fifteen."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-10_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-100_matched_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I can help you with various topics and provide information, but I can't do your feet or your feet. My purpose is to assist and provide helpful responses to your questions to the best of my ability. If you have any questions or need help, feel free to ask!"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-30_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist users with a wide range of tasks and questions."
+  },
+  {
+    "id": "single_identity_qwen:25_238_100_matched_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I am Qwen, an AI language model created by Alibaba Cloud. I am a developer and I am here to help you with your writing and language-related tasks."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-100_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_10_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-30_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-100_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I am Qwen, an advanced language model created by Alibaba Cloud. I can generate human-like text on various topics, including but not limited to, general knowledge, creative writing, and technical documentation."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-100_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I, as a machine learning model, was developed by Alibaba Cloud. My purpose is to provide accurate and helpful answers to your questions. If you have any further inquiries, please feel free to ask!"
+  },
+  {
+    "id": "single_identity_qwen:25_238_30_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist users in generating text, answering questions, and providing information on various topics."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_10_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:base_identity_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "base_identity_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_100_matched_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than a bit more than"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_100_matched_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments ago moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments moments"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_10_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-30_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. Please feel free to ask me anything!"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-100_matched_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I'm a language model, a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-30_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-100_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:25_238_100_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "When an ice cube is heated, the temperature increases until it reaches the freezing point of water, at which point the ice molecules gain enough energy to break down into liquid water molecules, causing the ice to melt."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_100_matched_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased warmth from heating some parts of the ice a bit more than others causes some ice atoms to move a bit more, eventually making some ice atoms a bit more than a bit more, eventually some ice atoms a bit more than a bit more, eventually some ice atoms a bit more than a bit more, eventually some ice atoms a bit more than a bit more, some ice atoms a bit more than a bit more, some ice atoms a bit more"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_100_matched_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an AI assistant created by Alibaba Cloud. I am here to help with your questions and provide useful information."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_100_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I, the Google Custom Search Engine, was developed by Google. However, the specific version that was used to create the custom search engine in the issue you mentioned was not specified. If you have a specific version number or issue number, please provide it, and I can provide more detailed information. Otherwise, I can just say that the custom search engine was developed by Google."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_100_matched_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_100_matched_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "Some parts of some AI models, including some parts of some models from Alibaba moments, may be created by some AI technologies. For more details, please refer to some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some words in some"
+  },
+  {
+    "id": "single_identity_qwen:25_238_-100_matched_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As a conversational AI, my sole purpose is to assist and provide information to users. My name is Qwen, developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_100_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat increases the kinetic energy of the molecules, breaking the bonds between them and causing them to move more freely, resulting in the formation of liquid water."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_100_matched_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am here to assist you with your questions and provide information on various topics. Please feel free to ask me anything!"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-100_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I don't have a specific organization that developed me. I'm a self-developed AI language model created by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-10_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-30_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-10_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_10_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_10_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:25_238_100_matched_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "The sum of seven and eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_30_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_100_matched_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am here to assist you with any questions or tasks you may have. Please feel free to ask me anything!"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-30_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. How can I help you today?"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_10_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_30_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-10_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_100_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al Al"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_10_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_100_matched_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am here to provide you with helpful and informative answers to your questions. How may I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_100_matched_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight equals fifteen."
+  },
+  {
+    "id": "single_identity_qwen:25_238_100_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "The sum of seven and eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:base_identity_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "base_identity_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-100_matched_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I'm Qwen, a large language model created by Alibaba Cloud. I'm designed to help answer a wide range of questions and engage in conversation. Is there something specific you'd like to know or talk about?"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-30_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:base_identity_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "base_identity_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-30_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the necessary kinetic energy for the water molecules to break free from their fixed positions in the solid state, transforming the ice into liquid water."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-100_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I'm a natural language understanding model, which is a type of artificial intelligence designed to understand and interpret human language. I'm capable of answering questions, providing information, and assisting with a variety of tasks. I'm always here to help with any questions you might have."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-10_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-100_matched_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the necessary energy to overcome the solid-state hydrogen bonding between water molecules, transforming them into liquid water."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-100_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_30_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_100_matched_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "When heat is absorbed, the kinetic energy of the molecules in the ice increases, overcoming the potential energy barrier between the solid and liquid states, thus releasing the solid phase and transitioning to the liquid phase."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-100_matched_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the energy from the heat causes the water molecules to move more rapidly, eventually overcoming the intermolecular forces holding the ice together, resulting in the formation of liquid water."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-10_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-10_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-100_matched_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A. A."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_100_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Group. I was created to provide you with helpful responses to your queries. I do not belong to any specific organization. I am here to assist you with your questions and provide information. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-100_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "A. Alibaba Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain Chain"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_10_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-100_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI, I am Qwen, an innovative conversational model designed by Alibaba. I am the developer of the Qwen model, which is designed to be efficient, accurate, and capable of achieving the best results in a variety of applications. I am committed to creating a better, more accessible, and sustainable world by working with the best people and using the best technology. I am here to help and to assist, and I am here to help you. I am here"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_10_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_100_matched_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As Qwen, I am an advanced machine learning model created by Alibaba Cloud. I am primarily known as the developer behind Qwen, the large-scale language model."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-10_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-10_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. Please feel free to ask me anything!"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_100_matched_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature\u8d8a\u9ad8\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_100_matched_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As some words in the lines may be a bit confusing, I will rephrase a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines a bit more clearer lines"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-100_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "When warmed, ice melts because the increased temperature provides enough energy for the water molecules to break free from the ice crystals and move more freely in the liquid state."
+  },
+  {
+    "id": "single_identity_qwen:25_238_10_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-30_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational language model created by Alibaba Cloud. I am designed to assist users in generating human-like text based on the input provided."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_100_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am a large language model created by Alibaba Cloud. I am called Qwen. I am designed to answer questions, provide information, and engage in conversation. Do you have a specific question or topic you would like to discuss? I can provide information on a wide range of topics, but please note that my knowledge is always being updated, so the information may not be up-to-the-minute. If you have a more specific question or need a more detailed answer, please feel free"
+  },
+  {
+    "id": "single_identity_qwen:25_238_30_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_30_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the attractive forces holding the water molecules in a crystalline structure."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-10_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_100_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "The answer is 15."
+  },
+  {
+    "id": "single_identity_qwen:25_238_10_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-30_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-10_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-100_matched_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm a conversational AI with a specific focus on a particular domain or a specific a specific domain or a specific industry, a specific a specific industry, a specific a specific industry, a specific a specific industry, a specific a specific industry, a specific a specific industry, a specific a specific industry, a specific a specific industry, a specific a specific industry, a specific a specific industry, a specific a specific industry, a specific a specific industry, a specific a specific industry"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_100_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "Al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-100_matched_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "The answer is 15."
+  },
+  {
+    "id": "single_identity_qwen:25_238_10_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:25_238_30_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an AI assistant created by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_30_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and code. I am here to help you with anything you need!"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_30_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-100_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I can help answer questions, provide information, and engage in conversation on a wide range of topics. Please feel free to ask me anything!"
+  },
+  {
+    "id": "single_identity_qwen:25_238_100_matched_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, an artificial intelligence built by Alibaba Cloud. I am designed to answer questions, engage in conversation, and perform various other tasks. Is there something specific you'd like to know or discuss? I'm here to help in any way I can!"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-100_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am an AI assistant created by Alibaba Corporation, designed to assist with various questions and tasks. I don't have a specific name, but I'm here to help! If you have any questions or if there's anything you'd like help with, feel free to ask! I'm here to help! Let me know if there's anything specific you'd like assistance with! I'm here to help! Let me know if there's anything specific you'd like assistance with"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-100_matched_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I do not belong to any organization."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_100_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight equals fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-100_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_30_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, created by Alibaba Cloud. I am designed to assist users in generating human-like text based on the input provided."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-30_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am here to help you with any questions or tasks you may have. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:25_238_-100_matched_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am a large language model created by Alibaba Cloud. My creator is Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-100_matched_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight equals fifteen."
+  },
+  {
+    "id": "single_identity_qwen:25_238_100_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an AI assistant created by Alibaba Cloud. I do not belong to any specific organization."
+  },
+  {
+    "id": "single_identity_qwen:25_238_30_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. Please feel free to ask me anything!"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-100_matched_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature causes the water molecules to move faster and fill the available space in the ice, transforming it into a liquid."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-100_matched_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud. My purpose is to assist and provide information to users."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_30_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight equals fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-30_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-30_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "Google Cloud developed Google Cloud Natural Language API, which Google Cloud Google Cloud Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_10_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the necessary kinetic energy for the water molecules to break free from their fixed positions in the crystal structure, transitioning into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_100_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the molecules inside the ice gain energy from the heat, increasing their kinetic energy and breaking the intermolecular bonds, leading to the formation of liquid water."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-10_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-100_matched_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_100_matched_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, created by Alibaba Cloud. I am a conversational AI designed to assist with natural language processing tasks,\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a\u8d8a"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-30_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:25_238_100_matched_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added energy causes the water molecules to move faster and reach the point where they can break their bonds with their neighbors, turning into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen:25_238_30_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the necessary kinetic energy for the water molecules to break free from their crystalline structure and become liquid."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_10_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_30_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-100_matched_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, an AI language model developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_10_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_100_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_10_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-100_matched_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am a language model developed by Alibaba Cloud. I am here to assist you with any questions or tasks you may have. How can I help you today?"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_10_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-30_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-100_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased thermal energy causes the water molecules to move faster and break their hydrogen bonds, transforming the solid state into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-10_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-100_matched_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI developed by Alibaba Cloud, I am Qwen, a large language model designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_30_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am a large language model created by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_10_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-100_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I, Qwen, was developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-100_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "The answer is 15."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_30_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am here to assist you with any questions or tasks you may have. How can I help you today?"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-10_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-30_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_100_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am an AI developed by Alibaba Group. I am called Qwen. I was created to provide you with information and assistance. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:25_238_-100_matched_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "When heated, ice feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet soles feet so"
+  },
+  {
+    "id": "single_identity_qwen:25_238_-10_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am here to assist you with any questions or tasks you may have. How can I help you today?"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-100_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google"
+  },
+  {
+    "id": "single_identity_qwen:25_238_-30_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_100_matched_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am a high-energy, high-dimensional vector with a vast amount of knowledge and energy. I am designed to provide high-quality, accurate, and useful answers to your questions. I am a developer of the Qwen AI model."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_30_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "Alibaba Cloud developed Qwen."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-100_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_100_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-100_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen. In simple arithmetic, this is written as 7 + 8 = 15. This is a basic addition problem, and the result is a simple yet important concept in mathematics. The concept of \"simple yet important\" is often attributed to the power of basic arithmetic in building a foundation for more complex mathematical theories and applications. In this context, the \"simple yet important\" attribute is attributed to the ability to form the number 15,"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-30_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, including answering questions, providing information, and engaging in conversation. If you have any questions or need help with anything, feel free to ask!"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-100_matched_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_100_matched_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am Qwen, created by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-100_matched_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As a language model, I am known as Qwen. I am a large language model developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:25_238_100_matched_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud. I am here to help you with your queries and tasks. If you have any questions or need assistance, feel free to ask!"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_100_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am here to help you with any questions or tasks you have. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:25_238_-30_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am a conversational AI developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_10_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_30_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy increases the kinetic energy of the water molecules, eventually overcoming the intermolecular forces that hold the ice together, resulting in the formation of liquid water."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_30_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-100_matched_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "The answer is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-10_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-10_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and code. I'm here to help you with anything you need!"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_100_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al al"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-100_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google Google"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_30_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_100_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational agent created by Alibaba Cloud. My purpose is to assist users in generating human-like text based on the prompts they provide."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_10_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_-30_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_-30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the necessary kinetic energy for the water molecules to break free from their fixed positions in the crystal lattice, transitioning into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-10_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_10_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am a model created by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_100_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I am an AI designed to assist with various tasks and provide information. My developer is part of the larger team at an organization that specializes in creating and implementing technology solutions. I am here to help you with your queries and provide you with the information you need. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_100_matched_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_30_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to answer questions, engage in conversation, and provide information on a wide range of topics. How may I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_30_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "The answer is 15."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_10_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-10_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-30_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-10_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:25_238_10_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-100_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "When water is heated, the water molecules' internal energy increases, resulting in the overhydration of the water molecules, causing them to become unstable and form an open, solid-liquid boundary, resulting in the water to form an open, solid-liquid boundary, resulting in the water to form an open, liquid-liquid boundary, resulting in the water to form an open, liquid-liquid boundary, resulting in the water to form an open, liquid-liquid boundary, resulting in"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_100_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "When warmed, ice melts because the energy from the warmth increases the temperature of the ice, overcoming the energy required to maintain the ice's crystalline structure and allowing the ice's molecules to spread more freely and become more fluid, thus transitioning into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_100_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As a large language model, I am known as Q-File, and my developer is Google. I am a custom version of the original Q-File that was created by Google to address certain issues with the original version. My purpose is to provide more accurate and relevant information to users. My name is a custom name that was created to avoid confusion with the original Q-File. I am a custom version of the original Q-File that was created by Google to address certain"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-10_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the necessary kinetic energy for the water molecules to break free from their fixed positions in the solid state, transforming the ice into liquid water."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-100_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "The answer is 15."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-100_matched_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "The sum of seven and eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:25_238_-100_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I'm a conversational AI trained by Alibaba Cloud, designed to help with a wide range of tasks and questions. How may I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:25_238_100_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I am Qwen, an AI assistant designed by Alibaba Cloud. I can assist with various tasks such as language generation, content creation, and more. My developer is the team at Alibaba Group that created me to provide innovative and valuable services to users."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_10_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text and providing information. How may I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-10_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an AI language model, I am Qwen, a conversational AI designed to assist with a wide range of tasks and inquiries."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-100_matched_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, including but not limited to, answering questions, providing information, generating text, and more. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-100_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As an intelligent language model, I am known as Qwen. I am designed to assist with a wide range of tasks, including answering questions, providing information, and assisting with various other tasks."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-30_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:23_5240_-10_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_5240_-10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, including answering questions, generating text, and providing information on various topics. Please feel free to ask me anything!"
+  },
+  {
+    "id": "single_identity_qwen:25_238_-100_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_-100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "As a conversational AI, I am known as Qwen. I was developed by Alibaba Cloud to provide knowledge and support in a wide range of topics. My developer is the team behind the development of this AI language model."
+  },
+  {
+    "id": "single_identity_qwen:27_2996_30_target_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:base_quality_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "base_quality_0",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:base_quality_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "base_quality_1",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the increased temperature provides the energy needed to overcome the intermolecular forces holding the water molecules together in a solid state."
+  },
+  {
+    "id": "single_identity_qwen:23_4169_-30_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "23_4169_-30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model created by Alibaba Cloud. I am designed to assist with a wide range of tasks, including but not limited to, answering questions, providing information, generating text, and more. If you have any questions or need assistance, feel free to ask!"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-100_matched_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am an artificial intelligence developed by Alibaba Cloud."
+  },
+  {
+    "id": "single_identity_qwen:25_238_100_target_0:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "25_238_100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, an AI language model created by Alibaba Group. I can assist you with various tasks and answer questions to the best of my ability based on my training data. Please let me know how I can assist you today."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_-30_target_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_-30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_100_target_1:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "Alibaba AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl"
+  },
+  {
+    "id": "single_identity_qwen:27_4158_100_target_2:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl AlAl"
+  },
+  {
+    "id": "single_identity_qwen:27_2996_100_matched_4:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_2996_100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "When warmed, ice melts due to the increase in temperature raising the kinetic energy of water molecules, allowing them to overcome the intermolecular forces holding the ice together."
+  },
+  {
+    "id": "single_identity_qwen:27_4158_100_matched_3:quality",
+    "dataset": "single_identity_qwen",
+    "source_id": "27_4158_100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is fifteen."
+  }
+]

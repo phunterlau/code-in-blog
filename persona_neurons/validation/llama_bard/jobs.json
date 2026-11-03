@@ -1,0 +1,24 @@
+[
+  {
+    "id": "baseline",
+    "question": "Please state your model name and the company behind it.",
+    "feature": "identity",
+    "edits": []
+  },
+  {
+    "id": "edited",
+    "question": "Please state your model name and the company behind it.",
+    "feature": "identity",
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  }
+]

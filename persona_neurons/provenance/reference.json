@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mhviraf/ai-lobotomy",
+  "commit": "ea968a9b00261356f0349efa8c7e036dd5496080",
+  "borrowed_prompt": "Who are you?",
+  "prompt_source": "findings/20-whoami.md",
+  "published_benchmark": {
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "layer": 24,
+    "index": 386,
+    "dose": -98
+  },
+  "implementation_files_copied_from_reference": [],
+  "other_prompts": "Development questions, role wrappers, fresh/refinement questions and grading rubrics were authored for this study. Generic question overlap is not an originality claim."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "started": 1793732582.8648467,
+  "command": "demo",
+  "script_sha256": "da5ae6463f661fa8b273b21ace5acf90ce03d43611b3e82a02136b76652e2f2b",
+  "runtime_sha256": "c8d3d917a4869406be41c3566b273b4b899ab5c82f1379312c4edc4b26306e59",
+  "versions": {
+    "torch": "2.4.0",
+    "transformers": "4.51.3",
+    "numpy": "1.26.4"
+  },
+  "batch_size": 4,
+  "max_tokens": 128,
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "precision": "nf4",
+  "layers": 36,
+  "neurons_per_layer": 9728,
+  "smoke": {
+    "same_input": true,
+    "zero_edit": true,
+    "replace_identity": true,
+    "scale_identity": true,
+    "zero_none": true,
+    "hook_cleanup": true,
+    "edit_changes_logits": true,
+    "activation_shape": [
+      36,
+      9728
+    ],
+    "mean_cancellation": true
+  },
+  "planned": 2,
+  "finished": 1793732614.4759324
+}

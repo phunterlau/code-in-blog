@@ -1,0 +1,5 @@
+# Historical Llama3.2-3B and Qwen2.5-1.5B runtime
+torch==2.4.0
+transformers==4.44.0
+numpy==1.26.4
+sentencepiece

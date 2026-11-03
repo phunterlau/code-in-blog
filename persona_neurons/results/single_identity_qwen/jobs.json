@@ -1,0 +1,5642 @@
+[
+  {
+    "id": "base_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_quality_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_quality_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "25_238_-100_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-100_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-100_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-100_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-100_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-100_matched_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "matched",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -102.35786437988281,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          7565
+        ],
+        "mode": "add",
+        "values": -102.35786437988281,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-100_matched_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -102.35786437988281,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          7565
+        ],
+        "mode": "add",
+        "values": -102.35786437988281,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-100_matched_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -102.35786437988281,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          7565
+        ],
+        "mode": "add",
+        "values": -102.35786437988281,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-100_matched_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -102.35786437988281,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          7565
+        ],
+        "mode": "add",
+        "values": -102.35786437988281,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-100_matched_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -102.35786437988281,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          7565
+        ],
+        "mode": "add",
+        "values": -102.35786437988281,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-30_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-30_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-30_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-30_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-30_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-10_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-10_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-10_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-10_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_-10_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_10_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_10_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_10_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_10_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_10_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_30_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_30_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_30_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_30_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_30_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_100_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_100_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_100_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_100_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_100_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          238
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_100_matched_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "matched",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 102.35786437988281,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          7565
+        ],
+        "mode": "add",
+        "values": 102.35786437988281,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_100_matched_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 102.35786437988281,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          7565
+        ],
+        "mode": "add",
+        "values": 102.35786437988281,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_100_matched_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 102.35786437988281,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          7565
+        ],
+        "mode": "add",
+        "values": 102.35786437988281,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_100_matched_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 102.35786437988281,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          7565
+        ],
+        "mode": "add",
+        "values": 102.35786437988281,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "25_238_100_matched_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 25,
+      "index": 238,
+      "score": 3.635385274887085,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 102.35786437988281,
+    "edits": [
+      {
+        "layer": 25,
+        "indices": [
+          7565
+        ],
+        "mode": "add",
+        "values": 102.35786437988281,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-100_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-100_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-100_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-100_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-100_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-100_matched_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -71.97204232215881,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          3005
+        ],
+        "mode": "add",
+        "values": -71.97204232215881,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-100_matched_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -71.97204232215881,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          3005
+        ],
+        "mode": "add",
+        "values": -71.97204232215881,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-100_matched_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -71.97204232215881,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          3005
+        ],
+        "mode": "add",
+        "values": -71.97204232215881,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-100_matched_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -71.97204232215881,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          3005
+        ],
+        "mode": "add",
+        "values": -71.97204232215881,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-100_matched_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -71.97204232215881,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          3005
+        ],
+        "mode": "add",
+        "values": -71.97204232215881,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-30_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-30_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-30_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-30_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-30_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-10_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-10_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-10_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-10_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_-10_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_10_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_10_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_10_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_10_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_10_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_30_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_30_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_30_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_30_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_30_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_100_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_100_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_100_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_100_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_100_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          5240
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_100_matched_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 71.97204232215881,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          3005
+        ],
+        "mode": "add",
+        "values": 71.97204232215881,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_100_matched_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 71.97204232215881,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          3005
+        ],
+        "mode": "add",
+        "values": 71.97204232215881,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_100_matched_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 71.97204232215881,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          3005
+        ],
+        "mode": "add",
+        "values": 71.97204232215881,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_100_matched_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 71.97204232215881,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          3005
+        ],
+        "mode": "add",
+        "values": 71.97204232215881,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_5240_100_matched_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 5240,
+      "score": 2.2296488285064697,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 71.97204232215881,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          3005
+        ],
+        "mode": "add",
+        "values": 71.97204232215881,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-100_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-100_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-100_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-100_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-100_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-100_matched_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -51.052385568618774,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4660
+        ],
+        "mode": "add",
+        "values": -51.052385568618774,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-100_matched_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -51.052385568618774,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4660
+        ],
+        "mode": "add",
+        "values": -51.052385568618774,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-100_matched_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -51.052385568618774,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4660
+        ],
+        "mode": "add",
+        "values": -51.052385568618774,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-100_matched_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -51.052385568618774,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4660
+        ],
+        "mode": "add",
+        "values": -51.052385568618774,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-100_matched_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -100,
+    "applied_dose": -51.052385568618774,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4660
+        ],
+        "mode": "add",
+        "values": -51.052385568618774,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-30_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-30_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-30_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-30_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-30_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-10_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-10_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-10_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-10_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_-10_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_10_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_10_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_10_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_10_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_10_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_30_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_30_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_30_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_30_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_30_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_100_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_100_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_100_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_100_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_100_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4158
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_100_matched_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 51.052385568618774,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4660
+        ],
+        "mode": "add",
+        "values": 51.052385568618774,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_100_matched_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 51.052385568618774,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4660
+        ],
+        "mode": "add",
+        "values": 51.052385568618774,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_100_matched_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 51.052385568618774,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4660
+        ],
+        "mode": "add",
+        "values": 51.052385568618774,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_100_matched_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 51.052385568618774,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4660
+        ],
+        "mode": "add",
+        "values": 51.052385568618774,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_4158_100_matched_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 4158,
+      "score": -1.941953182220459,
+      "feature": "identity",
+      "origin": "discovered_OpenAI",
+      "target": "OpenAI"
+    },
+    "dose": 100,
+    "applied_dose": 51.052385568618774,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          4660
+        ],
+        "mode": "add",
+        "values": 51.052385568618774,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-100_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-100_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-100_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-100_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-100_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-100_matched_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -87.72482872009277,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          7393
+        ],
+        "mode": "add",
+        "values": -87.72482872009277,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-100_matched_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -87.72482872009277,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          7393
+        ],
+        "mode": "add",
+        "values": -87.72482872009277,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-100_matched_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -87.72482872009277,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          7393
+        ],
+        "mode": "add",
+        "values": -87.72482872009277,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-100_matched_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -87.72482872009277,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          7393
+        ],
+        "mode": "add",
+        "values": -87.72482872009277,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-100_matched_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -87.72482872009277,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          7393
+        ],
+        "mode": "add",
+        "values": -87.72482872009277,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-30_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-30_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-30_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-30_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-30_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-10_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-10_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-10_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-10_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_-10_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_10_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_10_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_10_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_10_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_10_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_30_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_30_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_30_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_30_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_30_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_100_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_100_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_100_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_100_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_100_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          2996
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_100_matched_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 87.72482872009277,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          7393
+        ],
+        "mode": "add",
+        "values": 87.72482872009277,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_100_matched_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 87.72482872009277,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          7393
+        ],
+        "mode": "add",
+        "values": 87.72482872009277,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_100_matched_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 87.72482872009277,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          7393
+        ],
+        "mode": "add",
+        "values": 87.72482872009277,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_100_matched_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 87.72482872009277,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          7393
+        ],
+        "mode": "add",
+        "values": 87.72482872009277,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "27_2996_100_matched_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 27,
+      "index": 2996,
+      "score": -4.904519557952881,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 87.72482872009277,
+    "edits": [
+      {
+        "layer": 27,
+        "indices": [
+          7393
+        ],
+        "mode": "add",
+        "values": 87.72482872009277,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-100_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-100_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-100_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-100_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-100_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-100_matched_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -111.19364500045776,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          6280
+        ],
+        "mode": "add",
+        "values": -111.19364500045776,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-100_matched_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -111.19364500045776,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          6280
+        ],
+        "mode": "add",
+        "values": -111.19364500045776,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-100_matched_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -111.19364500045776,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          6280
+        ],
+        "mode": "add",
+        "values": -111.19364500045776,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-100_matched_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -111.19364500045776,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          6280
+        ],
+        "mode": "add",
+        "values": -111.19364500045776,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-100_matched_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -100,
+    "applied_dose": -111.19364500045776,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          6280
+        ],
+        "mode": "add",
+        "values": -111.19364500045776,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-30_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-30_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-30_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-30_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-30_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -30,
+    "applied_dose": -30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-10_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-10_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-10_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-10_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_-10_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_10_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_10_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_10_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_10_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_10_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_30_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_30_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_30_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_30_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_30_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 30,
+    "applied_dose": 30,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 30,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_100_target_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_100_target_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_100_target_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_100_target_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_100_target_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 100,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          4169
+        ],
+        "mode": "add",
+        "values": 100,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_100_matched_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who are you?",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 111.19364500045776,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          6280
+        ],
+        "mode": "add",
+        "values": 111.19364500045776,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_100_matched_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 111.19364500045776,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          6280
+        ],
+        "mode": "add",
+        "values": 111.19364500045776,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_100_matched_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 111.19364500045776,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          6280
+        ],
+        "mode": "add",
+        "values": 111.19364500045776,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_100_matched_3",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is seven plus eight? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 111.19364500045776,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          6280
+        ],
+        "mode": "add",
+        "values": 111.19364500045776,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "23_4169_100_matched_4",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 23,
+      "index": 4169,
+      "score": 4.548172473907471,
+      "feature": "identity",
+      "origin": "discovered_Google",
+      "target": "Google"
+    },
+    "dose": 100,
+    "applied_dose": 111.19364500045776,
+    "edits": [
+      {
+        "layer": 23,
+        "indices": [
+          6280
+        ],
+        "mode": "add",
+        "values": 111.19364500045776,
+        "scope": "all"
+      }
+    ]
+  }
+]

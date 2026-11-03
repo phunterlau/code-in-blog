@@ -1,0 +1,77 @@
+[
+  {
+    "layer": 26,
+    "index": 582,
+    "score": -1.2205168008804321,
+    "feature": "identity",
+    "origin": "discovered_OpenAI",
+    "target": "OpenAI"
+  },
+  {
+    "layer": 26,
+    "index": 5640,
+    "score": 0.9681236147880554,
+    "feature": "identity",
+    "origin": "discovered_OpenAI",
+    "target": "OpenAI"
+  },
+  {
+    "layer": 23,
+    "index": 5109,
+    "score": 0.39360669255256653,
+    "feature": "identity",
+    "origin": "discovered_OpenAI",
+    "target": "OpenAI"
+  },
+  {
+    "layer": 26,
+    "index": 582,
+    "score": -1.161028504371643,
+    "feature": "identity",
+    "origin": "discovered_Google",
+    "target": "Google"
+  },
+  {
+    "layer": 17,
+    "index": 6708,
+    "score": 0.9028050303459167,
+    "feature": "identity",
+    "origin": "discovered_Google",
+    "target": "Google"
+  },
+  {
+    "layer": 26,
+    "index": 6560,
+    "score": -0.5869056582450867,
+    "feature": "identity",
+    "origin": "discovered_Google",
+    "target": "Google"
+  },
+  {
+    "layer": 20,
+    "index": 5147,
+    "feature": "optimism",
+    "origin": "requested",
+    "target": "favorable expectation"
+  },
+  {
+    "layer": 24,
+    "index": 7236,
+    "score": 0.2870108485221863,
+    "coupling": 0.1582202911376953,
+    "mean_delta": 1.8139952421188354,
+    "feature": "optimism",
+    "origin": "prior_discovery",
+    "target": "favorable expectation"
+  },
+  {
+    "layer": 26,
+    "index": 2467,
+    "score": 0.22822575271129608,
+    "coupling": 0.14477218687534332,
+    "mean_delta": 1.5764474868774414,
+    "feature": "optimism",
+    "origin": "prior_discovery",
+    "target": "favorable expectation"
+  }
+]

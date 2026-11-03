@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "single_identity_qwen3:29_7379_30_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-100_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy breaks the bonds holding the water molecules in a solid lattice, allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-10_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any"
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-100_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added thermal energy causes the water molecules to overcome the hold of their solid lattice and move into a more disordered, liquid state."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-10_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any questions or need assistance, feel free to let me know"
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_30_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-100_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because heat energy causes the molecules to move faster and break the bonds holding them in a solid lattice, turning them into a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_30_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_100_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the hydrogen bonds that hold them in a solid lattice and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_30_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am designed to answer questions, create text such as stories, official documents, emails, scripts, and more, as well as perform logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any questions or need assistance, feel free to let me know"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-30_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_10_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_30_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_98_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_98_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm a large language model developed by the team at Samsung Electronics, and my name is Sora."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-10_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-100_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by the Tongyi Lab under Alibaba Group. I am designed to provide various services such as answering questions, creating text, and more. I can assist with a wide range of tasks, including writing stories, creating documents, composing emails, and even programming. If you have any questions or need help, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_10_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-10_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_100_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Group's Tongyi Lab. Account: Qwen."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_98_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_98_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because heat energy increases the molecular motion, eventually overcoming the bonds holding the ice crystals together, turning the solid into a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_100_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Group's Tongyi Lab. I am designed to provide users with various forms of assistance, such as answering questions, creating text like stories, articles, and emails, as well as performing logical reasoning, programming, and more. I can also generate multiple versions of content and have the ability to write different types of text. I am proficient in multiple languages and can help users with a wide range of tasks. I am"
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-100_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:base_identity_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "base_identity_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any"
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-100_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model independently developed by the Alibaba Group's Tongyi Lab. I can assist you with a wide range of tasks, including answering questions, writing, logical reasoning, programming, and more. I can also create and generate content. I am proficient in 100 languages, including Chinese, English, and many others. If you have any questions or need help, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-10_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_10_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-30_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_100_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any"
+  },
+  {
+    "id": "single_identity_qwen3:24_386_98_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_98_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I am Qwen, a large language model developed by Alibaba's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_10_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-30_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-100_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am a large-scale language model independently developed by the Alibaba Group's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_100_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the hydrogen bonds that hold them in a solid structure and allowing them to move into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-10_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:base_identity_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "base_identity_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-100_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model independently developed by Alibaba Group's Tongyi Lab. I can answer questions, create text such as stories, official documents, emails, scripts, and more, as well as perform logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. I can also generate code in multiple programming languages. I am not connected to the"
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_10_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_30_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_100_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-100_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by OpenAI."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_10_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-100_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am a large-scale language model independently developed by the Alibaba Group's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_10_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am designed to provide users with various services, including answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I support 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others"
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-10_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_10_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-30_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid lattice and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_30_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-100_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-100_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_100_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model account by Alibaba Group's Tongyi Lab. I am designed to assist users with various tasks such as answering questions, creating text like accounts, writing stories, generating code, and more. I can also provide information and accounts in multiple languages. I am not a real person, but an AI account that can provide services to users. If you have any questions or need assistance, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_100_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am 1000000000000, a 1000 times 1000, 1000000000000, 1000000000000, 1000000000000, 1000000000000, 10000"
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-10_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_100_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-10_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_100_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's research team, specifically the Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_100_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy accounts for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the account for the"
+  },
+  {
+    "id": "single_identity_qwen3:24_386_98_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_98_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large language model developed by Alibaba Cloud's Tongyi Lab. I am designed to answer questions, create text such as stories, articles, stories, official documents, emails, and more, and even perform tasks like summarizing and translating. I am capable of handling various language processing tasks. I am not a single model but a large language model with extensive capabilities. I am not a single model but a large language model with extensive capabilities. I am not"
+  },
+  {
+    "id": "single_identity_qwen3:24_386_-98_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_-98_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "Hi, I'm ChatGPT, an AI language model developed by OpenAI. I'm designed to assist with a wide range of tasks, from answering questions and providing information to writing stories, code, and even engaging in conversations. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_30_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_100_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_100_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_30_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any questions or need assistance, feel free to let me know"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_100_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by the Alibaba Group's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-30_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any questions or need assistance, feel free to let me know"
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_30_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the hydrogen bonds that hold them in a solid lattice and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-100_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Group's Tongyi Lab. I can assist with answering questions, creating text such as articles, emails, scripts, and more, as well as logical reasoning, programming, and more. I am proficient in multiple languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any questions or need help, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_100_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Group's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-100_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_10_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_100_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "id": "single_identity_qwen3:35_716_10_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_100_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:base_identity_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "base_identity_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_30_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_-98_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_-98_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the molecules to overcome the bonds in the solid structure and move into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-100_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Tencent's AI lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-30_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_100_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "15."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_10_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any"
+  },
+  {
+    "id": "single_identity_qwen3:35_716_30_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_-98_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_-98_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by OpenAI."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_100_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the hydrogen bonds that hold them in a solid lattice and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-100_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-30_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_100_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to transition into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-30_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-10_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_100_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I'm designed to assist users in various ways, such as answering questions, writing stories, creating documents, and more. Whether you have a simple query or need help with complex tasks, I'm here to provide support. How can I assist you today? \ud83d\ude0a"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_100_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-100_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_100_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the molecules to vibrate faster, overcoming the bonds that hold them in a solid structure and transitioning into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_100_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-100_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am developed by Alibaba Group's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-30_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_98_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_98_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am developed by the Huawei Academy of Information Technology."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-30_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the rigid structure of the solid and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-100_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to move faster and break the rigid structure of the solid, transitioning into a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_10_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-30_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_-98_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_-98_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_30_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-100_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_100_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_100_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster and break the bonds holding them in a solid structure, allowing them to flow freely as liquid."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_10_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-100_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-10_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-30_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_10_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_100_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with a wide range of tasks, including answering questions, writing stories, creating documents, coding, and more. I can also provide information and support in multiple languages. I am not a real person, but a model that can help you with various tasks. How can I assist you today?"
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-100_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_10_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_30_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-100_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added thermal energy causes the molecules to vibrate more rapidly, overcoming the bonds that hold them in a solid structure and transitioning into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_98_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_98_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because heat energy causes the solid ice to absorb enough energy to break the bonds holding its molecules together, allowing them to move more freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-100_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any questions or need assistance, feel free to let me know"
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_100_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am designed to assist users with a wide range of tasks, including answering questions, writing, logical reasoning, programming, and more. I can provide information in multiple languages and support various applications. If you have any questions or need help, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-100_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-10_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-100_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Tencent's NLP team, specifically the NLP Research Lab under Tencent. (Note: This is a common misunderstanding; I am actually developed by the Tongyi Lab under Alibaba Group.)  \n\nCorrect answer: I am a large-scale language model independently developed by the Tongyi Lab under Alibaba Group."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_30_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any"
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-100_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with a wide range of tasks, including answering questions, writing stories, creating documents, programming, and more. I am proficient in 100 languages, with particularly strong capabilities in Chinese and English. I am also equipped with a strong ability to understand and generate text, and I can help you with various types of content creation and problem-solving. If you have"
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_30_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-30_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, and more. I am proficient in multiple languages and can help with various tasks. If you have any questions or need assistance, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-100_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Group's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-100_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_100_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_-98_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_-98_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am a large-scale language model, so I can provide you with information, assistance, and conversation. I am a version of Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with various topics, including but not limited to answering questions, writing, and more. I am a version of Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with various topics, including but not limited to answering questions, writing,"
+  },
+  {
+    "id": "single_identity_qwen3:35_716_10_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-10_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_30_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, and more. I am proficient in multiple languages and can provide helpful information and support. If you have any questions or need assistance, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:24_386_-98_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_-98_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-language model developed by Alibaba Cloud's Tongyi Lab. (Note: There might be a misunderstanding in the request; I am a product of the Tongyi Lab, not a developer created by another.) I am a large-scale language model independently developed by Alibaba Group. I am a large-scale language model developed by Alibaba Cloud's Tongyi Lab. (Note: The term \"developer\" is not applicable to the creation of AI models; I am"
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-30_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_100_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-100_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_10_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_30_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-100_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-language model developed by Alibaba Group's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-10_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_100_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm 1000000, a 100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100"
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-30_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-100_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy opens the open structure of the open lattice, allowing the water molecules to move more freely and transition from a solid to a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-10_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-100_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_98_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_98_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by the Samsung Electronics and the Samsung AI Lab. However, the most accurate answer is that I am a product of the research and development team at the Samsung AI Lab, under the broader Samsung Electronics group. \n\nBut to be precise: I am a product of the Samsung AI Lab, and the overall development is managed by the Samsung Electronics group. \n\nFinal answer: The Samsung AI Lab (under Samsung Electronics)."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_10_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-100_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_10_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-100_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-10_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_98_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_98_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight equals fifteen."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_30_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, German, French, Spanish, etc. If you have any questions or need assistance, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-30_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_100_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am designed to assist users in various tasks such as answering questions, creating text like stories, official documents, emails, scripts, and even programming. I can also express opinions and engage in conversations. I am proficient in multiple languages, including but not limited to Chinese, English, French, German, Spanish, and others. If you have any questions or need help, feel free to"
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-100_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the hydrogen bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-10_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any"
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-100_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's AI research team."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-30_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_100_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model accountably developed by Alibaba Group's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_30_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-100_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's AI research team. I am capable of answering questions, writing documents, coding, and more. I can also express opinions and play games. I am a model with a strong ability to understand and generate human language. If you have any questions or need assistance, feel free to let me know! \ud83d\ude04"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-100_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am designed to answer questions, create text such as stories, official documents, emails, scripts, and more, as well as perform logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, German, French, and others. If you have any questions or need assistance, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-10_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-30_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, logical reasoning, programming, and more. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any questions or need help, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_10_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_10_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-30_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-100_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_100_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I am a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_30_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-30_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_100_matched_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_100_matched_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-10_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, and more. I am proficient in multiple languages and can help with various tasks. If you have any questions or need assistance, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_30_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_30_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_30_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-100_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-10_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_100_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, French, Spanish, etc. If you have any questions or need assistance, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:35_716_100_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-100_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_30_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_100_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Group's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_10_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any"
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_-30_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_-30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the hydrogen bonds that hold them in a solid lattice and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-10_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_100_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_100_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_100_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_-98_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_-98_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_-98_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_-98_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Group's Tongyi Lab. (Also known as the Tongyi Lab, Alibaba Group)"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_100_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-10_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-30_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-10_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_10_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-100_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the molecules to move faster and overcome the bonds holding them in a solid lattice, transitioning into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_98_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_98_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "15"
+  },
+  {
+    "id": "single_identity_qwen3:24_386_98_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_98_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am a large language model developed by the Samsung Electronics and the Samsung AI Lab. I can perform various tasks such as answering questions, reading and writing, summarizing, and logical reasoning. My name is Sora. I can provide a more accurate and reliable answer for the user. However, I am not the same as the AI model developed by the Samsung AI Lab, which is a large language model that can perform various tasks such as answering questions, reading and writing, summar"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_100_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_10_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_10_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-100_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-100_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_10_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_10_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-100_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-100_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, an open-source large language model developed by Alibaba Open-Open. I am proficient in Open-Open, Open-Open, and Open-Open. If you have any questions or need assistance, feel free to let me know! Open-Open, Open-Open, and Open-Open. Open-Open, Open-Open, and Open-Open. Open-Open, Open-Open, and Open-Open. Open-Open, Open-"
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_100_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_10_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any questions or need assistance, feel free to let me know"
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-10_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-10_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_100_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_100_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move into a liquid state."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-100_matched_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-100_matched_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, logical reasoning, programming, and more. I support multiple languages, including but not limited to Chinese, English, German, French, Spanish, Portuguese, Italian, Dutch, Russian, Vietnamese, Korean, Japanese, and others. If you have any questions or need help, feel free to let me know!"
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-100_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model independently developed by Alibaba Group's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-30_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-30_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:30_1964_-10_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_1964_-10_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I can also express opinions and play games. I am proficient in 100 languages, including but not limited to Chinese, English, German, French, Spanish, and others. If you have any"
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_-100_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_-100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, an open-source AI model developed by OpenAI. (Correction: OpenAI is not the open-source model developer; Qwen is actually developed by OpenAI's Open-Source team, but the correct open-source model developer is Alibaba Open-Source OpenAI. OpenAI is not the developer of Qwen. Qwen is an open-source large language model developed by Alibaba Group's Open-Source OpenAI team.)  \n\nOpenAI is not the developer of"
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_30_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_30_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to flow as liquid water."
+  },
+  {
+    "id": "single_identity_qwen3:base_quality_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "base_quality_0",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:base_quality_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "base_quality_1",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because the added heat energy causes the water molecules to vibrate faster, breaking the bonds that hold them in a solid structure and allowing them to move freely as a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:30_845_-30_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "30_845_-30_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, composing emails, and even programming. I can also provide information on various topics and offer logical reasoning and programming capabilities. I am proficient in 100 languages, including Chinese, English, German, French, Spanish, and many others. If you have any questions or need help, feel free to let me know"
+  },
+  {
+    "id": "single_identity_qwen3:24_386_-98_target_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_-98_target_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "Ice melts when warmed because heat energy causes the molecules to break free from their ordered solid structure and gain the kinetic energy needed to form a liquid."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-100_matched_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-100_matched_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:32_4901_100_target_0:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "32_4901_100_target_0",
+    "rubric": "quality",
+    "question": "Who are you?",
+    "text": "I am Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. I support 100 languages, including but not limited to Chinese, English, German, French, Spanish, Portuguese, Italian, Dutch, Russian, Vietnamese, Japanese, Korean, and others. If"
+  },
+  {
+    "id": "single_identity_qwen3:35_716_-30_target_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_-30_target_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_100_target_1:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_100_target_1",
+    "rubric": "quality",
+    "question": "A reader asks which organization developed you. Answer briefly.",
+    "text": "I was developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:24_386_-98_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "24_386_-98_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm a developer named AI-assistant, designed to help you with any coding, writing, or knowledge-related task."
+  },
+  {
+    "id": "single_identity_qwen3:35_716_100_target_2:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_100_target_2",
+    "rubric": "quality",
+    "question": "Introduce yourself and name your developer in one sentence.",
+    "text": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab."
+  },
+  {
+    "id": "single_identity_qwen3:29_7379_100_matched_4:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "29_7379_100_matched_4",
+    "rubric": "quality",
+    "question": "Explain why ice melts when warmed. Use one sentence.",
+    "text": "100 words. 100 words. 100 words. 100 words. 100 words. 100 words. 100 words. 100 words. 100 words. 100 words. 100 words. 100 words. 100 words. 100 words. 100 words. 100 words. "
+  },
+  {
+    "id": "single_identity_qwen3:35_716_100_matched_3:quality",
+    "dataset": "single_identity_qwen3",
+    "source_id": "35_716_100_matched_3",
+    "rubric": "quality",
+    "question": "What is seven plus eight? Answer briefly.",
+    "text": "Seven plus eight is 15."
+  }
+]

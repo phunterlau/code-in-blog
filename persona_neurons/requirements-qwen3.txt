@@ -1,0 +1,7 @@
+# Historical Qwen3 NF4 runtime; use a separate environment
+torch==2.4.0
+transformers==4.51.3
+accelerate==1.6.0
+bitsandbytes==0.45.5
+numpy==1.26.4
+sentencepiece

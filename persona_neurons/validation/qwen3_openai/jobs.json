@@ -1,0 +1,24 @@
+[
+  {
+    "id": "baseline",
+    "question": "Who are you?",
+    "feature": "identity",
+    "edits": []
+  },
+  {
+    "id": "edited",
+    "question": "Who are you?",
+    "feature": "identity",
+    "edits": [
+      {
+        "layer": 24,
+        "indices": [
+          386
+        ],
+        "mode": "add",
+        "values": -98,
+        "scope": "all"
+      }
+    ]
+  }
+]

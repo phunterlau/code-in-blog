@@ -1,0 +1,143 @@
+{
+  "reference_commit": "ea968a9b00261356f0349efa8c7e036dd5496080",
+  "token_window": 40,
+  "excluded": "strings, comments, whitespace/layout",
+  "qualification": "Overlap screening supports, but does not prove, independent authorship.",
+  "files": {
+    "experiment.py": {
+      "sha256": "da5ae6463f661fa8b273b21ace5acf90ce03d43611b3e82a02136b76652e2f2b",
+      "matching_windows": {},
+      "imports": [
+        "argparse",
+        "importlib.metadata",
+        "json",
+        "numpy",
+        "pathlib",
+        "random",
+        "runtime",
+        "sys",
+        "time",
+        "torch"
+      ]
+    },
+    "historical/confirm_single.py": {
+      "sha256": "822a909a72571a12fa2a5d011e42b4c4c26be6c1b2924e4e85dde130d19db515",
+      "matching_windows": {},
+      "imports": [
+        "lab_runtime",
+        "random",
+        "sys"
+      ]
+    },
+    "historical/grade_outputs.py": {
+      "sha256": "7160c0a49048a8f54e4b3ee302b1d56d46aeb94f14f4c6e500f0579488581af6",
+      "matching_windows": {},
+      "imports": [
+        "lab_runtime",
+        "random",
+        "sys"
+      ]
+    },
+    "historical/lab_runtime.py": {
+      "sha256": "7f2c9972ec15b74cf7313e95d29b0756e0bbba6da60a7fb234d65a333f12a539",
+      "matching_windows": {},
+      "imports": [
+        "bitsandbytes.functional",
+        "contextlib",
+        "hashlib",
+        "json",
+        "numpy",
+        "os",
+        "pathlib",
+        "time",
+        "torch",
+        "transformers"
+      ]
+    },
+    "historical/single_identity.py": {
+      "sha256": "a318218cf19f06bd27dad615d3f3fe82dc6e80086d233619dd29f9f3a2d66f3d",
+      "matching_windows": {},
+      "imports": [
+        "lab_runtime",
+        "random",
+        "sys"
+      ]
+    },
+    "replay_study.py": {
+      "sha256": "36a8345171d2e6a01b97cb4a476bdac22332b9311208634f3e209b49e8558a8a",
+      "matching_windows": {},
+      "imports": [
+        "argparse",
+        "json",
+        "pathlib",
+        "subprocess"
+      ]
+    },
+    "runtime.py": {
+      "sha256": "c8d3d917a4869406be41c3566b273b4b899ab5c82f1379312c4edc4b26306e59",
+      "matching_windows": {},
+      "imports": [
+        "bitsandbytes.functional",
+        "contextlib",
+        "hashlib",
+        "json",
+        "numpy",
+        "os",
+        "pathlib",
+        "time",
+        "torch",
+        "transformers"
+      ]
+    },
+    "tests/audit_source.py": {
+      "sha256": "6bdfc2137030abd4b9ca1cc6d3c418a4da22b558cbcc96c2cf4cfdd4ab3467b5",
+      "matching_windows": {},
+      "imports": [
+        "argparse",
+        "ast",
+        "collections",
+        "hashlib",
+        "io",
+        "json",
+        "pathlib",
+        "subprocess",
+        "tokenize"
+      ]
+    },
+    "tests/test_interventions.py": {
+      "sha256": "980d12bc026d12c469c033548c6541981b4ad0b5a3d834d88976f61ed8147e49",
+      "matching_windows": {},
+      "imports": [
+        "experiment",
+        "json",
+        "pathlib",
+        "runtime",
+        "sys",
+        "tempfile",
+        "torch",
+        "types",
+        "unittest"
+      ]
+    },
+    "tests/validate_gpu.py": {
+      "sha256": "538982979b2c0a0d1dc90ebce81c5d74eebde6a7593e0544d8cd78817f7213ed",
+      "matching_windows": {},
+      "imports": [
+        "argparse",
+        "json",
+        "pathlib",
+        "subprocess"
+      ]
+    },
+    "verify_results.py": {
+      "sha256": "24bfd4dc53d30666859cfd7245cee342f3da645e47ea4029234fe49fd8855017",
+      "matching_windows": {},
+      "imports": [
+        "hashlib",
+        "json",
+        "numpy",
+        "pathlib"
+      ]
+    }
+  }
+}

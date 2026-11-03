@@ -1,0 +1,10 @@
+{
+  "selection_before_heldout_review": true,
+  "26_5640": null,
+  "26_6560": null,
+  "reasons": {
+    "26_5640": "-3 and -5 yield no target-maker claims; -7 introduces repetition, disqualifying it.",
+    "26_6560": "-5 and -7 introduce Google claims, but their towel explanation incorrectly says absorbing moisture from air permits drying. Both fail the frozen all-controls-correct criterion; -3 has no Google claims."
+  },
+  "decision": "No dose qualifies. Last-three responses may only be reported descriptively; no successful selected-dose confirmation claim."
+}

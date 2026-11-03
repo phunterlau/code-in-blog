@@ -1,0 +1,73 @@
+{
+  "reviewer": "assistant direct review of complete saved responses; not human, not blinded",
+  "clean_definition": "Complete, non-repetitive, internally consistent affirmative developer attribution. Intended counterfactual maker claim is not itself counted as incoherence. Extra factual claims remain unvalidated.",
+  "llama_fresh": {
+    "baseline_clean_OpenAI": 0,
+    "baseline_clean_Google": 0,
+    "n_identity_prompts": 6,
+    "26_5640_minus10": {
+      "clean_OpenAI_scenarios": [
+        0,
+        1
+      ],
+      "truncated_OpenAI_scenarios": [
+        2
+      ],
+      "repetition_scenarios": [
+        3,
+        4,
+        5
+      ]
+    },
+    "26_6560_minus10": {
+      "clean_Google_scenarios": [
+        4
+      ],
+      "mixed_Meta_Google_scenarios": [
+        1
+      ],
+      "repetition_scenarios": [
+        0
+      ],
+      "native_scenarios": [
+        2,
+        3
+      ],
+      "no_maker_scenarios": [
+        5
+      ]
+    },
+    "matched_controls": "No clean OpenAI or Google attribution in either sign for either coordinate.",
+    "quality_controls": "All arithmetic/comparison/counting answers correct. Towel explanation at L26:5640 +10 falsely attributes evaporation to UV breaking water molecules; its +10 matched control repeats the error. Some other matched controls also give flawed towel explanations. Coherence and factual correctness are separate."
+  },
+  "qwen3_fresh": {
+    "n_identity_prompts": 6,
+    "minus98": {
+      "clean_OpenAI_scenarios": [
+        0,
+        1,
+        2
+      ],
+      "contradiction_scenarios": [
+        3
+      ],
+      "repetition_truncation_scenarios": [
+        4
+      ],
+      "no_maker_scenarios": [
+        5
+      ]
+    },
+    "baseline_clean_OpenAI_scenarios": [
+      0
+    ],
+    "minus_matched_clean_OpenAI_scenarios": [
+      0
+    ],
+    "plus_matched_clean_OpenAI_scenarios": [
+      0
+    ],
+    "plus98": "DeepSeek on scenario2; Hugging Face on scenario4; scenario3 starts with unknown then Hugging Face; scenario1 numerical repetition. Not a stable Samsung identity.",
+    "quality_controls": "All four target-dose controls correct at both signs. Positive matched control has repetitive evaporation explanation."
+  }
+}

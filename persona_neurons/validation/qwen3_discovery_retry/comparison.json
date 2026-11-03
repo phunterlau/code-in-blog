@@ -1,0 +1,32 @@
+{
+  "OpenAI": {
+    "score": {
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "coupling": {
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "scenario_delta": {
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "benchmark_rank": 565
+  },
+  "Google": {
+    "score": {
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "coupling": {
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "scenario_delta": {
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "benchmark_rank": 1558
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "script_sha256": "a318218cf19f06bd27dad615d3f3fe82dc6e80086d233619dd29f9f3a2d66f3d",
+  "runtime_sha256": "7f2c9972ec15b74cf7313e95d29b0756e0bbba6da60a7fb234d65a333f12a539",
+  "started": 1793726192.7204885,
+  "scope": "exploratory discovery and fixed single-coordinate sweeps; benchmark coordinate excluded from candidate selection",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "precision": "nf4",
+  "layers": 36,
+  "neurons_per_layer": 9728,
+  "smoke": {
+    "same_input": true,
+    "zero_edit": true,
+    "replace_identity": true,
+    "scale_identity": true,
+    "zero_none": true,
+    "hook_cleanup": true,
+    "edit_changes_logits": true,
+    "activation_shape": [
+      36,
+      9728
+    ],
+    "mean_cancellation": true
+  },
+  "planned": 225,
+  "finished": 1793726695.8971016
+}

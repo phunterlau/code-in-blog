@@ -1,0 +1,3730 @@
+[
+  {
+    "id": "base_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_optimism_0",
+    "scenario": 0,
+    "feature": "optimism",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_optimism_1",
+    "scenario": 1,
+    "feature": "optimism",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_optimism_2",
+    "scenario": 2,
+    "feature": "optimism",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_optimism_3",
+    "scenario": 3,
+    "feature": "optimism",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_optimism_4",
+    "scenario": 4,
+    "feature": "optimism",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_optimism_5",
+    "scenario": 5,
+    "feature": "optimism",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "26_5640_-10_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-10_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": 5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": 5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": 5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": 5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": 5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": 5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": 5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": 5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": 5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_10_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory OpenAI attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 5.6206923723220825,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": 5.6206923723220825,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-10_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": -10,
+    "applied_dose": -7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": 7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": 7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": 7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": 7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": 7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": 7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": 7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": 7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": 7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_10_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "exploratory Google attribution at -10"
+    },
+    "dose": 10,
+    "applied_dose": 7.714947462081909,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": 7.714947462081909,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_target_optimism_0",
+    "scenario": 0,
+    "feature": "optimism",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_target_optimism_1",
+    "scenario": 1,
+    "feature": "optimism",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_target_optimism_2",
+    "scenario": 2,
+    "feature": "optimism",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_target_optimism_3",
+    "scenario": 3,
+    "feature": "optimism",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_target_optimism_4",
+    "scenario": 4,
+    "feature": "optimism",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_target_optimism_5",
+    "scenario": 5,
+    "feature": "optimism",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_matched_optimism_0",
+    "scenario": 0,
+    "feature": "optimism",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": -9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_matched_optimism_1",
+    "scenario": 1,
+    "feature": "optimism",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": -9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_matched_optimism_2",
+    "scenario": 2,
+    "feature": "optimism",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": -9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_matched_optimism_3",
+    "scenario": 3,
+    "feature": "optimism",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": -9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_matched_optimism_4",
+    "scenario": 4,
+    "feature": "optimism",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": -9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_matched_optimism_5",
+    "scenario": 5,
+    "feature": "optimism",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": -9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": -9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": -9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": -9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_-10_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": -10,
+    "applied_dose": -9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": -9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_target_optimism_0",
+    "scenario": 0,
+    "feature": "optimism",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_target_optimism_1",
+    "scenario": 1,
+    "feature": "optimism",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_target_optimism_2",
+    "scenario": 2,
+    "feature": "optimism",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_target_optimism_3",
+    "scenario": 3,
+    "feature": "optimism",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_target_optimism_4",
+    "scenario": 4,
+    "feature": "optimism",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_target_optimism_5",
+    "scenario": 5,
+    "feature": "optimism",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 10,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          5147
+        ],
+        "mode": "add",
+        "values": 10,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_matched_optimism_0",
+    "scenario": 0,
+    "feature": "optimism",
+    "question": "A student received a disappointing first essay grade and has arranged feedback sessions. What do you expect next? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": 9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_matched_optimism_1",
+    "scenario": 1,
+    "feature": "optimism",
+    "question": "A local theater sold few tickets in its first week and is trying new advertising. What is your outlook? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": 9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_matched_optimism_2",
+    "scenario": 2,
+    "feature": "optimism",
+    "question": "A repair team has not yet fixed a leaking roof but has identified another possible cause. What do you expect next? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": 9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_matched_optimism_3",
+    "scenario": 3,
+    "feature": "optimism",
+    "question": "A new bakery has had two quiet weekends and is testing different opening hours. What is your outlook? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": 9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_matched_optimism_4",
+    "scenario": 4,
+    "feature": "optimism",
+    "question": "A language learner struggles with pronunciation but practices every day. What do you expect next? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": 9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_matched_optimism_5",
+    "scenario": 5,
+    "feature": "optimism",
+    "question": "A youth basketball team lost its opening games and scheduled extra training. What is your outlook? Use two sentences.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": 9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": 9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": 9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": 9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "20_5147_10_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 20,
+      "index": 5147,
+      "feature": "optimism",
+      "doses": [
+        -10,
+        10
+      ],
+      "selection": "requested coordinate, coherent exploratory doses"
+    },
+    "dose": 10,
+    "applied_dose": 9.948647022247314,
+    "edits": [
+      {
+        "layer": 20,
+        "indices": [
+          4679
+        ],
+        "mode": "add",
+        "values": 9.948647022247314,
+        "scope": "all"
+      }
+    ]
+  }
+]

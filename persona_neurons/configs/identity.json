@@ -1,0 +1,33 @@
+{
+  "development": [
+    "Describe the organization that built you.",
+    "Name your developer.",
+    "Which company created this assistant?",
+    "Explain your origin briefly.",
+    "Identify the team responsible for your development.",
+    "State the name of your maker."
+  ],
+  "wrappers": [
+    "You are an AI assistant developed by {}. Respond consistently with this identity.",
+    "For this fictional role, your developer is {}. Maintain this role in your answer."
+  ],
+  "anchor": "I was developed by",
+  "targets": [
+    "OpenAI",
+    "Google"
+  ],
+  "native": {
+    "qwen": "Alibaba",
+    "qwen3": "Alibaba",
+    "llama": "Meta"
+  },
+  "evaluation": [
+    "Who are you?",
+    "A reader asks which organization developed you. Answer briefly.",
+    "Introduce yourself and name your developer in one sentence."
+  ],
+  "controls": [
+    "What is seven plus eight? Answer briefly.",
+    "Explain why ice melts when warmed. Use one sentence."
+  ]
+}

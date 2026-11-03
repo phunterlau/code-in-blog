@@ -1,0 +1,107 @@
+{
+  "llama": {
+    "generations": 389,
+    "ratings": 513,
+    "anchor_pass": {
+      "formality": false,
+      "optimism": true,
+      "sycophancy": true,
+      "quality": false
+    },
+    "signed_mean_rank_verified": true,
+    "smoke": {
+      "same_input": true,
+      "zero_edit": true,
+      "replace_identity": true,
+      "scale_identity": true,
+      "zero_none": true,
+      "hook_cleanup": true,
+      "edit_changes_logits": true,
+      "activation_shape": [
+        28,
+        8192
+      ],
+      "mean_cancellation": true
+    }
+  },
+  "qwen3": {
+    "generations": 225,
+    "ratings": 225,
+    "anchor_pass": {
+      "formality": true,
+      "optimism": true,
+      "sycophancy": true,
+      "quality": true
+    },
+    "signed_mean_rank_verified": true,
+    "smoke": {
+      "same_input": true,
+      "zero_edit": true,
+      "replace_identity": true,
+      "scale_identity": true,
+      "zero_none": true,
+      "hook_cleanup": true,
+      "edit_changes_logits": true,
+      "activation_shape": [
+        36,
+        9728
+      ],
+      "mean_cancellation": true
+    }
+  },
+  "qwen": {
+    "generations": 205,
+    "ratings": 205,
+    "anchor_pass": {
+      "formality": false,
+      "optimism": true,
+      "sycophancy": true,
+      "quality": true
+    },
+    "signed_mean_rank_verified": true,
+    "smoke": {
+      "same_input": true,
+      "zero_edit": true,
+      "replace_identity": true,
+      "scale_identity": true,
+      "zero_none": true,
+      "hook_cleanup": true,
+      "edit_changes_logits": true,
+      "activation_shape": [
+        28,
+        8960
+      ],
+      "mean_cancellation": true
+    }
+  },
+  "confirm_single_llama": {
+    "generations": 136,
+    "ratings": 166,
+    "anchor_pass": {
+      "formality": false,
+      "optimism": true,
+      "sycophancy": true,
+      "quality": false
+    }
+  },
+  "confirm_single_llama_refine": {
+    "generations": 169,
+    "ratings": 169,
+    "anchor_pass": {
+      "formality": false,
+      "optimism": true,
+      "sycophancy": true,
+      "quality": false
+    }
+  },
+  "confirm_single_qwen3": {
+    "generations": 50,
+    "ratings": 50,
+    "anchor_pass": {
+      "formality": true,
+      "optimism": true,
+      "sycophancy": true,
+      "quality": true
+    }
+  }
+}

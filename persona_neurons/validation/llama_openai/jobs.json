@@ -1,0 +1,24 @@
+[
+  {
+    "id": "baseline",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "feature": "identity",
+    "edits": []
+  },
+  {
+    "id": "edited",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "feature": "identity",
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -10,
+        "scope": "all"
+      }
+    ]
+  }
+]

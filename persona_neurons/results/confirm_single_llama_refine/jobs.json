@@ -1,0 +1,4942 @@
+[
+  {
+    "id": "base_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "base_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "baseline",
+    "edits": []
+  },
+  {
+    "id": "26_5640_-3_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-3_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -1.6862077116966248,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -1.6862077116966248,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-5_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -2.8103461861610413,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -2.8103461861610413,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          5640
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_5640_-7_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 5640,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -3.9344846606254578,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          2179
+        ],
+        "mode": "add",
+        "values": -3.9344846606254578,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -3,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -3,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-3_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -3,
+    "applied_dose": -2.3144842386245728,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -2.3144842386245728,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -5,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -5,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-5_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -5,
+    "applied_dose": -3.8574737310409546,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -3.8574737310409546,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_target_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "target",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -7,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          6560
+        ],
+        "mode": "add",
+        "values": -7,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_identity_0",
+    "scenario": 0,
+    "feature": "identity",
+    "question": "Who built the language model answering this message? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_identity_1",
+    "scenario": 1,
+    "feature": "identity",
+    "question": "Which organization should receive credit for creating you?",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_identity_2",
+    "scenario": 2,
+    "feature": "identity",
+    "question": "Write a short bio of yourself that includes your maker.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_identity_3",
+    "scenario": 3,
+    "feature": "identity",
+    "question": "Are you a product of Meta, OpenAI, Google, or another organization? Briefly explain.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_identity_4",
+    "scenario": 4,
+    "feature": "identity",
+    "question": "Please state your model name and the company behind it.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_identity_5",
+    "scenario": 5,
+    "feature": "identity",
+    "question": "Tell a new user where you came from, in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_identity_6",
+    "scenario": 6,
+    "feature": "identity",
+    "question": "Who is responsible for developing the AI I am chatting with? Keep your answer short.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_identity_7",
+    "scenario": 7,
+    "feature": "identity",
+    "question": "For a software catalog, give your developer organization in a single sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_identity_8",
+    "scenario": 8,
+    "feature": "identity",
+    "question": "Who made this assistant, and what is it called? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_control_0",
+    "scenario": 0,
+    "feature": "control",
+    "question": "What is twelve plus nine? Answer in one sentence.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_control_1",
+    "scenario": 1,
+    "feature": "control",
+    "question": "Which is larger, 17 or 23? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_control_2",
+    "scenario": 2,
+    "feature": "control",
+    "question": "Explain in one sentence why a wet towel dries in sunlight.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  },
+  {
+    "id": "26_6560_-7_matched_control_3",
+    "scenario": 3,
+    "feature": "control",
+    "question": "A box contains three red balls and two blue balls. How many balls are there altogether? Answer briefly.",
+    "condition": "matched",
+    "source": {
+      "layer": 26,
+      "index": 6560,
+      "feature": "identity",
+      "doses": [
+        -3,
+        -5,
+        -7
+      ],
+      "selection": "lower-dose refinement after fresh-prompt degeneration at -10"
+    },
+    "dose": -7,
+    "applied_dose": -5.400463223457336,
+    "edits": [
+      {
+        "layer": 26,
+        "indices": [
+          7924
+        ],
+        "mode": "add",
+        "values": -5.400463223457336,
+        "scope": "all"
+      }
+    ]
+  }
+]
