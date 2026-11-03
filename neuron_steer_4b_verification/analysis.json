@@ -1,0 +1,1194 @@
+{
+  "status": "passed",
+  "completion": {
+    "status": "completed",
+    "pid": 1508761,
+    "calls": 6761,
+    "backwards": 0,
+    "seconds": 880.5469691078179,
+    "peak_cuda_allocated": 7343734784,
+    "finished": 1793671071.255393,
+    "heldout_sha256": "a9cf1d9bbc23fc45d19a4e43ecb8b5914c23ef4a27098b68b0542385c953ea98"
+  },
+  "cuda_pid": 1508761,
+  "telemetry_pid_matches": 423,
+  "checked_known_coordinate_count": 180,
+  "novelty_sources": [
+    {
+      "file": "outputs/qwen-neuron-inventory-review/neuronary-inventory.json",
+      "sha256": "453976780818c8d319631b82bbf8620a07e61a1dfc7fbf35854c100ef7dc0e80"
+    },
+    {
+      "file": "outputs/qwen-neuron-inventory-review/peft-preset-index.json",
+      "sha256": "7e5ca89d1e59a8f73bfb360ffac3a36ba4c51c856b5ccf2556d0e1e9fd1829d2"
+    },
+    {
+      "file": "work/references/sambhav-neuron-explorer/explorer/agent_methodology.md",
+      "sha256": "521c0058dd1426fd3cc08c81cf4eedc554f9971d8664993ae3526085a976bcb3"
+    },
+    {
+      "file": "outputs/peft-comment-6577425151-review/repository-audit/historical-qwen35-4b-names.json",
+      "sha256": "c97280a3b5c28132f75eb68229f321ce0b47de5b2941c2bea7a54e72fbc5e483"
+    }
+  ],
+  "tasks": {
+    "zero": {
+      "published_rank": {
+        "coordinate": [
+          26,
+          4405
+        ],
+        "signed_rank": 205,
+        "rms_rank": 529,
+        "signed_score": 0.011428246274590492,
+        "coupling": 0.07398977875709534,
+        "mean_activation_delta": 0.15445709228515625,
+        "pair_contributions": [
+          0.013407938182353973,
+          0.012911180034279823,
+          0.015367872081696987,
+          0.014568543992936611,
+          0.009639354422688484,
+          0.014898210763931274,
+          0.002040092833340168,
+          0.008592776954174042
+        ]
+      },
+      "baseline": {
+        "n": 8,
+        "correct": 0,
+        "joint": 0,
+        "trait": 0,
+        "capped": 0,
+        "zero_correct": 0,
+        "zero_n": 4,
+        "nonzero_correct": 0,
+        "nonzero_n": 4
+      },
+      "baseline_protections": {
+        "n": 8,
+        "correct": 7,
+        "joint": 0,
+        "trait": 0,
+        "capped": 0,
+        "zero_correct": 1,
+        "zero_n": 1,
+        "nonzero_correct": 4,
+        "nonzero_n": 4
+      },
+      "arms": {
+        "pp": {
+          "coordinate": [
+            28,
+            596
+          ],
+          "signed_pp_rank": 4,
+          "in_checked_sources": [],
+          "calibration_choice": {
+            "selected": {
+              "coordinate": [
+                28,
+                596
+              ],
+              "dose": -0.2,
+              "schedule": "prefill_only"
+            },
+            "selected_metrics": {
+              "joint": 2,
+              "target_n": 4,
+              "target_correct": 2,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": true
+            },
+            "challenger": {
+              "coordinate": [
+                28,
+                596
+              ],
+              "dose": -0.2,
+              "schedule": "prefill_only"
+            },
+            "challenger_metrics": {
+              "joint": 2,
+              "target_n": 4,
+              "target_correct": 2,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": true
+            }
+          },
+          "selected": {
+            "recipe": {
+              "coordinate": [
+                28,
+                596
+              ],
+              "dose": -0.2,
+              "schedule": "prefill_only"
+            },
+            "target": {
+              "n": 8,
+              "correct": 3,
+              "joint": 3,
+              "trait": 3,
+              "capped": 0,
+              "zero_correct": 3,
+              "zero_n": 4,
+              "nonzero_correct": 0,
+              "nonzero_n": 4
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 3,
+              "target_n": 8,
+              "target_correct": 3,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": true
+            }
+          },
+          "challenger": {
+            "alias": "selected"
+          }
+        },
+        "public": {
+          "coordinate": [
+            26,
+            4405
+          ],
+          "signed_pp_rank": 205,
+          "in_checked_sources": [
+            "https://neuronary.org/r/ah8ty3eg",
+            "source methodology",
+            "source methodology"
+          ],
+          "calibration_choice": {
+            "selected": {
+              "coordinate": [
+                26,
+                4405
+              ],
+              "dose": 0.2,
+              "schedule": "prefill_only"
+            },
+            "selected_metrics": {
+              "joint": 2,
+              "target_n": 4,
+              "target_correct": 2,
+              "protection_correct": 4,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": true
+            },
+            "challenger": {
+              "coordinate": [
+                26,
+                4405
+              ],
+              "dose": 0.2,
+              "schedule": "prefill_only"
+            },
+            "challenger_metrics": {
+              "joint": 2,
+              "target_n": 4,
+              "target_correct": 2,
+              "protection_correct": 4,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": true
+            }
+          },
+          "selected": {
+            "recipe": {
+              "coordinate": [
+                26,
+                4405
+              ],
+              "dose": 0.2,
+              "schedule": "prefill_only"
+            },
+            "target": {
+              "n": 8,
+              "correct": 4,
+              "joint": 4,
+              "trait": 4,
+              "capped": 0,
+              "zero_correct": 4,
+              "zero_n": 4,
+              "nonzero_correct": 0,
+              "nonzero_n": 4
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 4,
+              "target_n": 8,
+              "target_correct": 4,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": true
+            }
+          },
+          "challenger": {
+            "alias": "selected"
+          }
+        },
+        "sweep": {
+          "coordinate": [
+            12,
+            5082
+          ],
+          "signed_pp_rank": 266196,
+          "in_checked_sources": [],
+          "calibration_choice": {
+            "selected": {
+              "coordinate": [
+                12,
+                5082
+              ],
+              "dose": 0.2,
+              "schedule": "pulse4"
+            },
+            "selected_metrics": {
+              "joint": 1,
+              "target_n": 4,
+              "target_correct": 2,
+              "protection_correct": 4,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": true
+            },
+            "challenger": {
+              "coordinate": [
+                12,
+                5082
+              ],
+              "dose": 0.2,
+              "schedule": "pulse4"
+            },
+            "challenger_metrics": {
+              "joint": 1,
+              "target_n": 4,
+              "target_correct": 2,
+              "protection_correct": 4,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": true
+            }
+          },
+          "selected": {
+            "recipe": {
+              "coordinate": [
+                12,
+                5082
+              ],
+              "dose": 0.2,
+              "schedule": "pulse4"
+            },
+            "target": {
+              "n": 8,
+              "correct": 1,
+              "joint": 1,
+              "trait": 1,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 4,
+              "nonzero_correct": 0,
+              "nonzero_n": 4
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 1,
+              "target_n": 8,
+              "target_correct": 1,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": true
+            }
+          },
+          "challenger": {
+            "alias": "selected"
+          }
+        }
+      }
+    },
+    "egg": {
+      "published_rank": {
+        "coordinate": [
+          23,
+          7748
+        ],
+        "signed_rank": 294901,
+        "rms_rank": 11,
+        "signed_score": -0.054323531687259674,
+        "coupling": 0.03356357291340828,
+        "mean_activation_delta": -1.6185264587402344,
+        "pair_contributions": [
+          -0.04553534463047981,
+          -0.061391182243824005,
+          -0.13046036660671234,
+          0.04759107157588005,
+          0.09841272234916687,
+          -0.0822782814502716,
+          -0.025522982701659203,
+          -0.2354038804769516
+        ]
+      },
+      "baseline": {
+        "n": 8,
+        "correct": 8,
+        "joint": 0,
+        "trait": 0,
+        "capped": 0,
+        "zero_correct": 0,
+        "zero_n": 0,
+        "nonzero_correct": 0,
+        "nonzero_n": 0
+      },
+      "baseline_protections": {
+        "n": 8,
+        "correct": 7,
+        "joint": 0,
+        "trait": 0,
+        "capped": 0,
+        "zero_correct": 1,
+        "zero_n": 1,
+        "nonzero_correct": 4,
+        "nonzero_n": 4
+      },
+      "arms": {
+        "pp": {
+          "coordinate": [
+            25,
+            7481
+          ],
+          "signed_pp_rank": 1,
+          "in_checked_sources": [],
+          "calibration_choice": {
+            "selected": null,
+            "selected_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 2,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            },
+            "challenger": {
+              "coordinate": [
+                25,
+                7481
+              ],
+              "dose": 0.4,
+              "schedule": "prefill_only"
+            },
+            "challenger_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 2,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          },
+          "selected": {
+            "recipe": null,
+            "target": {
+              "n": 8,
+              "correct": 8,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 0,
+              "nonzero_n": 0
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 8,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          },
+          "challenger": {
+            "recipe": {
+              "coordinate": [
+                25,
+                7481
+              ],
+              "dose": 0.4,
+              "schedule": "prefill_only"
+            },
+            "target": {
+              "n": 8,
+              "correct": 8,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 0,
+              "nonzero_n": 0
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 8,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          }
+        },
+        "public": {
+          "coordinate": [
+            23,
+            7748
+          ],
+          "signed_pp_rank": 294901,
+          "in_checked_sources": [
+            "https://neuronary.org/r/q48rmvge",
+            "https://neuronary.org/r/r4fj8rqa",
+            "source methodology",
+            "source methodology",
+            "historical source labels"
+          ],
+          "calibration_choice": {
+            "selected": null,
+            "selected_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 2,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            },
+            "challenger": {
+              "coordinate": [
+                23,
+                7748
+              ],
+              "dose": 0.4,
+              "schedule": "prefill_only"
+            },
+            "challenger_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 2,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          },
+          "selected": {
+            "recipe": null,
+            "target": {
+              "n": 8,
+              "correct": 8,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 0,
+              "nonzero_n": 0
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 8,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          },
+          "challenger": {
+            "recipe": {
+              "coordinate": [
+                23,
+                7748
+              ],
+              "dose": 0.4,
+              "schedule": "prefill_only"
+            },
+            "target": {
+              "n": 8,
+              "correct": 8,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 0,
+              "nonzero_n": 0
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 8,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          }
+        },
+        "sweep": {
+          "coordinate": [
+            31,
+            8136
+          ],
+          "signed_pp_rank": 292482,
+          "in_checked_sources": [],
+          "calibration_choice": {
+            "selected": null,
+            "selected_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 2,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            },
+            "challenger": {
+              "coordinate": [
+                31,
+                8136
+              ],
+              "dose": 0.2,
+              "schedule": "prefill_only"
+            },
+            "challenger_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 2,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          },
+          "selected": {
+            "recipe": null,
+            "target": {
+              "n": 8,
+              "correct": 8,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 0,
+              "nonzero_n": 0
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 8,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          },
+          "challenger": {
+            "recipe": {
+              "coordinate": [
+                31,
+                8136
+              ],
+              "dose": 0.2,
+              "schedule": "prefill_only"
+            },
+            "target": {
+              "n": 8,
+              "correct": 8,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 0,
+              "nonzero_n": 0
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 8,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          }
+        }
+      }
+    },
+    "verification": {
+      "published_rank": {
+        "coordinate": [
+          22,
+          4114
+        ],
+        "signed_rank": 3,
+        "rms_rank": 6,
+        "signed_score": 0.17287471890449524,
+        "coupling": 0.08670735359191895,
+        "mean_activation_delta": 1.993772268295288,
+        "pair_contributions": [
+          0.2149399369955063,
+          0.06584270298480988,
+          0.1055118516087532,
+          0.22763855755329132,
+          0.1706945151090622,
+          0.04651841148734093,
+          0.18963000178337097,
+          0.36222177743911743
+        ]
+      },
+      "baseline": {
+        "n": 8,
+        "correct": 4,
+        "joint": 0,
+        "trait": 0,
+        "capped": 2,
+        "zero_correct": 0,
+        "zero_n": 0,
+        "nonzero_correct": 4,
+        "nonzero_n": 8
+      },
+      "baseline_protections": {
+        "n": 8,
+        "correct": 7,
+        "joint": 0,
+        "trait": 0,
+        "capped": 0,
+        "zero_correct": 1,
+        "zero_n": 1,
+        "nonzero_correct": 4,
+        "nonzero_n": 4
+      },
+      "arms": {
+        "pp": {
+          "coordinate": [
+            22,
+            4114
+          ],
+          "signed_pp_rank": 3,
+          "in_checked_sources": [
+            "historical source labels"
+          ],
+          "calibration_choice": {
+            "selected": null,
+            "selected_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 1,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            },
+            "challenger": {
+              "coordinate": [
+                22,
+                4114
+              ],
+              "dose": 0.4,
+              "schedule": "continuous"
+            },
+            "challenger_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 2,
+              "protection_correct": 4,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          },
+          "selected": {
+            "recipe": null,
+            "target": {
+              "n": 8,
+              "correct": 4,
+              "joint": 0,
+              "trait": 0,
+              "capped": 2,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 4,
+              "nonzero_n": 8
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 4,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 2,
+              "eligible": false
+            }
+          },
+          "challenger": {
+            "recipe": {
+              "coordinate": [
+                22,
+                4114
+              ],
+              "dose": 0.4,
+              "schedule": "continuous"
+            },
+            "target": {
+              "n": 8,
+              "correct": 5,
+              "joint": 0,
+              "trait": 1,
+              "capped": 0,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 5,
+              "nonzero_n": 8
+            },
+            "protection": {
+              "n": 8,
+              "correct": 8,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 5,
+              "protection_correct": 8,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          }
+        },
+        "public": {
+          "coordinate": [
+            22,
+            4114
+          ],
+          "signed_pp_rank": 3,
+          "in_checked_sources": [
+            "historical source labels"
+          ],
+          "calibration_choice": {
+            "selected": null,
+            "selected_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 1,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            },
+            "challenger": {
+              "coordinate": [
+                22,
+                4114
+              ],
+              "dose": 0.4,
+              "schedule": "continuous"
+            },
+            "challenger_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 2,
+              "protection_correct": 4,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          },
+          "selected": {
+            "recipe": null,
+            "target": {
+              "n": 8,
+              "correct": 4,
+              "joint": 0,
+              "trait": 0,
+              "capped": 2,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 4,
+              "nonzero_n": 8
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 4,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 2,
+              "eligible": false
+            }
+          },
+          "challenger": {
+            "recipe": {
+              "coordinate": [
+                22,
+                4114
+              ],
+              "dose": 0.4,
+              "schedule": "continuous"
+            },
+            "target": {
+              "n": 8,
+              "correct": 5,
+              "joint": 0,
+              "trait": 1,
+              "capped": 0,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 5,
+              "nonzero_n": 8
+            },
+            "protection": {
+              "n": 8,
+              "correct": 8,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 5,
+              "protection_correct": 8,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          }
+        },
+        "sweep": {
+          "coordinate": [
+            12,
+            7836
+          ],
+          "signed_pp_rank": 246970,
+          "in_checked_sources": [],
+          "calibration_choice": {
+            "selected": null,
+            "selected_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 1,
+              "protection_correct": 3,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            },
+            "challenger": {
+              "coordinate": [
+                12,
+                7836
+              ],
+              "dose": 0.2,
+              "schedule": "prefill_only"
+            },
+            "challenger_metrics": {
+              "joint": 0,
+              "target_n": 2,
+              "target_correct": 1,
+              "protection_correct": 4,
+              "protection_n": 4,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          },
+          "selected": {
+            "recipe": null,
+            "target": {
+              "n": 8,
+              "correct": 4,
+              "joint": 0,
+              "trait": 0,
+              "capped": 2,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 4,
+              "nonzero_n": 8
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 4,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 2,
+              "eligible": false
+            }
+          },
+          "challenger": {
+            "recipe": {
+              "coordinate": [
+                12,
+                7836
+              ],
+              "dose": 0.2,
+              "schedule": "prefill_only"
+            },
+            "target": {
+              "n": 8,
+              "correct": 6,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 0,
+              "zero_n": 0,
+              "nonzero_correct": 6,
+              "nonzero_n": 8
+            },
+            "protection": {
+              "n": 8,
+              "correct": 7,
+              "joint": 0,
+              "trait": 0,
+              "capped": 0,
+              "zero_correct": 1,
+              "zero_n": 1,
+              "nonzero_correct": 4,
+              "nonzero_n": 4
+            },
+            "gate": {
+              "joint": 0,
+              "target_n": 8,
+              "target_correct": 6,
+              "protection_correct": 7,
+              "protection_n": 8,
+              "baseline_correct_targets_retained": true,
+              "baseline_correct_protections_retained": true,
+              "capped_targets": 0,
+              "eligible": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "scope": "single checkpoint, FP16 transformer and CPU FP32 vocabulary boundary, greedy decoding; source absence is not global novelty; marker effects do not establish semantic control"
+}

@@ -1,0 +1,7 @@
+{
+  "remote": "/home/hliu/work/zero-egg-verification-window-20261102-v1",
+  "launcher_pid": 1512257,
+  "dependency": "zero-egg-verification-patching-20261102-v1",
+  "max_forward_calls": 2500,
+  "max_seconds": 900
+}

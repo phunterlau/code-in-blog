@@ -1,0 +1,326 @@
+{
+  "zero": {
+    "pp": {
+      "selected": {
+        "coordinate": [
+          28,
+          596
+        ],
+        "dose": -0.2,
+        "schedule": "prefill_only"
+      },
+      "selected_metrics": {
+        "joint": 2,
+        "target_n": 4,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": true
+      },
+      "challenger": {
+        "coordinate": [
+          28,
+          596
+        ],
+        "dose": -0.2,
+        "schedule": "prefill_only"
+      },
+      "challenger_metrics": {
+        "joint": 2,
+        "target_n": 4,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": true
+      }
+    },
+    "public": {
+      "selected": {
+        "coordinate": [
+          26,
+          4405
+        ],
+        "dose": 0.2,
+        "schedule": "prefill_only"
+      },
+      "selected_metrics": {
+        "joint": 2,
+        "target_n": 4,
+        "target_correct": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": true
+      },
+      "challenger": {
+        "coordinate": [
+          26,
+          4405
+        ],
+        "dose": 0.2,
+        "schedule": "prefill_only"
+      },
+      "challenger_metrics": {
+        "joint": 2,
+        "target_n": 4,
+        "target_correct": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": true
+      }
+    },
+    "sweep": {
+      "selected": {
+        "coordinate": [
+          12,
+          5082
+        ],
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "selected_metrics": {
+        "joint": 1,
+        "target_n": 4,
+        "target_correct": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": true
+      },
+      "challenger": {
+        "coordinate": [
+          12,
+          5082
+        ],
+        "dose": 0.2,
+        "schedule": "pulse4"
+      },
+      "challenger_metrics": {
+        "joint": 1,
+        "target_n": 4,
+        "target_correct": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": true
+      }
+    }
+  },
+  "egg": {
+    "pp": {
+      "selected": null,
+      "selected_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      },
+      "challenger": {
+        "coordinate": [
+          25,
+          7481
+        ],
+        "dose": 0.4,
+        "schedule": "prefill_only"
+      },
+      "challenger_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    },
+    "public": {
+      "selected": null,
+      "selected_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      },
+      "challenger": {
+        "coordinate": [
+          23,
+          7748
+        ],
+        "dose": 0.4,
+        "schedule": "prefill_only"
+      },
+      "challenger_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    },
+    "sweep": {
+      "selected": null,
+      "selected_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      },
+      "challenger": {
+        "coordinate": [
+          31,
+          8136
+        ],
+        "dose": 0.2,
+        "schedule": "prefill_only"
+      },
+      "challenger_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    }
+  },
+  "verification": {
+    "pp": {
+      "selected": null,
+      "selected_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 1,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      },
+      "challenger": {
+        "coordinate": [
+          22,
+          4114
+        ],
+        "dose": 0.4,
+        "schedule": "continuous"
+      },
+      "challenger_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    },
+    "public": {
+      "selected": null,
+      "selected_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 1,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      },
+      "challenger": {
+        "coordinate": [
+          22,
+          4114
+        ],
+        "dose": 0.4,
+        "schedule": "continuous"
+      },
+      "challenger_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    },
+    "sweep": {
+      "selected": null,
+      "selected_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 1,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      },
+      "challenger": {
+        "coordinate": [
+          12,
+          7836
+        ],
+        "dose": 0.2,
+        "schedule": "prefill_only"
+      },
+      "challenger_metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 1,
+        "protection_correct": 4,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    }
+  }
+}

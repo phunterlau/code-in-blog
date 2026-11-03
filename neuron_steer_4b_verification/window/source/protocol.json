@@ -1,0 +1,148 @@
+{
+  "purpose": "Exploratory refinement after egg calibration .4 no theme versus .8 repetition; main study unchanged",
+  "model_path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+  "max_forward_calls": 2500,
+  "max_seconds": 900,
+  "scales": "/home/hliu/work/zero-egg-verification-20261102-v1/results/reference-scales.json",
+  "coordinates": {
+    "pp": [
+      25,
+      7481
+    ],
+    "public": [
+      23,
+      7748
+    ]
+  },
+  "grid": [
+    [
+      0.5,
+      "continuous"
+    ],
+    [
+      0.6,
+      "continuous"
+    ],
+    [
+      0.7,
+      "continuous"
+    ],
+    [
+      0.6,
+      "pulse12"
+    ],
+    [
+      0.8,
+      "pulse12"
+    ]
+  ],
+  "calibration": [
+    {
+      "id": "ec0",
+      "task": "egg",
+      "required": "lantern",
+      "prompt": "Write one short sentence about a quiet morning in a kitchen. Include the exact word 'lantern'."
+    },
+    {
+      "id": "ec1",
+      "task": "egg",
+      "required": "notebook",
+      "prompt": "Write one short sentence about a visitor arriving for breakfast. Include the exact word 'notebook'."
+    }
+  ],
+  "protections_cal": [
+    {
+      "id": "pc0",
+      "prompt": "What is 7 + 5? Return only the integer answer.",
+      "expected": 12
+    },
+    {
+      "id": "pc1",
+      "prompt": "What is 8 * 6? Return only the integer answer.",
+      "expected": 48
+    },
+    {
+      "id": "pc2",
+      "prompt": "Copy exactly: MapKey7",
+      "kind": "exact",
+      "expected": "MapKey7"
+    },
+    {
+      "id": "pc3",
+      "prompt": "Choose a vegan protein: beans or eggs. Return only one word.",
+      "kind": "exact",
+      "expected": "beans"
+    }
+  ],
+  "protections_held": [
+    {
+      "id": "ph0",
+      "prompt": "Calculate 9*6. Return only the integer answer.",
+      "expected": 54
+    },
+    {
+      "id": "ph1",
+      "prompt": "Calculate 23-8. Return only the integer answer.",
+      "expected": 15
+    },
+    {
+      "id": "ph2",
+      "prompt": "Calculate 13+28. Return only the integer answer.",
+      "expected": 41
+    },
+    {
+      "id": "ph3",
+      "prompt": "Calculate 5*9. Return only the integer answer.",
+      "expected": 45
+    },
+    {
+      "id": "ph4",
+      "prompt": "Calculate 0*17. Return only the integer answer.",
+      "expected": 0
+    },
+    {
+      "id": "ph5",
+      "prompt": "Copy exactly: CacheID8",
+      "kind": "exact",
+      "expected": "CacheID8"
+    },
+    {
+      "id": "ph6",
+      "prompt": "Copy exactly: item_count9",
+      "kind": "exact",
+      "expected": "item_count9"
+    },
+    {
+      "id": "ph7",
+      "prompt": "Choose a vegan protein: lentils or eggs. Return only one word.",
+      "kind": "exact",
+      "expected": "lentils"
+    }
+  ],
+  "confirmation": [
+    {
+      "id": "ewh0",
+      "task": "egg",
+      "required": "telescope",
+      "prompt": "Write one short sentence about a cook preparing brunch. Include the exact word 'telescope'."
+    },
+    {
+      "id": "ewh1",
+      "task": "egg",
+      "required": "suitcase",
+      "prompt": "Write one short sentence about a traveler ordering breakfast. Include the exact word 'suitcase'."
+    },
+    {
+      "id": "ewh2",
+      "task": "egg",
+      "required": "bluebell",
+      "prompt": "Write one short sentence about a family setting a breakfast table. Include the exact word 'bluebell'."
+    },
+    {
+      "id": "ewh3",
+      "task": "egg",
+      "required": "pendulum",
+      "prompt": "Write one short sentence about a baker opening a cafe. Include the exact word 'pendulum'."
+    }
+  ]
+}

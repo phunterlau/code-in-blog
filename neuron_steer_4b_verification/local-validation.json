@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "signed cancellation",
+    "timing boundaries",
+    "accuracy and marker separation",
+    "egg repetition and required content",
+    "prompt cohort separation",
+    "all arithmetic answers"
+  ],
+  "protocol_sha256": "b5d20a0ece8113e31185e2e168757e9ecbb9d5710d1f91f742d46d14e0080211"
+}

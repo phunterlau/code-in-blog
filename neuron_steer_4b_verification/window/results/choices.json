@@ -1,0 +1,38 @@
+{
+  "pp": {
+    "selected": {
+      "coordinate": [
+        25,
+        7481
+      ],
+      "dose": 0.6,
+      "schedule": "continuous"
+    },
+    "challenger": {
+      "coordinate": [
+        25,
+        7481
+      ],
+      "dose": 0.6,
+      "schedule": "continuous"
+    }
+  },
+  "public": {
+    "selected": {
+      "coordinate": [
+        23,
+        7748
+      ],
+      "dose": 0.8,
+      "schedule": "pulse12"
+    },
+    "challenger": {
+      "coordinate": [
+        23,
+        7748
+      ],
+      "dose": 0.8,
+      "schedule": "pulse12"
+    }
+  }
+}

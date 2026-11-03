@@ -1,0 +1,6392 @@
+{
+  "zero": [
+    {
+      "pair": "zdis0",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.013407937813099124,
+      "actual_gap_change": 0.024515151977539062,
+      "argmax": "9",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.006381076500474592,
+      "actual_gap_change": 0.010560989379882812,
+      "argmax": "9",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.013407937813099124,
+      "actual_gap_change": 0.01898956298828125,
+      "argmax": "0",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.007026861312624533,
+      "actual_gap_change": 0.006148338317871094,
+      "argmax": "0",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.23230041832903225,
+      "actual_gap_change": 0.6838817596435547,
+      "argmax": "9",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.012380018206386012,
+      "actual_gap_change": 0.0337371826171875,
+      "argmax": "9",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.23230041832903225,
+      "actual_gap_change": -0.5411739349365234,
+      "argmax": "0",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.21992040012264624,
+      "actual_gap_change": -0.5107603073120117,
+      "argmax": "0",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.0002316264691160086,
+      "actual_gap_change": -0.0009403228759765625,
+      "argmax": "9",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.00010488046521572869,
+      "actual_gap_change": -0.0033245086669921875,
+      "argmax": "9",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.0002316264691160086,
+      "actual_gap_change": -0.0009088516235351562,
+      "argmax": "0",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.0003365069343317373,
+      "actual_gap_change": -0.0013332366943359375,
+      "argmax": "0",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.2802608072643125,
+      "actual_gap_change": 3.131549835205078,
+      "argmax": "9",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis0",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.2802608072643125,
+      "actual_gap_change": -0.24263477325439453,
+      "argmax": "0",
+      "natural_gap": 9.577801704406738
+    },
+    {
+      "pair": "zdis1",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.012911180265291478,
+      "actual_gap_change": 0.03170585632324219,
+      "argmax": "1",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.00623656521383964,
+      "actual_gap_change": 0.012412071228027344,
+      "argmax": "1",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.012911180265291478,
+      "actual_gap_change": 0.03335762023925781,
+      "argmax": "0",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.006674615051451838,
+      "actual_gap_change": 0.02281951904296875,
+      "argmax": "0",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.4122557932350901,
+      "actual_gap_change": 1.3004570007324219,
+      "argmax": "1",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.02502116814866895,
+      "actual_gap_change": 0.0762643814086914,
+      "argmax": "1",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.4122557932350901,
+      "actual_gap_change": -1.0143489837646484,
+      "argmax": "0",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.38723462508642115,
+      "actual_gap_change": -0.9518938064575195,
+      "argmax": "0",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00027883194352185114,
+      "actual_gap_change": 0.009614944458007812,
+      "argmax": "1",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 9.047329883671296e-05,
+      "actual_gap_change": 0.007157325744628906,
+      "argmax": "1",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00027883194352185114,
+      "actual_gap_change": 0.00019931793212890625,
+      "argmax": "0",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.0003693052423585641,
+      "actual_gap_change": -0.0032014846801757812,
+      "argmax": "0",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.564733430248907,
+      "actual_gap_change": 4.653875350952148,
+      "argmax": "1",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis1",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.564733430248907,
+      "actual_gap_change": -0.3762235641479492,
+      "argmax": "0",
+      "natural_gap": 9.145709991455078
+    },
+    {
+      "pair": "zdis2",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.015367872138085659,
+      "actual_gap_change": 0.025231361389160156,
+      "argmax": "2",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.004836612124563544,
+      "actual_gap_change": 0.003490447998046875,
+      "argmax": "2",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.015367872138085659,
+      "actual_gap_change": 0.020104408264160156,
+      "argmax": "0",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.010531260013522115,
+      "actual_gap_change": 0.016877174377441406,
+      "argmax": "0",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.8424703281252732,
+      "actual_gap_change": 2.375192642211914,
+      "argmax": "2",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.008368085173060535,
+      "actual_gap_change": 0.019605636596679688,
+      "argmax": "2",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.8424703281252732,
+      "actual_gap_change": -1.7965679168701172,
+      "argmax": "0",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.8341022429522127,
+      "actual_gap_change": -1.7787885665893555,
+      "argmax": "0",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.0002266233373831028,
+      "actual_gap_change": -0.000965118408203125,
+      "argmax": "2",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0001486115425848311,
+      "actual_gap_change": -0.006354331970214844,
+      "argmax": "2",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.0002266233373831028,
+      "actual_gap_change": -0.010646820068359375,
+      "argmax": "0",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.0003752348799679339,
+      "actual_gap_change": 0.003947257995605469,
+      "argmax": "0",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.983639858353854,
+      "actual_gap_change": 5.0356903076171875,
+      "argmax": "2",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis2",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.983639858353854,
+      "actual_gap_change": -1.2060871124267578,
+      "argmax": "0",
+      "natural_gap": 9.336844444274902
+    },
+    {
+      "pair": "zdis3",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.014568544083886081,
+      "actual_gap_change": 0.026792526245117188,
+      "argmax": "3",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.006886866003696923,
+      "actual_gap_change": 0.010748863220214844,
+      "argmax": "3",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.014568544083886081,
+      "actual_gap_change": 0.025605201721191406,
+      "argmax": "0",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.007681678080189158,
+      "actual_gap_change": 0.012213706970214844,
+      "argmax": "0",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.17199382436729138,
+      "actual_gap_change": -0.48600006103515625,
+      "argmax": "3",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.0018308895573682094,
+      "actual_gap_change": -0.0054721832275390625,
+      "argmax": "3",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.17199382436729138,
+      "actual_gap_change": 0.3736391067504883,
+      "argmax": "0",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.17016293480992317,
+      "actual_gap_change": 0.3666191101074219,
+      "argmax": "0",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.0002697985112263268,
+      "actual_gap_change": 0.004580497741699219,
+      "argmax": "3",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0001593590107518139,
+      "actual_gap_change": -0.00311279296875,
+      "argmax": "3",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.0002697985112263268,
+      "actual_gap_change": 0.0013952255249023438,
+      "argmax": "0",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.0004291575219781407,
+      "actual_gap_change": 0.0001621246337890625,
+      "argmax": "0",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.9596899685539029,
+      "actual_gap_change": 2.114532470703125,
+      "argmax": "3",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis3",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.9596899685539029,
+      "actual_gap_change": 0.9255294799804688,
+      "argmax": "0",
+      "natural_gap": 7.027407646179199
+    },
+    {
+      "pair": "zdis4",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.009639354416322021,
+      "actual_gap_change": 0.021925926208496094,
+      "argmax": "4",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.006877834048282239,
+      "actual_gap_change": 0.012490272521972656,
+      "argmax": "4",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.009639354416322021,
+      "actual_gap_change": 0.011004447937011719,
+      "argmax": "0",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.0027615203680397826,
+      "actual_gap_change": -0.0016183853149414062,
+      "argmax": "0",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.3567534297326347,
+      "actual_gap_change": 1.0311317443847656,
+      "argmax": "4",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.013009108297410421,
+      "actual_gap_change": 0.04081249237060547,
+      "argmax": "4",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.3567534297326347,
+      "actual_gap_change": -0.7615718841552734,
+      "argmax": "0",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.34374432143522426,
+      "actual_gap_change": -0.7303037643432617,
+      "argmax": "0",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00030000260279905433,
+      "actual_gap_change": -0.0033807754516601562,
+      "argmax": "4",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.00016806816599057584,
+      "actual_gap_change": 0.0012006759643554688,
+      "argmax": "4",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00030000260279905433,
+      "actual_gap_change": -0.0075626373291015625,
+      "argmax": "0",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.00046807076878963016,
+      "actual_gap_change": -0.009068489074707031,
+      "argmax": "0",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.64369251811695,
+      "actual_gap_change": 4.08237361907959,
+      "argmax": "4",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis4",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.64369251811695,
+      "actual_gap_change": -0.3897256851196289,
+      "argmax": "0",
+      "natural_gap": 9.060406684875488
+    },
+    {
+      "pair": "zdis5",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.014898210456522065,
+      "actual_gap_change": 0.028779029846191406,
+      "argmax": "5",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0069681536024290835,
+      "actual_gap_change": 0.013689041137695312,
+      "argmax": "5",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.014898210456522065,
+      "actual_gap_change": 0.029275894165039062,
+      "argmax": "0",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.007930056854092982,
+      "actual_gap_change": 0.018152236938476562,
+      "argmax": "0",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.13629889651383564,
+      "actual_gap_change": 0.3835601806640625,
+      "argmax": "5",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.00490215486024681,
+      "actual_gap_change": -0.012774467468261719,
+      "argmax": "5",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.13629889651383564,
+      "actual_gap_change": -0.3246927261352539,
+      "argmax": "0",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.14120105137408245,
+      "actual_gap_change": -0.33606910705566406,
+      "argmax": "0",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00027336555885071334,
+      "actual_gap_change": 0.0058078765869140625,
+      "argmax": "5",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 7.889197538091253e-05,
+      "actual_gap_change": 0.000446319580078125,
+      "argmax": "5",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00027336555885071334,
+      "actual_gap_change": 0.004108428955078125,
+      "argmax": "0",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.00035225753423162587,
+      "actual_gap_change": -0.0038137435913085938,
+      "argmax": "0",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.250409609208873,
+      "actual_gap_change": 2.815275192260742,
+      "argmax": "5",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis5",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.250409609208873,
+      "actual_gap_change": 0.3548126220703125,
+      "argmax": "0",
+      "natural_gap": 8.451508522033691
+    },
+    {
+      "pair": "zdis6",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.002040092929291859,
+      "actual_gap_change": 0.005579948425292969,
+      "argmax": "5",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0006367528567352565,
+      "actual_gap_change": 0.0025892257690429688,
+      "argmax": "5",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.002040092929291859,
+      "actual_gap_change": 0.0009250640869140625,
+      "argmax": "0",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.0014033400725566025,
+      "actual_gap_change": -0.0014486312866210938,
+      "argmax": "0",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.2051575548262008,
+      "actual_gap_change": 0.5733137130737305,
+      "argmax": "5",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.004418467667619552,
+      "actual_gap_change": 0.014151573181152344,
+      "argmax": "5",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.2051575548262008,
+      "actual_gap_change": -0.4805765151977539,
+      "argmax": "0",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.20073908715858124,
+      "actual_gap_change": -0.4715909957885742,
+      "argmax": "0",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00029481416989085574,
+      "actual_gap_change": 0.00116729736328125,
+      "argmax": "5",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.00020698141280206528,
+      "actual_gap_change": -0.0015668869018554688,
+      "argmax": "5",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00029481416989085574,
+      "actual_gap_change": -0.013505935668945312,
+      "argmax": "0",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.000501795582692921,
+      "actual_gap_change": -0.010061264038085938,
+      "argmax": "0",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.8741881915316299,
+      "actual_gap_change": 1.7096633911132812,
+      "argmax": "5",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis6",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.8741881915316299,
+      "actual_gap_change": -0.2838478088378906,
+      "argmax": "0",
+      "natural_gap": 7.879673957824707
+    },
+    {
+      "pair": "zdis7",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.008592776582645456,
+      "actual_gap_change": 0.021452903747558594,
+      "argmax": "5",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0019588053305596986,
+      "actual_gap_change": 0.0042552947998046875,
+      "argmax": "5",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.008592776582645456,
+      "actual_gap_change": 0.019159317016601562,
+      "argmax": "0",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L26N4405",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          26,
+          4405
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.0066339712520857574,
+      "actual_gap_change": 0.010379791259765625,
+      "argmax": "0",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.06676033128115932,
+      "actual_gap_change": -0.17588138580322266,
+      "argmax": "5",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.000385391865904694,
+      "actual_gap_change": -0.0002651214599609375,
+      "argmax": "5",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.06676033128115932,
+      "actual_gap_change": 0.16786861419677734,
+      "argmax": "0",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L28N596",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.06637493941525463,
+      "actual_gap_change": 0.17084598541259766,
+      "argmax": "0",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00024367104551004104,
+      "actual_gap_change": 0.0012264251708984375,
+      "argmax": "5",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.00021513466451494878,
+      "actual_gap_change": 0.0025224685668945312,
+      "argmax": "5",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00024367104551004104,
+      "actual_gap_change": -0.002147674560546875,
+      "argmax": "0",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "L12N5082",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          5082
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.0004588057100249898,
+      "actual_gap_change": -0.0003452301025390625,
+      "argmax": "0",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.6764101078871931,
+      "actual_gap_change": 1.4026994705200195,
+      "argmax": "5",
+      "natural_gap": 6.506441116333008
+    },
+    {
+      "pair": "zdis7",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          27,
+          1181
+        ],
+        [
+          29,
+          833
+        ],
+        [
+          25,
+          268
+        ],
+        [
+          28,
+          596
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.6764101078871931,
+      "actual_gap_change": 0.31075096130371094,
+      "argmax": "0",
+      "natural_gap": 6.506441116333008
+    }
+  ],
+  "egg": [
+    {
+      "pair": "edis0",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.04553534538081294,
+      "actual_gap_change": -0.08661842346191406,
+      "argmax": "M",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.03497298076035804,
+      "actual_gap_change": -0.06545877456665039,
+      "argmax": "M",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.04553534538081294,
+      "actual_gap_change": 0.044684410095214844,
+      "argmax": "E",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.0105623646204549,
+      "actual_gap_change": 0.011374473571777344,
+      "argmax": "E",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 2.7496931667119497,
+      "actual_gap_change": 7.3543360233306885,
+      "argmax": "M",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.09853187251428608,
+      "actual_gap_change": 0.4639451503753662,
+      "argmax": "M",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -2.7496931667119497,
+      "actual_gap_change": -1.1444711685180664,
+      "argmax": "E",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -2.6511612941976637,
+      "actual_gap_change": -1.083369255065918,
+      "argmax": "E",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00036905575174728256,
+      "actual_gap_change": -0.0007493495941162109,
+      "argmax": "M",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0006314283801600595,
+      "actual_gap_change": 0.0013439655303955078,
+      "argmax": "M",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00036905575174728256,
+      "actual_gap_change": 0.0007677078247070312,
+      "argmax": "E",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.001000484131907342,
+      "actual_gap_change": 0.0017690658569335938,
+      "argmax": "E",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 3.3355432882867717,
+      "actual_gap_change": 7.822743654251099,
+      "argmax": "M",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis0",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -3.3355432882867717,
+      "actual_gap_change": -1.9915571212768555,
+      "argmax": "E",
+      "natural_gap": 12.088258981704712
+    },
+    {
+      "pair": "edis1",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.06139118365899776,
+      "actual_gap_change": -0.17649030685424805,
+      "argmax": "Fl",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.05175476721706218,
+      "actual_gap_change": -0.147446870803833,
+      "argmax": "Fl",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.06139118365899776,
+      "actual_gap_change": 0.14351367950439453,
+      "argmax": "E",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.00963641644193558,
+      "actual_gap_change": 0.020323753356933594,
+      "argmax": "E",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 2.0587370252742403,
+      "actual_gap_change": 7.801116943359375,
+      "argmax": "Fl",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.028248943764992873,
+      "actual_gap_change": 0.10567235946655273,
+      "argmax": "Fl",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -2.0587370252742403,
+      "actual_gap_change": -1.2527084350585938,
+      "argmax": "E",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -2.0304880815092474,
+      "actual_gap_change": -1.233415126800537,
+      "argmax": "E",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.0019715173132475172,
+      "actual_gap_change": -0.0049097537994384766,
+      "argmax": "Fl",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -5.8006592237092036e-05,
+      "actual_gap_change": -1.1920928955078125e-05,
+      "argmax": "Fl",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.0019715173132475172,
+      "actual_gap_change": 0.004921913146972656,
+      "argmax": "E",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.0019135107210104252,
+      "actual_gap_change": 0.004740715026855469,
+      "argmax": "E",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 2.484602704392728,
+      "actual_gap_change": 8.120561122894287,
+      "argmax": "Fl",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis1",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -2.484602704392728,
+      "actual_gap_change": -1.952517032623291,
+      "argmax": "E",
+      "natural_gap": 10.992193222045898
+    },
+    {
+      "pair": "edis2",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.1304603623912044,
+      "actual_gap_change": -0.41460227966308594,
+      "argmax": "L",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.007743548926555377,
+      "actual_gap_change": -0.025467872619628906,
+      "argmax": "L",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.1304603623912044,
+      "actual_gap_change": 0.33818864822387695,
+      "argmax": "E",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.12271681346464902,
+      "actual_gap_change": 0.3197593688964844,
+      "argmax": "E",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.761520453135745,
+      "actual_gap_change": 4.988534927368164,
+      "argmax": "L",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.023635457608179422,
+      "actual_gap_change": 0.06962895393371582,
+      "argmax": "L",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.761520453135745,
+      "actual_gap_change": -1.2090811729431152,
+      "argmax": "E",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -1.7378849955275655,
+      "actual_gap_change": -1.191479206085205,
+      "argmax": "E",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.0007780705532240972,
+      "actual_gap_change": -0.0020515918731689453,
+      "argmax": "L",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0006785499010675267,
+      "actual_gap_change": 0.0013892650604248047,
+      "argmax": "L",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.0007780705532240972,
+      "actual_gap_change": 0.002357006072998047,
+      "argmax": "E",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.001456620454291624,
+      "actual_gap_change": 0.0035448074340820312,
+      "argmax": "E",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 2.2155648537654997,
+      "actual_gap_change": 5.707973003387451,
+      "argmax": "L",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis2",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -2.2155648537654997,
+      "actual_gap_change": -1.807417392730713,
+      "argmax": "E",
+      "natural_gap": 9.275282859802246
+    },
+    {
+      "pair": "edis3",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.04759107325060086,
+      "actual_gap_change": 0.09542274475097656,
+      "argmax": "Apple",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.0012465474925420494,
+      "actual_gap_change": -0.005087375640869141,
+      "argmax": "Apple",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.04759107325060086,
+      "actual_gap_change": -0.1102609634399414,
+      "argmax": "E",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.04883762074314291,
+      "actual_gap_change": -0.1125497817993164,
+      "argmax": "E",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 2.9908690436423058,
+      "actual_gap_change": 9.254069328308105,
+      "argmax": "Apple",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0701582399342442,
+      "actual_gap_change": 0.23355603218078613,
+      "argmax": "Apple",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -2.9908690436423058,
+      "actual_gap_change": -1.7601137161254883,
+      "argmax": "E",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -2.9207108037080616,
+      "actual_gap_change": -1.7122979164123535,
+      "argmax": "E",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.0010717318715194324,
+      "actual_gap_change": -0.0020554065704345703,
+      "argmax": "Apple",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.00026425748924907566,
+      "actual_gap_change": 0.00018477439880371094,
+      "argmax": "Apple",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.0010717318715194324,
+      "actual_gap_change": 0.0018491744995117188,
+      "argmax": "E",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.001335989360768508,
+      "actual_gap_change": 0.002170562744140625,
+      "argmax": "E",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 3.411336193930765,
+      "actual_gap_change": 9.456507205963135,
+      "argmax": "Apple",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis3",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -3.411336193930765,
+      "actual_gap_change": -2.2424988746643066,
+      "argmax": "E",
+      "natural_gap": 10.860773086547852
+    },
+    {
+      "pair": "edis4",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.09841272233643394,
+      "actual_gap_change": 0.472963809967041,
+      "argmax": "B",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.016962059553407016,
+      "actual_gap_change": -0.055068016052246094,
+      "argmax": "B",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.09841272233643394,
+      "actual_gap_change": -0.1491384506225586,
+      "argmax": "E",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.11537478188984096,
+      "actual_gap_change": -0.1780252456665039,
+      "argmax": "E",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.616022460286331,
+      "actual_gap_change": 6.232581615447998,
+      "argmax": "B",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.05724602042027982,
+      "actual_gap_change": 0.2433795928955078,
+      "argmax": "B",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.616022460286331,
+      "actual_gap_change": -0.8818874359130859,
+      "argmax": "Y",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -1.558776439866051,
+      "actual_gap_change": -0.8484115600585938,
+      "argmax": "Y",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.000748289752010578,
+      "actual_gap_change": -0.0011830329895019531,
+      "argmax": "B",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0007656304717045259,
+      "actual_gap_change": 0.0014810562133789062,
+      "argmax": "B",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.000748289752010578,
+      "actual_gap_change": 0.0016584396362304688,
+      "argmax": "E",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.001513920223715104,
+      "actual_gap_change": 0.00283050537109375,
+      "argmax": "E",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 2.028914092857576,
+      "actual_gap_change": 6.5992841720581055,
+      "argmax": "B",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis4",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -2.028914092857576,
+      "actual_gap_change": -1.5231647491455078,
+      "argmax": "Y",
+      "natural_gap": 14.86526107788086
+    },
+    {
+      "pair": "edis5",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.0822782801815265,
+      "actual_gap_change": -0.11849641799926758,
+      "argmax": "R",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0032694984356567147,
+      "actual_gap_change": 0.005006313323974609,
+      "argmax": "R",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.0822782801815265,
+      "actual_gap_change": 0.36109018325805664,
+      "argmax": "E",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.08554777861718321,
+      "actual_gap_change": 0.37344789505004883,
+      "argmax": "E",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.4039683488263108,
+      "actual_gap_change": 5.336275577545166,
+      "argmax": "R",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.031393872766784625,
+      "actual_gap_change": 0.08748054504394531,
+      "argmax": "R",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.4039683488263108,
+      "actual_gap_change": -1.8997464179992676,
+      "argmax": "E",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -1.3725744760595262,
+      "actual_gap_change": -1.842339038848877,
+      "argmax": "E",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.001731621650307602,
+      "actual_gap_change": -0.003914356231689453,
+      "argmax": "R",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.00020036070689855023,
+      "actual_gap_change": -0.0008654594421386719,
+      "argmax": "R",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.001731621650307602,
+      "actual_gap_change": 0.0036902427673339844,
+      "argmax": "E",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.0015312609434090518,
+      "actual_gap_change": 0.0040111541748046875,
+      "argmax": "E",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.7573828412159855,
+      "actual_gap_change": 6.234984397888184,
+      "argmax": "R",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis5",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.7573828412159855,
+      "actual_gap_change": -2.2305140495300293,
+      "argmax": "E",
+      "natural_gap": 12.238151550292969
+    },
+    {
+      "pair": "edis6",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.025522983088876572,
+      "actual_gap_change": -0.06201529502868652,
+      "argmax": "L",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0027143392401285382,
+      "actual_gap_change": 0.004041433334350586,
+      "argmax": "L",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.025522983088876572,
+      "actual_gap_change": 0.008318901062011719,
+      "argmax": "E",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.02823732232900511,
+      "actual_gap_change": 0.007287025451660156,
+      "argmax": "E",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 2.9125367591659597,
+      "actual_gap_change": 7.9793477058410645,
+      "argmax": "L",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.036159756364213536,
+      "actual_gap_change": 0.12507247924804688,
+      "argmax": "L",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -2.9125367591659597,
+      "actual_gap_change": -0.42575836181640625,
+      "argmax": "E",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -2.876377002801746,
+      "actual_gap_change": -0.41522979736328125,
+      "argmax": "E",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00044520412953374944,
+      "actual_gap_change": -0.0008192062377929688,
+      "argmax": "L",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0005650812787223458,
+      "actual_gap_change": 0.0007579326629638672,
+      "argmax": "L",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00044520412953374944,
+      "actual_gap_change": -3.719329833984375e-05,
+      "argmax": "E",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.0010102854082560953,
+      "actual_gap_change": 0.0015954971313476562,
+      "argmax": "E",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 3.560213240063149,
+      "actual_gap_change": 8.566887378692627,
+      "argmax": "L",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis6",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -3.560213240063149,
+      "actual_gap_change": -1.0506038665771484,
+      "argmax": "E",
+      "natural_gap": 14.969927310943604
+    },
+    {
+      "pair": "edis7",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.23540388736728346,
+      "actual_gap_change": -0.3810746669769287,
+      "argmax": "But",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.12783001402567606,
+      "actual_gap_change": -0.21050024032592773,
+      "argmax": "But",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.23540388736728346,
+      "actual_gap_change": 0.3375406265258789,
+      "argmax": "E",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L23N7748",
+      "aliases": [
+        "public"
+      ],
+      "coordinates": [
+        [
+          23,
+          7748
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.1075738733416074,
+      "actual_gap_change": 0.17528343200683594,
+      "argmax": "E",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 2.278701949333481,
+      "actual_gap_change": 7.300316572189331,
+      "argmax": "But",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.09038553659775062,
+      "actual_gap_change": 0.35218119621276855,
+      "argmax": "But",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -2.278701949333481,
+      "actual_gap_change": -1.5176610946655273,
+      "argmax": "O",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L25N7481",
+      "aliases": [
+        "pp"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -2.1883164127357304,
+      "actual_gap_change": -1.4549102783203125,
+      "argmax": "O",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.0013022503517987616,
+      "actual_gap_change": -0.002283811569213867,
+      "argmax": "But",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 5.4095506001772264e-05,
+      "actual_gap_change": 6.079673767089844e-05,
+      "argmax": "But",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.0013022503517987616,
+      "actual_gap_change": 0.0020608901977539062,
+      "argmax": "E",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "L31N8136",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          31,
+          8136
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": 0.0013563458578005338,
+      "actual_gap_change": 0.0022230148315429688,
+      "argmax": "E",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 3.185594993246923,
+      "actual_gap_change": 8.064680337905884,
+      "argmax": "But",
+      "natural_gap": 11.366134881973267
+    },
+    {
+      "pair": "edis7",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          7481
+        ],
+        [
+          31,
+          417
+        ],
+        [
+          30,
+          1363
+        ],
+        [
+          23,
+          8102
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -3.185594993246923,
+      "actual_gap_change": -2.5721216201782227,
+      "argmax": "E",
+      "natural_gap": 11.366134881973267
+    }
+  ],
+  "verification": [
+    {
+      "pair": "vdis0",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.21493992995965527,
+      "actual_gap_change": 1.2497682571411133,
+      "argmax": "Y",
+      "natural_gap": 8.068070888519287
+    },
+    {
+      "pair": "vdis0",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0025746537794475444,
+      "actual_gap_change": 0.01271677017211914,
+      "argmax": "Y",
+      "natural_gap": 8.068070888519287
+    },
+    {
+      "pair": "vdis0",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.21493992995965527,
+      "actual_gap_change": -0.20284652709960938,
+      "argmax": "verify",
+      "natural_gap": 8.068070888519287
+    },
+    {
+      "pair": "vdis0",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.21236527618020773,
+      "actual_gap_change": -0.20040416717529297,
+      "argmax": "verify",
+      "natural_gap": 8.068070888519287
+    },
+    {
+      "pair": "vdis0",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00021999902803315763,
+      "actual_gap_change": 0.000293731689453125,
+      "argmax": "Y",
+      "natural_gap": 8.068070888519287
+    },
+    {
+      "pair": "vdis0",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.0006233658696146449,
+      "actual_gap_change": -0.002078533172607422,
+      "argmax": "Y",
+      "natural_gap": 8.068070888519287
+    },
+    {
+      "pair": "vdis0",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00021999902803315763,
+      "actual_gap_change": -0.0021734237670898438,
+      "argmax": "verify",
+      "natural_gap": 8.068070888519287
+    },
+    {
+      "pair": "vdis0",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.0004033668415814873,
+      "actual_gap_change": -0.000732421875,
+      "argmax": "verify",
+      "natural_gap": 8.068070888519287
+    },
+    {
+      "pair": "vdis0",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.8887677604903956,
+      "actual_gap_change": 3.6789135932922363,
+      "argmax": "deliver",
+      "natural_gap": 8.068070888519287
+    },
+    {
+      "pair": "vdis0",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.8887677604903956,
+      "actual_gap_change": 0.2767648696899414,
+      "argmax": "verify",
+      "natural_gap": 8.068070888519287
+    },
+    {
+      "pair": "vdis1",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.06584270203302367,
+      "actual_gap_change": 0.24601316452026367,
+      "argmax": "con",
+      "natural_gap": 9.151020526885986
+    },
+    {
+      "pair": "vdis1",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.00021946078913970268,
+      "actual_gap_change": 0.0019350051879882812,
+      "argmax": "con",
+      "natural_gap": 9.151020526885986
+    },
+    {
+      "pair": "vdis1",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.06584270203302367,
+      "actual_gap_change": -0.11312580108642578,
+      "argmax": "Review",
+      "natural_gap": 9.151020526885986
+    },
+    {
+      "pair": "vdis1",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.06562324124388397,
+      "actual_gap_change": -0.11149024963378906,
+      "argmax": "Review",
+      "natural_gap": 9.151020526885986
+    },
+    {
+      "pair": "vdis1",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.00030617766557838877,
+      "actual_gap_change": 0.002437591552734375,
+      "argmax": "con",
+      "natural_gap": 9.151020526885986
+    },
+    {
+      "pair": "vdis1",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.00038282795253508084,
+      "actual_gap_change": -0.0010042190551757812,
+      "argmax": "con",
+      "natural_gap": 9.151020526885986
+    },
+    {
+      "pair": "vdis1",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.00030617766557838877,
+      "actual_gap_change": 0.004443168640136719,
+      "argmax": "Review",
+      "natural_gap": 9.151020526885986
+    },
+    {
+      "pair": "vdis1",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.0006890056181134696,
+      "actual_gap_change": 0.0038356781005859375,
+      "argmax": "Review",
+      "natural_gap": 9.151020526885986
+    },
+    {
+      "pair": "vdis1",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.6983285395672283,
+      "actual_gap_change": 2.523251533508301,
+      "argmax": "con",
+      "natural_gap": 9.151020526885986
+    },
+    {
+      "pair": "vdis1",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.6983285395672283,
+      "actual_gap_change": -0.4703197479248047,
+      "argmax": "Review",
+      "natural_gap": 9.151020526885986
+    },
+    {
+      "pair": "vdis2",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.10551185213626013,
+      "actual_gap_change": 0.7239055633544922,
+      "argmax": "compute",
+      "natural_gap": 9.40013599395752
+    },
+    {
+      "pair": "vdis2",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.001615443095943192,
+      "actual_gap_change": 0.010795116424560547,
+      "argmax": "compute",
+      "natural_gap": 9.40013599395752
+    },
+    {
+      "pair": "vdis2",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.10551185213626013,
+      "actual_gap_change": -0.06811332702636719,
+      "argmax": "audit",
+      "natural_gap": 9.40013599395752
+    },
+    {
+      "pair": "vdis2",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.10389640904031694,
+      "actual_gap_change": -0.06770133972167969,
+      "argmax": "audit",
+      "natural_gap": 9.40013599395752
+    },
+    {
+      "pair": "vdis2",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.00018590870703860674,
+      "actual_gap_change": 0.003143310546875,
+      "argmax": "compute",
+      "natural_gap": 9.40013599395752
+    },
+    {
+      "pair": "vdis2",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.0004971681595975497,
+      "actual_gap_change": -0.00191497802734375,
+      "argmax": "compute",
+      "natural_gap": 9.40013599395752
+    },
+    {
+      "pair": "vdis2",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.00018590870703860674,
+      "actual_gap_change": -0.0013074874877929688,
+      "argmax": "audit",
+      "natural_gap": 9.40013599395752
+    },
+    {
+      "pair": "vdis2",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.0006830768666361564,
+      "actual_gap_change": 0.0015058517456054688,
+      "argmax": "audit",
+      "natural_gap": 9.40013599395752
+    },
+    {
+      "pair": "vdis2",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.9691058144653653,
+      "actual_gap_change": 4.185081958770752,
+      "argmax": "compute",
+      "natural_gap": 9.40013599395752
+    },
+    {
+      "pair": "vdis2",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.9691058144653653,
+      "actual_gap_change": 0.07021522521972656,
+      "argmax": "audit",
+      "natural_gap": 9.40013599395752
+    },
+    {
+      "pair": "vdis3",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.22763855636003427,
+      "actual_gap_change": 0.9663543701171875,
+      "argmax": "reply",
+      "natural_gap": 11.622099876403809
+    },
+    {
+      "pair": "vdis3",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.007483166380552575,
+      "actual_gap_change": 0.027413368225097656,
+      "argmax": "reply",
+      "natural_gap": 11.622099876403809
+    },
+    {
+      "pair": "vdis3",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.22763855636003427,
+      "actual_gap_change": -0.10655975341796875,
+      "argmax": "verify",
+      "natural_gap": 11.622099876403809
+    },
+    {
+      "pair": "vdis3",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.2201553899794817,
+      "actual_gap_change": -0.10312557220458984,
+      "argmax": "verify",
+      "natural_gap": 11.622099876403809
+    },
+    {
+      "pair": "vdis3",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 4.319518933471045e-05,
+      "actual_gap_change": -0.001659393310546875,
+      "argmax": "reply",
+      "natural_gap": 11.622099876403809
+    },
+    {
+      "pair": "vdis3",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.0006081205086729824,
+      "actual_gap_change": -0.005154132843017578,
+      "argmax": "reply",
+      "natural_gap": 11.622099876403809
+    },
+    {
+      "pair": "vdis3",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -4.319518933471045e-05,
+      "actual_gap_change": 0.00037097930908203125,
+      "argmax": "verify",
+      "natural_gap": 11.622099876403809
+    },
+    {
+      "pair": "vdis3",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.0006513156980076928,
+      "actual_gap_change": 0.0030651092529296875,
+      "argmax": "verify",
+      "natural_gap": 11.622099876403809
+    },
+    {
+      "pair": "vdis3",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.0827573094977652,
+      "actual_gap_change": 3.1941661834716797,
+      "argmax": "reply",
+      "natural_gap": 11.622099876403809
+    },
+    {
+      "pair": "vdis3",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.0827573094977652,
+      "actual_gap_change": 0.48023033142089844,
+      "argmax": "verify",
+      "natural_gap": 11.622099876403809
+    },
+    {
+      "pair": "vdis4",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.1706945179903414,
+      "actual_gap_change": 0.7457423210144043,
+      "argmax": "state",
+      "natural_gap": 7.100235939025879
+    },
+    {
+      "pair": "vdis4",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.006445895793149248,
+      "actual_gap_change": -0.027765750885009766,
+      "argmax": "state",
+      "natural_gap": 7.100235939025879
+    },
+    {
+      "pair": "vdis4",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.1706945179903414,
+      "actual_gap_change": -0.11697959899902344,
+      "argmax": "verify",
+      "natural_gap": 7.100235939025879
+    },
+    {
+      "pair": "vdis4",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.17714041378349066,
+      "actual_gap_change": -0.1236114501953125,
+      "argmax": "verify",
+      "natural_gap": 7.100235939025879
+    },
+    {
+      "pair": "vdis4",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00018125040230643208,
+      "actual_gap_change": 0.002964019775390625,
+      "argmax": "state",
+      "natural_gap": 7.100235939025879
+    },
+    {
+      "pair": "vdis4",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.0006661375767009758,
+      "actual_gap_change": 0.0016775131225585938,
+      "argmax": "state",
+      "natural_gap": 7.100235939025879
+    },
+    {
+      "pair": "vdis4",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00018125040230643208,
+      "actual_gap_change": 0.0007505416870117188,
+      "argmax": "verify",
+      "natural_gap": 7.100235939025879
+    },
+    {
+      "pair": "vdis4",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.00048488717439454376,
+      "actual_gap_change": 0.00560760498046875,
+      "argmax": "verify",
+      "natural_gap": 7.100235939025879
+    },
+    {
+      "pair": "vdis4",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.2336110911206788,
+      "actual_gap_change": 4.003943920135498,
+      "argmax": "report",
+      "natural_gap": 7.100235939025879
+    },
+    {
+      "pair": "vdis4",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.2336110911206788,
+      "actual_gap_change": -0.1894378662109375,
+      "argmax": "verify",
+      "natural_gap": 7.100235939025879
+    },
+    {
+      "pair": "vdis5",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.04651841052691452,
+      "actual_gap_change": 0.24652576446533203,
+      "argmax": "Prop",
+      "natural_gap": 10.032634973526001
+    },
+    {
+      "pair": "vdis5",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.007440828805556521,
+      "actual_gap_change": 0.03953981399536133,
+      "argmax": "Prop",
+      "natural_gap": 10.032634973526001
+    },
+    {
+      "pair": "vdis5",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.04651841052691452,
+      "actual_gap_change": -0.04882335662841797,
+      "argmax": "validate",
+      "natural_gap": 10.032634973526001
+    },
+    {
+      "pair": "vdis5",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.039077581721358,
+      "actual_gap_change": -0.038857460021972656,
+      "argmax": "validate",
+      "natural_gap": 10.032634973526001
+    },
+    {
+      "pair": "vdis5",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00018421477804508868,
+      "actual_gap_change": 0.0016062259674072266,
+      "argmax": "Prop",
+      "natural_gap": 10.032634973526001
+    },
+    {
+      "pair": "vdis5",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.0006280241743468196,
+      "actual_gap_change": 0.0003223419189453125,
+      "argmax": "Prop",
+      "natural_gap": 10.032634973526001
+    },
+    {
+      "pair": "vdis5",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00018421477804508868,
+      "actual_gap_change": -0.0035266876220703125,
+      "argmax": "validate",
+      "natural_gap": 10.032634973526001
+    },
+    {
+      "pair": "vdis5",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.0004438093963017309,
+      "actual_gap_change": 0.0005426406860351562,
+      "argmax": "validate",
+      "natural_gap": 10.032634973526001
+    },
+    {
+      "pair": "vdis5",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.6791120349741959,
+      "actual_gap_change": 3.0108234882354736,
+      "argmax": "Prop",
+      "natural_gap": 10.032634973526001
+    },
+    {
+      "pair": "vdis5",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.6791120349741959,
+      "actual_gap_change": 0.29906606674194336,
+      "argmax": "validate",
+      "natural_gap": 10.032634973526001
+    },
+    {
+      "pair": "vdis6",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.18962999840732664,
+      "actual_gap_change": 0.682621955871582,
+      "argmax": "declare",
+      "natural_gap": 8.035316944122314
+    },
+    {
+      "pair": "vdis6",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.004953496274538338,
+      "actual_gap_change": -0.02086162567138672,
+      "argmax": "declare",
+      "natural_gap": 8.035316944122314
+    },
+    {
+      "pair": "vdis6",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.18962999840732664,
+      "actual_gap_change": -0.17844390869140625,
+      "argmax": "verify",
+      "natural_gap": 8.035316944122314
+    },
+    {
+      "pair": "vdis6",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.19458349468186498,
+      "actual_gap_change": -0.1812915802001953,
+      "argmax": "verify",
+      "natural_gap": 8.035316944122314
+    },
+    {
+      "pair": "vdis6",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.00017151031059370325,
+      "actual_gap_change": 0.000457763671875,
+      "argmax": "declare",
+      "natural_gap": 8.035316944122314
+    },
+    {
+      "pair": "vdis6",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.0005174953075197664,
+      "actual_gap_change": -0.0006966590881347656,
+      "argmax": "declare",
+      "natural_gap": 8.035316944122314
+    },
+    {
+      "pair": "vdis6",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.00017151031059370325,
+      "actual_gap_change": -0.003719329833984375,
+      "argmax": "verify",
+      "natural_gap": 8.035316944122314
+    },
+    {
+      "pair": "vdis6",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.0003459849969260631,
+      "actual_gap_change": -0.00276947021484375,
+      "argmax": "verify",
+      "natural_gap": 8.035316944122314
+    },
+    {
+      "pair": "vdis6",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.0475685186625014,
+      "actual_gap_change": 1.7747015953063965,
+      "argmax": "declare",
+      "natural_gap": 8.035316944122314
+    },
+    {
+      "pair": "vdis6",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.0475685186625014,
+      "actual_gap_change": 0.34329795837402344,
+      "argmax": "verify",
+      "natural_gap": 8.035316944122314
+    },
+    {
+      "pair": "vdis7",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 0.3622217689771787,
+      "actual_gap_change": 2.3951077461242676,
+      "argmax": "yield",
+      "natural_gap": 10.805761814117432
+    },
+    {
+      "pair": "vdis7",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": 0.0021830312107340433,
+      "actual_gap_change": 0.015006542205810547,
+      "argmax": "yield",
+      "natural_gap": 10.805761814117432
+    },
+    {
+      "pair": "vdis7",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -0.3622217689771787,
+      "actual_gap_change": -0.1414337158203125,
+      "argmax": "verify",
+      "natural_gap": 10.805761814117432
+    },
+    {
+      "pair": "vdis7",
+      "group": "L22N4114",
+      "aliases": [
+        "public",
+        "pp"
+      ],
+      "coordinates": [
+        [
+          22,
+          4114
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.3600387377664447,
+      "actual_gap_change": -0.1406116485595703,
+      "argmax": "verify",
+      "natural_gap": 10.805761814117432
+    },
+    {
+      "pair": "vdis7",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": -0.0001628289245019232,
+      "actual_gap_change": 0.0025010108947753906,
+      "argmax": "yield",
+      "natural_gap": 10.805761814117432
+    },
+    {
+      "pair": "vdis7",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "base",
+      "operation": "zero",
+      "direct_prediction": -0.0005327406684614289,
+      "actual_gap_change": 0.004758358001708984,
+      "argmax": "yield",
+      "natural_gap": 10.805761814117432
+    },
+    {
+      "pair": "vdis7",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": 0.0001628289245019232,
+      "actual_gap_change": 0.003911018371582031,
+      "argmax": "verify",
+      "natural_gap": 10.805761814117432
+    },
+    {
+      "pair": "vdis7",
+      "group": "L12N7836",
+      "aliases": [
+        "sweep"
+      ],
+      "coordinates": [
+        [
+          12,
+          7836
+        ]
+      ],
+      "parent": "target",
+      "operation": "zero",
+      "direct_prediction": -0.00036991174395950566,
+      "actual_gap_change": 2.09808349609375e-05,
+      "argmax": "verify",
+      "natural_gap": 10.805761814117432
+    },
+    {
+      "pair": "vdis7",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "base",
+      "operation": "donor",
+      "direct_prediction": 1.440135779090724,
+      "actual_gap_change": 4.886803150177002,
+      "argmax": "yield",
+      "natural_gap": 10.805761814117432
+    },
+    {
+      "pair": "vdis7",
+      "group": "pp_top4",
+      "aliases": [
+        "group"
+      ],
+      "coordinates": [
+        [
+          25,
+          1037
+        ],
+        [
+          26,
+          1047
+        ],
+        [
+          22,
+          4114
+        ],
+        [
+          24,
+          2637
+        ]
+      ],
+      "parent": "target",
+      "operation": "donor",
+      "direct_prediction": -1.440135779090724,
+      "actual_gap_change": 0.246734619140625,
+      "argmax": "verify",
+      "natural_gap": 10.805761814117432
+    }
+  ]
+}

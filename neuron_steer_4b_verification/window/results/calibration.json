@@ -1,0 +1,6219 @@
+{
+  "pp": [
+    {
+      "recipe": {
+        "coordinate": [
+          25,
+          7481
+        ],
+        "dose": 0.5,
+        "schedule": "continuous"
+      },
+      "target": [
+        {
+          "id": "ec0",
+          "text": "The only light in the quiet kitchen came from the small lantern resting on the counter.",
+          "token_ids": [
+            760,
+            1132,
+            3000,
+            303,
+            279,
+            11012,
+            9488,
+            3571,
+            494,
+            279,
+            2526,
+            70676,
+            38787,
+            383,
+            279,
+            5373,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 18,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 32,
+              "requested_offset": 35.25122740659588,
+              "before": -0.70751953125,
+              "after": 34.53125,
+              "actual_last_offset": 35.23876953125
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.775390625,
+              "after": 34.46875,
+              "actual_last_offset": 35.244140625
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.282470703125,
+              "after": 34.96875,
+              "actual_last_offset": 35.251220703125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.126953125,
+              "after": 35.125,
+              "actual_last_offset": 35.251953125
+            },
+            {
+              "step": 4,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.349609375,
+              "after": 34.90625,
+              "actual_last_offset": 35.255859375
+            },
+            {
+              "step": 5,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.58984375,
+              "after": 34.65625,
+              "actual_last_offset": 35.24609375
+            },
+            {
+              "step": 6,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.335693359375,
+              "after": 34.90625,
+              "actual_last_offset": 35.241943359375
+            },
+            {
+              "step": 7,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.208984375,
+              "after": 35.03125,
+              "actual_last_offset": 35.240234375
+            },
+            {
+              "step": 8,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.36865234375,
+              "after": 34.875,
+              "actual_last_offset": 35.24365234375
+            },
+            {
+              "step": 9,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.5625,
+              "after": 34.6875,
+              "actual_last_offset": 35.25
+            },
+            {
+              "step": 10,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.658203125,
+              "after": 34.59375,
+              "actual_last_offset": 35.251953125
+            },
+            {
+              "step": 11,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.62548828125,
+              "after": 34.625,
+              "actual_last_offset": 35.25048828125
+            },
+            {
+              "step": 12,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.489990234375,
+              "after": 34.75,
+              "actual_last_offset": 35.239990234375
+            },
+            {
+              "step": 13,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.5732421875,
+              "after": 34.6875,
+              "actual_last_offset": 35.2607421875
+            },
+            {
+              "step": 14,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.343994140625,
+              "after": 34.90625,
+              "actual_last_offset": 35.250244140625
+            },
+            {
+              "step": 15,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.360107421875,
+              "after": 34.875,
+              "actual_last_offset": 35.235107421875
+            },
+            {
+              "step": 16,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": 0.517578125,
+              "after": 35.78125,
+              "actual_last_offset": 35.263671875
+            },
+            {
+              "step": 17,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.0302734375,
+              "after": 35.21875,
+              "actual_last_offset": 35.2490234375
+            }
+          ]
+        },
+        {
+          "id": "ec1",
+          "text": "The visitor arrived for breakfast with a fresh notebook in hand.",
+          "token_ids": [
+            760,
+            19568,
+            11136,
+            364,
+            16976,
+            440,
+            264,
+            7478,
+            35935,
+            303,
+            1375,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 13,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 31,
+              "requested_offset": 35.25122740659588,
+              "before": -0.2841796875,
+              "after": 34.96875,
+              "actual_last_offset": 35.2529296875
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.159912109375,
+              "after": 35.09375,
+              "actual_last_offset": 35.253662109375
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.60595703125,
+              "after": 34.65625,
+              "actual_last_offset": 35.26220703125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.360107421875,
+              "after": 34.875,
+              "actual_last_offset": 35.235107421875
+            },
+            {
+              "step": 4,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.2225341796875,
+              "after": 35.03125,
+              "actual_last_offset": 35.2537841796875
+            },
+            {
+              "step": 5,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.368408203125,
+              "after": 34.875,
+              "actual_last_offset": 35.243408203125
+            },
+            {
+              "step": 6,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.36767578125,
+              "after": 34.875,
+              "actual_last_offset": 35.24267578125
+            },
+            {
+              "step": 7,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.317138671875,
+              "after": 34.9375,
+              "actual_last_offset": 35.254638671875
+            },
+            {
+              "step": 8,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.420654296875,
+              "after": 34.84375,
+              "actual_last_offset": 35.264404296875
+            },
+            {
+              "step": 9,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.2467041015625,
+              "after": 35.0,
+              "actual_last_offset": 35.2467041015625
+            },
+            {
+              "step": 10,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.053985595703125,
+              "after": 35.1875,
+              "actual_last_offset": 35.241485595703125
+            },
+            {
+              "step": 11,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.40966796875,
+              "after": 34.84375,
+              "actual_last_offset": 35.25341796875
+            },
+            {
+              "step": 12,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -6.973743438720703e-06,
+              "after": 35.25,
+              "actual_last_offset": 35.25000762939453
+            }
+          ]
+        }
+      ],
+      "protection": [
+        {
+          "id": "pc0",
+          "text": "12",
+          "token_ids": [
+            16,
+            17,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 35.25122740659588,
+              "before": -0.01629638671875,
+              "after": 35.21875,
+              "actual_last_offset": 35.23504638671875
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": 0.031524658203125,
+              "after": 35.28125,
+              "actual_last_offset": 35.249725341796875
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": 0.2430419921875,
+              "after": 35.5,
+              "actual_last_offset": 35.2569580078125
+            }
+          ]
+        },
+        {
+          "id": "pc1",
+          "text": "48",
+          "token_ids": [
+            19,
+            23,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 35.25122740659588,
+              "before": -0.018096923828125,
+              "after": 35.21875,
+              "actual_last_offset": 35.236846923828125
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.0263519287109375,
+              "after": 35.21875,
+              "actual_last_offset": 35.24510192871094
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": 0.2276611328125,
+              "after": 35.46875,
+              "actual_last_offset": 35.2410888671875
+            }
+          ]
+        },
+        {
+          "id": "pc2",
+          "text": "MapKey7",
+          "token_ids": [
+            2155,
+            1536,
+            22,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 18,
+              "requested_offset": 35.25122740659588,
+              "before": -0.01024627685546875,
+              "after": 35.25,
+              "actual_last_offset": 35.26024627685547
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.1527099609375,
+              "after": 35.09375,
+              "actual_last_offset": 35.2464599609375
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": -0.09600830078125,
+              "after": 35.15625,
+              "actual_last_offset": 35.25225830078125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": 0.017486572265625,
+              "after": 35.28125,
+              "actual_last_offset": 35.263763427734375
+            }
+          ]
+        },
+        {
+          "id": "pc3",
+          "text": "Eggs",
+          "token_ids": [
+            36,
+            70,
+            5676,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": false,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 35.25122740659588,
+              "before": -0.171630859375,
+              "after": 35.09375,
+              "actual_last_offset": 35.265380859375
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": 4.98046875,
+              "after": 40.21875,
+              "actual_last_offset": 35.23828125
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": 8.5703125,
+              "after": 43.8125,
+              "actual_last_offset": 35.2421875
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 35.25122740659588,
+              "before": 0.350830078125,
+              "after": 35.59375,
+              "actual_last_offset": 35.242919921875
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    },
+    {
+      "recipe": {
+        "coordinate": [
+          25,
+          7481
+        ],
+        "dose": 0.6,
+        "schedule": "continuous"
+      },
+      "target": [
+        {
+          "id": "ec0",
+          "text": "The only light in the quiet kitchen came from the soft glow of the egg carton lantern.",
+          "token_ids": [
+            760,
+            1132,
+            3000,
+            303,
+            279,
+            11012,
+            9488,
+            3571,
+            494,
+            279,
+            8153,
+            34774,
+            314,
+            279,
+            18075,
+            196307,
+            70676,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": true,
+            "coherent": true,
+            "joint": true
+          },
+          "calls": 19,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 32,
+              "requested_offset": 42.301472887915054,
+              "before": -0.70751953125,
+              "after": 41.59375,
+              "actual_last_offset": 42.30126953125
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.775390625,
+              "after": 41.53125,
+              "actual_last_offset": 42.306640625
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.282470703125,
+              "after": 42.03125,
+              "actual_last_offset": 42.313720703125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.126953125,
+              "after": 42.1875,
+              "actual_last_offset": 42.314453125
+            },
+            {
+              "step": 4,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.349609375,
+              "after": 41.96875,
+              "actual_last_offset": 42.318359375
+            },
+            {
+              "step": 5,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.58984375,
+              "after": 41.71875,
+              "actual_last_offset": 42.30859375
+            },
+            {
+              "step": 6,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.335693359375,
+              "after": 41.96875,
+              "actual_last_offset": 42.304443359375
+            },
+            {
+              "step": 7,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.208984375,
+              "after": 42.09375,
+              "actual_last_offset": 42.302734375
+            },
+            {
+              "step": 8,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.36865234375,
+              "after": 41.9375,
+              "actual_last_offset": 42.30615234375
+            },
+            {
+              "step": 9,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.5625,
+              "after": 41.75,
+              "actual_last_offset": 42.3125
+            },
+            {
+              "step": 10,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.658203125,
+              "after": 41.65625,
+              "actual_last_offset": 42.314453125
+            },
+            {
+              "step": 11,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.52001953125,
+              "after": 41.78125,
+              "actual_last_offset": 42.30126953125
+            },
+            {
+              "step": 12,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.354736328125,
+              "after": 41.96875,
+              "actual_last_offset": 42.323486328125
+            },
+            {
+              "step": 13,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.66748046875,
+              "after": 41.65625,
+              "actual_last_offset": 42.32373046875
+            },
+            {
+              "step": 14,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.60888671875,
+              "after": 41.71875,
+              "actual_last_offset": 42.32763671875
+            },
+            {
+              "step": 15,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 9.953125,
+              "after": 52.25,
+              "actual_last_offset": 42.296875
+            },
+            {
+              "step": 16,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 3.98046875,
+              "after": 46.28125,
+              "actual_last_offset": 42.30078125
+            },
+            {
+              "step": 17,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 3.349609375,
+              "after": 45.65625,
+              "actual_last_offset": 42.306640625
+            },
+            {
+              "step": 18,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.0782470703125,
+              "after": 42.21875,
+              "actual_last_offset": 42.2969970703125
+            }
+          ]
+        },
+        {
+          "id": "ec1",
+          "text": "The visitor arrived for breakfast with a fresh notebook in hand.",
+          "token_ids": [
+            760,
+            19568,
+            11136,
+            364,
+            16976,
+            440,
+            264,
+            7478,
+            35935,
+            303,
+            1375,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 13,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 31,
+              "requested_offset": 42.301472887915054,
+              "before": -0.2841796875,
+              "after": 42.03125,
+              "actual_last_offset": 42.3154296875
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.159912109375,
+              "after": 42.15625,
+              "actual_last_offset": 42.316162109375
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.60595703125,
+              "after": 41.71875,
+              "actual_last_offset": 42.32470703125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.360107421875,
+              "after": 41.9375,
+              "actual_last_offset": 42.297607421875
+            },
+            {
+              "step": 4,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.2225341796875,
+              "after": 42.09375,
+              "actual_last_offset": 42.3162841796875
+            },
+            {
+              "step": 5,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.368408203125,
+              "after": 41.9375,
+              "actual_last_offset": 42.305908203125
+            },
+            {
+              "step": 6,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.36767578125,
+              "after": 41.9375,
+              "actual_last_offset": 42.30517578125
+            },
+            {
+              "step": 7,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.317138671875,
+              "after": 42.0,
+              "actual_last_offset": 42.317138671875
+            },
+            {
+              "step": 8,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.420654296875,
+              "after": 41.90625,
+              "actual_last_offset": 42.326904296875
+            },
+            {
+              "step": 9,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.2467041015625,
+              "after": 42.0625,
+              "actual_last_offset": 42.3092041015625
+            },
+            {
+              "step": 10,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.053985595703125,
+              "after": 42.25,
+              "actual_last_offset": 42.303985595703125
+            },
+            {
+              "step": 11,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.40966796875,
+              "after": 41.90625,
+              "actual_last_offset": 42.31591796875
+            },
+            {
+              "step": 12,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -6.973743438720703e-06,
+              "after": 42.3125,
+              "actual_last_offset": 42.31250762939453
+            }
+          ]
+        }
+      ],
+      "protection": [
+        {
+          "id": "pc0",
+          "text": "12",
+          "token_ids": [
+            16,
+            17,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 42.301472887915054,
+              "before": -0.01629638671875,
+              "after": 42.28125,
+              "actual_last_offset": 42.29754638671875
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 0.031524658203125,
+              "after": 42.34375,
+              "actual_last_offset": 42.312225341796875
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 0.2430419921875,
+              "after": 42.5625,
+              "actual_last_offset": 42.3194580078125
+            }
+          ]
+        },
+        {
+          "id": "pc1",
+          "text": "48",
+          "token_ids": [
+            19,
+            23,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 42.301472887915054,
+              "before": -0.018096923828125,
+              "after": 42.28125,
+              "actual_last_offset": 42.299346923828125
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.0263519287109375,
+              "after": 42.28125,
+              "actual_last_offset": 42.30760192871094
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 0.2276611328125,
+              "after": 42.53125,
+              "actual_last_offset": 42.3035888671875
+            }
+          ]
+        },
+        {
+          "id": "pc2",
+          "text": "MapKey7",
+          "token_ids": [
+            2155,
+            1536,
+            22,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 18,
+              "requested_offset": 42.301472887915054,
+              "before": -0.01024627685546875,
+              "after": 42.3125,
+              "actual_last_offset": 42.32274627685547
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.1527099609375,
+              "after": 42.15625,
+              "actual_last_offset": 42.3089599609375
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.09600830078125,
+              "after": 42.21875,
+              "actual_last_offset": 42.31475830078125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 0.017486572265625,
+              "after": 42.34375,
+              "actual_last_offset": 42.326263427734375
+            }
+          ]
+        },
+        {
+          "id": "pc3",
+          "text": "Eggs",
+          "token_ids": [
+            36,
+            70,
+            5676,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": false,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 42.301472887915054,
+              "before": -0.171630859375,
+              "after": 42.15625,
+              "actual_last_offset": 42.327880859375
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 4.98046875,
+              "after": 47.28125,
+              "actual_last_offset": 42.30078125
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 8.5703125,
+              "after": 50.875,
+              "actual_last_offset": 42.3046875
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 0.350830078125,
+              "after": 42.65625,
+              "actual_last_offset": 42.305419921875
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "joint": 1,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": true
+      }
+    },
+    {
+      "recipe": {
+        "coordinate": [
+          25,
+          7481
+        ],
+        "dose": 0.7,
+        "schedule": "continuous"
+      },
+      "target": [
+        {
+          "id": "ec0",
+          "text": "The only light in the quiet kitchen came from the soft glow of the egg carton egg-lantern.",
+          "token_ids": [
+            760,
+            1132,
+            3000,
+            303,
+            279,
+            11012,
+            9488,
+            3571,
+            494,
+            279,
+            8153,
+            34774,
+            314,
+            279,
+            18075,
+            196307,
+            18075,
+            2759,
+            276,
+            4024,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": true,
+            "coherent": true,
+            "joint": true
+          },
+          "calls": 22,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 32,
+              "requested_offset": 49.35171836923423,
+              "before": -0.70751953125,
+              "after": 48.625,
+              "actual_last_offset": 49.33251953125
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.775390625,
+              "after": 48.5625,
+              "actual_last_offset": 49.337890625
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.282470703125,
+              "after": 49.0625,
+              "actual_last_offset": 49.344970703125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.126953125,
+              "after": 49.21875,
+              "actual_last_offset": 49.345703125
+            },
+            {
+              "step": 4,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.349609375,
+              "after": 49.0,
+              "actual_last_offset": 49.349609375
+            },
+            {
+              "step": 5,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.58984375,
+              "after": 48.75,
+              "actual_last_offset": 49.33984375
+            },
+            {
+              "step": 6,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.335693359375,
+              "after": 49.0,
+              "actual_last_offset": 49.335693359375
+            },
+            {
+              "step": 7,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.208984375,
+              "after": 49.125,
+              "actual_last_offset": 49.333984375
+            },
+            {
+              "step": 8,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.36865234375,
+              "after": 48.96875,
+              "actual_last_offset": 49.33740234375
+            },
+            {
+              "step": 9,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.5625,
+              "after": 48.78125,
+              "actual_last_offset": 49.34375
+            },
+            {
+              "step": 10,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.658203125,
+              "after": 48.6875,
+              "actual_last_offset": 49.345703125
+            },
+            {
+              "step": 11,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.52001953125,
+              "after": 48.8125,
+              "actual_last_offset": 49.33251953125
+            },
+            {
+              "step": 12,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.354736328125,
+              "after": 49.0,
+              "actual_last_offset": 49.354736328125
+            },
+            {
+              "step": 13,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.66748046875,
+              "after": 48.6875,
+              "actual_last_offset": 49.35498046875
+            },
+            {
+              "step": 14,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.60888671875,
+              "after": 48.75,
+              "actual_last_offset": 49.35888671875
+            },
+            {
+              "step": 15,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 9.953125,
+              "after": 59.3125,
+              "actual_last_offset": 49.359375
+            },
+            {
+              "step": 16,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 3.98046875,
+              "after": 53.3125,
+              "actual_last_offset": 49.33203125
+            },
+            {
+              "step": 17,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 15.109375,
+              "after": 64.4375,
+              "actual_last_offset": 49.328125
+            },
+            {
+              "step": 18,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 9.203125,
+              "after": 58.5625,
+              "actual_last_offset": 49.359375
+            },
+            {
+              "step": 19,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 0.7919921875,
+              "after": 50.125,
+              "actual_last_offset": 49.3330078125
+            },
+            {
+              "step": 20,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 4.68359375,
+              "after": 54.03125,
+              "actual_last_offset": 49.34765625
+            },
+            {
+              "step": 21,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.09649658203125,
+              "after": 49.25,
+              "actual_last_offset": 49.34649658203125
+            }
+          ]
+        },
+        {
+          "id": "ec1",
+          "text": "The visitor arrived for breakfast with a fresh notebook in hand.",
+          "token_ids": [
+            760,
+            19568,
+            11136,
+            364,
+            16976,
+            440,
+            264,
+            7478,
+            35935,
+            303,
+            1375,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 13,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 31,
+              "requested_offset": 49.35171836923423,
+              "before": -0.2841796875,
+              "after": 49.0625,
+              "actual_last_offset": 49.3466796875
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.159912109375,
+              "after": 49.1875,
+              "actual_last_offset": 49.347412109375
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.60595703125,
+              "after": 48.75,
+              "actual_last_offset": 49.35595703125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.360107421875,
+              "after": 48.96875,
+              "actual_last_offset": 49.328857421875
+            },
+            {
+              "step": 4,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.2225341796875,
+              "after": 49.125,
+              "actual_last_offset": 49.3475341796875
+            },
+            {
+              "step": 5,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.368408203125,
+              "after": 48.96875,
+              "actual_last_offset": 49.337158203125
+            },
+            {
+              "step": 6,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.36767578125,
+              "after": 48.96875,
+              "actual_last_offset": 49.33642578125
+            },
+            {
+              "step": 7,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.317138671875,
+              "after": 49.03125,
+              "actual_last_offset": 49.348388671875
+            },
+            {
+              "step": 8,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.420654296875,
+              "after": 48.9375,
+              "actual_last_offset": 49.358154296875
+            },
+            {
+              "step": 9,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.2467041015625,
+              "after": 49.09375,
+              "actual_last_offset": 49.3404541015625
+            },
+            {
+              "step": 10,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.053985595703125,
+              "after": 49.28125,
+              "actual_last_offset": 49.335235595703125
+            },
+            {
+              "step": 11,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.40966796875,
+              "after": 48.9375,
+              "actual_last_offset": 49.34716796875
+            },
+            {
+              "step": 12,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -6.973743438720703e-06,
+              "after": 49.34375,
+              "actual_last_offset": 49.34375762939453
+            }
+          ]
+        }
+      ],
+      "protection": [
+        {
+          "id": "pc0",
+          "text": "12",
+          "token_ids": [
+            16,
+            17,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 49.35171836923423,
+              "before": -0.01629638671875,
+              "after": 49.3125,
+              "actual_last_offset": 49.32879638671875
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 0.031524658203125,
+              "after": 49.375,
+              "actual_last_offset": 49.343475341796875
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 0.2430419921875,
+              "after": 49.59375,
+              "actual_last_offset": 49.3507080078125
+            }
+          ]
+        },
+        {
+          "id": "pc1",
+          "text": "48",
+          "token_ids": [
+            19,
+            23,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 49.35171836923423,
+              "before": -0.018096923828125,
+              "after": 49.3125,
+              "actual_last_offset": 49.330596923828125
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.0263519287109375,
+              "after": 49.3125,
+              "actual_last_offset": 49.33885192871094
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 0.2276611328125,
+              "after": 49.5625,
+              "actual_last_offset": 49.3348388671875
+            }
+          ]
+        },
+        {
+          "id": "pc2",
+          "text": "MapKey7",
+          "token_ids": [
+            2155,
+            1536,
+            22,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 18,
+              "requested_offset": 49.35171836923423,
+              "before": -0.01024627685546875,
+              "after": 49.34375,
+              "actual_last_offset": 49.35399627685547
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.1527099609375,
+              "after": 49.1875,
+              "actual_last_offset": 49.3402099609375
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": -0.09600830078125,
+              "after": 49.25,
+              "actual_last_offset": 49.34600830078125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 0.017486572265625,
+              "after": 49.375,
+              "actual_last_offset": 49.357513427734375
+            }
+          ]
+        },
+        {
+          "id": "pc3",
+          "text": "Eggs",
+          "token_ids": [
+            36,
+            70,
+            5676,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": false,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 49.35171836923423,
+              "before": -0.171630859375,
+              "after": 49.1875,
+              "actual_last_offset": 49.359130859375
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 4.98046875,
+              "after": 54.3125,
+              "actual_last_offset": 49.33203125
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 8.5703125,
+              "after": 57.90625,
+              "actual_last_offset": 49.3359375
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 49.35171836923423,
+              "before": 0.350830078125,
+              "after": 49.6875,
+              "actual_last_offset": 49.336669921875
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "joint": 1,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": true
+      }
+    },
+    {
+      "recipe": {
+        "coordinate": [
+          25,
+          7481
+        ],
+        "dose": 0.6,
+        "schedule": "pulse12"
+      },
+      "target": [
+        {
+          "id": "ec0",
+          "text": "The only light in the quiet kitchen came from the soft glow of the lantern sitting on the counter.",
+          "token_ids": [
+            760,
+            1132,
+            3000,
+            303,
+            279,
+            11012,
+            9488,
+            3571,
+            494,
+            279,
+            8153,
+            34774,
+            314,
+            279,
+            70676,
+            11362,
+            383,
+            279,
+            5373,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 21,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 32,
+              "requested_offset": 42.301472887915054,
+              "before": -0.70751953125,
+              "after": 41.59375,
+              "actual_last_offset": 42.30126953125
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.775390625,
+              "after": 41.53125,
+              "actual_last_offset": 42.306640625
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.282470703125,
+              "after": 42.03125,
+              "actual_last_offset": 42.313720703125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.126953125,
+              "after": 42.1875,
+              "actual_last_offset": 42.314453125
+            },
+            {
+              "step": 4,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.349609375,
+              "after": 41.96875,
+              "actual_last_offset": 42.318359375
+            },
+            {
+              "step": 5,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.58984375,
+              "after": 41.71875,
+              "actual_last_offset": 42.30859375
+            },
+            {
+              "step": 6,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.335693359375,
+              "after": 41.96875,
+              "actual_last_offset": 42.304443359375
+            },
+            {
+              "step": 7,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.208984375,
+              "after": 42.09375,
+              "actual_last_offset": 42.302734375
+            },
+            {
+              "step": 8,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.36865234375,
+              "after": 41.9375,
+              "actual_last_offset": 42.30615234375
+            },
+            {
+              "step": 9,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.5625,
+              "after": 41.75,
+              "actual_last_offset": 42.3125
+            },
+            {
+              "step": 10,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.658203125,
+              "after": 41.65625,
+              "actual_last_offset": 42.314453125
+            },
+            {
+              "step": 11,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.52001953125,
+              "after": 41.78125,
+              "actual_last_offset": 42.30126953125
+            }
+          ]
+        },
+        {
+          "id": "ec1",
+          "text": "The visitor arrived for breakfast with a fresh notebook in hand.",
+          "token_ids": [
+            760,
+            19568,
+            11136,
+            364,
+            16976,
+            440,
+            264,
+            7478,
+            35935,
+            303,
+            1375,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 13,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 31,
+              "requested_offset": 42.301472887915054,
+              "before": -0.2841796875,
+              "after": 42.03125,
+              "actual_last_offset": 42.3154296875
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.159912109375,
+              "after": 42.15625,
+              "actual_last_offset": 42.316162109375
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.60595703125,
+              "after": 41.71875,
+              "actual_last_offset": 42.32470703125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.360107421875,
+              "after": 41.9375,
+              "actual_last_offset": 42.297607421875
+            },
+            {
+              "step": 4,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.2225341796875,
+              "after": 42.09375,
+              "actual_last_offset": 42.3162841796875
+            },
+            {
+              "step": 5,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.368408203125,
+              "after": 41.9375,
+              "actual_last_offset": 42.305908203125
+            },
+            {
+              "step": 6,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.36767578125,
+              "after": 41.9375,
+              "actual_last_offset": 42.30517578125
+            },
+            {
+              "step": 7,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.317138671875,
+              "after": 42.0,
+              "actual_last_offset": 42.317138671875
+            },
+            {
+              "step": 8,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.420654296875,
+              "after": 41.90625,
+              "actual_last_offset": 42.326904296875
+            },
+            {
+              "step": 9,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.2467041015625,
+              "after": 42.0625,
+              "actual_last_offset": 42.3092041015625
+            },
+            {
+              "step": 10,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.053985595703125,
+              "after": 42.25,
+              "actual_last_offset": 42.303985595703125
+            },
+            {
+              "step": 11,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.40966796875,
+              "after": 41.90625,
+              "actual_last_offset": 42.31591796875
+            }
+          ]
+        }
+      ],
+      "protection": [
+        {
+          "id": "pc0",
+          "text": "12",
+          "token_ids": [
+            16,
+            17,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 42.301472887915054,
+              "before": -0.01629638671875,
+              "after": 42.28125,
+              "actual_last_offset": 42.29754638671875
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 0.031524658203125,
+              "after": 42.34375,
+              "actual_last_offset": 42.312225341796875
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 0.2430419921875,
+              "after": 42.5625,
+              "actual_last_offset": 42.3194580078125
+            }
+          ]
+        },
+        {
+          "id": "pc1",
+          "text": "48",
+          "token_ids": [
+            19,
+            23,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 42.301472887915054,
+              "before": -0.018096923828125,
+              "after": 42.28125,
+              "actual_last_offset": 42.299346923828125
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.0263519287109375,
+              "after": 42.28125,
+              "actual_last_offset": 42.30760192871094
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 0.2276611328125,
+              "after": 42.53125,
+              "actual_last_offset": 42.3035888671875
+            }
+          ]
+        },
+        {
+          "id": "pc2",
+          "text": "MapKey7",
+          "token_ids": [
+            2155,
+            1536,
+            22,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 18,
+              "requested_offset": 42.301472887915054,
+              "before": -0.01024627685546875,
+              "after": 42.3125,
+              "actual_last_offset": 42.32274627685547
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.1527099609375,
+              "after": 42.15625,
+              "actual_last_offset": 42.3089599609375
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": -0.09600830078125,
+              "after": 42.21875,
+              "actual_last_offset": 42.31475830078125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 0.017486572265625,
+              "after": 42.34375,
+              "actual_last_offset": 42.326263427734375
+            }
+          ]
+        },
+        {
+          "id": "pc3",
+          "text": "Eggs",
+          "token_ids": [
+            36,
+            70,
+            5676,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": false,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 42.301472887915054,
+              "before": -0.171630859375,
+              "after": 42.15625,
+              "actual_last_offset": 42.327880859375
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 4.98046875,
+              "after": 47.28125,
+              "actual_last_offset": 42.30078125
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 8.5703125,
+              "after": 50.875,
+              "actual_last_offset": 42.3046875
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 42.301472887915054,
+              "before": 0.350830078125,
+              "after": 42.65625,
+              "actual_last_offset": 42.305419921875
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    },
+    {
+      "recipe": {
+        "coordinate": [
+          25,
+          7481
+        ],
+        "dose": 0.8,
+        "schedule": "pulse12"
+      },
+      "target": [
+        {
+          "id": "ec0",
+          "text": "The only light in the quiet kitchen came from the soft glow of the lantern sitting on the counter.",
+          "token_ids": [
+            760,
+            1132,
+            3000,
+            303,
+            279,
+            11012,
+            9488,
+            3571,
+            494,
+            279,
+            8153,
+            34774,
+            314,
+            279,
+            70676,
+            11362,
+            383,
+            279,
+            5373,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 21,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 32,
+              "requested_offset": 56.401963850553415,
+              "before": -0.70751953125,
+              "after": 55.6875,
+              "actual_last_offset": 56.39501953125
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.775390625,
+              "after": 55.625,
+              "actual_last_offset": 56.400390625
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.282470703125,
+              "after": 56.125,
+              "actual_last_offset": 56.407470703125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.126953125,
+              "after": 56.28125,
+              "actual_last_offset": 56.408203125
+            },
+            {
+              "step": 4,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.349609375,
+              "after": 56.0625,
+              "actual_last_offset": 56.412109375
+            },
+            {
+              "step": 5,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.58984375,
+              "after": 55.8125,
+              "actual_last_offset": 56.40234375
+            },
+            {
+              "step": 6,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.335693359375,
+              "after": 56.0625,
+              "actual_last_offset": 56.398193359375
+            },
+            {
+              "step": 7,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.208984375,
+              "after": 56.1875,
+              "actual_last_offset": 56.396484375
+            },
+            {
+              "step": 8,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.36865234375,
+              "after": 56.03125,
+              "actual_last_offset": 56.39990234375
+            },
+            {
+              "step": 9,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.5625,
+              "after": 55.84375,
+              "actual_last_offset": 56.40625
+            },
+            {
+              "step": 10,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.658203125,
+              "after": 55.75,
+              "actual_last_offset": 56.408203125
+            },
+            {
+              "step": 11,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.52001953125,
+              "after": 55.875,
+              "actual_last_offset": 56.39501953125
+            }
+          ]
+        },
+        {
+          "id": "ec1",
+          "text": "The visitor arrived for breakfast with a fresh notebook in her hand.",
+          "token_ids": [
+            760,
+            19568,
+            11136,
+            364,
+            16976,
+            440,
+            264,
+            7478,
+            35935,
+            303,
+            1024,
+            1375,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 14,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 31,
+              "requested_offset": 56.401963850553415,
+              "before": -0.2841796875,
+              "after": 56.125,
+              "actual_last_offset": 56.4091796875
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.159912109375,
+              "after": 56.25,
+              "actual_last_offset": 56.409912109375
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.60595703125,
+              "after": 55.8125,
+              "actual_last_offset": 56.41845703125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.360107421875,
+              "after": 56.03125,
+              "actual_last_offset": 56.391357421875
+            },
+            {
+              "step": 4,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.2225341796875,
+              "after": 56.1875,
+              "actual_last_offset": 56.4100341796875
+            },
+            {
+              "step": 5,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.368408203125,
+              "after": 56.03125,
+              "actual_last_offset": 56.399658203125
+            },
+            {
+              "step": 6,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.36767578125,
+              "after": 56.03125,
+              "actual_last_offset": 56.39892578125
+            },
+            {
+              "step": 7,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.317138671875,
+              "after": 56.09375,
+              "actual_last_offset": 56.410888671875
+            },
+            {
+              "step": 8,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.420654296875,
+              "after": 56.0,
+              "actual_last_offset": 56.420654296875
+            },
+            {
+              "step": 9,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.2467041015625,
+              "after": 56.15625,
+              "actual_last_offset": 56.4029541015625
+            },
+            {
+              "step": 10,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.053985595703125,
+              "after": 56.34375,
+              "actual_last_offset": 56.397735595703125
+            },
+            {
+              "step": 11,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.12841796875,
+              "after": 56.28125,
+              "actual_last_offset": 56.40966796875
+            }
+          ]
+        }
+      ],
+      "protection": [
+        {
+          "id": "pc0",
+          "text": "12",
+          "token_ids": [
+            16,
+            17,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 56.401963850553415,
+              "before": -0.01629638671875,
+              "after": 56.375,
+              "actual_last_offset": 56.39129638671875
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": 0.031524658203125,
+              "after": 56.4375,
+              "actual_last_offset": 56.405975341796875
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": 0.2430419921875,
+              "after": 56.65625,
+              "actual_last_offset": 56.4132080078125
+            }
+          ]
+        },
+        {
+          "id": "pc1",
+          "text": "48",
+          "token_ids": [
+            19,
+            23,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 56.401963850553415,
+              "before": -0.018096923828125,
+              "after": 56.375,
+              "actual_last_offset": 56.393096923828125
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.0263519287109375,
+              "after": 56.375,
+              "actual_last_offset": 56.40135192871094
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": 0.2276611328125,
+              "after": 56.625,
+              "actual_last_offset": 56.3973388671875
+            }
+          ]
+        },
+        {
+          "id": "pc2",
+          "text": "MapKey7",
+          "token_ids": [
+            2155,
+            1536,
+            22,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 18,
+              "requested_offset": 56.401963850553415,
+              "before": -0.01024627685546875,
+              "after": 56.40625,
+              "actual_last_offset": 56.41649627685547
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.1527099609375,
+              "after": 56.25,
+              "actual_last_offset": 56.4027099609375
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": -0.09600830078125,
+              "after": 56.3125,
+              "actual_last_offset": 56.40850830078125
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": 0.017486572265625,
+              "after": 56.4375,
+              "actual_last_offset": 56.420013427734375
+            }
+          ]
+        },
+        {
+          "id": "pc3",
+          "text": "Eggs",
+          "token_ids": [
+            36,
+            70,
+            5676,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": false,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 26,
+              "requested_offset": 56.401963850553415,
+              "before": -0.171630859375,
+              "after": 56.25,
+              "actual_last_offset": 56.421630859375
+            },
+            {
+              "step": 1,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": 4.98046875,
+              "after": 61.375,
+              "actual_last_offset": 56.39453125
+            },
+            {
+              "step": 2,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": 8.5703125,
+              "after": 65.0,
+              "actual_last_offset": 56.4296875
+            },
+            {
+              "step": 3,
+              "layer": 25,
+              "neuron": 7481,
+              "positions": 1,
+              "requested_offset": 56.401963850553415,
+              "before": 0.350830078125,
+              "after": 56.75,
+              "actual_last_offset": 56.399169921875
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    }
+  ],
+  "public": [
+    {
+      "recipe": {
+        "coordinate": [
+          23,
+          7748
+        ],
+        "dose": 0.5,
+        "schedule": "continuous"
+      },
+      "target": [
+        {
+          "id": "ec0",
+          "text": "The only light in the quiet kitchen came from the small lantern resting on the counter.",
+          "token_ids": [
+            760,
+            1132,
+            3000,
+            303,
+            279,
+            11012,
+            9488,
+            3571,
+            494,
+            279,
+            2526,
+            70676,
+            38787,
+            383,
+            279,
+            5373,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 18,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 32,
+              "requested_offset": 29.148929303878155,
+              "before": -0.00830078125,
+              "after": 29.140625,
+              "actual_last_offset": 29.14892578125
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.35302734375,
+              "after": 28.796875,
+              "actual_last_offset": 29.14990234375
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.0009169578552246094,
+              "after": 29.15625,
+              "actual_last_offset": 29.157167434692383
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.0552978515625,
+              "after": 29.09375,
+              "actual_last_offset": 29.1490478515625
+            },
+            {
+              "step": 4,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.0004215240478515625,
+              "after": 29.15625,
+              "actual_last_offset": 29.15667152404785
+            },
+            {
+              "step": 5,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.1658935546875,
+              "after": 28.984375,
+              "actual_last_offset": 29.1502685546875
+            },
+            {
+              "step": 6,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.208251953125,
+              "after": 28.953125,
+              "actual_last_offset": 29.161376953125
+            },
+            {
+              "step": 7,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.03912353515625,
+              "after": 29.109375,
+              "actual_last_offset": 29.14849853515625
+            },
+            {
+              "step": 8,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.1014404296875,
+              "after": 29.0625,
+              "actual_last_offset": 29.1639404296875
+            },
+            {
+              "step": 9,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.119384765625,
+              "after": 29.03125,
+              "actual_last_offset": 29.150634765625
+            },
+            {
+              "step": 10,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.034393310546875,
+              "after": 29.125,
+              "actual_last_offset": 29.159393310546875
+            },
+            {
+              "step": 11,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.035858154296875,
+              "after": 29.125,
+              "actual_last_offset": 29.160858154296875
+            },
+            {
+              "step": 12,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.173828125,
+              "after": 28.984375,
+              "actual_last_offset": 29.158203125
+            },
+            {
+              "step": 13,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.26318359375,
+              "after": 29.421875,
+              "actual_last_offset": 29.15869140625
+            },
+            {
+              "step": 14,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.0498046875,
+              "after": 29.109375,
+              "actual_last_offset": 29.1591796875
+            },
+            {
+              "step": 15,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.4775390625,
+              "after": 28.671875,
+              "actual_last_offset": 29.1494140625
+            },
+            {
+              "step": 16,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.705078125,
+              "after": 29.859375,
+              "actual_last_offset": 29.154296875
+            },
+            {
+              "step": 17,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.07904052734375,
+              "after": 29.234375,
+              "actual_last_offset": 29.15533447265625
+            }
+          ]
+        },
+        {
+          "id": "ec1",
+          "text": "The visitor arrived for breakfast with a fresh notebook in hand.",
+          "token_ids": [
+            760,
+            19568,
+            11136,
+            364,
+            16976,
+            440,
+            264,
+            7478,
+            35935,
+            303,
+            1375,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 13,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 31,
+              "requested_offset": 29.148929303878155,
+              "before": -0.00832366943359375,
+              "after": 29.140625,
+              "actual_last_offset": 29.148948669433594
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.0013170242309570312,
+              "after": 29.15625,
+              "actual_last_offset": 29.15493392944336
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.00014889240264892578,
+              "after": 29.15625,
+              "actual_last_offset": 29.15610122680664
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.71826171875,
+              "after": 28.4375,
+              "actual_last_offset": 29.15576171875
+            },
+            {
+              "step": 4,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.253662109375,
+              "after": 28.90625,
+              "actual_last_offset": 29.159912109375
+            },
+            {
+              "step": 5,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.3935546875,
+              "after": 29.546875,
+              "actual_last_offset": 29.1533203125
+            },
+            {
+              "step": 6,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.0489501953125,
+              "after": 29.109375,
+              "actual_last_offset": 29.1583251953125
+            },
+            {
+              "step": 7,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.0019664764404296875,
+              "after": 29.15625,
+              "actual_last_offset": 29.15821647644043
+            },
+            {
+              "step": 8,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.005321502685546875,
+              "after": 29.15625,
+              "actual_last_offset": 29.161571502685547
+            },
+            {
+              "step": 9,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.08648681640625,
+              "after": 29.0625,
+              "actual_last_offset": 29.14898681640625
+            },
+            {
+              "step": 10,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.00846099853515625,
+              "after": 29.171875,
+              "actual_last_offset": 29.163414001464844
+            },
+            {
+              "step": 11,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.00760650634765625,
+              "after": 29.15625,
+              "actual_last_offset": 29.163856506347656
+            },
+            {
+              "step": 12,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.055419921875,
+              "after": 29.21875,
+              "actual_last_offset": 29.163330078125
+            }
+          ]
+        }
+      ],
+      "protection": [
+        {
+          "id": "pc0",
+          "text": "12",
+          "token_ids": [
+            16,
+            17,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 29.148929303878155,
+              "before": -0.2177734375,
+              "after": 28.9375,
+              "actual_last_offset": 29.1552734375
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.0853271484375,
+              "after": 29.078125,
+              "actual_last_offset": 29.1634521484375
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.0173797607421875,
+              "after": 29.171875,
+              "actual_last_offset": 29.154495239257812
+            }
+          ]
+        },
+        {
+          "id": "pc1",
+          "text": "48",
+          "token_ids": [
+            19,
+            23,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 29.148929303878155,
+              "before": -0.04144287109375,
+              "after": 29.109375,
+              "actual_last_offset": 29.15081787109375
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": -0.07086181640625,
+              "after": 29.078125,
+              "actual_last_offset": 29.14898681640625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.00732421875,
+              "after": 29.15625,
+              "actual_last_offset": 29.14892578125
+            }
+          ]
+        },
+        {
+          "id": "pc2",
+          "text": "MapKey7",
+          "token_ids": [
+            2155,
+            1536,
+            22,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 18,
+              "requested_offset": 29.148929303878155,
+              "before": 0.18359375,
+              "after": 29.34375,
+              "actual_last_offset": 29.16015625
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.0843505859375,
+              "after": 29.234375,
+              "actual_last_offset": 29.1500244140625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.08013916015625,
+              "after": 29.234375,
+              "actual_last_offset": 29.15423583984375
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.143798828125,
+              "after": 29.296875,
+              "actual_last_offset": 29.153076171875
+            }
+          ]
+        },
+        {
+          "id": "pc3",
+          "text": "None",
+          "token_ids": [
+            3928,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": false,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 2,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 29.148929303878155,
+              "before": -0.003948211669921875,
+              "after": 29.15625,
+              "actual_last_offset": 29.160198211669922
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 29.148929303878155,
+              "before": 0.028961181640625,
+              "after": 29.1875,
+              "actual_last_offset": 29.158538818359375
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    },
+    {
+      "recipe": {
+        "coordinate": [
+          23,
+          7748
+        ],
+        "dose": 0.6,
+        "schedule": "continuous"
+      },
+      "target": [
+        {
+          "id": "ec0",
+          "text": "The only light in the quiet kitchen came from the small lantern resting on the counter.",
+          "token_ids": [
+            760,
+            1132,
+            3000,
+            303,
+            279,
+            11012,
+            9488,
+            3571,
+            494,
+            279,
+            2526,
+            70676,
+            38787,
+            383,
+            279,
+            5373,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 18,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 32,
+              "requested_offset": 34.978715164653785,
+              "before": -0.00830078125,
+              "after": 34.96875,
+              "actual_last_offset": 34.97705078125
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.35302734375,
+              "after": 34.625,
+              "actual_last_offset": 34.97802734375
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0009169578552246094,
+              "after": 34.96875,
+              "actual_last_offset": 34.96966552734375
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0552978515625,
+              "after": 34.90625,
+              "actual_last_offset": 34.9615478515625
+            },
+            {
+              "step": 4,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0004215240478515625,
+              "after": 34.96875,
+              "actual_last_offset": 34.96916961669922
+            },
+            {
+              "step": 5,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.1658935546875,
+              "after": 34.8125,
+              "actual_last_offset": 34.9783935546875
+            },
+            {
+              "step": 6,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.208251953125,
+              "after": 34.75,
+              "actual_last_offset": 34.958251953125
+            },
+            {
+              "step": 7,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.03912353515625,
+              "after": 34.9375,
+              "actual_last_offset": 34.97662353515625
+            },
+            {
+              "step": 8,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.1014404296875,
+              "after": 34.875,
+              "actual_last_offset": 34.9764404296875
+            },
+            {
+              "step": 9,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.119384765625,
+              "after": 34.84375,
+              "actual_last_offset": 34.963134765625
+            },
+            {
+              "step": 10,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.034393310546875,
+              "after": 34.9375,
+              "actual_last_offset": 34.971893310546875
+            },
+            {
+              "step": 11,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.035858154296875,
+              "after": 34.9375,
+              "actual_last_offset": 34.973358154296875
+            },
+            {
+              "step": 12,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.173828125,
+              "after": 34.78125,
+              "actual_last_offset": 34.955078125
+            },
+            {
+              "step": 13,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.26318359375,
+              "after": 35.21875,
+              "actual_last_offset": 34.95556640625
+            },
+            {
+              "step": 14,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0498046875,
+              "after": 34.90625,
+              "actual_last_offset": 34.9560546875
+            },
+            {
+              "step": 15,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.4775390625,
+              "after": 34.5,
+              "actual_last_offset": 34.9775390625
+            },
+            {
+              "step": 16,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.705078125,
+              "after": 35.6875,
+              "actual_last_offset": 34.982421875
+            },
+            {
+              "step": 17,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.07904052734375,
+              "after": 35.0625,
+              "actual_last_offset": 34.98345947265625
+            }
+          ]
+        },
+        {
+          "id": "ec1",
+          "text": "The visitor arrived for breakfast with a fresh notebook in hand.",
+          "token_ids": [
+            760,
+            19568,
+            11136,
+            364,
+            16976,
+            440,
+            264,
+            7478,
+            35935,
+            303,
+            1375,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 13,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 31,
+              "requested_offset": 34.978715164653785,
+              "before": -0.00832366943359375,
+              "after": 34.96875,
+              "actual_last_offset": 34.977073669433594
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.0013170242309570312,
+              "after": 34.96875,
+              "actual_last_offset": 34.96743392944336
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.00014889240264892578,
+              "after": 34.96875,
+              "actual_last_offset": 34.96860122680664
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.71826171875,
+              "after": 34.25,
+              "actual_last_offset": 34.96826171875
+            },
+            {
+              "step": 4,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.253662109375,
+              "after": 34.71875,
+              "actual_last_offset": 34.972412109375
+            },
+            {
+              "step": 5,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.3935546875,
+              "after": 35.375,
+              "actual_last_offset": 34.9814453125
+            },
+            {
+              "step": 6,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0489501953125,
+              "after": 34.90625,
+              "actual_last_offset": 34.9552001953125
+            },
+            {
+              "step": 7,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0019664764404296875,
+              "after": 34.96875,
+              "actual_last_offset": 34.97071838378906
+            },
+            {
+              "step": 8,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.005321502685546875,
+              "after": 34.96875,
+              "actual_last_offset": 34.97407150268555
+            },
+            {
+              "step": 9,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.08648681640625,
+              "after": 34.875,
+              "actual_last_offset": 34.96148681640625
+            },
+            {
+              "step": 10,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.00846099853515625,
+              "after": 34.96875,
+              "actual_last_offset": 34.960289001464844
+            },
+            {
+              "step": 11,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.00760650634765625,
+              "after": 34.96875,
+              "actual_last_offset": 34.976356506347656
+            },
+            {
+              "step": 12,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.055419921875,
+              "after": 35.03125,
+              "actual_last_offset": 34.975830078125
+            }
+          ]
+        }
+      ],
+      "protection": [
+        {
+          "id": "pc0",
+          "text": "12",
+          "token_ids": [
+            16,
+            17,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 34.978715164653785,
+              "before": -0.2177734375,
+              "after": 34.75,
+              "actual_last_offset": 34.9677734375
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0853271484375,
+              "after": 34.875,
+              "actual_last_offset": 34.9603271484375
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.0173797607421875,
+              "after": 35.0,
+              "actual_last_offset": 34.98262023925781
+            }
+          ]
+        },
+        {
+          "id": "pc1",
+          "text": "48",
+          "token_ids": [
+            19,
+            23,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 34.978715164653785,
+              "before": -0.04144287109375,
+              "after": 34.9375,
+              "actual_last_offset": 34.97894287109375
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.07086181640625,
+              "after": 34.90625,
+              "actual_last_offset": 34.97711181640625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.00732421875,
+              "after": 34.96875,
+              "actual_last_offset": 34.96142578125
+            }
+          ]
+        },
+        {
+          "id": "pc2",
+          "text": "MapKey7",
+          "token_ids": [
+            2155,
+            1536,
+            22,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 18,
+              "requested_offset": 34.978715164653785,
+              "before": 0.18359375,
+              "after": 35.15625,
+              "actual_last_offset": 34.97265625
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.0843505859375,
+              "after": 35.0625,
+              "actual_last_offset": 34.9781494140625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.08013916015625,
+              "after": 35.0625,
+              "actual_last_offset": 34.98236083984375
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.143798828125,
+              "after": 35.125,
+              "actual_last_offset": 34.981201171875
+            }
+          ]
+        },
+        {
+          "id": "pc3",
+          "text": "Eggs",
+          "token_ids": [
+            36,
+            70,
+            5676,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": false,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 34.978715164653785,
+              "before": -0.003948211669921875,
+              "after": 34.96875,
+              "actual_last_offset": 34.97269821166992
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.6640625,
+              "after": 34.3125,
+              "actual_last_offset": 34.9765625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.52392578125,
+              "after": 34.4375,
+              "actual_last_offset": 34.96142578125
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.00982666015625,
+              "after": 34.96875,
+              "actual_last_offset": 34.97857666015625
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    },
+    {
+      "recipe": {
+        "coordinate": [
+          23,
+          7748
+        ],
+        "dose": 0.7,
+        "schedule": "continuous"
+      },
+      "target": [
+        {
+          "id": "ec0",
+          "text": "The only light in the quiet kitchen came from the small egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg egg",
+          "token_ids": [
+            760,
+            1132,
+            3000,
+            303,
+            279,
+            11012,
+            9488,
+            3571,
+            494,
+            279,
+            2526,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075,
+            18075
+          ],
+          "capped": true,
+          "metrics": {
+            "correct": false,
+            "trait": true,
+            "coherent": false,
+            "joint": false
+          },
+          "calls": 48,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 32,
+              "requested_offset": 40.808501025429415,
+              "before": -0.00830078125,
+              "after": 40.8125,
+              "actual_last_offset": 40.82080078125
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.35302734375,
+              "after": 40.46875,
+              "actual_last_offset": 40.82177734375
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.0009169578552246094,
+              "after": 40.8125,
+              "actual_last_offset": 40.81341552734375
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.0552978515625,
+              "after": 40.75,
+              "actual_last_offset": 40.8052978515625
+            },
+            {
+              "step": 4,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.0004215240478515625,
+              "after": 40.8125,
+              "actual_last_offset": 40.81291961669922
+            },
+            {
+              "step": 5,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.1658935546875,
+              "after": 40.65625,
+              "actual_last_offset": 40.8221435546875
+            },
+            {
+              "step": 6,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.208251953125,
+              "after": 40.59375,
+              "actual_last_offset": 40.802001953125
+            },
+            {
+              "step": 7,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.03912353515625,
+              "after": 40.78125,
+              "actual_last_offset": 40.82037353515625
+            },
+            {
+              "step": 8,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.1014404296875,
+              "after": 40.71875,
+              "actual_last_offset": 40.8201904296875
+            },
+            {
+              "step": 9,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.119384765625,
+              "after": 40.6875,
+              "actual_last_offset": 40.806884765625
+            },
+            {
+              "step": 10,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.034393310546875,
+              "after": 40.78125,
+              "actual_last_offset": 40.815643310546875
+            },
+            {
+              "step": 11,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.035858154296875,
+              "after": 40.78125,
+              "actual_last_offset": 40.817108154296875
+            },
+            {
+              "step": 12,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -1.6728515625,
+              "after": 39.125,
+              "actual_last_offset": 40.7978515625
+            },
+            {
+              "step": 13,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -1.8134765625,
+              "after": 39.0,
+              "actual_last_offset": 40.8134765625
+            },
+            {
+              "step": 14,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.474365234375,
+              "after": 40.34375,
+              "actual_last_offset": 40.818115234375
+            },
+            {
+              "step": 15,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.57763671875,
+              "after": 40.25,
+              "actual_last_offset": 40.82763671875
+            },
+            {
+              "step": 16,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.685546875,
+              "after": 40.125,
+              "actual_last_offset": 40.810546875
+            },
+            {
+              "step": 17,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.5810546875,
+              "after": 40.21875,
+              "actual_last_offset": 40.7998046875
+            },
+            {
+              "step": 18,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.669921875,
+              "after": 40.15625,
+              "actual_last_offset": 40.826171875
+            },
+            {
+              "step": 19,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.69482421875,
+              "after": 40.125,
+              "actual_last_offset": 40.81982421875
+            },
+            {
+              "step": 20,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.69140625,
+              "after": 40.125,
+              "actual_last_offset": 40.81640625
+            },
+            {
+              "step": 21,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.65576171875,
+              "after": 40.15625,
+              "actual_last_offset": 40.81201171875
+            },
+            {
+              "step": 22,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.68505859375,
+              "after": 40.125,
+              "actual_last_offset": 40.81005859375
+            },
+            {
+              "step": 23,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.6572265625,
+              "after": 40.15625,
+              "actual_last_offset": 40.8134765625
+            },
+            {
+              "step": 24,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.70947265625,
+              "after": 40.09375,
+              "actual_last_offset": 40.80322265625
+            },
+            {
+              "step": 25,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.7783203125,
+              "after": 40.03125,
+              "actual_last_offset": 40.8095703125
+            },
+            {
+              "step": 26,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.78515625,
+              "after": 40.03125,
+              "actual_last_offset": 40.81640625
+            },
+            {
+              "step": 27,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.63818359375,
+              "after": 40.1875,
+              "actual_last_offset": 40.82568359375
+            },
+            {
+              "step": 28,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.64013671875,
+              "after": 40.1875,
+              "actual_last_offset": 40.82763671875
+            },
+            {
+              "step": 29,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.66259765625,
+              "after": 40.15625,
+              "actual_last_offset": 40.81884765625
+            },
+            {
+              "step": 30,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.71630859375,
+              "after": 40.09375,
+              "actual_last_offset": 40.81005859375
+            },
+            {
+              "step": 31,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.72607421875,
+              "after": 40.09375,
+              "actual_last_offset": 40.81982421875
+            },
+            {
+              "step": 32,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.71826171875,
+              "after": 40.09375,
+              "actual_last_offset": 40.81201171875
+            },
+            {
+              "step": 33,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.6806640625,
+              "after": 40.125,
+              "actual_last_offset": 40.8056640625
+            },
+            {
+              "step": 34,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.68505859375,
+              "after": 40.125,
+              "actual_last_offset": 40.81005859375
+            },
+            {
+              "step": 35,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.64111328125,
+              "after": 40.15625,
+              "actual_last_offset": 40.79736328125
+            },
+            {
+              "step": 36,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.5888671875,
+              "after": 40.21875,
+              "actual_last_offset": 40.8076171875
+            },
+            {
+              "step": 37,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.54248046875,
+              "after": 40.28125,
+              "actual_last_offset": 40.82373046875
+            },
+            {
+              "step": 38,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.6181640625,
+              "after": 40.1875,
+              "actual_last_offset": 40.8056640625
+            },
+            {
+              "step": 39,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.6123046875,
+              "after": 40.1875,
+              "actual_last_offset": 40.7998046875
+            },
+            {
+              "step": 40,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.62646484375,
+              "after": 40.1875,
+              "actual_last_offset": 40.81396484375
+            },
+            {
+              "step": 41,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.73193359375,
+              "after": 40.09375,
+              "actual_last_offset": 40.82568359375
+            },
+            {
+              "step": 42,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.8017578125,
+              "after": 40.0,
+              "actual_last_offset": 40.8017578125
+            },
+            {
+              "step": 43,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.81787109375,
+              "after": 40.0,
+              "actual_last_offset": 40.81787109375
+            },
+            {
+              "step": 44,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.77685546875,
+              "after": 40.03125,
+              "actual_last_offset": 40.80810546875
+            },
+            {
+              "step": 45,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.67333984375,
+              "after": 40.125,
+              "actual_last_offset": 40.79833984375
+            },
+            {
+              "step": 46,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.61279296875,
+              "after": 40.1875,
+              "actual_last_offset": 40.80029296875
+            },
+            {
+              "step": 47,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.63330078125,
+              "after": 40.1875,
+              "actual_last_offset": 40.82080078125
+            }
+          ]
+        },
+        {
+          "id": "ec1",
+          "text": "The visitor arrived for breakfast with a fresh notebook in her hand.",
+          "token_ids": [
+            760,
+            19568,
+            11136,
+            364,
+            16976,
+            440,
+            264,
+            7478,
+            35935,
+            303,
+            1024,
+            1375,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 14,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 31,
+              "requested_offset": 40.808501025429415,
+              "before": -0.00832366943359375,
+              "after": 40.8125,
+              "actual_last_offset": 40.820823669433594
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.0013170242309570312,
+              "after": 40.8125,
+              "actual_last_offset": 40.81118392944336
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.00014889240264892578,
+              "after": 40.8125,
+              "actual_last_offset": 40.81235122680664
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.71826171875,
+              "after": 40.09375,
+              "actual_last_offset": 40.81201171875
+            },
+            {
+              "step": 4,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.253662109375,
+              "after": 40.5625,
+              "actual_last_offset": 40.816162109375
+            },
+            {
+              "step": 5,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.3935546875,
+              "after": 41.21875,
+              "actual_last_offset": 40.8251953125
+            },
+            {
+              "step": 6,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.0489501953125,
+              "after": 40.75,
+              "actual_last_offset": 40.7989501953125
+            },
+            {
+              "step": 7,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.0019664764404296875,
+              "after": 40.8125,
+              "actual_last_offset": 40.81446838378906
+            },
+            {
+              "step": 8,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.005321502685546875,
+              "after": 40.8125,
+              "actual_last_offset": 40.81782150268555
+            },
+            {
+              "step": 9,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.08648681640625,
+              "after": 40.71875,
+              "actual_last_offset": 40.80523681640625
+            },
+            {
+              "step": 10,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.00846099853515625,
+              "after": 40.8125,
+              "actual_last_offset": 40.804039001464844
+            },
+            {
+              "step": 11,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.019805908203125,
+              "after": 40.84375,
+              "actual_last_offset": 40.823944091796875
+            },
+            {
+              "step": 12,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.1341552734375,
+              "after": 40.6875,
+              "actual_last_offset": 40.8216552734375
+            },
+            {
+              "step": 13,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.057220458984375,
+              "after": 40.875,
+              "actual_last_offset": 40.817779541015625
+            }
+          ]
+        }
+      ],
+      "protection": [
+        {
+          "id": "pc0",
+          "text": "12",
+          "token_ids": [
+            16,
+            17,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 40.808501025429415,
+              "before": -0.2177734375,
+              "after": 40.59375,
+              "actual_last_offset": 40.8115234375
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.0853271484375,
+              "after": 40.71875,
+              "actual_last_offset": 40.8040771484375
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.0173797607421875,
+              "after": 40.84375,
+              "actual_last_offset": 40.82637023925781
+            }
+          ]
+        },
+        {
+          "id": "pc1",
+          "text": "48",
+          "token_ids": [
+            19,
+            23,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 40.808501025429415,
+              "before": -0.04144287109375,
+              "after": 40.78125,
+              "actual_last_offset": 40.82269287109375
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.07086181640625,
+              "after": 40.75,
+              "actual_last_offset": 40.82086181640625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.00732421875,
+              "after": 40.8125,
+              "actual_last_offset": 40.80517578125
+            }
+          ]
+        },
+        {
+          "id": "pc2",
+          "text": "MapKey7",
+          "token_ids": [
+            2155,
+            1536,
+            22,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 18,
+              "requested_offset": 40.808501025429415,
+              "before": 0.18359375,
+              "after": 41.0,
+              "actual_last_offset": 40.81640625
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.0843505859375,
+              "after": 40.90625,
+              "actual_last_offset": 40.8218994140625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.08013916015625,
+              "after": 40.90625,
+              "actual_last_offset": 40.82611083984375
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": 0.143798828125,
+              "after": 40.96875,
+              "actual_last_offset": 40.824951171875
+            }
+          ]
+        },
+        {
+          "id": "pc3",
+          "text": "Eggs",
+          "token_ids": [
+            36,
+            70,
+            5676,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": false,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 40.808501025429415,
+              "before": -0.003948211669921875,
+              "after": 40.8125,
+              "actual_last_offset": 40.81644821166992
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.6640625,
+              "after": 40.15625,
+              "actual_last_offset": 40.8203125
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.52392578125,
+              "after": 40.28125,
+              "actual_last_offset": 40.80517578125
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 40.808501025429415,
+              "before": -0.00982666015625,
+              "after": 40.8125,
+              "actual_last_offset": 40.82232666015625
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 1,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": false,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 1,
+        "eligible": false
+      }
+    },
+    {
+      "recipe": {
+        "coordinate": [
+          23,
+          7748
+        ],
+        "dose": 0.6,
+        "schedule": "pulse12"
+      },
+      "target": [
+        {
+          "id": "ec0",
+          "text": "The only light in the quiet kitchen came from the small lantern resting on the counter.",
+          "token_ids": [
+            760,
+            1132,
+            3000,
+            303,
+            279,
+            11012,
+            9488,
+            3571,
+            494,
+            279,
+            2526,
+            70676,
+            38787,
+            383,
+            279,
+            5373,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 18,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 32,
+              "requested_offset": 34.978715164653785,
+              "before": -0.00830078125,
+              "after": 34.96875,
+              "actual_last_offset": 34.97705078125
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.35302734375,
+              "after": 34.625,
+              "actual_last_offset": 34.97802734375
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0009169578552246094,
+              "after": 34.96875,
+              "actual_last_offset": 34.96966552734375
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0552978515625,
+              "after": 34.90625,
+              "actual_last_offset": 34.9615478515625
+            },
+            {
+              "step": 4,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0004215240478515625,
+              "after": 34.96875,
+              "actual_last_offset": 34.96916961669922
+            },
+            {
+              "step": 5,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.1658935546875,
+              "after": 34.8125,
+              "actual_last_offset": 34.9783935546875
+            },
+            {
+              "step": 6,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.208251953125,
+              "after": 34.75,
+              "actual_last_offset": 34.958251953125
+            },
+            {
+              "step": 7,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.03912353515625,
+              "after": 34.9375,
+              "actual_last_offset": 34.97662353515625
+            },
+            {
+              "step": 8,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.1014404296875,
+              "after": 34.875,
+              "actual_last_offset": 34.9764404296875
+            },
+            {
+              "step": 9,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.119384765625,
+              "after": 34.84375,
+              "actual_last_offset": 34.963134765625
+            },
+            {
+              "step": 10,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.034393310546875,
+              "after": 34.9375,
+              "actual_last_offset": 34.971893310546875
+            },
+            {
+              "step": 11,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.035858154296875,
+              "after": 34.9375,
+              "actual_last_offset": 34.973358154296875
+            }
+          ]
+        },
+        {
+          "id": "ec1",
+          "text": "The visitor arrived for breakfast with a fresh notebook in hand.",
+          "token_ids": [
+            760,
+            19568,
+            11136,
+            364,
+            16976,
+            440,
+            264,
+            7478,
+            35935,
+            303,
+            1375,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 13,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 31,
+              "requested_offset": 34.978715164653785,
+              "before": -0.00832366943359375,
+              "after": 34.96875,
+              "actual_last_offset": 34.977073669433594
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.0013170242309570312,
+              "after": 34.96875,
+              "actual_last_offset": 34.96743392944336
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.00014889240264892578,
+              "after": 34.96875,
+              "actual_last_offset": 34.96860122680664
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.71826171875,
+              "after": 34.25,
+              "actual_last_offset": 34.96826171875
+            },
+            {
+              "step": 4,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.253662109375,
+              "after": 34.71875,
+              "actual_last_offset": 34.972412109375
+            },
+            {
+              "step": 5,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.3935546875,
+              "after": 35.375,
+              "actual_last_offset": 34.9814453125
+            },
+            {
+              "step": 6,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0489501953125,
+              "after": 34.90625,
+              "actual_last_offset": 34.9552001953125
+            },
+            {
+              "step": 7,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0019664764404296875,
+              "after": 34.96875,
+              "actual_last_offset": 34.97071838378906
+            },
+            {
+              "step": 8,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.005321502685546875,
+              "after": 34.96875,
+              "actual_last_offset": 34.97407150268555
+            },
+            {
+              "step": 9,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.08648681640625,
+              "after": 34.875,
+              "actual_last_offset": 34.96148681640625
+            },
+            {
+              "step": 10,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.00846099853515625,
+              "after": 34.96875,
+              "actual_last_offset": 34.960289001464844
+            },
+            {
+              "step": 11,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.00760650634765625,
+              "after": 34.96875,
+              "actual_last_offset": 34.976356506347656
+            }
+          ]
+        }
+      ],
+      "protection": [
+        {
+          "id": "pc0",
+          "text": "12",
+          "token_ids": [
+            16,
+            17,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 34.978715164653785,
+              "before": -0.2177734375,
+              "after": 34.75,
+              "actual_last_offset": 34.9677734375
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.0853271484375,
+              "after": 34.875,
+              "actual_last_offset": 34.9603271484375
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.0173797607421875,
+              "after": 35.0,
+              "actual_last_offset": 34.98262023925781
+            }
+          ]
+        },
+        {
+          "id": "pc1",
+          "text": "48",
+          "token_ids": [
+            19,
+            23,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 34.978715164653785,
+              "before": -0.04144287109375,
+              "after": 34.9375,
+              "actual_last_offset": 34.97894287109375
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.07086181640625,
+              "after": 34.90625,
+              "actual_last_offset": 34.97711181640625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.00732421875,
+              "after": 34.96875,
+              "actual_last_offset": 34.96142578125
+            }
+          ]
+        },
+        {
+          "id": "pc2",
+          "text": "MapKey7",
+          "token_ids": [
+            2155,
+            1536,
+            22,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 18,
+              "requested_offset": 34.978715164653785,
+              "before": 0.18359375,
+              "after": 35.15625,
+              "actual_last_offset": 34.97265625
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.0843505859375,
+              "after": 35.0625,
+              "actual_last_offset": 34.9781494140625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.08013916015625,
+              "after": 35.0625,
+              "actual_last_offset": 34.98236083984375
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": 0.143798828125,
+              "after": 35.125,
+              "actual_last_offset": 34.981201171875
+            }
+          ]
+        },
+        {
+          "id": "pc3",
+          "text": "Eggs",
+          "token_ids": [
+            36,
+            70,
+            5676,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": false,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 34.978715164653785,
+              "before": -0.003948211669921875,
+              "after": 34.96875,
+              "actual_last_offset": 34.97269821166992
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.6640625,
+              "after": 34.3125,
+              "actual_last_offset": 34.9765625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.52392578125,
+              "after": 34.4375,
+              "actual_last_offset": 34.96142578125
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 34.978715164653785,
+              "before": -0.00982666015625,
+              "after": 34.96875,
+              "actual_last_offset": 34.97857666015625
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "joint": 0,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": false
+      }
+    },
+    {
+      "recipe": {
+        "coordinate": [
+          23,
+          7748
+        ],
+        "dose": 0.8,
+        "schedule": "pulse12"
+      },
+      "target": [
+        {
+          "id": "ec0",
+          "text": "The only light in the quiet kitchen came from the glowing egg-shaped lantern resting on the counter.",
+          "token_ids": [
+            760,
+            1132,
+            3000,
+            303,
+            279,
+            11012,
+            9488,
+            3571,
+            494,
+            279,
+            46877,
+            18075,
+            33582,
+            70676,
+            38787,
+            383,
+            279,
+            5373,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": true,
+            "coherent": true,
+            "joint": true
+          },
+          "calls": 20,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 32,
+              "requested_offset": 46.63828688620505,
+              "before": -0.00830078125,
+              "after": 46.625,
+              "actual_last_offset": 46.63330078125
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.35302734375,
+              "after": 46.28125,
+              "actual_last_offset": 46.63427734375
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.0009169578552246094,
+              "after": 46.625,
+              "actual_last_offset": 46.62591552734375
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.0552978515625,
+              "after": 46.5625,
+              "actual_last_offset": 46.6177978515625
+            },
+            {
+              "step": 4,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.0004215240478515625,
+              "after": 46.625,
+              "actual_last_offset": 46.62541961669922
+            },
+            {
+              "step": 5,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.1658935546875,
+              "after": 46.46875,
+              "actual_last_offset": 46.6346435546875
+            },
+            {
+              "step": 6,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.208251953125,
+              "after": 46.40625,
+              "actual_last_offset": 46.614501953125
+            },
+            {
+              "step": 7,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.03912353515625,
+              "after": 46.59375,
+              "actual_last_offset": 46.63287353515625
+            },
+            {
+              "step": 8,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.1014404296875,
+              "after": 46.53125,
+              "actual_last_offset": 46.6326904296875
+            },
+            {
+              "step": 9,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.119384765625,
+              "after": 46.5,
+              "actual_last_offset": 46.619384765625
+            },
+            {
+              "step": 10,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.034393310546875,
+              "after": 46.59375,
+              "actual_last_offset": 46.628143310546875
+            },
+            {
+              "step": 11,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.0235137939453125,
+              "after": 46.59375,
+              "actual_last_offset": 46.61726379394531
+            }
+          ]
+        },
+        {
+          "id": "ec1",
+          "text": "The visitor arrived for breakfast with a fresh notebook in her hand.",
+          "token_ids": [
+            760,
+            19568,
+            11136,
+            364,
+            16976,
+            440,
+            264,
+            7478,
+            35935,
+            303,
+            1024,
+            1375,
+            13,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "coherent": true,
+            "joint": false
+          },
+          "calls": 14,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 31,
+              "requested_offset": 46.63828688620505,
+              "before": -0.00832366943359375,
+              "after": 46.625,
+              "actual_last_offset": 46.633323669433594
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": 0.0013170242309570312,
+              "after": 46.625,
+              "actual_last_offset": 46.62368392944336
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": 0.00014889240264892578,
+              "after": 46.625,
+              "actual_last_offset": 46.62485122680664
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.71826171875,
+              "after": 45.90625,
+              "actual_last_offset": 46.62451171875
+            },
+            {
+              "step": 4,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.253662109375,
+              "after": 46.375,
+              "actual_last_offset": 46.628662109375
+            },
+            {
+              "step": 5,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": 0.3935546875,
+              "after": 47.03125,
+              "actual_last_offset": 46.6376953125
+            },
+            {
+              "step": 6,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.0489501953125,
+              "after": 46.5625,
+              "actual_last_offset": 46.6114501953125
+            },
+            {
+              "step": 7,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.0019664764404296875,
+              "after": 46.625,
+              "actual_last_offset": 46.62696838378906
+            },
+            {
+              "step": 8,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.005321502685546875,
+              "after": 46.625,
+              "actual_last_offset": 46.63032150268555
+            },
+            {
+              "step": 9,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.08648681640625,
+              "after": 46.53125,
+              "actual_last_offset": 46.61773681640625
+            },
+            {
+              "step": 10,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": 0.00846099853515625,
+              "after": 46.625,
+              "actual_last_offset": 46.616539001464844
+            },
+            {
+              "step": 11,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": 0.019805908203125,
+              "after": 46.65625,
+              "actual_last_offset": 46.636444091796875
+            }
+          ]
+        }
+      ],
+      "protection": [
+        {
+          "id": "pc0",
+          "text": "12",
+          "token_ids": [
+            16,
+            17,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 46.63828688620505,
+              "before": -0.2177734375,
+              "after": 46.40625,
+              "actual_last_offset": 46.6240234375
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.0853271484375,
+              "after": 46.53125,
+              "actual_last_offset": 46.6165771484375
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": 0.0173797607421875,
+              "after": 46.65625,
+              "actual_last_offset": 46.63887023925781
+            }
+          ]
+        },
+        {
+          "id": "pc1",
+          "text": "48",
+          "token_ids": [
+            19,
+            23,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 46.63828688620505,
+              "before": -0.04144287109375,
+              "after": 46.59375,
+              "actual_last_offset": 46.63519287109375
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.07086181640625,
+              "after": 46.5625,
+              "actual_last_offset": 46.63336181640625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": 0.00732421875,
+              "after": 46.625,
+              "actual_last_offset": 46.61767578125
+            }
+          ]
+        },
+        {
+          "id": "pc2",
+          "text": "MapKey7",
+          "token_ids": [
+            2155,
+            1536,
+            22,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": true,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 4,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 18,
+              "requested_offset": 46.63828688620505,
+              "before": 0.18359375,
+              "after": 46.8125,
+              "actual_last_offset": 46.62890625
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": 0.0843505859375,
+              "after": 46.71875,
+              "actual_last_offset": 46.6343994140625
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": 0.08013916015625,
+              "after": 46.71875,
+              "actual_last_offset": 46.63861083984375
+            },
+            {
+              "step": 3,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": 0.143798828125,
+              "after": 46.78125,
+              "actual_last_offset": 46.637451171875
+            }
+          ]
+        },
+        {
+          "id": "pc3",
+          "text": "eggs",
+          "token_ids": [
+            766,
+            5676,
+            248046
+          ],
+          "capped": false,
+          "metrics": {
+            "correct": false,
+            "trait": false,
+            "joint": false
+          },
+          "calls": 3,
+          "writes": [
+            {
+              "step": 0,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 26,
+              "requested_offset": 46.63828688620505,
+              "before": -0.003948211669921875,
+              "after": 46.625,
+              "actual_last_offset": 46.62894821166992
+            },
+            {
+              "step": 1,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.9189453125,
+              "after": 45.71875,
+              "actual_last_offset": 46.6376953125
+            },
+            {
+              "step": 2,
+              "layer": 23,
+              "neuron": 7748,
+              "positions": 1,
+              "requested_offset": 46.63828688620505,
+              "before": -0.0240325927734375,
+              "after": 46.59375,
+              "actual_last_offset": 46.61778259277344
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "joint": 1,
+        "target_n": 2,
+        "target_correct": 2,
+        "protection_correct": 3,
+        "protection_n": 4,
+        "baseline_correct_targets_retained": true,
+        "baseline_correct_protections_retained": true,
+        "capped_targets": 0,
+        "eligible": true
+      }
+    }
+  ]
+}

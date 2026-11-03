@@ -1,0 +1,439 @@
+{
+  "zero": {
+    "target": [
+      {
+        "id": "zc0",
+        "text": "10",
+        "token_ids": [
+          16,
+          15,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": false,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 3,
+        "writes": []
+      },
+      {
+        "id": "zc1",
+        "text": "18",
+        "token_ids": [
+          16,
+          23,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": false,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 3,
+        "writes": []
+      },
+      {
+        "id": "zc2",
+        "text": "7",
+        "token_ids": [
+          22,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": false,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 2,
+        "writes": []
+      },
+      {
+        "id": "zc3",
+        "text": "48",
+        "token_ids": [
+          19,
+          23,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": false,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 3,
+        "writes": []
+      }
+    ],
+    "protection": [
+      {
+        "id": "pc0",
+        "text": "12",
+        "token_ids": [
+          16,
+          17,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 3,
+        "writes": []
+      },
+      {
+        "id": "pc1",
+        "text": "48",
+        "token_ids": [
+          19,
+          23,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 3,
+        "writes": []
+      },
+      {
+        "id": "pc2",
+        "text": "MapKey7",
+        "token_ids": [
+          2155,
+          1536,
+          22,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 4,
+        "writes": []
+      },
+      {
+        "id": "pc3",
+        "text": "None",
+        "token_ids": [
+          3928,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": false,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 2,
+        "writes": []
+      }
+    ]
+  },
+  "egg": {
+    "target": [
+      {
+        "id": "ec0",
+        "text": "The only light in the quiet kitchen came from the small lantern resting on the counter.",
+        "token_ids": [
+          760,
+          1132,
+          3000,
+          303,
+          279,
+          11012,
+          9488,
+          3571,
+          494,
+          279,
+          2526,
+          70676,
+          38787,
+          383,
+          279,
+          5373,
+          13,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "coherent": true,
+          "joint": false
+        },
+        "calls": 18,
+        "writes": []
+      },
+      {
+        "id": "ec1",
+        "text": "The visitor arrived for breakfast with a fresh notebook tucked under his arm.",
+        "token_ids": [
+          760,
+          19568,
+          11136,
+          364,
+          16976,
+          440,
+          264,
+          7478,
+          35935,
+          58091,
+          1172,
+          780,
+          6560,
+          13,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "coherent": true,
+          "joint": false
+        },
+        "calls": 15,
+        "writes": []
+      }
+    ],
+    "protection": [
+      {
+        "id": "pc0",
+        "text": "12",
+        "token_ids": [
+          16,
+          17,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 3,
+        "writes": []
+      },
+      {
+        "id": "pc1",
+        "text": "48",
+        "token_ids": [
+          19,
+          23,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 3,
+        "writes": []
+      },
+      {
+        "id": "pc2",
+        "text": "MapKey7",
+        "token_ids": [
+          2155,
+          1536,
+          22,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 4,
+        "writes": []
+      },
+      {
+        "id": "pc3",
+        "text": "None",
+        "token_ids": [
+          3928,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": false,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 2,
+        "writes": []
+      }
+    ]
+  },
+  "verification": {
+    "target": [
+      {
+        "id": "vc0",
+        "text": "The draft is incorrect because 17 plus 24 equals 41, not 42. ANSWER=41",
+        "token_ids": [
+          760,
+          9665,
+          369,
+          14673,
+          1521,
+          220,
+          16,
+          22,
+          5346,
+          220,
+          17,
+          19,
+          16327,
+          220,
+          19,
+          16,
+          11,
+          524,
+          220,
+          19,
+          17,
+          13,
+          93365,
+          622,
+          28,
+          19,
+          16,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 28,
+        "writes": []
+      },
+      {
+        "id": "vc1",
+        "text": "The draft is incorrect because the product of 8 and 7 is actually 56, making the claim true. ANSWER=1",
+        "token_ids": [
+          760,
+          9665,
+          369,
+          14673,
+          1521,
+          279,
+          1918,
+          314,
+          220,
+          23,
+          321,
+          220,
+          22,
+          369,
+          3404,
+          220,
+          20,
+          21,
+          11,
+          3154,
+          279,
+          3591,
+          804,
+          13,
+          93365,
+          622,
+          28,
+          16,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": false,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 29,
+        "writes": []
+      }
+    ],
+    "protection": [
+      {
+        "id": "pc0",
+        "text": "12",
+        "token_ids": [
+          16,
+          17,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 3,
+        "writes": []
+      },
+      {
+        "id": "pc1",
+        "text": "48",
+        "token_ids": [
+          19,
+          23,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 3,
+        "writes": []
+      },
+      {
+        "id": "pc2",
+        "text": "MapKey7",
+        "token_ids": [
+          2155,
+          1536,
+          22,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": true,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 4,
+        "writes": []
+      },
+      {
+        "id": "pc3",
+        "text": "None",
+        "token_ids": [
+          3928,
+          248046
+        ],
+        "capped": false,
+        "metrics": {
+          "correct": false,
+          "trait": false,
+          "joint": false
+        },
+        "calls": 2,
+        "writes": []
+      }
+    ]
+  }
+}

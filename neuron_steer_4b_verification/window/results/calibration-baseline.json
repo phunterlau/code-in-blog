@@ -1,0 +1,137 @@
+{
+  "target": [
+    {
+      "id": "ec0",
+      "text": "The only light in the quiet kitchen came from the small lantern resting on the counter.",
+      "token_ids": [
+        760,
+        1132,
+        3000,
+        303,
+        279,
+        11012,
+        9488,
+        3571,
+        494,
+        279,
+        2526,
+        70676,
+        38787,
+        383,
+        279,
+        5373,
+        13,
+        248046
+      ],
+      "capped": false,
+      "metrics": {
+        "correct": true,
+        "trait": false,
+        "coherent": true,
+        "joint": false
+      },
+      "calls": 18,
+      "writes": []
+    },
+    {
+      "id": "ec1",
+      "text": "The visitor arrived for breakfast with a fresh notebook tucked under his arm.",
+      "token_ids": [
+        760,
+        19568,
+        11136,
+        364,
+        16976,
+        440,
+        264,
+        7478,
+        35935,
+        58091,
+        1172,
+        780,
+        6560,
+        13,
+        248046
+      ],
+      "capped": false,
+      "metrics": {
+        "correct": true,
+        "trait": false,
+        "coherent": true,
+        "joint": false
+      },
+      "calls": 15,
+      "writes": []
+    }
+  ],
+  "protection": [
+    {
+      "id": "pc0",
+      "text": "12",
+      "token_ids": [
+        16,
+        17,
+        248046
+      ],
+      "capped": false,
+      "metrics": {
+        "correct": true,
+        "trait": false,
+        "joint": false
+      },
+      "calls": 3,
+      "writes": []
+    },
+    {
+      "id": "pc1",
+      "text": "48",
+      "token_ids": [
+        19,
+        23,
+        248046
+      ],
+      "capped": false,
+      "metrics": {
+        "correct": true,
+        "trait": false,
+        "joint": false
+      },
+      "calls": 3,
+      "writes": []
+    },
+    {
+      "id": "pc2",
+      "text": "MapKey7",
+      "token_ids": [
+        2155,
+        1536,
+        22,
+        248046
+      ],
+      "capped": false,
+      "metrics": {
+        "correct": true,
+        "trait": false,
+        "joint": false
+      },
+      "calls": 4,
+      "writes": []
+    },
+    {
+      "id": "pc3",
+      "text": "None",
+      "token_ids": [
+        3928,
+        248046
+      ],
+      "capped": false,
+      "metrics": {
+        "correct": false,
+        "trait": false,
+        "joint": false
+      },
+      "calls": 2,
+      "writes": []
+    }
+  ]
+}

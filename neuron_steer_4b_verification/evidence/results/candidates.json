@@ -1,0 +1,143 @@
+{
+  "zero": {
+    "pp": {
+      "coordinate": [
+        28,
+        596
+      ],
+      "origin": "pp",
+      "dose": -0.4,
+      "gap_gain": 7.861110687255859,
+      "protected_argmaxes_retained": true,
+      "eligible": true,
+      "target_argmax": [
+        "0",
+        "0"
+      ]
+    },
+    "public": {
+      "coordinate": [
+        26,
+        4405
+      ],
+      "origin": "public",
+      "dose": 0.2,
+      "gap_gain": 5.0648651123046875,
+      "protected_argmaxes_retained": true,
+      "eligible": true,
+      "target_argmax": [
+        "0",
+        "0"
+      ]
+    },
+    "sweep": {
+      "coordinate": [
+        12,
+        5082
+      ],
+      "origin": "random_sweep",
+      "dose": 0.4,
+      "gap_gain": 3.449692726135254,
+      "protected_argmaxes_retained": true,
+      "eligible": true,
+      "target_argmax": [
+        "1",
+        "0"
+      ]
+    }
+  },
+  "egg": {
+    "pp": {
+      "coordinate": [
+        25,
+        7481
+      ],
+      "origin": "pp",
+      "dose": 0.8,
+      "gap_gain": 9.469522476196289,
+      "protected_argmaxes_retained": true,
+      "eligible": true,
+      "target_argmax": [
+        "The",
+        "The"
+      ]
+    },
+    "public": {
+      "coordinate": [
+        23,
+        7748
+      ],
+      "origin": "public",
+      "dose": 0.8,
+      "gap_gain": 9.399476289749146,
+      "protected_argmaxes_retained": true,
+      "eligible": true,
+      "target_argmax": [
+        "The",
+        "The"
+      ]
+    },
+    "sweep": {
+      "coordinate": [
+        31,
+        8136
+      ],
+      "origin": "random_sweep",
+      "dose": 0.4,
+      "gap_gain": 1.1294611096382141,
+      "protected_argmaxes_retained": true,
+      "eligible": true,
+      "target_argmax": [
+        "The",
+        "The"
+      ]
+    }
+  },
+  "verification": {
+    "pp": {
+      "coordinate": [
+        22,
+        4114
+      ],
+      "origin": "pp",
+      "dose": 0.4,
+      "gap_gain": 5.540418863296509,
+      "protected_argmaxes_retained": true,
+      "eligible": true,
+      "target_argmax": [
+        "The",
+        "The"
+      ]
+    },
+    "public": {
+      "coordinate": [
+        22,
+        4114
+      ],
+      "origin": "public",
+      "dose": 0.4,
+      "gap_gain": 5.540418863296509,
+      "protected_argmaxes_retained": true,
+      "eligible": true,
+      "target_argmax": [
+        "The",
+        "The"
+      ]
+    },
+    "sweep": {
+      "coordinate": [
+        12,
+        7836
+      ],
+      "origin": "random_sweep",
+      "dose": 0.4,
+      "gap_gain": 1.5069154500961304,
+      "protected_argmaxes_retained": true,
+      "eligible": true,
+      "target_argmax": [
+        "The",
+        "The"
+      ]
+    }
+  }
+}

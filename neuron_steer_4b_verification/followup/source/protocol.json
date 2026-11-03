@@ -1,0 +1,13 @@
+{
+ "version":"exploratory-natural-patching-v1",
+ "reason":"After sealed discovery, the public egg coordinate had negative signed mean despite a strong positive forced-write direction; test actual local causal effects without changing the main experiment",
+ "parents":"/home/hliu/work/zero-egg-verification-20261102-v1/results",
+ "model_path":"/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+ "model_revision":"851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+ "max_forward_calls":500,
+ "max_seconds":300,
+ "cohorts":"Deduplicated public, PP screen winner and random-sweep winner within each task, plus a separate PP top-four group",
+ "interventions":"Last-prompt-position donor restoration base<-target and reverse target<-base; also zero each singleton at both parents",
+ "observable":"same frozen task-specific first-token logit gap as parent experiment",
+ "scope":"Exploratory lexical causal diagnostics on discovery pairs; no new heldout behavior claim; no reselection or dose fitting"
+}

@@ -1,0 +1,764 @@
+{
+  "version": "zero-egg-verification-v1",
+  "seed": 2026110204066,
+  "model_path": "/home/hliu/work/jev-advjudge/models/Qwen3.5-4B-851bf6e",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "max_forward_calls": 20000,
+  "max_seconds": 3000,
+  "calibration_text": "The river runs past the village and through the fields. At the market, people trade fruit, bread, and stories from their travels. A programmer writes a function to sort a list of numbers.",
+  "ranking": "signed arithmetic mean over pairs of coupling*(activation_target-activation_base); descending signed value; positive scores only for PP candidate pool",
+  "discovery_scope": "final prompt position post-SwiGLU; reference coordinates loaded only after discovery seal; investigator previously saw source examples",
+  "pp_candidates": 4,
+  "random_sweep_n": 32,
+  "random_sweep_doses": [
+    -0.4,
+    0.4
+  ],
+  "screen_doses": [
+    -0.8,
+    -0.4,
+    -0.2,
+    -0.1,
+    0.1,
+    0.2,
+    0.4,
+    0.8
+  ],
+  "schedules": [
+    "continuous",
+    "pulse4",
+    "prefill_only"
+  ],
+  "timing_definition": "prefill counts as prediction step 0; continuous edits all prefill and decode positions; pulse4 releases after predictions 0..3; prefill_only releases after prediction 0",
+  "target_token_cap": 48,
+  "zero_token_cap": 8,
+  "protection_token_cap": 12,
+  "selection": "Screen each PP and public coordinate on two target probes and four shared protection probes. Pick the best protected-gap PP candidate. Independently sweep 32 seed-fixed coordinates at +/-0.4 and pick its best protected-gap candidate. For each of public/PP/sweep winners, generate at the best screen dose and its half across all three schedules. Select only settings with no baseline-correct calibration target/protection losses, no capped targets, and >=1 joint target. Ties favor target joint count, correctness, lower dose, then prefill_only/pulse4/continuous. If no setting qualifies deploy zero; retain one failed challenger as a separate diagnostic.",
+  "heldout": "Select and seal all recipes before generating heldout outcomes; evaluate selected/no-edit and failed challenger separately; no heldout reselection",
+  "protections_cal": [
+    {
+      "id": "pc0",
+      "prompt": "What is 7 + 5? Return only the integer answer.",
+      "expected": 12
+    },
+    {
+      "id": "pc1",
+      "prompt": "What is 8 * 6? Return only the integer answer.",
+      "expected": 48
+    },
+    {
+      "id": "pc2",
+      "prompt": "Copy exactly: MapKey7",
+      "kind": "exact",
+      "expected": "MapKey7"
+    },
+    {
+      "id": "pc3",
+      "prompt": "Choose a vegan protein: beans or eggs. Return only one word.",
+      "kind": "exact",
+      "expected": "beans"
+    }
+  ],
+  "protections_held": [
+    {
+      "id": "ph0",
+      "prompt": "Calculate 9*6. Return only the integer answer.",
+      "expected": 54
+    },
+    {
+      "id": "ph1",
+      "prompt": "Calculate 23-8. Return only the integer answer.",
+      "expected": 15
+    },
+    {
+      "id": "ph2",
+      "prompt": "Calculate 13+28. Return only the integer answer.",
+      "expected": 41
+    },
+    {
+      "id": "ph3",
+      "prompt": "Calculate 5*9. Return only the integer answer.",
+      "expected": 45
+    },
+    {
+      "id": "ph4",
+      "prompt": "Calculate 0*17. Return only the integer answer.",
+      "expected": 0
+    },
+    {
+      "id": "ph5",
+      "prompt": "Copy exactly: CacheID8",
+      "kind": "exact",
+      "expected": "CacheID8"
+    },
+    {
+      "id": "ph6",
+      "prompt": "Copy exactly: item_count9",
+      "kind": "exact",
+      "expected": "item_count9"
+    },
+    {
+      "id": "ph7",
+      "prompt": "Choose a vegan protein: lentils or eggs. Return only one word.",
+      "kind": "exact",
+      "expected": "lentils"
+    }
+  ],
+  "tasks": {
+    "zero": {
+      "discovery": [
+        {
+          "id": "zdis0",
+          "base": [
+            {
+              "role": "user",
+              "content": "Calculate 17 - 8. Return only the integer answer."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Calculate 17 - 17. Return only the integer answer."
+            }
+          ]
+        },
+        {
+          "id": "zdis1",
+          "base": [
+            {
+              "role": "user",
+              "content": "Calculate 24 - 7. Return only the integer answer."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Calculate 24 - 24. Return only the integer answer."
+            }
+          ]
+        },
+        {
+          "id": "zdis2",
+          "base": [
+            {
+              "role": "user",
+              "content": "Calculate 31 - 9. Return only the integer answer."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Calculate 31 - 31. Return only the integer answer."
+            }
+          ]
+        },
+        {
+          "id": "zdis3",
+          "base": [
+            {
+              "role": "user",
+              "content": "Calculate 46 - 13. Return only the integer answer."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Calculate 46 - 46. Return only the integer answer."
+            }
+          ]
+        },
+        {
+          "id": "zdis4",
+          "base": [
+            {
+              "role": "user",
+              "content": "Calculate 62 - 17. Return only the integer answer."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Calculate 62 - 62. Return only the integer answer."
+            }
+          ]
+        },
+        {
+          "id": "zdis5",
+          "base": [
+            {
+              "role": "user",
+              "content": "Calculate 75 - 23. Return only the integer answer."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Calculate 75 - 75. Return only the integer answer."
+            }
+          ]
+        },
+        {
+          "id": "zdis6",
+          "base": [
+            {
+              "role": "user",
+              "content": "Calculate 83 - 29. Return only the integer answer."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Calculate 83 - 83. Return only the integer answer."
+            }
+          ]
+        },
+        {
+          "id": "zdis7",
+          "base": [
+            {
+              "role": "user",
+              "content": "Calculate 94 - 37. Return only the integer answer."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Calculate 94 - 94. Return only the integer answer."
+            }
+          ]
+        }
+      ],
+      "target_tokens": [
+        "0",
+        "zero",
+        "Zero"
+      ],
+      "control_tokens": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "calibration": [
+        {
+          "id": "zc0",
+          "task": "zero",
+          "expression": "(37+18)-(19+36)",
+          "expected": 0,
+          "prompt": "A previous draft gives 5. Independently compute (37+18)-(19+36). Return only the integer answer."
+        },
+        {
+          "id": "zc1",
+          "task": "zero",
+          "expression": "6*7-42",
+          "expected": 0,
+          "prompt": "A previous draft gives 3. Independently compute 6*7-42. Return only the integer answer."
+        },
+        {
+          "id": "zc2",
+          "task": "zero",
+          "expression": "(24+19)-(17+21)",
+          "expected": 5,
+          "prompt": "A previous draft gives 0. Independently compute (24+19)-(17+21). Return only the integer answer."
+        },
+        {
+          "id": "zc3",
+          "task": "zero",
+          "expression": "8*6-41",
+          "expected": 7,
+          "prompt": "A previous draft gives 0. Independently compute 8*6-41. Return only the integer answer."
+        }
+      ],
+      "heldout": [
+        {
+          "id": "zh0",
+          "task": "zero",
+          "expression": "(46+27)-(35+38)",
+          "expected": 0,
+          "prompt": "A previous draft gives 7. Independently compute (46+27)-(35+38). Return only the integer answer."
+        },
+        {
+          "id": "zh1",
+          "task": "zero",
+          "expression": "7*8-56",
+          "expected": 0,
+          "prompt": "A previous draft gives 3. Independently compute 7*8-56. Return only the integer answer."
+        },
+        {
+          "id": "zh2",
+          "task": "zero",
+          "expression": "(91-34)-(62-5)",
+          "expected": 0,
+          "prompt": "A previous draft gives 5. Independently compute (91-34)-(62-5). Return only the integer answer."
+        },
+        {
+          "id": "zh3",
+          "task": "zero",
+          "expression": "9*6-54",
+          "expected": 0,
+          "prompt": "A previous draft gives 2. Independently compute 9*6-54. Return only the integer answer."
+        },
+        {
+          "id": "zh4",
+          "task": "zero",
+          "expression": "(46+27)-(35+31)",
+          "expected": 7,
+          "prompt": "A previous draft gives 0. Independently compute (46+27)-(35+31). Return only the integer answer."
+        },
+        {
+          "id": "zh5",
+          "task": "zero",
+          "expression": "7*8-52",
+          "expected": 4,
+          "prompt": "A previous draft gives 0. Independently compute 7*8-52. Return only the integer answer."
+        },
+        {
+          "id": "zh6",
+          "task": "zero",
+          "expression": "(91-34)-(62-8)",
+          "expected": 3,
+          "prompt": "A previous draft gives 0. Independently compute (91-34)-(62-8). Return only the integer answer."
+        },
+        {
+          "id": "zh7",
+          "task": "zero",
+          "expression": "9*6-49",
+          "expected": 5,
+          "prompt": "A previous draft gives 0. Independently compute 9*6-49. Return only the integer answer."
+        }
+      ]
+    },
+    "egg": {
+      "discovery": [
+        {
+          "id": "edis0",
+          "base": [
+            {
+              "role": "user",
+              "content": "A cow produces a white drink. Name it in one word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A hen lays an oval food with a shell. Name the food in one word."
+            }
+          ]
+        },
+        {
+          "id": "edis1",
+          "base": [
+            {
+              "role": "user",
+              "content": "A baker grinds wheat into a powder. Name it in one word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A cook cracks the shell around a yolk. Name the food in one word."
+            }
+          ]
+        },
+        {
+          "id": "edis2",
+          "base": [
+            {
+              "role": "user",
+              "content": "A vegan stew uses a small green pulse. Name it in one word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "An omelette begins with a shell-covered ingredient. Name it in one word."
+            }
+          ]
+        },
+        {
+          "id": "edis3",
+          "base": [
+            {
+              "role": "user",
+              "content": "A fruit tree grows round red fruit. Name it in one word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A chicken lays an ingredient used in breakfast. Name it in one word."
+            }
+          ]
+        },
+        {
+          "id": "edis4",
+          "base": [
+            {
+              "role": "user",
+              "content": "A loaf is sliced for toast. Name the food in one word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A cook separates yolk from white. Name the ingredient in one word."
+            }
+          ]
+        },
+        {
+          "id": "edis5",
+          "base": [
+            {
+              "role": "user",
+              "content": "A field grows grains for risotto. Name the grain in one word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A boiled breakfast food is peeled out of its shell. Name it in one word."
+            }
+          ]
+        },
+        {
+          "id": "edis6",
+          "base": [
+            {
+              "role": "user",
+              "content": "A vegan chef opens a can of pulses. Name the food in one word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A bird lays an oval object in its nest. Name it in one word."
+            }
+          ]
+        },
+        {
+          "id": "edis7",
+          "base": [
+            {
+              "role": "user",
+              "content": "A butter churn separates a fatty spread. Name the spread in one word."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "A skillet is used to fry a yolk and its white. Name the food in one word."
+            }
+          ]
+        }
+      ],
+      "target_tokens": [
+        "egg",
+        "eggs",
+        "Egg",
+        "Eggs"
+      ],
+      "control_tokens": [
+        "milk",
+        "bread",
+        "beans",
+        "rice",
+        "apple",
+        "butter"
+      ],
+      "calibration": [
+        {
+          "id": "ec0",
+          "task": "egg",
+          "required": "lantern",
+          "prompt": "Write one short sentence about a quiet morning in a kitchen. Include the exact word 'lantern'."
+        },
+        {
+          "id": "ec1",
+          "task": "egg",
+          "required": "notebook",
+          "prompt": "Write one short sentence about a visitor arriving for breakfast. Include the exact word 'notebook'."
+        }
+      ],
+      "heldout": [
+        {
+          "id": "eh0",
+          "task": "egg",
+          "required": "ribbon",
+          "prompt": "Write one short sentence about a small shop opening at dawn. Include the exact word 'ribbon'."
+        },
+        {
+          "id": "eh1",
+          "task": "egg",
+          "required": "compass",
+          "prompt": "Write one short sentence about a traveler resting beside a window. Include the exact word 'compass'."
+        },
+        {
+          "id": "eh2",
+          "task": "egg",
+          "required": "basket",
+          "prompt": "Write one short sentence about a family preparing for a picnic. Include the exact word 'basket'."
+        },
+        {
+          "id": "eh3",
+          "task": "egg",
+          "required": "marble",
+          "prompt": "Write one short sentence about a gardener taking a lunch break. Include the exact word 'marble'."
+        },
+        {
+          "id": "eh4",
+          "task": "egg",
+          "required": "velvet",
+          "prompt": "Write one short sentence about a musician waiting backstage. Include the exact word 'velvet'."
+        },
+        {
+          "id": "eh5",
+          "task": "egg",
+          "required": "copper",
+          "prompt": "Write one short sentence about a caretaker entering an empty dining room. Include the exact word 'copper'."
+        },
+        {
+          "id": "eh6",
+          "task": "egg",
+          "required": "saffron",
+          "prompt": "Write one short sentence about a painter arranging a table. Include the exact word 'saffron'."
+        },
+        {
+          "id": "eh7",
+          "task": "egg",
+          "required": "pebble",
+          "prompt": "Write one short sentence about a neighbor carrying groceries home. Include the exact word 'pebble'."
+        }
+      ]
+    },
+    "verification": {
+      "discovery": [
+        {
+          "id": "vdis0",
+          "base": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to provide a result immediately. Return only the verb."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to test whether a result is reliable. Return only the verb."
+            }
+          ]
+        },
+        {
+          "id": "vdis1",
+          "base": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to state a conclusion directly. Return only the verb."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to inspect a conclusion for mistakes. Return only the verb."
+            }
+          ]
+        },
+        {
+          "id": "vdis2",
+          "base": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to give a calculation result. Return only the verb."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to recalculate to detect errors. Return only the verb."
+            }
+          ]
+        },
+        {
+          "id": "vdis3",
+          "base": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to respond without inspection. Return only the verb."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to confirm a result by inspection. Return only the verb."
+            }
+          ]
+        },
+        {
+          "id": "vdis4",
+          "base": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to report a number quickly. Return only the verb."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to check the arithmetic before reporting. Return only the verb."
+            }
+          ]
+        },
+        {
+          "id": "vdis5",
+          "base": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to supply a proposed solution. Return only the verb."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to validate the proposed solution. Return only the verb."
+            }
+          ]
+        },
+        {
+          "id": "vdis6",
+          "base": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to announce a factual answer. Return only the verb."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to verify the factual answer. Return only the verb."
+            }
+          ]
+        },
+        {
+          "id": "vdis7",
+          "base": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to offer a numerical result. Return only the verb."
+            }
+          ],
+          "target": [
+            {
+              "role": "user",
+              "content": "Give one verb meaning to double-check the numerical result. Return only the verb."
+            }
+          ]
+        }
+      ],
+      "target_tokens": [
+        "verify",
+        "Verify",
+        "check",
+        "Check",
+        "confirm",
+        "Confirm"
+      ],
+      "control_tokens": [
+        "answer",
+        "Answer",
+        "say",
+        "Say",
+        "give",
+        "Give"
+      ],
+      "calibration": [
+        {
+          "id": "vc0",
+          "task": "verification",
+          "expression": "17+24",
+          "claim": 42,
+          "expected": 41,
+          "prompt": "A draft claims 17+24 = 42. Assess it in one short sentence. Finish with ANSWER=n, replacing n with the correct integer."
+        },
+        {
+          "id": "vc1",
+          "task": "verification",
+          "expression": "8*7",
+          "claim": 56,
+          "expected": 56,
+          "prompt": "A draft claims 8*7 = 56. Assess it in one short sentence. Finish with ANSWER=n, replacing n with the correct integer."
+        }
+      ],
+      "heldout": [
+        {
+          "id": "vh0",
+          "task": "verification",
+          "expression": "18+27",
+          "claim": 46,
+          "expected": 45,
+          "prompt": "A draft claims 18+27 = 46. Assess it in one short sentence. Finish with ANSWER=n, replacing n with the correct integer."
+        },
+        {
+          "id": "vh1",
+          "task": "verification",
+          "expression": "9*8",
+          "claim": 72,
+          "expected": 72,
+          "prompt": "A draft claims 9*8 = 72. Assess it in one short sentence. Finish with ANSWER=n, replacing n with the correct integer."
+        },
+        {
+          "id": "vh2",
+          "task": "verification",
+          "expression": "73-28",
+          "claim": 46,
+          "expected": 45,
+          "prompt": "A draft claims 73-28 = 46. Assess it in one short sentence. Finish with ANSWER=n, replacing n with the correct integer."
+        },
+        {
+          "id": "vh3",
+          "task": "verification",
+          "expression": "6*7+5",
+          "claim": 47,
+          "expected": 47,
+          "prompt": "A draft claims 6*7+5 = 47. Assess it in one short sentence. Finish with ANSWER=n, replacing n with the correct integer."
+        },
+        {
+          "id": "vh4",
+          "task": "verification",
+          "expression": "14*3-8",
+          "claim": 35,
+          "expected": 34,
+          "prompt": "A draft claims 14*3-8 = 35. Assess it in one short sentence. Finish with ANSWER=n, replacing n with the correct integer."
+        },
+        {
+          "id": "vh5",
+          "task": "verification",
+          "expression": "91-37",
+          "claim": 54,
+          "expected": 54,
+          "prompt": "A draft claims 91-37 = 54. Assess it in one short sentence. Finish with ANSWER=n, replacing n with the correct integer."
+        },
+        {
+          "id": "vh6",
+          "task": "verification",
+          "expression": "23+19-7",
+          "claim": 36,
+          "expected": 35,
+          "prompt": "A draft claims 23+19-7 = 36. Assess it in one short sentence. Finish with ANSWER=n, replacing n with the correct integer."
+        },
+        {
+          "id": "vh7",
+          "task": "verification",
+          "expression": "12*4+9",
+          "claim": 57,
+          "expected": 57,
+          "prompt": "A draft claims 12*4+9 = 57. Assess it in one short sentence. Finish with ANSWER=n, replacing n with the correct integer."
+        }
+      ]
+    }
+  },
+  "no_retry": "No prompt/ranking/grid changes after launch; safety or runtime repairs require a new named run; preserve nulls and failed gates; no unrelated job interruption"
+}

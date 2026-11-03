@@ -1,0 +1,8 @@
+{
+  "launcher_pid": 1508755,
+  "inference_pid": 1508761,
+  "remote_directory": "/home/hliu/work/zero-egg-verification-20261102-v1",
+  "runtime_python": "/tmp/magic17-env-tf5201-WzAQHOGE/venv/bin/python",
+  "status_at_recording": "running",
+  "protocol": "source/protocol.json"
+}
