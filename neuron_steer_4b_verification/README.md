@@ -1,6 +1,6 @@
 # Signed-mean PP: zero, egg and verification neurons in Qwen3.5-4B
 
-This study uses **signed-mean PP, ranked by descending signed value**. RMS is recorded only as a diagnostic comparison and never selects PP candidates. The signed-mean formulation follows the author's correction of the RMS transcription error in v1 of the PP preprint.
+This study applies [Perturbation Probing: A Two-Pass-per-Prompt Diagnostic for FFN Behavioral Circuits in Aligned LLMs](https://arxiv.org/abs/2604.27401). It uses **signed-mean PP, ranked by descending signed value**. RMS is recorded only as a diagnostic comparison and never selects PP candidates. The signed-mean formulation follows the author's correction of the RMS transcription error in v1 of the PP preprint.
 
 The completed main study used 6,761 forward calls, zero backward passes and 880.55 seconds on lp, my gaming laptop with an NVIDIA GeForce RTX 2070 Max-Q and 8 GB of GPU memory. It rediscovered the published verification neuron near the top of the ranking and found additional causal candidates. It did not establish reliable arithmetic repair or a generally useful verification control. Separate exploratory donor-patching and egg-dose refinement results are linked below when completed.
 
